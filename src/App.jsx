@@ -10,7 +10,6 @@ import {
   Handshake,
   Layers3,
   Lock,
-  RefreshCcw,
   Scale,
   Shuffle,
   Trophy,
@@ -18,10 +17,9 @@ import {
 } from 'lucide-react'
 import { cards, contentMeta, invalidCards } from './data'
 
-const PROGRESS_KEY = 'tk-lernapp-progress-v2-no-freetext'
-const DISABLED_KEY = 'tk-lernapp-disabled-topics-v2-no-freetext'
-const ROUND_KEY = 'tk-lernapp-shuffle-rounds-v1'
-const REVIEW_MS = 12 * 60 * 60 * 1000
+const PROGRESS_KEY = 'tk-lernapp-topic-progress-v1'
+const DISABLED_KEY = 'tk-lernapp-disabled-topics-v3'
+const REVIEW_MS = 6 * 60 * 60 * 1000
 
 const subjects = [
   { id: 'Finanzwirtschaft', label: 'Finanzwirtschaft', color: '#2f80ed', icon: CircleDollarSign },
@@ -34,14 +32,19 @@ const subjects = [
 ]
 
 const subjectById = Object.fromEntries(subjects.map((subject) => [subject.id, subject]))
+const topics = buildTopics(cards)
 
 const defaultProgress = {
+  stage: 1,
   correct: 0,
   wrong: 0,
+  solvedOnce: false,
   lastAnswer: null,
+  lastCardId: null,
+  lastCorrect: null,
   lastTimestamp: null,
   nextReview: null,
-  mastered: false
+  attemptsByStage: {}
 }
 
 function readStorage(key, fallback) {
@@ -61,8 +64,8 @@ function getProgress(progress, id) {
   return { ...defaultProgress, ...(progress[id] ?? {}) }
 }
 
-function isLocked(cardProgress) {
-  return Boolean(cardProgress.nextReview && cardProgress.nextReview > Date.now())
+function isLocked(topicProgress) {
+  return Boolean(topicProgress.nextReview && topicProgress.nextReview > Date.now())
 }
 
 function formatRemaining(target) {
@@ -77,11 +80,10 @@ function App() {
   const [view, setView] = useState({ name: 'home' })
   const [progress, setProgress] = useState(() => readStorage(PROGRESS_KEY, {}))
   const [disabled, setDisabled] = useState(() => readStorage(DISABLED_KEY, {}))
-  const [roundStages, setRoundStages] = useState(() => readStorage(ROUND_KEY, {}))
 
-  const activeCards = useMemo(() => cards.filter((card) => !disabled[card.id]), [disabled])
+  const activeTopics = useMemo(() => topics.filter((topic) => !disabled[topic.id]), [disabled])
   const selectedSubject = view.subjectId ? subjectById[view.subjectId] : null
-  const selectedCard = view.cardId ? cards.find((card) => card.id === view.cardId) : null
+  const selectedTopic = view.topicId ? topics.find((topic) => topic.id === view.topicId) : null
 
   function persistProgress(next) {
     setProgress(next)
@@ -93,48 +95,46 @@ function App() {
     writeStorage(DISABLED_KEY, next)
   }
 
-  function persistRoundStages(next) {
-    setRoundStages(next)
-    writeStorage(ROUND_KEY, next)
-  }
-
-  function updateCardProgress(cardId, answer, isCorrect) {
-    const current = getProgress(progress, cardId)
+  function updateTopicProgress(topic, card, answer, isCorrect) {
+    const current = getProgress(progress, topic.id)
+    const currentStage = normalizeStage(topic, current.stage)
+    const nextAttempts = {
+      ...current.attemptsByStage,
+      [currentStage]: (current.attemptsByStage?.[currentStage] ?? 0) + 1
+    }
+    const reachedFinalStage = currentStage >= topic.maxStage
+    const nextStage = isCorrect ? getNextTopicStage(topic, currentStage) : currentStage
     const nextProgress = {
       ...current,
+      stage: nextStage,
       correct: current.correct + (isCorrect ? 1 : 0),
       wrong: current.wrong + (isCorrect ? 0 : 1),
-      mastered: isCorrect ? true : current.mastered,
+      solvedOnce: current.solvedOnce || (isCorrect && reachedFinalStage),
       lastAnswer: answer,
+      lastCardId: card.id,
+      lastCorrect: isCorrect,
       lastTimestamp: Date.now(),
-      nextReview: isCorrect ? Date.now() + REVIEW_MS : null
+      nextReview: isCorrect && reachedFinalStage ? Date.now() + REVIEW_MS : null,
+      attemptsByStage: nextAttempts
     }
-    persistProgress({ ...progress, [cardId]: nextProgress })
+
+    persistProgress({ ...progress, [topic.id]: nextProgress })
   }
 
-  function toggleCard(cardId) {
-    const next = { ...disabled, [cardId]: !disabled[cardId] }
-    if (!next[cardId]) delete next[cardId]
+  function toggleTopic(topicId) {
+    const next = { ...disabled, [topicId]: !disabled[topicId] }
+    if (!next[topicId]) delete next[topicId]
     persistDisabled(next)
   }
 
-  function startShuffle(subjectId, forcedStage) {
-    const subjectCards = cardsForSubject(subjectId).filter((card) => !disabled[card.id])
-    const stage = forcedStage ?? getRoundStage(subjectId, subjectCards, roundStages)
-    const stageCards = subjectCards.filter((card) => (card.stufe ?? 1) === stage)
-    const fallbackStage = stageCards.length ? stage : getFirstStage(subjectCards)
-    const cardIds = shuffle(subjectCards.filter((card) => (card.stufe ?? 1) === fallbackStage).map((card) => card.id))
-
-    if (cardIds.length === 0) return
-    setView({ name: 'shuffle', subjectId, stage: fallbackStage, cardIds })
-  }
-
-  function startNextShuffleRound(subjectId, currentStage) {
-    const subjectCards = cardsForSubject(subjectId).filter((card) => !disabled[card.id])
-    const nextStage = getNextStage(subjectCards, currentStage)
-    const nextRoundStages = { ...roundStages, [subjectId]: nextStage }
-    persistRoundStages(nextRoundStages)
-    startShuffle(subjectId, nextStage)
+  function startShuffle(subjectId) {
+    const topicIds = shuffle(
+      topicsForSubject(subjectId)
+        .filter((topic) => !disabled[topic.id] && !isLocked(getProgress(progress, topic.id)))
+        .map((topic) => topic.id)
+    )
+    if (topicIds.length === 0) return
+    setView({ name: 'shuffle', subjectId, topicIds })
   }
 
   return (
@@ -142,7 +142,7 @@ function App() {
       <div className="mx-auto flex min-h-screen w-full max-w-md flex-col">
         {view.name === 'home' && (
           <HomeScreen
-            activeCards={activeCards}
+            activeTopics={activeTopics}
             disabled={disabled}
             progress={progress}
             onOpenSubject={(subjectId) => setView({ name: 'subject', subjectId })}
@@ -153,29 +153,27 @@ function App() {
             subject={selectedSubject}
             progress={progress}
             disabled={disabled}
-            roundStage={getRoundStage(selectedSubject.id, cardsForSubject(selectedSubject.id).filter((card) => !disabled[card.id]), roundStages)}
             onBack={() => setView({ name: 'home' })}
-            onToggle={toggleCard}
+            onToggle={toggleTopic}
             onStartShuffle={() => startShuffle(selectedSubject.id)}
-            onOpenCard={(cardId) => setView({ name: 'card', subjectId: selectedSubject.id, cardId })}
+            onOpenTopic={(topicId) => setView({ name: 'topic', subjectId: selectedSubject.id, topicId })}
           />
         )}
-        {view.name === 'card' && selectedSubject && selectedCard && (
-          <CardScreen
-            card={selectedCard}
-            progress={getProgress(progress, selectedCard.id)}
+        {view.name === 'topic' && selectedSubject && selectedTopic && (
+          <TopicScreen
+            topic={selectedTopic}
+            progress={getProgress(progress, selectedTopic.id)}
             onBack={() => setView({ name: 'subject', subjectId: selectedSubject.id })}
-            onAnswered={(answer, isCorrect) => updateCardProgress(selectedCard.id, answer, isCorrect)}
+            onAnswered={(card, answer, isCorrect) => updateTopicProgress(selectedTopic, card, answer, isCorrect)}
           />
         )}
         {view.name === 'shuffle' && selectedSubject && (
           <ShuffleScreen
             subject={selectedSubject}
-            stage={view.stage}
-            cardIds={view.cardIds}
+            topicIds={view.topicIds}
+            progress={progress}
             onBack={() => setView({ name: 'subject', subjectId: selectedSubject.id })}
-            onAnswered={(cardId, answer, isCorrect) => updateCardProgress(cardId, answer, isCorrect)}
-            onNextRound={() => startNextShuffleRound(selectedSubject.id, view.stage)}
+            onAnswered={(topic, card, answer, isCorrect) => updateTopicProgress(topic, card, answer, isCorrect)}
           />
         )}
       </div>
@@ -183,7 +181,7 @@ function App() {
   )
 }
 
-function HomeScreen({ activeCards, disabled, progress, onOpenSubject }) {
+function HomeScreen({ activeTopics, disabled, progress, onOpenSubject }) {
   return (
     <section className="flex flex-1 flex-col px-4 pb-6 pt-5">
       <header className="mb-5">
@@ -193,19 +191,19 @@ function HomeScreen({ activeCards, disabled, progress, onOpenSubject }) {
           </div>
           <div>
             <h1 className="text-2xl font-black leading-tight tracking-normal">TK-Lernapp</h1>
-            <p className="text-sm font-medium text-slate-600">Klickkarten ohne Freitext.</p>
+            <p className="text-sm font-medium text-slate-600">Themenweise von Stufe 1 bis 3.</p>
           </div>
         </div>
         <div className="rounded-lg border border-slate-200 bg-white p-3">
           <div className="flex items-center justify-between text-sm">
-            <span className="font-semibold text-slate-700">Aktive Karten</span>
-            <span className="font-black">{activeCards.length} / {cards.length}</span>
+            <span className="font-semibold text-slate-700">Aktive Themen</span>
+            <span className="font-black">{activeTopics.length} / {topics.length}</span>
           </div>
           <div className="mt-2 h-2 overflow-hidden rounded-full bg-slate-100">
-            <div className="h-full rounded-full bg-slate-950" style={{ width: `${(activeCards.length / cards.length) * 100}%` }} />
+            <div className="h-full rounded-full bg-slate-950" style={{ width: `${(activeTopics.length / topics.length) * 100}%` }} />
           </div>
           <p className="mt-2 text-xs font-semibold text-slate-500">
-            {contentMeta.anzahl_karten ?? cards.length} Referenzkarten geladen
+            {contentMeta.anzahl_karten ?? cards.length} Karten in {topics.length} Themen geladen
             {invalidCards.length ? `, ${invalidCards.length} übersprungen` : ''}
           </p>
         </div>
@@ -213,10 +211,10 @@ function HomeScreen({ activeCards, disabled, progress, onOpenSubject }) {
 
       <div className="space-y-3">
         {subjects.map((subject) => {
-          const subjectCards = cardsForSubject(subject.id).filter((card) => !disabled[card.id])
-          const mastered = subjectCards.filter((card) => getProgress(progress, card.id).mastered).length
+          const subjectTopics = topicsForSubject(subject.id).filter((topic) => !disabled[topic.id])
+          const mastered = subjectTopics.filter((topic) => getProgress(progress, topic.id).solvedOnce).length
           const Icon = subject.icon
-          const total = subjectCards.length
+          const total = subjectTopics.length
           const percent = total ? (mastered / total) * 100 : 0
 
           return (
@@ -234,7 +232,7 @@ function HomeScreen({ activeCards, disabled, progress, onOpenSubject }) {
                   <span className="block h-full rounded-full" style={{ width: `${percent}%`, background: subject.color }} />
                 </span>
                 <span className="mt-1 block text-xs font-semibold text-slate-500">
-                  {mastered} von {total} gemeistert
+                  {mastered} von {total} Themen einmal gelöst
                 </span>
               </span>
               <ChevronRight className="shrink-0 text-slate-400" size={22} />
@@ -246,10 +244,10 @@ function HomeScreen({ activeCards, disabled, progress, onOpenSubject }) {
   )
 }
 
-function SubjectScreen({ subject, progress, disabled, roundStage, onBack, onToggle, onStartShuffle, onOpenCard }) {
-  const subjectCards = cardsForSubject(subject.id)
-  const activeSubjectCards = subjectCards.filter((card) => !disabled[card.id])
-  const roundCards = activeSubjectCards.filter((card) => (card.stufe ?? 1) === roundStage)
+function SubjectScreen({ subject, progress, disabled, onBack, onToggle, onStartShuffle, onOpenTopic }) {
+  const subjectTopics = topicsForSubject(subject.id)
+  const activeSubjectTopics = subjectTopics.filter((topic) => !disabled[topic.id])
+  const availableTopics = activeSubjectTopics.filter((topic) => !isLocked(getProgress(progress, topic.id)))
   const Icon = subject.icon
 
   return (
@@ -261,32 +259,33 @@ function SubjectScreen({ subject, progress, disabled, roundStage, onBack, onTogg
         </span>
         <div>
           <h1 className="text-xl font-black leading-tight">{subject.label}</h1>
-          <p className="text-sm font-semibold text-slate-600">Karten einzeln ein- oder ausschalten</p>
+          <p className="text-sm font-semibold text-slate-600">Jedes Thema startet bei Stufe 1</p>
         </div>
       </header>
 
       <button
         className="mb-4 flex min-h-[56px] w-full items-center justify-between rounded-lg bg-slate-950 px-4 text-left text-white shadow-sm disabled:bg-slate-300"
-        disabled={roundCards.length === 0}
+        disabled={availableTopics.length === 0}
         onClick={onStartShuffle}
       >
         <span>
-          <span className="block text-base font-black">Shuffle-Runde starten</span>
-          <span className="block text-xs font-bold text-slate-300">Stufe {roundStage} · {roundCards.length} Karten gemischt</span>
+          <span className="block text-base font-black">Themenrunde starten</span>
+          <span className="block text-xs font-bold text-slate-300">{availableTopics.length} aktive Themen gemischt</span>
         </span>
         <Shuffle size={22} />
       </button>
 
       <div className="space-y-3">
-        {subjectCards.map((card) => {
-          const cardProgress = getProgress(progress, card.id)
-          const locked = isLocked(cardProgress)
-          const off = Boolean(disabled[card.id])
-          const focus = cardProgress.wrong >= 3 && cardProgress.wrong > cardProgress.correct
+        {subjectTopics.map((topic) => {
+          const topicProgress = getProgress(progress, topic.id)
+          const currentStage = normalizeStage(topic, topicProgress.stage)
+          const locked = isLocked(topicProgress)
+          const off = Boolean(disabled[topic.id])
+          const focus = topicProgress.wrong >= 3 && topicProgress.wrong > topicProgress.correct
 
           return (
             <article
-              key={card.id}
+              key={topic.id}
               className={[
                 'rounded-lg border bg-white p-3 shadow-sm',
                 focus ? 'border-amber-400 bg-amber-50' : 'border-slate-200',
@@ -294,27 +293,30 @@ function SubjectScreen({ subject, progress, disabled, roundStage, onBack, onTogg
               ].join(' ')}
             >
               <div className="flex gap-3">
-                <button className="min-h-[64px] min-w-0 flex-1 text-left" disabled={off} onClick={() => onOpenCard(card.id)}>
+                <button className="min-h-[64px] min-w-0 flex-1 text-left" disabled={off} onClick={() => onOpenTopic(topic.id)}>
                   <div className="mb-2 flex flex-wrap items-center gap-2">
-                    <StageBadge stage={card.stufe} />
-                    <TypeBadge type={card.typ} />
-                    {locked && (
+                    <StageBadge stage={currentStage} />
+                    {topicProgress.solvedOnce && (
                       <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2 py-1 text-xs font-black text-emerald-800">
-                        <Lock size={12} /> {formatRemaining(cardProgress.nextReview)}
+                        <Trophy size={12} /> Schon gelöst
+                      </span>
+                    )}
+                    {locked && (
+                      <span className="inline-flex items-center gap-1 rounded-full bg-slate-900 px-2 py-1 text-xs font-black text-white">
+                        <Lock size={12} /> {formatRemaining(topicProgress.nextReview)}
                       </span>
                     )}
                     {focus && <span className="rounded-full bg-amber-200 px-2 py-1 text-xs font-black text-amber-950">Fokus</span>}
                   </div>
-                  <h2 className="text-base font-black leading-snug">{card.titel}</h2>
-                  {card.untertitel && <p className="mt-1 text-xs font-bold text-slate-500">{card.untertitel}</p>}
+                  <h2 className="text-base font-black leading-snug">{topic.titel}</h2>
                   <p className="mt-1 text-sm font-semibold text-slate-600">
-                    {cardProgress.correct} richtig · {cardProgress.wrong} falsch
+                    {topicProgress.correct} richtig · {topicProgress.wrong} falsch · {topic.cards.length} Karten
                   </p>
                 </button>
                 <button
                   className="grid h-11 w-11 shrink-0 place-items-center rounded-lg border border-slate-200 bg-slate-50 text-slate-700"
-                  title={off ? 'Karte einschalten' : 'Karte ausschalten'}
-                  onClick={() => onToggle(card.id)}
+                  title={off ? 'Thema einschalten' : 'Thema ausschalten'}
+                  onClick={() => onToggle(topic.id)}
                 >
                   {off ? <X size={20} /> : <Check size={20} />}
                 </button>
@@ -327,100 +329,69 @@ function SubjectScreen({ subject, progress, disabled, roundStage, onBack, onTogg
   )
 }
 
-function ShuffleScreen({ subject, stage, cardIds, onBack, onAnswered, onNextRound }) {
+function ShuffleScreen({ subject, topicIds, progress, onBack, onAnswered }) {
   const [index, setIndex] = useState(0)
-  const currentCard = cards.find((card) => card.id === cardIds[index])
-  const [answer, setAnswer] = useState(() => initialAnswer(currentCard))
+  const topic = topics.find((item) => item.id === topicIds[index])
+  const topicProgress = topic ? getProgress(progress, topic.id) : defaultProgress
+  const card = topic ? pickTopicCard(topic, topicProgress) : null
+  const [answer, setAnswer] = useState(() => initialAnswer(card))
   const [result, setResult] = useState(null)
-  const isLastCard = index >= cardIds.length - 1
+  const isLastTopic = index >= topicIds.length - 1
 
-  if (!currentCard) {
+  if (!topic || !card) {
     return (
       <section className="flex flex-1 flex-col px-4 pb-6 pt-4">
         <HeaderButton onBack={onBack} />
         <div className="rounded-lg border border-slate-200 bg-white p-5 text-center shadow-lift">
           <h1 className="text-xl font-black">Runde leer</h1>
-          <p className="mt-2 text-sm font-semibold text-slate-600">In dieser Stufe gibt es keine aktiven Karten.</p>
+          <p className="mt-2 text-sm font-semibold text-slate-600">In diesem Fach gibt es keine aktiven Themen.</p>
         </div>
       </section>
     )
   }
 
   function goNext() {
-    if (isLastCard) {
-      onNextRound()
+    if (isLastTopic) {
+      onBack()
       return
     }
 
-    const nextCard = cards.find((card) => card.id === cardIds[index + 1])
+    const nextTopic = topics.find((item) => item.id === topicIds[index + 1])
+    const nextProgress = nextTopic ? getProgress(progress, nextTopic.id) : defaultProgress
+    const nextCard = nextTopic ? pickTopicCard(nextTopic, nextProgress) : null
     setIndex(index + 1)
     setAnswer(initialAnswer(nextCard))
     setResult(null)
   }
 
   return (
-    <section className="flex flex-1 flex-col px-4 pb-4 pt-4">
-      <HeaderButton onBack={onBack} />
-      <article className="flex flex-1 flex-col rounded-lg border border-slate-200 bg-white p-4 shadow-lift">
-        <div className="mb-3 flex flex-wrap items-center gap-2">
-          <span className="rounded-full bg-slate-950 px-2 py-1 text-xs font-black text-white">Shuffle</span>
-          <StageBadge stage={stage} />
-          <TypeBadge type={currentCard.typ} />
-          <span className="rounded-full bg-slate-100 px-2 py-1 text-xs font-black text-slate-700">
-            {index + 1} / {cardIds.length}
-          </span>
-        </div>
-
-        <h1 className="text-xl font-black leading-tight">{subject.label}</h1>
-        <p className="mt-2 text-sm font-black text-slate-500">{currentCard.titel}</p>
-        {currentCard.untertitel && <p className="mt-1 text-xs font-bold text-slate-500">{currentCard.untertitel}</p>}
-        <p className="mt-4 text-lg font-bold leading-snug text-slate-800">{currentCard.frage}</p>
-
-        <div className="mt-5">
-          <AnswerInput card={currentCard} value={answer} onChange={setAnswer} disabled={Boolean(result)} />
-        </div>
-
-        {result && <FeedbackPanel result={result} card={currentCard} />}
-
-        <div className="safe-bottom mt-auto pt-5">
-          {!result ? (
-            <button
-              className="min-h-[52px] w-full rounded-lg bg-slate-950 px-4 text-base font-black text-white shadow-sm disabled:bg-slate-300"
-              disabled={!hasAnswer(currentCard, answer)}
-              onClick={() => {
-                const correct = checkAnswer(currentCard, answer)
-                const storedAnswer = serializeAnswer(answer)
-                setResult({ correct, answer: storedAnswer })
-                onAnswered(currentCard.id, storedAnswer, correct)
-              }}
-            >
-              Prüfen
-            </button>
-          ) : (
-            <button
-              className="flex min-h-[52px] w-full items-center justify-center gap-2 rounded-lg bg-slate-950 px-4 text-base font-black text-white shadow-sm"
-              onClick={goNext}
-            >
-              <ChevronRight size={20} /> {isLastCard ? 'Nächste Runde' : 'Nächste Karte'}
-            </button>
-          )}
-        </div>
-      </article>
-    </section>
+    <LearningCard
+      eyebrow={`${subject.label} · ${index + 1} / ${topicIds.length}`}
+      topic={topic}
+      card={card}
+      progress={topicProgress}
+      result={result}
+      answer={answer}
+      setAnswer={setAnswer}
+      onBack={onBack}
+      onCheck={() => {
+        const correct = checkAnswer(card, answer)
+        const storedAnswer = serializeAnswer(answer)
+        setResult({ correct, answer: storedAnswer })
+        onAnswered(topic, card, storedAnswer, correct)
+      }}
+      nextLabel={isLastTopic ? 'Runde beenden' : 'Nächstes Thema'}
+      onNext={goNext}
+    />
   )
 }
 
-function CardScreen({ card, progress, onBack, onAnswered }) {
+function TopicScreen({ topic, progress, onBack, onAnswered }) {
+  const card = pickTopicCard(topic, progress)
   const [answer, setAnswer] = useState(initialAnswer(card))
   const [result, setResult] = useState(null)
-  const locked = isLocked(progress)
 
-  function resetForNext() {
-    setAnswer(initialAnswer(card))
-    setResult(null)
-  }
-
-  if (locked && !result) {
+  if (isLocked(progress) && !result) {
     return (
       <section className="flex flex-1 flex-col px-4 pb-6 pt-4">
         <HeaderButton onBack={onBack} />
@@ -428,9 +399,12 @@ function CardScreen({ card, progress, onBack, onAnswered }) {
           <div className="mx-auto mb-4 grid h-14 w-14 place-items-center rounded-lg bg-emerald-100 text-emerald-800">
             <Lock size={28} />
           </div>
-          <h1 className="text-xl font-black">Wiederholung pausiert</h1>
+          <h1 className="text-xl font-black">Thema pausiert</h1>
           <p className="mt-2 text-sm font-semibold text-slate-600">
-            Diese Karte wurde korrekt gelöst und ist noch {formatRemaining(progress.nextReview)} pausiert.
+            Dieses Thema wurde auf der höchsten Stufe korrekt gelöst und ist noch {formatRemaining(progress.nextReview)} gesperrt.
+          </p>
+          <p className="mt-3 inline-flex items-center gap-1 rounded-full bg-emerald-100 px-3 py-2 text-xs font-black text-emerald-800">
+            <Trophy size={14} /> Schon einmal richtig gelöst
           </p>
         </div>
       </section>
@@ -438,15 +412,49 @@ function CardScreen({ card, progress, onBack, onAnswered }) {
   }
 
   return (
+    <LearningCard
+      eyebrow="Thema"
+      topic={topic}
+      card={card}
+      progress={progress}
+      result={result}
+      answer={answer}
+      setAnswer={setAnswer}
+      onBack={onBack}
+      onCheck={() => {
+        const correct = checkAnswer(card, answer)
+        const storedAnswer = serializeAnswer(answer)
+        setResult({ correct, answer: storedAnswer })
+        onAnswered(card, storedAnswer, correct)
+      }}
+      nextLabel="Weiter"
+      onNext={() => {
+        setAnswer(initialAnswer(pickTopicCard(topic, getProgress(readStorage(PROGRESS_KEY, {}), topic.id))))
+        setResult(null)
+      }}
+    />
+  )
+}
+
+function LearningCard({ eyebrow, topic, card, progress, result, answer, setAnswer, onBack, onCheck, nextLabel, onNext }) {
+  const currentStage = normalizeStage(topic, progress.stage)
+
+  return (
     <section className="flex flex-1 flex-col px-4 pb-4 pt-4">
       <HeaderButton onBack={onBack} />
       <article className="flex flex-1 flex-col rounded-lg border border-slate-200 bg-white p-4 shadow-lift">
         <div className="mb-3 flex flex-wrap items-center gap-2">
-          <StageBadge stage={card.stufe} />
+          <span className="rounded-full bg-slate-950 px-2 py-1 text-xs font-black text-white">{eyebrow}</span>
+          <StageBadge stage={currentStage} />
           <TypeBadge type={card.typ} />
+          {progress.solvedOnce && (
+            <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2 py-1 text-xs font-black text-emerald-800">
+              <Trophy size={12} /> Schon gelöst
+            </span>
+          )}
         </div>
 
-        <h1 className="text-xl font-black leading-tight">{card.titel}</h1>
+        <h1 className="text-xl font-black leading-tight">{topic.titel}</h1>
         {card.untertitel && <p className="mt-2 text-sm font-bold text-slate-500">{card.untertitel}</p>}
         <p className="mt-4 text-lg font-bold leading-snug text-slate-800">{card.frage}</p>
 
@@ -454,28 +462,23 @@ function CardScreen({ card, progress, onBack, onAnswered }) {
           <AnswerInput card={card} value={answer} onChange={setAnswer} disabled={Boolean(result)} />
         </div>
 
-        {result && <FeedbackPanel result={result} card={card} />}
+        {result && <FeedbackPanel result={result} card={card} finalStage={currentStage >= topic.maxStage} />}
 
         <div className="safe-bottom mt-auto pt-5">
           {!result ? (
             <button
               className="min-h-[52px] w-full rounded-lg bg-slate-950 px-4 text-base font-black text-white shadow-sm disabled:bg-slate-300"
               disabled={!hasAnswer(card, answer)}
-              onClick={() => {
-                const correct = checkAnswer(card, answer)
-                const storedAnswer = serializeAnswer(answer)
-                setResult({ correct, answer: storedAnswer })
-                onAnswered(storedAnswer, correct)
-              }}
+              onClick={onCheck}
             >
               Prüfen
             </button>
           ) : (
             <button
               className="flex min-h-[52px] w-full items-center justify-center gap-2 rounded-lg bg-slate-950 px-4 text-base font-black text-white shadow-sm"
-              onClick={resetForNext}
+              onClick={onNext}
             >
-              <RefreshCcw size={20} /> Weiter
+              <ChevronRight size={20} /> {nextLabel}
             </button>
           )}
         </div>
@@ -645,7 +648,7 @@ function MatchInput({ data, value, onChange, disabled }) {
   )
 }
 
-function FeedbackPanel({ result, card }) {
+function FeedbackPanel({ result, card, finalStage }) {
   return (
     <section className={[
       'mt-5 rounded-lg border p-3',
@@ -662,14 +665,19 @@ function FeedbackPanel({ result, card }) {
         </span>
         <h2 className="font-black">{result.correct ? 'Richtig beantwortet' : 'Falsch beantwortet'}</h2>
       </div>
-      {result.correct && (
+      {result.correct && finalStage && (
         <p className="mb-3 flex items-center gap-2 rounded-lg bg-white p-2 text-sm font-black text-emerald-800">
-          <Trophy size={17} /> Korrekt gelöst: Wiederholung pausiert 12 Stunden.
+          <Trophy size={17} /> Höchste Stufe korrekt gelöst: Thema pausiert 6 Stunden.
+        </p>
+      )}
+      {result.correct && !finalStage && (
+        <p className="mb-3 rounded-lg bg-white p-2 text-sm font-black text-emerald-800">
+          Richtig. Dieses Thema ist jetzt für die nächste Stufe freigeschaltet.
         </p>
       )}
       {!result.correct && (
         <p className="mb-3 rounded-lg bg-white p-2 text-sm font-black text-rose-800">
-          Schau dir die Erklärung und die korrekte Lösung an. Danach geht es mit der nächsten Karte weiter.
+          Die Stufe bleibt gleich. Schau dir Erklärung und korrekte Lösung an.
         </p>
       )}
       <p className="text-sm font-semibold leading-relaxed text-slate-800">{card.erklaerung}</p>
@@ -723,11 +731,61 @@ function SolutionBox({ items }) {
   )
 }
 
-function cardsForSubject(subjectId) {
-  return cards.filter((card) => card.fach === subjectId || (card.fach === 'IFS' && card.bezugsfach === subjectId))
+function buildTopics(sourceCards) {
+  const grouped = new Map()
+  sourceCards.forEach((card) => {
+    const id = card.quelle_id || card.id
+    if (!grouped.has(id)) {
+      grouped.set(id, {
+        id,
+        fach: card.fach,
+        titel: card.titel,
+        cards: [],
+        stages: []
+      })
+    }
+    grouped.get(id).cards.push(card)
+  })
+
+  return [...grouped.values()]
+    .map((topic) => {
+      const sortedCards = topic.cards.sort((a, b) => (a.stufe ?? 1) - (b.stufe ?? 1) || a.id.localeCompare(b.id))
+      const stages = [...new Set(sortedCards.map((card) => card.stufe ?? 1))].sort((a, b) => a - b)
+      return {
+        ...topic,
+        titel: sortedCards[0]?.titel ?? topic.titel,
+        cards: sortedCards,
+        stages,
+        minStage: stages[0] ?? 1,
+        maxStage: stages.at(-1) ?? 1
+      }
+    })
+    .sort((a, b) => a.titel.localeCompare(b.titel, 'de-CH'))
+}
+
+function topicsForSubject(subjectId) {
+  return topics.filter((topic) => topic.fach === subjectId)
+}
+
+function normalizeStage(topic, stage) {
+  if (topic.stages.includes(stage)) return stage
+  return topic.minStage
+}
+
+function getNextTopicStage(topic, currentStage) {
+  const nextStage = topic.stages.find((stage) => stage > currentStage)
+  return nextStage ?? currentStage
+}
+
+function pickTopicCard(topic, topicProgress) {
+  const stage = normalizeStage(topic, topicProgress.stage)
+  const stageCards = topic.cards.filter((card) => (card.stufe ?? 1) === stage)
+  const attempts = topicProgress.attemptsByStage?.[stage] ?? 0
+  return stageCards[attempts % stageCards.length] ?? topic.cards[0]
 }
 
 function initialAnswer(card) {
+  if (!card) return null
   if (card.typ === 'multiple_choice' || card.typ === 'reihenfolge') return []
   if (card.typ === 'formel_luecke_mc' || card.typ === 'zuordnung') return {}
   return null
@@ -768,26 +826,6 @@ function serializeAnswer(answer) {
   } catch {
     return null
   }
-}
-
-function getStages(subjectCards) {
-  return [...new Set(subjectCards.map((card) => card.stufe ?? 1))].sort((a, b) => a - b)
-}
-
-function getFirstStage(subjectCards) {
-  return getStages(subjectCards)[0] ?? 1
-}
-
-function getRoundStage(subjectId, subjectCards, roundStages) {
-  const stages = getStages(subjectCards)
-  if (stages.includes(roundStages[subjectId])) return roundStages[subjectId]
-  return stages[0] ?? 1
-}
-
-function getNextStage(subjectCards, currentStage) {
-  const stages = getStages(subjectCards)
-  const nextStage = stages.find((stage) => stage > currentStage)
-  return nextStage ?? stages[0] ?? 1
 }
 
 function shuffle(items) {
