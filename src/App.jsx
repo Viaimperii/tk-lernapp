@@ -28,9 +28,9 @@ const subjects = [
   { id: 'SCM', label: 'SCM', color: '#0f9f6e', icon: Factory },
   { id: 'Personalmanagement', label: 'Personal', color: '#d97706', icon: Handshake },
   { id: 'Marketing_Verkauf', label: 'Marketing & Verkauf', color: '#e11d48', icon: Layers3 },
-  { id: 'Unternehmensfuehrung', label: 'Unternehmensfuehrung', color: '#7c3aed', icon: ClipboardList },
+  { id: 'Unternehmensfuehrung', label: 'Unternehmensführung', color: '#7c3aed', icon: ClipboardList },
   { id: 'Recht_VWL', label: 'Recht & VWL', color: '#0891b2', icon: Scale },
-  { id: 'Problemloesung_Entscheidung', label: 'Problemloesung', color: '#4f46e5', icon: Shuffle }
+  { id: 'Problemloesung_Entscheidung', label: 'Problemlösung', color: '#4f46e5', icon: Shuffle }
 ]
 
 const subjectById = Object.fromEntries(subjects.map((subject) => [subject.id, subject]))
@@ -206,7 +206,7 @@ function HomeScreen({ activeCards, disabled, progress, onOpenSubject }) {
           </div>
           <p className="mt-2 text-xs font-semibold text-slate-500">
             {contentMeta.anzahl_karten ?? cards.length} Referenzkarten geladen
-            {invalidCards.length ? `, ${invalidCards.length} uebersprungen` : ''}
+            {invalidCards.length ? `, ${invalidCards.length} übersprungen` : ''}
           </p>
         </div>
       </header>
@@ -306,6 +306,7 @@ function SubjectScreen({ subject, progress, disabled, roundStage, onBack, onTogg
                     {focus && <span className="rounded-full bg-amber-200 px-2 py-1 text-xs font-black text-amber-950">Fokus</span>}
                   </div>
                   <h2 className="text-base font-black leading-snug">{card.titel}</h2>
+                  {card.untertitel && <p className="mt-1 text-xs font-bold text-slate-500">{card.untertitel}</p>}
                   <p className="mt-1 text-sm font-semibold text-slate-600">
                     {cardProgress.correct} richtig · {cardProgress.wrong} falsch
                   </p>
@@ -372,6 +373,7 @@ function ShuffleScreen({ subject, stage, cardIds, onBack, onAnswered, onNextRoun
 
         <h1 className="text-xl font-black leading-tight">{subject.label}</h1>
         <p className="mt-2 text-sm font-black text-slate-500">{currentCard.titel}</p>
+        {currentCard.untertitel && <p className="mt-1 text-xs font-bold text-slate-500">{currentCard.untertitel}</p>}
         <p className="mt-4 text-lg font-bold leading-snug text-slate-800">{currentCard.frage}</p>
 
         <div className="mt-5">
@@ -392,14 +394,14 @@ function ShuffleScreen({ subject, stage, cardIds, onBack, onAnswered, onNextRoun
                 onAnswered(currentCard.id, storedAnswer, correct)
               }}
             >
-              Pruefen
+              Prüfen
             </button>
           ) : (
             <button
               className="flex min-h-[52px] w-full items-center justify-center gap-2 rounded-lg bg-slate-950 px-4 text-base font-black text-white shadow-sm"
               onClick={goNext}
             >
-              <ChevronRight size={20} /> {isLastCard ? 'Naechste Runde' : 'Naechste Karte'}
+              <ChevronRight size={20} /> {isLastCard ? 'Nächste Runde' : 'Nächste Karte'}
             </button>
           )}
         </div>
@@ -428,7 +430,7 @@ function CardScreen({ card, progress, onBack, onAnswered }) {
           </div>
           <h1 className="text-xl font-black">Wiederholung pausiert</h1>
           <p className="mt-2 text-sm font-semibold text-slate-600">
-            Diese Karte wurde korrekt geloest und ist noch {formatRemaining(progress.nextReview)} pausiert.
+            Diese Karte wurde korrekt gelöst und ist noch {formatRemaining(progress.nextReview)} pausiert.
           </p>
         </div>
       </section>
@@ -445,6 +447,7 @@ function CardScreen({ card, progress, onBack, onAnswered }) {
         </div>
 
         <h1 className="text-xl font-black leading-tight">{card.titel}</h1>
+        {card.untertitel && <p className="mt-2 text-sm font-bold text-slate-500">{card.untertitel}</p>}
         <p className="mt-4 text-lg font-bold leading-snug text-slate-800">{card.frage}</p>
 
         <div className="mt-5">
@@ -465,7 +468,7 @@ function CardScreen({ card, progress, onBack, onAnswered }) {
                 onAnswered(storedAnswer, correct)
               }}
             >
-              Pruefen
+              Prüfen
             </button>
           ) : (
             <button
@@ -555,7 +558,7 @@ function FormulaMcInput({ data, value, onChange, disabled }) {
     <div className="space-y-3">
       {data.luecken_mc.map((gap, gapIndex) => (
         <section key={`${gap.position}-${gapIndex}`} className="rounded-lg border border-slate-200 bg-slate-50 p-3">
-          <h2 className="mb-2 text-sm font-black">Luecke {gap.position}</h2>
+          <h2 className="mb-2 text-sm font-black">Lücke {gap.position}</h2>
           <div className="grid gap-2">
             {gap.optionen.map((option, optionIndex) => {
               const isSelected = value[gapIndex] === optionIndex
@@ -587,7 +590,7 @@ function OrderInput({ data, value, onChange, disabled }) {
   return (
     <div className="space-y-4">
       <section className="rounded-lg border border-slate-200 bg-slate-50 p-3">
-        <h2 className="mb-2 text-sm font-black">Gewaehlte Reihenfolge</h2>
+        <h2 className="mb-2 text-sm font-black">Gewählte Reihenfolge</h2>
         <div className="space-y-2">
           {selected.length === 0 && <p className="text-sm font-semibold text-slate-500">Tippe die Elemente unten in der richtigen Reihenfolge an.</p>}
           {selected.map((itemIndex, position) => (
@@ -657,21 +660,66 @@ function FeedbackPanel({ result, card }) {
         >
           {result.correct ? <Check size={18} /> : <X size={18} />}
         </span>
-        <h2 className="font-black">{result.correct ? 'Richtig' : 'Nochmals ueben'}</h2>
+        <h2 className="font-black">{result.correct ? 'Richtig beantwortet' : 'Falsch beantwortet'}</h2>
       </div>
       {result.correct && (
         <p className="mb-3 flex items-center gap-2 rounded-lg bg-white p-2 text-sm font-black text-emerald-800">
-          <Trophy size={17} /> Korrekt geloest: Wiederholung pausiert 12 Stunden.
+          <Trophy size={17} /> Korrekt gelöst: Wiederholung pausiert 12 Stunden.
+        </p>
+      )}
+      {!result.correct && (
+        <p className="mb-3 rounded-lg bg-white p-2 text-sm font-black text-rose-800">
+          Schau dir die Erklärung und die korrekte Lösung an. Danach geht es mit der nächsten Karte weiter.
         </p>
       )}
       <p className="text-sm font-semibold leading-relaxed text-slate-800">{card.erklaerung}</p>
+      <CorrectAnswerPanel card={card} />
       {card.typ === 'formel_luecke_mc' && card.antwort_daten.formel && (
         <div className="mt-3 rounded-lg bg-white p-3">
-          <h3 className="text-sm font-black">Vollstaendige Formel</h3>
+          <h3 className="text-sm font-black">Vollständige Formel</h3>
           <p className="mt-1 text-base font-black text-slate-800">{card.antwort_daten.formel}</p>
         </div>
       )}
     </section>
+  )
+}
+
+function CorrectAnswerPanel({ card }) {
+  const data = card.antwort_daten
+
+  if (card.typ === 'single_choice') {
+    return <SolutionBox items={[data.optionen[data.richtig_index]]} />
+  }
+
+  if (card.typ === 'multiple_choice') {
+    return <SolutionBox items={data.richtige_indices.map((index) => data.optionen[index])} />
+  }
+
+  if (card.typ === 'formel_luecke_mc') {
+    return <SolutionBox items={data.luecken_mc.map((gap) => `Lücke ${gap.position}: ${gap.richtig ?? gap.optionen[gap.richtig_index]}`)} />
+  }
+
+  if (card.typ === 'reihenfolge') {
+    return <SolutionBox items={data.richtige_reihenfolge.map((index, position) => `${position + 1}. ${data.items[index]}`)} />
+  }
+
+  if (card.typ === 'zuordnung') {
+    return <SolutionBox items={data.richtige_paare.map(([left, right]) => `${data.links[left]} → ${data.rechts[right]}`)} />
+  }
+
+  return null
+}
+
+function SolutionBox({ items }) {
+  return (
+    <div className="mt-3 rounded-lg bg-white p-3">
+      <h3 className="text-sm font-black">Korrekte Lösung</h3>
+      <ul className="mt-2 space-y-1">
+        {items.map((item) => (
+          <li key={item} className="text-sm font-bold text-slate-700">- {item}</li>
+        ))}
+      </ul>
+    </div>
   )
 }
 
