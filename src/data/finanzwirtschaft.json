@@ -1,0 +1,135 @@
+[
+  {
+    "id": "roi-berechnung",
+    "fach": "Finanzwirtschaft",
+    "titel": "ROI berechnen",
+    "aufgaben": {
+      "stufe_1": {
+        "typ": "freitext_zahl",
+        "frage": "Ein Unternehmen erzielt einen Gewinn von CHF 20'000 bei einem investierten Kapital von CHF 200'000. Wie hoch ist der ROI in Prozent?",
+        "antwort_daten": { "richtiger_wert": 10, "einheit": "%", "toleranz": 0.1 },
+        "loesungsweg": "ROI = Gewinn / investiertes Kapital x 100 = 20'000 / 200'000 x 100 = 10%."
+      },
+      "stufe_2": {
+        "typ": "formel_luecke",
+        "frage": "Vervollständige die ROI-Formel.",
+        "antwort_daten": {
+          "formel_text": "ROI = ___ / ___ × 100",
+          "luecken": ["Gewinn", "Investiertes Kapital"]
+        },
+        "loesungsweg": "ROI = Gewinn / Investiertes Kapital × 100 — so lässt sich die Rentabilität des eingesetzten Kapitals berechnen."
+      },
+      "stufe_3": {
+        "typ": "freitext_zahl",
+        "frage": "Ein Projekt kostet CHF 480'000. Der Umsatz beträgt CHF 600'000, die Kosten CHF 528'000. Wie hoch ist der ROI in Prozent?",
+        "antwort_daten": { "richtiger_wert": 15, "einheit": "%", "toleranz": 0.1 },
+        "loesungsweg": "Gewinn = Umsatz - Kosten = 600'000 - 528'000 = 72'000. ROI = 72'000 / 480'000 x 100 = 15%."
+      }
+    },
+    "infokarte": {
+      "kernaussage": "Der ROI (Return on Investment) misst die Rentabilität eines eingesetzten Kapitals unabhängig von der Kapitalstruktur.",
+      "faustregeln": [
+        "ROI = Gewinn / investiertes Kapital x 100",
+        "Je höher der ROI, desto rentabler die Investition",
+        "ROI eignet sich zum Vergleich unterschiedlich grosser Investitionen"
+      ],
+      "haeufige_fehler": [
+        "Umsatz statt Gewinn in die Formel einsetzen",
+        "Vergessen, mit 100 zu multiplizieren für die Prozentangabe",
+        "Investiertes Kapital und Umsatz verwechseln"
+      ]
+    }
+  },
+  {
+    "id": "deckungsbeitrag-1",
+    "fach": "Finanzwirtschaft",
+    "titel": "Deckungsbeitrag I berechnen",
+    "aufgaben": {
+      "stufe_1": {
+        "typ": "freitext_zahl",
+        "frage": "Ein Produkt wird für CHF 50 verkauft. Die variablen Kosten pro Stück betragen CHF 30. Wie hoch ist der Deckungsbeitrag I pro Stück in CHF?",
+        "antwort_daten": { "richtiger_wert": 20, "einheit": "CHF", "toleranz": 0.5 },
+        "loesungsweg": "Deckungsbeitrag I = Verkaufspreis - variable Kosten = 50 - 30 = CHF 20 pro Stück."
+      },
+      "stufe_2": {
+        "typ": "single_choice",
+        "frage": "Welche Aussage zum Deckungsbeitrag I (DB I) ist richtig?",
+        "antwort_daten": {
+          "optionen": [
+            "DB I = Verkaufspreis − variable Kosten pro Stück",
+            "DB I = Verkaufspreis − Fixkosten pro Stück",
+            "DB I = Umsatz − Gewinn",
+            "DB I = Fixkosten − variable Kosten"
+          ],
+          "richtig_index": 0
+        },
+        "loesungsweg": "Der Deckungsbeitrag I ergibt sich aus Verkaufspreis minus variable Kosten pro Stück — die Fixkosten spielen dabei noch keine Rolle."
+      },
+      "stufe_3": {
+        "typ": "freitext_zahl",
+        "frage": "Ein Artikel hat einen Verkaufspreis von CHF 120 und einen Deckungsbeitrag I von CHF 45 pro Stück. Wie hoch sind die variablen Kosten pro Stück in CHF?",
+        "antwort_daten": { "richtiger_wert": 75, "einheit": "CHF", "toleranz": 0.5 },
+        "loesungsweg": "Variable Kosten = Verkaufspreis - DB I = 120 - 45 = CHF 75 pro Stück."
+      }
+    },
+    "infokarte": {
+      "kernaussage": "Der Deckungsbeitrag I zeigt, was von jedem verkauften Stück zur Deckung der Fixkosten und zum Gewinn übrig bleibt, nachdem die variablen Kosten abgezogen wurden.",
+      "faustregeln": [
+        "DB I = Verkaufspreis - variable Kosten (pro Stück oder total)",
+        "DB I muss die Fixkosten decken, damit ein Betrieb gewinnbringend arbeitet",
+        "Ist der DB I negativ, verliert der Betrieb mit jedem verkauften Stück Geld"
+      ],
+      "haeufige_fehler": [
+        "Fixkosten fälschlicherweise von den variablen Kosten abziehen",
+        "Stückzahlen und Totalwerte vermischen",
+        "Deckungsbeitrag mit Gewinn gleichsetzen"
+      ]
+    }
+  },
+  {
+    "id": "break-even-point",
+    "fach": "Finanzwirtschaft",
+    "titel": "Break-Even-Point berechnen",
+    "aufgaben": {
+      "stufe_1": {
+        "typ": "freitext_zahl",
+        "frage": "Die Fixkosten eines Betriebs betragen CHF 40'000. Der Deckungsbeitrag pro Stück beträgt CHF 20. Wie viele Stück müssen verkauft werden, um den Break-Even-Point zu erreichen?",
+        "antwort_daten": { "richtiger_wert": 2000, "einheit": "Stück", "toleranz": 1 },
+        "loesungsweg": "Break-Even-Menge = Fixkosten / DB pro Stück = 40'000 / 20 = 2'000 Stück."
+      },
+      "stufe_2": {
+        "typ": "freitext_zahl",
+        "frage": "Fixkosten: CHF 90'000, Verkaufspreis pro Stück: CHF 60, variable Kosten pro Stück: CHF 30. Wie viele Stück müssen mindestens verkauft werden (Break-Even)?",
+        "antwort_daten": { "richtiger_wert": 3000, "einheit": "Stück", "toleranz": 1 },
+        "loesungsweg": "DB pro Stück = 60 - 30 = 30. Break-Even-Menge = 90'000 / 30 = 3'000 Stück."
+      },
+      "stufe_3": {
+        "typ": "multiple_choice",
+        "frage": "Welche Aussagen zum Break-Even-Point treffen zu? (Mehrfachauswahl)",
+        "antwort_daten": {
+          "optionen": [
+            "Am Break-Even-Point ist der Gewinn genau null",
+            "Ab dem Break-Even-Point trägt jedes weitere Stück zum Gewinn bei",
+            "Der Break-Even-Point sinkt, wenn die Fixkosten steigen",
+            "Der Break-Even-Point ist unabhängig vom Deckungsbeitrag pro Stück"
+          ],
+          "richtig_indices": [0, 1]
+        },
+        "loesungsweg": "Am Break-Even-Point sind Erlöse und Kosten gleich hoch (Gewinn = 0), und jedes weitere verkaufte Stück trägt zum Gewinn bei. Steigende Fixkosten erhöhen die nötige Break-Even-Menge statt sie zu senken, und der Break-Even hängt direkt vom Deckungsbeitrag pro Stück ab."
+      }
+    },
+    "infokarte": {
+      "kernaussage": "Der Break-Even-Point gibt an, ab welcher Verkaufsmenge oder welchem Umsatz ein Betrieb weder Gewinn noch Verlust erwirtschaftet.",
+      "faustregeln": [
+        "Break-Even-Menge = Fixkosten / DB pro Stück",
+        "Ab dem Break-Even-Point trägt jedes weitere Stück zum Gewinn bei",
+        "Sinkt der DB pro Stück, steigt die nötige Break-Even-Menge"
+      ],
+      "haeufige_fehler": [
+        "Gesamtkosten statt Fixkosten in die Formel einsetzen",
+        "DB pro Stück falsch berechnen (Verkaufspreis und variable Kosten vertauschen)",
+        "Break-Even-Menge mit Break-Even-Umsatz verwechseln"
+      ]
+    }
+  }
+]
