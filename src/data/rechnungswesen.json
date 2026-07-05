@@ -5,18 +5,21 @@
     "titel": "Lineare Abschreibung berechnen",
     "aufgaben": {
       "stufe_1": {
+        "typ": "freitext_zahl",
         "frage": "Eine Maschine kostet CHF 50'000 und wird über 5 Jahre linear auf CHF 0 abgeschrieben. Wie hoch ist die jährliche Abschreibung in CHF?",
-        "loesung": "10000",
+        "antwort_daten": { "richtiger_wert": 10000, "einheit": "CHF", "toleranz": 1 },
         "loesungsweg": "Jährliche Abschreibung = Anschaffungswert / Nutzungsdauer = 50'000 / 5 = CHF 10'000."
       },
       "stufe_2": {
+        "typ": "freitext_zahl",
         "frage": "Ein Fahrzeug kostet CHF 42'000 und hat nach 6 Jahren einen Restwert von CHF 6'000. Wie hoch ist die jährliche lineare Abschreibung in CHF?",
-        "loesung": "6000",
+        "antwort_daten": { "richtiger_wert": 6000, "einheit": "CHF", "toleranz": 1 },
         "loesungsweg": "Abschreibungsbasis = Anschaffungswert - Restwert = 42'000 - 6'000 = 36'000. Jährliche Abschreibung = 36'000 / 6 = CHF 6'000."
       },
       "stufe_3": {
+        "typ": "freitext_zahl",
         "frage": "Eine Anlage im Wert von CHF 120'000 wird linear über 8 Jahre abgeschrieben, Restwert CHF 0. Wie hoch ist der Buchwert nach 3 Jahren in CHF?",
-        "loesung": "75000",
+        "antwort_daten": { "richtiger_wert": 75000, "einheit": "CHF", "toleranz": 1 },
         "loesungsweg": "Jährliche Abschreibung = 120'000 / 8 = 15'000. Nach 3 Jahren: 3 x 15'000 = 45'000 abgeschrieben. Buchwert = 120'000 - 45'000 = CHF 75'000."
       }
     },
@@ -40,19 +43,38 @@
     "titel": "Aktiven und Passiven zuordnen",
     "aufgaben": {
       "stufe_1": {
-        "frage": "Zu welcher Bilanzseite gehört die Position 'Bankguthaben'? Antworte mit Aktiven oder Passiven.",
-        "loesung": "Aktiven",
-        "loesungsweg": "Bankguthaben ist flüssiges Mittel und damit Teil des Umlaufvermögens auf der Aktivseite."
+        "typ": "single_choice",
+        "frage": "Zu welcher Bilanzseite gehört die Position 'Bankguthaben'?",
+        "antwort_daten": {
+          "optionen": ["Aktiven", "Passiven"],
+          "richtig_index": 0
+        },
+        "loesungsweg": "Bankguthaben ist ein flüssiges Mittel und damit Teil des Umlaufvermögens auf der Aktivseite."
       },
       "stufe_2": {
-        "frage": "Zu welcher Bilanzseite gehört ein 'Bankdarlehen' (langfristiges Fremdkapital)? Antworte mit Aktiven oder Passiven.",
-        "loesung": "Passiven",
-        "loesungsweg": "Ein Bankdarlehen ist Fremdkapital und gehört als Verbindlichkeit zu den Passiven."
+        "typ": "zuordnung",
+        "frage": "Ordne die Bilanzpositionen der richtigen Seite zu.",
+        "antwort_daten": {
+          "linke_spalte": ["Bankguthaben", "Bankdarlehen", "Kasse", "Hypothek"],
+          "rechte_spalte": ["Aktiven", "Passiven"],
+          "richtige_paare": [[0, 0], [1, 1], [2, 0], [3, 1]]
+        },
+        "loesungsweg": "Bankguthaben und Kasse sind flüssige Mittel (Aktiven). Bankdarlehen und Hypothek sind Fremdkapital (Passiven)."
       },
       "stufe_3": {
-        "frage": "Die Bilanzsumme beträgt CHF 300'000. Das Eigenkapital beträgt CHF 120'000. Wie hoch ist das Fremdkapital in CHF?",
-        "loesung": "180000",
-        "loesungsweg": "Bilanzsumme = Eigenkapital + Fremdkapital, also Fremdkapital = 300'000 - 120'000 = CHF 180'000."
+        "typ": "reihenfolge",
+        "frage": "Bringe die Schritte des Rechnungsabschlusses in die richtige Reihenfolge.",
+        "antwort_daten": {
+          "elemente": [
+            "Inventur durchführen",
+            "Abschreibungen buchen",
+            "Erfolgsrechnung erstellen",
+            "Bilanz erstellen",
+            "Jahresabschluss genehmigen"
+          ],
+          "richtige_reihenfolge": [0, 1, 2, 3, 4]
+        },
+        "loesungsweg": "Zuerst wird der Bestand per Inventur erfasst, danach werden Abschreibungen gebucht. Erst dann lassen sich Erfolgsrechnung und Bilanz erstellen, bevor der Jahresabschluss zur Genehmigung vorgelegt wird."
       }
     },
     "infokarte": {

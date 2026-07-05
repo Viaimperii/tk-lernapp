@@ -2,7 +2,17 @@ import { useState } from 'react'
 import { Link, Navigate, useNavigate, useParams } from 'react-router-dom'
 import { getFach, getKarte } from '../data/index.js'
 import { getProgress, saveProgress } from '../lib/progress.js'
-import { applyAnswer, checkAnswer, getAufgabe, isFocusVersion, isNumericLoesung } from '../lib/cardEngine.js'
+import {
+  applyAnswer,
+  formatNutzerAntwort,
+  formatRichtigeAntwort,
+  getAufgabe,
+  initialAntwort,
+  isFocusVersion,
+  istAntwortVollstaendig,
+  pruefeAntwort,
+} from '../lib/cardEngine.js'
+import { WidgetMap } from './widgets/index.js'
 
 export default function KartenView() {
   const { fachId, karteId } = useParams()
@@ -12,19 +22,24 @@ export default function KartenView() {
 
   const [progress] = useState(() => (karte ? getProgress(karte.id) : null))
   const [phase, setPhase] = useState('frage') // 'frage' | 'ergebnis' | 'infokarte'
-  const [input, setInput] = useState('')
+  const [antwort, setAntwort] = useState(() => {
+    if (!karte || !progress) return null
+    const erste = getAufgabe(karte, progress.stufe)
+    return initialAntwort(erste.typ, erste.antwort_daten)
+  })
   const [isCorrect, setIsCorrect] = useState(null)
 
   if (!fach || !karte || !progress) return <Navigate to="/" replace />
 
   const focus = isFocusVersion(progress)
   const aufgabe = getAufgabe(karte, progress.stufe)
-  const canSubmit = input.trim().length > 0
+  const AntwortWidget = WidgetMap[aufgabe.typ]
+  const canSubmit = istAntwortVollstaendig(aufgabe.typ, aufgabe.antwort_daten, antwort)
 
   function handleSubmit(e) {
     e.preventDefault()
     if (!canSubmit) return
-    const correct = checkAnswer(input, aufgabe.loesung)
+    const correct = pruefeAntwort(aufgabe.typ, aufgabe.antwort_daten, antwort)
     const next = applyAnswer(progress, correct)
     saveProgress(karte.id, next)
     setIsCorrect(correct)
@@ -72,15 +87,7 @@ export default function KartenView() {
         {phase === 'frage' && (
           <form id="antwort-form" onSubmit={handleSubmit} className={`rounded-2xl border p-5 shadow-sm ${theme.card}`}>
             <p className="text-lg leading-relaxed text-slate-900">{aufgabe.frage}</p>
-            <input
-              autoFocus
-              type="text"
-              inputMode={isNumericLoesung(aufgabe.loesung) ? 'decimal' : 'text'}
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
-              placeholder="Deine Antwort"
-              className="mt-5 w-full rounded-xl border border-slate-300 px-4 py-3.5 text-base text-slate-900 focus:border-indigo-500 focus:outline-none"
-            />
+            <AntwortWidget antwortDaten={aufgabe.antwort_daten} value={antwort} onChange={setAntwort} theme={theme} />
           </form>
         )}
 
@@ -93,7 +100,8 @@ export default function KartenView() {
             >
               <p className="text-lg font-bold">{isCorrect ? 'Richtig!' : 'Leider falsch.'}</p>
               <p className="mt-1 text-sm opacity-90">
-                Deine Antwort: {input} · Lösung: {aufgabe.loesung}
+                Deine Antwort: {formatNutzerAntwort(aufgabe.typ, aufgabe.antwort_daten, antwort)} · Lösung:{' '}
+                {formatRichtigeAntwort(aufgabe.typ, aufgabe.antwort_daten)}
               </p>
             </div>
             <div className={`rounded-2xl border p-5 shadow-sm ${theme.card}`}>

@@ -5,18 +5,24 @@
     "titel": "ROI berechnen",
     "aufgaben": {
       "stufe_1": {
+        "typ": "freitext_zahl",
         "frage": "Ein Unternehmen erzielt einen Gewinn von CHF 20'000 bei einem investierten Kapital von CHF 200'000. Wie hoch ist der ROI in Prozent?",
-        "loesung": "10",
+        "antwort_daten": { "richtiger_wert": 10, "einheit": "%", "toleranz": 0.1 },
         "loesungsweg": "ROI = Gewinn / investiertes Kapital x 100 = 20'000 / 200'000 x 100 = 10%."
       },
       "stufe_2": {
-        "frage": "Eine Maschine kostet CHF 150'000 und erwirtschaftet einen Jahresgewinn von CHF 18'000. Berechne den ROI in Prozent (auf 1 Dezimalstelle).",
-        "loesung": "12",
-        "loesungsweg": "ROI = 18'000 / 150'000 x 100 = 12.0%."
+        "typ": "formel_luecke",
+        "frage": "Vervollständige die ROI-Formel.",
+        "antwort_daten": {
+          "formel_text": "ROI = ___ / ___ × 100",
+          "luecken": ["Gewinn", "Investiertes Kapital"]
+        },
+        "loesungsweg": "ROI = Gewinn / Investiertes Kapital × 100 — so lässt sich die Rentabilität des eingesetzten Kapitals berechnen."
       },
       "stufe_3": {
+        "typ": "freitext_zahl",
         "frage": "Ein Projekt kostet CHF 480'000. Der Umsatz beträgt CHF 600'000, die Kosten CHF 528'000. Wie hoch ist der ROI in Prozent?",
-        "loesung": "15",
+        "antwort_daten": { "richtiger_wert": 15, "einheit": "%", "toleranz": 0.1 },
         "loesungsweg": "Gewinn = Umsatz - Kosten = 600'000 - 528'000 = 72'000. ROI = 72'000 / 480'000 x 100 = 15%."
       }
     },
@@ -40,18 +46,29 @@
     "titel": "Deckungsbeitrag I berechnen",
     "aufgaben": {
       "stufe_1": {
+        "typ": "freitext_zahl",
         "frage": "Ein Produkt wird für CHF 50 verkauft. Die variablen Kosten pro Stück betragen CHF 30. Wie hoch ist der Deckungsbeitrag I pro Stück in CHF?",
-        "loesung": "20",
+        "antwort_daten": { "richtiger_wert": 20, "einheit": "CHF", "toleranz": 0.5 },
         "loesungsweg": "Deckungsbeitrag I = Verkaufspreis - variable Kosten = 50 - 30 = CHF 20 pro Stück."
       },
       "stufe_2": {
-        "frage": "Ein Betrieb verkauft 1'000 Stück zu je CHF 80. Die variablen Kosten betragen CHF 45'000 total. Wie hoch ist der gesamte Deckungsbeitrag I in CHF?",
-        "loesung": "35000",
-        "loesungsweg": "Umsatz = 1'000 x 80 = 80'000. DB I = Umsatz - variable Kosten = 80'000 - 45'000 = CHF 35'000."
+        "typ": "single_choice",
+        "frage": "Welche Aussage zum Deckungsbeitrag I (DB I) ist richtig?",
+        "antwort_daten": {
+          "optionen": [
+            "DB I = Verkaufspreis − variable Kosten pro Stück",
+            "DB I = Verkaufspreis − Fixkosten pro Stück",
+            "DB I = Umsatz − Gewinn",
+            "DB I = Fixkosten − variable Kosten"
+          ],
+          "richtig_index": 0
+        },
+        "loesungsweg": "Der Deckungsbeitrag I ergibt sich aus Verkaufspreis minus variable Kosten pro Stück — die Fixkosten spielen dabei noch keine Rolle."
       },
       "stufe_3": {
+        "typ": "freitext_zahl",
         "frage": "Ein Artikel hat einen Verkaufspreis von CHF 120 und einen Deckungsbeitrag I von CHF 45 pro Stück. Wie hoch sind die variablen Kosten pro Stück in CHF?",
-        "loesung": "75",
+        "antwort_daten": { "richtiger_wert": 75, "einheit": "CHF", "toleranz": 0.5 },
         "loesungsweg": "Variable Kosten = Verkaufspreis - DB I = 120 - 45 = CHF 75 pro Stück."
       }
     },
@@ -75,19 +92,30 @@
     "titel": "Break-Even-Point berechnen",
     "aufgaben": {
       "stufe_1": {
+        "typ": "freitext_zahl",
         "frage": "Die Fixkosten eines Betriebs betragen CHF 40'000. Der Deckungsbeitrag pro Stück beträgt CHF 20. Wie viele Stück müssen verkauft werden, um den Break-Even-Point zu erreichen?",
-        "loesung": "2000",
+        "antwort_daten": { "richtiger_wert": 2000, "einheit": "Stück", "toleranz": 1 },
         "loesungsweg": "Break-Even-Menge = Fixkosten / DB pro Stück = 40'000 / 20 = 2'000 Stück."
       },
       "stufe_2": {
+        "typ": "freitext_zahl",
         "frage": "Fixkosten: CHF 90'000, Verkaufspreis pro Stück: CHF 60, variable Kosten pro Stück: CHF 30. Wie viele Stück müssen mindestens verkauft werden (Break-Even)?",
-        "loesung": "3000",
+        "antwort_daten": { "richtiger_wert": 3000, "einheit": "Stück", "toleranz": 1 },
         "loesungsweg": "DB pro Stück = 60 - 30 = 30. Break-Even-Menge = 90'000 / 30 = 3'000 Stück."
       },
       "stufe_3": {
-        "frage": "Ein Betrieb hat Fixkosten von CHF 150'000. Verkaufspreis CHF 100/Stück, variable Kosten CHF 65/Stück. Wie hoch ist der Break-Even-Umsatz in CHF?",
-        "loesung": "428571",
-        "loesungsweg": "DB pro Stück = 100 - 65 = 35. Break-Even-Menge = 150'000 / 35 = 4'285.7 Stück. Break-Even-Umsatz = 4'285.7 x 100 = ca. CHF 428'571."
+        "typ": "multiple_choice",
+        "frage": "Welche Aussagen zum Break-Even-Point treffen zu? (Mehrfachauswahl)",
+        "antwort_daten": {
+          "optionen": [
+            "Am Break-Even-Point ist der Gewinn genau null",
+            "Ab dem Break-Even-Point trägt jedes weitere Stück zum Gewinn bei",
+            "Der Break-Even-Point sinkt, wenn die Fixkosten steigen",
+            "Der Break-Even-Point ist unabhängig vom Deckungsbeitrag pro Stück"
+          ],
+          "richtig_indices": [0, 1]
+        },
+        "loesungsweg": "Am Break-Even-Point sind Erlöse und Kosten gleich hoch (Gewinn = 0), und jedes weitere verkaufte Stück trägt zum Gewinn bei. Steigende Fixkosten erhöhen die nötige Break-Even-Menge statt sie zu senken, und der Break-Even hängt direkt vom Deckungsbeitrag pro Stück ab."
       }
     },
     "infokarte": {
