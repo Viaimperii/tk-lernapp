@@ -1,0 +1,1545 @@
+{
+  "meta": {
+    "name": "Auswendiglernen_Formeln_Listen_Testkarten_Final_Ohne_Freitext",
+    "zweck": "Karten für Code-Test und Lernlogik: Formeln, Aufzählungen, Reihenfolgen und Zuordnungen vollständig abfragen",
+    "erstellt_am": "2026-07-05",
+    "anzahl_karten": 34,
+    "schema_hinweis": {
+      "typ_erlaubt": [
+        "single_choice",
+        "multiple_choice",
+        "formel_luecke_mc",
+        "reihenfolge",
+        "zuordnung"
+      ],
+      "idee": "Ein Lerninhalt erzeugt mehrere Karten: Liste vollständig, einzelne Punkte, Zuordnung, Reihenfolge, Anwendung/Rechnung.",
+      "kein_freitext": true
+    },
+    "aenderung": "formel_luecke wurde zu formel_luecke_mc erweitert: Jede Lücke enthält Auswahloptionen mit richtiger Antwort und falschen Ablenkern.",
+    "konvertierte_formel_luecken": 13,
+    "aenderung_final": "Alle Freitext-/Zahleneingaben wurden entfernt oder in Auswahlkarten konvertiert. Formel-Lücken verwenden formel_luecke_mc mit Auswahloptionen.",
+    "konvertierte_freitext_karten": [
+      "fw-bep-002"
+    ],
+    "typen_zaehlung": {
+      "formel_luecke_mc": 13,
+      "multiple_choice": 2,
+      "reihenfolge": 6,
+      "single_choice": 2,
+      "zuordnung": 11
+    }
+  },
+  "karten": [
+    {
+      "id": "mv-7p-001",
+      "fach": "Marketing_Verkauf",
+      "quelle_id": "marketing-mix-4p-7p",
+      "lernziel": "7P vollständig auswendig können",
+      "typ": "multiple_choice",
+      "frage": "Welche Begriffe gehören zum 7P-Marketing-Mix?",
+      "antwort_daten": {
+        "optionen": [
+          "Product / Produkt",
+          "Price / Preis",
+          "Place / Distribution",
+          "Promotion / Kommunikation",
+          "People / Personal",
+          "Process / Prozesse",
+          "Physical Evidence / materielles Umfeld",
+          "Profit / Gewinn",
+          "Performance / Leistung"
+        ],
+        "richtige_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "erklaerung": "Die klassischen 4P werden bei Dienstleistungen um People, Process und Physical Evidence erweitert.",
+      "stufe": 1,
+      "tags": [
+        "auflistung",
+        "marketing",
+        "7p"
+      ]
+    },
+    {
+      "id": "mv-7p-002",
+      "fach": "Marketing_Verkauf",
+      "quelle_id": "marketing-mix-4p-7p",
+      "lernziel": "4P und Erweiterung auf 7P unterscheiden",
+      "typ": "zuordnung",
+      "frage": "Ordne die 7P den deutschen Bedeutungen zu.",
+      "antwort_daten": {
+        "links": [
+          "Product",
+          "Price",
+          "Place",
+          "Promotion",
+          "People",
+          "Process",
+          "Physical Evidence"
+        ],
+        "rechts": [
+          "Produkt",
+          "Preis",
+          "Distribution/Vertrieb",
+          "Kommunikation/Werbung",
+          "Personal/Menschen",
+          "Prozesse/Abläufe",
+          "materielles Umfeld/Ausstattung"
+        ],
+        "richtige_paare": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            6
+          ]
+        ]
+      },
+      "erklaerung": "Bei Zuordnungskarten wird jeder Punkt einzeln abgefragt, nicht nur die Liste als Ganzes.",
+      "stufe": 2,
+      "tags": [
+        "zuordnung",
+        "marketing",
+        "7p"
+      ]
+    },
+    {
+      "id": "mv-7p-003",
+      "fach": "Marketing_Verkauf",
+      "quelle_id": "marketing-mix-4p-7p",
+      "lernziel": "Praxisbeispiele den 7P zuordnen",
+      "typ": "single_choice",
+      "frage": "Ein Fitnessstudio schult seine Mitarbeitenden im Kundenumgang. Welches P ist hauptsächlich betroffen?",
+      "antwort_daten": {
+        "optionen": [
+          "Product",
+          "Price",
+          "People",
+          "Place"
+        ],
+        "richtig_index": 2
+      },
+      "erklaerung": "Schulung und Kundenkontakt betreffen People/Personal.",
+      "stufe": 3,
+      "tags": [
+        "anwendung",
+        "marketing",
+        "7p"
+      ]
+    },
+    {
+      "id": "fw-roi-001",
+      "fach": "Finanzwirtschaft",
+      "quelle_id": "roi-return-on-investment",
+      "lernziel": "ROI-Formel auswendig können",
+      "typ": "formel_luecke_mc",
+      "frage": "Ergänze die Formel: ROI = ___ / ___ × 100",
+      "antwort_daten": {
+        "formel": "ROI = Gewinn / investiertes Kapital × 100",
+        "luecken": [
+          "Gewinn",
+          "investiertes Kapital"
+        ],
+        "luecken_mc": [
+          {
+            "position": 1,
+            "richtig": "Gewinn",
+            "optionen": [
+              "Gewinn",
+              "Umsatz",
+              "Eigenkapital",
+              "Fremdkapital",
+              "Fixkosten",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          },
+          {
+            "position": 2,
+            "richtig": "investiertes Kapital",
+            "optionen": [
+              "investiertes Kapital",
+              "Umsatz",
+              "Eigenkapital",
+              "Fremdkapital",
+              "Fixkosten",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          }
+        ],
+        "eingabeart": "auswahl",
+        "hinweis": "Jede Lücke wird per Auswahl beantwortet, damit Tippfehler nicht als falsch gewertet werden."
+      },
+      "erklaerung": "Formeln nicht nur anschauen. Selber einsetzen und nachrechnen, sonst bleibt es Deko im Hirn.",
+      "stufe": 1,
+      "tags": [
+        "formel",
+        "finanzwirtschaft"
+      ]
+    },
+    {
+      "id": "fw-roe-001",
+      "fach": "Finanzwirtschaft",
+      "quelle_id": "roe-return-on-equity",
+      "lernziel": "ROE-Formel auswendig können",
+      "typ": "formel_luecke_mc",
+      "frage": "Ergänze die Formel: ROE = ___ / ___ × 100",
+      "antwort_daten": {
+        "formel": "ROE = Gewinn / Eigenkapital × 100",
+        "luecken": [
+          "Gewinn",
+          "Eigenkapital"
+        ],
+        "luecken_mc": [
+          {
+            "position": 1,
+            "richtig": "Gewinn",
+            "optionen": [
+              "Gewinn",
+              "Umsatz",
+              "Gesamtkapital",
+              "Fremdkapital",
+              "Investition",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          },
+          {
+            "position": 2,
+            "richtig": "Eigenkapital",
+            "optionen": [
+              "Eigenkapital",
+              "Umsatz",
+              "Gesamtkapital",
+              "Fremdkapital",
+              "Investition",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          }
+        ],
+        "eingabeart": "auswahl",
+        "hinweis": "Jede Lücke wird per Auswahl beantwortet, damit Tippfehler nicht als falsch gewertet werden."
+      },
+      "erklaerung": "Formeln nicht nur anschauen. Selber einsetzen und nachrechnen, sonst bleibt es Deko im Hirn.",
+      "stufe": 1,
+      "tags": [
+        "formel",
+        "finanzwirtschaft"
+      ]
+    },
+    {
+      "id": "fw-db-001",
+      "fach": "Finanzwirtschaft",
+      "quelle_id": "deckungsbeitrag-db",
+      "lernziel": "Deckungsbeitrag-Formel auswendig können",
+      "typ": "formel_luecke_mc",
+      "frage": "Ergänze die Formel: DB = ___ − ___",
+      "antwort_daten": {
+        "formel": "DB = Erlös − variable Kosten",
+        "luecken": [
+          "Erlös",
+          "variable Kosten"
+        ],
+        "luecken_mc": [
+          {
+            "position": 1,
+            "richtig": "Erlös",
+            "optionen": [
+              "Erlös",
+              "Fixkosten",
+              "Gewinn",
+              "Gesamtkapital",
+              "Einstandspreis",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          },
+          {
+            "position": 2,
+            "richtig": "variable Kosten",
+            "optionen": [
+              "variable Kosten",
+              "Fixkosten",
+              "Gewinn",
+              "Gesamtkapital",
+              "Einstandspreis",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          }
+        ],
+        "eingabeart": "auswahl",
+        "hinweis": "Jede Lücke wird per Auswahl beantwortet, damit Tippfehler nicht als falsch gewertet werden."
+      },
+      "erklaerung": "Formeln nicht nur anschauen. Selber einsetzen und nachrechnen, sonst bleibt es Deko im Hirn.",
+      "stufe": 1,
+      "tags": [
+        "formel",
+        "finanzwirtschaft"
+      ]
+    },
+    {
+      "id": "fw-bep-001",
+      "fach": "Finanzwirtschaft",
+      "quelle_id": "break-even-point",
+      "lernziel": "Break-even-Menge berechnen können",
+      "typ": "formel_luecke_mc",
+      "frage": "Ergänze die Formel: BEP Menge = ___ / ___",
+      "antwort_daten": {
+        "formel": "BEP Menge = Fixkosten / DB pro Stück",
+        "luecken": [
+          "Fixkosten",
+          "DB pro Stück"
+        ],
+        "luecken_mc": [
+          {
+            "position": 1,
+            "richtig": "Fixkosten",
+            "optionen": [
+              "Fixkosten",
+              "variable Kosten",
+              "Verkaufspreis",
+              "Umsatz",
+              "Gewinn",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          },
+          {
+            "position": 2,
+            "richtig": "DB pro Stück",
+            "optionen": [
+              "DB pro Stück",
+              "variable Kosten",
+              "Verkaufspreis",
+              "Umsatz",
+              "Gewinn",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          }
+        ],
+        "eingabeart": "auswahl",
+        "hinweis": "Jede Lücke wird per Auswahl beantwortet, damit Tippfehler nicht als falsch gewertet werden."
+      },
+      "erklaerung": "Formeln nicht nur anschauen. Selber einsetzen und nachrechnen, sonst bleibt es Deko im Hirn.",
+      "stufe": 1,
+      "tags": [
+        "formel",
+        "finanzwirtschaft"
+      ]
+    },
+    {
+      "id": "fw-ekq-001",
+      "fach": "Finanzwirtschaft",
+      "quelle_id": "eigenkapitalquote",
+      "lernziel": "Eigenkapitalquote korrekt berechnen",
+      "typ": "formel_luecke_mc",
+      "frage": "Ergänze die Formel: EKQ = ___ / ___ × 100",
+      "antwort_daten": {
+        "formel": "EKQ = Eigenkapital / Gesamtkapital × 100",
+        "luecken": [
+          "Eigenkapital",
+          "Gesamtkapital/Bilanzsumme"
+        ],
+        "luecken_mc": [
+          {
+            "position": 1,
+            "richtig": "Eigenkapital",
+            "optionen": [
+              "Eigenkapital",
+              "Fremdkapital",
+              "Umsatz",
+              "Gewinn",
+              "kurzfristiges Fremdkapital",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          },
+          {
+            "position": 2,
+            "richtig": "Gesamtkapital/Bilanzsumme",
+            "optionen": [
+              "Gesamtkapital/Bilanzsumme",
+              "Fremdkapital",
+              "Umsatz",
+              "Gewinn",
+              "kurzfristiges Fremdkapital",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          }
+        ],
+        "eingabeart": "auswahl",
+        "hinweis": "Jede Lücke wird per Auswahl beantwortet, damit Tippfehler nicht als falsch gewertet werden."
+      },
+      "erklaerung": "Formeln nicht nur anschauen. Selber einsetzen und nachrechnen, sonst bleibt es Deko im Hirn.",
+      "stufe": 1,
+      "tags": [
+        "formel",
+        "finanzwirtschaft"
+      ]
+    },
+    {
+      "id": "fw-vg-001",
+      "fach": "Finanzwirtschaft",
+      "quelle_id": "verschuldungsgrad",
+      "lernziel": "Verschuldungsgrad korrekt berechnen",
+      "typ": "formel_luecke_mc",
+      "frage": "Ergänze die Formel: Verschuldungsgrad = ___ / ___ × 100",
+      "antwort_daten": {
+        "formel": "Verschuldungsgrad = Fremdkapital / Eigenkapital × 100",
+        "luecken": [
+          "Fremdkapital",
+          "Eigenkapital"
+        ],
+        "luecken_mc": [
+          {
+            "position": 1,
+            "richtig": "Fremdkapital",
+            "optionen": [
+              "Fremdkapital",
+              "Gesamtkapital",
+              "Umsatz",
+              "Gewinn",
+              "flüssige Mittel",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          },
+          {
+            "position": 2,
+            "richtig": "Eigenkapital",
+            "optionen": [
+              "Eigenkapital",
+              "Gesamtkapital",
+              "Umsatz",
+              "Gewinn",
+              "flüssige Mittel",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          }
+        ],
+        "eingabeart": "auswahl",
+        "hinweis": "Jede Lücke wird per Auswahl beantwortet, damit Tippfehler nicht als falsch gewertet werden."
+      },
+      "erklaerung": "Formeln nicht nur anschauen. Selber einsetzen und nachrechnen, sonst bleibt es Deko im Hirn.",
+      "stufe": 1,
+      "tags": [
+        "formel",
+        "finanzwirtschaft"
+      ]
+    },
+    {
+      "id": "fw-ngq-001",
+      "fach": "Finanzwirtschaft",
+      "quelle_id": "nettogewinnquote",
+      "lernziel": "Nettogewinnquote korrekt berechnen",
+      "typ": "formel_luecke_mc",
+      "frage": "Ergänze die Formel: NGQ = ___ / ___ × 100",
+      "antwort_daten": {
+        "formel": "NGQ = Reingewinn / Nettoerlös × 100",
+        "luecken": [
+          "Reingewinn",
+          "Nettoerlös"
+        ],
+        "luecken_mc": [
+          {
+            "position": 1,
+            "richtig": "Reingewinn",
+            "optionen": [
+              "Reingewinn",
+              "EBIT",
+              "Umsatz",
+              "Eigenkapital",
+              "Fremdkapital",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          },
+          {
+            "position": 2,
+            "richtig": "Nettoerlös",
+            "optionen": [
+              "Nettoerlös",
+              "EBIT",
+              "Umsatz",
+              "Eigenkapital",
+              "Fremdkapital",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          }
+        ],
+        "eingabeart": "auswahl",
+        "hinweis": "Jede Lücke wird per Auswahl beantwortet, damit Tippfehler nicht als falsch gewertet werden."
+      },
+      "erklaerung": "Formeln nicht nur anschauen. Selber einsetzen und nachrechnen, sonst bleibt es Deko im Hirn.",
+      "stufe": 1,
+      "tags": [
+        "formel",
+        "finanzwirtschaft"
+      ]
+    },
+    {
+      "id": "fw-ebit-001",
+      "fach": "Finanzwirtschaft",
+      "quelle_id": "ebit-marge",
+      "lernziel": "EBIT-Marge korrekt berechnen",
+      "typ": "formel_luecke_mc",
+      "frage": "Ergänze die Formel: EBIT-Marge = ___ / ___ × 100",
+      "antwort_daten": {
+        "formel": "EBIT-Marge = EBIT / Umsatz × 100",
+        "luecken": [
+          "EBIT",
+          "Umsatz"
+        ],
+        "luecken_mc": [
+          {
+            "position": 1,
+            "richtig": "EBIT",
+            "optionen": [
+              "EBIT",
+              "Reingewinn",
+              "Eigenkapital",
+              "Gesamtkapital",
+              "variable Kosten",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          },
+          {
+            "position": 2,
+            "richtig": "Umsatz",
+            "optionen": [
+              "Umsatz",
+              "Reingewinn",
+              "Eigenkapital",
+              "Gesamtkapital",
+              "variable Kosten",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          }
+        ],
+        "eingabeart": "auswahl",
+        "hinweis": "Jede Lücke wird per Auswahl beantwortet, damit Tippfehler nicht als falsch gewertet werden."
+      },
+      "erklaerung": "Formeln nicht nur anschauen. Selber einsetzen und nachrechnen, sonst bleibt es Deko im Hirn.",
+      "stufe": 1,
+      "tags": [
+        "formel",
+        "finanzwirtschaft"
+      ]
+    },
+    {
+      "id": "fw-ku-001",
+      "fach": "Finanzwirtschaft",
+      "quelle_id": "kapitalumschlag",
+      "lernziel": "Kapitalumschlag korrekt berechnen",
+      "typ": "formel_luecke_mc",
+      "frage": "Ergänze die Formel: Kapitalumschlag = ___ / ___",
+      "antwort_daten": {
+        "formel": "Kapitalumschlag = Umsatz / investiertes Kapital",
+        "luecken": [
+          "Umsatz",
+          "investiertes Kapital"
+        ],
+        "luecken_mc": [
+          {
+            "position": 1,
+            "richtig": "Umsatz",
+            "optionen": [
+              "Umsatz",
+              "Gewinn",
+              "Eigenkapital",
+              "Fremdkapital",
+              "Fixkosten",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          },
+          {
+            "position": 2,
+            "richtig": "investiertes Kapital",
+            "optionen": [
+              "investiertes Kapital",
+              "Gewinn",
+              "Eigenkapital",
+              "Fremdkapital",
+              "Fixkosten",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          }
+        ],
+        "eingabeart": "auswahl",
+        "hinweis": "Jede Lücke wird per Auswahl beantwortet, damit Tippfehler nicht als falsch gewertet werden."
+      },
+      "erklaerung": "Formeln nicht nur anschauen. Selber einsetzen und nachrechnen, sonst bleibt es Deko im Hirn.",
+      "stufe": 1,
+      "tags": [
+        "formel",
+        "finanzwirtschaft"
+      ]
+    },
+    {
+      "id": "fw-payback-001",
+      "fach": "Finanzwirtschaft",
+      "quelle_id": "payback-period",
+      "lernziel": "Payback-Formel auswendig können",
+      "typ": "formel_luecke_mc",
+      "frage": "Ergänze die Formel: Payback = ___ / ___",
+      "antwort_daten": {
+        "formel": "Payback = Investition / jährlicher Rückfluss",
+        "luecken": [
+          "Investition",
+          "jährlicher Rückfluss"
+        ],
+        "luecken_mc": [
+          {
+            "position": 1,
+            "richtig": "Investition",
+            "optionen": [
+              "Investition",
+              "Gewinn",
+              "Umsatz",
+              "Eigenkapital",
+              "DB pro Stück",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          },
+          {
+            "position": 2,
+            "richtig": "jährlicher Rückfluss",
+            "optionen": [
+              "jährlicher Rückfluss",
+              "Gewinn",
+              "Umsatz",
+              "Eigenkapital",
+              "DB pro Stück",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          }
+        ],
+        "eingabeart": "auswahl",
+        "hinweis": "Jede Lücke wird per Auswahl beantwortet, damit Tippfehler nicht als falsch gewertet werden."
+      },
+      "erklaerung": "Formeln nicht nur anschauen. Selber einsetzen und nachrechnen, sonst bleibt es Deko im Hirn.",
+      "stufe": 1,
+      "tags": [
+        "formel",
+        "finanzwirtschaft"
+      ]
+    },
+    {
+      "id": "fw-bep-002",
+      "fach": "Finanzwirtschaft",
+      "quelle_id": "break-even-point",
+      "lernziel": "BEP rechnerisch anwenden",
+      "typ": "single_choice",
+      "frage": "Fixkosten CHF 60'000, Verkaufspreis CHF 50, variable Kosten CHF 30 pro Stück. Wie viele Stück sind Break-even?",
+      "antwort_daten": {
+        "optionen": [
+          "1'200 Stück",
+          "2'000 Stück",
+          "3'000 Stück",
+          "4'000 Stück"
+        ],
+        "richtig_index": 2
+      },
+      "erklaerung": "DB pro Stück = Verkaufspreis − variable Kosten = 50 − 30 = 20. BEP = Fixkosten / DB pro Stück = 60'000 / 20 = 3'000 Stück.",
+      "stufe": 2,
+      "tags": [
+        "bep",
+        "finanzwirtschaft",
+        "kein_freitext",
+        "rechnung",
+        "single_choice"
+      ]
+    },
+    {
+      "id": "fw-liquid-001",
+      "fach": "Finanzwirtschaft",
+      "quelle_id": "liquiditaetsgrade",
+      "lernziel": "Liquiditätsgrade I bis III unterscheiden",
+      "typ": "zuordnung",
+      "frage": "Ordne die Liquiditätsgrade der richtigen Berechnung zu.",
+      "antwort_daten": {
+        "links": [
+          "Liquiditätsgrad I",
+          "Liquiditätsgrad II",
+          "Liquiditätsgrad III"
+        ],
+        "rechts": [
+          "flüssige Mittel / kurzfristiges Fremdkapital × 100",
+          "(flüssige Mittel + Forderungen) / kurzfristiges Fremdkapital × 100",
+          "(flüssige Mittel + Forderungen + Vorräte) / kurzfristiges Fremdkapital × 100"
+        ],
+        "richtige_paare": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      "erklaerung": "Vorräte gehören erst zu LG III, nicht zu LG II. Das ist eine klassische Falle.",
+      "stufe": 2,
+      "tags": [
+        "formel",
+        "liquidität",
+        "zuordnung"
+      ]
+    },
+    {
+      "id": "fw-liquid-002",
+      "fach": "Finanzwirtschaft",
+      "quelle_id": "liquiditaetsgrade",
+      "lernziel": "Richtwerte der Liquiditätsgrade kennen",
+      "typ": "zuordnung",
+      "frage": "Ordne die Liquiditätsgrade den typischen Richtwerten zu.",
+      "antwort_daten": {
+        "links": [
+          "Liquiditätsgrad I",
+          "Liquiditätsgrad II",
+          "Liquiditätsgrad III"
+        ],
+        "rechts": [
+          "ca. 10–20%",
+          "ca. 100–120%",
+          "ca. 150–200%"
+        ],
+        "richtige_paare": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      "erklaerung": "Die Richtwerte sind Faustregeln, keine heiligen Gebote vom Bilanzgott.",
+      "stufe": 2,
+      "tags": [
+        "richtwerte",
+        "liquidität"
+      ]
+    },
+    {
+      "id": "scm-7r-001",
+      "fach": "SCM",
+      "quelle_id": "7r-der-logistik",
+      "lernziel": "7R der Logistik vollständig aufzählen",
+      "typ": "multiple_choice",
+      "frage": "Welche Punkte gehören zu den 7R der Logistik?",
+      "antwort_daten": {
+        "optionen": [
+          "richtiges Produkt",
+          "richtige Menge",
+          "richtige Qualität",
+          "richtiger Ort",
+          "richtige Zeit",
+          "richtiger Kunde",
+          "richtige Kosten",
+          "richtiger Gewinn",
+          "richtige Werbung"
+        ],
+        "richtige_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "erklaerung": "Bei den 7R werden besonders 'richtiger Kunde' und 'richtige Kosten' gerne vergessen.",
+      "stufe": 1,
+      "tags": [
+        "auflistung",
+        "scm",
+        "7r"
+      ]
+    },
+    {
+      "id": "scm-beschaffungsformen-001",
+      "fach": "SCM",
+      "quelle_id": "beschaffungsformen",
+      "lernziel": "Beschaffungsformen unterscheiden",
+      "typ": "zuordnung",
+      "frage": "Ordne die Beschaffungsform der Beschreibung zu.",
+      "antwort_daten": {
+        "links": [
+          "Einzelbeschaffung",
+          "Vorratsbeschaffung",
+          "Just-in-Time / einsatzsynchrone Beschaffung"
+        ],
+        "rechts": [
+          "Beschaffung erst bei konkretem Bedarf/Auftrag",
+          "Beschaffung auf Lager zur Versorgungssicherheit",
+          "Lieferung genau zum Produktions-/Bedarfszeitpunkt"
+        ],
+        "richtige_paare": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      "erklaerung": "JIT spart Lager, macht dich aber abhängig. Kein Puffer = bei Störung direkt Theater.",
+      "stufe": 2,
+      "tags": [
+        "zuordnung",
+        "scm",
+        "beschaffung"
+      ]
+    },
+    {
+      "id": "scm-andler-001",
+      "fach": "SCM",
+      "quelle_id": "andler-formel",
+      "lernziel": "Andler-Formel auswendig können",
+      "typ": "formel_luecke_mc",
+      "frage": "Ergänze die Andler-Formel: optimale Bestellmenge = √((2 × ___ × ___) / (___ × ___))",
+      "antwort_daten": {
+        "formel": "x = √((2 × Jahresbedarf × Bestellkosten pro Bestellung) / (Lagerkostensatz × Einstandspreis))",
+        "luecken": [
+          "Jahresbedarf",
+          "Bestellkosten pro Bestellung",
+          "Lagerkostensatz",
+          "Einstandspreis"
+        ],
+        "luecken_mc": [
+          {
+            "position": 1,
+            "richtig": "Jahresbedarf",
+            "optionen": [
+              "Jahresbedarf",
+              "Umsatz",
+              "Gewinn",
+              "Eigenkapital",
+              "Fixkosten",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          },
+          {
+            "position": 2,
+            "richtig": "Bestellkosten pro Bestellung",
+            "optionen": [
+              "Bestellkosten pro Bestellung",
+              "Umsatz",
+              "Gewinn",
+              "Eigenkapital",
+              "Fixkosten",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          },
+          {
+            "position": 3,
+            "richtig": "Lagerkostensatz",
+            "optionen": [
+              "Lagerkostensatz",
+              "Umsatz",
+              "Gewinn",
+              "Eigenkapital",
+              "Fixkosten",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          },
+          {
+            "position": 4,
+            "richtig": "Einstandspreis",
+            "optionen": [
+              "Einstandspreis",
+              "Umsatz",
+              "Gewinn",
+              "Eigenkapital",
+              "Fixkosten",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          }
+        ],
+        "eingabeart": "auswahl",
+        "hinweis": "Jede Lücke wird per Auswahl beantwortet, damit Tippfehler nicht als falsch gewertet werden."
+      },
+      "erklaerung": "Lagerkostensatz als Dezimalzahl einsetzen: 20% = 0.20, nicht 20.",
+      "stufe": 2,
+      "tags": [
+        "formel",
+        "scm",
+        "andler"
+      ]
+    },
+    {
+      "id": "scm-lager-001",
+      "fach": "SCM",
+      "quelle_id": "lagerkennzahlen",
+      "lernziel": "Lagerkennzahlen berechnen",
+      "typ": "formel_luecke_mc",
+      "frage": "Ergänze: Lagerumschlag = ___ / ___",
+      "antwort_daten": {
+        "formel": "Lagerumschlag = Jahresverbrauch / durchschnittlicher Lagerbestand",
+        "luecken": [
+          "Jahresverbrauch",
+          "durchschnittlicher Lagerbestand"
+        ],
+        "luecken_mc": [
+          {
+            "position": 1,
+            "richtig": "Jahresverbrauch",
+            "optionen": [
+              "Jahresverbrauch",
+              "Umsatz",
+              "Gewinn",
+              "Einstandspreis",
+              "Fixkosten",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          },
+          {
+            "position": 2,
+            "richtig": "durchschnittlicher Lagerbestand",
+            "optionen": [
+              "durchschnittlicher Lagerbestand",
+              "Umsatz",
+              "Gewinn",
+              "Einstandspreis",
+              "Fixkosten",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          }
+        ],
+        "eingabeart": "auswahl",
+        "hinweis": "Jede Lücke wird per Auswahl beantwortet, damit Tippfehler nicht als falsch gewertet werden."
+      },
+      "erklaerung": "Für den Jahresverbrauch nimmt man Einstandspreise, nicht Verkaufspreise.",
+      "stufe": 1,
+      "tags": [
+        "formel",
+        "lager"
+      ]
+    },
+    {
+      "id": "scm-lager-002",
+      "fach": "SCM",
+      "quelle_id": "lagerkennzahlen",
+      "lernziel": "Durchschnittliche Lagerdauer berechnen",
+      "typ": "formel_luecke_mc",
+      "frage": "Ergänze: durchschnittliche Lagerdauer = ___ / ___",
+      "antwort_daten": {
+        "formel": "durchschnittliche Lagerdauer = 360 / Lagerumschlag",
+        "luecken": [
+          "360",
+          "Lagerumschlag"
+        ],
+        "luecken_mc": [
+          {
+            "position": 1,
+            "richtig": "360",
+            "optionen": [
+              "360",
+              "365",
+              "Jahresverbrauch",
+              "durchschnittlicher Lagerbestand",
+              "Fixkosten",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          },
+          {
+            "position": 2,
+            "richtig": "Lagerumschlag",
+            "optionen": [
+              "Lagerumschlag",
+              "365",
+              "Jahresverbrauch",
+              "durchschnittlicher Lagerbestand",
+              "Fixkosten",
+              "Kosten"
+            ],
+            "richtig_index": 0
+          }
+        ],
+        "eingabeart": "auswahl",
+        "hinweis": "Jede Lücke wird per Auswahl beantwortet, damit Tippfehler nicht als falsch gewertet werden."
+      },
+      "erklaerung": "In Prüfungsaufgaben wird oft mit 360 Tagen gerechnet.",
+      "stufe": 1,
+      "tags": [
+        "formel",
+        "lager"
+      ]
+    },
+    {
+      "id": "scm-abc-001",
+      "fach": "SCM",
+      "quelle_id": "abc-analyse",
+      "lernziel": "ABC-Kategorien und Bedeutung kennen",
+      "typ": "zuordnung",
+      "frage": "Ordne A-, B- und C-Güter der typischen Bedeutung zu.",
+      "antwort_daten": {
+        "links": [
+          "A-Güter",
+          "B-Güter",
+          "C-Güter"
+        ],
+        "rechts": [
+          "wenige Artikel, sehr hoher Wertanteil, intensive Kontrolle",
+          "mittlere Bedeutung, normale Kontrolle",
+          "viele Artikel, tiefer Wertanteil, einfache/automatisierte Verfahren"
+        ],
+        "richtige_paare": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      "erklaerung": "A = Achtung wichtig. C = Cool bleiben, Verwaltungsaufwand tief halten.",
+      "stufe": 2,
+      "tags": [
+        "zuordnung",
+        "abc",
+        "scm"
+      ]
+    },
+    {
+      "id": "pe-problem-001",
+      "fach": "Problemloesung_Entscheidung",
+      "quelle_id": "problemloesungsprozess-6-schritte",
+      "lernziel": "6-Schritte-Problemlösungsprozess in Reihenfolge kennen",
+      "typ": "reihenfolge",
+      "frage": "Bringe den klassischen Problemlösungsprozess in die richtige Reihenfolge.",
+      "antwort_daten": {
+        "items": [
+          "Zieldefinition",
+          "Analyse",
+          "Planung / Lösungsvarianten suchen",
+          "Entscheidung",
+          "Realisierung",
+          "Kontrolle"
+        ],
+        "richtige_reihenfolge": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "erklaerung": "Nicht direkt losrennen wie ein kopfloses Huhn: erst Ziel, dann Analyse.",
+      "stufe": 1,
+      "tags": [
+        "reihenfolge",
+        "prozess"
+      ]
+    },
+    {
+      "id": "pe-design-001",
+      "fach": "Problemloesung_Entscheidung",
+      "quelle_id": "design-thinking-6-phasen",
+      "lernziel": "Design-Thinking-Phasen kennen",
+      "typ": "reihenfolge",
+      "frage": "Bringe die 6 Design-Thinking-Phasen in die richtige Reihenfolge.",
+      "antwort_daten": {
+        "items": [
+          "Verstehen",
+          "Beobachten",
+          "Sichtweise definieren",
+          "Ideen finden",
+          "Prototyp entwickeln",
+          "Testen"
+        ],
+        "richtige_reihenfolge": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "erklaerung": "Die Begriffe können je nach Lehrmittel leicht anders heissen. Wichtig ist die Logik: erst verstehen, dann bauen, dann testen.",
+      "stufe": 2,
+      "tags": [
+        "reihenfolge",
+        "design thinking"
+      ]
+    },
+    {
+      "id": "uf-pdca-001",
+      "fach": "Unternehmensfuehrung",
+      "quelle_id": "pdca-zyklus",
+      "lernziel": "PDCA-Zyklus auswendig können",
+      "typ": "reihenfolge",
+      "frage": "Bringe den PDCA-Zyklus in die richtige Reihenfolge.",
+      "antwort_daten": {
+        "items": [
+          "Plan",
+          "Do",
+          "Check",
+          "Act"
+        ],
+        "richtige_reihenfolge": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "erklaerung": "PDCA ist ein Kreislauf: Nach Act geht es wieder zu Plan.",
+      "stufe": 1,
+      "tags": [
+        "reihenfolge",
+        "pdca",
+        "kvp"
+      ]
+    },
+    {
+      "id": "uf-strategie-001",
+      "fach": "Unternehmensfuehrung",
+      "quelle_id": "strategieentwicklung-vision-leitbild-ziele",
+      "lernziel": "Strategische Hierarchie kennen",
+      "typ": "reihenfolge",
+      "frage": "Bringe die strategische Hierarchie in die richtige Reihenfolge.",
+      "antwort_daten": {
+        "items": [
+          "Vision",
+          "Leitbild",
+          "Strategie",
+          "Ziele"
+        ],
+        "richtige_reihenfolge": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "erklaerung": "Vision = wohin, Leitbild = wer/wie wir sind, Strategie = Weg, Ziele = messbare Schritte.",
+      "stufe": 1,
+      "tags": [
+        "reihenfolge",
+        "strategie"
+      ]
+    },
+    {
+      "id": "pm-smart-001",
+      "fach": "Personalmanagement",
+      "quelle_id": "zielvereinbarungsprozess",
+      "lernziel": "SMART-Kriterien auswendig können",
+      "typ": "zuordnung",
+      "frage": "Ordne die SMART-Buchstaben der Bedeutung zu.",
+      "antwort_daten": {
+        "links": [
+          "S",
+          "M",
+          "A",
+          "R",
+          "T"
+        ],
+        "rechts": [
+          "Spezifisch",
+          "Messbar",
+          "Attraktiv/Akzeptiert",
+          "Realistisch",
+          "Terminiert"
+        ],
+        "richtige_paare": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "erklaerung": "SMART ist perfekt für Lückenkarten und Buchstaben-Zuordnung.",
+      "stufe": 1,
+      "tags": [
+        "smart",
+        "personal",
+        "zuordnung"
+      ]
+    },
+    {
+      "id": "pm-tuckman-001",
+      "fach": "Personalmanagement",
+      "quelle_id": "teamentwicklung-tuckman",
+      "lernziel": "Tuckman-Phasen kennen",
+      "typ": "reihenfolge",
+      "frage": "Bringe die Tuckman-Phasen der Teamentwicklung in die richtige Reihenfolge.",
+      "antwort_daten": {
+        "items": [
+          "Forming",
+          "Storming",
+          "Norming",
+          "Performing"
+        ],
+        "richtige_reihenfolge": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "erklaerung": "Erst finden sie sich, dann gibt’s Zoff, dann Regeln, dann Leistung. Wie eine WG, nur mit Flipchart.",
+      "stufe": 1,
+      "tags": [
+        "reihenfolge",
+        "team",
+        "personal"
+      ]
+    },
+    {
+      "id": "pm-sozial-001",
+      "fach": "Personalmanagement",
+      "quelle_id": "schweizer-sozialversicherungen",
+      "lernziel": "3-Säulen-System und Versicherungen unterscheiden",
+      "typ": "zuordnung",
+      "frage": "Ordne die Sozialversicherungen grob der Säule zu.",
+      "antwort_daten": {
+        "links": [
+          "AHV/IV/EO",
+          "BVG",
+          "3a/3b"
+        ],
+        "rechts": [
+          "1. Säule: staatliche Vorsorge",
+          "2. Säule: berufliche Vorsorge",
+          "3. Säule: private Vorsorge"
+        ],
+        "richtige_paare": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      "erklaerung": "Das ist eher Schweizer Grundlagenwissen: 1 staatlich, 2 beruflich, 3 privat.",
+      "stufe": 2,
+      "tags": [
+        "sozialversicherung",
+        "personal",
+        "schweiz"
+      ]
+    },
+    {
+      "id": "rv-vertragsarten-001",
+      "fach": "Recht_VWL",
+      "quelle_id": "vertragsarten-or-kauf-werk-auftrag-miete",
+      "lernziel": "OR-Vertragsarten unterscheiden",
+      "typ": "zuordnung",
+      "frage": "Ordne die Vertragsart der geschuldeten Hauptleistung zu.",
+      "antwort_daten": {
+        "links": [
+          "Kaufvertrag",
+          "Werkvertrag",
+          "Auftrag",
+          "Mietvertrag"
+        ],
+        "rechts": [
+          "Eigentumsübertragung gegen Preis",
+          "bestimmter Erfolg / Werk",
+          "sorgfältiges Tätigwerden",
+          "Gebrauchsüberlassung auf Zeit"
+        ],
+        "richtige_paare": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "erklaerung": "Werk = Resultat. Auftrag = sorgfältige Tätigkeit. Das ist die Prüfungsfalle.",
+      "stufe": 2,
+      "tags": [
+        "recht",
+        "or",
+        "zuordnung"
+      ]
+    },
+    {
+      "id": "rv-schkg-001",
+      "fach": "Recht_VWL",
+      "quelle_id": "schkg-betreibungsarten",
+      "lernziel": "SchKG-Betreibungsarten unterscheiden",
+      "typ": "zuordnung",
+      "frage": "Ordne die Betreibungsart der typischen Anwendung zu.",
+      "antwort_daten": {
+        "links": [
+          "Betreibung auf Pfändung",
+          "Betreibung auf Konkurs",
+          "Betreibung auf Pfandverwertung"
+        ],
+        "rechts": [
+          "Privatperson/nicht konkursfähiger Schuldner",
+          "kaufmännisch eingetragenes Unternehmen",
+          "Forderung ist durch Pfand gesichert"
+        ],
+        "richtige_paare": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      "erklaerung": "Pfandverwertung immer dann, wenn ein Pfand im Spiel ist. Klingt banal, wird aber gerne versemmelt.",
+      "stufe": 2,
+      "tags": [
+        "recht",
+        "schkg",
+        "zuordnung"
+      ]
+    },
+    {
+      "id": "rv-konjunktur-001",
+      "fach": "Recht_VWL",
+      "quelle_id": "konjunktur-konjunkturzyklus",
+      "lernziel": "Konjunkturphasen kennen",
+      "typ": "reihenfolge",
+      "frage": "Bringe den Konjunkturzyklus in die typische Reihenfolge.",
+      "antwort_daten": {
+        "items": [
+          "Aufschwung",
+          "Boom / Hochkonjunktur",
+          "Abschwung / Rezession",
+          "Tiefpunkt / Depression"
+        ],
+        "richtige_reihenfolge": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "erklaerung": "Danach beginnt der Zyklus wieder mit Aufschwung. Wirtschaft fährt halt auch Achterbahn.",
+      "stufe": 1,
+      "tags": [
+        "vwl",
+        "reihenfolge",
+        "konjunktur"
+      ]
+    },
+    {
+      "id": "uf-pestel-001",
+      "fach": "Unternehmensfuehrung",
+      "quelle_id": "businessplan-umweltsphaeren-pestel",
+      "lernziel": "PESTEL-Dimensionen auswendig können",
+      "typ": "zuordnung",
+      "frage": "Ordne die PESTEL-Buchstaben der Bedeutung zu.",
+      "antwort_daten": {
+        "links": [
+          "P",
+          "E",
+          "S",
+          "T",
+          "E",
+          "L"
+        ],
+        "rechts": [
+          "Political / politisch",
+          "Economic / ökonomisch",
+          "Social / sozial",
+          "Technological / technologisch",
+          "Environmental / ökologisch",
+          "Legal / rechtlich"
+        ],
+        "richtige_paare": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ]
+        ]
+      },
+      "erklaerung": "Achtung: Es gibt zwei E: Economic und Environmental.",
+      "stufe": 1,
+      "tags": [
+        "pestel",
+        "unternehmensführung",
+        "zuordnung"
+      ]
+    },
+    {
+      "id": "uf-swot-001",
+      "fach": "Unternehmensfuehrung",
+      "quelle_id": "unternehmens-umweltanalyse",
+      "lernziel": "SWOT korrekt zuordnen",
+      "typ": "zuordnung",
+      "frage": "Ordne die SWOT-Felder der internen oder externen Sicht zu.",
+      "antwort_daten": {
+        "links": [
+          "Strengths / Stärken",
+          "Weaknesses / Schwächen",
+          "Opportunities / Chancen",
+          "Threats / Gefahren"
+        ],
+        "rechts": [
+          "intern positiv",
+          "intern negativ",
+          "extern positiv",
+          "extern negativ"
+        ],
+        "richtige_paare": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      "erklaerung": "Stärken/Schwächen sind intern. Chancen/Gefahren kommen von aussen.",
+      "stufe": 1,
+      "tags": [
+        "swot",
+        "analyse",
+        "zuordnung"
+      ]
+    }
+  ]
+}
