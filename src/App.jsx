@@ -15,11 +15,18 @@ import {
   Trophy,
   X
 } from 'lucide-react'
-import { cards, contentMeta, invalidCards } from './data'
+import { cards, contentMeta, invalidCards, schemaVersion } from './data'
 
 const PROGRESS_KEY = 'tk-lernapp-topic-progress-v1'
 const DISABLED_KEY = 'tk-lernapp-disabled-topics-v3'
-const REVIEW_MS = 6 * 60 * 60 * 1000
+const REVIEW_DAYS = {
+  1: 1,
+  2: 2,
+  3: 5,
+  4: 10,
+  5: 20,
+  6: 40
+}
 
 const subjects = [
   { id: 'Finanzwirtschaft', label: 'Finanzwirtschaft', color: '#2f80ed', icon: CircleDollarSign },
@@ -28,7 +35,8 @@ const subjects = [
   { id: 'Marketing_Verkauf', label: 'Marketing & Verkauf', color: '#e11d48', icon: Layers3 },
   { id: 'Unternehmensfuehrung', label: 'Unternehmensführung', color: '#7c3aed', icon: ClipboardList },
   { id: 'Recht_VWL', label: 'Recht & VWL', color: '#0891b2', icon: Scale },
-  { id: 'Problemloesung_Entscheidung', label: 'Problemlösung', color: '#4f46e5', icon: Shuffle }
+  { id: 'Problemloesung_Entscheidung', label: 'Problemlösung', color: '#4f46e5', icon: Shuffle },
+  { id: 'Integrierte_Fallstudie', label: 'Integrierte Fallstudie', color: '#475569', icon: BookOpen }
 ]
 
 const subjectById = Object.fromEntries(subjects.map((subject) => [subject.id, subject]))
@@ -39,6 +47,9 @@ const defaultProgress = {
   correct: 0,
   wrong: 0,
   solvedOnce: false,
+  box: 1,
+  richtig_in_folge: 0,
+  falsch_in_folge: 0,
   lastAnswer: null,
   lastCardId: null,
   lastCorrect: null,
@@ -65,7 +76,7 @@ function getProgress(progress, id) {
 }
 
 function isLocked(topicProgress) {
-  return Boolean(topicProgress.nextReview && topicProgress.nextReview > Date.now())
+  return Boolean(topicProgress.solvedOnce && topicProgress.nextReview && Date.parse(topicProgress.nextReview) > Date.now())
 }
 
 function formatRemaining(target) {
@@ -74,6 +85,16 @@ function formatRemaining(target) {
   const minutes = Math.ceil((ms % 3_600_000) / 60_000)
   if (hours <= 0) return `${minutes} Min.`
   return `${hours} Std. ${minutes} Min.`
+}
+
+function addDaysIso(days) {
+  return new Date(Date.now() + days * 24 * 60 * 60 * 1000).toISOString()
+}
+
+function stageLabel(stage) {
+  if (stage === 1) return 'Grundlage'
+  if (stage === 2) return 'Anwendung / Fehlerfalle'
+  return 'Prüfungsnah'
 }
 
 function App() {
@@ -98,6 +119,9 @@ function App() {
   function updateTopicProgress(topic, card, answer, isCorrect) {
     const current = getProgress(progress, topic.id)
     const currentStage = normalizeStage(topic, current.stage)
+    const nextBox = isCorrect ? Math.min((current.box ?? 1) + 1, 6) : 1
+    const nextReview = addDaysIso(REVIEW_DAYS[nextBox])
+    const now = new Date().toISOString()
     const nextAttempts = {
       ...current.attemptsByStage,
       [currentStage]: (current.attemptsByStage?.[currentStage] ?? 0) + 1
@@ -109,12 +133,15 @@ function App() {
       stage: nextStage,
       correct: current.correct + (isCorrect ? 1 : 0),
       wrong: current.wrong + (isCorrect ? 0 : 1),
+      box: nextBox,
+      richtig_in_folge: isCorrect ? (current.richtig_in_folge ?? 0) + 1 : 0,
+      falsch_in_folge: isCorrect ? 0 : (current.falsch_in_folge ?? 0) + 1,
       solvedOnce: current.solvedOnce || (isCorrect && reachedFinalStage),
       lastAnswer: answer,
       lastCardId: card.id,
       lastCorrect: isCorrect,
-      lastTimestamp: Date.now(),
-      nextReview: isCorrect && reachedFinalStage ? Date.now() + REVIEW_MS : null,
+      lastTimestamp: now,
+      nextReview: nextReview,
       attemptsByStage: nextAttempts
     }
 
@@ -203,7 +230,7 @@ function HomeScreen({ activeTopics, disabled, progress, onOpenSubject }) {
             <div className="h-full rounded-full bg-slate-950" style={{ width: `${(activeTopics.length / topics.length) * 100}%` }} />
           </div>
           <p className="mt-2 text-xs font-semibold text-slate-500">
-            {contentMeta.anzahl_karten ?? cards.length} Karten in {topics.length} Themen geladen
+            {contentMeta.anzahl_karten ?? cards.length} Karten in {topics.length} Themen geladen · Schema {schemaVersion}
             {invalidCards.length ? `, ${invalidCards.length} übersprungen` : ''}
           </p>
         </div>
@@ -259,7 +286,7 @@ function SubjectScreen({ subject, progress, disabled, onBack, onToggle, onStartS
         </span>
         <div>
           <h1 className="text-xl font-black leading-tight">{subject.label}</h1>
-          <p className="text-sm font-semibold text-slate-600">Jedes Thema startet bei Stufe 1</p>
+          <p className="text-sm font-semibold text-slate-600">Grundlage → Anwendung → prüfungsnah</p>
         </div>
       </header>
 
@@ -296,6 +323,7 @@ function SubjectScreen({ subject, progress, disabled, onBack, onToggle, onStartS
                 <button className="min-h-[64px] min-w-0 flex-1 text-left" disabled={off} onClick={() => onOpenTopic(topic.id)}>
                   <div className="mb-2 flex flex-wrap items-center gap-2">
                     <StageBadge stage={currentStage} />
+                    <span className="rounded-full bg-slate-100 px-2 py-1 text-xs font-black text-slate-700">Box {topicProgress.box ?? 1}</span>
                     {topicProgress.solvedOnce && (
                       <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2 py-1 text-xs font-black text-emerald-800">
                         <Trophy size={12} /> Schon gelöst
@@ -303,7 +331,7 @@ function SubjectScreen({ subject, progress, disabled, onBack, onToggle, onStartS
                     )}
                     {locked && (
                       <span className="inline-flex items-center gap-1 rounded-full bg-slate-900 px-2 py-1 text-xs font-black text-white">
-                        <Lock size={12} /> {formatRemaining(topicProgress.nextReview)}
+                        <Lock size={12} /> fällig in {formatRemaining(Date.parse(topicProgress.nextReview))}
                       </span>
                     )}
                     {focus && <span className="rounded-full bg-amber-200 px-2 py-1 text-xs font-black text-amber-950">Fokus</span>}
@@ -401,7 +429,7 @@ function TopicScreen({ topic, progress, onBack, onAnswered }) {
           </div>
           <h1 className="text-xl font-black">Thema pausiert</h1>
           <p className="mt-2 text-sm font-semibold text-slate-600">
-            Dieses Thema wurde auf der höchsten Stufe korrekt gelöst und ist noch {formatRemaining(progress.nextReview)} gesperrt.
+            Dieses Thema wurde auf der höchsten Stufe korrekt gelöst und ist noch {formatRemaining(Date.parse(progress.nextReview))} gesperrt.
           </p>
           <p className="mt-3 inline-flex items-center gap-1 rounded-full bg-emerald-100 px-3 py-2 text-xs font-black text-emerald-800">
             <Trophy size={14} /> Schon einmal richtig gelöst
@@ -446,6 +474,7 @@ function LearningCard({ eyebrow, topic, card, progress, result, answer, setAnswe
         <div className="mb-3 flex flex-wrap items-center gap-2">
           <span className="rounded-full bg-slate-950 px-2 py-1 text-xs font-black text-white">{eyebrow}</span>
           <StageBadge stage={currentStage} />
+          <span className="rounded-full bg-slate-100 px-2 py-1 text-xs font-black text-slate-700">{stageLabel(currentStage)}</span>
           <TypeBadge type={card.typ} />
           {progress.solvedOnce && (
             <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2 py-1 text-xs font-black text-emerald-800">
@@ -456,6 +485,7 @@ function LearningCard({ eyebrow, topic, card, progress, result, answer, setAnswe
 
         <h1 className="text-xl font-black leading-tight">{topic.titel}</h1>
         {card.untertitel && <p className="mt-2 text-sm font-bold text-slate-500">{card.untertitel}</p>}
+        <InfoBlock title="Kurz erklärt" text={card.begriff_erklaerung?.kurz} compact />
         <p className="mt-4 text-lg font-bold leading-snug text-slate-800">{card.frage}</p>
 
         <div className="mt-5">
@@ -667,7 +697,7 @@ function FeedbackPanel({ result, card, finalStage }) {
       </div>
       {result.correct && finalStage && (
         <p className="mb-3 flex items-center gap-2 rounded-lg bg-white p-2 text-sm font-black text-emerald-800">
-          <Trophy size={17} /> Höchste Stufe korrekt gelöst: Thema pausiert 6 Stunden.
+          <Trophy size={17} /> Höchste Stufe korrekt gelöst: Thema ist nach Wiederholungsbox terminiert.
         </p>
       )}
       {result.correct && !finalStage && (
@@ -680,7 +710,21 @@ function FeedbackPanel({ result, card, finalStage }) {
           Die Stufe bleibt gleich. Schau dir Erklärung und korrekte Lösung an.
         </p>
       )}
-      <p className="text-sm font-semibold leading-relaxed text-slate-800">{card.erklaerung}</p>
+      <InfoBlock title="Lösungsvorschlag" text={card.loesungsvorschlag?.kurz} />
+      {card.loesungsvorschlag?.rechenweg && <InfoBlock title="Rechenweg" text={card.loesungsvorschlag.rechenweg} />}
+      {card.loesungsvorschlag?.warum && <InfoBlock title="Warum" text={card.loesungsvorschlag.warum} />}
+      <InfoBlock title="Kurz erklärt" text={card.begriff_erklaerung?.kurz} />
+      <InfoBlock title="Prüfungsrelevant" text={card.begriff_erklaerung?.pruefungsrelevant} />
+      {card.fehlerfallen?.length > 0 && (
+        <div className="mt-3 rounded-lg bg-white p-3">
+          <h3 className="text-sm font-black">Fehlerfallen</h3>
+          <ul className="mt-2 space-y-1">
+            {card.fehlerfallen.map((item) => (
+              <li key={item} className="text-sm font-bold text-slate-700">- {item}</li>
+            ))}
+          </ul>
+        </div>
+      )}
       <CorrectAnswerPanel card={card} />
       {card.typ === 'formel_luecke_mc' && card.antwort_daten.formel && (
         <div className="mt-3 rounded-lg bg-white p-3">
@@ -689,6 +733,17 @@ function FeedbackPanel({ result, card, finalStage }) {
         </div>
       )}
     </section>
+  )
+}
+
+function InfoBlock({ title, text, compact = false }) {
+  if (!text) return null
+
+  return (
+    <div className={compact ? 'mt-3 rounded-lg bg-slate-50 p-3' : 'mt-3 rounded-lg bg-white p-3'}>
+      <h3 className="text-sm font-black">{title}</h3>
+      <p className="mt-1 text-sm font-semibold leading-relaxed text-slate-700">{text}</p>
+    </div>
   )
 }
 

@@ -1,4 +1,4 @@
-import dataset from './lernkarten_Alle_Faecher.json'
+import dataset from './lernkarten_pruefungen_final_Alle_Faecher.json'
 
 export const allowedTypes = [
   'single_choice',
@@ -25,9 +25,20 @@ function validateCard(card) {
 
   if (!card?.id) errors.push('id fehlt')
   if (!card?.fach) errors.push('fach fehlt')
+  if (!card?.thema_id) errors.push('thema_id fehlt')
+  if (!card?.thema) errors.push('thema fehlt')
+  if (!card?.quelle || typeof card.quelle !== 'object') errors.push('quelle fehlt')
+  if (![1, 2, 3].includes(card?.stufe)) errors.push('stufe ist ungültig')
   if (!card?.typ) errors.push('typ fehlt')
+  if (!card?.lernziel) errors.push('lernziel fehlt')
+  if (!card?.begriff_erklaerung?.kurz) errors.push('begriff_erklaerung.kurz fehlt')
+  if (!card?.begriff_erklaerung?.pruefungsrelevant) errors.push('begriff_erklaerung.pruefungsrelevant fehlt')
   if (!card?.frage) errors.push('frage fehlt')
   if (!card?.antwort_daten) errors.push('antwort_daten fehlt')
+  if (!card?.loesungsvorschlag?.kurz) errors.push('loesungsvorschlag.kurz fehlt')
+  if (!Array.isArray(card?.fehlerfallen)) errors.push('fehlerfallen fehlt')
+  if (!card?.review || typeof card.review !== 'object') errors.push('review fehlt')
+  if (!Array.isArray(card?.tags)) errors.push('tags fehlt')
   if (card?.typ && !allowedTypes.includes(card.typ)) errors.push(`ungültiger typ: ${card.typ}`)
 
   const data = card?.antwort_daten ?? {}
@@ -93,68 +104,15 @@ function validateCard(card) {
   return errors
 }
 
-function humanizeSourceId(sourceId) {
-  return String(sourceId ?? '')
-    .split('-')
-    .filter(Boolean)
-    .map((part) => {
-      const upper = part.toUpperCase()
-      if (['ROI', 'ROE', 'BEP', 'DB', 'EKQ', 'NGQ', 'EBIT', 'OR', 'VWL', 'SCM', 'KVP', 'SWOT', 'BIP', 'JIT', 'JIS', 'VMI', 'ABC', 'ESG', 'PDCA', 'PESTEL'].includes(upper)) return upper
-      return part.charAt(0).toUpperCase() + part.slice(1)
-    })
-    .join(' ')
-}
-
-function cleanLearningGoal(goal) {
-  return String(goal ?? '')
-    .replace(/^Aufgabe\s+stufe[_\w-]*\s+klickbar beantworten$/i, '')
-    .replace(/\s+auswendig können$/i, '')
-    .replace(/\s+klickbar beantworten$/i, '')
-    .replace(/^Häufige Fehlerfallen erkennen$/i, '')
-    .trim()
-}
-
-function titleFromQuestion(question) {
-  const match = String(question ?? '').match(/zu:\s*(.+?)\?$/u)
-  return match?.[1]?.trim() ?? ''
-}
-
-function buildTopicTitles(sourceCards) {
-  const titles = {}
-
-  sourceCards.forEach((card) => {
-    const key = card.quelle_id || card.id
-    const fromQuestion = titleFromQuestion(card.frage)
-    if (fromQuestion) titles[key] = fromQuestion
-  })
-
-  sourceCards.forEach((card) => {
-    const key = card.quelle_id || card.id
-    if (titles[key]) return
-    const cleanedGoal = cleanLearningGoal(card.lernziel)
-    if (cleanedGoal) titles[key] = cleanedGoal
-  })
-
-  sourceCards.forEach((card) => {
-    const key = card.quelle_id || card.id
-    if (!titles[key]) titles[key] = humanizeSourceId(key)
-  })
-
-  return titles
-}
-
-const topicTitles = buildTopicTitles(dataset.karten ?? [])
-
 const checkedCards = (dataset.karten ?? []).map((card) => {
   const errors = validateCard(card)
-  const topicTitle = topicTitles[card.quelle_id || card.id] || card.frage
-  const subtitle = cleanLearningGoal(card.lernziel)
   return {
     card: {
       ...card,
-      titel: topicTitle,
-      untertitel: subtitle && subtitle !== topicTitle ? subtitle : '',
-      frequenz: card.frequenz || (card.stufe >= 3 ? 'rot' : card.stufe === 2 ? 'gelb' : 'gruen')
+      titel: card.thema || card.lernziel || card.frage,
+      untertitel: card.lernziel && card.lernziel !== card.thema ? card.lernziel : '',
+      quelle_id: card.thema_id,
+      frequenz: card.stufe >= 3 ? 'rot' : card.stufe === 2 ? 'gelb' : 'gruen'
     },
     errors
   }
@@ -170,3 +128,4 @@ export const invalidCards = checkedCards
   }))
 
 export const contentMeta = dataset.meta ?? {}
+export const schemaVersion = dataset.meta?.schema_version ?? dataset.schema_version ?? '2.0-final-learning'
