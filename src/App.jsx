@@ -365,8 +365,7 @@ function SubjectScreen({ subject, progress, disabled, onBack, onToggle, onStartS
 function ShuffleScreen({ subject, topicIds, progress, onBack, onAnswered }) {
   const [index, setIndex] = useState(0)
   const topic = topics.find((item) => item.id === topicIds[index])
-  const topicProgress = topic ? getProgress(progress, topic.id) : defaultProgress
-  const card = topic ? pickTopicCard(topic, topicProgress) : null
+  const [card, setCard] = useState(() => (topic ? pickTopicCard(topic, getProgress(progress, topic.id)) : null))
   const [answer, setAnswer] = useState(() => initialAnswer(card))
   const [result, setResult] = useState(null)
   const isLastTopic = index >= topicIds.length - 1
@@ -389,10 +388,12 @@ function ShuffleScreen({ subject, topicIds, progress, onBack, onAnswered }) {
       return
     }
 
-    const nextTopic = topics.find((item) => item.id === topicIds[index + 1])
+    const nextIndex = index + 1
+    const nextTopic = topics.find((item) => item.id === topicIds[nextIndex])
     const nextProgress = nextTopic ? getProgress(progress, nextTopic.id) : defaultProgress
     const nextCard = nextTopic ? pickTopicCard(nextTopic, nextProgress) : null
-    setIndex(index + 1)
+    setIndex(nextIndex)
+    setCard(nextCard)
     setAnswer(initialAnswer(nextCard))
     setResult(null)
   }
@@ -402,7 +403,7 @@ function ShuffleScreen({ subject, topicIds, progress, onBack, onAnswered }) {
       eyebrow={`${subject.label} · ${index + 1} / ${topicIds.length}`}
       topic={topic}
       card={card}
-      progress={topicProgress}
+      progress={getProgress(progress, topic.id)}
       result={result}
       answer={answer}
       setAnswer={setAnswer}
@@ -420,8 +421,8 @@ function ShuffleScreen({ subject, topicIds, progress, onBack, onAnswered }) {
 }
 
 function TopicScreen({ topic, progress, onBack, onAnswered }) {
-  const card = pickTopicCard(topic, progress)
-  const [answer, setAnswer] = useState(initialAnswer(card))
+  const [card, setCard] = useState(() => pickTopicCard(topic, progress))
+  const [answer, setAnswer] = useState(() => initialAnswer(card))
   const [result, setResult] = useState(null)
 
   if (isLocked(progress) && !result) {
@@ -462,7 +463,9 @@ function TopicScreen({ topic, progress, onBack, onAnswered }) {
       }}
       nextLabel="Weiter"
       onNext={() => {
-        setAnswer(initialAnswer(pickTopicCard(topic, getProgress(readStorage(PROGRESS_KEY, {}), topic.id))))
+        const nextCard = pickTopicCard(topic, progress)
+        setCard(nextCard)
+        setAnswer(initialAnswer(nextCard))
         setResult(null)
       }}
     />
@@ -470,7 +473,7 @@ function TopicScreen({ topic, progress, onBack, onAnswered }) {
 }
 
 function LearningCard({ eyebrow, topic, card, progress, result, answer, setAnswer, onBack, onCheck, nextLabel, onNext }) {
-  const currentStage = normalizeStage(topic, progress.stage)
+  const currentStage = card.stufe ?? topic.minStage
 
   return (
     <section className="flex flex-1 flex-col px-4 pb-4 pt-4">
