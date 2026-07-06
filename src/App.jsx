@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import {
   ArrowLeft,
   BookOpen,
@@ -90,6 +90,26 @@ function App() {
   const [progress, setProgress] = useState(() => readStorage(PROGRESS_KEY, {}))
   const [disabled, setDisabled] = useState(() => readStorage(DISABLED_KEY, {}))
 
+  useEffect(() => {
+    window.history.replaceState({ name: 'home' }, '')
+
+    function handlePopState(event) {
+      setView(event.state ?? { name: 'home' })
+    }
+
+    window.addEventListener('popstate', handlePopState)
+    return () => window.removeEventListener('popstate', handlePopState)
+  }, [])
+
+  function navigate(next) {
+    window.history.pushState(next, '')
+    setView(next)
+  }
+
+  function goBack() {
+    window.history.back()
+  }
+
   const activeTopics = useMemo(() => topics.filter((topic) => !disabled[topic.id]), [disabled])
   const selectedSubject = view.subjectId ? subjectById[view.subjectId] : null
   const selectedTopic = view.topicId ? topics.find((topic) => topic.id === view.topicId) : null
@@ -147,7 +167,7 @@ function App() {
         .map((topic) => topic.id)
     )
     if (topicIds.length === 0) return
-    setView({ name: 'shuffle', subjectId, topicIds })
+    navigate({ name: 'shuffle', subjectId, topicIds })
   }
 
   return (
@@ -158,7 +178,7 @@ function App() {
             activeTopics={activeTopics}
             disabled={disabled}
             progress={progress}
-            onOpenSubject={(subjectId) => setView({ name: 'subject', subjectId })}
+            onOpenSubject={(subjectId) => navigate({ name: 'subject', subjectId })}
           />
         )}
         {view.name === 'subject' && selectedSubject && (
@@ -166,17 +186,17 @@ function App() {
             subject={selectedSubject}
             progress={progress}
             disabled={disabled}
-            onBack={() => setView({ name: 'home' })}
+            onBack={goBack}
             onToggle={toggleTopic}
             onStartShuffle={() => startShuffle(selectedSubject.id)}
-            onOpenTopic={(topicId) => setView({ name: 'topic', subjectId: selectedSubject.id, topicId })}
+            onOpenTopic={(topicId) => navigate({ name: 'topic', subjectId: selectedSubject.id, topicId })}
           />
         )}
         {view.name === 'topic' && selectedSubject && selectedTopic && (
           <TopicScreen
             topic={selectedTopic}
             progress={getProgress(progress, selectedTopic.id)}
-            onBack={() => setView({ name: 'subject', subjectId: selectedSubject.id })}
+            onBack={goBack}
             onAnswered={(card, answer, isCorrect) => updateTopicProgress(selectedTopic, card, answer, isCorrect)}
           />
         )}
@@ -185,7 +205,7 @@ function App() {
             subject={selectedSubject}
             topicIds={view.topicIds}
             progress={progress}
-            onBack={() => setView({ name: 'subject', subjectId: selectedSubject.id })}
+            onBack={goBack}
             onAnswered={(topic, card, answer, isCorrect) => updateTopicProgress(topic, card, answer, isCorrect)}
           />
         )}
