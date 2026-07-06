@@ -9070,28 +9070,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Absatzentscheidung verstehen",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Absatzentscheidungen legen fest, welche Menge über welche Kanäle zu welchem Preis am Markt abgesetzt werden soll.",
+        "pruefungsrelevant": "Prüfungsnah ist, Absatzentscheidungen anhand von Marktnachfrage, Kapazität und Zielgruppe zu begründen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Absatzentscheidung“ fachlich am besten?",
+      "frage": "Worauf stützt sich eine fundierte Absatzentscheidung?",
       "antwort_daten": {
         "optionen": [
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich."
+          "Absatzentscheidungen legen fest, welche Menge über welche Kanäle zu welchem Preis am Markt abgesetzt werden soll.",
+          "Ausschliesslich auf die Produktionskapazität, unabhängig von der Nachfrage.",
+          "Nur auf die Wünsche der Verkaufsabteilung.",
+          "Auf den Verkaufspreis der Konkurrenz, unabhängig von der eigenen Kapazität."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Absatzentscheidungen legen fest, welche Menge über welche Kanäle zu welchem Preis am Markt abgesetzt werden soll.",
+        "rechenweg": "Markt-/Nachfrageanalyse, verfügbare Kapazität und passende Kanäle zusammen ergeben eine realistische Absatzplanung.",
+        "warum": "Reine Kapazitäts- oder Konkurrenzorientierung ohne Marktbezug führt zu Fehlplanungen bei Menge oder Kanal."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Absatzmenge ohne Bezug zur tatsächlichen Nachfrage planen.",
+        "Kapazitätsgrenzen der Produktion/Logistik ignorieren.",
+        "Absatzkanal wählen, ohne die Zielgruppe zu berücksichtigen."
       ],
       "review": {
         "box": 1,
@@ -9112,7 +9112,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Absatzentscheide brauchen einen Blick auf Markt, Kapazität und Kundschaft gleichzeitig."
     },
     {
       "id": "marketing_verkauf_absatzentscheidung_stufe2_fehlerfalle",
@@ -9137,32 +9137,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Absatzentscheidung vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Absatzentscheidungen legen fest, welche Menge über welche Kanäle zu welchem Preis am Markt abgesetzt werden soll.",
+        "pruefungsrelevant": "Prüfungsnah ist, Absatzentscheidungen anhand von Marktnachfrage, Kapazität und Zielgruppe zu begründen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Absatzentscheidung“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei Absatzentscheidungen sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Massnahmen immer mit Zielgruppe und Kundennutzen verknüpfen.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Bei Reklamationen Ursache, Kundenanliegen und Folgeprozess systematisch prüfen.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich."
+          "Die Absatzmenge wird ohne Bezug zur tatsächlichen Nachfrage geplant.",
+          "Kapazitätsgrenzen von Produktion oder Logistik werden ignoriert.",
+          "Der Absatzkanal wird gewählt, ohne die Zielgruppe zu berücksichtigen.",
+          "Absatzmengen werden anhand von Markt- und Kapazitätsdaten geplant.",
+          "Der Kanal wird passend zur Zielgruppe ausgewählt."
         ],
         "richtige_indices": [
           0,
-          3
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Richtig sind eine nachfrageferne Mengenplanung, ignorierte Kapazitätsgrenzen und ein zielgruppenferner Kanalentscheid.",
+        "rechenweg": "Ohne Abgleich mit Nachfrage und Kapazität riskiert man Über- oder Unterproduktion sowie unpassende Vertriebskanäle.",
+        "warum": "Prüfungsnah ist, Absatzentscheidungen anhand von Marktnachfrage, Kapazität und Zielgruppe zu begründen."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Absatzmenge ohne Bezug zur tatsächlichen Nachfrage planen.",
+        "Kapazitätsgrenzen der Produktion/Logistik ignorieren.",
+        "Absatzkanal wählen, ohne die Zielgruppe zu berücksichtigen."
       ],
       "review": {
         "box": 1,
@@ -9185,7 +9186,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Absatzentscheide brauchen einen Blick auf Markt, Kapazität und Kundschaft gleichzeitig."
     },
     {
       "id": "marketing_verkauf_beschaffung_lieferanten_stufe1_begriff",
@@ -9376,28 +9377,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Beschwerdebearbeitung verstehen",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Beschwerden werden systematisch aufgenommen, die Ursache geklärt und eine für die Kundschaft nachvollziehbare Lösung angeboten.",
+        "pruefungsrelevant": "Prüfungsnah ist ein strukturierter Beschwerdeprozess: Aufnehmen, Ursache klären, Lösung anbieten, nachverfolgen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Beschwerdebearbeitung“ fachlich am besten?",
+      "frage": "Wie sollte eine Beschwerde professionell bearbeitet werden?",
       "antwort_daten": {
         "optionen": [
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen."
+          "Beschwerden werden systematisch aufgenommen, die Ursache geklärt und eine für die Kundschaft nachvollziehbare Lösung angeboten.",
+          "Mit einer schnellen Standardabsage, um den Aufwand gering zu halten.",
+          "Beschwerden sollten grundsätzlich ignoriert werden, wenn sie unbegründet wirken.",
+          "Nur schriftliche Beschwerden müssen bearbeitet werden."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Beschwerden werden systematisch aufgenommen, die Ursache geklärt und eine für die Kundschaft nachvollziehbare Lösung angeboten.",
+        "rechenweg": "Aufnehmen, Ursache klären, passende Lösung anbieten und den Fall nachverfolgen - so entsteht eine nachvollziehbare Bearbeitung.",
+        "warum": "Standardabsagen oder das Ignorieren von Beschwerden schaden der Kundenbeziehung und verhindern Lerneffekte fürs Unternehmen."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Beschwerden mit einer schnellen Standardabsage abwimmeln.",
+        "Ursache der Beschwerde nicht wirklich klären.",
+        "Beschwerden nicht dokumentieren oder für Verbesserungen auswerten."
       ],
       "review": {
         "box": 1,
@@ -9418,7 +9419,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Eine Beschwerde ist eine zweite Chance - wenn man sie richtig nutzt."
     },
     {
       "id": "marketing_verkauf_beschwerdebearbeitung_stufe2_fehlerfalle",
@@ -9443,32 +9444,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Beschwerdebearbeitung vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Beschwerden werden systematisch aufgenommen, die Ursache geklärt und eine für die Kundschaft nachvollziehbare Lösung angeboten.",
+        "pruefungsrelevant": "Prüfungsnah ist ein strukturierter Beschwerdeprozess: Aufnehmen, Ursache klären, Lösung anbieten, nachverfolgen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Beschwerdebearbeitung“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Beschwerdebearbeitung sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Massnahmen immer mit Zielgruppe und Kundennutzen verknüpfen.",
-          "Bei Reklamationen Ursache, Kundenanliegen und Folgeprozess systematisch prüfen.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung."
+          "Beschwerden werden mit einer schnellen Standardabsage abgewimmelt.",
+          "Die Ursache der Beschwerde wird nicht wirklich geklärt.",
+          "Beschwerden werden nicht dokumentiert oder ausgewertet.",
+          "Beschwerden werden systematisch erfasst und ausgewertet.",
+          "Aus wiederkehrenden Beschwerden werden Verbesserungen abgeleitet."
         ],
         "richtige_indices": [
-          2,
-          3
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Richtig sind die Standardabsage statt Ursachenklärung, ungeklärte Ursachen und fehlende Dokumentation/Auswertung.",
+        "rechenweg": "Ohne Dokumentation lassen sich wiederkehrende Probleme nicht erkennen und dauerhaft beheben.",
+        "warum": "Prüfungsnah ist ein strukturierter Beschwerdeprozess: Aufnehmen, Ursache klären, Lösung anbieten, nachverfolgen."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Beschwerden mit einer schnellen Standardabsage abwimmeln.",
+        "Ursache der Beschwerde nicht wirklich klären.",
+        "Beschwerden nicht dokumentieren oder für Verbesserungen auswerten."
       ],
       "review": {
         "box": 1,
@@ -9491,7 +9493,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Eine Beschwerde ist eine zweite Chance - wenn man sie richtig nutzt."
     },
     {
       "id": "marketing_verkauf_break_even_deckungsbeitrag_stufe1_begriff",
@@ -9583,32 +9585,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Break-even / Deckungsbeitrag vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
-        "pruefungsrelevant": "Beim Break-even wird geprüft, ab welcher Menge oder welchem Umsatz die Fixkosten gedeckt sind."
+        "kurz": "Break-even-Menge = Fixkosten / Deckungsbeitrag pro Stück; DB pro Stück = Verkaufspreis minus variable Kosten.",
+        "pruefungsrelevant": "Prüfungsnah ist, wie sich Rabatte im Verkauf auf den Deckungsbeitrag und damit auf die Break-even-Menge auswirken."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Break-even / Deckungsbeitrag“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Zusammenspiel von Verkaufsrabatten und Deckungsbeitrag sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Fixkosten werden vom Verkaufspreis abgezogen, um den DB pro Stück zu erhalten.",
-          "Break-even-Umsatz wird mit den variablen Kosten pro Stück berechnet.",
-          "Für den Break-even die Fixkosten durch den DB pro Stück teilen.",
-          "Ein positiver Deckungsbeitrag ist grundsätzlich ein Grund, ein Produkt sofort zu streichen.",
-          "Nur variable Kosten vom Verkaufspreis abziehen, um den DB pro Stück zu erhalten."
+          "Rabatte werden gewährt, ohne die Wirkung auf den Deckungsbeitrag zu berechnen.",
+          "Fixkosten werden statt variabler Kosten vom Verkaufspreis abgezogen.",
+          "Break-even-Menge und Break-even-Umsatz werden verwechselt.",
+          "Die Wirkung von Rabatten auf den Deckungsbeitrag wird vorab berechnet.",
+          "Break-even-Menge und -Umsatz werden klar auseinandergehalten."
         ],
         "richtige_indices": [
-          2,
-          4
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Beim Break-even wird geprüft, ab welcher Menge oder welchem Umsatz die Fixkosten gedeckt sind."
+        "kurz": "Richtig sind unberechnete Rabattwirkungen, der falsche Kostenabzug und die Verwechslung von Menge und Umsatz.",
+        "rechenweg": "Ein Rabatt senkt den effektiven Verkaufspreis und damit den Deckungsbeitrag pro Stück - die Break-even-Menge steigt dadurch.",
+        "warum": "Prüfungsnah ist, wie sich Rabatte im Verkauf auf den Deckungsbeitrag und damit auf die Break-even-Menge auswirken."
       },
       "fehlerfallen": [
-        "Fixkosten statt variable Kosten vom Preis abziehen.",
-        "Bei BEP in CHF den Verkaufspreis vergessen.",
-        "Positive DB fälschlich als Verlust interpretieren."
+        "Rabatte gewähren, ohne die Wirkung auf den Deckungsbeitrag zu berechnen.",
+        "Fixkosten statt variable Kosten vom Verkaufspreis abziehen.",
+        "Break-even-Menge und Break-even-Umsatz verwechseln."
       ],
       "review": {
         "box": 1,
@@ -9631,7 +9634,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "DB deckt Fixkosten; Break-even ist dort, wo die DB-Summe die Fixkosten trägt."
+      "merksatz": "Jeder Rabatt senkt den Deckungsbeitrag - und erhöht damit die nötige Break-even-Menge."
     },
     {
       "id": "marketing_verkauf_break_even_deckungsbeitrag_stufe1_formel_1",
@@ -9656,28 +9659,28 @@
       "typ": "single_choice",
       "lernziel": "Formel zu BEP Menge sicher abrufen",
       "begriff_erklaerung": {
-        "kurz": "Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
-        "pruefungsrelevant": "Beim Break-even wird geprüft, ab welcher Menge oder welchem Umsatz die Fixkosten gedeckt sind."
+        "kurz": "Break-even-Menge = Fixkosten / Deckungsbeitrag pro Stück; DB pro Stück = Verkaufspreis minus variable Kosten.",
+        "pruefungsrelevant": "Prüfungsnah ist, wie sich Rabatte im Verkauf auf den Deckungsbeitrag und damit auf die Break-even-Menge auswirken."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Break-even / Deckungsbeitrag“ fachlich am besten?",
+      "frage": "Wie wirkt sich ein Verkaufsrabatt auf die Break-even-Menge aus?",
       "antwort_daten": {
         "optionen": [
-          "Break-even-Menge = Fixkosten / Deckungsbeitrag pro Stück; DB pro Stück = Verkaufspreis − variable Kosten.",
-          "Fixkosten werden vom Verkaufspreis abgezogen, um den DB pro Stück zu erhalten.",
-          "Break-even-Umsatz wird mit den variablen Kosten pro Stück berechnet.",
-          "Ein positiver Deckungsbeitrag ist grundsätzlich ein Grund, ein Produkt sofort zu streichen."
+          "Ein Rabatt senkt den Deckungsbeitrag pro Stück und erhöht damit die Break-even-Menge.",
+          "Ein Rabatt erhöht automatisch den Deckungsbeitrag pro Stück.",
+          "Rabatte haben keinen Einfluss auf die Break-even-Menge.",
+          "Ein Rabatt senkt ausschliesslich die Fixkosten."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Break-even-Menge = Fixkosten / Deckungsbeitrag pro Stück; DB pro Stück = Verkaufspreis − variable Kosten.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Beim Break-even wird geprüft, ab welcher Menge oder welchem Umsatz die Fixkosten gedeckt sind."
+        "kurz": "Ein Rabatt senkt den Deckungsbeitrag pro Stück und erhöht damit die Break-even-Menge.",
+        "rechenweg": "Da DB pro Stück = Verkaufspreis - variable Kosten, senkt ein Rabatt direkt den DB - die Break-even-Menge (Fixkosten/DB) steigt entsprechend.",
+        "warum": "Ein Rabatt senkt den Preis und damit den DB, beeinflusst aber die Fixkosten nicht direkt."
       },
       "fehlerfallen": [
-        "Fixkosten statt variable Kosten vom Preis abziehen.",
-        "Bei BEP in CHF den Verkaufspreis vergessen.",
-        "Positive DB fälschlich als Verlust interpretieren."
+        "Rabatte gewähren, ohne die Wirkung auf den Deckungsbeitrag zu berechnen.",
+        "Fixkosten statt variable Kosten vom Verkaufspreis abziehen.",
+        "Break-even-Menge und Break-even-Umsatz verwechseln."
       ],
       "review": {
         "box": 1,
@@ -9699,7 +9702,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "DB deckt Fixkosten; Break-even ist dort, wo die DB-Summe die Fixkosten trägt."
+      "merksatz": "Jeder Rabatt senkt den Deckungsbeitrag - und erhöht damit die nötige Break-even-Menge."
     },
     {
       "id": "marketing_verkauf_break_even_deckungsbeitrag_stufe1_formel_2",
@@ -9724,28 +9727,28 @@
       "typ": "single_choice",
       "lernziel": "Formel zu Deckungsbeitrag sicher abrufen",
       "begriff_erklaerung": {
-        "kurz": "Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
-        "pruefungsrelevant": "Beim Break-even wird geprüft, ab welcher Menge oder welchem Umsatz die Fixkosten gedeckt sind."
+        "kurz": "Break-even-Menge = Fixkosten / Deckungsbeitrag pro Stück; DB pro Stück = Verkaufspreis minus variable Kosten.",
+        "pruefungsrelevant": "Prüfungsnah ist, wie sich Rabatte im Verkauf auf den Deckungsbeitrag und damit auf die Break-even-Menge auswirken."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Break-even / Deckungsbeitrag“ fachlich am besten?",
+      "frage": "Wie verändert sich die Break-even-Menge, wenn die Fixkosten steigen (z.B. durch eine neue Werbekampagne)?",
       "antwort_daten": {
         "optionen": [
-          "Break-even-Umsatz wird mit den variablen Kosten pro Stück berechnet.",
-          "Break-even-Menge = Fixkosten / Deckungsbeitrag pro Stück; DB pro Stück = Verkaufspreis − variable Kosten.",
-          "Fixkosten werden vom Verkaufspreis abgezogen, um den DB pro Stück zu erhalten.",
-          "Ein positiver Deckungsbeitrag ist grundsätzlich ein Grund, ein Produkt sofort zu streichen."
+          "Sie steigt, weil mehr Deckungsbeiträge nötig sind, um die höheren Fixkosten zu decken.",
+          "Sie sinkt automatisch, weil mehr Kunden erwartet werden.",
+          "Sie bleibt unverändert, da Fixkosten die Break-even-Menge nicht beeinflussen.",
+          "Sie hängt nur vom Verkaufspreis ab, nicht von den Fixkosten."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Break-even-Menge = Fixkosten / Deckungsbeitrag pro Stück; DB pro Stück = Verkaufspreis − variable Kosten.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Beim Break-even wird geprüft, ab welcher Menge oder welchem Umsatz die Fixkosten gedeckt sind."
+        "kurz": "Sie steigt, weil mehr Deckungsbeiträge nötig sind, um die höheren Fixkosten zu decken.",
+        "rechenweg": "Break-even-Menge = Fixkosten / DB pro Stück - steigen die Fixkosten, muss bei gleichem DB eine höhere Menge verkauft werden.",
+        "warum": "Fixkosten sind Teil der Break-even-Formel und beeinflussen die nötige Verkaufsmenge direkt."
       },
       "fehlerfallen": [
-        "Fixkosten statt variable Kosten vom Preis abziehen.",
-        "Bei BEP in CHF den Verkaufspreis vergessen.",
-        "Positive DB fälschlich als Verlust interpretieren."
+        "Rabatte gewähren, ohne die Wirkung auf den Deckungsbeitrag zu berechnen.",
+        "Fixkosten statt variable Kosten vom Verkaufspreis abziehen.",
+        "Break-even-Menge und Break-even-Umsatz verwechseln."
       ],
       "review": {
         "box": 1,
@@ -9767,13 +9770,13 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "DB deckt Fixkosten; Break-even ist dort, wo die DB-Summe die Fixkosten trägt."
+      "merksatz": "Jeder Rabatt senkt den Deckungsbeitrag - und erhöht damit die nötige Break-even-Menge."
     },
     {
       "id": "marketing_verkauf_crm_stufe1_begriff",
       "fach": "Marketing_Verkauf",
       "thema_id": "crm",
-      "thema": "Integrierte Fallstudie",
+      "thema": "Kundenbeziehungsmanagement (CRM)",
       "quelle": {
         "typ": "abgeleitet_aus_pruefungen",
         "jahre": [
@@ -9792,28 +9795,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu CRM verstehen",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "CRM (Customer Relationship Management) verwaltet und pflegt systematisch die Beziehung zur Kundschaft über den gesamten Kundenlebenszyklus.",
+        "pruefungsrelevant": "Prüfungsnah ist, CRM als aktives Kundenbeziehungsmanagement zu verstehen, nicht nur als Adressdatenbank."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Integrierte Fallstudie“ fachlich am besten?",
+      "frage": "Was ist der Kerngedanke von CRM (Customer Relationship Management)?",
       "antwort_daten": {
         "optionen": [
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich."
+          "CRM (Customer Relationship Management) verwaltet und pflegt systematisch die Beziehung zur Kundschaft über den gesamten Kundenlebenszyklus.",
+          "CRM dient nur zum Speichern alter Adressen, ohne aktive Kundenbearbeitung.",
+          "CRM betrifft ausschliesslich die IT-Abteilung.",
+          "CRM ist nur für Grossunternehmen mit vielen Kunden relevant."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "CRM (Customer Relationship Management) verwaltet und pflegt systematisch die Beziehung zur Kundschaft über den gesamten Kundenlebenszyklus.",
+        "rechenweg": "CRM bündelt Kundendaten, Kontakthistorie und Präferenzen, um Kundenbeziehungen aktiv und individuell zu pflegen.",
+        "warum": "Reine Adressverwaltung, ein IT-only-Verständnis oder die Beschränkung auf Grossunternehmen greifen zu kurz."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "CRM nur als Adressverwaltung ohne aktive Kundenbearbeitung verstehen.",
+        "CRM-Daten nicht aktuell halten.",
+        "CRM-Erkenntnisse nicht für individuelle Kundenansprache nutzen."
       ],
       "review": {
         "box": 1,
@@ -9834,13 +9837,13 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "CRM ist Beziehungspflege mit System - nicht nur eine Adressliste."
     },
     {
       "id": "marketing_verkauf_crm_stufe2_fehlerfalle",
       "fach": "Marketing_Verkauf",
       "thema_id": "crm",
-      "thema": "Integrierte Fallstudie",
+      "thema": "Kundenbeziehungsmanagement (CRM)",
       "quelle": {
         "typ": "abgeleitet_aus_pruefungen",
         "jahre": [
@@ -9859,32 +9862,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei CRM vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "CRM (Customer Relationship Management) verwaltet und pflegt systematisch die Beziehung zur Kundschaft über den gesamten Kundenlebenszyklus.",
+        "pruefungsrelevant": "Prüfungsnah ist, CRM als aktives Kundenbeziehungsmanagement zu verstehen, nicht nur als Adressdatenbank."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Integrierte Fallstudie“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Einsatz von CRM sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Massnahmen immer mit Zielgruppe und Kundennutzen verknüpfen.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "Bei Reklamationen Ursache, Kundenanliegen und Folgeprozess systematisch prüfen.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung."
+          "CRM wird nur als Adressverwaltung ohne aktive Kundenbearbeitung verstanden.",
+          "CRM-Daten werden nicht aktuell gehalten.",
+          "CRM-Erkenntnisse werden nicht für individuelle Kundenansprache genutzt.",
+          "CRM-Daten werden regelmässig gepflegt und aktualisiert.",
+          "Erkenntnisse aus dem CRM fliessen in die Kundenansprache ein."
         ],
         "richtige_indices": [
+          0,
           1,
-          3
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Richtig sind die Reduktion auf Adressverwaltung, veraltete Daten und ungenutzte Erkenntnisse für die Kundenansprache.",
+        "rechenweg": "Veraltete oder ungenutzte CRM-Daten liefern keinen Mehrwert für die individuelle Kundenbetreuung.",
+        "warum": "Prüfungsnah ist, CRM als aktives Kundenbeziehungsmanagement zu verstehen, nicht nur als Adressdatenbank."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "CRM nur als Adressverwaltung ohne aktive Kundenbearbeitung verstehen.",
+        "CRM-Daten nicht aktuell halten.",
+        "CRM-Erkenntnisse nicht für individuelle Kundenansprache nutzen."
       ],
       "review": {
         "box": 1,
@@ -9907,7 +9911,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "CRM ist Beziehungspflege mit System - nicht nur eine Adressliste."
     },
     {
       "id": "marketing_verkauf_crm_system_stufe1_begriff",
@@ -9932,28 +9936,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu CRM-System verstehen",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Ein CRM-System bündelt Kundendaten, Kontakte und Verkaufschancen zentral und unterstützt die Kundenbetreuung.",
+        "pruefungsrelevant": "Prüfungsnah ist, dass ein CRM-System nur mit gepflegten, aktuellen Daten seinen vollen Nutzen entfaltet."
       },
-      "frage": "Welche Aussage beschreibt das Thema „CRM-System“ fachlich am besten?",
+      "frage": "Was ist die zentrale Funktion eines CRM-Systems?",
       "antwort_daten": {
         "optionen": [
-          "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich."
+          "Es erfasst und verknüpft Kundendaten, Kontakthistorie und Verkaufschancen an einem zentralen Ort.",
+          "Es dient nur zum Speichern alter Adressen, ohne weiteren Nutzen.",
+          "Es ersetzt vollständig den persönlichen Kundenkontakt.",
+          "Es wird nur einmalig bei der Einführung befüllt und danach nicht mehr gepflegt."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Es erfasst und verknüpft Kundendaten, Kontakthistorie und Verkaufschancen an einem zentralen Ort.",
+        "rechenweg": "Zentral erfasste Kundendaten ermöglichen es allen Mitarbeitenden, konsistent und informiert mit der Kundschaft zu kommunizieren.",
+        "warum": "Ein CRM-System ersetzt den persönlichen Kontakt nicht, sondern unterstützt ihn - und muss laufend gepflegt werden."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "CRM-System nur einmalig befüllen, dann nicht mehr pflegen.",
+        "Doppelte oder veraltete Kundendatensätze nicht bereinigen.",
+        "CRM-System isoliert von anderen Verkaufsprozessen nutzen."
       ],
       "review": {
         "box": 1,
@@ -9974,7 +9978,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Ein CRM-System ist nur so gut wie die Daten, die aktuell darin gepflegt werden."
     },
     {
       "id": "marketing_verkauf_crm_system_stufe2_fehlerfalle",
@@ -9999,32 +10003,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei CRM-System vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Ein CRM-System bündelt Kundendaten, Kontakte und Verkaufschancen zentral und unterstützt die Kundenbetreuung.",
+        "pruefungsrelevant": "Prüfungsnah ist, dass ein CRM-System nur mit gepflegten, aktuellen Daten seinen vollen Nutzen entfaltet."
       },
-      "frage": "Welche Hinweise helfen beim Thema „CRM-System“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Einsatz eines CRM-Systems sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Bei Reklamationen Ursache, Kundenanliegen und Folgeprozess systematisch prüfen.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "Massnahmen immer mit Zielgruppe und Kundennutzen verknüpfen.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung."
+          "Das CRM-System wird nur einmalig befüllt und danach nicht mehr gepflegt.",
+          "Doppelte oder veraltete Kundendatensätze werden nicht bereinigt.",
+          "Das CRM-System wird isoliert von anderen Verkaufsprozessen genutzt.",
+          "Reklamationen werden systematisch im CRM erfasst und nachverfolgt.",
+          "Das CRM-System wird mit anderen Verkaufsprozessen verknüpft."
         ],
         "richtige_indices": [
+          0,
           1,
-          3
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Richtig sind die fehlende laufende Pflege, unbereinigte Datensätze und die isolierte Nutzung ohne Prozessanbindung.",
+        "rechenweg": "Ohne saubere, aktuelle Daten und Prozessanbindung bleibt der Mehrwert eines CRM-Systems weit hinter seinem Potenzial zurück.",
+        "warum": "Prüfungsnah ist, dass ein CRM-System nur mit gepflegten, aktuellen Daten seinen vollen Nutzen entfaltet."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "CRM-System nur einmalig befüllen, dann nicht mehr pflegen.",
+        "Doppelte oder veraltete Kundendatensätze nicht bereinigen.",
+        "CRM-System isoliert von anderen Verkaufsprozessen nutzen."
       ],
       "review": {
         "box": 1,
@@ -10047,7 +10052,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Ein CRM-System ist nur so gut wie die Daten, die aktuell darin gepflegt werden."
     },
     {
       "id": "marketing_verkauf_e_commerce_stufe1_begriff",
@@ -10072,28 +10077,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu E-Commerce verstehen",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "E-Commerce ermöglicht den Verkauf von Produkten und Dienstleistungen über digitale Kanäle, inkl. Bestellung, Zahlung und Lieferung.",
+        "pruefungsrelevant": "Prüfungsnah sind zentrale E-Commerce-Elemente: Online-Shop, Zahlungsabwicklung, Logistik und Kundenkommunikation."
       },
-      "frage": "Welche Aussage beschreibt das Thema „E-Commerce“ fachlich am besten?",
+      "frage": "Was umfasst E-Commerce als Vertriebsform?",
       "antwort_daten": {
         "optionen": [
-          "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich."
+          "E-Commerce ermöglicht den Verkauf von Produkten und Dienstleistungen über digitale Kanäle, inkl. Bestellung, Zahlung und Lieferung.",
+          "Ausschliesslich die Gestaltung der Website ohne Bezug zu Zahlung oder Lieferung.",
+          "E-Commerce betrifft nur den Verkauf physischer Produkte.",
+          "E-Commerce benötigt keine rechtlichen Vorgaben (z.B. Widerrufsrecht)."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "E-Commerce ermöglicht den Verkauf von Produkten und Dienstleistungen über digitale Kanäle, inkl. Bestellung, Zahlung und Lieferung.",
+        "rechenweg": "Ein funktionierender E-Commerce-Prozess verbindet Online-Präsentation, sichere Zahlung, Logistik und rechtskonforme Bedingungen.",
+        "warum": "Website-Gestaltung allein, die Beschränkung auf physische Produkte oder das Ignorieren rechtlicher Vorgaben greifen zu kurz."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "E-Commerce nur auf die Website reduzieren, Logistik/Zahlung vergessen.",
+        "Rückgabe- und Widerrufsrecht im Online-Handel missachten.",
+        "Sicherheitsaspekte (z.B. Zahlungsdaten) bei der Shop-Gestaltung vernachlässigen."
       ],
       "review": {
         "box": 1,
@@ -10114,7 +10119,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "E-Commerce ist mehr als ein Online-Shop - Zahlung, Logistik und Recht gehören dazu."
     },
     {
       "id": "marketing_verkauf_e_commerce_stufe2_fehlerfalle",
@@ -10139,32 +10144,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei E-Commerce vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "E-Commerce ermöglicht den Verkauf von Produkten und Dienstleistungen über digitale Kanäle, inkl. Bestellung, Zahlung und Lieferung.",
+        "pruefungsrelevant": "Prüfungsnah sind zentrale E-Commerce-Elemente: Online-Shop, Zahlungsabwicklung, Logistik und Kundenkommunikation."
       },
-      "frage": "Welche Hinweise helfen beim Thema „E-Commerce“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern im E-Commerce sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "Bei Reklamationen Ursache, Kundenanliegen und Folgeprozess systematisch prüfen.",
-          "Massnahmen immer mit Zielgruppe und Kundennutzen verknüpfen."
+          "E-Commerce wird nur auf die Website reduziert, Logistik/Zahlung werden vergessen.",
+          "Rückgabe- und Widerrufsrecht im Online-Handel werden missachtet.",
+          "Sicherheitsaspekte bei Zahlungsdaten werden bei der Shop-Gestaltung vernachlässigt.",
+          "Zahlungsdaten werden über gesicherte, geprüfte Verfahren abgewickelt.",
+          "Widerrufsrecht und Rückgabebedingungen werden klar kommuniziert."
         ],
         "richtige_indices": [
-          3,
-          4
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Richtig sind die Reduktion auf die Website, missachtetes Widerrufsrecht und vernachlässigte Zahlungssicherheit.",
+        "rechenweg": "Fehlende Sicherheit oder Rechtskonformität im Online-Handel gefährden Kundenvertrauen und können rechtliche Folgen haben.",
+        "warum": "Prüfungsnah sind zentrale E-Commerce-Elemente: Online-Shop, Zahlungsabwicklung, Logistik und Kundenkommunikation."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "E-Commerce nur auf die Website reduzieren, Logistik/Zahlung vergessen.",
+        "Rückgabe- und Widerrufsrecht im Online-Handel missachten.",
+        "Sicherheitsaspekte (z.B. Zahlungsdaten) bei der Shop-Gestaltung vernachlässigen."
       ],
       "review": {
         "box": 1,
@@ -10187,7 +10193,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "E-Commerce ist mehr als ein Online-Shop - Zahlung, Logistik und Recht gehören dazu."
     },
     {
       "id": "marketing_verkauf_event_planen_und_umsetzen_stufe1_begriff",
@@ -10212,28 +10218,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Event planen und umsetzen verstehen",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Eventplanung umfasst Zielsetzung, Budget, Programm, Logistik und Erfolgskontrolle einer Veranstaltung.",
+        "pruefungsrelevant": "Prüfungsnah ist, ein Event systematisch zu planen (Ziel, Zielgruppe, Budget) und nach der Durchführung auszuwerten."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Event planen und umsetzen“ fachlich am besten?",
+      "frage": "Was gehört zur systematischen Planung eines Events?",
       "antwort_daten": {
         "optionen": [
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich."
+          "Eventplanung umfasst Zielsetzung, Budget, Programm, Logistik und Erfolgskontrolle einer Veranstaltung.",
+          "Nur die Wahl der Location, alle anderen Aspekte ergeben sich von selbst.",
+          "Ein Budget ist bei internen Events nicht nötig.",
+          "Die Erfolgskontrolle nach dem Event ist verzichtbar."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Eventplanung umfasst Zielsetzung, Budget, Programm, Logistik und Erfolgskontrolle einer Veranstaltung.",
+        "rechenweg": "Ziel, Zielgruppe, Budget, Programm und Logistik werden vor dem Event geplant, danach folgt die Erfolgskontrolle (z.B. Feedback, Zielerreichung).",
+        "warum": "Reine Locationwahl, fehlendes Budget oder ausbleibende Erfolgskontrolle lassen wichtige Planungsschritte aus."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Event ohne klares Ziel oder Zielgruppe planen.",
+        "Budget nicht im Voraus festlegen oder überschreiten.",
+        "Erfolgskontrolle nach dem Event auslassen."
       ],
       "review": {
         "box": 1,
@@ -10254,7 +10260,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Ohne Ziel und Erfolgskontrolle ist ein Event nur eine teure Party."
     },
     {
       "id": "marketing_verkauf_event_planen_und_umsetzen_stufe2_fehlerfalle",
@@ -10279,32 +10285,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Event planen und umsetzen vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Eventplanung umfasst Zielsetzung, Budget, Programm, Logistik und Erfolgskontrolle einer Veranstaltung.",
+        "pruefungsrelevant": "Prüfungsnah ist, ein Event systematisch zu planen (Ziel, Zielgruppe, Budget) und nach der Durchführung auszuwerten."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Event planen und umsetzen“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Eventplanung sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Massnahmen immer mit Zielgruppe und Kundennutzen verknüpfen.",
-          "Bei Reklamationen Ursache, Kundenanliegen und Folgeprozess systematisch prüfen.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich."
+          "Das Event wird ohne klares Ziel oder definierte Zielgruppe geplant.",
+          "Das Budget wird nicht im Voraus festgelegt oder deutlich überschritten.",
+          "Die Erfolgskontrolle nach dem Event wird ausgelassen.",
+          "Ziel und Zielgruppe werden vor der Planung klar definiert.",
+          "Der Erfolg wird nach dem Event anhand vorab definierter Kriterien gemessen."
         ],
         "richtige_indices": [
           0,
-          1
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Richtig sind ein fehlendes Ziel, ein unkontrolliertes Budget und die ausgelassene Erfolgskontrolle.",
+        "rechenweg": "Ohne definierte Ziele lässt sich der Erfolg eines Events im Nachhinein nicht beurteilen.",
+        "warum": "Prüfungsnah ist, ein Event systematisch zu planen (Ziel, Zielgruppe, Budget) und nach der Durchführung auszuwerten."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Event ohne klares Ziel oder Zielgruppe planen.",
+        "Budget nicht im Voraus festlegen oder überschreiten.",
+        "Erfolgskontrolle nach dem Event auslassen."
       ],
       "review": {
         "box": 1,
@@ -10327,7 +10334,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Ohne Ziel und Erfolgskontrolle ist ein Event nur eine teure Party."
     },
     {
       "id": "marketing_verkauf_fragetechnik_stufe1_begriff",
@@ -10352,28 +10359,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Fragetechnik verstehen",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Offene Fragen ermitteln Bedürfnisse der Kundschaft, geschlossene Fragen sichern Entscheidungen und Zustimmung ab.",
+        "pruefungsrelevant": "Prüfungsnah ist die gezielte Kombination offener und geschlossener Fragen im Verkaufsgespräch."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Fragetechnik“ fachlich am besten?",
+      "frage": "Wozu dienen offene und geschlossene Fragen im Verkaufsgespräch?",
       "antwort_daten": {
         "optionen": [
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen."
+          "Offene Fragen ermitteln Bedürfnisse der Kundschaft, geschlossene Fragen sichern Entscheidungen und Zustimmung ab.",
+          "Beide Fragetypen haben denselben Zweck und können beliebig ersetzt werden.",
+          "Geschlossene Fragen dienen ausschliesslich der Bedarfsermittlung.",
+          "Offene Fragen sollten im Verkaufsgespräch vermieden werden."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Offene Fragen ermitteln Bedürfnisse der Kundschaft, geschlossene Fragen sichern Entscheidungen und Zustimmung ab.",
+        "rechenweg": "Offene Fragen ('Was ist Ihnen wichtig?') liefern Informationen, geschlossene Fragen ('Passt Ihnen das?') führen zu einer klaren Entscheidung.",
+        "warum": "Die beiden Fragetypen haben unterschiedliche Funktionen im Gesprächsverlauf und sind nicht austauschbar."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Nur geschlossene Fragen stellen und dadurch Bedürfnisse nicht erkennen.",
+        "Suggestivfragen einsetzen, die eine Antwort vorwegnehmen.",
+        "Nicht aktiv zuhören und Antworten der Kundschaft überhören."
       ],
       "review": {
         "box": 1,
@@ -10394,7 +10401,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Offene Fragen öffnen das Gespräch, geschlossene schliessen den Deal."
     },
     {
       "id": "marketing_verkauf_fragetechnik_stufe2_fehlerfalle",
@@ -10419,32 +10426,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Fragetechnik vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Offene Fragen ermitteln Bedürfnisse der Kundschaft, geschlossene Fragen sichern Entscheidungen und Zustimmung ab.",
+        "pruefungsrelevant": "Prüfungsnah ist die gezielte Kombination offener und geschlossener Fragen im Verkaufsgespräch."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Fragetechnik“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Fragetechnik im Verkauf sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Bei Reklamationen Ursache, Kundenanliegen und Folgeprozess systematisch prüfen.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Massnahmen immer mit Zielgruppe und Kundennutzen verknüpfen.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung."
+          "Es werden nur geschlossene Fragen gestellt, wodurch Bedürfnisse nicht erkannt werden.",
+          "Suggestivfragen werden eingesetzt, die eine bestimmte Antwort vorwegnehmen.",
+          "Antworten der Kundschaft werden nicht aktiv zugehört und überhört.",
+          "Offene und geschlossene Fragen werden gezielt kombiniert.",
+          "Aktives Zuhören wird bewusst in das Gespräch eingebaut."
         ],
         "richtige_indices": [
           0,
+          1,
           2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Richtig sind die einseitige Nutzung geschlossener Fragen, Suggestivfragen und mangelndes aktives Zuhören.",
+        "rechenweg": "Ohne offene Fragen und aktives Zuhören bleiben die tatsächlichen Kundenbedürfnisse oft unentdeckt.",
+        "warum": "Prüfungsnah ist die gezielte Kombination offener und geschlossener Fragen im Verkaufsgespräch."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Nur geschlossene Fragen stellen und dadurch Bedürfnisse nicht erkennen.",
+        "Suggestivfragen einsetzen, die eine Antwort vorwegnehmen.",
+        "Nicht aktiv zuhören und Antworten der Kundschaft überhören."
       ],
       "review": {
         "box": 1,
@@ -10467,7 +10475,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Offene Fragen öffnen das Gespräch, geschlossene schliessen den Deal."
     },
     {
       "id": "marketing_verkauf_fuehrung_personal_stufe1_begriff",
@@ -10518,28 +10526,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Führung / Personal verstehen",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Führung im Verkauf motiviert das Team zu Zielerreichung, delegiert Kundenverantwortung sinnvoll und gibt regelmässiges Feedback.",
+        "pruefungsrelevant": "Prüfungsnah ist der Bezug von Führung zu Verkaufszielen und individueller Kundenverantwortung im Team."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Führung / Personal“ fachlich am besten?",
+      "frage": "Was ist bei der Führung eines Verkaufsteams besonders wichtig?",
       "antwort_daten": {
         "optionen": [
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen."
+          "Führung im Verkauf motiviert das Team zu Zielerreichung, delegiert Kundenverantwortung sinnvoll und gibt regelmässiges Feedback.",
+          "Verkaufsziele müssen nicht kommuniziert werden, jede Person soll selbst entscheiden.",
+          "Kundenverantwortung sollte bewusst unklar bleiben, um Flexibilität zu erhalten.",
+          "Feedback ist im Verkauf nicht nötig, nur die Zahlen zählen."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Führung im Verkauf motiviert das Team zu Zielerreichung, delegiert Kundenverantwortung sinnvoll und gibt regelmässiges Feedback.",
+        "rechenweg": "Klare Ziele, geregelte Kundenverantwortung und regelmässiges Feedback fördern Motivation und Verkaufserfolg gemeinsam.",
+        "warum": "Fehlende Zielkommunikation, unklare Verantwortung oder reine Zahlenorientierung ohne Feedback schwächen die Teamleistung."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Verkaufsziele nicht klar kommunizieren.",
+        "Kundenverantwortung nicht klar zwischen Teammitgliedern regeln.",
+        "Erfolge und Rückschläge im Team nicht besprechen."
       ],
       "review": {
         "box": 1,
@@ -10560,7 +10568,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Ein Verkaufsteam braucht klare Ziele und ehrliches Feedback."
     },
     {
       "id": "marketing_verkauf_fuehrung_personal_stufe2_fehlerfalle",
@@ -10611,32 +10619,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Führung / Personal vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Führung im Verkauf motiviert das Team zu Zielerreichung, delegiert Kundenverantwortung sinnvoll und gibt regelmässiges Feedback.",
+        "pruefungsrelevant": "Prüfungsnah ist der Bezug von Führung zu Verkaufszielen und individueller Kundenverantwortung im Team."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Führung / Personal“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Führungsfehlern im Verkaufsteam sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Bei Reklamationen Ursache, Kundenanliegen und Folgeprozess systematisch prüfen.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Massnahmen immer mit Zielgruppe und Kundennutzen verknüpfen."
+          "Verkaufsziele werden nicht klar kommuniziert.",
+          "Kundenverantwortung wird nicht klar zwischen Teammitgliedern geregelt.",
+          "Erfolge und Rückschläge werden im Team nicht besprochen.",
+          "Verkaufsziele werden regelmässig mit dem Team besprochen.",
+          "Kundenverantwortung wird eindeutig zugeteilt."
         ],
         "richtige_indices": [
           0,
-          4
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Richtig sind fehlende Zielkommunikation, unklare Kundenverantwortung und ausbleibende Reflexion von Erfolgen/Rückschlägen.",
+        "rechenweg": "Ohne klare Ziele und Verantwortlichkeiten fehlt dem Team die Orientierung für den Verkaufserfolg.",
+        "warum": "Prüfungsnah ist der Bezug von Führung zu Verkaufszielen und individueller Kundenverantwortung im Team."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Verkaufsziele nicht klar kommunizieren.",
+        "Kundenverantwortung nicht klar zwischen Teammitgliedern regeln.",
+        "Erfolge und Rückschläge im Team nicht besprechen."
       ],
       "review": {
         "box": 1,
@@ -10659,7 +10668,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Ein Verkaufsteam braucht klare Ziele und ehrliches Feedback."
     },
     {
       "id": "marketing_verkauf_key_account_management_stufe1_begriff",
@@ -10684,28 +10693,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Key Account Management verstehen",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Key Account Management betreut die wichtigsten Kundinnen und Kunden individuell und langfristig, um die Geschäftsbeziehung strategisch zu sichern.",
+        "pruefungsrelevant": "Prüfungsnah ist, Key Accounts anhand ihres Umsatz-/Potenzialbeitrags zu identifizieren und individuell zu betreuen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Key Account Management“ fachlich am besten?",
+      "frage": "Was ist der Zweck des Key Account Managements?",
       "antwort_daten": {
         "optionen": [
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich."
+          "Key Account Management betreut die wichtigsten Kundinnen und Kunden individuell und langfristig, um die Geschäftsbeziehung strategisch zu sichern.",
+          "Alle Kundinnen und Kunden sollen exakt gleich behandelt werden.",
+          "Key Accounts werden nur einmalig kontaktiert, danach ist die Betreuung abgeschlossen.",
+          "Key Account Management betrifft nur die Neukundengewinnung."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Key Account Management betreut die wichtigsten Kundinnen und Kunden individuell und langfristig, um die Geschäftsbeziehung strategisch zu sichern.",
+        "rechenweg": "Wichtige Kunden mit hohem Umsatz- oder Zukunftspotenzial erhalten eine individuelle, langfristig angelegte Betreuung.",
+        "warum": "Gleichbehandlung aller Kunden, einmalige Kontakte oder eine reine Fokussierung auf Neukunden entsprechen nicht dem Konzept des Key Account Managements."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Alle Kunden gleich behandeln, ohne Key Accounts besonders zu betreuen.",
+        "Key Accounts nur nach aktuellem Umsatz, nicht nach Zukunftspotenzial auswählen.",
+        "Persönliche Betreuung von Key Accounts vernachlässigen."
       ],
       "review": {
         "box": 1,
@@ -10726,7 +10735,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Nicht jeder Kunde ist gleich wichtig - Key Accounts brauchen besondere Aufmerksamkeit."
     },
     {
       "id": "marketing_verkauf_key_account_management_stufe2_fehlerfalle",
@@ -10751,32 +10760,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Key Account Management vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Key Account Management betreut die wichtigsten Kundinnen und Kunden individuell und langfristig, um die Geschäftsbeziehung strategisch zu sichern.",
+        "pruefungsrelevant": "Prüfungsnah ist, Key Accounts anhand ihres Umsatz-/Potenzialbeitrags zu identifizieren und individuell zu betreuen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Key Account Management“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern im Key Account Management sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Bei Reklamationen Ursache, Kundenanliegen und Folgeprozess systematisch prüfen.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "Massnahmen immer mit Zielgruppe und Kundennutzen verknüpfen.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung."
+          "Alle Kunden werden gleich behandelt, ohne Key Accounts besonders zu betreuen.",
+          "Key Accounts werden nur nach aktuellem Umsatz, nicht nach Zukunftspotenzial ausgewählt.",
+          "Die persönliche Betreuung von Key Accounts wird vernachlässigt.",
+          "Key Accounts werden anhand von Umsatz und Zukunftspotenzial identifiziert.",
+          "Key Accounts erhalten eine individuelle, kontinuierliche Betreuung."
         ],
         "richtige_indices": [
+          0,
           1,
-          3
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Richtig sind die Gleichbehandlung aller Kunden, die rein umsatzbasierte Auswahl und vernachlässigte persönliche Betreuung.",
+        "rechenweg": "Ohne besondere Betreuung wichtiger Kunden riskiert man deren Abwanderung zur Konkurrenz.",
+        "warum": "Prüfungsnah ist, Key Accounts anhand ihres Umsatz-/Potenzialbeitrags zu identifizieren und individuell zu betreuen."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Alle Kunden gleich behandeln, ohne Key Accounts besonders zu betreuen.",
+        "Key Accounts nur nach aktuellem Umsatz, nicht nach Zukunftspotenzial auswählen.",
+        "Persönliche Betreuung von Key Accounts vernachlässigen."
       ],
       "review": {
         "box": 1,
@@ -10799,7 +10809,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Nicht jeder Kunde ist gleich wichtig - Key Accounts brauchen besondere Aufmerksamkeit."
     },
     {
       "id": "marketing_verkauf_kosten_absatzmittler_stufe1_begriff",
@@ -10960,28 +10970,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Lager / Lagerkennzahlen verstehen",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Lagerkennzahlen wie Lagerumschlag und Lagerdauer zeigen, wie viel Kapital im Lager gebunden ist und wie gut sich Ware verkauft.",
+        "pruefungsrelevant": "Prüfungsnah ist der Zusammenhang zwischen Lagerumschlag, Verkaufsgeschwindigkeit und gebundenem Kapital."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Lager / Lagerkennzahlen“ fachlich am besten?",
+      "frage": "Was zeigt der Lagerumschlag aus Sicht des Verkaufs?",
       "antwort_daten": {
         "optionen": [
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen."
+          "Lagerkennzahlen wie Lagerumschlag und Lagerdauer zeigen, wie viel Kapital im Lager gebunden ist und wie gut sich Ware verkauft.",
+          "Nur die Anzahl der Verkaufsmitarbeitenden.",
+          "Ausschliesslich den Einkaufspreis der Ware.",
+          "Ein hoher Lagerbestand ist immer positiv für den Verkaufserfolg."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Lagerkennzahlen wie Lagerumschlag und Lagerdauer zeigen, wie viel Kapital im Lager gebunden ist und wie gut sich Ware verkauft.",
+        "rechenweg": "Ein hoher Lagerumschlag zeigt, dass sich Ware gut verkauft und wenig Kapital im Lager gebunden bleibt.",
+        "warum": "Personalzahl oder Einkaufspreis sagen nichts über die Verkaufsgeschwindigkeit aus, und hohe Bestände sind nicht automatisch von Vorteil."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Hohe Lagerbestände unkritisch als positiv für die Lieferfähigkeit bewerten.",
+        "Lagerumschlag und Lagerdauer verwechseln oder falsch berechnen.",
+        "Langsam drehende Ware (Ladenhüter) nicht erkennen und aktiv abbauen."
       ],
       "review": {
         "box": 1,
@@ -11002,7 +11012,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Schneller Umschlag zeigt gute Verkaufsware - langsamer Umschlag bindet Kapital."
     },
     {
       "id": "marketing_verkauf_lager_lagerkennzahlen_stufe2_fehlerfalle",
@@ -11027,32 +11037,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Lager / Lagerkennzahlen vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Lagerkennzahlen wie Lagerumschlag und Lagerdauer zeigen, wie viel Kapital im Lager gebunden ist und wie gut sich Ware verkauft.",
+        "pruefungsrelevant": "Prüfungsnah ist der Zusammenhang zwischen Lagerumschlag, Verkaufsgeschwindigkeit und gebundenem Kapital."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Lager / Lagerkennzahlen“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei Lagerkennzahlen im Verkauf sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten."
+          "Hohe Lagerbestände werden unkritisch als positiv für die Lieferfähigkeit bewertet.",
+          "Lagerumschlag und Lagerdauer werden verwechselt oder falsch berechnet.",
+          "Langsam drehende Ware (Ladenhüter) wird nicht erkannt und abgebaut.",
+          "Ladenhüter werden gezielt identifiziert und z.B. mit Aktionen abverkauft.",
+          "Der Lagerumschlag wird regelmässig je Produktgruppe ausgewertet."
         ],
         "richtige_indices": [
-          3,
-          4
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Richtig sind die unkritische Bewertung hoher Bestände, verwechselte Kennzahlen und unerkannte Ladenhüter.",
+        "rechenweg": "Unerkannte Ladenhüter binden dauerhaft Kapital und Lagerplatz, ohne zum Umsatz beizutragen.",
+        "warum": "Prüfungsnah ist der Zusammenhang zwischen Lagerumschlag, Verkaufsgeschwindigkeit und gebundenem Kapital."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Hohe Lagerbestände unkritisch als positiv für die Lieferfähigkeit bewerten.",
+        "Lagerumschlag und Lagerdauer verwechseln oder falsch berechnen.",
+        "Langsam drehende Ware (Ladenhüter) nicht erkennen und aktiv abbauen."
       ],
       "review": {
         "box": 1,
@@ -11075,7 +11086,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Schneller Umschlag zeigt gute Verkaufsware - langsamer Umschlag bindet Kapital."
     },
     {
       "id": "marketing_verkauf_lager_lagerkennzahlen_stufe1_formel_1",
@@ -11100,28 +11111,28 @@
       "typ": "single_choice",
       "lernziel": "Formel zu Lagerumschlag sicher abrufen",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Lagerkennzahlen wie Lagerumschlag und Lagerdauer zeigen, wie viel Kapital im Lager gebunden ist und wie gut sich Ware verkauft.",
+        "pruefungsrelevant": "Prüfungsnah ist der Zusammenhang zwischen Lagerumschlag, Verkaufsgeschwindigkeit und gebundenem Kapital."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Lager / Lagerkennzahlen“ fachlich am besten?",
+      "frage": "Wie berechnet sich der Lagerumschlag?",
       "antwort_daten": {
         "optionen": [
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl."
+          "Lagerumschlag = Wareneinsatz einer Periode / durchschnittlicher Lagerbestand.",
+          "Lagerumschlag = Verkaufspreis / Einkaufspreis.",
+          "Lagerumschlag = Anzahl Verkaufsmitarbeitende / Lagerfläche.",
+          "Lagerumschlag = durchschnittlicher Lagerbestand × 360 Tage."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Lagerumschlag = Wareneinsatz einer Periode / durchschnittlicher Lagerbestand.",
+        "rechenweg": "Wareneinsatz / durchschnittlicher Lagerbestand ergibt, wie oft sich das Lager pro Periode umschlägt.",
+        "warum": "Preisverhältnis, Personalzahl oder eine blosse Multiplikation mit 360 Tagen entsprechen nicht der Lagerumschlagsformel."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Hohe Lagerbestände unkritisch als positiv für die Lieferfähigkeit bewerten.",
+        "Lagerumschlag und Lagerdauer verwechseln oder falsch berechnen.",
+        "Langsam drehende Ware (Ladenhüter) nicht erkennen und aktiv abbauen."
       ],
       "review": {
         "box": 1,
@@ -11143,7 +11154,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Schneller Umschlag zeigt gute Verkaufsware - langsamer Umschlag bindet Kapital."
     },
     {
       "id": "marketing_verkauf_lager_lagerkennzahlen_stufe1_formel_2",
@@ -11168,28 +11179,28 @@
       "typ": "single_choice",
       "lernziel": "Formel zu Lagerdauer sicher abrufen",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Lagerkennzahlen wie Lagerumschlag und Lagerdauer zeigen, wie viel Kapital im Lager gebunden ist und wie gut sich Ware verkauft.",
+        "pruefungsrelevant": "Prüfungsnah ist der Zusammenhang zwischen Lagerumschlag, Verkaufsgeschwindigkeit und gebundenem Kapital."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Lager / Lagerkennzahlen“ fachlich am besten?",
+      "frage": "Wie berechnet sich die Lagerdauer?",
       "antwort_daten": {
         "optionen": [
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl."
+          "Lagerdauer = 360 Tage / Lagerumschlag.",
+          "Lagerdauer = Lagerumschlag / 360 Tage.",
+          "Lagerdauer = Verkaufspreis / durchschnittlicher Lagerbestand.",
+          "Lagerdauer = Wareneinsatz × Lagerumschlag."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Lagerdauer = 360 Tage / Lagerumschlag.",
+        "rechenweg": "360 Tage geteilt durch den Lagerumschlag zeigt, wie viele Tage die Ware im Durchschnitt im Lager liegt, bevor sie verkauft wird.",
+        "warum": "Die umgekehrte Division oder ein Preisbezug entsprechen nicht der Lagerdauer-Formel."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Hohe Lagerbestände unkritisch als positiv für die Lieferfähigkeit bewerten.",
+        "Lagerumschlag und Lagerdauer verwechseln oder falsch berechnen.",
+        "Langsam drehende Ware (Ladenhüter) nicht erkennen und aktiv abbauen."
       ],
       "review": {
         "box": 1,
@@ -11211,7 +11222,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Schneller Umschlag zeigt gute Verkaufsware - langsamer Umschlag bindet Kapital."
     },
     {
       "id": "marketing_verkauf_liquiditaet_mittelfluss_stufe1_begriff",
@@ -11403,28 +11414,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Marketing / Verkauf verstehen",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation und Vertrieb konsequent auf Zielgruppe und Kundennutzen aus (Marketing-Mix).",
+        "pruefungsrelevant": "Prüfungsnah sind die Marketing-Mix-Instrumente (Produkt, Preis, Kommunikation, Vertrieb) und deren Abstimmung auf die Zielgruppe."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Marketing / Verkauf“ fachlich am besten?",
+      "frage": "Was ist der Kerngedanke des Marketing-Mix?",
       "antwort_daten": {
         "optionen": [
+          "Marketing und Verkauf richten Angebot, Preis, Kommunikation und Vertrieb konsequent auf Zielgruppe und Kundennutzen aus (Marketing-Mix).",
           "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen."
+          "Der Marketing-Mix gilt nur für grosse Konsumgüterunternehmen.",
+          "Zielgruppe und Positionierung spielen für den Marketing-Mix keine Rolle."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation und Vertrieb konsequent auf Zielgruppe und Kundennutzen aus (Marketing-Mix).",
+        "rechenweg": "Produkt, Preis, Kommunikation und Vertrieb müssen gemeinsam auf die Zielgruppe abgestimmt werden, damit Marketing wirkt.",
+        "warum": "Marketing ist mehr als Werbung, gilt branchenübergreifend und braucht eine klare Zielgruppen-/Positionierungsbasis."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Marketing-Mix-Instrumente verwechseln oder isoliert betrachten.",
+        "Zielgruppe und Positionierung nicht klar definieren.",
+        "Massnahmen wählen, ohne den Kundennutzen zu begründen."
       ],
       "review": {
         "box": 1,
@@ -11444,7 +11455,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt - nicht was intern bequem ist."
     },
     {
       "id": "marketing_verkauf_marketing_verkauf_stufe2_fehlerfalle",
@@ -11496,32 +11507,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Marketing / Verkauf vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation und Vertrieb konsequent auf Zielgruppe und Kundennutzen aus (Marketing-Mix).",
+        "pruefungsrelevant": "Prüfungsnah sind die Marketing-Mix-Instrumente (Produkt, Preis, Kommunikation, Vertrieb) und deren Abstimmung auf die Zielgruppe."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Marketing / Verkauf“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern im Marketing-Mix sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Bei Reklamationen Ursache, Kundenanliegen und Folgeprozess systematisch prüfen.",
-          "Massnahmen immer mit Zielgruppe und Kundennutzen verknüpfen.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung."
+          "Marketing-Mix-Instrumente werden verwechselt oder isoliert betrachtet.",
+          "Zielgruppe und Positionierung werden nicht klar definiert.",
+          "Massnahmen werden gewählt, ohne den Kundennutzen zu begründen.",
+          "Produkt, Preis, Kommunikation und Vertrieb werden aufeinander abgestimmt.",
+          "Massnahmen werden konsequent mit dem Kundennutzen begründet."
         ],
         "richtige_indices": [
+          0,
           1,
           2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Richtig sind isolierte Marketing-Mix-Instrumente, unklare Zielgruppen/Positionierung und unbegründete Massnahmen.",
+        "rechenweg": "Erst die Abstimmung aller vier Mix-Instrumente auf eine klare Zielgruppe macht Marketing wirksam.",
+        "warum": "Prüfungsnah sind die Marketing-Mix-Instrumente (Produkt, Preis, Kommunikation, Vertrieb) und deren Abstimmung auf die Zielgruppe."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Marketing-Mix-Instrumente verwechseln oder isoliert betrachten.",
+        "Zielgruppe und Positionierung nicht klar definieren.",
+        "Massnahmen wählen, ohne den Kundennutzen zu begründen."
       ],
       "review": {
         "box": 1,
@@ -11543,7 +11555,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt - nicht was intern bequem ist."
     },
     {
       "id": "marketing_verkauf_offerterstellung_stufe1_begriff",
@@ -11568,28 +11580,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Offerterstellung verstehen",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Eine Verkaufsofferte enthält Leistungsbeschrieb, Preis, Lieferfrist, Zahlungsbedingungen und Gültigkeitsdauer, abgestimmt auf den Kundenbedarf.",
+        "pruefungsrelevant": "Prüfungsnah ist, eine Offerte vollständig und auf den konkreten Kundenbedarf zugeschnitten zu erstellen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Offerterstellung“ fachlich am besten?",
+      "frage": "Worauf kommt es bei der Erstellung einer Verkaufsofferte an?",
       "antwort_daten": {
         "optionen": [
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl."
+          "Eine Verkaufsofferte enthält Leistungsbeschrieb, Preis, Lieferfrist, Zahlungsbedingungen und Gültigkeitsdauer, abgestimmt auf den Kundenbedarf.",
+          "Nur der Preis ist relevant, alle anderen Angaben sind Formsache.",
+          "Eine Offerte sollte möglichst allgemein gehalten werden, um flexibel zu bleiben.",
+          "Die Gültigkeitsdauer einer Offerte ist unwichtig."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Eine Verkaufsofferte enthält Leistungsbeschrieb, Preis, Lieferfrist, Zahlungsbedingungen und Gültigkeitsdauer, abgestimmt auf den Kundenbedarf.",
+        "rechenweg": "Eine auf den Kundenbedarf zugeschnittene, vollständige Offerte erhöht die Wahrscheinlichkeit eines Auftrags.",
+        "warum": "Reine Preisfokussierung, zu allgemeine Formulierung oder fehlende Gültigkeitsdauer schwächen die Offerte."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Offerte ohne Bezug auf den konkreten Kundenbedarf erstellen.",
+        "Wichtige Angaben (Frist, Zahlungsbedingungen) vergessen.",
+        "Gültigkeitsdauer der Offerte nicht festlegen."
       ],
       "review": {
         "box": 1,
@@ -11610,7 +11622,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Eine gute Offerte passt zum Kunden - nicht nur zum Standardformular."
     },
     {
       "id": "marketing_verkauf_offerterstellung_stufe2_fehlerfalle",
@@ -11635,32 +11647,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Offerterstellung vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Eine Verkaufsofferte enthält Leistungsbeschrieb, Preis, Lieferfrist, Zahlungsbedingungen und Gültigkeitsdauer, abgestimmt auf den Kundenbedarf.",
+        "pruefungsrelevant": "Prüfungsnah ist, eine Offerte vollständig und auf den konkreten Kundenbedarf zugeschnitten zu erstellen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Offerterstellung“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Offerterstellung sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl."
+          "Die Offerte wird ohne Bezug auf den konkreten Kundenbedarf erstellt.",
+          "Wichtige Angaben wie Lieferfrist oder Zahlungsbedingungen werden vergessen.",
+          "Die Gültigkeitsdauer der Offerte wird nicht festgelegt.",
+          "Die Offerte wird individuell auf den Kundenbedarf zugeschnitten.",
+          "Alle relevanten Angaben werden vollständig aufgeführt."
         ],
         "richtige_indices": [
           0,
-          3
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Richtig sind eine bedarfsferne Offerte, fehlende Kernangaben und eine fehlende Gültigkeitsdauer.",
+        "rechenweg": "Eine unvollständige oder unpersönliche Offerte wirkt weniger überzeugend und kann zu Missverständnissen führen.",
+        "warum": "Prüfungsnah ist, eine Offerte vollständig und auf den konkreten Kundenbedarf zugeschnitten zu erstellen."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Offerte ohne Bezug auf den konkreten Kundenbedarf erstellen.",
+        "Wichtige Angaben (Frist, Zahlungsbedingungen) vergessen.",
+        "Gültigkeitsdauer der Offerte nicht festlegen."
       ],
       "review": {
         "box": 1,
@@ -11683,7 +11696,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Eine gute Offerte passt zum Kunden - nicht nur zum Standardformular."
     },
     {
       "id": "marketing_verkauf_rechnung_rechnungspruefung_stufe1_begriff",
@@ -11708,28 +11721,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Rechnung / Rechnungsprüfung verstehen",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Aus Verkaufssicht muss die Rechnung korrekt mit Offerte/Auftrag übereinstimmen, damit die Kundschaft ihr keine Fehler vorwerfen kann.",
+        "pruefungsrelevant": "Prüfungsnah ist der Abgleich der Verkaufsrechnung mit Offerte, Auftragsbestätigung und tatsächlich gelieferter Leistung."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Rechnung / Rechnungsprüfung“ fachlich am besten?",
+      "frage": "Worauf muss die Verkaufsabteilung bei der Rechnungsstellung achten?",
       "antwort_daten": {
         "optionen": [
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung."
+          "Aus Verkaufssicht muss die Rechnung korrekt mit Offerte/Auftrag übereinstimmen, damit die Kundschaft ihr keine Fehler vorwerfen kann.",
+          "Nur darauf, dass die Rechnung möglichst schnell verschickt wird, unabhängig vom Inhalt.",
+          "Rabatte müssen auf der Rechnung nicht ausgewiesen werden.",
+          "Reklamationen zu Rechnungen sind ausschliesslich Sache der Buchhaltung."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Aus Verkaufssicht muss die Rechnung korrekt mit Offerte/Auftrag übereinstimmen, damit die Kundschaft ihr keine Fehler vorwerfen kann.",
+        "rechenweg": "Nur wenn Rechnung, Offerte und gelieferte Leistung übereinstimmen, entstehen keine Missverständnisse mit der Kundschaft.",
+        "warum": "Schnelligkeit allein, fehlende Rabattausweisung oder das Abschieben von Reklamationen an die Buchhaltung schaden der Kundenbeziehung."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Rechnung ohne Abgleich mit Offerte/Auftrag verschicken.",
+        "Rabatte oder Sonderkonditionen auf der Rechnung falsch oder gar nicht ausweisen.",
+        "Reklamationen zu Rechnungsfehlern nicht ernst nehmen."
       ],
       "review": {
         "box": 1,
@@ -11750,7 +11763,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Eine korrekte Rechnung schützt die Kundenbeziehung - eine fehlerhafte belastet sie."
     },
     {
       "id": "marketing_verkauf_rechnung_rechnungspruefung_stufe2_fehlerfalle",
@@ -11775,32 +11788,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Rechnung / Rechnungsprüfung vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Aus Verkaufssicht muss die Rechnung korrekt mit Offerte/Auftrag übereinstimmen, damit die Kundschaft ihr keine Fehler vorwerfen kann.",
+        "pruefungsrelevant": "Prüfungsnah ist der Abgleich der Verkaufsrechnung mit Offerte, Auftragsbestätigung und tatsächlich gelieferter Leistung."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Rechnung / Rechnungsprüfung“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Rechnungsstellung im Verkauf sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Bei Reklamationen Ursache, Kundenanliegen und Folgeprozess systematisch prüfen.",
-          "Massnahmen immer mit Zielgruppe und Kundennutzen verknüpfen.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung."
+          "Die Rechnung wird ohne Abgleich mit Offerte/Auftrag verschickt.",
+          "Rabatte oder Sonderkonditionen werden auf der Rechnung falsch oder gar nicht ausgewiesen.",
+          "Reklamationen zu Rechnungsfehlern werden nicht ernst genommen.",
+          "Die Rechnung wird vor Versand mit Offerte und Auftrag abgeglichen.",
+          "Rabatte werden transparent und korrekt ausgewiesen."
         ],
         "richtige_indices": [
           0,
-          1
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Richtig sind der fehlende Abgleich, falsch ausgewiesene Rabatte und ignorierte Rechnungsreklamationen.",
+        "rechenweg": "Fehlerhafte Rechnungen führen zu Nachfragen, Verzögerungen bei der Zahlung und belasten die Kundenbeziehung.",
+        "warum": "Prüfungsnah ist der Abgleich der Verkaufsrechnung mit Offerte, Auftragsbestätigung und tatsächlich gelieferter Leistung."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Rechnung ohne Abgleich mit Offerte/Auftrag verschicken.",
+        "Rabatte oder Sonderkonditionen auf der Rechnung falsch oder gar nicht ausweisen.",
+        "Reklamationen zu Rechnungsfehlern nicht ernst nehmen."
       ],
       "review": {
         "box": 1,
@@ -11823,7 +11837,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Eine korrekte Rechnung schützt die Kundenbeziehung - eine fehlerhafte belastet sie."
     },
     {
       "id": "marketing_verkauf_rechtliche_grundlagen_stufe1_begriff",
@@ -11875,28 +11889,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Rechtliche Grundlagen verstehen",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant.",
+        "pruefungsrelevant": "Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Rechtliche Grundlagen“ fachlich am besten?",
+      "frage": "Welche rechtlichen Grundlagen sind im Verkauf besonders relevant?",
       "antwort_daten": {
         "optionen": [
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen."
+          "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant.",
+          "Nur interne Verkaufsrichtlinien ohne gesetzliche Basis.",
+          "Ausschliesslich das Arbeitsrecht der Verkaufsmitarbeitenden.",
+          "Konsumentenschutzrechte gelten nur im stationären Handel, nicht online."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant.",
+        "rechenweg": "Kaufvertragsrecht regelt Lieferung und Gewährleistung, Konsumentenschutz das Widerrufsrecht, UWG faire Werbung - alles zusammen prägt den Verkaufsalltag.",
+        "warum": "Interne Richtlinien oder Arbeitsrecht decken diese verkaufsspezifischen Rechtsfragen nicht ab, und Konsumentenschutz gilt auch online."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Gewährleistungspflichten bei Mängeln übersehen.",
+        "Widerrufsrecht der Kundschaft im Fernabsatz missachten.",
+        "Irreführende Werbeaussagen verwenden (Verstoss gegen UWG)."
       ],
       "review": {
         "box": 1,
@@ -11917,7 +11931,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Verkaufen mit Recht heisst: Vertrag, Gewährleistung und faire Werbung zusammen denken."
     },
     {
       "id": "marketing_verkauf_rechtliche_grundlagen_stufe2_fehlerfalle",
@@ -11969,32 +11983,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Rechtliche Grundlagen vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant.",
+        "pruefungsrelevant": "Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Rechtliche Grundlagen“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei rechtlichen Grundlagen im Verkauf sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Massnahmen immer mit Zielgruppe und Kundennutzen verknüpfen.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Bei Reklamationen Ursache, Kundenanliegen und Folgeprozess systematisch prüfen.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung."
+          "Gewährleistungspflichten bei Mängeln werden übersehen.",
+          "Das Widerrufsrecht der Kundschaft im Fernabsatz wird missachtet.",
+          "Irreführende Werbeaussagen werden verwendet (Verstoss gegen UWG).",
+          "Gewährleistungsansprüche werden korrekt und fristgerecht behandelt.",
+          "Werbeaussagen werden auf Richtigkeit und Fairness geprüft."
         ],
         "richtige_indices": [
           0,
-          3
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Richtig sind übersehene Gewährleistungspflichten, missachtetes Widerrufsrecht und irreführende Werbung.",
+        "rechenweg": "Verstösse gegen Gewährleistung, Widerrufsrecht oder UWG können zu Reklamationen, Rückabwicklungen oder rechtlichen Konsequenzen führen.",
+        "warum": "Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Gewährleistungspflichten bei Mängeln übersehen.",
+        "Widerrufsrecht der Kundschaft im Fernabsatz missachten.",
+        "Irreführende Werbeaussagen verwenden (Verstoss gegen UWG)."
       ],
       "review": {
         "box": 1,
@@ -12017,7 +12032,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Verkaufen mit Recht heisst: Vertrag, Gewährleistung und faire Werbung zusammen denken."
     },
     {
       "id": "marketing_verkauf_reklamation_stufe1_begriff",
@@ -12042,28 +12057,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Reklamation verstehen",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Eine Reklamation wird ernst genommen, die Ursache geklärt und eine faire, nachvollziehbare Lösung angeboten.",
+        "pruefungsrelevant": "Prüfungsnah ist der professionelle Umgang mit Reklamationen als Chance zur Kundenbindung, nicht als Ärgernis."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Reklamation“ fachlich am besten?",
+      "frage": "Wie sollte eine Reklamation professionell behandelt werden?",
       "antwort_daten": {
         "optionen": [
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen."
+          "Eine Reklamation wird ernst genommen, die Ursache geklärt und eine faire, nachvollziehbare Lösung angeboten.",
+          "Mit einer schnellen Standardabsage, um den Aufwand zu minimieren.",
+          "Reklamationen sollten grundsätzlich ignoriert werden.",
+          "Nur schriftliche Reklamationen müssen bearbeitet werden."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Eine Reklamation wird ernst genommen, die Ursache geklärt und eine faire, nachvollziehbare Lösung angeboten.",
+        "rechenweg": "Ernst nehmen, Ursache klären und eine faire Lösung anbieten macht aus einer Reklamation oft eine Chance zur Kundenbindung.",
+        "warum": "Standardabsagen oder Ignorieren schaden der Kundenbeziehung und verhindern, dass Unternehmen aus Fehlern lernen."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Reklamationen mit einer schnellen Standardabsage abwimmeln.",
+        "Ursache der Reklamation nicht klären.",
+        "Reklamationen nicht dokumentieren oder für Verbesserungen nutzen."
       ],
       "review": {
         "box": 1,
@@ -12084,7 +12099,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Eine gut gelöste Reklamation kann die Kundenbindung sogar stärken."
     },
     {
       "id": "marketing_verkauf_reklamation_stufe2_fehlerfalle",
@@ -12109,32 +12124,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Reklamation vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Eine Reklamation wird ernst genommen, die Ursache geklärt und eine faire, nachvollziehbare Lösung angeboten.",
+        "pruefungsrelevant": "Prüfungsnah ist der professionelle Umgang mit Reklamationen als Chance zur Kundenbindung, nicht als Ärgernis."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Reklamation“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Reklamationsbearbeitung sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "Bei Reklamationen Ursache, Kundenanliegen und Folgeprozess systematisch prüfen.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Massnahmen immer mit Zielgruppe und Kundennutzen verknüpfen."
+          "Reklamationen werden mit einer schnellen Standardabsage abgewimmelt.",
+          "Die Ursache der Reklamation wird nicht geklärt.",
+          "Reklamationen werden nicht dokumentiert oder ausgewertet.",
+          "Reklamationen werden systematisch erfasst und analysiert.",
+          "Aus wiederkehrenden Reklamationen werden Massnahmen abgeleitet."
         ],
         "richtige_indices": [
+          0,
           1,
-          4
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Richtig sind die Standardabsage, ungeklärte Ursachen und fehlende Dokumentation/Auswertung von Reklamationen.",
+        "rechenweg": "Ohne Dokumentation bleiben wiederkehrende Produkt- oder Prozessfehler unentdeckt.",
+        "warum": "Prüfungsnah ist der professionelle Umgang mit Reklamationen als Chance zur Kundenbindung, nicht als Ärgernis."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Reklamationen mit einer schnellen Standardabsage abwimmeln.",
+        "Ursache der Reklamation nicht klären.",
+        "Reklamationen nicht dokumentieren oder für Verbesserungen nutzen."
       ],
       "review": {
         "box": 1,
@@ -12157,7 +12173,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Eine gut gelöste Reklamation kann die Kundenbindung sogar stärken."
     },
     {
       "id": "marketing_verkauf_reklamationswesen_im_crm_abbilden_stufe1_begriff",
@@ -12182,28 +12198,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Reklamationswesen im CRM abbilden verstehen",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Ein im CRM abgebildetes Reklamationswesen macht Reklamationen nachvollziehbar, auswertbar und für alle Mitarbeitenden sichtbar.",
+        "pruefungsrelevant": "Prüfungsnah ist der Nutzen einer zentralen, systemgestützten Reklamationserfassung für Nachverfolgung und Auswertung."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Reklamationswesen im CRM abbilden“ fachlich am besten?",
+      "frage": "Warum sollte das Reklamationswesen im CRM-System abgebildet werden?",
       "antwort_daten": {
         "optionen": [
-          "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich."
+          "Damit Reklamationen zentral erfasst, nachverfolgt und für Verbesserungen ausgewertet werden können.",
+          "Damit Reklamationen möglichst schnell aus dem System gelöscht werden können.",
+          "CRM-Systeme sind für Reklamationen grundsätzlich ungeeignet.",
+          "Reklamationen müssen ausschliesslich telefonisch, nie im System erfasst werden."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Damit Reklamationen zentral erfasst, nachverfolgt und für Verbesserungen ausgewertet werden können.",
+        "rechenweg": "Zentral erfasste Reklamationen erlauben es, Muster zu erkennen (z.B. gehäufte Mängel bei einem Produkt) und gezielt zu reagieren.",
+        "warum": "Das Löschen von Reklamationen oder eine rein telefonische, nicht dokumentierte Bearbeitung verhindert Nachverfolgung und Lerneffekte."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Reklamationen nicht systematisch im CRM erfassen.",
+        "Erfasste Reklamationen nicht auswerten.",
+        "Reklamationsdaten isoliert von anderen Kundendaten führen."
       ],
       "review": {
         "box": 1,
@@ -12224,7 +12240,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Was im CRM steht, kann ausgewertet werden - was nur mündlich bleibt, geht verloren."
     },
     {
       "id": "marketing_verkauf_reklamationswesen_im_crm_abbilden_stufe2_fehlerfalle",
@@ -12249,32 +12265,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Reklamationswesen im CRM abbilden vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Ein im CRM abgebildetes Reklamationswesen macht Reklamationen nachvollziehbar, auswertbar und für alle Mitarbeitenden sichtbar.",
+        "pruefungsrelevant": "Prüfungsnah ist der Nutzen einer zentralen, systemgestützten Reklamationserfassung für Nachverfolgung und Auswertung."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Reklamationswesen im CRM abbilden“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Abbilden des Reklamationswesens im CRM sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Bei Reklamationen Ursache, Kundenanliegen und Folgeprozess systematisch prüfen.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "Massnahmen immer mit Zielgruppe und Kundennutzen verknüpfen.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung."
+          "Reklamationen werden nicht systematisch im CRM erfasst.",
+          "Erfasste Reklamationen werden nicht ausgewertet.",
+          "Reklamationsdaten werden isoliert von anderen Kundendaten geführt.",
+          "Reklamationen werden mit der übrigen Kundenhistorie verknüpft.",
+          "Häufungen bestimmter Reklamationsarten werden aktiv ausgewertet."
         ],
         "richtige_indices": [
+          0,
           1,
-          3
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Richtig sind die fehlende systematische Erfassung, ausbleibende Auswertung und isolierte Reklamationsdaten.",
+        "rechenweg": "Nur verknüpft mit der Kundenhistorie und ausgewertet zeigen Reklamationsdaten Muster, aus denen sich Verbesserungen ableiten lassen.",
+        "warum": "Prüfungsnah ist der Nutzen einer zentralen, systemgestützten Reklamationserfassung für Nachverfolgung und Auswertung."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Reklamationen nicht systematisch im CRM erfassen.",
+        "Erfasste Reklamationen nicht auswerten.",
+        "Reklamationsdaten isoliert von anderen Kundendaten führen."
       ],
       "review": {
         "box": 1,
@@ -12297,7 +12314,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Was im CRM steht, kann ausgewertet werden - was nur mündlich bleibt, geht verloren."
     },
     {
       "id": "marketing_verkauf_strategie_analyseinstrumente_stufe1_begriff",
@@ -12335,28 +12352,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Strategie / Analyseinstrumente verstehen",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Strategische Analyseinstrumente wie SWOT- oder Portfolio-Analyse helfen, Markt- und Wettbewerbssituation systematisch zu beurteilen.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus einer Analyse (z.B. SWOT) konkrete Marketing-/Verkaufsmassnahmen abzuleiten."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Strategie / Analyseinstrumente“ fachlich am besten?",
+      "frage": "Wozu dienen strategische Analyseinstrumente wie die SWOT-Analyse im Marketing?",
       "antwort_daten": {
         "optionen": [
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich."
+          "Strategische Analyseinstrumente wie SWOT- oder Portfolio-Analyse helfen, Markt- und Wettbewerbssituation systematisch zu beurteilen.",
+          "Sie ersetzen die Notwendigkeit, überhaupt Massnahmen zu definieren.",
+          "Sie betrachten ausschliesslich das eigene Unternehmen, nie den Markt.",
+          "Sie dienen nur der internen Dokumentation ohne Einfluss auf Entscheidungen."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Strategische Analyseinstrumente wie SWOT- oder Portfolio-Analyse helfen, Markt- und Wettbewerbssituation systematisch zu beurteilen.",
+        "rechenweg": "Die SWOT-Analyse verknüpft interne Stärken/Schwächen mit externen Markt-Chancen/Risiken, um Marketingmassnahmen abzuleiten.",
+        "warum": "Eine Analyse allein ersetzt keine Massnahmen und bezieht auch die externe Marktsicht mit ein."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Analyseinstrumente anwenden, aber keine Massnahmen ableiten.",
+        "Interne (Stärken/Schwächen) und externe (Chancen/Risiken) Faktoren verwechseln.",
+        "Strategie nur allgemein formulieren, ohne konkrete Massnahmen."
       ],
       "review": {
         "box": 1,
@@ -12377,7 +12394,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Eine Analyse ohne Massnahme ist nur eine Bestandsaufnahme."
     },
     {
       "id": "marketing_verkauf_strategie_analyseinstrumente_stufe2_fehlerfalle",
@@ -12415,32 +12432,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Strategie / Analyseinstrumente vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Strategische Analyseinstrumente wie SWOT- oder Portfolio-Analyse helfen, Markt- und Wettbewerbssituation systematisch zu beurteilen.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus einer Analyse (z.B. SWOT) konkrete Marketing-/Verkaufsmassnahmen abzuleiten."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Strategie / Analyseinstrumente“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Einsatz strategischer Analyseinstrumente sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Massnahmen immer mit Zielgruppe und Kundennutzen verknüpfen.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "Bei Reklamationen Ursache, Kundenanliegen und Folgeprozess systematisch prüfen."
+          "Analyseinstrumente werden angewendet, ohne Massnahmen abzuleiten.",
+          "Interne und externe Faktoren werden verwechselt.",
+          "Die Strategie wird nur allgemein formuliert, ohne konkrete Massnahmen.",
+          "Aus der Analyse werden konkrete Marketingmassnahmen abgeleitet.",
+          "Interne und externe Faktoren werden sauber getrennt analysiert."
         ],
         "richtige_indices": [
-          2,
-          4
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Richtig sind die fehlende Massnahmenableitung, verwechselte Analysefaktoren und zu allgemeine Strategieformulierungen.",
+        "rechenweg": "Eine Analyse ohne konkrete Massnahmen bleibt reine Theorie ohne Wirkung auf das Tagesgeschäft.",
+        "warum": "Prüfungsnah ist, aus einer Analyse (z.B. SWOT) konkrete Marketing-/Verkaufsmassnahmen abzuleiten."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Analyseinstrumente anwenden, aber keine Massnahmen ableiten.",
+        "Interne (Stärken/Schwächen) und externe (Chancen/Risiken) Faktoren verwechseln.",
+        "Strategie nur allgemein formulieren, ohne konkrete Massnahmen."
       ],
       "review": {
         "box": 1,
@@ -12463,7 +12481,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Eine Analyse ohne Massnahme ist nur eine Bestandsaufnahme."
     },
     {
       "id": "marketing_verkauf_verpackung_stufe1_begriff",
@@ -12488,28 +12506,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Verpackung verstehen",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Verpackung erfüllt Schutz-, Lager-/Transport- und Verkaufsförderungsfunktion und muss zugleich rechtliche/ökologische Vorgaben erfüllen.",
+        "pruefungsrelevant": "Prüfungsnah ist, die verschiedenen Funktionen der Verpackung (Schutz, Logistik, Werbung, Umwelt) gemeinsam zu berücksichtigen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Verpackung“ fachlich am besten?",
+      "frage": "Welche Funktionen erfüllt eine Produktverpackung?",
       "antwort_daten": {
         "optionen": [
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung."
+          "Verpackung erfüllt Schutz-, Lager-/Transport- und Verkaufsförderungsfunktion und muss zugleich rechtliche/ökologische Vorgaben erfüllen.",
+          "Ausschliesslich den Schutz der Ware, ohne jeden Verkaufseffekt.",
+          "Nur die Verkaufsförderung, unabhängig vom Transportschutz.",
+          "Verpackung hat keinen Bezug zu ökologischen Vorgaben."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Verpackung erfüllt Schutz-, Lager-/Transport- und Verkaufsförderungsfunktion und muss zugleich rechtliche/ökologische Vorgaben erfüllen.",
+        "rechenweg": "Verpackung muss die Ware schützen, effizienten Transport/Lagerung ermöglichen, verkaufsfördernd wirken und gesetzliche/ökologische Vorgaben erfüllen.",
+        "warum": "Reine Schutz- oder reine Verkaufsfunktion sowie das Ignorieren ökologischer Vorgaben erfassen die Verpackungsfunktion nicht vollständig."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Verpackung nur nach optischem Auftritt wählen, Schutzfunktion vernachlässigen.",
+        "Ökologische Vorgaben (z.B. Recyclingfähigkeit) bei der Verpackungswahl ignorieren.",
+        "Verpackungsgrösse ohne Bezug zu Transport-/Lagerlogistik festlegen."
       ],
       "review": {
         "box": 1,
@@ -12530,7 +12548,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Verpackung schützt, transportiert und verkauft - alles gleichzeitig."
     },
     {
       "id": "marketing_verkauf_verpackung_stufe2_fehlerfalle",
@@ -12555,32 +12573,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Verpackung vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Verpackung erfüllt Schutz-, Lager-/Transport- und Verkaufsförderungsfunktion und muss zugleich rechtliche/ökologische Vorgaben erfüllen.",
+        "pruefungsrelevant": "Prüfungsnah ist, die verschiedenen Funktionen der Verpackung (Schutz, Logistik, Werbung, Umwelt) gemeinsam zu berücksichtigen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Verpackung“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Verpackungswahl sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Bei Reklamationen Ursache, Kundenanliegen und Folgeprozess systematisch prüfen.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Massnahmen immer mit Zielgruppe und Kundennutzen verknüpfen.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich."
+          "Die Verpackung wird nur nach optischem Auftritt gewählt, Schutzfunktion wird vernachlässigt.",
+          "Ökologische Vorgaben (z.B. Recyclingfähigkeit) werden bei der Wahl ignoriert.",
+          "Die Verpackungsgrösse wird ohne Bezug zur Transport-/Lagerlogistik festgelegt.",
+          "Schutz-, Logistik- und Verkaufsfunktion werden gemeinsam berücksichtigt.",
+          "Ökologische Vorgaben fliessen in die Verpackungswahl ein."
         ],
         "richtige_indices": [
+          0,
           1,
-          3
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Richtig sind die rein optische Verpackungswahl, ignorierte ökologische Vorgaben und eine logistikferne Grössenwahl.",
+        "rechenweg": "Eine nur optisch gewählte Verpackung kann Transportschäden verursachen oder gegen Umweltvorgaben verstossen.",
+        "warum": "Prüfungsnah ist, die verschiedenen Funktionen der Verpackung (Schutz, Logistik, Werbung, Umwelt) gemeinsam zu berücksichtigen."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Verpackung nur nach optischem Auftritt wählen, Schutzfunktion vernachlässigen.",
+        "Ökologische Vorgaben (z.B. Recyclingfähigkeit) bei der Verpackungswahl ignorieren.",
+        "Verpackungsgrösse ohne Bezug zu Transport-/Lagerlogistik festlegen."
       ],
       "review": {
         "box": 1,
@@ -12603,7 +12622,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Verpackung schützt, transportiert und verkauft - alles gleichzeitig."
     },
     {
       "id": "marketing_verkauf_vwl_grundlagen_stufe1_begriff",
@@ -12655,28 +12674,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu VWL-Grundlagen verstehen",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Angebot und Nachfrage bestimmen den Marktpreis; verschiebt sich eine der beiden Kurven, verändert sich der Gleichgewichtspreis.",
+        "pruefungsrelevant": "Prüfungsnah ist, wie sich Angebots- oder Nachfrageänderungen auf Preis und Menge im Marktgleichgewicht auswirken."
       },
-      "frage": "Welche Aussage beschreibt das Thema „VWL-Grundlagen“ fachlich am besten?",
+      "frage": "Wie entsteht der Marktpreis eines Produkts grundsätzlich?",
       "antwort_daten": {
         "optionen": [
-          "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung."
+          "Angebot und Nachfrage bestimmen den Marktpreis; verschiebt sich eine der beiden Kurven, verändert sich der Gleichgewichtspreis.",
+          "Der Preis wird ausschliesslich vom Anbieter festgelegt, unabhängig von der Nachfrage.",
+          "Der Preis hängt nur von den Produktionskosten ab, unabhängig vom Markt.",
+          "Angebot und Nachfrage haben keinen Zusammenhang mit dem Marktpreis."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Angebot und Nachfrage bestimmen den Marktpreis; verschiebt sich eine der beiden Kurven, verändert sich der Gleichgewichtspreis.",
+        "rechenweg": "Im Schnittpunkt von Angebots- und Nachfragekurve liegt der Gleichgewichtspreis - verschiebt sich eine Kurve, ändert sich der Preis.",
+        "warum": "Der Preis entsteht im Zusammenspiel von Angebot und Nachfrage, nicht allein durch den Anbieter oder die Kosten."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Angebot und Nachfrage verwechseln.",
+        "Annehmen, der Preis werde allein vom Anbieter festgelegt, unabhängig von der Nachfrage.",
+        "Verschiebung von Angebots- oder Nachfragekurve nicht auseinanderhalten können."
       ],
       "review": {
         "box": 1,
@@ -12697,7 +12716,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Preis entsteht dort, wo Angebot und Nachfrage sich treffen."
     },
     {
       "id": "marketing_verkauf_vwl_grundlagen_stufe2_fehlerfalle",
@@ -12749,32 +12768,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei VWL-Grundlagen vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Angebot und Nachfrage bestimmen den Marktpreis; verschiebt sich eine der beiden Kurven, verändert sich der Gleichgewichtspreis.",
+        "pruefungsrelevant": "Prüfungsnah ist, wie sich Angebots- oder Nachfrageänderungen auf Preis und Menge im Marktgleichgewicht auswirken."
       },
-      "frage": "Welche Hinweise helfen beim Thema „VWL-Grundlagen“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Verständnis von Angebot und Nachfrage sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Bei Reklamationen Ursache, Kundenanliegen und Folgeprozess systematisch prüfen.",
-          "Massnahmen immer mit Zielgruppe und Kundennutzen verknüpfen.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung."
+          "Angebot und Nachfrage werden verwechselt.",
+          "Es wird angenommen, der Preis werde allein vom Anbieter festgelegt.",
+          "Verschiebungen der Angebots- oder Nachfragekurve werden nicht auseinandergehalten.",
+          "Der Gleichgewichtspreis wird korrekt im Schnittpunkt beider Kurven erkannt.",
+          "Auswirkungen einer Nachfrageverschiebung auf den Preis werden richtig hergeleitet."
         ],
         "richtige_indices": [
           0,
-          1
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Richtig sind die Verwechslung von Angebot und Nachfrage, die falsche alleinige Preisfestlegung durch den Anbieter und unklare Kurvenverschiebungen.",
+        "rechenweg": "Eine Verschiebung der Nachfragekurve (z.B. durch einen Trend) verändert bei gleichem Angebot sowohl Preis als auch Menge im Gleichgewicht.",
+        "warum": "Prüfungsnah ist, wie sich Angebots- oder Nachfrageänderungen auf Preis und Menge im Marktgleichgewicht auswirken."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Angebot und Nachfrage verwechseln.",
+        "Annehmen, der Preis werde allein vom Anbieter festgelegt, unabhängig von der Nachfrage.",
+        "Verschiebung von Angebots- oder Nachfragekurve nicht auseinanderhalten können."
       ],
       "review": {
         "box": 1,
@@ -12797,7 +12817,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Preis entsteht dort, wo Angebot und Nachfrage sich treffen."
     },
     {
       "id": "marketing_verkauf_ziele_smart_stufe1_begriff",
@@ -12849,28 +12869,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Ziele / SMART verstehen",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Verkaufsziele werden nach dem SMART-Prinzip mit konkreten Zahlen, Terminen und realistischen Vorgaben formuliert.",
+        "pruefungsrelevant": "Prüfungsnah ist, unspezifische Zielformulierungen zu erkennen und in messbare, terminierte Verkaufsziele umzuformulieren."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Ziele / SMART“ fachlich am besten?",
+      "frage": "Was bedeutet das SMART-Prinzip bei der Formulierung von Verkaufszielen?",
       "antwort_daten": {
         "optionen": [
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich."
+          "Ziele sollen spezifisch, messbar, akzeptiert, realistisch und terminiert sein, z.B. 'Umsatz bis Quartalsende um 8% steigern'.",
+          "Verkaufsziele sollten möglichst allgemein formuliert werden, damit sie flexibel bleiben.",
+          "Eine Terminierung ist bei Verkaufszielen nicht nötig.",
+          "Messbarkeit spielt bei Verkaufszielen keine Rolle."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Ziele sollen spezifisch, messbar, akzeptiert, realistisch und terminiert sein, z.B. 'Umsatz bis Quartalsende um 8% steigern'.",
+        "rechenweg": "Nur ein konkretes, terminiertes Ziel lässt sich später mit einem Soll-Ist-Vergleich im Verkauf überprüfen.",
+        "warum": "Allgemeine, unterminierte oder nicht messbare Ziele verlieren ihre Steuerungswirkung im Verkaufsteam."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Ziele zu allgemein formulieren, ohne Zahl oder Termin.",
+        "Unrealistische Verkaufsziele setzen, die demotivieren.",
+        "Zielerreichung nie mit dem Team überprüfen."
       ],
       "review": {
         "box": 1,
@@ -12891,7 +12911,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Ohne Zahl und Termin ist ein Ziel nur ein Wunsch."
     },
     {
       "id": "marketing_verkauf_ziele_smart_stufe2_fehlerfalle",
@@ -12943,32 +12963,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Ziele / SMART vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Verkaufsziele werden nach dem SMART-Prinzip mit konkreten Zahlen, Terminen und realistischen Vorgaben formuliert.",
+        "pruefungsrelevant": "Prüfungsnah ist, unspezifische Zielformulierungen zu erkennen und in messbare, terminierte Verkaufsziele umzuformulieren."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Ziele / SMART“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei SMART-Verkaufszielen sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Bei Reklamationen Ursache, Kundenanliegen und Folgeprozess systematisch prüfen.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "Massnahmen immer mit Zielgruppe und Kundennutzen verknüpfen.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung."
+          "Ziele werden zu allgemein formuliert, ohne Zahl oder Termin.",
+          "Unrealistische Verkaufsziele werden gesetzt, die das Team demotivieren.",
+          "Die Zielerreichung wird nie mit dem Team überprüft.",
+          "Ziele werden gemeinsam mit dem Team konkret und terminiert formuliert.",
+          "Der Fortschritt wird periodisch mit dem Team besprochen."
         ],
         "richtige_indices": [
+          0,
           1,
-          3
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Richtig sind zu allgemeine Zielformulierungen, unrealistische Ziele und ausbleibende Erfolgsüberprüfung.",
+        "rechenweg": "Ohne periodische Überprüfung verlieren auch gut formulierte Ziele ihre steuernde Wirkung im Verkaufsalltag.",
+        "warum": "Prüfungsnah ist, unspezifische Zielformulierungen zu erkennen und in messbare, terminierte Verkaufsziele umzuformulieren."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Ziele zu allgemein formulieren, ohne Zahl oder Termin.",
+        "Unrealistische Verkaufsziele setzen, die demotivieren.",
+        "Zielerreichung nie mit dem Team überprüfen."
       ],
       "review": {
         "box": 1,
@@ -12991,7 +13012,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Ohne Zahl und Termin ist ein Ziel nur ein Wunsch."
     },
     {
       "id": "personalmanagement_3_saeulen_prinzip_stufe1_begriff",
@@ -52389,7 +52410,7 @@
         "lerntauglich"
       ],
       "thema_id": "crm",
-      "thema": "Integrierte Fallstudie",
+      "thema": "Kundenbeziehungsmanagement (CRM)",
       "quelle": {
         "typ": "pruefung",
         "jahr": 2023,
