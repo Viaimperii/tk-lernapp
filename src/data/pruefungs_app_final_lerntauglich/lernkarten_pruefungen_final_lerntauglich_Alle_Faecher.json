@@ -12996,28 +12996,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu 3-Säulen-Prinzip verstehen",
       "begriff_erklaerung": {
-        "kurz": "Sozialversicherungs- und Vorsorgeaufgaben prüfen, ob du die Versicherungen, Säulen und Zuständigkeiten korrekt einordnest.",
-        "pruefungsrelevant": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
+        "kurz": "Das 3-Säulen-Prinzip kombiniert staatliche (1. Säule), berufliche (2. Säule) und private (3. Säule) Vorsorge.",
+        "pruefungsrelevant": "Prüfungsnah ist, Zweck und Pflicht/Freiwilligkeit jeder Säule korrekt zuzuordnen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „3-Säulen-Prinzip“ fachlich am besten?",
+      "frage": "Was ist der Grundgedanke des Schweizer 3-Säulen-Prinzips?",
       "antwort_daten": {
         "optionen": [
-          "Alle Sozialversicherungen gehören automatisch zur 2. Säule.",
-          "Unfallversicherung und berufliche Vorsorge decken denselben Zweck vollständig ab.",
-          "Die Säule 3a ist eine obligatorische Arbeitgeberversicherung.",
-          "Schweizer Vorsorge und Sozialversicherungen werden nach Zweck und Säule eingeordnet: staatlich, beruflich oder privat."
+          "Die 1. Säule sichert das Existenzminimum, die 2. Säule den gewohnten Lebensstandard, die 3. Säule ergänzt freiwillig und individuell.",
+          "Alle drei Säulen sind gesetzlich obligatorisch und decken denselben Zweck ab.",
+          "Nur die 2. Säule ist für die Altersvorsorge relevant, die anderen beiden dienen anderen Zwecken.",
+          "Die 3. Säule ersetzt die AHV vollständig, sobald sie eröffnet wird."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Schweizer Vorsorge und Sozialversicherungen werden nach Zweck und Säule eingeordnet: staatlich, beruflich oder privat.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
+        "kurz": "Die 1. Säule sichert das Existenzminimum, die 2. Säule den gewohnten Lebensstandard, die 3. Säule ergänzt freiwillig und individuell.",
+        "rechenweg": "1. Säule (AHV/IV) ist obligatorisch und sichert das Existenzminimum, 2. Säule (BVG) ist ab bestimmtem Lohn obligatorisch und sichert den Lebensstandard, 3. Säule ist freiwillig.",
+        "warum": "Nur die 2. Säule zu berücksichtigen oder die 3. Säule als AHV-Ersatz zu sehen, verkennt Zweck und Zusammenspiel der drei Säulen."
       },
       "fehlerfallen": [
-        "Säulen verwechseln.",
-        "Obligatorische und freiwillige Versicherungen vermischen.",
-        "AHV/BVG/UVG nach Namen statt nach Zweck einordnen."
+        "Säulen und ihre Pflicht/Freiwilligkeit verwechseln.",
+        "Annehmen, eine Säule allein reiche für die Altersvorsorge.",
+        "3. Säule mit der 2. Säule (berufliche Vorsorge) gleichsetzen."
       ],
       "review": {
         "box": 1,
@@ -13038,7 +13038,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "1 staatlich, 2 beruflich, 3 privat – das ist der Vorsorge-Kompass."
+      "merksatz": "1. Säule sichert das Minimum, 2. Säule den Standard, 3. Säule ist freiwillig obendrauf."
     },
     {
       "id": "personalmanagement_3_saeulen_prinzip_stufe2_fehlerfalle",
@@ -13136,28 +13136,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Alterskapital bei Pensionierung verstehen",
       "begriff_erklaerung": {
-        "kurz": "Sozialversicherungs- und Vorsorgeaufgaben prüfen, ob du die Versicherungen, Säulen und Zuständigkeiten korrekt einordnest.",
-        "pruefungsrelevant": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
+        "kurz": "Bei der Pensionierung kann das BVG-Altersguthaben als Rente, als Kapital oder als Mischform bezogen werden.",
+        "pruefungsrelevant": "Prüfungsnah ist, Vor- und Nachteile von Rente (lebenslange Sicherheit) und Kapitalbezug (Flexibilität, eigenes Risiko) zu kennen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Alterskapital bei Pensionierung“ fachlich am besten?",
+      "frage": "Welche Wahlmöglichkeit besteht bei der Pensionierung bezüglich des Altersguthabens der 2. Säule?",
       "antwort_daten": {
         "optionen": [
-          "Alle Sozialversicherungen gehören automatisch zur 2. Säule.",
-          "Unfallversicherung und berufliche Vorsorge decken denselben Zweck vollständig ab.",
-          "Die Säule 3a ist eine obligatorische Arbeitgeberversicherung.",
-          "Schweizer Vorsorge und Sozialversicherungen werden nach Zweck und Säule eingeordnet: staatlich, beruflich oder privat."
+          "Man kann zwischen einer lebenslangen Rente, einem einmaligen Kapitalbezug oder einer Kombination aus beidem wählen.",
+          "Das Altersguthaben muss immer vollständig als Kapital bezogen werden.",
+          "Eine Rente kann nur bezogen werden, wenn kein Kapitalbezug erfolgt ist.",
+          "Das Altersguthaben verfällt automatisch, wenn es nicht innert einem Monat bezogen wird."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Schweizer Vorsorge und Sozialversicherungen werden nach Zweck und Säule eingeordnet: staatlich, beruflich oder privat.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
+        "kurz": "Man kann zwischen einer lebenslangen Rente, einem einmaligen Kapitalbezug oder einer Kombination aus beidem wählen.",
+        "rechenweg": "Rente bietet lebenslange, planbare Einkünfte; Kapitalbezug bietet Flexibilität, verlangt aber Eigenverantwortung bei der Verwaltung des Geldes.",
+        "warum": "Ein Zwang zu vollständigem Kapitalbezug oder ein automatischer Verfall entsprechen nicht der gesetzlichen Wahlfreiheit bei der Pensionierung."
       },
       "fehlerfallen": [
-        "Säulen verwechseln.",
-        "Obligatorische und freiwillige Versicherungen vermischen.",
-        "AHV/BVG/UVG nach Namen statt nach Zweck einordnen."
+        "Rente und Kapitalbezug als sich gegenseitig ausschliessend statt kombinierbar ansehen.",
+        "Steuerliche Folgen des Kapitalbezugs ausser Acht lassen.",
+        "Langlebigkeitsrisiko beim Kapitalbezug unterschätzen."
       ],
       "review": {
         "box": 1,
@@ -13178,7 +13178,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "1 staatlich, 2 beruflich, 3 privat – das ist der Vorsorge-Kompass."
+      "merksatz": "Rente, Kapital oder beides - die Wahl liegt bei der versicherten Person."
     },
     {
       "id": "personalmanagement_alterskapital_bei_pensionierung_stufe2_fehlerfalle",
@@ -13416,28 +13416,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Arbeitszeugnisse in der Rekrutierung verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Ein Arbeitszeugnis muss wahr und vollständig sein, soll aber das berufliche Fortkommen nicht unnötig erschweren (wohlwollend formuliert).",
+        "pruefungsrelevant": "Prüfungsnah ist der Spannungsbogen zwischen Wahrheitspflicht und Wohlwollen sowie das Erkennen gängiger Zeugnis-Formulierungen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Arbeitszeugnisse in der Rekrutierung“ fachlich am besten?",
+      "frage": "Welchen rechtlichen Anforderungen muss ein Arbeitszeugnis genügen?",
       "antwort_daten": {
         "optionen": [
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich."
+          "Es muss wahr und vollständig sein, gleichzeitig aber wohlwollend formuliert werden.",
+          "Es darf ausschliesslich positive Aussagen enthalten, unabhängig von der Wahrheit.",
+          "Es muss möglichst knapp gehalten werden und darf keine Tätigkeitsbeschreibung enthalten.",
+          "Negative Vorkommnisse dürfen niemals erwähnt werden, auch wenn sie wahr sind."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Es muss wahr und vollständig sein, gleichzeitig aber wohlwollend formuliert werden.",
+        "rechenweg": "Wahrheit und Wohlwollen schliessen sich nicht aus: heikle Punkte werden zurückhaltend, aber nicht falsch, formuliert.",
+        "warum": "Rein positive oder verkürzte Zeugnisse ohne Tätigkeitsbeschreibung widersprechen der gesetzlichen Wahrheits- und Vollständigkeitspflicht."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Zeugnis-Codes (verklausulierte Formulierungen) nicht erkennen.",
+        "Nur auf positive Formulierungen achten, ohne den Gesamteindruck zu werten.",
+        "Vollständigkeit (Tätigkeiten, Dauer) beim Lesen/Erstellen vernachlässigen."
       ],
       "review": {
         "box": 1,
@@ -13458,7 +13458,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Wahr, vollständig, wohlwollend - alle drei zusammen machen ein gutes Zeugnis aus."
     },
     {
       "id": "personalmanagement_arbeitszeugnisse_in_der_rekrutierung_stufe2_fehlerfalle",
@@ -13483,32 +13483,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Arbeitszeugnisse in der Rekrutierung vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Ein Arbeitszeugnis muss wahr und vollständig sein, soll aber das berufliche Fortkommen nicht unnötig erschweren (wohlwollend formuliert).",
+        "pruefungsrelevant": "Prüfungsnah ist der Spannungsbogen zwischen Wahrheitspflicht und Wohlwollen sowie das Erkennen gängiger Zeugnis-Formulierungen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Arbeitszeugnisse in der Rekrutierung“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Umgang mit Arbeitszeugnissen sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich."
+          "Verklausulierte Formulierungen (Zeugnis-Codes) werden beim Lesen nicht erkannt.",
+          "Ein Zeugnis wird allein nach seiner Länge beurteilt, nicht nach Inhalt.",
+          "Auf eine Tätigkeitsbeschreibung im Zeugnis kann verzichtet werden.",
+          "Der Gesamteindruck (Formulierungen, Reihenfolge, Auslassungen) wird nicht beachtet.",
+          "Nur der Schlusssatz des Zeugnisses wird gelesen, der Rest überflogen."
         ],
         "richtige_indices": [
-          1,
-          3
+          0,
+          3,
+          4
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Richtig sind das Übersehen von Zeugnis-Codes, der vernachlässigte Gesamteindruck und das reine Überfliegen statt vollständige Lektüre.",
+        "rechenweg": "Zeugnisse müssen als Ganzes gelesen werden: Formulierungen, Reihenfolge der Aussagen und Auslassungen sagen oft mehr als einzelne Sätze.",
+        "warum": "Die Tätigkeitsbeschreibung ist Pflichtbestandteil und darf nicht fehlen - sie liefert wichtige Fakten für die Rekrutierung."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Zeugnis-Codes (verklausulierte Formulierungen) nicht erkennen.",
+        "Nur auf positive Formulierungen achten, ohne den Gesamteindruck zu werten.",
+        "Vollständigkeit (Tätigkeiten, Dauer) beim Lesen/Erstellen vernachlässigen."
       ],
       "review": {
         "box": 1,
@@ -13531,7 +13532,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Wahr, vollständig, wohlwollend - alle drei zusammen machen ein gutes Zeugnis aus."
     },
     {
       "id": "personalmanagement_ausbildungsvereinbarung_stufe1_begriff",
@@ -13556,28 +13557,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Ausbildungsvereinbarung verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Eine Ausbildungsvereinbarung regelt Kostenbeteiligung, Zeitaufwand und Rückzahlungsbedingungen bei vom Betrieb finanzierten Weiterbildungen.",
+        "pruefungsrelevant": "Prüfungsnah ist, dass Rückzahlungsklauseln meist gestaffelt (z.B. sinkend über Zeit) und rechtlich zulässig ausgestaltet sein müssen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Ausbildungsvereinbarung“ fachlich am besten?",
+      "frage": "Was regelt eine Ausbildungsvereinbarung zwischen Betrieb und Mitarbeitendem typischerweise?",
       "antwort_daten": {
         "optionen": [
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein."
+          "Kostenbeteiligung, Zeitaufwand und eine allfällige Rückzahlungspflicht bei vorzeitigem Austritt nach der Weiterbildung.",
+          "Ausschliesslich das künftige Gehalt nach Abschluss der Weiterbildung.",
+          "Nur die Kursanmeldung, ohne Regelung zu Kosten oder Austritt.",
+          "Eine Ausbildungsvereinbarung hat keine rechtliche Bedeutung."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Kostenbeteiligung, Zeitaufwand und eine allfällige Rückzahlungspflicht bei vorzeitigem Austritt nach der Weiterbildung.",
+        "rechenweg": "Verlässt eine Person den Betrieb kurz nach Abschluss einer finanzierten Weiterbildung, kann eine anteilige Rückzahlung vereinbart worden sein.",
+        "warum": "Nur das künftige Gehalt oder die blosse Kursanmeldung zu regeln, deckt die zentralen Punkte einer Ausbildungsvereinbarung nicht ab."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Rückzahlungsklausel vergessen oder unklar formulieren.",
+        "Kostenbeteiligung nicht schriftlich festhalten.",
+        "Vereinbarung erst nach Kursbeginn statt vorher abschliessen."
       ],
       "review": {
         "box": 1,
@@ -13598,7 +13599,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Wer die Ausbildung zahlt, regelt vorher schriftlich, was bei einem Austritt passiert."
     },
     {
       "id": "personalmanagement_ausbildungsvereinbarung_stufe2_fehlerfalle",
@@ -13696,28 +13697,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Beendigung Arbeitsverhältnis verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Die ordentliche Kündigung muss die geltende Frist einhalten; gesetzliche Sperrfristen schützen z.B. bei Krankheit oder Schwangerschaft.",
+        "pruefungsrelevant": "Prüfungsnah ist die Unterscheidung zwischen ordentlicher (fristgerechter) und ausserordentlicher (fristloser) Kündigung sowie die Sperrfristen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Beendigung Arbeitsverhältnis“ fachlich am besten?",
+      "frage": "Was ist bei der ordentlichen Kündigung eines Arbeitsverhältnisses zu beachten?",
       "antwort_daten": {
         "optionen": [
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein."
+          "Die vertraglich oder gesetzlich geltende Kündigungsfrist muss eingehalten werden, ausser während einer Sperrfrist (z.B. Krankheit, Schwangerschaft).",
+          "Eine Kündigung kann jederzeit fristlos ausgesprochen werden, unabhängig vom Grund.",
+          "Kündigungsfristen gelten nur für den Arbeitgeber, nicht für Mitarbeitende.",
+          "Während einer Krankheit darf immer sofort gekündigt werden."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Die vertraglich oder gesetzlich geltende Kündigungsfrist muss eingehalten werden, ausser während einer Sperrfrist (z.B. Krankheit, Schwangerschaft).",
+        "rechenweg": "Sperrfristen verlängern bzw. unterbrechen die Kündigungsfrist, wenn z.B. eine Krankheit während der Kündigungsfrist eintritt.",
+        "warum": "Fristlose Kündigung ist nur bei wichtigem Grund zulässig, und Kündigungsfristen sowie Sperrfristen gelten für beide Vertragsparteien."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Sperrfristen bei Krankheit/Unfall/Schwangerschaft übersehen.",
+        "Ordentliche und fristlose Kündigung verwechseln.",
+        "Kündigungsfrist falsch berechnen (Beginn/Ende des Monats)."
       ],
       "review": {
         "box": 1,
@@ -13738,7 +13739,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Frist einhalten, Sperrfristen beachten - Kündigung ist kein Freipass."
     },
     {
       "id": "personalmanagement_beendigung_arbeitsverhaeltnis_stufe2_fehlerfalle",
@@ -13843,28 +13844,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Beschaffung / Lieferanten verstehen",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Personalbeschaffung sucht über verschiedene Kanäle (intern/extern, aktiv/passiv) die passenden Kandidatinnen und Kandidaten.",
+        "pruefungsrelevant": "Prüfungsnah ist die Unterscheidung interner (z.B. interne Ausschreibung) und externer (z.B. Personalvermittler, Active Sourcing) Beschaffungskanäle."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Beschaffung / Lieferanten“ fachlich am besten?",
+      "frage": "Was bedeutet Personalbeschaffung im Sinne von 'Beschaffung' im HR-Bereich?",
       "antwort_daten": {
         "optionen": [
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl."
+          "Die passenden Kandidatinnen und Kandidaten über interne und externe Kanäle (z.B. Stellenausschreibung, Personalvermittler, Active Sourcing) zu finden.",
+          "Ausschliesslich den Einkauf von Büromaterial für die Personalabteilung.",
+          "Nur die Auswahl von externen Lieferanten für IT-Dienstleistungen.",
+          "Die Beschaffung ist identisch mit der Lohnauszahlung."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Die passenden Kandidatinnen und Kandidaten über interne und externe Kanäle (z.B. Stellenausschreibung, Personalvermittler, Active Sourcing) zu finden.",
+        "rechenweg": "Je nach Stelle eignen sich unterschiedliche Kanäle: interne Ausschreibung fördert Mitarbeitende, externe Kanäle erweitern den Bewerbendenkreis.",
+        "warum": "Büromaterial-Einkauf, IT-Lieferanten oder Lohnauszahlung haben nichts mit der Personalbeschaffung im HR-Sinn zu tun."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Nur einen Beschaffungskanal nutzen, statt mehrere zu kombinieren.",
+        "Interne Kandidatinnen und Kandidaten nicht berücksichtigen.",
+        "Personalbeschaffung mit klassischer Warenbeschaffung verwechseln."
       ],
       "review": {
         "box": 1,
@@ -13885,7 +13886,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Personalbeschaffung sucht Menschen, nicht Waren - über passende Kanäle."
     },
     {
       "id": "personalmanagement_beschaffung_lieferanten_stufe2_fehlerfalle",
@@ -13990,28 +13991,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Bewerbungsunterlagen verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Vollständige Bewerbungsunterlagen umfassen Motivationsschreiben, Lebenslauf, Zeugnisse und Diplome.",
+        "pruefungsrelevant": "Prüfungsnah ist, welche Dokumente eine vollständige Bewerbung ausmachen und wie sie im Auswahlprozess genutzt werden."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Bewerbungsunterlagen“ fachlich am besten?",
+      "frage": "Was gehört zu vollständigen Bewerbungsunterlagen?",
       "antwort_daten": {
         "optionen": [
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden."
+          "Anschreiben (Motivationsschreiben), Lebenslauf, Arbeitszeugnisse und Diplome/Ausweise.",
+          "Nur der Lebenslauf, alle weiteren Dokumente sind unwichtig.",
+          "Ausschliesslich ein Foto der bewerbenden Person.",
+          "Bewerbungsunterlagen benötigen keine Zeugnisse, wenn der Lebenslauf überzeugend ist."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Anschreiben (Motivationsschreiben), Lebenslauf, Arbeitszeugnisse und Diplome/Ausweise.",
+        "rechenweg": "Jedes Dokument liefert andere Informationen: Motivation, Werdegang, Leistungsbeurteilung und formale Qualifikationen.",
+        "warum": "Nur der Lebenslauf oder ein Foto allein liefern kein vollständiges Bild über Qualifikation und Eignung."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Bewerbung ohne Prüfung auf Vollständigkeit weiterleiten.",
+        "Nur den Lebenslauf lesen, Zeugnisse ignorieren.",
+        "Diplome/Ausweise nicht auf Echtheit bzw. Plausibilität prüfen."
       ],
       "review": {
         "box": 1,
@@ -14032,7 +14033,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Anschreiben, Lebenslauf, Zeugnisse, Diplome - erst zusammen ergeben sie ein vollständiges Bild."
     },
     {
       "id": "personalmanagement_bewerbungsunterlagen_stufe2_fehlerfalle",
@@ -14130,28 +14131,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Bonussystem verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Bonussysteme sollen motivieren, können aber bei falsch gewählten Kriterien Fehlanreize setzen.",
+        "pruefungsrelevant": "Prüfungsnah ist, Chancen (Motivation, Zielausrichtung) und Risiken (Fehlanreize) von Bonussystemen gegenüberzustellen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Bonussystem“ fachlich am besten?",
+      "frage": "Was ist ein zentrales Risiko variabler Bonussysteme?",
       "antwort_daten": {
         "optionen": [
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich."
+          "Falsch gesetzte Anreize können zu unerwünschtem Verhalten führen, z.B. kurzfristiges Denken statt langfristiger Zielerreichung.",
+          "Bonussysteme haben grundsätzlich keinerlei Einfluss auf das Verhalten der Mitarbeitenden.",
+          "Ein Bonus darf nie an messbare Ziele gekoppelt werden.",
+          "Bonussysteme sind gesetzlich in jedem Fall verboten."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Falsch gesetzte Anreize können zu unerwünschtem Verhalten führen, z.B. kurzfristiges Denken statt langfristiger Zielerreichung.",
+        "rechenweg": "Wird z.B. nur der kurzfristige Umsatz belohnt, kann dies zu Lasten von Qualität oder langfristigem Kundennutzen gehen.",
+        "warum": "Bonussysteme beeinflussen Verhalten sehr wohl, werden oft an messbare Ziele gekoppelt und sind rechtlich zulässig, solange sie fair gestaltet sind."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Bonuskriterien wählen, die falsche Anreize setzen (z.B. nur Menge statt Qualität).",
+        "Bonussystem nicht regelmässig auf Wirkung überprüfen.",
+        "Zielkonflikte zwischen Bonuskriterien und Unternehmenszielen übersehen."
       ],
       "review": {
         "box": 1,
@@ -14172,7 +14173,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Ein Bonus belohnt, was gemessen wird - deshalb muss man die richtigen Dinge messen."
     },
     {
       "id": "personalmanagement_bonussystem_stufe2_fehlerfalle",
@@ -14630,28 +14631,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Burnout eines Mitarbeitenden verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Arbeitgebende haben eine Fürsorgepflicht und sollten bei Burnout-Anzeichen frühzeitig und vertraulich reagieren.",
+        "pruefungsrelevant": "Prüfungsnah ist die Fürsorgepflicht des Arbeitgebers sowie der vertrauliche, wertschätzende Umgang mit Betroffenen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Burnout eines Mitarbeitenden“ fachlich am besten?",
+      "frage": "Wie sollte eine Führungsperson auf erste Anzeichen eines Burnouts bei einem Mitarbeitenden reagieren?",
       "antwort_daten": {
         "optionen": [
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden."
+          "Frühzeitig das Gespräch suchen, Anzeichen ernst nehmen und im Rahmen der Fürsorgepflicht Unterstützung anbieten.",
+          "Die Anzeichen ignorieren, bis die Person von selbst darauf anspricht.",
+          "Der betroffenen Person zusätzliche Aufgaben übertragen, um sie abzulenken.",
+          "Das Thema öffentlich im Team ansprechen, ohne die betroffene Person vorher einzubeziehen."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Frühzeitig das Gespräch suchen, Anzeichen ernst nehmen und im Rahmen der Fürsorgepflicht Unterstützung anbieten.",
+        "rechenweg": "Frühzeitiges, vertrauliches Gespräch und konkrete Unterstützung (z.B. Entlastung, externe Beratung) verhindern eine Verschlimmerung.",
+        "warum": "Ignorieren, zusätzliche Belastung oder öffentliches Ansprechen ohne Einbezug widersprechen der Fürsorgepflicht und schaden der betroffenen Person."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Anzeichen von Überlastung verharmlosen oder ignorieren.",
+        "Betroffene Person zusätzlich belasten statt entlasten.",
+        "Vertraulichkeit im Umgang mit dem Thema nicht wahren."
       ],
       "review": {
         "box": 1,
@@ -14672,7 +14673,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Früh hinschauen und vertraulich handeln, statt spät reagieren."
     },
     {
       "id": "personalmanagement_burnout_eines_mitarbeitenden_stufe2_fehlerfalle",
@@ -14697,32 +14698,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Burnout eines Mitarbeitenden vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Arbeitgebende haben eine Fürsorgepflicht und sollten bei Burnout-Anzeichen frühzeitig und vertraulich reagieren.",
+        "pruefungsrelevant": "Prüfungsnah ist die Fürsorgepflicht des Arbeitgebers sowie der vertrauliche, wertschätzende Umgang mit Betroffenen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Burnout eines Mitarbeitenden“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Umgang mit Burnout-Risiken sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht."
+          "Warnsignale (z.B. Erschöpfung, Rückzug) werden als vorübergehende Phase abgetan.",
+          "Die Fürsorgepflicht des Arbeitgebers wird nicht wahrgenommen.",
+          "Gespräche zum Thema werden vertraulich und wertschätzend geführt.",
+          "Präventive Massnahmen (z.B. Arbeitsbelastung regelmässig prüfen) werden nicht ergriffen.",
+          "Rückkehr nach einer Erkrankung wird ohne Anpassung der Arbeitsbelastung erwartet."
         ],
         "richtige_indices": [
+          0,
           1,
-          3
+          4
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Richtig sind das Verharmlosen von Warnsignalen, die vernachlässigte Fürsorgepflicht und die unveränderte Belastung nach der Rückkehr.",
+        "rechenweg": "Prävention (regelmässige Belastungsprüfung) und eine schrittweise, angepasste Wiedereingliederung sind zentrale Massnahmen gegen Burnout-Rückfälle.",
+        "warum": "Vertrauliche, wertschätzende Gespräche sind kein Fehler, sondern gerade der richtige Umgang mit dem Thema."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Anzeichen von Überlastung verharmlosen oder ignorieren.",
+        "Betroffene Person zusätzlich belasten statt entlasten.",
+        "Vertraulichkeit im Umgang mit dem Thema nicht wahren."
       ],
       "review": {
         "box": 1,
@@ -14745,7 +14747,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Früh hinschauen und vertraulich handeln, statt spät reagieren."
     },
     {
       "id": "personalmanagement_das_eigene_ressourcenmanagement_verbessern_stufe1_begriff",
@@ -14910,28 +14912,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Erstellen einer Mitarbeitendenbefragung verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Eine gute Mitarbeitendenbefragung stellt klare, neutrale Fragen, sichert Anonymität und mündet in sichtbare Massnahmen.",
+        "pruefungsrelevant": "Prüfungsnah ist, dass Anonymität und Rückmeldung der Ergebnisse zentrale Erfolgsfaktoren einer Befragung sind."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Erstellen einer Mitarbeitendenbefragung“ fachlich am besten?",
+      "frage": "Worauf sollte bei der Erstellung einer Mitarbeitendenbefragung geachtet werden?",
       "antwort_daten": {
         "optionen": [
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden."
+          "Auf klare, eindeutige Fragen, Anonymität der Antworten und einen erkennbaren Nutzen für die Verbesserung im Betrieb.",
+          "Auf möglichst viele Suggestivfragen, die eine gewünschte Antwort nahelegen.",
+          "Anonymität ist bei internen Befragungen nicht nötig.",
+          "Die Ergebnisse müssen den Mitarbeitenden nicht zurückgemeldet werden."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Auf klare, eindeutige Fragen, Anonymität der Antworten und einen erkennbaren Nutzen für die Verbesserung im Betrieb.",
+        "rechenweg": "Nur anonyme, neutral formulierte Fragen liefern ehrliche Antworten; werden daraus sichtbare Massnahmen abgeleitet, steigt die Akzeptanz künftiger Befragungen.",
+        "warum": "Suggestivfragen verzerren Ergebnisse, fehlende Anonymität senkt die Ehrlichkeit der Antworten, und ausbleibende Rückmeldung schwächt das Vertrauen."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Suggestivfragen statt neutraler Formulierungen verwenden.",
+        "Anonymität der Befragung nicht sicherstellen oder kommunizieren.",
+        "Ergebnisse nicht auswerten oder den Mitarbeitenden nicht zurückmelden."
       ],
       "review": {
         "box": 1,
@@ -14952,7 +14954,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Klar fragen, anonym auswerten, Ergebnisse zurückmelden - sonst verpufft die Befragung."
     },
     {
       "id": "personalmanagement_erstellen_einer_mitarbeitendenbefragung_stufe2_fehlerfalle",
@@ -14977,32 +14979,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Erstellen einer Mitarbeitendenbefragung vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Eine gute Mitarbeitendenbefragung stellt klare, neutrale Fragen, sichert Anonymität und mündet in sichtbare Massnahmen.",
+        "pruefungsrelevant": "Prüfungsnah ist, dass Anonymität und Rückmeldung der Ergebnisse zentrale Erfolgsfaktoren einer Befragung sind."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Erstellen einer Mitarbeitendenbefragung“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei Mitarbeitendenbefragungen sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich."
+          "Suggestivfragen werden verwendet, die eine bestimmte Antwort begünstigen.",
+          "Die Anonymität der Befragung wird nicht sichergestellt oder nicht klar kommuniziert.",
+          "Ergebnisse werden ausgewertet, aber nie an die Mitarbeitenden zurückgemeldet.",
+          "Die Befragung wird nach der Auswertung ohne jegliche Massnahme abgelegt.",
+          "Fragen werden klar, neutral und thematisch fokussiert formuliert."
         ],
         "richtige_indices": [
-          2,
-          3
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Richtig sind Suggestivfragen, unklare Anonymität und fehlende Rückmeldung der Ergebnisse an die Belegschaft.",
+        "rechenweg": "Fehlt die Rückmeldung oder werden keine Massnahmen abgeleitet, sinkt die Bereitschaft, sich an künftigen Befragungen ehrlich zu beteiligen.",
+        "warum": "Klare, neutrale Fragen sind kein Fehler, sondern gerade die Voraussetzung für eine aussagekräftige Befragung."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Suggestivfragen statt neutraler Formulierungen verwenden.",
+        "Anonymität der Befragung nicht sicherstellen oder kommunizieren.",
+        "Ergebnisse nicht auswerten oder den Mitarbeitenden nicht zurückmelden."
       ],
       "review": {
         "box": 1,
@@ -15025,7 +15028,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Klar fragen, anonym auswerten, Ergebnisse zurückmelden - sonst verpufft die Befragung."
     },
     {
       "id": "personalmanagement_fluktuation_stufe1_begriff",
@@ -15050,28 +15053,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Fluktuation verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Die Fluktuationsrate misst Personalaustritte pro Periode - sie sollte hinsichtlich Ursachen analysiert, nicht nur als Zahl berichtet werden.",
+        "pruefungsrelevant": "Prüfungsnah ist, dass hohe Fluktuation Kosten verursacht (Rekrutierung, Einarbeitung) und auf Ursachen hin untersucht werden muss."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Fluktuation“ fachlich am besten?",
+      "frage": "Was zeigt die Fluktuationsrate und wie sollte sie interpretiert werden?",
       "antwort_daten": {
         "optionen": [
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden."
+          "Sie zeigt den Anteil der Personalaustritte in einer Periode - hohe Werte sollten auf Ursachen (z.B. Führung, Lohn, Arbeitsklima) hin analysiert werden.",
+          "Eine hohe Fluktuation ist grundsätzlich immer positiv, da frisches Personal ins Unternehmen kommt.",
+          "Die Fluktuationsrate misst ausschliesslich Krankheitstage der Belegschaft.",
+          "Fluktuation lässt sich nicht messen und daher nicht analysieren."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Sie zeigt den Anteil der Personalaustritte in einer Periode - hohe Werte sollten auf Ursachen (z.B. Führung, Lohn, Arbeitsklima) hin analysiert werden.",
+        "rechenweg": "Fluktuationsrate = Anzahl Austritte / durchschnittlicher Personalbestand einer Periode. Ein hoher Wert ist ein Signal, keine Zielgrösse an sich.",
+        "warum": "Hohe Fluktuation ist meist mit hohen Kosten und Wissensverlust verbunden - sie pauschal als positiv zu werten, ignoriert diese Risiken."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Fluktuationsrate berichten, ohne Ursachen zu analysieren.",
+        "Kosten der Fluktuation (Rekrutierung, Einarbeitung) unterschätzen.",
+        "Fluktuation mit Krankheitsabwesenheit verwechseln."
       ],
       "review": {
         "box": 1,
@@ -15092,7 +15095,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Fluktuation ist ein Symptom - die Ursache muss gefunden werden."
     },
     {
       "id": "personalmanagement_fluktuation_stufe2_fehlerfalle",
@@ -15190,28 +15193,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Fragen im Bewerbungsgespräch verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Fragen ohne Stellenbezug (z.B. Familienplanung, Religion) verletzen den Persönlichkeitsschutz und sind unzulässig.",
+        "pruefungsrelevant": "Prüfungsnah ist die Abgrenzung zulässiger (stellenbezogener) von unzulässigen (persönlichkeitsverletzenden) Fragen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Fragen im Bewerbungsgespräch“ fachlich am besten?",
+      "frage": "Welche Fragen sind im Bewerbungsgespräch grundsätzlich unzulässig?",
       "antwort_daten": {
         "optionen": [
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein."
+          "Fragen ohne direkten Stellenbezug, z.B. nach Schwangerschaft, Familienplanung, Religion oder sexueller Orientierung.",
+          "Fragen zu bisherigen beruflichen Erfahrungen und Qualifikationen.",
+          "Fragen zur Verfügbarkeit und zum gewünschten Eintrittstermin.",
+          "Fragen zu den Erwartungen an die ausgeschriebene Stelle."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Fragen ohne direkten Stellenbezug, z.B. nach Schwangerschaft, Familienplanung, Religion oder sexueller Orientierung.",
+        "rechenweg": "Zulässig sind Fragen mit klarem Bezug zur Eignung für die Stelle; unzulässig sind Fragen, die private, geschützte Bereiche betreffen.",
+        "warum": "Erfahrung, Verfügbarkeit und Erwartungen an die Stelle sind zulässige, stellenbezogene Fragen - im Gegensatz zu privaten, geschützten Themen."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Unzulässige, private Fragen stellen, weil sie 'nur zum Kennenlernen' gedacht sind.",
+        "Stellenbezogene Fragen zu vage oder gar nicht stellen.",
+        "Antworten auf unzulässige Fragen für die Entscheidung verwenden."
       ],
       "review": {
         "box": 1,
@@ -15232,7 +15235,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Nur was für die Stelle zählt, darf gefragt werden."
     },
     {
       "id": "personalmanagement_fragen_im_bewerbungsgespraech_stufe2_fehlerfalle",
@@ -15257,32 +15260,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Fragen im Bewerbungsgespräch vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Fragen ohne Stellenbezug (z.B. Familienplanung, Religion) verletzen den Persönlichkeitsschutz und sind unzulässig.",
+        "pruefungsrelevant": "Prüfungsnah ist die Abgrenzung zulässiger (stellenbezogener) von unzulässigen (persönlichkeitsverletzenden) Fragen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Fragen im Bewerbungsgespräch“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei Fragen im Bewerbungsgespräch sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden."
+          "Private, nicht stellenbezogene Fragen werden gestellt, weil sie 'nur zum Kennenlernen' gedacht sind.",
+          "Antworten auf eigentlich unzulässige Fragen fliessen dennoch in den Entscheid ein.",
+          "Alle Bewerbenden erhalten exakt dieselben stellenbezogenen Fragen, um vergleichbar zu bleiben.",
+          "Stellenbezogene Kompetenzfragen werden zugunsten reinen Small Talks vernachlässigt.",
+          "Rückfragen der bewerbenden Person werden nicht zugelassen."
         ],
         "richtige_indices": [
           0,
-          1
+          1,
+          3
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Richtig sind das Stellen unzulässiger Fragen, deren Einfluss auf den Entscheid und die Vernachlässigung stellenbezogener Kompetenzfragen.",
+        "rechenweg": "Vergleichbare, stellenbezogene Fragen für alle Bewerbenden sind gerade der richtige Ansatz, nicht ein Fehler.",
+        "warum": "Ein professionelles Gespräch lässt zudem Raum für Rückfragen der bewerbenden Person."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Unzulässige, private Fragen stellen, weil sie 'nur zum Kennenlernen' gedacht sind.",
+        "Stellenbezogene Fragen zu vage oder gar nicht stellen.",
+        "Antworten auf unzulässige Fragen für die Entscheidung verwenden."
       ],
       "review": {
         "box": 1,
@@ -15305,7 +15309,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Nur was für die Stelle zählt, darf gefragt werden."
     },
     {
       "id": "personalmanagement_fuehrung_personal_stufe1_begriff",
@@ -15357,28 +15361,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Führung / Personal verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Personalführung bedeutet, Menschen zu motivieren, sinnvoll zu delegieren und den Führungsstil situativ anzupassen.",
+        "pruefungsrelevant": "Prüfungsnah ist das situative Führen: der Führungsstil sollte zu Aufgabe und Reifegrad der Mitarbeitenden passen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Führung / Personal“ fachlich am besten?",
+      "frage": "Was gehört zu den Kernaufgaben der Personalführung?",
       "antwort_daten": {
         "optionen": [
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht."
+          "Mitarbeitende zu motivieren, Aufgaben sinnvoll zu delegieren und den Führungsstil der Situation anzupassen.",
+          "Ausschliesslich Anweisungen zu erteilen, ohne auf die Situation der Mitarbeitenden einzugehen.",
+          "Delegation ist in der Führung grundsätzlich zu vermeiden.",
+          "Führung beschränkt sich auf die Kontrolle der Arbeitszeiten."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Mitarbeitende zu motivieren, Aufgaben sinnvoll zu delegieren und den Führungsstil der Situation anzupassen.",
+        "rechenweg": "Je nach Erfahrung und Aufgabe braucht es engere Führung (bei Einsteigern) oder mehr Freiraum (bei erfahrenen Mitarbeitenden).",
+        "warum": "Reine Anweisung ohne Situationsbezug, das Vermeiden von Delegation oder reine Zeitkontrolle greifen als Führungsverständnis zu kurz."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Führungsstil nicht an Situation oder Mitarbeitende anpassen.",
+        "Aufgaben nicht delegieren aus Kontrollbedürfnis.",
+        "Motivation nur über monetäre Anreize erwarten."
       ],
       "review": {
         "box": 1,
@@ -15399,7 +15403,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Führen heisst: motivieren, delegieren, den Stil anpassen."
     },
     {
       "id": "personalmanagement_fuehrung_personal_stufe2_fehlerfalle",
@@ -15524,28 +15528,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Homeoffice / Selbstmanagement verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Erfolgreiches Homeoffice-Selbstmanagement braucht klare Struktur, Prioritäten und eine bewusste Trennung von Arbeit und Freizeit.",
+        "pruefungsrelevant": "Prüfungsnah ist, konkrete Selbstmanagement-Techniken (Zeitplanung, Priorisierung, Abgrenzung) zu benennen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Homeoffice / Selbstmanagement“ fachlich am besten?",
+      "frage": "Was ist im Homeoffice für erfolgreiches Selbstmanagement besonders wichtig?",
       "antwort_daten": {
         "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein."
+          "Klare Arbeitszeiten, Prioritätensetzung und eine bewusste Abgrenzung zwischen Arbeit und Freizeit.",
+          "Möglichst viele Aufgaben gleichzeitig zu erledigen (Multitasking), um effizienter zu wirken.",
+          "Erreichbarkeit rund um die Uhr, ohne feste Pausen einzuplanen.",
+          "Arbeitszeiten und Pausen sind im Homeoffice unwichtig."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Klare Arbeitszeiten, Prioritätensetzung und eine bewusste Abgrenzung zwischen Arbeit und Freizeit.",
+        "rechenweg": "Feste Arbeitszeiten und Pausen sowie klare Prioritäten verhindern Überlastung und ständige Erreichbarkeit.",
+        "warum": "Multitasking senkt nachweislich die Effizienz, und ständige Erreichbarkeit ohne Pausen führt zu Überlastung statt zu besserer Leistung."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Keine klaren Arbeitszeiten festlegen.",
+        "Ständige Erreichbarkeit ohne Pausen als Norm ansehen.",
+        "Prioritäten nicht setzen und alles gleichzeitig erledigen wollen."
       ],
       "review": {
         "box": 1,
@@ -15566,7 +15570,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Struktur schafft im Homeoffice, was das Büro sonst automatisch vorgibt."
     },
     {
       "id": "personalmanagement_homeoffice_selbstmanagement_stufe2_fehlerfalle",
@@ -15591,32 +15595,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Homeoffice / Selbstmanagement vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Erfolgreiches Homeoffice-Selbstmanagement braucht klare Struktur, Prioritäten und eine bewusste Trennung von Arbeit und Freizeit.",
+        "pruefungsrelevant": "Prüfungsnah ist, konkrete Selbstmanagement-Techniken (Zeitplanung, Priorisierung, Abgrenzung) zu benennen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Homeoffice / Selbstmanagement“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Selbstmanagement im Homeoffice sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht."
+          "Arbeits- und Freizeit werden nicht klar voneinander abgegrenzt.",
+          "Prioritäten werden nicht gesetzt, wodurch wichtige Aufgaben liegen bleiben.",
+          "Feste Pausen werden bewusst eingeplant und eingehalten.",
+          "Ständige Erreichbarkeit wird als Selbstverständlichkeit erwartet.",
+          "Ein fester Arbeitsplatz und feste Arbeitszeiten werden eingerichtet."
         ],
         "richtige_indices": [
+          0,
           1,
           3
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Richtig sind die fehlende Abgrenzung von Arbeit/Freizeit, fehlende Priorisierung und die überzogene Erwartung ständiger Erreichbarkeit.",
+        "rechenweg": "Feste Pausen sowie ein fester Arbeitsplatz und feste Arbeitszeiten sind gerade empfehlenswerte Massnahmen, kein Fehler.",
+        "warum": "Ohne klare Abgrenzung und Priorisierung drohen Überlastung und ineffizientes Arbeiten im Homeoffice."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Keine klaren Arbeitszeiten festlegen.",
+        "Ständige Erreichbarkeit ohne Pausen als Norm ansehen.",
+        "Prioritäten nicht setzen und alles gleichzeitig erledigen wollen."
       ],
       "review": {
         "box": 1,
@@ -15639,7 +15644,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Struktur schafft im Homeoffice, was das Büro sonst automatisch vorgibt."
     },
     {
       "id": "personalmanagement_ich_bin_okay_du_bist_okay_stufe1_begriff",
@@ -15664,28 +15669,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Ich bin okay – du bist okay verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Die Grundhaltung 'Ich bin okay - du bist okay' steht für respektvolle Kommunikation auf Augenhöhe.",
+        "pruefungsrelevant": "Prüfungsnah ist die Abgrenzung zu den anderen Grundhaltungen der Transaktionsanalyse (z.B. Abwertung der eigenen oder der anderen Person)."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Ich bin okay – du bist okay“ fachlich am besten?",
+      "frage": "Was bedeutet die Grundhaltung 'Ich bin okay - du bist okay' aus der Transaktionsanalyse?",
       "antwort_daten": {
         "optionen": [
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich."
+          "Beide Gesprächspartner begegnen sich respektvoll und auf Augenhöhe, ohne sich selbst oder das Gegenüber abzuwerten.",
+          "Nur die eigene Position zählt, die des Gegenübers ist unwichtig.",
+          "Konflikte lassen sich damit vollständig vermeiden, unabhängig vom Verhalten beider Seiten.",
+          "Die Haltung gilt ausschliesslich für Vorgesetzte gegenüber Mitarbeitenden, nicht umgekehrt."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Beide Gesprächspartner begegnen sich respektvoll und auf Augenhöhe, ohne sich selbst oder das Gegenüber abzuwerten.",
+        "rechenweg": "Wer sich selbst und das Gegenüber gleichermassen respektiert, kommuniziert konstruktiver und deeskaliert Konflikte eher.",
+        "warum": "Weder die einseitige Aufwertung der eigenen Position noch eine reine Einbahnstrasse (nur Vorgesetzte-Mitarbeitende) entsprechen dieser gegenseitigen Grundhaltung."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Nur die eigene Sichtweise als gültig ansehen.",
+        "Die Grundhaltung nur einseitig (top-down) anwenden.",
+        "Annehmen, die Haltung verhindere Konflikte vollständig statt sie nur konstruktiver zu gestalten."
       ],
       "review": {
         "box": 1,
@@ -15706,7 +15711,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Respekt auf Augenhöhe für beide Seiten - das ist der Kern der Haltung."
     },
     {
       "id": "personalmanagement_ich_bin_okay_du_bist_okay_stufe2_fehlerfalle",
@@ -15804,28 +15809,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Informationen im Berufsfeld aktuell halten verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Aktuelles Fachwissen entsteht durch kontinuierliche Weiterbildung, Fachliteratur und Austausch im Netzwerk.",
+        "pruefungsrelevant": "Prüfungsnah ist, verschiedene Kanäle (Weiterbildung, Literatur, Netzwerk) zur Wissensaktualisierung zu kennen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Informationen im Berufsfeld aktuell halten“ fachlich am besten?",
+      "frage": "Wie können Fachpersonen ihr berufliches Wissen aktuell halten?",
       "antwort_daten": {
         "optionen": [
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht."
+          "Durch regelmässige Weiterbildung, Fachliteratur, Branchenaustausch und Netzwerke.",
+          "Indem sie sich ausschliesslich auf das während der Grundausbildung Gelernte verlassen.",
+          "Weiterbildung ist nur für Führungspersonen relevant.",
+          "Informationsaustausch mit anderen Fachpersonen bringt keinen Mehrwert."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Durch regelmässige Weiterbildung, Fachliteratur, Branchenaustausch und Netzwerke.",
+        "rechenweg": "Sich wandelnde gesetzliche, technische und methodische Anforderungen verlangen eine kontinuierliche, nicht einmalige Weiterbildung.",
+        "warum": "Sich allein auf die Grundausbildung zu verlassen oder Austausch als nutzlos abzutun, führt langfristig zu veraltetem Fachwissen."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Weiterbildung als einmaligen statt kontinuierlichen Prozess verstehen.",
+        "Fachliteratur und Branchenaustausch vernachlässigen.",
+        "Wissen nur der Führungsebene zuschreiben, nicht allen Fachpersonen."
       ],
       "review": {
         "box": 1,
@@ -15846,7 +15851,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Wissen veraltet - wer dranbleibt, bleibt kompetent."
     },
     {
       "id": "personalmanagement_informationen_im_berufsfeld_aktuell_halten_stufe2_fehlerfalle",
@@ -15944,28 +15949,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Instrumente der Medienarbeit verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Medienmitteilung, Medienkonferenz und Interviews sind klassische Instrumente der externen Medienarbeit.",
+        "pruefungsrelevant": "Prüfungsnah ist, Instrumente der Medienarbeit von rein interner Kommunikation abzugrenzen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Instrumente der Medienarbeit“ fachlich am besten?",
+      "frage": "Welche Instrumente gehören zur klassischen Medienarbeit eines Unternehmens?",
       "antwort_daten": {
         "optionen": [
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden."
+          "Medienmitteilung, Medienkonferenz und Interviews mit ausgewählten Sprecherinnen und Sprechern.",
+          "Ausschliesslich interne Rundmails an die eigene Belegschaft.",
+          "Nur private Social-Media-Beiträge einzelner Mitarbeitender.",
+          "Medienarbeit umfasst keine schriftlichen Instrumente."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Medienmitteilung, Medienkonferenz und Interviews mit ausgewählten Sprecherinnen und Sprechern.",
+        "rechenweg": "Je nach Anlass (laufende Information vs. grosse Ankündigung) eignen sich unterschiedliche Instrumente wie Mitteilung oder Medienkonferenz.",
+        "warum": "Interne Rundmails oder private Social-Media-Beiträge sind keine offiziellen Instrumente der externen Medienarbeit."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Interne und externe Kommunikation vermischen.",
+        "Kein einheitliches Sprachrohr (Ansprechperson) für Medienanfragen bestimmen.",
+        "Medienmitteilungen ohne klare Kernbotschaft verfassen."
       ],
       "review": {
         "box": 1,
@@ -15986,7 +15991,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Medienarbeit spricht nach aussen - mit klaren, offiziellen Kanälen."
     },
     {
       "id": "personalmanagement_instrumente_der_medienarbeit_stufe2_fehlerfalle",
@@ -16084,28 +16089,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Interkulturelle Kommunikation verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Interkulturelle Kommunikation erfordert Sensibilität für unterschiedliche Kommunikationsstile und Hierarchieverständnisse.",
+        "pruefungsrelevant": "Prüfungsnah ist, konkrete Unterschiede (z.B. direkte vs. indirekte Kommunikation) zu erkennen und Missverständnisse zu vermeiden."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Interkulturelle Kommunikation“ fachlich am besten?",
+      "frage": "Worauf muss bei interkultureller Kommunikation besonders geachtet werden?",
       "antwort_daten": {
         "optionen": [
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein."
+          "Auf unterschiedliche Kommunikationsstile, Höflichkeitsformen und Hierarchieverständnisse verschiedener Kulturen.",
+          "Kulturelle Unterschiede spielen in der beruflichen Kommunikation keine Rolle.",
+          "Man sollte immer den eigenen Kommunikationsstil unverändert durchsetzen.",
+          "Direktheit wird in allen Kulturen gleich verstanden und geschätzt."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Auf unterschiedliche Kommunikationsstile, Höflichkeitsformen und Hierarchieverständnisse verschiedener Kulturen.",
+        "rechenweg": "Was in einer Kultur als direkt und klar gilt, kann in einer anderen als unhöflich wirken - Anpassung reduziert Missverständnisse.",
+        "warum": "Kulturelle Unterschiede zu ignorieren oder den eigenen Stil unreflektiert durchzusetzen, erhöht das Risiko von Missverständnissen und Konflikten."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Kulturelle Unterschiede in der Kommunikation ignorieren.",
+        "Direktheit als universell akzeptiert voraussetzen.",
+        "Nonverbale Signale (Gestik, Distanz) kulturell falsch deuten."
       ],
       "review": {
         "box": 1,
@@ -16126,7 +16131,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Was hier höflich ist, kann anderswo unhöflich wirken - und umgekehrt."
     },
     {
       "id": "personalmanagement_interkulturelle_kommunikation_stufe2_fehlerfalle",
@@ -16151,32 +16156,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Interkulturelle Kommunikation vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Interkulturelle Kommunikation erfordert Sensibilität für unterschiedliche Kommunikationsstile und Hierarchieverständnisse.",
+        "pruefungsrelevant": "Prüfungsnah ist, konkrete Unterschiede (z.B. direkte vs. indirekte Kommunikation) zu erkennen und Missverständnisse zu vermeiden."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Interkulturelle Kommunikation“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern in der interkulturellen Kommunikation sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich."
+          "Kulturelle Unterschiede in Kommunikationsstil und Hierarchieverständnis werden ignoriert.",
+          "Nonverbale Signale (Gestik, Blickkontakt, Distanz) werden kulturell falsch interpretiert.",
+          "Es wird geprüft, ob der eigene Kommunikationsstil beim Gegenüber wie beabsichtigt ankommt.",
+          "Direktheit wird als in jeder Kultur gleich verstanden vorausgesetzt.",
+          "Rückfragen zur Klärung von Missverständnissen werden aktiv gestellt."
         ],
         "richtige_indices": [
+          0,
           1,
           3
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Richtig sind das Ignorieren kultureller Unterschiede, Fehlinterpretation nonverbaler Signale und die falsche Annahme universeller Direktheit.",
+        "rechenweg": "Aktives Nachfragen und die Kontrolle, ob die eigene Botschaft wie gewünscht ankommt, sind gerade sinnvolle Massnahmen, kein Fehler.",
+        "warum": "Kulturelle Unterschiede zu ignorieren, führt in der Praxis zu vermeidbaren Missverständnissen und Konflikten."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Kulturelle Unterschiede in der Kommunikation ignorieren.",
+        "Direktheit als universell akzeptiert voraussetzen.",
+        "Nonverbale Signale (Gestik, Distanz) kulturell falsch deuten."
       ],
       "review": {
         "box": 1,
@@ -16199,7 +16205,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Was hier höflich ist, kann anderswo unhöflich wirken - und umgekehrt."
     },
     {
       "id": "personalmanagement_kommunikationsgrundsaetze_stufe1_begriff",
@@ -16224,28 +16230,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Kommunikationsgrundsätze verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Gute Kommunikation ist empfänger- und situationsgerecht und umfasst aktives Zuhören sowie konstruktives Feedback.",
+        "pruefungsrelevant": "Prüfungsnah sind Feedback-Regeln (konkret, konstruktiv, zeitnah) und aktives Zuhören als Kommunikationsgrundsätze."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Kommunikationsgrundsätze“ fachlich am besten?",
+      "frage": "Was gehört zu wichtigen Kommunikationsgrundsätzen im Berufsalltag?",
       "antwort_daten": {
         "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht."
+          "Empfänger- und situationsgerecht kommunizieren, aktiv zuhören und konstruktives Feedback geben.",
+          "Immer im selben Stil kommunizieren, unabhängig von Person und Situation.",
+          "Zuhören ist für gute Kommunikation nicht relevant, nur das eigene Reden zählt.",
+          "Feedback sollte möglichst vage bleiben, um niemanden zu verletzen."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Empfänger- und situationsgerecht kommunizieren, aktiv zuhören und konstruktives Feedback geben.",
+        "rechenweg": "Botschaften sollten an Empfänger und Situation angepasst werden; aktives Zuhören und klares, konstruktives Feedback fördern Verständigung.",
+        "warum": "Immer gleich zu kommunizieren, nicht zuzuhören oder vages Feedback zu geben, verhindert wirksame Verständigung."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Botschaften nicht an Empfänger oder Situation anpassen.",
+        "Nur reden, statt aktiv zuzuhören.",
+        "Feedback zu vage oder zu spät geben."
       ],
       "review": {
         "box": 1,
@@ -16266,7 +16272,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Gute Kommunikation passt sich Empfänger und Situation an."
     },
     {
       "id": "personalmanagement_kommunikationsgrundsaetze_stufe2_fehlerfalle",
@@ -16364,28 +16370,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Krisenkommunikation verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Krisenkommunikation muss schnell, transparent, konsistent und über ein klares Sprachrohr erfolgen.",
+        "pruefungsrelevant": "Prüfungsnah ist, dass Verzögerung und widersprüchliche Aussagen das Vertrauen in einer Krise am stärksten schädigen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Krisenkommunikation“ fachlich am besten?",
+      "frage": "Was ist bei der Krisenkommunikation eines Unternehmens besonders wichtig?",
       "antwort_daten": {
         "optionen": [
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich."
+          "Schnell, transparent und konsistent informieren - mit einem klar definierten Sprachrohr nach aussen.",
+          "Abwarten, bis alle Fakten zu 100% geklärt sind, bevor überhaupt kommuniziert wird.",
+          "Unterschiedliche Personen sollen frei und unkoordiniert Auskunft geben.",
+          "Spekulationen sind in der Krisenkommunikation ein geeignetes Mittel, um Zeit zu gewinnen."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Schnell, transparent und konsistent informieren - mit einem klar definierten Sprachrohr nach aussen.",
+        "rechenweg": "Ein einheitliches Sprachrohr verhindert widersprüchliche Aussagen; schnelle, transparente Information verhindert ein Vakuum, das durch Gerüchte gefüllt wird.",
+        "warum": "Abwarten auf vollständige Klarheit oder unkoordinierte Aussagen mehrerer Personen verstärken Unsicherheit und Vertrauensverlust in der Krise."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Zu lange mit der Kommunikation warten.",
+        "Mehrere, widersprüchliche Sprachrohre zulassen.",
+        "Spekulationen statt gesicherter Fakten kommunizieren."
       ],
       "review": {
         "box": 1,
@@ -16406,7 +16412,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "In der Krise zählt: schnell, klar, aus einer Stimme."
     },
     {
       "id": "personalmanagement_krisenkommunikation_stufe2_fehlerfalle",
@@ -16504,28 +16510,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Lohnformen/Anreizsysteme verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Zeitlohn, Akkordlohn und Prämienlohn sind unterschiedliche Lohnformen mit jeweils eigener Anreizwirkung.",
+        "pruefungsrelevant": "Prüfungsnah ist, welche Lohnform sich für welche Tätigkeit eignet (z.B. Akkordlohn bei gut messbarer Stückzahl)."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Lohnformen/Anreizsysteme“ fachlich am besten?",
+      "frage": "Welche Lohnformen werden im betrieblichen Alltag unterschieden?",
       "antwort_daten": {
         "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht."
+          "Zeitlohn (nach geleisteter Arbeitszeit), Akkordlohn (nach Stückzahl) und Prämienlohn (nach zusätzlicher Leistung).",
+          "Es gibt gesetzlich nur eine einzige zulässige Lohnform.",
+          "Der Lohn ist unabhängig von Tätigkeit und Leistung immer identisch.",
+          "Akkordlohn und Zeitlohn bezeichnen dasselbe Prinzip."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Zeitlohn (nach geleisteter Arbeitszeit), Akkordlohn (nach Stückzahl) und Prämienlohn (nach zusätzlicher Leistung).",
+        "rechenweg": "Zeitlohn eignet sich bei schwer messbarer Leistung, Akkordlohn bei klar zählbaren Stückzahlen, Prämienlohn ergänzt eine Basis mit leistungsabhängigen Zuschlägen.",
+        "warum": "Es existieren mehrere zulässige Lohnformen, die sich klar unterscheiden und je nach Tätigkeit unterschiedlich geeignet sind."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Lohnformen verwechseln oder synonym verwenden.",
+        "Akkordlohn bei schwer messbarer Qualität einsetzen und Qualitätsverlust riskieren.",
+        "Anreizwirkung der gewählten Lohnform nicht bedenken."
       ],
       "review": {
         "box": 1,
@@ -16546,7 +16552,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Zeit, Stück oder Prämie - jede Lohnform setzt andere Anreize."
     },
     {
       "id": "personalmanagement_lohnformen_anreizsysteme_stufe2_fehlerfalle",
@@ -16644,28 +16650,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Motivationstheorie verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Intrinsische Motivation entsteht aus der Tätigkeit selbst, extrinsische Motivation durch äussere Anreize.",
+        "pruefungsrelevant": "Prüfungsnah ist die Abgrenzung intrinsisch/extrinsisch sowie der Bezug zu Motivationstheorien (z.B. Herzberg: Motivatoren vs. Hygienefaktoren)."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Motivationstheorie“ fachlich am besten?",
+      "frage": "Was unterscheidet intrinsische von extrinsischer Motivation?",
       "antwort_daten": {
         "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein."
+          "Intrinsische Motivation kommt aus der Tätigkeit selbst (z.B. Interesse, Sinn), extrinsische Motivation durch äussere Anreize wie Lohn oder Anerkennung.",
+          "Beide Begriffe bezeichnen exakt dasselbe Phänomen.",
+          "Extrinsische Motivation ist immer stärker und nachhaltiger als intrinsische.",
+          "Intrinsische Motivation lässt sich ausschliesslich durch Geld erzeugen."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Intrinsische Motivation kommt aus der Tätigkeit selbst (z.B. Interesse, Sinn), extrinsische Motivation durch äussere Anreize wie Lohn oder Anerkennung.",
+        "rechenweg": "Sinnvolle, interessante Aufgaben fördern intrinsische Motivation, während Lohn oder Boni typische extrinsische Anreize sind.",
+        "warum": "Die beiden Motivationsarten sind konzeptionell unterschiedlich, und intrinsische Motivation entsteht gerade nicht primär durch Geld."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Intrinsische und extrinsische Motivation verwechseln.",
+        "Nur auf monetäre Anreize setzen und intrinsische Faktoren ignorieren.",
+        "Motivationstheorien pauschal auf alle Personen gleich anwenden."
       ],
       "review": {
         "box": 1,
@@ -16686,7 +16692,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Intrinsisch kommt von innen, extrinsisch kommt von aussen."
     },
     {
       "id": "personalmanagement_motivationstheorie_stufe2_fehlerfalle",
@@ -16924,28 +16930,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Nicht-monetäre Vergütung verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Nicht-monetäre Vergütung umfasst Leistungen wie Flexibilität, Weiterbildung und Anerkennung, die neben dem Lohn wirken.",
+        "pruefungsrelevant": "Prüfungsnah ist, dass nicht-monetäre Leistungen die Zufriedenheit und Bindung von Mitarbeitenden stark beeinflussen können."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Nicht-monetäre Vergütung“ fachlich am besten?",
+      "frage": "Was zählt zur nicht-monetären Vergütung?",
       "antwort_daten": {
         "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht."
+          "Zusatzleistungen wie flexible Arbeitszeiten, Weiterbildungsmöglichkeiten, Anerkennung oder Homeoffice-Optionen.",
+          "Ausschliesslich der monatliche Bruttolohn.",
+          "Nur Bonuszahlungen am Jahresende.",
+          "Nicht-monetäre Vergütung hat keinen Einfluss auf die Mitarbeiterzufriedenheit."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Zusatzleistungen wie flexible Arbeitszeiten, Weiterbildungsmöglichkeiten, Anerkennung oder Homeoffice-Optionen.",
+        "rechenweg": "Flexible Arbeitszeiten oder Weiterbildung sprechen andere Bedürfnisse an als reines Geld und können die Motivation zusätzlich stärken.",
+        "warum": "Lohn und Bonus sind monetäre Vergütung; nicht-monetäre Leistungen wirken unabhängig davon und beeinflussen die Zufriedenheit deutlich."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Nicht-monetäre Leistungen als unwichtig gegenüber dem Lohn abtun.",
+        "Angebote nicht auf tatsächliche Bedürfnisse der Mitarbeitenden abstimmen.",
+        "Nicht-monetäre Vergütung nur einmalig statt kontinuierlich anbieten."
       ],
       "review": {
         "box": 1,
@@ -16966,7 +16972,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Nicht alles, was motiviert, steht auf der Lohnabrechnung."
     },
     {
       "id": "personalmanagement_nicht_monetaere_verguetung_stufe2_fehlerfalle",
@@ -17064,28 +17070,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Organisation / Prozesse verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Der Employee Life Cycle umfasst Rekrutierung, Einführung (Onboarding), Entwicklung und Austritt.",
+        "pruefungsrelevant": "Prüfungsnah ist, alle Phasen des Employee Life Cycle zu kennen und deren jeweilige HR-Aufgaben zuzuordnen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Organisation / Prozesse“ fachlich am besten?",
+      "frage": "Welche zentralen Prozesse umfasst das Personalmanagement über den 'Employee Life Cycle'?",
       "antwort_daten": {
         "optionen": [
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein."
+          "Rekrutierung, Onboarding, Entwicklung/Förderung und den Austritt aus dem Unternehmen.",
+          "Ausschliesslich die Lohnauszahlung am Monatsende.",
+          "Nur die Kündigung von Mitarbeitenden.",
+          "Personalprozesse beschränken sich auf die Bewerbungsphase."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Rekrutierung, Onboarding, Entwicklung/Förderung und den Austritt aus dem Unternehmen.",
+        "rechenweg": "Jede Phase hat eigene Aufgaben: Rekrutierung sucht passende Personen, Onboarding integriert sie, Entwicklung fördert sie, der Austritt schliesst den Kreislauf ab.",
+        "warum": "Lohnauszahlung oder nur die Kündigung decken jeweils nur einen kleinen Ausschnitt der gesamten HR-Prozesskette ab."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Onboarding als unwichtige Formalität statt zentrale Integrationsphase behandeln.",
+        "Entwicklung/Förderung von Mitarbeitenden vernachlässigen.",
+        "Austrittsprozess (Offboarding) nicht sauber strukturieren."
       ],
       "review": {
         "box": 1,
@@ -17106,7 +17112,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Vom Eintritt bis zum Austritt - HR begleitet den ganzen Weg."
     },
     {
       "id": "personalmanagement_organisation_prozesse_stufe2_fehlerfalle",
@@ -17371,28 +17377,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Rechtliche Grundlagen verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Arbeitsvertragsrecht (OR), Gesamtarbeitsverträge und Schutzvorschriften wie das Arbeitsgesetz bilden die rechtliche Basis im Personalwesen.",
+        "pruefungsrelevant": "Prüfungsnah ist, OR-Bestimmungen (z.B. Kündigungsfristen) von firmeninternen Richtlinien zu unterscheiden."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Rechtliche Grundlagen“ fachlich am besten?",
+      "frage": "Welche rechtlichen Grundlagen sind für das Personalmanagement in der Schweiz zentral?",
       "antwort_daten": {
         "optionen": [
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich."
+          "Das Obligationenrecht (Arbeitsvertragsrecht) sowie allfällige Gesamtarbeitsverträge und Schutzvorschriften (z.B. Arbeitsgesetz).",
+          "Nur interne Firmenrichtlinien ohne gesetzliche Grundlage.",
+          "Personalrechtliche Fragen sind ausschliesslich Sache der einzelnen Führungsperson, ohne gesetzliche Vorgaben.",
+          "Das Arbeitsrecht gilt nur für Kaderpositionen."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Das Obligationenrecht (Arbeitsvertragsrecht) sowie allfällige Gesamtarbeitsverträge und Schutzvorschriften (z.B. Arbeitsgesetz).",
+        "rechenweg": "Gesetzliche Minimalstandards (OR, Arbeitsgesetz) gelten unabhängig von internen Richtlinien und können durch GAV oder Vertrag verbessert, nicht verschlechtert werden.",
+        "warum": "Interne Richtlinien allein reichen rechtlich nicht aus, und gesetzliche Schutzvorschriften gelten für alle Mitarbeitenden, nicht nur für das Kader."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Interne Richtlinien mit zwingendem Gesetzesrecht verwechseln.",
+        "Schutzvorschriften des Arbeitsgesetzes übersehen.",
+        "Annehmen, Arbeitsrecht gelte nicht für alle Mitarbeitendenstufen."
       ],
       "review": {
         "box": 1,
@@ -17413,7 +17419,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Interne Regeln dürfen das Gesetz nur verbessern, nie unterschreiten."
     },
     {
       "id": "personalmanagement_rechtliche_grundlagen_stufe2_fehlerfalle",
@@ -17465,32 +17471,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Rechtliche Grundlagen vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Arbeitsvertragsrecht (OR), Gesamtarbeitsverträge und Schutzvorschriften wie das Arbeitsgesetz bilden die rechtliche Basis im Personalwesen.",
+        "pruefungsrelevant": "Prüfungsnah ist, OR-Bestimmungen (z.B. Kündigungsfristen) von firmeninternen Richtlinien zu unterscheiden."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Rechtliche Grundlagen“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei rechtlichen Grundlagen im Personalwesen sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich."
+          "Interne Richtlinien werden mit zwingendem Gesetzesrecht verwechselt.",
+          "Schutzvorschriften des Arbeitsgesetzes (z.B. Höchstarbeitszeit) werden übersehen.",
+          "Ein Gesamtarbeitsvertrag darf die Mitarbeitenden gegenüber dem Gesetz besserstellen.",
+          "Arbeitsrecht wird als nur für das Kader geltend angenommen.",
+          "Kündigungsfristen werden korrekt gemäss Vertrag oder Gesetz berechnet."
         ],
         "richtige_indices": [
-          2,
+          0,
+          1,
           3
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Richtig sind die Verwechslung interner Richtlinien mit Gesetzesrecht, übersehene Schutzvorschriften und die falsche Annahme, Arbeitsrecht gelte nur fürs Kader.",
+        "rechenweg": "Ein GAV darf Arbeitnehmende gegenüber dem Gesetz nur besserstellen, nie schlechterstellen - das ist kein Fehler, sondern korrekt.",
+        "warum": "Korrekte Kündigungsfristenberechnung ist ebenfalls kein Fehler, sondern die Grundlage rechtssicherer Personalarbeit."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Interne Richtlinien mit zwingendem Gesetzesrecht verwechseln.",
+        "Schutzvorschriften des Arbeitsgesetzes übersehen.",
+        "Annehmen, Arbeitsrecht gelte nicht für alle Mitarbeitendenstufen."
       ],
       "review": {
         "box": 1,
@@ -17513,7 +17520,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Interne Regeln dürfen das Gesetz nur verbessern, nie unterschreiten."
     },
     {
       "id": "personalmanagement_rueckdelegation_stufe1_begriff",
@@ -17538,28 +17545,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Rückdelegation verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Rückdelegation beschreibt, wenn Mitarbeitende Aufgaben/Probleme an die Führungsperson zurückgeben, statt sie selbst zu lösen.",
+        "pruefungsrelevant": "Prüfungsnah ist, dass Führungspersonen Rückdelegation erkennen und aktiv gegensteuern sollten (z.B. durch Rückfragen statt Übernahme)."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Rückdelegation“ fachlich am besten?",
+      "frage": "Was bedeutet Rückdelegation ('Affenmanagement') und wie sollte eine Führungsperson darauf reagieren?",
       "antwort_daten": {
         "optionen": [
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein."
+          "Mitarbeitende geben eine eigentlich ihnen übertragene Aufgabe oder ein Problem an die Führungsperson zurück - diese sollte das nicht unreflektiert übernehmen, sondern zur Lösung anleiten.",
+          "Rückdelegation ist erwünscht und sollte von Führungspersonen aktiv gefördert werden.",
+          "Führungspersonen sollten jede zurückgegebene Aufgabe sofort selbst übernehmen.",
+          "Rückdelegation betrifft ausschliesslich administrative Aufgaben."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Mitarbeitende geben eine eigentlich ihnen übertragene Aufgabe oder ein Problem an die Führungsperson zurück - diese sollte das nicht unreflektiert übernehmen, sondern zur Lösung anleiten.",
+        "rechenweg": "Statt die Aufgabe zu übernehmen, sollte die Führungsperson gezielt Rückfragen stellen, damit die Mitarbeitenden die Lösung selbst erarbeiten.",
+        "warum": "Rückdelegation unreflektiert zu fördern oder Aufgaben sofort selbst zu übernehmen, entzieht Mitarbeitenden Verantwortung und überlastet die Führungsperson."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Zurückgegebene Aufgaben unreflektiert selbst übernehmen.",
+        "Rückdelegation nicht als Muster erkennen und wiederholt zulassen.",
+        "Mitarbeitenden keine Gelegenheit geben, eigene Lösungen zu entwickeln."
       ],
       "review": {
         "box": 1,
@@ -17580,7 +17587,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Der Affe gehört zurück auf die Schulter, die ihn abgegeben hat."
     },
     {
       "id": "personalmanagement_rueckdelegation_stufe2_fehlerfalle",
@@ -17745,32 +17752,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Schweizerisches Vorsorgesystem vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Sozialversicherungs- und Vorsorgeaufgaben prüfen, ob du die Versicherungen, Säulen und Zuständigkeiten korrekt einordnest.",
-        "pruefungsrelevant": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
+        "kurz": "Das 3-Säulen-Prinzip kombiniert staatliche (1. Säule), berufliche (2. Säule) und private (3. Säule) Vorsorge.",
+        "pruefungsrelevant": "Prüfungsnah ist, Zweck und Pflicht/Freiwilligkeit jeder Säule korrekt zuzuordnen sowie typische Vorsorgelücken zu erkennen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Schweizerisches Vorsorgesystem“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Verständnis des Schweizer Vorsorgesystems sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Versicherung immer nach Zweck, Träger und obligatorisch/freiwillig einordnen.",
-          "Die Säule 3a ist eine obligatorische Arbeitgeberversicherung.",
-          "1., 2. und 3. Säule bewusst unterscheiden.",
-          "Unfallversicherung und berufliche Vorsorge decken denselben Zweck vollständig ab.",
-          "Alle Sozialversicherungen gehören automatisch zur 2. Säule."
+          "Die 1., 2. und 3. Säule werden in ihrer Zielsetzung (Existenzsicherung, Lebensstandard, freiwillige Ergänzung) verwechselt.",
+          "Die Beitragspflicht der 2. Säule (BVG) wird als generell freiwillig missverstanden.",
+          "Steuerliche Vorteile der Säule 3a werden nicht berücksichtigt.",
+          "Die Aufteilung in drei Säulen wird korrekt mit ihren jeweiligen Zwecken erklärt.",
+          "Vorsorgelücken (z.B. durch Teilzeitarbeit) werden nicht erkannt oder thematisiert."
         ],
         "richtige_indices": [
           0,
-          2
+          1,
+          4
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
+        "kurz": "Richtig sind die verwechselten Zielsetzungen der Säulen, das Missverständnis zur BVG-Pflicht und unerkannte Vorsorgelücken.",
+        "rechenweg": "Die 2. Säule ist ab einem bestimmten Lohn obligatorisch, nicht freiwillig - ein häufiger Irrtum.",
+        "warum": "Die korrekte Erklärung der drei Säulen ist erwünscht und kein Fehler; Vorsorgelücken (z.B. bei Teilzeit) sollten hingegen aktiv erkannt werden."
       },
       "fehlerfallen": [
-        "Säulen verwechseln.",
-        "Obligatorische und freiwillige Versicherungen vermischen.",
-        "AHV/BVG/UVG nach Namen statt nach Zweck einordnen."
+        "Säulen und ihre Pflicht/Freiwilligkeit verwechseln.",
+        "BVG-Pflicht als freiwillig missverstehen.",
+        "Vorsorgelücken durch Teilzeitarbeit nicht erkennen."
       ],
       "review": {
         "box": 1,
@@ -17793,7 +17801,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "1 staatlich, 2 beruflich, 3 privat – das ist der Vorsorge-Kompass."
+      "merksatz": "1. Säule sichert das Minimum, 2. Säule den Standard, 3. Säule ist freiwillig obendrauf."
     },
     {
       "id": "personalmanagement_sitzungsmoderation_stufe1_begriff",
@@ -17818,28 +17826,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Sitzungsmoderation verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Gute Sitzungsmoderation braucht Traktandenliste, Zeitmanagement, Einbezug aller und eine saubere Ergebnisdokumentation.",
+        "pruefungsrelevant": "Prüfungsnah ist, konkrete Moderationswerkzeuge (Traktanden, Zeitplan, Protokoll) zu benennen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Sitzungsmoderation“ fachlich am besten?",
+      "frage": "Was gehört zu einer professionellen Sitzungsmoderation?",
       "antwort_daten": {
         "optionen": [
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden."
+          "Eine klare Traktandenliste, Zeitmanagement, das Einbeziehen aller Teilnehmenden und die Dokumentation der Ergebnisse.",
+          "Möglichst viele Themen ohne Zeitplan zu besprechen.",
+          "Nur die moderierende Person soll zu Wort kommen.",
+          "Ergebnisse müssen nicht protokolliert werden, da sich alle daran erinnern."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Eine klare Traktandenliste, Zeitmanagement, das Einbeziehen aller Teilnehmenden und die Dokumentation der Ergebnisse.",
+        "rechenweg": "Eine Traktandenliste mit Zeitvorgaben strukturiert die Sitzung, aktives Einbeziehen sichert die Beteiligung, ein Protokoll sichert die Ergebnisse.",
+        "warum": "Unstrukturierte Sitzungen ohne Zeitplan, ohne Einbezug aller oder ohne Protokoll führen zu ineffizienten Ergebnissen und Missverständnissen."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Sitzung ohne Traktandenliste oder Zeitplan durchführen.",
+        "Einzelne Teilnehmende dominieren lassen, andere nicht einbeziehen.",
+        "Ergebnisse und Beschlüsse nicht protokollieren."
       ],
       "review": {
         "box": 1,
@@ -17860,7 +17868,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Traktanden, Zeit, alle einbeziehen, protokollieren - das macht eine Sitzung effizient."
     },
     {
       "id": "personalmanagement_sitzungsmoderation_stufe2_fehlerfalle",
@@ -17958,28 +17966,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Sozialversicherungen verstehen",
       "begriff_erklaerung": {
-        "kurz": "Sozialversicherungs- und Vorsorgeaufgaben prüfen, ob du die Versicherungen, Säulen und Zuständigkeiten korrekt einordnest.",
-        "pruefungsrelevant": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
+        "kurz": "AHV/IV/EO, ALV, UVG und BVG bilden zusammen das Kernsystem der Schweizer Sozialversicherungen für Arbeitnehmende.",
+        "pruefungsrelevant": "Prüfungsnah ist, jede Versicherung ihrem Zweck (Alter/Invalidität, Arbeitslosigkeit, Unfall, berufliche Vorsorge) richtig zuzuordnen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Sozialversicherungen“ fachlich am besten?",
+      "frage": "Welche Sozialversicherungen sind in der Schweiz für Arbeitnehmende zentral?",
       "antwort_daten": {
         "optionen": [
-          "Unfallversicherung und berufliche Vorsorge decken denselben Zweck vollständig ab.",
-          "Schweizer Vorsorge und Sozialversicherungen werden nach Zweck und Säule eingeordnet: staatlich, beruflich oder privat.",
-          "Die Säule 3a ist eine obligatorische Arbeitgeberversicherung.",
-          "Alle Sozialversicherungen gehören automatisch zur 2. Säule."
+          "AHV/IV/EO, Arbeitslosenversicherung (ALV), Unfallversicherung (UVG) und die berufliche Vorsorge (BVG).",
+          "Nur die private Krankenkasse deckt sämtliche Risiken ab.",
+          "Sozialversicherungen sind für Arbeitnehmende freiwillig und optional.",
+          "Es existiert in der Schweiz nur eine einzige gesetzliche Sozialversicherung."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Schweizer Vorsorge und Sozialversicherungen werden nach Zweck und Säule eingeordnet: staatlich, beruflich oder privat.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
+        "kurz": "AHV/IV/EO, Arbeitslosenversicherung (ALV), Unfallversicherung (UVG) und die berufliche Vorsorge (BVG).",
+        "rechenweg": "Jede Versicherung deckt ein spezifisches Risiko ab - zusammen ergeben sie ein Netz, das Arbeitnehmende in verschiedenen Lebenslagen absichert.",
+        "warum": "Diese Versicherungen sind grösstenteils obligatorisch und decken unterschiedliche, sich ergänzende Risiken ab - nicht ein einzelnes Risiko allein."
       },
       "fehlerfallen": [
-        "Säulen verwechseln.",
-        "Obligatorische und freiwillige Versicherungen vermischen.",
-        "AHV/BVG/UVG nach Namen statt nach Zweck einordnen."
+        "Zuständigkeiten der einzelnen Versicherungen verwechseln.",
+        "Obligatorium mit Freiwilligkeit gleichsetzen.",
+        "Krankenversicherung mit Unfallversicherung (UVG) verwechseln."
       ],
       "review": {
         "box": 1,
@@ -18000,7 +18008,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "1 staatlich, 2 beruflich, 3 privat – das ist der Vorsorge-Kompass."
+      "merksatz": "AHV, ALV, UVG, BVG - jede deckt ein eigenes Risiko ab."
     },
     {
       "id": "personalmanagement_sozialversicherungen_stufe2_fehlerfalle",
@@ -18165,32 +18173,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Umgang mit Widerstand vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Widerstand entsteht oft aus unklarer Kommunikation oder unbeachteten Bedenken und sollte ernst genommen, nicht überfahren werden.",
+        "pruefungsrelevant": "Prüfungsnah ist, Widerstand als Signal zu verstehen und durch Einbezug/Kommunikation statt Druck zu begegnen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Umgang mit Widerstand“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zum professionellen Umgang mit Widerstand (z.B. bei Veränderungen) sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Ziele konkret, messbar und terminiert formulieren."
+          "Die Ursachen des Widerstands werden nicht ernst genommen oder erfragt.",
+          "Betroffene werden nicht in den Veränderungsprozess einbezogen.",
+          "Widerstand wird als wertvolles Signal für unklare Kommunikation oder offene Bedenken verstanden.",
+          "Widerstand wird als reine Böswilligkeit oder Unwille abgetan.",
+          "Es wird versucht, Widerstand ausschliesslich mit Druck und Anweisungen zu brechen."
         ],
         "richtige_indices": [
-          3,
-          4
+          0,
+          1,
+          3
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Richtig sind das Ignorieren der Ursachen, der fehlende Einbezug Betroffener und die Fehlinterpretation als reine Böswilligkeit.",
+        "rechenweg": "Wer Widerstand als Signal versteht und Betroffene einbezieht, statt mit Druck zu reagieren, löst die dahinterliegenden Bedenken nachhaltiger.",
+        "warum": "Widerstand als Signal zu verstehen ist der richtige, empfohlene Ansatz - kein Fehler."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Ursachen von Widerstand nicht erfragen.",
+        "Betroffene nicht in Veränderungsprozesse einbeziehen.",
+        "Widerstand als reine Böswilligkeit statt als Signal interpretieren."
       ],
       "review": {
         "box": 1,
@@ -18213,7 +18222,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Widerstand ist ein Signal - kein Grund für mehr Druck."
     },
     {
       "id": "personalmanagement_unfallversicherung_stufe1_begriff",
@@ -18238,28 +18247,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Unfallversicherung verstehen",
       "begriff_erklaerung": {
-        "kurz": "Sozialversicherungs- und Vorsorgeaufgaben prüfen, ob du die Versicherungen, Säulen und Zuständigkeiten korrekt einordnest.",
-        "pruefungsrelevant": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
+        "kurz": "Die UVG deckt Berufsunfälle immer ab, Nichtberufsunfälle zusätzlich ab einer bestimmten Mindestarbeitszeit pro Woche.",
+        "pruefungsrelevant": "Prüfungsnah ist die Unterscheidung Berufsunfall/Nichtberufsunfall und die Mindeststundenregelung."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Unfallversicherung“ fachlich am besten?",
+      "frage": "Was deckt die obligatorische Unfallversicherung (UVG) ab?",
       "antwort_daten": {
         "optionen": [
-          "Alle Sozialversicherungen gehören automatisch zur 2. Säule.",
-          "Unfallversicherung und berufliche Vorsorge decken denselben Zweck vollständig ab.",
-          "Die Säule 3a ist eine obligatorische Arbeitgeberversicherung.",
-          "Schweizer Vorsorge und Sozialversicherungen werden nach Zweck und Säule eingeordnet: staatlich, beruflich oder privat."
+          "Berufsunfälle immer, Nichtberufsunfälle zusätzlich bei einer bestimmten wöchentlichen Mindestarbeitszeit.",
+          "Ausschliesslich Unfälle, die während der Arbeitszeit im Betrieb passieren.",
+          "Krankheiten unabhängig von jeglichem Unfallereignis.",
+          "Die UVG-Pflicht ist für Arbeitgebende freiwillig."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Schweizer Vorsorge und Sozialversicherungen werden nach Zweck und Säule eingeordnet: staatlich, beruflich oder privat.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
+        "kurz": "Berufsunfälle immer, Nichtberufsunfälle zusätzlich bei einer bestimmten wöchentlichen Mindestarbeitszeit.",
+        "rechenweg": "Ab einer bestimmten wöchentlichen Arbeitszeit (i.d.R. 8 Stunden) sind auch Nichtberufsunfälle über den Arbeitgeber versichert, darunter muss dies privat abgesichert werden.",
+        "warum": "Die UVG deckt mehr als reine Arbeitsunfälle im Betrieb ab, betrifft nicht Krankheiten und ist für Arbeitgebende obligatorisch, nicht freiwillig."
       },
       "fehlerfallen": [
-        "Säulen verwechseln.",
-        "Obligatorische und freiwillige Versicherungen vermischen.",
-        "AHV/BVG/UVG nach Namen statt nach Zweck einordnen."
+        "Berufsunfall und Nichtberufsunfall verwechseln.",
+        "Mindestarbeitszeit für Nichtberufsunfalldeckung übersehen.",
+        "UVG mit Krankenversicherung verwechseln."
       ],
       "review": {
         "box": 1,
@@ -18280,7 +18289,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "1 staatlich, 2 beruflich, 3 privat – das ist der Vorsorge-Kompass."
+      "merksatz": "Berufsunfall immer versichert, Nichtberufsunfall nur ab genug Wochenstunden."
     },
     {
       "id": "personalmanagement_unfallversicherung_stufe2_fehlerfalle",
@@ -18305,32 +18314,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Unfallversicherung vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Sozialversicherungs- und Vorsorgeaufgaben prüfen, ob du die Versicherungen, Säulen und Zuständigkeiten korrekt einordnest.",
-        "pruefungsrelevant": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
+        "kurz": "Die UVG deckt Berufsunfälle immer ab, Nichtberufsunfälle zusätzlich ab einer bestimmten Mindestarbeitszeit pro Woche.",
+        "pruefungsrelevant": "Prüfungsnah ist die Unterscheidung Berufsunfall/Nichtberufsunfall und die Mindeststundenregelung."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Unfallversicherung“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Verständnis der Unfallversicherung (UVG) sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Versicherung immer nach Zweck, Träger und obligatorisch/freiwillig einordnen.",
-          "Die Säule 3a ist eine obligatorische Arbeitgeberversicherung.",
-          "1., 2. und 3. Säule bewusst unterscheiden.",
-          "Unfallversicherung und berufliche Vorsorge decken denselben Zweck vollständig ab.",
-          "Alle Sozialversicherungen gehören automatisch zur 2. Säule."
+          "Berufsunfall und Nichtberufsunfall werden verwechselt.",
+          "Die Mindestarbeitszeit für die Deckung von Nichtberufsunfällen wird übersehen.",
+          "UVG und Krankenversicherung werden gleichgesetzt.",
+          "Die Deckung von Berufsunfällen wird korrekt als immer bestehend erkannt.",
+          "Prämienzahlungspflichten zwischen Arbeitgeber und Arbeitnehmenden werden nicht korrekt zugeordnet."
         ],
         "richtige_indices": [
           0,
-          2
+          1,
+          4
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
+        "kurz": "Richtig sind die Verwechslung von Berufs-/Nichtberufsunfall, die übersehene Mindestarbeitszeit und falsch zugeordnete Prämienzahlungspflichten.",
+        "rechenweg": "Berufsunfallprämien trägt meist der Arbeitgeber allein, Nichtberufsunfallprämien können den Arbeitnehmenden belastet werden - das wird oft verwechselt.",
+        "warum": "Die korrekte Erkenntnis, dass Berufsunfälle immer gedeckt sind, ist richtig und kein Fehler; die UVG mit der Krankenversicherung gleichzusetzen, wäre hingegen ein Fehler."
       },
       "fehlerfallen": [
-        "Säulen verwechseln.",
-        "Obligatorische und freiwillige Versicherungen vermischen.",
-        "AHV/BVG/UVG nach Namen statt nach Zweck einordnen."
+        "Berufsunfall und Nichtberufsunfall verwechseln.",
+        "Mindestarbeitszeit für Nichtberufsunfalldeckung übersehen.",
+        "UVG mit Krankenversicherung verwechseln."
       ],
       "review": {
         "box": 1,
@@ -18353,7 +18363,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "1 staatlich, 2 beruflich, 3 privat – das ist der Vorsorge-Kompass."
+      "merksatz": "Berufsunfall immer versichert, Nichtberufsunfall nur ab genug Wochenstunden."
     },
     {
       "id": "personalmanagement_versicherungen_stufe1_begriff",
@@ -18378,28 +18388,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Versicherungen verstehen",
       "begriff_erklaerung": {
-        "kurz": "Sozialversicherungs- und Vorsorgeaufgaben prüfen, ob du die Versicherungen, Säulen und Zuständigkeiten korrekt einordnest.",
-        "pruefungsrelevant": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
+        "kurz": "AHV/IV, BVG, UVG und Krankentaggeldversicherung decken jeweils unterschiedliche Risiken im Arbeitsverhältnis ab.",
+        "pruefungsrelevant": "Prüfungsnah ist, die einzelnen Versicherungen ihrem jeweiligen Risiko (Alter, Unfall, Krankheit) korrekt zuzuordnen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Versicherungen“ fachlich am besten?",
+      "frage": "Wie lassen sich die wichtigsten Personenversicherungen im Arbeitsverhältnis grob einordnen?",
       "antwort_daten": {
         "optionen": [
-          "Unfallversicherung und berufliche Vorsorge decken denselben Zweck vollständig ab.",
-          "Schweizer Vorsorge und Sozialversicherungen werden nach Zweck und Säule eingeordnet: staatlich, beruflich oder privat.",
-          "Die Säule 3a ist eine obligatorische Arbeitgeberversicherung.",
-          "Alle Sozialversicherungen gehören automatisch zur 2. Säule."
+          "AHV/IV als staatliche Grundversicherung, BVG als berufliche Vorsorge, UVG für Unfälle sowie Kranken(taggeld)versicherung für krankheitsbedingte Ausfälle.",
+          "Alle Personenversicherungen decken exakt dasselbe Risiko ab.",
+          "Nur eine einzige Versicherung deckt sämtliche Risiken eines Arbeitnehmenden ab.",
+          "Versicherungen im Arbeitsverhältnis sind grundsätzlich freiwillig."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Schweizer Vorsorge und Sozialversicherungen werden nach Zweck und Säule eingeordnet: staatlich, beruflich oder privat.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
+        "kurz": "AHV/IV als staatliche Grundversicherung, BVG als berufliche Vorsorge, UVG für Unfälle sowie Kranken(taggeld)versicherung für krankheitsbedingte Ausfälle.",
+        "rechenweg": "Jede Versicherung springt bei einem anderen Ereignis ein - Alter/Invalidität, Berufliche Vorsorge, Unfall oder Krankheit - und ergänzt sich zu einem Gesamtschutz.",
+        "warum": "Die Versicherungen unterscheiden sich klar in Zweck und Zuständigkeit und sind grösstenteils obligatorisch, nicht freiwillig."
       },
       "fehlerfallen": [
-        "Säulen verwechseln.",
-        "Obligatorische und freiwillige Versicherungen vermischen.",
-        "AHV/BVG/UVG nach Namen statt nach Zweck einordnen."
+        "Zuständigkeiten der verschiedenen Versicherungen verwechseln.",
+        "Krankentaggeldversicherung mit UVG gleichsetzen.",
+        "Obligatorische mit freiwilligen Versicherungen verwechseln."
       ],
       "review": {
         "box": 1,
@@ -18420,7 +18430,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "1 staatlich, 2 beruflich, 3 privat – das ist der Vorsorge-Kompass."
+      "merksatz": "Für jedes Risiko eine eigene Versicherung - keine deckt alles ab."
     },
     {
       "id": "personalmanagement_versicherungen_stufe2_fehlerfalle",
@@ -18518,28 +18528,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Verwarnungsschreiben verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Ein Verwarnungsschreiben dokumentiert eine Pflichtverletzung schriftlich und gibt Gelegenheit zur Besserung vor weiteren Massnahmen.",
+        "pruefungsrelevant": "Prüfungsnah ist, dass eine Verwarnung meist Voraussetzung für eine später gerechtfertigte (fristlose) Kündigung sein kann."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Verwarnungsschreiben“ fachlich am besten?",
+      "frage": "Wozu dient ein Verwarnungsschreiben im Arbeitsverhältnis?",
       "antwort_daten": {
         "optionen": [
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich."
+          "Es dokumentiert eine Pflichtverletzung formell, mahnt zur Besserung und schafft die Grundlage für allfällige weitere Schritte bis zur Kündigung.",
+          "Es beendet das Arbeitsverhältnis automatisch mit sofortiger Wirkung.",
+          "Es hat rein informellen Charakter ohne jede rechtliche Bedeutung.",
+          "Es darf nur mündlich und ohne Dokumentation ausgesprochen werden."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Es dokumentiert eine Pflichtverletzung formell, mahnt zur Besserung und schafft die Grundlage für allfällige weitere Schritte bis zur Kündigung.",
+        "rechenweg": "Eine schriftliche, konkrete Verwarnung schafft Klarheit über die Erwartungen und ist im Streitfall als Nachweis wichtig.",
+        "warum": "Ein Verwarnungsschreiben beendet das Arbeitsverhältnis nicht automatisch, hat rechtliche Bedeutung und sollte schriftlich dokumentiert werden."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Verwarnung nur mündlich und ohne Dokumentation aussprechen.",
+        "Pflichtverletzung nicht konkret genug benennen.",
+        "Verwarnung mit einer Kündigung gleichsetzen."
       ],
       "review": {
         "box": 1,
@@ -18560,7 +18570,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Eine Verwarnung ist die letzte Chance vor ernsteren Konsequenzen - schriftlich und konkret."
     },
     {
       "id": "personalmanagement_verwarnungsschreiben_stufe2_fehlerfalle",
@@ -18658,28 +18668,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Zeitfallen verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Zeitfallen wie Multitasking oder fehlende Priorisierung führen dazu, dass wichtige Aufgaben liegen bleiben.",
+        "pruefungsrelevant": "Prüfungsnah ist, typische Zeitfallen zu erkennen und Werkzeuge wie die Eisenhower-Matrix zur Priorisierung zu kennen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Zeitfallen“ fachlich am besten?",
+      "frage": "Was ist eine typische 'Zeitfalle' im beruflichen Alltag?",
       "antwort_daten": {
         "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht."
+          "Ständiges Multitasking und fehlende Priorisierung, wodurch wichtige Aufgaben liegen bleiben.",
+          "Das konsequente Setzen von Prioritäten nach Wichtigkeit und Dringlichkeit.",
+          "Feste Zeitfenster für konzentriertes Arbeiten ohne Unterbrechungen.",
+          "Regelmässige Pausen zur Erholung während des Arbeitstages."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Ständiges Multitasking und fehlende Priorisierung, wodurch wichtige Aufgaben liegen bleiben.",
+        "rechenweg": "Wer nicht nach Wichtigkeit/Dringlichkeit priorisiert und ständig zwischen Aufgaben wechselt, verliert Zeit und Fokus.",
+        "warum": "Priorisierung, konzentrierte Zeitfenster und Pausen sind gerade Massnahmen GEGEN Zeitfallen, nicht die Zeitfallen selbst."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Aufgaben nicht nach Wichtigkeit/Dringlichkeit priorisieren.",
+        "Ständig zwischen Aufgaben wechseln (Multitasking).",
+        "Keine festen, störungsfreien Zeitfenster für konzentriertes Arbeiten einplanen."
       ],
       "review": {
         "box": 1,
@@ -18700,7 +18710,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Wer alles gleichzeitig macht, schafft am Ende am wenigsten."
     },
     {
       "id": "personalmanagement_zeitfallen_stufe2_fehlerfalle",
@@ -18824,28 +18834,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Ziele / SMART verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "SMART-Ziele im Mitarbeitergespräch sind spezifisch, messbar, akzeptiert, realistisch und terminiert.",
+        "pruefungsrelevant": "Prüfungsnah ist, unpräzise Zielformulierungen zu erkennen und in konkrete, messbare Ziele umzuformulieren."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Ziele / SMART“ fachlich am besten?",
+      "frage": "Was bedeutet das SMART-Prinzip bei der Formulierung von Mitarbeiterzielen?",
       "antwort_daten": {
         "optionen": [
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden."
+          "Ziele sollen spezifisch, messbar, akzeptiert, realistisch und terminiert formuliert werden.",
+          "Ziele sollten möglichst vage bleiben, damit sie flexibel interpretiert werden können.",
+          "Eine Terminierung der Ziele ist im Mitarbeitergespräch nicht nötig.",
+          "Akzeptanz der Zielperson spielt für die Zielerreichung keine Rolle."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Ziele sollen spezifisch, messbar, akzeptiert, realistisch und terminiert formuliert werden.",
+        "rechenweg": "Nur ein konkretes, akzeptiertes und terminiertes Ziel lässt sich im nächsten Mitarbeitergespräch auch fair überprüfen.",
+        "warum": "Vage, unterminierte Ziele ohne Akzeptanz der Zielperson verlieren ihre Wirkung als Steuerungs- und Motivationsinstrument."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Ziele zu allgemein formulieren, ohne Zahl oder Termin.",
+        "Ziele ohne Einbezug/Akzeptanz der Mitarbeitenden festlegen.",
+        "Zielerreichung im nächsten Gespräch nicht überprüfen."
       ],
       "review": {
         "box": 1,
@@ -18866,7 +18876,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Ohne Zahl, Termin und Akzeptanz bleibt ein Ziel nur eine Absicht."
     },
     {
       "id": "personalmanagement_ziele_smart_stufe2_fehlerfalle",
