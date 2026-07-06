@@ -777,7 +777,8 @@ function SolutionBox({ items }) {
 function buildTopics(sourceCards) {
   const grouped = new Map()
   sourceCards.forEach((card) => {
-    const id = card.quelle_id || card.id
+    const topicKey = card.quelle_id || card.id
+    const id = `${card.fach}::${topicKey}`
     if (!grouped.has(id)) {
       grouped.set(id, {
         id,

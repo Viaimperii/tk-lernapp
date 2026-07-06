@@ -105,7 +105,7 @@ const checkedCards = (dataset.karten ?? []).map((card) => {
       ...card,
       titel: card.thema || card.lernziel || card.frage,
       untertitel: card.lernziel && card.lernziel !== card.thema ? card.lernziel : '',
-      quelle_id: card.quelle_id || card.thema_id || card.id,
+      quelle_id: card.thema_id || card.id,
       frequenz: card.stufe >= 3 ? 'rot' : card.stufe === 2 ? 'gelb' : 'gruen'
     },
     errors
