@@ -19514,28 +19514,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Aktionsplan verstehen",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Ein Aktionsplan listet konkrete Massnahmen mit Verantwortlichkeit, Termin und benötigten Ressourcen, damit eine Entscheidung tatsächlich umgesetzt wird.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus einer getroffenen Entscheidung einen Aktionsplan mit Wer-macht-was-bis-wann abzuleiten."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Aktionsplan“ fachlich am besten?",
+      "frage": "Was macht einen wirksamen Aktionsplan aus?",
       "antwort_daten": {
         "optionen": [
-          "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Risiken werden erst nach Projektabschluss beurteilt."
+          "Ein Aktionsplan listet konkrete Massnahmen mit Verantwortlichkeit, Termin und benötigten Ressourcen, damit eine Entscheidung tatsächlich umgesetzt wird.",
+          "Es genügt, die Entscheidung mündlich zu kommunizieren, ohne sie schriftlich festzuhalten.",
+          "Ein Aktionsplan braucht keine Termine, nur eine Liste von Ideen.",
+          "Verantwortlichkeiten sind unwichtig, solange das Ziel klar ist."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Ein Aktionsplan listet konkrete Massnahmen mit Verantwortlichkeit, Termin und benötigten Ressourcen, damit eine Entscheidung tatsächlich umgesetzt wird.",
+        "rechenweg": "Zu jeder Massnahme gehören eine verantwortliche Person, ein Termin und die nötigen Ressourcen - erst das macht den Plan umsetzbar.",
+        "warum": "Ohne schriftliche Fixierung, Termine oder klare Verantwortlichkeiten bleibt eine Entscheidung folgenlos."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Massnahmen ohne verantwortliche Person festlegen.",
+        "Keine Termine setzen, sodass die Umsetzung versandet.",
+        "Benötigte Ressourcen (Zeit, Budget, Personal) nicht einplanen."
       ],
       "review": {
         "box": 1,
@@ -19556,7 +19556,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Eine Entscheidung ohne Aktionsplan bleibt eine Absicht."
     },
     {
       "id": "problemloesung_entscheidung_aktionsplan_stufe2_fehlerfalle",
@@ -19595,32 +19595,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Aktionsplan vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Ein Aktionsplan listet konkrete Massnahmen mit Verantwortlichkeit, Termin und benötigten Ressourcen, damit eine Entscheidung tatsächlich umgesetzt wird.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus einer getroffenen Entscheidung einen Aktionsplan mit Wer-macht-was-bis-wann abzuleiten."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Aktionsplan“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei Aktionsplänen sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Kriterien, Gewichtungen und Massnahmen nachvollziehbar dokumentieren.",
-          "Risiken werden erst nach Projektabschluss beurteilt.",
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Ursache, Ziel und Varianten vor der Entscheidung sauber klären.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung."
+          "Massnahmen werden ohne verantwortliche Person festgelegt.",
+          "Es werden keine Termine gesetzt, sodass die Umsetzung versandet.",
+          "Benötigte Ressourcen werden nicht eingeplant.",
+          "Jede Massnahme erhält eine verantwortliche Person und einen Termin.",
+          "Der Fortschritt des Aktionsplans wird periodisch kontrolliert."
         ],
         "richtige_indices": [
           0,
-          3
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Richtig sind fehlende Verantwortlichkeiten, fehlende Termine und nicht eingeplante Ressourcen.",
+        "rechenweg": "Fehlen Verantwortlichkeit, Termin oder Ressourcen, bleibt selbst eine gute Massnahme unerledigt liegen.",
+        "warum": "Prüfungsnah ist, aus einer getroffenen Entscheidung einen Aktionsplan mit Wer-macht-was-bis-wann abzuleiten."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Massnahmen ohne verantwortliche Person festlegen.",
+        "Keine Termine setzen, sodass die Umsetzung versandet.",
+        "Benötigte Ressourcen (Zeit, Budget, Personal) nicht einplanen."
       ],
       "review": {
         "box": 1,
@@ -19643,7 +19644,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Eine Entscheidung ohne Aktionsplan bleibt eine Absicht."
     },
     {
       "id": "problemloesung_entscheidung_aufgabe_aktionsplan_stufe1_begriff",
@@ -19668,28 +19669,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Aufgabe (Aktionsplan) verstehen",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Bei einer Aktionsplan-Aufgabe wird zu einer gegebenen Massnahme konkret Verantwortlichkeit, Termin und Ressourcenbedarf ergänzt.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus einer im Fall beschriebenen Massnahme direkt einen vollständigen Aktionsplan-Eintrag (Wer, Was, Bis wann) zu bilden."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Aufgabe (Aktionsplan)“ fachlich am besten?",
+      "frage": "Wie wird eine Aktionsplan-Aufgabe in der Prüfung korrekt gelöst?",
       "antwort_daten": {
         "optionen": [
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-          "Risiken werden erst nach Projektabschluss beurteilt."
+          "Bei einer Aktionsplan-Aufgabe wird zu einer gegebenen Massnahme konkret Verantwortlichkeit, Termin und Ressourcenbedarf ergänzt.",
+          "Indem nur ein allgemeines Stichwort ohne Verantwortlichkeit genannt wird.",
+          "Indem der Termin bewusst offengelassen wird, um flexibel zu bleiben.",
+          "Indem die Massnahme unabhängig von den gegebenen Ressourcen geplant wird."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Bei einer Aktionsplan-Aufgabe wird zu einer gegebenen Massnahme konkret Verantwortlichkeit, Termin und Ressourcenbedarf ergänzt.",
+        "rechenweg": "Zur gegebenen Massnahme werden verantwortliche Person, konkreter Termin und nötige Ressourcen ergänzt, damit die Umsetzung überprüfbar ist.",
+        "warum": "Ein Stichwort ohne Verantwortlichkeit, ein offener Termin oder eine ressourcenferne Planung erfüllen die Aufgabe nicht vollständig."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Nur die Massnahme nennen, ohne Verantwortlichkeit und Termin zu ergänzen.",
+        "Einen unrealistischen Termin setzen, der die Ressourcenlage ignoriert.",
+        "Die Massnahme so allgemein formulieren, dass sie nicht kontrollierbar ist."
       ],
       "review": {
         "box": 1,
@@ -19710,7 +19711,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Eine Aktionsplan-Aufgabe ist erst gelöst, wenn Wer, Was und Bis-wann feststehen."
     },
     {
       "id": "problemloesung_entscheidung_aufgabe_aktionsplan_stufe2_fehlerfalle",
@@ -19735,32 +19736,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Aufgabe (Aktionsplan) vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Bei einer Aktionsplan-Aufgabe wird zu einer gegebenen Massnahme konkret Verantwortlichkeit, Termin und Ressourcenbedarf ergänzt.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus einer im Fall beschriebenen Massnahme direkt einen vollständigen Aktionsplan-Eintrag (Wer, Was, Bis wann) zu bilden."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Aufgabe (Aktionsplan)“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei Aktionsplan-Aufgaben sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Risiken werden erst nach Projektabschluss beurteilt.",
-          "Ursache, Ziel und Varianten vor der Entscheidung sauber klären.",
-          "Kriterien, Gewichtungen und Massnahmen nachvollziehbar dokumentieren.",
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung."
+          "Nur die Massnahme wird genannt, ohne Verantwortlichkeit und Termin.",
+          "Ein unrealistischer Termin wird gesetzt, der die Ressourcenlage ignoriert.",
+          "Die Massnahme wird so allgemein formuliert, dass sie nicht kontrollierbar ist.",
+          "Verantwortlichkeit, Termin und Ressourcen werden vollständig ergänzt.",
+          "Die Massnahme wird so konkret formuliert, dass sie überprüfbar ist."
         ],
         "richtige_indices": [
+          0,
           1,
           2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Richtig sind die fehlende Verantwortlichkeit/Termin, der unrealistische Termin und die zu allgemeine Formulierung.",
+        "rechenweg": "Nur ein vollständiger Eintrag mit Wer, Was und Bis-wann lässt sich später kontrollieren.",
+        "warum": "Prüfungsnah ist, aus einer im Fall beschriebenen Massnahme direkt einen vollständigen Aktionsplan-Eintrag (Wer, Was, Bis wann) zu bilden."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Nur die Massnahme nennen, ohne Verantwortlichkeit und Termin zu ergänzen.",
+        "Einen unrealistischen Termin setzen, der die Ressourcenlage ignoriert.",
+        "Die Massnahme so allgemein formulieren, dass sie nicht kontrollierbar ist."
       ],
       "review": {
         "box": 1,
@@ -19783,7 +19785,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Eine Aktionsplan-Aufgabe ist erst gelöst, wenn Wer, Was und Bis-wann feststehen."
     },
     {
       "id": "problemloesung_entscheidung_aufgabe_zeitplan_stufe1_begriff",
@@ -19808,28 +19810,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Aufgabe (Zeitplan) verstehen",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Bei einer Zeitplan-Aufgabe werden Aufgaben nach Priorität und Abhängigkeit in eine realistische zeitliche Reihenfolge gebracht.",
+        "pruefungsrelevant": "Prüfungsnah ist, Aufgaben nach Dringlichkeit/Wichtigkeit zu ordnen und Abhängigkeiten (was muss zuerst erledigt sein) korrekt zu berücksichtigen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Aufgabe (Zeitplan)“ fachlich am besten?",
+      "frage": "Worauf kommt es bei einer Zeitplan-Aufgabe in der Prüfung an?",
       "antwort_daten": {
         "optionen": [
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Risiken werden erst nach Projektabschluss beurteilt.",
-          "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden."
+          "Bei einer Zeitplan-Aufgabe werden Aufgaben nach Priorität und Abhängigkeit in eine realistische zeitliche Reihenfolge gebracht.",
+          "Aufgaben können in beliebiger Reihenfolge erledigt werden, Hauptsache alle sind aufgelistet.",
+          "Abhängigkeiten zwischen Aufgaben spielen für die Reihenfolge keine Rolle.",
+          "Pufferzeiten sind überflüssig, wenn der Plan sorgfältig erstellt wurde."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Bei einer Zeitplan-Aufgabe werden Aufgaben nach Priorität und Abhängigkeit in eine realistische zeitliche Reihenfolge gebracht.",
+        "rechenweg": "Priorität, Dringlichkeit und Abhängigkeiten bestimmen gemeinsam, in welcher Reihenfolge Aufgaben sinnvoll erledigt werden.",
+        "warum": "Eine beliebige Reihenfolge, ignorierte Abhängigkeiten oder fehlende Puffer führen zu einem unrealistischen Zeitplan."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Aufgaben nach Belieben statt nach Priorität und Abhängigkeit ordnen.",
+        "Zeitliche Abhängigkeiten zwischen Aufgaben übersehen.",
+        "Pufferzeiten für Unvorhergesehenes komplett weglassen."
       ],
       "review": {
         "box": 1,
@@ -19850,7 +19852,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Ein guter Zeitplan zeigt nicht nur was, sondern auch in welcher Reihenfolge und warum."
     },
     {
       "id": "problemloesung_entscheidung_aufgabe_zeitplan_stufe2_fehlerfalle",
@@ -19875,32 +19877,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Aufgabe (Zeitplan) vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Bei einer Zeitplan-Aufgabe werden Aufgaben nach Priorität und Abhängigkeit in eine realistische zeitliche Reihenfolge gebracht.",
+        "pruefungsrelevant": "Prüfungsnah ist, Aufgaben nach Dringlichkeit/Wichtigkeit zu ordnen und Abhängigkeiten (was muss zuerst erledigt sein) korrekt zu berücksichtigen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Aufgabe (Zeitplan)“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei Zeitplan-Aufgaben sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Kriterien, Gewichtungen und Massnahmen nachvollziehbar dokumentieren.",
-          "Ursache, Ziel und Varianten vor der Entscheidung sauber klären.",
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Risiken werden erst nach Projektabschluss beurteilt.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung."
+          "Aufgaben werden nach Belieben statt nach Priorität und Abhängigkeit geordnet.",
+          "Zeitliche Abhängigkeiten zwischen Aufgaben werden übersehen.",
+          "Pufferzeiten für Unvorhergesehenes werden komplett weggelassen.",
+          "Aufgaben werden nach Dringlichkeit und Wichtigkeit priorisiert.",
+          "Abhängigkeiten zwischen Aufgaben werden korrekt berücksichtigt."
         ],
         "richtige_indices": [
           0,
-          1
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Richtig sind die fehlende Priorisierung, übersehene Abhängigkeiten und fehlende Pufferzeiten.",
+        "rechenweg": "Ohne Puffer und korrekte Abhängigkeiten gerät ein Zeitplan schon bei kleinen Verzögerungen aus dem Takt.",
+        "warum": "Prüfungsnah ist, Aufgaben nach Dringlichkeit/Wichtigkeit zu ordnen und Abhängigkeiten (was muss zuerst erledigt sein) korrekt zu berücksichtigen."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Aufgaben nach Belieben statt nach Priorität und Abhängigkeit ordnen.",
+        "Zeitliche Abhängigkeiten zwischen Aufgaben übersehen.",
+        "Pufferzeiten für Unvorhergesehenes komplett weglassen."
       ],
       "review": {
         "box": 1,
@@ -19923,7 +19926,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Ein guter Zeitplan zeigt nicht nur was, sondern auch in welcher Reihenfolge und warum."
     },
     {
       "id": "problemloesung_entscheidung_design_thinking_stufe1_begriff",
@@ -19948,28 +19951,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Design Thinking verstehen",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Design Thinking löst Probleme nutzerzentriert in Phasen: Verstehen, Beobachten, Sichtweise definieren, Ideen finden, Prototyp bauen, Testen.",
+        "pruefungsrelevant": "Prüfungsnah ist, die Design-Thinking-Phasen in der richtigen Reihenfolge zu nennen und ihren nutzerzentrierten Kerngedanken zu erklären."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Design Thinking“ fachlich am besten?",
+      "frage": "Was ist der Kerngedanke von Design Thinking?",
       "antwort_daten": {
         "optionen": [
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Risiken werden erst nach Projektabschluss beurteilt.",
-          "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung."
+          "Design Thinking löst Probleme nutzerzentriert in Phasen: Verstehen, Beobachten, Sichtweise definieren, Ideen finden, Prototyp bauen, Testen.",
+          "Design Thinking bedeutet, möglichst schnell eine fertige Lösung umzusetzen, ohne Tests.",
+          "Design Thinking ist identisch mit einer einfachen Ideensammlung ohne weitere Schritte.",
+          "Design Thinking betrachtet ausschliesslich die Kosten einer Lösung, nie die Nutzerbedürfnisse."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Design Thinking löst Probleme nutzerzentriert in Phasen: Verstehen, Beobachten, Sichtweise definieren, Ideen finden, Prototyp bauen, Testen.",
+        "rechenweg": "Erst durch Verstehen und Beobachten der Nutzerbedürfnisse entstehen Ideen, die als Prototyp gebaut und getestet werden - iterativ, nicht linear.",
+        "warum": "Ohne Nutzerfokus, ohne Testphase oder als reines Brainstorming verfehlt man den methodischen Kern von Design Thinking."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Design Thinking mit einer reinen Ideensammlung (Brainstorming) gleichsetzen.",
+        "Die Testphase überspringen und den ersten Prototyp direkt umsetzen.",
+        "Die Nutzerperspektive nicht einbeziehen, sondern nur aus Unternehmenssicht denken."
       ],
       "review": {
         "box": 1,
@@ -19990,7 +19993,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Design Thinking beginnt beim Nutzer, nicht bei der fertigen Lösung."
     },
     {
       "id": "problemloesung_entscheidung_design_thinking_stufe2_fehlerfalle",
@@ -20015,32 +20018,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Design Thinking vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Design Thinking löst Probleme nutzerzentriert in Phasen: Verstehen, Beobachten, Sichtweise definieren, Ideen finden, Prototyp bauen, Testen.",
+        "pruefungsrelevant": "Prüfungsnah ist, die Design-Thinking-Phasen in der richtigen Reihenfolge zu nennen und ihren nutzerzentrierten Kerngedanken zu erklären."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Design Thinking“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Design Thinking sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Risiken werden erst nach Projektabschluss beurteilt.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Kriterien, Gewichtungen und Massnahmen nachvollziehbar dokumentieren.",
-          "Ursache, Ziel und Varianten vor der Entscheidung sauber klären."
+          "Design Thinking wird mit einer reinen Ideensammlung gleichgesetzt.",
+          "Die Testphase wird übersprungen, der erste Prototyp wird direkt umgesetzt.",
+          "Die Nutzerperspektive wird nicht einbezogen, es wird nur aus Unternehmenssicht gedacht.",
+          "Prototypen werden bewusst mit echten Nutzenden getestet.",
+          "Die Phasen werden iterativ statt streng linear durchlaufen."
         ],
         "richtige_indices": [
-          3,
-          4
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Richtig sind die Gleichsetzung mit Brainstorming, die übersprungene Testphase und die fehlende Nutzerperspektive.",
+        "rechenweg": "Ohne Testphase bleibt unklar, ob der Prototyp die tatsächlichen Nutzerbedürfnisse trifft.",
+        "warum": "Prüfungsnah ist, die Design-Thinking-Phasen in der richtigen Reihenfolge zu nennen und ihren nutzerzentrierten Kerngedanken zu erklären."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Design Thinking mit einer reinen Ideensammlung (Brainstorming) gleichsetzen.",
+        "Die Testphase überspringen und den ersten Prototyp direkt umsetzen.",
+        "Die Nutzerperspektive nicht einbeziehen, sondern nur aus Unternehmenssicht denken."
       ],
       "review": {
         "box": 1,
@@ -20063,7 +20067,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Design Thinking beginnt beim Nutzer, nicht bei der fertigen Lösung."
     },
     {
       "id": "problemloesung_entscheidung_fuehrung_personal_stufe1_begriff",
@@ -20266,28 +20270,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Ihr Zeitplan als Handelsvertreter/Handelsvertreterin verstehen",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Bei der Tagesplanung eines Handelsvertreters/einer Handelsvertreterin werden Kundenbesuche nach Priorität, Fahrweg und Terminverfügbarkeit der Kundschaft optimiert.",
+        "pruefungsrelevant": "Prüfungsnah ist, Besuchstermine so zu ordnen, dass Reisezeit minimiert und wichtige Kundschaft (z.B. nach Umsatzpotenzial) bevorzugt besucht wird."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Ihr Zeitplan als Handelsvertreter/Handelsvertreterin“ fachlich am besten?",
+      "frage": "Wie wird ein Tagesplan für Kundenbesuche eines Handelsvertreters sinnvoll erstellt?",
       "antwort_daten": {
         "optionen": [
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Risiken werden erst nach Projektabschluss beurteilt."
+          "Bei der Tagesplanung eines Handelsvertreters/einer Handelsvertreterin werden Kundenbesuche nach Priorität, Fahrweg und Terminverfügbarkeit der Kundschaft optimiert.",
+          "Indem alle Kunden in willkürlicher Reihenfolge besucht werden.",
+          "Indem die Fahrwege bei der Planung keine Rolle spielen.",
+          "Indem alle Kunden unabhängig von ihrem Umsatzpotenzial gleich priorisiert werden."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Bei der Tagesplanung eines Handelsvertreters/einer Handelsvertreterin werden Kundenbesuche nach Priorität, Fahrweg und Terminverfügbarkeit der Kundschaft optimiert.",
+        "rechenweg": "Kundenbesuche werden nach Priorität (z.B. Umsatzpotenzial), verfügbaren Terminen und effizienter Route geplant, um Zeit und Kilometer zu sparen.",
+        "warum": "Eine willkürliche Reihenfolge, ignorierte Fahrwege oder eine fehlende Priorisierung führen zu einem ineffizienten Tagesplan."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Besuche nach Zufall statt nach Priorität und Fahrweg planen.",
+        "Reisezeiten zwischen Kundenterminen nicht einkalkulieren.",
+        "Wichtige Kundschaft nicht von weniger dringenden Besuchen unterscheiden."
       ],
       "review": {
         "box": 1,
@@ -20308,7 +20312,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Eine gute Tagesplanung spart Kilometer und bringt die wichtigsten Kunden zuerst dran."
     },
     {
       "id": "problemloesung_entscheidung_ihr_zeitplan_als_handelsvertreter_handelsvertreterin_stufe2_fehlerfalle",
@@ -20333,32 +20337,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Ihr Zeitplan als Handelsvertreter/Handelsvertreterin vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Bei der Tagesplanung eines Handelsvertreters/einer Handelsvertreterin werden Kundenbesuche nach Priorität, Fahrweg und Terminverfügbarkeit der Kundschaft optimiert.",
+        "pruefungsrelevant": "Prüfungsnah ist, Besuchstermine so zu ordnen, dass Reisezeit minimiert und wichtige Kundschaft (z.B. nach Umsatzpotenzial) bevorzugt besucht wird."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Ihr Zeitplan als Handelsvertreter/Handelsvertreterin“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Tagesplanung eines Handelsvertreters sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Kriterien, Gewichtungen und Massnahmen nachvollziehbar dokumentieren.",
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Ursache, Ziel und Varianten vor der Entscheidung sauber klären.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Risiken werden erst nach Projektabschluss beurteilt."
+          "Besuche werden nach Zufall statt nach Priorität und Fahrweg geplant.",
+          "Reisezeiten zwischen Kundenterminen werden nicht einkalkuliert.",
+          "Wichtige Kundschaft wird nicht von weniger dringenden Besuchen unterschieden.",
+          "Kundenbesuche werden nach Umsatzpotenzial priorisiert.",
+          "Die Route wird so geplant, dass Fahrzeiten minimiert werden."
         ],
         "richtige_indices": [
           0,
+          1,
           2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Richtig sind die zufällige Reihenfolge, nicht einkalkulierte Reisezeiten und die fehlende Priorisierung der Kundschaft.",
+        "rechenweg": "Ohne Priorisierung und Routenplanung verliert der Handelsvertreter wertvolle Zeit für die wichtigsten Kundenkontakte.",
+        "warum": "Prüfungsnah ist, Besuchstermine so zu ordnen, dass Reisezeit minimiert und wichtige Kundschaft (z.B. nach Umsatzpotenzial) bevorzugt besucht wird."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Besuche nach Zufall statt nach Priorität und Fahrweg planen.",
+        "Reisezeiten zwischen Kundenterminen nicht einkalkulieren.",
+        "Wichtige Kundschaft nicht von weniger dringenden Besuchen unterscheiden."
       ],
       "review": {
         "box": 1,
@@ -20381,7 +20386,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Eine gute Tagesplanung spart Kilometer und bringt die wichtigsten Kunden zuerst dran."
     },
     {
       "id": "problemloesung_entscheidung_kopfstandtechnik_stufe1_begriff",
@@ -20406,28 +20411,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Kopfstandtechnik verstehen",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Die Kopfstandtechnik (Umkehrmethode) sucht bewusst nach Wegen, ein Problem zu verschlimmern, um daraus durch Umkehrung kreative Lösungsansätze abzuleiten.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus einer 'Wie schaffen wir das Gegenteil?'-Frage konkrete, umgekehrte Lösungsideen für das eigentliche Problem abzuleiten."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Kopfstandtechnik“ fachlich am besten?",
+      "frage": "Wie funktioniert die Kopfstandtechnik als Kreativitätsmethode?",
       "antwort_daten": {
         "optionen": [
-          "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Risiken werden erst nach Projektabschluss beurteilt."
+          "Die Kopfstandtechnik (Umkehrmethode) sucht bewusst nach Wegen, ein Problem zu verschlimmern, um daraus durch Umkehrung kreative Lösungsansätze abzuleiten.",
+          "Indem man direkt nach der besten Lösung sucht, ohne Umwege über das Gegenteil.",
+          "Die Kopfstandtechnik ist nur eine andere Bezeichnung für Brainstorming.",
+          "Die Methode funktioniert nur bei rein technischen Problemen."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Die Kopfstandtechnik (Umkehrmethode) sucht bewusst nach Wegen, ein Problem zu verschlimmern, um daraus durch Umkehrung kreative Lösungsansätze abzuleiten.",
+        "rechenweg": "Man fragt zuerst, wie das Problem noch schlimmer würde, sammelt dazu Ideen und leitet daraus durch Umkehrung Lösungsansätze für das echte Problem ab.",
+        "warum": "Ein direkter Lösungsansatz ohne den Umweg über das Gegenteil, eine Gleichsetzung mit Brainstorming oder eine Einschränkung auf technische Probleme treffen die Methode nicht."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Die Kopfstandtechnik mit einer normalen Ursachenanalyse verwechseln.",
+        "Die gefundenen 'Verschlimmerungs'-Ideen nicht konsequent umkehren.",
+        "Die Methode nur für Marketingfragen, nie für andere Problemstellungen einsetzen."
       ],
       "review": {
         "box": 1,
@@ -20448,7 +20453,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Erst das Problem verschlimmern, dann das Gegenteil davon tun - das ist der Kopfstand."
     },
     {
       "id": "problemloesung_entscheidung_kopfstandtechnik_stufe2_fehlerfalle",
@@ -20473,32 +20478,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Kopfstandtechnik vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Die Kopfstandtechnik (Umkehrmethode) sucht bewusst nach Wegen, ein Problem zu verschlimmern, um daraus durch Umkehrung kreative Lösungsansätze abzuleiten.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus einer 'Wie schaffen wir das Gegenteil?'-Frage konkrete, umgekehrte Lösungsideen für das eigentliche Problem abzuleiten."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Kopfstandtechnik“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Kopfstandtechnik sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Risiken werden erst nach Projektabschluss beurteilt.",
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Kriterien, Gewichtungen und Massnahmen nachvollziehbar dokumentieren.",
-          "Ursache, Ziel und Varianten vor der Entscheidung sauber klären."
+          "Die Kopfstandtechnik wird mit einer normalen Ursachenanalyse verwechselt.",
+          "Die gefundenen 'Verschlimmerungs'-Ideen werden nicht konsequent umgekehrt.",
+          "Die Methode wird nur für Marketingfragen, nie für andere Problemstellungen eingesetzt.",
+          "Zuerst wird bewusst nach Verschlimmerungsideen gesucht.",
+          "Jede Verschlimmerungsidee wird konsequent in eine Lösungsidee umgekehrt."
         ],
         "richtige_indices": [
-          3,
-          4
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Richtig sind die Verwechslung mit Ursachenanalyse, die fehlende Umkehrung und die falsche Themenbeschränkung.",
+        "rechenweg": "Ohne konsequente Umkehrung der Verschlimmerungsideen liefert die Methode keine brauchbaren Lösungsansätze.",
+        "warum": "Prüfungsnah ist, aus einer 'Wie schaffen wir das Gegenteil?'-Frage konkrete, umgekehrte Lösungsideen für das eigentliche Problem abzuleiten."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Die Kopfstandtechnik mit einer normalen Ursachenanalyse verwechseln.",
+        "Die gefundenen 'Verschlimmerungs'-Ideen nicht konsequent umkehren.",
+        "Die Methode nur für Marketingfragen, nie für andere Problemstellungen einsetzen."
       ],
       "review": {
         "box": 1,
@@ -20521,7 +20527,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Erst das Problem verschlimmern, dann das Gegenteil davon tun - das ist der Kopfstand."
     },
     {
       "id": "problemloesung_entscheidung_marketing_verkauf_stufe1_begriff",
@@ -20553,28 +20559,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Marketing / Verkauf verstehen",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Bei Marketing-/Verkaufsproblemen wird zuerst die Ursache analysiert (z.B. mit Ursache-Wirkungs-Diagramm), bevor eine Massnahme entschieden wird.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus einem geschilderten Marketing-/Verkaufsproblem systematisch Ursachen abzuleiten und daraus eine begründete Massnahme zu entscheiden."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Marketing / Verkauf“ fachlich am besten?",
+      "frage": "Wie geht man bei einem Marketing-/Verkaufsproblem methodisch korrekt vor?",
       "antwort_daten": {
         "optionen": [
-          "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich."
+          "Bei Marketing-/Verkaufsproblemen wird zuerst die Ursache analysiert (z.B. mit Ursache-Wirkungs-Diagramm), bevor eine Massnahme entschieden wird.",
+          "Indem man sofort die naheliegendste Massnahme umsetzt, ohne Ursachenanalyse.",
+          "Indem man das Symptom behebt, ohne nach der Ursache zu fragen.",
+          "Indem man nur eine mögliche Ursache in Betracht zieht."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Bei Marketing-/Verkaufsproblemen wird zuerst die Ursache analysiert (z.B. mit Ursache-Wirkungs-Diagramm), bevor eine Massnahme entschieden wird.",
+        "rechenweg": "Erst eine strukturierte Ursachenanalyse (z.B. Ursache-Wirkungs-Diagramm) zeigt, warum ein Problem entsteht - erst danach folgt die passende Massnahme.",
+        "warum": "Eine vorschnelle Massnahme, eine Verwechslung von Symptom und Ursache oder eine einseitige Ursachensuche führen zu falschen Entscheidungen."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Direkt eine Massnahme vorschlagen, ohne vorher die Ursache zu analysieren.",
+        "Symptom (z.B. sinkender Umsatz) mit der eigentlichen Ursache verwechseln.",
+        "Nur eine mögliche Ursache betrachten, Alternativen nicht prüfen."
       ],
       "review": {
         "box": 1,
@@ -20595,7 +20601,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Ohne Ursachenanalyse ist jede Marketingmassnahme nur geraten."
     },
     {
       "id": "problemloesung_entscheidung_marketing_verkauf_stufe2_fehlerfalle",
@@ -20627,32 +20633,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Marketing / Verkauf vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Bei Marketing-/Verkaufsproblemen wird zuerst die Ursache analysiert (z.B. mit Ursache-Wirkungs-Diagramm), bevor eine Massnahme entschieden wird.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus einem geschilderten Marketing-/Verkaufsproblem systematisch Ursachen abzuleiten und daraus eine begründete Massnahme zu entscheiden."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Marketing / Verkauf“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei Marketing-/Verkaufsproblemen sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Massnahmen immer mit Zielgruppe und Kundennutzen verknüpfen.",
-          "Bei Reklamationen Ursache, Kundenanliegen und Folgeprozess systematisch prüfen."
+          "Es wird direkt eine Massnahme vorgeschlagen, ohne vorher die Ursache zu analysieren.",
+          "Symptom und eigentliche Ursache werden verwechselt.",
+          "Nur eine mögliche Ursache wird betrachtet, Alternativen werden nicht geprüft.",
+          "Mehrere mögliche Ursachen werden systematisch geprüft.",
+          "Die Massnahme wird erst nach der Ursachenanalyse festgelegt."
         ],
         "richtige_indices": [
-          3,
-          4
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Richtig sind die vorschnelle Massnahme, die Verwechslung von Symptom und Ursache sowie die einseitige Ursachensuche.",
+        "rechenweg": "Wird nur ein Symptom behoben, kehrt das eigentliche Problem später erneut zurück.",
+        "warum": "Prüfungsnah ist, aus einem geschilderten Marketing-/Verkaufsproblem systematisch Ursachen abzuleiten und daraus eine begründete Massnahme zu entscheiden."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Direkt eine Massnahme vorschlagen, ohne vorher die Ursache zu analysieren.",
+        "Symptom (z.B. sinkender Umsatz) mit der eigentlichen Ursache verwechseln.",
+        "Nur eine mögliche Ursache betrachten, Alternativen nicht prüfen."
       ],
       "review": {
         "box": 1,
@@ -20675,7 +20682,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Ohne Ursachenanalyse ist jede Marketingmassnahme nur geraten."
     },
     {
       "id": "problemloesung_entscheidung_mindmapping_stufe1_begriff",
@@ -20700,28 +20707,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Mindmapping verstehen",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Mindmapping strukturiert Ideen visuell um ein Zentralthema herum mit Hauptästen und Unterästen, um Zusammenhänge sichtbar zu machen.",
+        "pruefungsrelevant": "Prüfungsnah ist, Ideen zu einem Thema in eine sinnvolle Ast-Hierarchie (Haupt- und Unterkategorien) zu ordnen statt nur eine lose Liste zu erstellen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Mindmapping“ fachlich am besten?",
+      "frage": "Was zeichnet eine gut erstellte Mindmap aus?",
       "antwort_daten": {
         "optionen": [
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Risiken werden erst nach Projektabschluss beurteilt."
+          "Mindmapping strukturiert Ideen visuell um ein Zentralthema herum mit Hauptästen und Unterästen, um Zusammenhänge sichtbar zu machen.",
+          "Eine Mindmap besteht nur aus einer einfachen, linearen Liste von Stichworten.",
+          "Ein zentrales Thema ist für eine Mindmap nicht nötig.",
+          "Haupt- und Unterkategorien werden beliebig vermischt, das ist unerheblich."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Mindmapping strukturiert Ideen visuell um ein Zentralthema herum mit Hauptästen und Unterästen, um Zusammenhänge sichtbar zu machen.",
+        "rechenweg": "Vom Zentralthema ausgehend werden Hauptäste (Kategorien) und davon Unteräste (Details) abgeleitet, sodass Zusammenhänge visuell erkennbar werden.",
+        "warum": "Eine reine Liste, ein fehlendes Zentralthema oder vermischte Abstraktionsebenen widersprechen dem Grundprinzip des Mindmappings."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Ideen nur linear auflisten statt in einer Ast-Struktur zu ordnen.",
+        "Kein klares Zentralthema definieren, wodurch die Mindmap unübersichtlich wird.",
+        "Unterschiedliche Abstraktionsebenen (Oberbegriff/Detail) auf derselben Astebene mischen."
       ],
       "review": {
         "box": 1,
@@ -20742,7 +20749,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Eine Mindmap ohne klare Äste ist nur eine unaufgeräumte Liste."
     },
     {
       "id": "problemloesung_entscheidung_mindmapping_stufe2_fehlerfalle",
@@ -20767,32 +20774,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Mindmapping vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Mindmapping strukturiert Ideen visuell um ein Zentralthema herum mit Hauptästen und Unterästen, um Zusammenhänge sichtbar zu machen.",
+        "pruefungsrelevant": "Prüfungsnah ist, Ideen zu einem Thema in eine sinnvolle Ast-Hierarchie (Haupt- und Unterkategorien) zu ordnen statt nur eine lose Liste zu erstellen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Mindmapping“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Mindmapping sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Risiken werden erst nach Projektabschluss beurteilt.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Kriterien, Gewichtungen und Massnahmen nachvollziehbar dokumentieren.",
-          "Ursache, Ziel und Varianten vor der Entscheidung sauber klären.",
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden."
+          "Ideen werden nur linear aufgelistet statt in einer Ast-Struktur geordnet.",
+          "Es wird kein klares Zentralthema definiert, die Mindmap wird unübersichtlich.",
+          "Unterschiedliche Abstraktionsebenen werden auf derselben Astebene vermischt.",
+          "Hauptäste und Unteräste werden klar hierarchisch gegliedert.",
+          "Ein zentrales Thema bildet den Ausgangspunkt der Mindmap."
         ],
         "richtige_indices": [
-          2,
-          3
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Richtig sind die lineare Liste statt Aststruktur, das fehlende Zentralthema und die vermischten Abstraktionsebenen.",
+        "rechenweg": "Ohne klare Hierarchie und Zentralthema verliert die Mindmap ihren Nutzen als Strukturierungswerkzeug.",
+        "warum": "Prüfungsnah ist, Ideen zu einem Thema in eine sinnvolle Ast-Hierarchie (Haupt- und Unterkategorien) zu ordnen statt nur eine lose Liste zu erstellen."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Ideen nur linear auflisten statt in einer Ast-Struktur zu ordnen.",
+        "Kein klares Zentralthema definieren, wodurch die Mindmap unübersichtlich wird.",
+        "Unterschiedliche Abstraktionsebenen (Oberbegriff/Detail) auf derselben Astebene mischen."
       ],
       "review": {
         "box": 1,
@@ -20815,7 +20823,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Eine Mindmap ohne klare Äste ist nur eine unaufgeräumte Liste."
     },
     {
       "id": "problemloesung_entscheidung_nutzwertanalyse_stehtische_stufe1_begriff",
@@ -20840,28 +20848,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Nutzwertanalyse «Stehtische» verstehen",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Bei der Nutzwertanalyse werden Entscheidungskriterien gewichtet, jede Variante pro Kriterium bewertet und die gewichteten Punkte zum Nutzwert je Variante summiert.",
+        "pruefungsrelevant": "Prüfungsnah ist, Gewichtung × Bewertung korrekt je Kriterium zu berechnen und die Variante mit dem höchsten Gesamtnutzwert zu bestimmen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Nutzwertanalyse «Stehtische»“ fachlich am besten?",
+      "frage": "Wie wird der Gesamtnutzwert einer Variante in der Nutzwertanalyse berechnet (Beispiel: Auswahl von Stehtischen)?",
       "antwort_daten": {
         "optionen": [
-          "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Risiken werden erst nach Projektabschluss beurteilt."
+          "Bei der Nutzwertanalyse werden Entscheidungskriterien gewichtet, jede Variante pro Kriterium bewertet und die gewichteten Punkte zum Nutzwert je Variante summiert.",
+          "Indem nur die Kriterien addiert werden, ohne sie zu gewichten.",
+          "Indem die Variante mit der besten Einzelbewertung automatisch gewinnt, egal wie die anderen Kriterien abschneiden.",
+          "Indem alle Kriterien gleich stark gewichtet werden müssen, unabhängig von ihrer tatsächlichen Bedeutung."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Bei der Nutzwertanalyse werden Entscheidungskriterien gewichtet, jede Variante pro Kriterium bewertet und die gewichteten Punkte zum Nutzwert je Variante summiert.",
+        "rechenweg": "Jedes Kriterium (z.B. Preis, Design, Stabilität) wird gewichtet, jede Variante pro Kriterium bewertet, und Gewichtung mal Bewertung je Kriterium ergibt addiert den Gesamtnutzwert.",
+        "warum": "Eine ungewichtete Addition, das Abstellen auf eine einzelne Bewertung oder eine erzwungene Gleichgewichtung aller Kriterien führen zu einem falschen Ergebnis."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Gewichtung und Bewertung der Kriterien vertauschen oder gleichsetzen.",
+        "Nur einzelne Kriterien statt aller relevanten Kriterien berücksichtigen.",
+        "Die Variante mit der höchsten Einzelbewertung statt dem höchsten Gesamtnutzwert wählen."
       ],
       "review": {
         "box": 1,
@@ -20882,7 +20890,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Nutzwert = Summe aus Gewichtung mal Bewertung je Kriterium - nicht die höchste Einzelnote."
     },
     {
       "id": "problemloesung_entscheidung_nutzwertanalyse_stehtische_stufe2_fehlerfalle",
@@ -20907,32 +20915,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Nutzwertanalyse «Stehtische» vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Bei der Nutzwertanalyse werden Entscheidungskriterien gewichtet, jede Variante pro Kriterium bewertet und die gewichteten Punkte zum Nutzwert je Variante summiert.",
+        "pruefungsrelevant": "Prüfungsnah ist, Gewichtung × Bewertung korrekt je Kriterium zu berechnen und die Variante mit dem höchsten Gesamtnutzwert zu bestimmen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Nutzwertanalyse «Stehtische»“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Nutzwertanalyse sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Risiken werden erst nach Projektabschluss beurteilt.",
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Kriterien, Gewichtungen und Massnahmen nachvollziehbar dokumentieren.",
-          "Ursache, Ziel und Varianten vor der Entscheidung sauber klären."
+          "Gewichtung und Bewertung der Kriterien werden vertauscht oder gleichgesetzt.",
+          "Es werden nur einzelne statt aller relevanten Kriterien berücksichtigt.",
+          "Die Variante mit der höchsten Einzelbewertung wird statt der mit dem höchsten Gesamtnutzwert gewählt.",
+          "Jedes Kriterium wird korrekt mit Gewichtung und Bewertung verrechnet.",
+          "Die Variante mit dem höchsten Gesamtnutzwert wird ausgewählt."
         ],
         "richtige_indices": [
-          3,
-          4
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Richtig sind die vertauschte Gewichtung/Bewertung, die unvollständige Kriterienliste und die falsche Auswahl nach Einzelwert statt Gesamtnutzwert.",
+        "rechenweg": "Nur die korrekt gewichtete Summe aller Kriterien über alle Varianten hinweg liefert eine verlässliche Entscheidungsgrundlage.",
+        "warum": "Prüfungsnah ist, Gewichtung × Bewertung korrekt je Kriterium zu berechnen und die Variante mit dem höchsten Gesamtnutzwert zu bestimmen."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Gewichtung und Bewertung der Kriterien vertauschen oder gleichsetzen.",
+        "Nur einzelne Kriterien statt aller relevanten Kriterien berücksichtigen.",
+        "Die Variante mit der höchsten Einzelbewertung statt dem höchsten Gesamtnutzwert wählen."
       ],
       "review": {
         "box": 1,
@@ -20955,7 +20964,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Nutzwert = Summe aus Gewichtung mal Bewertung je Kriterium - nicht die höchste Einzelnote."
     },
     {
       "id": "problemloesung_entscheidung_organisation_prozesse_stufe1_begriff",
@@ -20994,28 +21003,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Organisation / Prozesse verstehen",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Organisatorische Probleme werden gelöst, indem Zuständigkeiten, Schnittstellen und Prozessabläufe systematisch analysiert und angepasst werden.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus einem geschilderten Organisationsproblem (z.B. doppelte Zuständigkeit) eine konkrete strukturelle oder prozessuale Massnahme abzuleiten."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Organisation / Prozesse“ fachlich am besten?",
+      "frage": "Wie wird ein organisatorisches Problem methodisch korrekt angegangen?",
       "antwort_daten": {
         "optionen": [
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-          "Risiken werden erst nach Projektabschluss beurteilt.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung."
+          "Organisatorische Probleme werden gelöst, indem Zuständigkeiten, Schnittstellen und Prozessabläufe systematisch analysiert und angepasst werden.",
+          "Indem ausschliesslich neues Personal eingestellt wird, unabhängig von der Prozessgestaltung.",
+          "Indem nur der Prozessablauf verändert wird, ohne die Zuständigkeiten zu prüfen.",
+          "Indem Schnittstellen zwischen Abteilungen bewusst ausgeklammert werden."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Organisatorische Probleme werden gelöst, indem Zuständigkeiten, Schnittstellen und Prozessabläufe systematisch analysiert und angepasst werden.",
+        "rechenweg": "Erst die gemeinsame Analyse von Zuständigkeiten, Schnittstellen und Prozessschritten zeigt, wo genau das Problem liegt und welche Massnahme hilft.",
+        "warum": "Eine reine Personallösung, eine isolierte Prozessänderung oder ausgeklammerte Schnittstellen lösen das eigentliche Organisationsproblem nicht."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Ein Organisationsproblem mit einer reinen Personalfrage verwechseln.",
+        "Prozessschritte anpassen, ohne die Zuständigkeiten zu klären.",
+        "Schnittstellenprobleme zwischen Abteilungen übersehen."
       ],
       "review": {
         "box": 1,
@@ -21036,7 +21045,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Organisationsprobleme lösen heisst: Zuständigkeiten UND Prozesse gemeinsam anschauen."
     },
     {
       "id": "problemloesung_entscheidung_organisation_prozesse_stufe2_fehlerfalle",
@@ -21075,32 +21084,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Organisation / Prozesse vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Organisatorische Probleme werden gelöst, indem Zuständigkeiten, Schnittstellen und Prozessabläufe systematisch analysiert und angepasst werden.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus einem geschilderten Organisationsproblem (z.B. doppelte Zuständigkeit) eine konkrete strukturelle oder prozessuale Massnahme abzuleiten."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Organisation / Prozesse“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei organisatorischen Problemen sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Risiken werden erst nach Projektabschluss beurteilt.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Ursache, Ziel und Varianten vor der Entscheidung sauber klären.",
-          "Kriterien, Gewichtungen und Massnahmen nachvollziehbar dokumentieren.",
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden."
+          "Ein Organisationsproblem wird mit einer reinen Personalfrage verwechselt.",
+          "Prozessschritte werden angepasst, ohne die Zuständigkeiten zu klären.",
+          "Schnittstellenprobleme zwischen Abteilungen werden übersehen.",
+          "Zuständigkeiten und Prozesse werden gemeinsam analysiert.",
+          "Schnittstellen zwischen Abteilungen werden gezielt geprüft."
         ],
         "richtige_indices": [
-          2,
-          3
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Richtig sind die Verwechslung mit einer Personalfrage, die isolierte Prozessänderung und übersehene Schnittstellenprobleme.",
+        "rechenweg": "Ohne geklärte Zuständigkeiten wirkt jede Prozessanpassung nur oberflächlich.",
+        "warum": "Prüfungsnah ist, aus einem geschilderten Organisationsproblem (z.B. doppelte Zuständigkeit) eine konkrete strukturelle oder prozessuale Massnahme abzuleiten."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Ein Organisationsproblem mit einer reinen Personalfrage verwechseln.",
+        "Prozessschritte anpassen, ohne die Zuständigkeiten zu klären.",
+        "Schnittstellenprobleme zwischen Abteilungen übersehen."
       ],
       "review": {
         "box": 1,
@@ -21123,7 +21133,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Organisationsprobleme lösen heisst: Zuständigkeiten UND Prozesse gemeinsam anschauen."
     },
     {
       "id": "problemloesung_entscheidung_problemloesungs_und_entscheidungsmethoden_stufe1_begriff",
@@ -21148,28 +21158,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Problemlösungs- und Entscheidungsmethoden verstehen",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Der Problemlösungsprozess verläuft in Schritten: Problem erkennen/analysieren, Varianten entwickeln, bewerten, entscheiden, umsetzen, kontrollieren.",
+        "pruefungsrelevant": "Prüfungsnah ist, die einzelnen Schritte des Problemlösungsprozesses zu kennen und in der richtigen Reihenfolge anzuwenden, statt Schritte zu überspringen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Problemlösungs- und Entscheidungsmethoden“ fachlich am besten?",
+      "frage": "Aus welchen Schritten besteht ein vollständiger Problemlösungsprozess?",
       "antwort_daten": {
         "optionen": [
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-          "Risiken werden erst nach Projektabschluss beurteilt.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung."
+          "Der Problemlösungsprozess verläuft in Schritten: Problem erkennen/analysieren, Varianten entwickeln, bewerten, entscheiden, umsetzen, kontrollieren.",
+          "Nur aus der spontanen Wahl der erstbesten Idee.",
+          "Aus Problembeschreibung und sofortiger Umsetzung, ohne Variantenvergleich.",
+          "Aus Entscheidung und Umsetzung, eine Kontrolle danach ist nicht nötig."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Der Problemlösungsprozess verläuft in Schritten: Problem erkennen/analysieren, Varianten entwickeln, bewerten, entscheiden, umsetzen, kontrollieren.",
+        "rechenweg": "Analyse, Variantenentwicklung, Bewertung, Entscheidung, Umsetzung und Kontrolle bilden gemeinsam den vollständigen Problemlösungsprozess.",
+        "warum": "Die erstbeste Idee, ein fehlender Variantenvergleich oder eine ausbleibende Kontrolle lassen wichtige Prozessschritte aus."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Direkt zur Lösung springen, ohne das Problem zuerst zu analysieren.",
+        "Nur eine Variante entwickeln statt mehrere zu vergleichen.",
+        "Nach der Entscheidung keine Umsetzungskontrolle vorsehen."
       ],
       "review": {
         "box": 1,
@@ -21190,7 +21200,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Erst analysieren, dann Varianten, dann entscheiden, umsetzen und kontrollieren - in dieser Reihenfolge."
     },
     {
       "id": "problemloesung_entscheidung_problemloesungs_und_entscheidungsmethoden_stufe2_fehlerfalle",
@@ -21215,32 +21225,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Problemlösungs- und Entscheidungsmethoden vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Der Problemlösungsprozess verläuft in Schritten: Problem erkennen/analysieren, Varianten entwickeln, bewerten, entscheiden, umsetzen, kontrollieren.",
+        "pruefungsrelevant": "Prüfungsnah ist, die einzelnen Schritte des Problemlösungsprozesses zu kennen und in der richtigen Reihenfolge anzuwenden, statt Schritte zu überspringen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Problemlösungs- und Entscheidungsmethoden“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern im Problemlösungsprozess sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Kriterien, Gewichtungen und Massnahmen nachvollziehbar dokumentieren.",
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Risiken werden erst nach Projektabschluss beurteilt.",
-          "Ursache, Ziel und Varianten vor der Entscheidung sauber klären."
+          "Es wird direkt zur Lösung gesprungen, ohne das Problem zuerst zu analysieren.",
+          "Es wird nur eine Variante entwickelt statt mehrere zu vergleichen.",
+          "Nach der Entscheidung wird keine Umsetzungskontrolle vorgesehen.",
+          "Mehrere Varianten werden systematisch verglichen und bewertet.",
+          "Die Umsetzung wird nach der Entscheidung kontrolliert."
         ],
         "richtige_indices": [
+          0,
           1,
-          4
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Richtig sind das Überspringen der Analyse, der fehlende Variantenvergleich und die ausbleibende Umsetzungskontrolle.",
+        "rechenweg": "Fehlt einer der Schritte, bleibt der Problemlösungsprozess unvollständig und das Ergebnis weniger belastbar.",
+        "warum": "Prüfungsnah ist, die einzelnen Schritte des Problemlösungsprozesses zu kennen und in der richtigen Reihenfolge anzuwenden, statt Schritte zu überspringen."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Direkt zur Lösung springen, ohne das Problem zuerst zu analysieren.",
+        "Nur eine Variante entwickeln statt mehrere zu vergleichen.",
+        "Nach der Entscheidung keine Umsetzungskontrolle vorsehen."
       ],
       "review": {
         "box": 1,
@@ -21263,7 +21274,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Erst analysieren, dann Varianten, dann entscheiden, umsetzen und kontrollieren - in dieser Reihenfolge."
     },
     {
       "id": "problemloesung_entscheidung_projektrisiken_stufe1_begriff",
@@ -21288,28 +21299,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Projektrisiken verstehen",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Projektrisiken werden systematisch identifiziert, nach Eintrittswahrscheinlichkeit und Auswirkung bewertet und mit Massnahmen (vermeiden, vermindern, überwälzen, tragen) behandelt.",
+        "pruefungsrelevant": "Prüfungsnah ist, ein konkretes Projektrisiko zu benennen, es einzuschätzen (Wahrscheinlichkeit × Auswirkung) und die passende Risikostrategie zu wählen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Projektrisiken“ fachlich am besten?",
+      "frage": "Wie wird mit einem Projektrisiko methodisch korrekt umgegangen?",
       "antwort_daten": {
         "optionen": [
-          "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Risiken werden erst nach Projektabschluss beurteilt.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung."
+          "Projektrisiken werden systematisch identifiziert, nach Eintrittswahrscheinlichkeit und Auswirkung bewertet und mit Massnahmen (vermeiden, vermindern, überwälzen, tragen) behandelt.",
+          "Indem alle Risiken ignoriert werden, solange das Projekt im Zeitplan liegt.",
+          "Indem für jedes Risiko automatisch eine Versicherung abgeschlossen wird, ohne Prüfung der Alternativen.",
+          "Indem Risiken erst nach Abschluss des Projekts betrachtet werden."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Projektrisiken werden systematisch identifiziert, nach Eintrittswahrscheinlichkeit und Auswirkung bewertet und mit Massnahmen (vermeiden, vermindern, überwälzen, tragen) behandelt.",
+        "rechenweg": "Nach der Identifikation wird das Risiko anhand Wahrscheinlichkeit und Auswirkung eingeschätzt, danach wird die passende Strategie (vermeiden, vermindern, überwälzen, tragen) gewählt.",
+        "warum": "Ignorierte Risiken, eine pauschale Massnahme oder eine zu späte Betrachtung verhindern ein wirksames Risikomanagement."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Risiken nur benennen, aber nicht nach Wahrscheinlichkeit/Auswirkung einschätzen.",
+        "Für jedes Risiko automatisch dieselbe Massnahme (z.B. Versicherung) wählen.",
+        "Risiken erst nach Projektende statt während der Planung identifizieren."
       ],
       "review": {
         "box": 1,
@@ -21330,7 +21341,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Ein Risiko ohne Einschätzung und Massnahme ist nur eine Sorge, kein Risikomanagement."
     },
     {
       "id": "problemloesung_entscheidung_projektrisiken_stufe2_fehlerfalle",
@@ -21355,32 +21366,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Projektrisiken vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Projektrisiken werden systematisch identifiziert, nach Eintrittswahrscheinlichkeit und Auswirkung bewertet und mit Massnahmen (vermeiden, vermindern, überwälzen, tragen) behandelt.",
+        "pruefungsrelevant": "Prüfungsnah ist, ein konkretes Projektrisiko zu benennen, es einzuschätzen (Wahrscheinlichkeit × Auswirkung) und die passende Risikostrategie zu wählen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Projektrisiken“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Umgang mit Projektrisiken sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Ursache, Ziel und Varianten vor der Entscheidung sauber klären.",
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Kriterien, Gewichtungen und Massnahmen nachvollziehbar dokumentieren.",
-          "Risiken werden erst nach Projektabschluss beurteilt."
+          "Risiken werden nur benannt, aber nicht nach Wahrscheinlichkeit/Auswirkung eingeschätzt.",
+          "Für jedes Risiko wird automatisch dieselbe Massnahme gewählt.",
+          "Risiken werden erst nach Projektende statt während der Planung identifiziert.",
+          "Jedes Risiko wird nach Wahrscheinlichkeit und Auswirkung bewertet.",
+          "Die Risikostrategie wird passend zum jeweiligen Risiko gewählt."
         ],
         "richtige_indices": [
           0,
-          3
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Richtig sind die fehlende Einschätzung, die pauschale Massnahme und die zu späte Identifikation von Risiken.",
+        "rechenweg": "Ohne Einschätzung von Wahrscheinlichkeit und Auswirkung lässt sich keine sinnvolle Risikostrategie wählen.",
+        "warum": "Prüfungsnah ist, ein konkretes Projektrisiko zu benennen, es einzuschätzen (Wahrscheinlichkeit × Auswirkung) und die passende Risikostrategie zu wählen."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Risiken nur benennen, aber nicht nach Wahrscheinlichkeit/Auswirkung einschätzen.",
+        "Für jedes Risiko automatisch dieselbe Massnahme (z.B. Versicherung) wählen.",
+        "Risiken erst nach Projektende statt während der Planung identifizieren."
       ],
       "review": {
         "box": 1,
@@ -21403,7 +21415,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Ein Risiko ohne Einschätzung und Massnahme ist nur eine Sorge, kein Risikomanagement."
     },
     {
       "id": "problemloesung_entscheidung_rechnung_rechnungspruefung_stufe1_begriff",
@@ -21428,28 +21440,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Rechnung / Rechnungsprüfung verstehen",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Bei Problemen im Zusammenhang mit Rechnungen wird systematisch geprüft, wo die Abweichung entsteht (Bestellung, Lieferung, Rechnung) und welche Massnahme sie behebt.",
+        "pruefungsrelevant": "Prüfungsnah ist, eine Rechnungsabweichung im Fall Schritt für Schritt zurückzuverfolgen und daraus eine Entscheidung (z.B. Reklamation, Zahlung mit Vorbehalt) abzuleiten."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Rechnung / Rechnungsprüfung“ fachlich am besten?",
+      "frage": "Wie wird ein Problem mit einer abweichenden Rechnung methodisch korrekt gelöst?",
       "antwort_daten": {
         "optionen": [
-          "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Risiken werden erst nach Projektabschluss beurteilt."
+          "Bei Problemen im Zusammenhang mit Rechnungen wird systematisch geprüft, wo die Abweichung entsteht (Bestellung, Lieferung, Rechnung) und welche Massnahme sie behebt.",
+          "Indem die Rechnung trotz Abweichung ohne Prüfung bezahlt wird.",
+          "Indem die Ursache der Abweichung offen bleibt, solange der Betrag ungefähr stimmt.",
+          "Indem Zahlungsfristen bei der Entscheidung keine Rolle spielen."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Bei Problemen im Zusammenhang mit Rechnungen wird systematisch geprüft, wo die Abweichung entsteht (Bestellung, Lieferung, Rechnung) und welche Massnahme sie behebt.",
+        "rechenweg": "Bestellung, Lieferschein und Rechnung werden verglichen, die Abweichung wird lokalisiert, und erst danach folgt eine begründete Entscheidung wie Reklamation oder Zahlung mit Vorbehalt.",
+        "warum": "Eine ungeprüfte Zahlung, eine unklare Ursache oder ignorierte Zahlungsfristen führen zu einer unbegründeten oder riskanten Entscheidung."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Eine Rechnungsabweichung ohne Rückverfolgung zu Bestellung/Lieferung einfach akzeptieren.",
+        "Die Ursache der Abweichung nicht eindeutig benennen können.",
+        "Eine Entscheidung treffen, ohne die Konsequenzen (z.B. Zahlungsfristen) zu beachten."
       ],
       "review": {
         "box": 1,
@@ -21470,7 +21482,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Bei Rechnungsproblemen zählt die lückenlose Rückverfolgung, nicht die schnelle Annahme."
     },
     {
       "id": "problemloesung_entscheidung_rechnung_rechnungspruefung_stufe2_fehlerfalle",
@@ -21495,32 +21507,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Rechnung / Rechnungsprüfung vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Bei Problemen im Zusammenhang mit Rechnungen wird systematisch geprüft, wo die Abweichung entsteht (Bestellung, Lieferung, Rechnung) und welche Massnahme sie behebt.",
+        "pruefungsrelevant": "Prüfungsnah ist, eine Rechnungsabweichung im Fall Schritt für Schritt zurückzuverfolgen und daraus eine Entscheidung (z.B. Reklamation, Zahlung mit Vorbehalt) abzuleiten."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Rechnung / Rechnungsprüfung“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei Problemen mit Rechnungsabweichungen sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Kriterien, Gewichtungen und Massnahmen nachvollziehbar dokumentieren.",
-          "Ursache, Ziel und Varianten vor der Entscheidung sauber klären.",
-          "Risiken werden erst nach Projektabschluss beurteilt.",
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden."
+          "Eine Rechnungsabweichung wird ohne Rückverfolgung zu Bestellung/Lieferung akzeptiert.",
+          "Die Ursache der Abweichung kann nicht eindeutig benannt werden.",
+          "Eine Entscheidung wird getroffen, ohne Konsequenzen wie Zahlungsfristen zu beachten.",
+          "Bestellung, Lieferschein und Rechnung werden systematisch verglichen.",
+          "Zahlungsfristen werden bei der Entscheidung berücksichtigt."
         ],
         "richtige_indices": [
+          0,
           1,
           2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Richtig sind die fehlende Rückverfolgung, die unklare Ursache und die ignorierten Zahlungsfristen.",
+        "rechenweg": "Erst der lückenlose Vergleich von Bestellung, Lieferung und Rechnung deckt die tatsächliche Ursache der Abweichung auf.",
+        "warum": "Prüfungsnah ist, eine Rechnungsabweichung im Fall Schritt für Schritt zurückzuverfolgen und daraus eine Entscheidung (z.B. Reklamation, Zahlung mit Vorbehalt) abzuleiten."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Eine Rechnungsabweichung ohne Rückverfolgung zu Bestellung/Lieferung einfach akzeptieren.",
+        "Die Ursache der Abweichung nicht eindeutig benennen können.",
+        "Eine Entscheidung treffen, ohne die Konsequenzen (z.B. Zahlungsfristen) zu beachten."
       ],
       "review": {
         "box": 1,
@@ -21543,7 +21556,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Bei Rechnungsproblemen zählt die lückenlose Rückverfolgung, nicht die schnelle Annahme."
     },
     {
       "id": "problemloesung_entscheidung_rechtliche_grundlagen_stufe1_begriff",
@@ -21734,28 +21747,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Terminplan / Balkendiagramm verstehen",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Ein Balkendiagramm (Gantt-Chart) zeigt Aufgaben als Balken auf einer Zeitachse, inklusive Dauer, Reihenfolge und Abhängigkeiten zwischen den Aufgaben.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus gegebenen Aufgaben mit Dauer und Abhängigkeiten ein korrektes Balkendiagramm zu lesen oder zu erstellen (z.B. kritischer Pfad)."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Terminplan / Balkendiagramm“ fachlich am besten?",
+      "frage": "Was zeigt ein Balkendiagramm (Gantt-Chart) in der Terminplanung?",
       "antwort_daten": {
         "optionen": [
-          "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Risiken werden erst nach Projektabschluss beurteilt.",
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden."
+          "Ein Balkendiagramm (Gantt-Chart) zeigt Aufgaben als Balken auf einer Zeitachse, inklusive Dauer, Reihenfolge und Abhängigkeiten zwischen den Aufgaben.",
+          "Nur die Gesamtdauer des Projekts, ohne Einzelaufgaben.",
+          "Ausschliesslich die Kosten der einzelnen Aufgaben.",
+          "Ein Balkendiagramm berücksichtigt keine Abhängigkeiten zwischen Aufgaben."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Ein Balkendiagramm (Gantt-Chart) zeigt Aufgaben als Balken auf einer Zeitachse, inklusive Dauer, Reihenfolge und Abhängigkeiten zwischen den Aufgaben.",
+        "rechenweg": "Jede Aufgabe erhält einen Balken mit Start, Dauer und Ende; Abhängigkeiten zeigen, welche Aufgabe erst nach einer anderen beginnen kann.",
+        "warum": "Nur die Gesamtdauer, nur Kosten oder das Ausblenden von Abhängigkeiten geben das Balkendiagramm nicht korrekt wieder."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Aufgaben ohne Berücksichtigung ihrer Abhängigkeiten parallel einplanen.",
+        "Die Dauer einzelner Aufgaben im Diagramm falsch ablesen oder eintragen.",
+        "Den kritischen Pfad (zeitbestimmende Aufgabenkette) nicht erkennen."
       ],
       "review": {
         "box": 1,
@@ -21776,7 +21789,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Im Balkendiagramm zählt nicht nur die Dauer jeder Aufgabe, sondern auch, was von was abhängt."
     },
     {
       "id": "problemloesung_entscheidung_terminplan_balkendiagramm_stufe2_fehlerfalle",
@@ -21801,32 +21814,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Terminplan / Balkendiagramm vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Ein Balkendiagramm (Gantt-Chart) zeigt Aufgaben als Balken auf einer Zeitachse, inklusive Dauer, Reihenfolge und Abhängigkeiten zwischen den Aufgaben.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus gegebenen Aufgaben mit Dauer und Abhängigkeiten ein korrektes Balkendiagramm zu lesen oder zu erstellen (z.B. kritischer Pfad)."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Terminplan / Balkendiagramm“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Balkendiagramm sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Ursache, Ziel und Varianten vor der Entscheidung sauber klären.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Risiken werden erst nach Projektabschluss beurteilt.",
-          "Kriterien, Gewichtungen und Massnahmen nachvollziehbar dokumentieren.",
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden."
+          "Aufgaben werden ohne Berücksichtigung ihrer Abhängigkeiten parallel eingeplant.",
+          "Die Dauer einzelner Aufgaben wird falsch abgelesen oder eingetragen.",
+          "Der kritische Pfad wird nicht erkannt.",
+          "Abhängigkeiten zwischen Aufgaben werden korrekt im Diagramm abgebildet.",
+          "Der kritische Pfad wird als zeitbestimmende Kette identifiziert."
         ],
         "richtige_indices": [
           0,
-          3
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Richtig sind die ignorierten Abhängigkeiten, falsch eingetragene Dauern und der nicht erkannte kritische Pfad.",
+        "rechenweg": "Ohne den kritischen Pfad zu kennen, lässt sich nicht sagen, welche Verzögerung das ganze Projekt verzögert.",
+        "warum": "Prüfungsnah ist, aus gegebenen Aufgaben mit Dauer und Abhängigkeiten ein korrektes Balkendiagramm zu lesen oder zu erstellen (z.B. kritischer Pfad)."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Aufgaben ohne Berücksichtigung ihrer Abhängigkeiten parallel einplanen.",
+        "Die Dauer einzelner Aufgaben im Diagramm falsch ablesen oder eintragen.",
+        "Den kritischen Pfad (zeitbestimmende Aufgabenkette) nicht erkennen."
       ],
       "review": {
         "box": 1,
@@ -21849,7 +21863,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Im Balkendiagramm zählt nicht nur die Dauer jeder Aufgabe, sondern auch, was von was abhängt."
     },
     {
       "id": "problemloesung_entscheidung_terminplan_und_risikomanagement_stufe1_begriff",
@@ -21874,28 +21888,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Terminplan und Risikomanagement verstehen",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Terminplanung und Risikomanagement gehören zusammen: Für zeitkritische Aufgaben (kritischer Pfad) werden gezielt Risiken und Pufferzeiten eingeplant.",
+        "pruefungsrelevant": "Prüfungsnah ist, Risiken speziell für Aufgaben auf dem kritischen Pfad zu identifizieren und mit Pufferzeiten oder Alternativen abzusichern."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Terminplan und Risikomanagement“ fachlich am besten?",
+      "frage": "Wie hängen Terminplanung und Risikomanagement in einem Projekt zusammen?",
       "antwort_daten": {
         "optionen": [
-          "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Risiken werden erst nach Projektabschluss beurteilt."
+          "Terminplanung und Risikomanagement gehören zusammen: Für zeitkritische Aufgaben (kritischer Pfad) werden gezielt Risiken und Pufferzeiten eingeplant.",
+          "Terminplanung und Risikomanagement sind zwei völlig unabhängige Themen ohne Bezug zueinander.",
+          "Pufferzeiten werden am besten bei unkritischen Aufgaben eingeplant, nie bei kritischen.",
+          "Risiken auf dem kritischen Pfad sind nicht wichtiger als andere Risiken."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Terminplanung und Risikomanagement gehören zusammen: Für zeitkritische Aufgaben (kritischer Pfad) werden gezielt Risiken und Pufferzeiten eingeplant.",
+        "rechenweg": "Da Verzögerungen auf dem kritischen Pfad das gesamte Projekt verzögern, werden dort gezielt Risiken identifiziert und mit Puffern abgesichert.",
+        "warum": "Eine Trennung der beiden Themen, Puffer an der falschen Stelle oder eine Gleichgewichtung aller Risiken übersehen die besondere Bedeutung des kritischen Pfads."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Risikomanagement unabhängig vom Terminplan betreiben, ohne Bezug zum kritischen Pfad.",
+        "Pufferzeiten nur für unkritische statt für kritische Aufgaben einplanen.",
+        "Risiken auf dem kritischen Pfad nicht stärker gewichten als andere Risiken."
       ],
       "review": {
         "box": 1,
@@ -21916,7 +21930,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Ein Puffer an der falschen Stelle im Zeitplan nützt nichts - er gehört auf den kritischen Pfad."
     },
     {
       "id": "problemloesung_entscheidung_terminplan_und_risikomanagement_stufe2_fehlerfalle",
@@ -21941,32 +21955,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Terminplan und Risikomanagement vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Terminplanung und Risikomanagement gehören zusammen: Für zeitkritische Aufgaben (kritischer Pfad) werden gezielt Risiken und Pufferzeiten eingeplant.",
+        "pruefungsrelevant": "Prüfungsnah ist, Risiken speziell für Aufgaben auf dem kritischen Pfad zu identifizieren und mit Pufferzeiten oder Alternativen abzusichern."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Terminplan und Risikomanagement“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Zusammenspiel von Terminplan und Risikomanagement sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Ursache, Ziel und Varianten vor der Entscheidung sauber klären.",
-          "Kriterien, Gewichtungen und Massnahmen nachvollziehbar dokumentieren.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Risiken werden erst nach Projektabschluss beurteilt."
+          "Risikomanagement wird unabhängig vom Terminplan betrieben, ohne Bezug zum kritischen Pfad.",
+          "Pufferzeiten werden nur für unkritische statt für kritische Aufgaben eingeplant.",
+          "Risiken auf dem kritischen Pfad werden nicht stärker gewichtet als andere Risiken.",
+          "Puffer werden gezielt für Aufgaben auf dem kritischen Pfad eingeplant.",
+          "Risiken auf dem kritischen Pfad werden besonders sorgfältig geprüft."
         ],
         "richtige_indices": [
+          0,
           1,
           2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Richtig sind die fehlende Verknüpfung mit dem kritischen Pfad, falsch platzierte Puffer und die fehlende Gewichtung kritischer Risiken.",
+        "rechenweg": "Ein Risiko auf dem kritischen Pfad gefährdet den gesamten Endtermin - deshalb braucht es dort besondere Aufmerksamkeit.",
+        "warum": "Prüfungsnah ist, Risiken speziell für Aufgaben auf dem kritischen Pfad zu identifizieren und mit Pufferzeiten oder Alternativen abzusichern."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Risikomanagement unabhängig vom Terminplan betreiben, ohne Bezug zum kritischen Pfad.",
+        "Pufferzeiten nur für unkritische statt für kritische Aufgaben einplanen.",
+        "Risiken auf dem kritischen Pfad nicht stärker gewichten als andere Risiken."
       ],
       "review": {
         "box": 1,
@@ -21989,7 +22004,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Ein Puffer an der falschen Stelle im Zeitplan nützt nichts - er gehört auf den kritischen Pfad."
     },
     {
       "id": "problemloesung_entscheidung_wertschoepfungsanalyse_stufe1_begriff",
@@ -22014,28 +22029,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Wertschöpfungsanalyse verstehen",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Die Wertschöpfungsanalyse untersucht, welche Prozessschritte tatsächlich Wert für die Kundschaft schaffen und welche Schritte reine Verschwendung sind.",
+        "pruefungsrelevant": "Prüfungsnah ist, in einem gegebenen Prozess wertschöpfende von nicht wertschöpfenden Schritten zu unterscheiden und Verschwendung zu benennen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Wertschöpfungsanalyse“ fachlich am besten?",
+      "frage": "Was untersucht eine Wertschöpfungsanalyse in einem Prozess?",
       "antwort_daten": {
         "optionen": [
-          "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Risiken werden erst nach Projektabschluss beurteilt."
+          "Die Wertschöpfungsanalyse untersucht, welche Prozessschritte tatsächlich Wert für die Kundschaft schaffen und welche Schritte reine Verschwendung sind.",
+          "Sie untersucht ausschliesslich die Personalkosten eines Prozesses.",
+          "Sie geht davon aus, dass jeder bestehende Prozessschritt automatisch wertschöpfend ist.",
+          "Sie betrachtet nur die letzte Stufe eines Prozesses, nie den gesamten Ablauf."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Die Wertschöpfungsanalyse untersucht, welche Prozessschritte tatsächlich Wert für die Kundschaft schaffen und welche Schritte reine Verschwendung sind.",
+        "rechenweg": "Jeder Prozessschritt wird darauf geprüft, ob er direkt zum Kundennutzen beiträgt (wertschöpfend) oder nicht (z.B. Wartezeit, unnötige Kontrolle).",
+        "warum": "Eine reine Kostenbetrachtung, die pauschale Annahme von Wertschöpfung oder die Beschränkung auf die letzte Stufe erfassen den Prozess nicht vollständig."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Jeden Prozessschritt automatisch als wertschöpfend einstufen.",
+        "Notwendige, aber nicht direkt wertschöpfende Schritte (z.B. Qualitätskontrolle) fälschlich als reine Verschwendung streichen.",
+        "Verschwendung erkennen, aber keine Massnahme zu ihrer Reduktion ableiten."
       ],
       "review": {
         "box": 1,
@@ -22056,7 +22071,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Nicht jeder Prozessschritt schafft Wert - die Analyse zeigt, welche wirklich zählen."
     },
     {
       "id": "problemloesung_entscheidung_wertschoepfungsanalyse_stufe2_fehlerfalle",
@@ -22081,32 +22096,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Wertschöpfungsanalyse vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Die Wertschöpfungsanalyse untersucht, welche Prozessschritte tatsächlich Wert für die Kundschaft schaffen und welche Schritte reine Verschwendung sind.",
+        "pruefungsrelevant": "Prüfungsnah ist, in einem gegebenen Prozess wertschöpfende von nicht wertschöpfenden Schritten zu unterscheiden und Verschwendung zu benennen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Wertschöpfungsanalyse“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Wertschöpfungsanalyse sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Risiken werden erst nach Projektabschluss beurteilt.",
-          "Ursache, Ziel und Varianten vor der Entscheidung sauber klären.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Kriterien, Gewichtungen und Massnahmen nachvollziehbar dokumentieren."
+          "Jeder Prozessschritt wird automatisch als wertschöpfend eingestuft.",
+          "Notwendige, aber nicht direkt wertschöpfende Schritte werden fälschlich als reine Verschwendung gestrichen.",
+          "Verschwendung wird erkannt, aber es wird keine Massnahme zu ihrer Reduktion abgeleitet.",
+          "Wertschöpfende und nicht wertschöpfende Schritte werden klar unterschieden.",
+          "Zu jeder erkannten Verschwendung wird eine Reduktionsmassnahme vorgeschlagen."
         ],
         "richtige_indices": [
+          0,
           1,
-          4
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Richtig sind die pauschale Einstufung als wertschöpfend, das fälschliche Streichen notwendiger Schritte und die fehlende Massnahmenableitung.",
+        "rechenweg": "Eine Analyse ohne konkrete Massnahme zur Reduktion der erkannten Verschwendung bleibt folgenlos.",
+        "warum": "Prüfungsnah ist, in einem gegebenen Prozess wertschöpfende von nicht wertschöpfenden Schritten zu unterscheiden und Verschwendung zu benennen."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Jeden Prozessschritt automatisch als wertschöpfend einstufen.",
+        "Notwendige, aber nicht direkt wertschöpfende Schritte (z.B. Qualitätskontrolle) fälschlich als reine Verschwendung streichen.",
+        "Verschwendung erkennen, aber keine Massnahme zu ihrer Reduktion ableiten."
       ],
       "review": {
         "box": 1,
@@ -22129,7 +22145,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Nicht jeder Prozessschritt schafft Wert - die Analyse zeigt, welche wirklich zählen."
     },
     {
       "id": "problemloesung_entscheidung_ziele_smart_stufe1_begriff",
