@@ -256,28 +256,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Beschaffung / Lieferanten verstehen",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
+        "pruefungsrelevant": "Prüfungsnah ist, dass eine gute Lieferantenwahl mehr als nur den Preis berücksichtigt (Total Cost of Ownership)."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Beschaffung / Lieferanten“ fachlich am besten?",
+      "frage": "Wonach sollte ein Lieferant bei der Beschaffung ausgewählt werden?",
       "antwort_daten": {
         "optionen": [
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen."
+          "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
+          "Ausschliesslich nach dem tiefsten Angebotspreis.",
+          "Nur nach der Entfernung zum eigenen Betrieb.",
+          "Nach der Grösse des Lieferanten, unabhängig von Qualität und Preis."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
         "kurz": "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "rechenweg": "Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service zusammen ergeben die Gesamtkosten und den Gesamtnutzen einer Lieferantenbeziehung.",
+        "warum": "Reiner Preisfokus, Entfernung oder Firmengrösse allein sagen nichts über Qualität, Zuverlässigkeit oder Gesamtkosten aus."
       },
       "fehlerfallen": [
         "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
         "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Abhängigkeit von einem einzigen Lieferanten unterschätzen."
       ],
       "review": {
         "box": 1,
@@ -298,7 +298,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Der billigste Lieferant ist selten der wirtschaftlichste."
     },
     {
       "id": "finanzwirtschaft_beschaffung_lieferanten_stufe2_fehlerfalle",
@@ -349,32 +349,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Beschaffung / Lieferanten vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
+        "pruefungsrelevant": "Prüfungsnah ist, dass eine gute Lieferantenwahl mehr als nur den Preis berücksichtigt (Total Cost of Ownership)."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Beschaffung / Lieferanten“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Lieferantenauswahl sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten."
+          "Nur der Einkaufspreis wird verglichen, Folgekosten werden ignoriert.",
+          "Die Abhängigkeit von einem einzigen Lieferanten wird unterschätzt.",
+          "Qualität und Lieferfähigkeit werden systematisch mitbewertet.",
+          "Lieferantenbewertung erfolgt nur einmalig statt periodisch.",
+          "Mehrere Offerten werden regelmässig eingeholt und verglichen."
         ],
         "richtige_indices": [
           0,
-          4
+          1,
+          3
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Richtig sind die reine Preisfixierung, das unterschätzte Klumpenrisiko und die nur einmalige statt periodische Bewertung.",
+        "rechenweg": "Wer nur einmal bewertet oder nur auf den Preis schaut, übersieht sich ändernde Risiken und Gesamtkosten über die Zeit.",
+        "warum": "Prüfungsnah ist, dass eine gute Lieferantenwahl mehr als nur den Preis berücksichtigt (Total Cost of Ownership)."
       },
       "fehlerfallen": [
         "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
         "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Abhängigkeit von einem einzigen Lieferanten unterschätzen."
       ],
       "review": {
         "box": 1,
@@ -397,7 +398,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Der billigste Lieferant ist selten der wirtschaftlichste."
     },
     {
       "id": "finanzwirtschaft_bestimmung_mindestumsatz_stufe1_begriff",
@@ -422,28 +423,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Bestimmung Mindestumsatz verstehen",
       "begriff_erklaerung": {
-        "kurz": "Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
-        "pruefungsrelevant": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
+        "kurz": "Der Mindestumsatz ist der Umsatz, der mindestens erreicht werden muss, um alle Kosten (fix und variabel) zu decken.",
+        "pruefungsrelevant": "Prüfungsnah ist die Berechnung: Mindestumsatz = Fixkosten / (1 - variable Kosten in % vom Umsatz)."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Bestimmung Mindestumsatz“ fachlich am besten?",
+      "frage": "Was beschreibt der Mindestumsatz eines Unternehmens?",
       "antwort_daten": {
         "optionen": [
-          "Zuschläge werden auf der vorgesehenen Bezugsbasis gerechnet; Selbstkosten liegen vor Gewinn und vor MWST.",
-          "Materialgemeinkosten werden direkt auf den Verkaufspreis berechnet.",
-          "Der Gewinnzuschlag gehört zu den Herstellkosten.",
-          "Die MWST wird zu den Selbstkosten gezählt."
+          "Der Mindestumsatz ist der Umsatz, der mindestens erreicht werden muss, um alle Kosten (fix und variabel) zu decken.",
+          "Den Umsatz, der maximal erreichbar ist.",
+          "Den Umsatz, der garantiert einen hohen Gewinn erzielt.",
+          "Den durchschnittlichen Umsatz der letzten drei Jahre."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Zuschläge werden auf der vorgesehenen Bezugsbasis gerechnet; Selbstkosten liegen vor Gewinn und vor MWST.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
+        "kurz": "Der Mindestumsatz ist der Umsatz, der mindestens erreicht werden muss, um alle Kosten (fix und variabel) zu decken.",
+        "rechenweg": "Mindestumsatz = Fixkosten / (1 - variable Kosten in % vom Umsatz) - er zeigt die Kostendeckungsgrenze, nicht das Umsatzmaximum.",
+        "warum": "Der Mindestumsatz ist eine Kostendeckungsgrenze, kein Maximal- oder Durchschnittswert und garantiert keinen Gewinn."
       },
       "fehlerfallen": [
-        "Falsche Zuschlagsbasis verwenden.",
-        "Gewinn und MWST in die Selbstkosten mischen.",
-        "Rabatt, Skonto und MWST in falscher Reihenfolge einsetzen."
+        "Fixkosten und variable Kosten bei der Berechnung vertauschen.",
+        "Mindestumsatz mit der Break-even-Menge verwechseln.",
+        "Gewinnaufschlag beim Mindestumsatz fälschlich schon einrechnen."
       ],
       "review": {
         "box": 1,
@@ -464,7 +465,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Kosten sauber aufbauen, dann Gewinn, dann MWST – sonst wird die Rechnung Hackfleisch."
+      "merksatz": "Der Mindestumsatz deckt die Kosten - noch keinen Gewinn."
     },
     {
       "id": "finanzwirtschaft_bestimmung_mindestumsatz_stufe2_fehlerfalle",
@@ -489,32 +490,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Bestimmung Mindestumsatz vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
-        "pruefungsrelevant": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
+        "kurz": "Der Mindestumsatz ist der Umsatz, der mindestens erreicht werden muss, um alle Kosten (fix und variabel) zu decken.",
+        "pruefungsrelevant": "Prüfungsnah ist die Berechnung: Mindestumsatz = Fixkosten / (1 - variable Kosten in % vom Umsatz)."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Bestimmung Mindestumsatz“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Bestimmung des Mindestumsatzes sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Zuschlagsbasis vor dem Einsetzen der Zahlen kontrollieren.",
-          "Der Gewinnzuschlag gehört zu den Herstellkosten.",
-          "Materialgemeinkosten werden direkt auf den Verkaufspreis berechnet.",
-          "Die MWST wird zu den Selbstkosten gezählt.",
-          "Gewinn und MWST nicht in die Selbstkosten einrechnen."
+          "Fixkosten und variable Kosten werden bei der Berechnung vertauscht.",
+          "Der Mindestumsatz wird mit der Break-even-Menge verwechselt.",
+          "Ein Gewinnaufschlag wird fälschlich bereits in den Mindestumsatz eingerechnet.",
+          "Fixkosten werden korrekt und vollständig erfasst.",
+          "Variable Kosten werden als Prozentsatz vom Umsatz korrekt bestimmt."
         ],
         "richtige_indices": [
           0,
-          4
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
+        "kurz": "Richtig sind die vertauschten Kostenarten, die Verwechslung mit der Break-even-Menge und ein fälschlich eingerechneter Gewinnaufschlag.",
+        "rechenweg": "Der Mindestumsatz deckt exakt die Kosten - jeder zusätzlich eingerechnete Gewinn verfälscht das Ergebnis nach oben.",
+        "warum": "Prüfungsnah ist die Berechnung: Mindestumsatz = Fixkosten / (1 - variable Kosten in % vom Umsatz)."
       },
       "fehlerfallen": [
-        "Falsche Zuschlagsbasis verwenden.",
-        "Gewinn und MWST in die Selbstkosten mischen.",
-        "Rabatt, Skonto und MWST in falscher Reihenfolge einsetzen."
+        "Fixkosten und variable Kosten bei der Berechnung vertauschen.",
+        "Mindestumsatz mit der Break-even-Menge verwechseln.",
+        "Gewinnaufschlag beim Mindestumsatz fälschlich schon einrechnen."
       ],
       "review": {
         "box": 1,
@@ -537,7 +539,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Kosten sauber aufbauen, dann Gewinn, dann MWST – sonst wird die Rechnung Hackfleisch."
+      "merksatz": "Der Mindestumsatz deckt die Kosten - noch keinen Gewinn."
     },
     {
       "id": "finanzwirtschaft_betriebsbuchhaltung_stufe1_begriff",
@@ -629,32 +631,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Betriebsbuchhaltung vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Die Betriebsbuchhaltung berechnet über Kostenstellen- und Kostenträgerrechnung die Selbstkosten von Produkten und Aufträgen für interne Entscheidungen.",
+        "pruefungsrelevant": "Prüfungsnah ist die Abgrenzung zur Finanzbuchhaltung: Betriebsbuchhaltung ist freiwillig und dient der internen Steuerung."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Betriebsbuchhaltung“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Betriebsbuchhaltung sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug."
+          "Betriebsbuchhaltung wird mit Finanzbuchhaltung verwechselt.",
+          "Es wird angenommen, die Betriebsbuchhaltung sei gesetzlich vorgeschrieben.",
+          "Kostenstellen- und Kostenträgerrechnung werden nicht auseinandergehalten.",
+          "Die Selbstkosten werden korrekt über Kostenstellen und -träger ermittelt.",
+          "Betriebsbuchhaltung wird gezielt für interne Entscheidungen genutzt."
         ],
         "richtige_indices": [
+          0,
           1,
           2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Richtig sind die Verwechslung mit der Finanzbuchhaltung, die falsche Annahme einer gesetzlichen Pflicht und die vermischten Kostenrechnungsarten.",
+        "rechenweg": "Kostenstellenrechnung verteilt Kosten auf Bereiche, Kostenträgerrechnung auf einzelne Produkte/Aufträge - beide haben unterschiedliche Zwecke.",
+        "warum": "Prüfungsnah ist die Abgrenzung zur Finanzbuchhaltung: Betriebsbuchhaltung ist freiwillig und dient der internen Steuerung."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Betriebsbuchhaltung mit Finanzbuchhaltung verwechseln.",
+        "Vergessen, dass die Betriebsbuchhaltung freiwillig (nicht gesetzlich) geführt wird.",
+        "Kostenstellen- und Kostenträgerrechnung nicht auseinanderhalten."
       ],
       "review": {
         "box": 1,
@@ -677,7 +680,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Finanzbuchhaltung schaut nach aussen, Betriebsbuchhaltung schaut nach innen."
     },
     {
       "id": "finanzwirtschaft_bilanzanalyse_stufe1_begriff",
@@ -769,32 +772,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Bilanzanalyse vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Die Bilanzanalyse beurteilt mit Kennzahlen (Liquiditäts-, Finanzierungs- und Rentabilitätsgrade) die finanzielle Lage eines Unternehmens.",
+        "pruefungsrelevant": "Prüfungsnah ist die richtige Zuordnung von Kennzahlen zu Liquidität, Finanzierung (Eigenfinanzierungsgrad) und Rentabilität (ROI/ROE)."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Bilanzanalyse“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Bilanzanalyse sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut."
+          "Kennzahlen werden einzeln statt im Gesamtbild betrachtet.",
+          "Liquiditäts- und Rentabilitätskennzahlen werden verwechselt.",
+          "Vorjahres- oder Branchenwerte werden nicht zum Vergleich herangezogen.",
+          "Mehrere Kennzahlen werden gemeinsam zu einem Gesamtbild verknüpft.",
+          "Kennzahlen werden im Zeitverlauf und im Branchenvergleich beurteilt."
         ],
         "richtige_indices": [
           0,
+          1,
           2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Richtig sind die isolierte Betrachtung einzelner Kennzahlen, deren Verwechslung und der fehlende Vergleichsmassstab.",
+        "rechenweg": "Erst der Vergleich mit Vorjahr oder Branche zeigt, ob eine Kennzahl gut oder schlecht ist - eine Zahl allein ist wenig aussagekräftig.",
+        "warum": "Prüfungsnah ist die richtige Zuordnung von Kennzahlen zu Liquidität, Finanzierung (Eigenfinanzierungsgrad) und Rentabilität (ROI/ROE)."
       },
       "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
+        "Kennzahlen einzeln betrachten statt im Gesamtbild.",
+        "Liquiditäts- und Rentabilitätskennzahlen verwechseln.",
+        "Vorjahreswerte oder Branchenwerte nicht zum Vergleich heranziehen."
       ],
       "review": {
         "box": 1,
@@ -817,7 +821,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Eine Kennzahl allein sagt wenig - erst der Vergleich zeigt die Lage."
     },
     {
       "id": "finanzwirtschaft_break_even_deckungsbeitrag_stufe1_begriff",
@@ -1060,28 +1064,28 @@
       "typ": "single_choice",
       "lernziel": "Formel zu BEP Menge sicher abrufen",
       "begriff_erklaerung": {
-        "kurz": "Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
-        "pruefungsrelevant": "Beim Break-even wird geprüft, ab welcher Menge oder welchem Umsatz die Fixkosten gedeckt sind."
+        "kurz": "Die Break-even-Menge zeigt, ab welcher Verkaufsmenge die Fixkosten durch den Deckungsbeitrag gedeckt sind.",
+        "pruefungsrelevant": "Prüfungsnah ist die korrekte Formel: Fixkosten geteilt durch (nicht multipliziert mit) den Deckungsbeitrag pro Stück."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Break-even / Deckungsbeitrag“ fachlich am besten?",
+      "frage": "Wie wird die Break-even-Menge (BEP-Menge) berechnet?",
       "antwort_daten": {
         "optionen": [
-          "Ein positiver Deckungsbeitrag ist grundsätzlich ein Grund, ein Produkt sofort zu streichen.",
-          "Break-even-Umsatz wird mit den variablen Kosten pro Stück berechnet.",
-          "Fixkosten werden vom Verkaufspreis abgezogen, um den DB pro Stück zu erhalten.",
-          "Break-even-Menge = Fixkosten / Deckungsbeitrag pro Stück; DB pro Stück = Verkaufspreis − variable Kosten."
+          "Break-even-Menge = Fixkosten / Deckungsbeitrag pro Stück.",
+          "Break-even-Menge = Fixkosten × Deckungsbeitrag pro Stück.",
+          "Break-even-Menge = Verkaufspreis / variable Kosten pro Stück.",
+          "Break-even-Menge = Umsatz / Fixkosten."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Break-even-Menge = Fixkosten / Deckungsbeitrag pro Stück; DB pro Stück = Verkaufspreis − variable Kosten.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Beim Break-even wird geprüft, ab welcher Menge oder welchem Umsatz die Fixkosten gedeckt sind."
+        "kurz": "Break-even-Menge = Fixkosten / Deckungsbeitrag pro Stück.",
+        "rechenweg": "Fixkosten / DB pro Stück ergibt die Anzahl Stück, ab der kein Verlust mehr entsteht.",
+        "warum": "Multiplikation oder ein falscher Bezug zu Verkaufspreis/Umsatz entsprechen nicht der BEP-Menge-Formel."
       },
       "fehlerfallen": [
-        "Fixkosten statt variable Kosten vom Preis abziehen.",
-        "Bei BEP in CHF den Verkaufspreis vergessen.",
-        "Positive DB fälschlich als Verlust interpretieren."
+        "Division und Multiplikation in der Formel vertauschen.",
+        "BEP-Menge mit BEP-Umsatz verwechseln.",
+        "Deckungsbeitrag pro Stück falsch berechnen."
       ],
       "review": {
         "box": 1,
@@ -1103,7 +1107,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "DB deckt Fixkosten; Break-even ist dort, wo die DB-Summe die Fixkosten trägt."
+      "merksatz": "Fixkosten durch Deckungsbeitrag pro Stück - das ist die Break-even-Menge."
     },
     {
       "id": "finanzwirtschaft_break_even_deckungsbeitrag_stufe1_formel_2",
@@ -1154,28 +1158,28 @@
       "typ": "single_choice",
       "lernziel": "Formel zu Deckungsbeitrag sicher abrufen",
       "begriff_erklaerung": {
-        "kurz": "Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
-        "pruefungsrelevant": "Beim Break-even wird geprüft, ab welcher Menge oder welchem Umsatz die Fixkosten gedeckt sind."
+        "kurz": "Der Deckungsbeitrag pro Stück ist der Verkaufspreis abzüglich der variablen Kosten pro Stück.",
+        "pruefungsrelevant": "Prüfungsnah ist, dass nur variable Kosten (nicht Fixkosten) vom Verkaufspreis abgezogen werden."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Break-even / Deckungsbeitrag“ fachlich am besten?",
+      "frage": "Wie wird der Deckungsbeitrag (DB) pro Stück berechnet?",
       "antwort_daten": {
         "optionen": [
-          "Break-even-Menge = Fixkosten / Deckungsbeitrag pro Stück; DB pro Stück = Verkaufspreis − variable Kosten.",
-          "Fixkosten werden vom Verkaufspreis abgezogen, um den DB pro Stück zu erhalten.",
-          "Ein positiver Deckungsbeitrag ist grundsätzlich ein Grund, ein Produkt sofort zu streichen.",
-          "Break-even-Umsatz wird mit den variablen Kosten pro Stück berechnet."
+          "DB pro Stück = Verkaufspreis pro Stück minus variable Kosten pro Stück.",
+          "DB pro Stück = Verkaufspreis pro Stück minus Fixkosten pro Stück.",
+          "DB pro Stück = Fixkosten geteilt durch die Menge.",
+          "DB pro Stück = Gewinn geteilt durch den Umsatz."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Break-even-Menge = Fixkosten / Deckungsbeitrag pro Stück; DB pro Stück = Verkaufspreis − variable Kosten.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Beim Break-even wird geprüft, ab welcher Menge oder welchem Umsatz die Fixkosten gedeckt sind."
+        "kurz": "DB pro Stück = Verkaufspreis pro Stück minus variable Kosten pro Stück.",
+        "rechenweg": "Verkaufspreis minus variable Kosten pro Stück ergibt den Betrag, der zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
+        "warum": "Fixkosten dürfen nicht pro Stück vom Preis abgezogen werden - das ist die klassische Verwechslung mit variablen Kosten."
       },
       "fehlerfallen": [
-        "Fixkosten statt variable Kosten vom Preis abziehen.",
-        "Bei BEP in CHF den Verkaufspreis vergessen.",
-        "Positive DB fälschlich als Verlust interpretieren."
+        "Fixkosten statt variable Kosten vom Verkaufspreis abziehen.",
+        "DB pro Stück mit DB insgesamt verwechseln.",
+        "Gewinn mit Deckungsbeitrag gleichsetzen."
       ],
       "review": {
         "box": 1,
@@ -1197,7 +1201,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "DB deckt Fixkosten; Break-even ist dort, wo die DB-Summe die Fixkosten trägt."
+      "merksatz": "Verkaufspreis minus variable Kosten - fertig ist der Deckungsbeitrag pro Stück."
     },
     {
       "id": "finanzwirtschaft_budget_plausibilisieren_stufe1_begriff",
@@ -1222,28 +1226,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Budget plausibilisieren verstehen",
       "begriff_erklaerung": {
-        "kurz": "Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
-        "pruefungsrelevant": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
+        "kurz": "Ein Budget wird plausibilisiert, indem Annahmen (Mengen, Preise, Wachstumsraten) auf Realismus und Konsistenz mit Vorjahreswerten geprüft werden.",
+        "pruefungsrelevant": "Prüfungsnah ist, konkrete Plausibilisierungsschritte (Vorjahresvergleich, Marktentwicklung, Kapazitätsgrenzen) zu benennen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Budget plausibilisieren“ fachlich am besten?",
+      "frage": "Wie wird ein Budget plausibilisiert?",
       "antwort_daten": {
         "optionen": [
-          "Materialgemeinkosten werden direkt auf den Verkaufspreis berechnet.",
-          "Die MWST wird zu den Selbstkosten gezählt.",
-          "Zuschläge werden auf der vorgesehenen Bezugsbasis gerechnet; Selbstkosten liegen vor Gewinn und vor MWST.",
-          "Der Gewinnzuschlag gehört zu den Herstellkosten."
+          "Ein Budget wird plausibilisiert, indem Annahmen (Mengen, Preise, Wachstumsraten) auf Realismus und Konsistenz mit Vorjahreswerten geprüft werden.",
+          "Indem die Zahlen des Vorjahres unverändert übernommen werden.",
+          "Indem nur die Geschäftsleitung die Zahlen ohne weitere Prüfung genehmigt.",
+          "Plausibilisierung ist bei internen Budgets nicht nötig."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Zuschläge werden auf der vorgesehenen Bezugsbasis gerechnet; Selbstkosten liegen vor Gewinn und vor MWST.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
+        "kurz": "Ein Budget wird plausibilisiert, indem Annahmen (Mengen, Preise, Wachstumsraten) auf Realismus und Konsistenz mit Vorjahreswerten geprüft werden.",
+        "rechenweg": "Vergleich mit Vorjahreswerten, Markttrends und Kapazitätsgrenzen zeigt, ob Budgetannahmen realistisch sind.",
+        "warum": "Unveränderte Vorjahreszahlen oder reine Genehmigung ohne Prüfung sind keine Plausibilisierung."
       },
       "fehlerfallen": [
-        "Falsche Zuschlagsbasis verwenden.",
-        "Gewinn und MWST in die Selbstkosten mischen.",
-        "Rabatt, Skonto und MWST in falscher Reihenfolge einsetzen."
+        "Budgetzahlen ungeprüft aus dem Vorjahr übernehmen.",
+        "Optimistische Annahmen nicht mit der Marktrealität abgleichen.",
+        "Kapazitätsgrenzen (z.B. Personal, Maschinen) beim Budget ignorieren."
       ],
       "review": {
         "box": 1,
@@ -1264,7 +1268,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Kosten sauber aufbauen, dann Gewinn, dann MWST – sonst wird die Rechnung Hackfleisch."
+      "merksatz": "Ein Budget ohne Plausibilisierung ist nur eine Wunschliste."
     },
     {
       "id": "finanzwirtschaft_budget_plausibilisieren_stufe2_fehlerfalle",
@@ -1289,32 +1293,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Budget plausibilisieren vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
-        "pruefungsrelevant": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
+        "kurz": "Ein Budget wird plausibilisiert, indem Annahmen (Mengen, Preise, Wachstumsraten) auf Realismus und Konsistenz mit Vorjahreswerten geprüft werden.",
+        "pruefungsrelevant": "Prüfungsnah ist, konkrete Plausibilisierungsschritte (Vorjahresvergleich, Marktentwicklung, Kapazitätsgrenzen) zu benennen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Budget plausibilisieren“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Plausibilisieren eines Budgets sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Der Gewinnzuschlag gehört zu den Herstellkosten.",
-          "Zuschlagsbasis vor dem Einsetzen der Zahlen kontrollieren.",
-          "Materialgemeinkosten werden direkt auf den Verkaufspreis berechnet.",
-          "Gewinn und MWST nicht in die Selbstkosten einrechnen.",
-          "Die MWST wird zu den Selbstkosten gezählt."
+          "Budgetzahlen werden ungeprüft aus dem Vorjahr übernommen.",
+          "Optimistische Annahmen werden nicht mit der Marktrealität abgeglichen.",
+          "Kapazitätsgrenzen (Personal, Maschinen) werden beim Budget ignoriert.",
+          "Annahmen werden systematisch mit Markt- und Kapazitätsdaten abgeglichen.",
+          "Abweichungen zum Vorjahr werden begründet und dokumentiert."
         ],
         "richtige_indices": [
+          0,
           1,
-          3
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
+        "kurz": "Richtig sind ungeprüfte Vorjahreszahlen, fehlender Marktabgleich und ignorierte Kapazitätsgrenzen.",
+        "rechenweg": "Ohne Abgleich mit Realität und Kapazität bleibt ein Budget reine Zahlenkosmetik statt eines steuerbaren Plans.",
+        "warum": "Prüfungsnah ist, konkrete Plausibilisierungsschritte (Vorjahresvergleich, Marktentwicklung, Kapazitätsgrenzen) zu benennen."
       },
       "fehlerfallen": [
-        "Falsche Zuschlagsbasis verwenden.",
-        "Gewinn und MWST in die Selbstkosten mischen.",
-        "Rabatt, Skonto und MWST in falscher Reihenfolge einsetzen."
+        "Budgetzahlen ungeprüft aus dem Vorjahr übernehmen.",
+        "Optimistische Annahmen nicht mit der Marktrealität abgleichen.",
+        "Kapazitätsgrenzen (z.B. Personal, Maschinen) beim Budget ignorieren."
       ],
       "review": {
         "box": 1,
@@ -1337,7 +1342,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Kosten sauber aufbauen, dann Gewinn, dann MWST – sonst wird die Rechnung Hackfleisch."
+      "merksatz": "Ein Budget ohne Plausibilisierung ist nur eine Wunschliste."
     },
     {
       "id": "finanzwirtschaft_budgetierung_stufe1_begriff",
@@ -1362,28 +1367,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Budgetierung verstehen",
       "begriff_erklaerung": {
-        "kurz": "Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
-        "pruefungsrelevant": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
+        "kurz": "Budgetierung plant künftige Erträge und Kosten für eine Periode und dient als Massstab für den späteren Soll-Ist-Vergleich.",
+        "pruefungsrelevant": "Prüfungsnah ist der Zusammenhang zwischen Budgetierung und Soll-Ist-Vergleich als Controlling-Instrument."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Budgetierung“ fachlich am besten?",
+      "frage": "Was ist der Zweck der Budgetierung?",
       "antwort_daten": {
         "optionen": [
-          "Materialgemeinkosten werden direkt auf den Verkaufspreis berechnet.",
-          "Zuschläge werden auf der vorgesehenen Bezugsbasis gerechnet; Selbstkosten liegen vor Gewinn und vor MWST.",
-          "Der Gewinnzuschlag gehört zu den Herstellkosten.",
-          "Die MWST wird zu den Selbstkosten gezählt."
+          "Budgetierung plant künftige Erträge und Kosten für eine Periode und dient als Massstab für den späteren Soll-Ist-Vergleich.",
+          "Nur die Kosten des Vorjahres zu dokumentieren.",
+          "Ausschliesslich die Steuererklärung vorzubereiten.",
+          "Den Lagerbestand am Jahresende zu zählen."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Zuschläge werden auf der vorgesehenen Bezugsbasis gerechnet; Selbstkosten liegen vor Gewinn und vor MWST.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
+        "kurz": "Budgetierung plant künftige Erträge und Kosten für eine Periode und dient als Massstab für den späteren Soll-Ist-Vergleich.",
+        "rechenweg": "Das Budget legt Soll-Werte fest, die später mit den Ist-Werten verglichen werden, um Abweichungen zu erkennen.",
+        "warum": "Reine Dokumentation vergangener Kosten oder die Steuererklärung sind nicht Zweck der Budgetierung."
       },
       "fehlerfallen": [
-        "Falsche Zuschlagsbasis verwenden.",
-        "Gewinn und MWST in die Selbstkosten mischen.",
-        "Rabatt, Skonto und MWST in falscher Reihenfolge einsetzen."
+        "Budget erstellen, ohne es später für einen Soll-Ist-Vergleich zu nutzen.",
+        "Budgetperioden inkonsistent wählen.",
+        "Verantwortlichkeiten für Budgetabweichungen nicht klären."
       ],
       "review": {
         "box": 1,
@@ -1404,7 +1409,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Kosten sauber aufbauen, dann Gewinn, dann MWST – sonst wird die Rechnung Hackfleisch."
+      "merksatz": "Ein Budget ohne Soll-Ist-Vergleich ist nur eine Prognose."
     },
     {
       "id": "finanzwirtschaft_budgetierung_stufe2_fehlerfalle",
@@ -1429,32 +1434,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Budgetierung vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
-        "pruefungsrelevant": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
+        "kurz": "Budgetierung plant künftige Erträge und Kosten für eine Periode und dient als Massstab für den späteren Soll-Ist-Vergleich.",
+        "pruefungsrelevant": "Prüfungsnah ist der Zusammenhang zwischen Budgetierung und Soll-Ist-Vergleich als Controlling-Instrument."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Budgetierung“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Budgetierung sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Die MWST wird zu den Selbstkosten gezählt.",
-          "Der Gewinnzuschlag gehört zu den Herstellkosten.",
-          "Gewinn und MWST nicht in die Selbstkosten einrechnen.",
-          "Zuschlagsbasis vor dem Einsetzen der Zahlen kontrollieren.",
-          "Materialgemeinkosten werden direkt auf den Verkaufspreis berechnet."
+          "Das Budget wird erstellt, aber nie für einen Soll-Ist-Vergleich genutzt.",
+          "Budgetperioden werden inkonsistent gewählt (z.B. unterschiedliche Zeiträume).",
+          "Verantwortlichkeiten für Budgetabweichungen werden nicht geklärt.",
+          "Das Budget wird periodisch mit den Ist-Werten verglichen.",
+          "Verantwortliche Personen für einzelne Budgetposten werden benannt."
         ],
         "richtige_indices": [
-          2,
-          3
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
+        "kurz": "Richtig sind das ungenutzte Budget, inkonsistente Perioden und ungeklärte Verantwortlichkeiten.",
+        "rechenweg": "Ohne klare Verantwortlichkeiten und konsistente Perioden lässt sich eine Abweichung später niemandem zuordnen.",
+        "warum": "Prüfungsnah ist der Zusammenhang zwischen Budgetierung und Soll-Ist-Vergleich als Controlling-Instrument."
       },
       "fehlerfallen": [
-        "Falsche Zuschlagsbasis verwenden.",
-        "Gewinn und MWST in die Selbstkosten mischen.",
-        "Rabatt, Skonto und MWST in falscher Reihenfolge einsetzen."
+        "Budget erstellen, ohne es später für einen Soll-Ist-Vergleich zu nutzen.",
+        "Budgetperioden inkonsistent wählen.",
+        "Verantwortlichkeiten für Budgetabweichungen nicht klären."
       ],
       "review": {
         "box": 1,
@@ -1477,7 +1483,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Kosten sauber aufbauen, dann Gewinn, dann MWST – sonst wird die Rechnung Hackfleisch."
+      "merksatz": "Ein Budget ohne Soll-Ist-Vergleich ist nur eine Prognose."
     },
     {
       "id": "finanzwirtschaft_einfacher_jahresabschluss_stufe1_begriff",
@@ -1643,28 +1649,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Erstellung eines Teilbudgets verstehen",
       "begriff_erklaerung": {
-        "kurz": "Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
-        "pruefungsrelevant": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
+        "kurz": "Ein Teilbudget plant einen einzelnen Bereich (z.B. Personal, Material) und wird zum Gesamtbudget zusammengeführt.",
+        "pruefungsrelevant": "Prüfungsnah ist, dass Teilbudgets aufeinander abgestimmt sein müssen, damit das Gesamtbudget konsistent ist."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Erstellung eines Teilbudgets“ fachlich am besten?",
+      "frage": "Was ist ein Teilbudget und wie hängt es mit dem Gesamtbudget zusammen?",
       "antwort_daten": {
         "optionen": [
-          "Der Gewinnzuschlag gehört zu den Herstellkosten.",
-          "Zuschläge werden auf der vorgesehenen Bezugsbasis gerechnet; Selbstkosten liegen vor Gewinn und vor MWST.",
-          "Materialgemeinkosten werden direkt auf den Verkaufspreis berechnet.",
-          "Die MWST wird zu den Selbstkosten gezählt."
+          "Ein Teilbudget plant einen einzelnen Bereich (z.B. Personal, Material) und wird zum Gesamtbudget zusammengeführt.",
+          "Ein Teilbudget ersetzt vollständig das Gesamtbudget.",
+          "Teilbudgets werden unabhängig voneinander erstellt und nie zusammengeführt.",
+          "Ein Teilbudget betrifft ausschliesslich die Steuerabrechnung."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Zuschläge werden auf der vorgesehenen Bezugsbasis gerechnet; Selbstkosten liegen vor Gewinn und vor MWST.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
+        "kurz": "Ein Teilbudget plant einen einzelnen Bereich (z.B. Personal, Material) und wird zum Gesamtbudget zusammengeführt.",
+        "rechenweg": "Mehrere aufeinander abgestimmte Teilbudgets (z.B. Personal-, Material-, Absatzbudget) ergeben zusammen das Gesamtbudget.",
+        "warum": "Ein Teilbudget ersetzt das Gesamtbudget nicht, sondern ist ein abgestimmter Baustein davon."
       },
       "fehlerfallen": [
-        "Falsche Zuschlagsbasis verwenden.",
-        "Gewinn und MWST in die Selbstkosten mischen.",
-        "Rabatt, Skonto und MWST in falscher Reihenfolge einsetzen."
+        "Teilbudgets isoliert erstellen, ohne sie mit anderen Bereichen abzustimmen.",
+        "Annahmen zwischen Teilbudgets widersprüchlich wählen.",
+        "Teilbudget ohne Bezug zum Gesamtbudget interpretieren."
       ],
       "review": {
         "box": 1,
@@ -1685,7 +1691,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Kosten sauber aufbauen, dann Gewinn, dann MWST – sonst wird die Rechnung Hackfleisch."
+      "merksatz": "Teilbudgets müssen zusammenpassen, sonst stimmt das Gesamtbudget nicht."
     },
     {
       "id": "finanzwirtschaft_erstellung_eines_teilbudgets_stufe2_fehlerfalle",
@@ -1710,32 +1716,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Erstellung eines Teilbudgets vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
-        "pruefungsrelevant": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
+        "kurz": "Ein Teilbudget plant einen einzelnen Bereich (z.B. Personal, Material) und wird zum Gesamtbudget zusammengeführt.",
+        "pruefungsrelevant": "Prüfungsnah ist, dass Teilbudgets aufeinander abgestimmt sein müssen, damit das Gesamtbudget konsistent ist."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Erstellung eines Teilbudgets“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Erstellung von Teilbudgets sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Die MWST wird zu den Selbstkosten gezählt.",
-          "Zuschlagsbasis vor dem Einsetzen der Zahlen kontrollieren.",
-          "Materialgemeinkosten werden direkt auf den Verkaufspreis berechnet.",
-          "Der Gewinnzuschlag gehört zu den Herstellkosten.",
-          "Gewinn und MWST nicht in die Selbstkosten einrechnen."
+          "Teilbudgets werden isoliert erstellt, ohne sie mit anderen Bereichen abzustimmen.",
+          "Annahmen zwischen Teilbudgets werden widersprüchlich gewählt.",
+          "Ein Teilbudget wird ohne Bezug zum Gesamtbudget interpretiert.",
+          "Teilbudgets werden konsistent mit denselben Grundannahmen erstellt.",
+          "Die Summe der Teilbudgets wird mit dem Gesamtbudget abgeglichen."
         ],
         "richtige_indices": [
+          0,
           1,
-          4
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
+        "kurz": "Richtig sind die isolierte Erstellung, widersprüchliche Annahmen zwischen Teilbudgets und der fehlende Bezug zum Gesamtbudget.",
+        "rechenweg": "Nutzt z.B. das Absatzbudget andere Mengenannahmen als das Produktionsbudget, passt das Gesamtbild nicht mehr zusammen.",
+        "warum": "Prüfungsnah ist, dass Teilbudgets aufeinander abgestimmt sein müssen, damit das Gesamtbudget konsistent ist."
       },
       "fehlerfallen": [
-        "Falsche Zuschlagsbasis verwenden.",
-        "Gewinn und MWST in die Selbstkosten mischen.",
-        "Rabatt, Skonto und MWST in falscher Reihenfolge einsetzen."
+        "Teilbudgets isoliert erstellen, ohne sie mit anderen Bereichen abzustimmen.",
+        "Annahmen zwischen Teilbudgets widersprüchlich wählen.",
+        "Teilbudget ohne Bezug zum Gesamtbudget interpretieren."
       ],
       "review": {
         "box": 1,
@@ -1758,7 +1765,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Kosten sauber aufbauen, dann Gewinn, dann MWST – sonst wird die Rechnung Hackfleisch."
+      "merksatz": "Teilbudgets müssen zusammenpassen, sonst stimmt das Gesamtbudget nicht."
     },
     {
       "id": "finanzwirtschaft_finanzierungsarten_stufe1_begriff",
@@ -1783,28 +1790,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Finanzierungsarten verstehen",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Finanzierungsarten unterscheiden sich nach Herkunft (Eigen-/Fremdkapital) und Quelle (Innen-/Aussenfinanzierung).",
+        "pruefungsrelevant": "Prüfungsnah ist, Abschreibungen und einbehaltene Gewinne korrekt der Innenfinanzierung zuzuordnen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Finanzierungsarten“ fachlich am besten?",
+      "frage": "Welche Finanzierungsarten werden grundsätzlich unterschieden?",
       "antwort_daten": {
         "optionen": [
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung."
+          "Eigen- vs. Fremdfinanzierung sowie Innen- vs. Aussenfinanzierung.",
+          "Nur eine einzige gesetzlich zulässige Finanzierungsart.",
+          "Finanzierungsarten unterscheiden sich nur nach der Unternehmensgrösse.",
+          "Fremdfinanzierung und Eigenfinanzierung bezeichnen dasselbe."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Eigen- vs. Fremdfinanzierung sowie Innen- vs. Aussenfinanzierung.",
+        "rechenweg": "Eigenfinanzierung erhöht das Eigenkapital, Fremdfinanzierung das Fremdkapital; Innenfinanzierung kommt aus dem Betrieb selbst, Aussenfinanzierung von aussen.",
+        "warum": "Es gibt mehrere zulässige, klar unterscheidbare Finanzierungsarten - unabhängig von der Unternehmensgrösse."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Eigen- und Fremdfinanzierung verwechseln.",
+        "Abschreibungen fälschlich der Aussenfinanzierung zuordnen.",
+        "Innen- und Aussenfinanzierung nicht sauber trennen."
       ],
       "review": {
         "box": 1,
@@ -1825,7 +1832,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Innen kommt vom Betrieb selbst, aussen kommt von Dritten."
     },
     {
       "id": "finanzwirtschaft_finanzierungsarten_stufe2_fehlerfalle",
@@ -1924,28 +1931,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Finanzplanung verstehen",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Finanzplanung stellt sicher, dass ein Unternehmen zu jedem Zeitpunkt über genügend liquide Mittel verfügt, um Zahlungsverpflichtungen zu erfüllen.",
+        "pruefungsrelevant": "Prüfungsnah ist der Zusammenhang zwischen Finanzplanung, Liquidität und Kapitalbedarf."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Finanzplanung“ fachlich am besten?",
+      "frage": "Was ist das zentrale Ziel der Finanzplanung?",
       "antwort_daten": {
         "optionen": [
-          "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug."
+          "Finanzplanung stellt sicher, dass ein Unternehmen zu jedem Zeitpunkt über genügend liquide Mittel verfügt, um Zahlungsverpflichtungen zu erfüllen.",
+          "Nur den Gewinn des laufenden Jahres zu maximieren.",
+          "Ausschliesslich die Steuerlast zu minimieren.",
+          "Den Personalbestand zu planen."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Finanzplanung stellt sicher, dass ein Unternehmen zu jedem Zeitpunkt über genügend liquide Mittel verfügt, um Zahlungsverpflichtungen zu erfüllen.",
+        "rechenweg": "Finanzplanung prognostiziert Ein- und Auszahlungen, um Liquiditätsengpässe frühzeitig zu erkennen und zu vermeiden.",
+        "warum": "Gewinnmaximierung, Steueroptimierung oder Personalplanung sind andere betriebliche Ziele, nicht der Kern der Finanzplanung."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Finanzplanung nur einmal jährlich statt laufend aktualisieren.",
+        "Liquiditätsengpässe zu spät statt frühzeitig erkennen.",
+        "Finanzplanung mit Budgetierung der Erfolgsrechnung verwechseln."
       ],
       "review": {
         "box": 1,
@@ -1966,7 +1973,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Finanzplanung sichert die Zahlungsfähigkeit - nicht nur den Gewinn."
     },
     {
       "id": "finanzwirtschaft_finanzplanung_stufe2_fehlerfalle",
@@ -1991,32 +1998,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Finanzplanung vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Finanzplanung stellt sicher, dass ein Unternehmen zu jedem Zeitpunkt über genügend liquide Mittel verfügt, um Zahlungsverpflichtungen zu erfüllen.",
+        "pruefungsrelevant": "Prüfungsnah ist der Zusammenhang zwischen Finanzplanung, Liquidität und Kapitalbedarf."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Finanzplanung“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Finanzplanung sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig."
+          "Die Finanzplanung wird nur einmal jährlich statt laufend aktualisiert.",
+          "Liquiditätsengpässe werden zu spät statt frühzeitig erkannt.",
+          "Finanzplanung wird mit der Budgetierung der Erfolgsrechnung verwechselt.",
+          "Ein- und Auszahlungen werden laufend und periodengerecht geplant.",
+          "Liquiditätsreserven werden für unerwartete Engpässe eingeplant."
         ],
         "richtige_indices": [
           0,
+          1,
           2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Richtig sind die seltene Aktualisierung, spät erkannte Engpässe und die Verwechslung mit der Erfolgsbudgetierung.",
+        "rechenweg": "Finanzplanung betrachtet Zahlungsströme (Liquidität), während die Erfolgsbudgetierung Aufwand und Ertrag plant - beides ist nicht dasselbe.",
+        "warum": "Prüfungsnah ist der Zusammenhang zwischen Finanzplanung, Liquidität und Kapitalbedarf."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Finanzplanung nur einmal jährlich statt laufend aktualisieren.",
+        "Liquiditätsengpässe zu spät statt frühzeitig erkennen.",
+        "Finanzplanung mit Budgetierung der Erfolgsrechnung verwechseln."
       ],
       "review": {
         "box": 1,
@@ -2039,7 +2047,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Finanzplanung sichert die Zahlungsfähigkeit - nicht nur den Gewinn."
     },
     {
       "id": "finanzwirtschaft_fuehrung_personal_stufe1_begriff",
@@ -2077,28 +2085,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Führung / Personal verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Personalführung im finanziellen Kontext bedeutet, Teams zu motivieren, Verantwortlichkeiten für Budgets zu delegieren und Zielerreichung nachzuhalten.",
+        "pruefungsrelevant": "Prüfungsnah ist der Bezug von Führung zu finanziellen Verantwortlichkeiten (Budgetverantwortung, Zielvereinbarungen)."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Führung / Personal“ fachlich am besten?",
+      "frage": "Was gehört zur Personalführung im finanziellen Kontext (z.B. bei Budgetverantwortung)?",
       "antwort_daten": {
         "optionen": [
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein."
+          "Personalführung im finanziellen Kontext bedeutet, Teams zu motivieren, Verantwortlichkeiten für Budgets zu delegieren und Zielerreichung nachzuhalten.",
+          "Ausschliesslich Anweisungen zu Zahlen zu erteilen, ohne das Team einzubeziehen.",
+          "Budgetverantwortung darf nie delegiert werden.",
+          "Finanzielle Ziele sind für die Mitarbeiterführung irrelevant."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Personalführung im finanziellen Kontext bedeutet, Teams zu motivieren, Verantwortlichkeiten für Budgets zu delegieren und Zielerreichung nachzuhalten.",
+        "rechenweg": "Wer Budgetverantwortung überträgt, muss Ziele klar kommunizieren und deren Erreichung regelmässig überprüfen.",
+        "warum": "Reine Anweisung ohne Einbezug oder das Verweigern jeder Delegation widersprechen modernem Führungsverständnis."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Budgetverantwortung nicht klar delegieren.",
+        "Zielerreichung nicht regelmässig nachhalten.",
+        "Führungsstil nicht an die finanzielle Tragweite von Entscheiden anpassen."
       ],
       "review": {
         "box": 1,
@@ -2119,7 +2127,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Wer ein Budget verantwortet, muss auch führen können."
     },
     {
       "id": "finanzwirtschaft_fuehrung_personal_stufe2_fehlerfalle",
@@ -2157,32 +2165,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Führung / Personal vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Personalführung im finanziellen Kontext bedeutet, Teams zu motivieren, Verantwortlichkeiten für Budgets zu delegieren und Zielerreichung nachzuhalten.",
+        "pruefungsrelevant": "Prüfungsnah ist der Bezug von Führung zu finanziellen Verantwortlichkeiten (Budgetverantwortung, Zielvereinbarungen)."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Führung / Personal“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Führungsfehlern im finanziellen Kontext sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht."
+          "Budgetverantwortung wird nicht klar delegiert.",
+          "Zielerreichung wird nicht regelmässig nachgehalten.",
+          "Der Führungsstil wird nicht an die finanzielle Tragweite von Entscheiden angepasst.",
+          "Finanzielle Ziele werden klar kommuniziert und vereinbart.",
+          "Budgetverantwortliche erhalten regelmässiges Feedback zur Zielerreichung."
         ],
         "richtige_indices": [
+          0,
           1,
-          3
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Richtig sind unklare Delegation der Budgetverantwortung, fehlendes Nachhalten der Zielerreichung und unpassender Führungsstil.",
+        "rechenweg": "Ohne klare Delegation und Nachverfolgung verlieren Budgetverantwortliche den Überblick über ihre finanziellen Ziele.",
+        "warum": "Prüfungsnah ist der Bezug von Führung zu finanziellen Verantwortlichkeiten (Budgetverantwortung, Zielvereinbarungen)."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Budgetverantwortung nicht klar delegieren.",
+        "Zielerreichung nicht regelmässig nachhalten.",
+        "Führungsstil nicht an die finanzielle Tragweite von Entscheiden anpassen."
       ],
       "review": {
         "box": 1,
@@ -2205,7 +2214,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Wer ein Budget verantwortet, muss auch führen können."
     },
     {
       "id": "finanzwirtschaft_grundlagen_controlling_stufe1_begriff",
@@ -2297,32 +2306,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Grundlagen Controlling vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Controlling unterstützt Planung, Steuerung und Kontrolle des Unternehmens, u.a. über Soll-Ist-Vergleiche und Abweichungsanalysen.",
+        "pruefungsrelevant": "Prüfungsnah ist der Regelkreis Planen - Steuern - Kontrollieren und die Ableitung von Massnahmen aus Abweichungen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Grundlagen Controlling“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern im Controlling sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden."
+          "Controlling wird mit reiner Buchhaltung verwechselt.",
+          "Abweichungen werden festgestellt, aber Ursachen und Massnahmen nicht abgeleitet.",
+          "Controlling wird nur als Kontrolle, nicht als Planungsunterstützung verstanden.",
+          "Soll-Ist-Vergleiche werden regelmässig zur Steuerung genutzt.",
+          "Aus Abweichungen werden konkrete Korrekturmassnahmen abgeleitet."
         ],
         "richtige_indices": [
+          0,
           1,
-          4
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Richtig sind die Verwechslung mit Buchhaltung, fehlende Ursachenanalyse und das eingeschränkte Verständnis als reine Kontrolle.",
+        "rechenweg": "Controlling schliesst den Regelkreis erst, wenn aus erkannten Abweichungen tatsächlich Massnahmen abgeleitet werden.",
+        "warum": "Prüfungsnah ist der Regelkreis Planen - Steuern - Kontrollieren und die Ableitung von Massnahmen aus Abweichungen."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Controlling mit reiner Buchhaltung verwechseln.",
+        "Abweichungen feststellen, aber keine Ursachen oder Massnahmen ableiten.",
+        "Controlling nur als Kontrolle, nicht als Planungsunterstützung verstehen."
       ],
       "review": {
         "box": 1,
@@ -2345,7 +2355,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Controlling heisst planen, steuern, kontrollieren - nicht nur kontrollieren."
     },
     {
       "id": "finanzwirtschaft_investitionsentscheid_stufe1_begriff",
@@ -2491,32 +2501,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Investitionsentscheid vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Ein Investitionsentscheid stützt sich auf quantitative Methoden (Payback, ROI, Kapitalwert) sowie qualitative Kriterien wie Risiko und Strategie.",
+        "pruefungsrelevant": "Prüfungsnah ist, mehrere Investitionsmethoden zu kennen und deren Ergebnisse zusammen mit qualitativen Faktoren zu beurteilen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Investitionsentscheid“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei Investitionsentscheiden sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig."
+          "Es wird nur eine Methode statt mehrerer Investitionsrechnungen angewendet.",
+          "Qualitative Kriterien wie Risiko und Strategie werden ganz ausgeblendet.",
+          "Der Anschaffungspreis wird mit der Rentabilität gleichgesetzt.",
+          "Mehrere Methoden (Payback, ROI, Kapitalwert) werden kombiniert.",
+          "Qualitative und quantitative Kriterien werden gemeinsam beurteilt."
         ],
         "richtige_indices": [
-          2,
-          3
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Richtig sind die einseitige Methodenwahl, ausgeblendete qualitative Kriterien und die falsche Gleichsetzung von Preis und Rentabilität.",
+        "rechenweg": "Erst mehrere Methoden zusammen mit qualitativen Faktoren ergeben ein vollständiges Bild einer Investition.",
+        "warum": "Prüfungsnah ist, mehrere Investitionsmethoden zu kennen und deren Ergebnisse zusammen mit qualitativen Faktoren zu beurteilen."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Nur eine Methode statt mehrerer Investitionsrechnungen anwenden.",
+        "Qualitative Kriterien (Risiko, Strategie) ganz ausblenden.",
+        "Anschaffungspreis mit Rentabilität gleichsetzen."
       ],
       "review": {
         "box": 1,
@@ -2539,7 +2550,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Zahlen zeigen die Rendite, das Bauchgefühl zeigt das Risiko - beides gehört zusammen."
     },
     {
       "id": "finanzwirtschaft_jahresabschluss_stufe1_begriff",
@@ -2705,28 +2716,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Kalkulation verstehen",
       "begriff_erklaerung": {
-        "kurz": "Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
-        "pruefungsrelevant": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
+        "kurz": "Die Kalkulation ermittelt den Verkaufspreis eines Produkts, indem alle Kosten (Einzel- und Gemeinkosten) sowie ein Gewinnzuschlag berücksichtigt werden.",
+        "pruefungsrelevant": "Prüfungsnah ist die Unterscheidung von Einzelkosten (direkt zurechenbar) und Gemeinkosten (über Zuschlagssätze verteilt)."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Kalkulation“ fachlich am besten?",
+      "frage": "Was wird bei der Kalkulation eines Verkaufspreises berücksichtigt?",
       "antwort_daten": {
         "optionen": [
-          "Zuschläge werden auf der vorgesehenen Bezugsbasis gerechnet; Selbstkosten liegen vor Gewinn und vor MWST.",
-          "Der Gewinnzuschlag gehört zu den Herstellkosten.",
-          "Materialgemeinkosten werden direkt auf den Verkaufspreis berechnet.",
-          "Die MWST wird zu den Selbstkosten gezählt."
+          "Die Kalkulation ermittelt den Verkaufspreis eines Produkts, indem alle Kosten (Einzel- und Gemeinkosten) sowie ein Gewinnzuschlag berücksichtigt werden.",
+          "Nur der Einkaufspreis der Ware, ohne weitere Kosten.",
+          "Ausschliesslich die Konkurrenzpreise am Markt.",
+          "Nur die variablen Kosten, Gemeinkosten werden ignoriert."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Zuschläge werden auf der vorgesehenen Bezugsbasis gerechnet; Selbstkosten liegen vor Gewinn und vor MWST.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
+        "kurz": "Die Kalkulation ermittelt den Verkaufspreis eines Produkts, indem alle Kosten (Einzel- und Gemeinkosten) sowie ein Gewinnzuschlag berücksichtigt werden.",
+        "rechenweg": "Einzelkosten (z.B. Materialeinkauf) werden direkt zugerechnet, Gemeinkosten über Zuschlagssätze verteilt, dazu kommt der Gewinnzuschlag.",
+        "warum": "Nur der Einkaufspreis oder Konkurrenzpreise zu betrachten, ignoriert die tatsächliche Kostenstruktur des eigenen Betriebs."
       },
       "fehlerfallen": [
-        "Falsche Zuschlagsbasis verwenden.",
-        "Gewinn und MWST in die Selbstkosten mischen.",
-        "Rabatt, Skonto und MWST in falscher Reihenfolge einsetzen."
+        "Gemeinkosten bei der Kalkulation vergessen.",
+        "Einzelkosten und Gemeinkosten verwechseln.",
+        "Gewinnzuschlag vergessen oder falsch berechnen."
       ],
       "review": {
         "box": 1,
@@ -2747,7 +2758,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Kosten sauber aufbauen, dann Gewinn, dann MWST – sonst wird die Rechnung Hackfleisch."
+      "merksatz": "Kalkulation heisst: alle Kosten plus Gewinn, nicht nur der Einkaufspreis."
     },
     {
       "id": "finanzwirtschaft_kalkulation_stufe2_fehlerfalle",
@@ -2772,32 +2783,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Kalkulation vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
-        "pruefungsrelevant": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
+        "kurz": "Die Kalkulation ermittelt den Verkaufspreis eines Produkts, indem alle Kosten (Einzel- und Gemeinkosten) sowie ein Gewinnzuschlag berücksichtigt werden.",
+        "pruefungsrelevant": "Prüfungsnah ist die Unterscheidung von Einzelkosten (direkt zurechenbar) und Gemeinkosten (über Zuschlagssätze verteilt)."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Kalkulation“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Kalkulation sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Der Gewinnzuschlag gehört zu den Herstellkosten.",
-          "Zuschlagsbasis vor dem Einsetzen der Zahlen kontrollieren.",
-          "Die MWST wird zu den Selbstkosten gezählt.",
-          "Materialgemeinkosten werden direkt auf den Verkaufspreis berechnet.",
-          "Gewinn und MWST nicht in die Selbstkosten einrechnen."
+          "Gemeinkosten werden bei der Kalkulation vergessen.",
+          "Einzelkosten und Gemeinkosten werden verwechselt.",
+          "Der Gewinnzuschlag wird vergessen oder falsch berechnet.",
+          "Einzelkosten werden korrekt direkt dem Produkt zugerechnet.",
+          "Gemeinkosten werden über einen sachgerechten Zuschlagssatz verteilt."
         ],
         "richtige_indices": [
+          0,
           1,
-          4
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
+        "kurz": "Richtig sind vergessene Gemeinkosten, die Verwechslung der Kostenarten und ein fehlerhafter Gewinnzuschlag.",
+        "rechenweg": "Fehlen Gemeinkosten oder Gewinnzuschlag, ist der berechnete Verkaufspreis zu tief und deckt die tatsächlichen Kosten nicht.",
+        "warum": "Prüfungsnah ist die Unterscheidung von Einzelkosten (direkt zurechenbar) und Gemeinkosten (über Zuschlagssätze verteilt)."
       },
       "fehlerfallen": [
-        "Falsche Zuschlagsbasis verwenden.",
-        "Gewinn und MWST in die Selbstkosten mischen.",
-        "Rabatt, Skonto und MWST in falscher Reihenfolge einsetzen."
+        "Gemeinkosten bei der Kalkulation vergessen.",
+        "Einzelkosten und Gemeinkosten verwechseln.",
+        "Gewinnzuschlag vergessen oder falsch berechnen."
       ],
       "review": {
         "box": 1,
@@ -2820,7 +2832,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Kosten sauber aufbauen, dann Gewinn, dann MWST – sonst wird die Rechnung Hackfleisch."
+      "merksatz": "Kalkulation heisst: alle Kosten plus Gewinn, nicht nur der Einkaufspreis."
     },
     {
       "id": "finanzwirtschaft_lager_lagerkennzahlen_stufe1_begriff",
@@ -2912,32 +2924,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Lager / Lagerkennzahlen vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Lagerkennzahlen wie Lagerumschlag und Lagerdauer zeigen, wie viel Kapital im Lager gebunden ist.",
+        "pruefungsrelevant": "Prüfungsnah ist die Berechnung von Lagerumschlag (Wareneinsatz/durchschnittlicher Lagerbestand) und Lagerdauer (360/Lagerumschlag)."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Lager / Lagerkennzahlen“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei Lagerkennzahlen sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen."
+          "Hohe Lagerbestände werden unkritisch als positiv bewertet.",
+          "Lagerumschlag und Lagerdauer werden verwechselt oder falsch berechnet.",
+          "Kapitalbindungskosten des Lagers werden ausser Acht gelassen.",
+          "Ein hoher Lagerumschlag wird korrekt als Zeichen tiefer Kapitalbindung erkannt.",
+          "Lagerkennzahlen werden im Zeitverlauf verglichen."
         ],
         "richtige_indices": [
           0,
-          4
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Richtig sind die unkritische Bewertung hoher Bestände, verwechselte Kennzahlen und ignorierte Kapitalbindungskosten.",
+        "rechenweg": "Hohe Lagerbestände bedeuten oft hohe Kapitalbindung und Lagerkosten - das wird beim reinen Blick auf Lieferfähigkeit oft übersehen.",
+        "warum": "Prüfungsnah ist die Berechnung von Lagerumschlag (Wareneinsatz/durchschnittlicher Lagerbestand) und Lagerdauer (360/Lagerumschlag)."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Hohe Lagerbestände unkritisch als positiv bewerten.",
+        "Lagerumschlag und Lagerdauer verwechseln oder falsch berechnen.",
+        "Kapitalbindungskosten des Lagers ausser Acht lassen."
       ],
       "review": {
         "box": 1,
@@ -2960,7 +2973,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Schneller Umschlag, kurze Lagerdauer, wenig gebundenes Kapital."
     },
     {
       "id": "finanzwirtschaft_lager_lagerkennzahlen_stufe1_formel_1",
@@ -2985,28 +2998,28 @@
       "typ": "single_choice",
       "lernziel": "Formel zu Lagerumschlag sicher abrufen",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Lagerkennzahlen wie Lagerumschlag und Lagerdauer zeigen, wie viel Kapital im Lager gebunden ist.",
+        "pruefungsrelevant": "Prüfungsnah ist die Berechnung von Lagerumschlag (Wareneinsatz/durchschnittlicher Lagerbestand) und Lagerdauer (360/Lagerumschlag)."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Lager / Lagerkennzahlen“ fachlich am besten?",
+      "frage": "Wie berechnet sich der Lagerumschlag?",
       "antwort_daten": {
         "optionen": [
-          "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen."
+          "Lagerumschlag = Wareneinsatz einer Periode / durchschnittlicher Lagerbestand.",
+          "Lagerumschlag = Anzahl Lieferanten / Anzahl Lagerorte.",
+          "Lagerumschlag = Verkaufspreis / Einkaufspreis.",
+          "Lagerumschlag = durchschnittlicher Lagerbestand × 360 Tage."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Lagerumschlag = Wareneinsatz einer Periode / durchschnittlicher Lagerbestand.",
+        "rechenweg": "Wareneinsatz / durchschnittlicher Lagerbestand ergibt, wie oft sich das Lager pro Periode umschlägt.",
+        "warum": "Lieferantenanzahl, Preisverhältnis oder die blosse Multiplikation mit 360 Tagen entsprechen nicht der Formel für den Lagerumschlag."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Hohe Lagerbestände unkritisch als positiv bewerten.",
+        "Lagerumschlag und Lagerdauer verwechseln oder falsch berechnen.",
+        "Kapitalbindungskosten des Lagers ausser Acht lassen."
       ],
       "review": {
         "box": 1,
@@ -3028,7 +3041,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Schneller Umschlag, kurze Lagerdauer, wenig gebundenes Kapital."
     },
     {
       "id": "finanzwirtschaft_lager_lagerkennzahlen_stufe1_formel_2",
@@ -3053,28 +3066,28 @@
       "typ": "single_choice",
       "lernziel": "Formel zu Lagerdauer sicher abrufen",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Lagerkennzahlen wie Lagerumschlag und Lagerdauer zeigen, wie viel Kapital im Lager gebunden ist.",
+        "pruefungsrelevant": "Prüfungsnah ist die Berechnung von Lagerumschlag (Wareneinsatz/durchschnittlicher Lagerbestand) und Lagerdauer (360/Lagerumschlag)."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Lager / Lagerkennzahlen“ fachlich am besten?",
+      "frage": "Wie berechnet sich die Lagerdauer?",
       "antwort_daten": {
         "optionen": [
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle."
+          "Lagerdauer = 360 Tage / Lagerumschlag.",
+          "Lagerdauer = Lagerumschlag / 360 Tage.",
+          "Lagerdauer = durchschnittlicher Lagerbestand / Anzahl Lieferanten.",
+          "Lagerdauer = Wareneinsatz × Lagerumschlag."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Lagerdauer = 360 Tage / Lagerumschlag.",
+        "rechenweg": "360 Tage geteilt durch den Lagerumschlag ergibt, wie viele Tage die Ware im Durchschnitt im Lager liegt.",
+        "warum": "Die umgekehrte Division oder ein Bezug zur Lieferantenanzahl entsprechen nicht der Lagerdauer-Formel."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Hohe Lagerbestände unkritisch als positiv bewerten.",
+        "Lagerumschlag und Lagerdauer verwechseln oder falsch berechnen.",
+        "Kapitalbindungskosten des Lagers ausser Acht lassen."
       ],
       "review": {
         "box": 1,
@@ -3096,7 +3109,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Schneller Umschlag, kurze Lagerdauer, wenig gebundenes Kapital."
     },
     {
       "id": "finanzwirtschaft_liquiditaet_mittelfluss_stufe1_begriff",
@@ -3148,28 +3161,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Liquidität / Mittelfluss verstehen",
       "begriff_erklaerung": {
-        "kurz": "Liquidität zeigt, ob kurzfristige Zahlungsverpflichtungen rechtzeitig bezahlt werden können.",
-        "pruefungsrelevant": "Wichtig ist die Trennung von liquiditätswirksamen Zahlungen und rein buchhalterischen Erfolgswirkungen."
+        "kurz": "Liquidität zeigt, ob ein Unternehmen seine kurzfristigen Zahlungsverpflichtungen rechtzeitig erfüllen kann; der Mittelfluss (Cashflow) zeigt die Ein- und Auszahlungen einer Periode.",
+        "pruefungsrelevant": "Prüfungsnah ist die Abgrenzung von Liquidität (Zahlungsfähigkeit) zu Rentabilität (Gewinn) - ein Unternehmen kann profitabel, aber illiquid sein."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Liquidität / Mittelfluss“ fachlich am besten?",
+      "frage": "Was zeigt die Liquidität eines Unternehmens?",
       "antwort_daten": {
         "optionen": [
-          "Liquiditätswirksam sind Vorgänge mit Ein- oder Auszahlung; Abschreibungen verändern den Geldbestand nicht direkt.",
-          "Kauf gegen Rechnung ist sofort eine Auszahlung.",
-          "Gewinn und Liquidität sind dasselbe.",
-          "Abschreibungen sind immer ein direkter Mittelabfluss."
+          "Liquidität zeigt, ob ein Unternehmen seine kurzfristigen Zahlungsverpflichtungen rechtzeitig erfüllen kann; der Mittelfluss (Cashflow) zeigt die Ein- und Auszahlungen einer Periode.",
+          "Ausschliesslich den ausgewiesenen Gewinn der Erfolgsrechnung.",
+          "Nur den Wert des Anlagevermögens.",
+          "Die Anzahl der Mitarbeitenden im Finanzbereich."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Liquiditätswirksam sind Vorgänge mit Ein- oder Auszahlung; Abschreibungen verändern den Geldbestand nicht direkt.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Wichtig ist die Trennung von liquiditätswirksamen Zahlungen und rein buchhalterischen Erfolgswirkungen."
+        "kurz": "Liquidität zeigt, ob ein Unternehmen seine kurzfristigen Zahlungsverpflichtungen rechtzeitig erfüllen kann; der Mittelfluss (Cashflow) zeigt die Ein- und Auszahlungen einer Periode.",
+        "rechenweg": "Liquiditätsgrade setzen kurzfristig verfügbare Mittel ins Verhältnis zum kurzfristigen Fremdkapital.",
+        "warum": "Ein profitables Unternehmen (hoher Gewinn) kann trotzdem illiquide sein, wenn Zahlungsmittel fehlen - Gewinn und Liquidität sind nicht dasselbe."
       },
       "fehlerfallen": [
-        "Erfolg und Geldfluss verwechseln.",
-        "Zahlungszeitpunkt überlesen.",
-        "Forderungen/Vorräte beim falschen Liquiditätsgrad einrechnen."
+        "Gewinn mit Liquidität gleichsetzen.",
+        "Cashflow mit dem ausgewiesenen Gewinn verwechseln.",
+        "Liquiditätsplanung erst bei akutem Engpass beginnen."
       ],
       "review": {
         "box": 1,
@@ -3190,7 +3203,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gewinn ist Buchhaltung; Liquidität ist Geldbewegung."
+      "merksatz": "Gewinn ist Ansichtssache, Liquidität ist Tatsache."
     },
     {
       "id": "finanzwirtschaft_liquiditaet_mittelfluss_stufe2_fehlerfalle",
@@ -3242,32 +3255,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Liquidität / Mittelfluss vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Liquidität zeigt, ob kurzfristige Zahlungsverpflichtungen rechtzeitig bezahlt werden können.",
-        "pruefungsrelevant": "Wichtig ist die Trennung von liquiditätswirksamen Zahlungen und rein buchhalterischen Erfolgswirkungen."
+        "kurz": "Liquidität zeigt, ob ein Unternehmen seine kurzfristigen Zahlungsverpflichtungen rechtzeitig erfüllen kann; der Mittelfluss (Cashflow) zeigt die Ein- und Auszahlungen einer Periode.",
+        "pruefungsrelevant": "Prüfungsnah ist die Abgrenzung von Liquidität (Zahlungsfähigkeit) zu Rentabilität (Gewinn) - ein Unternehmen kann profitabel, aber illiquid sein."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Liquidität / Mittelfluss“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Verständnis von Liquidität und Mittelfluss sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Gewinn und Liquidität sind dasselbe.",
-          "Kauf gegen Rechnung ist sofort eine Auszahlung.",
-          "Ein- und Auszahlungen von Aufwand und Ertrag trennen.",
-          "Abschreibungen sind immer ein direkter Mittelabfluss.",
-          "Zahlungszeitpunkt und Zahlungsart aus der Fallangabe markieren."
+          "Gewinn wird mit Liquidität gleichgesetzt.",
+          "Cashflow wird mit dem ausgewiesenen Gewinn verwechselt.",
+          "Liquiditätsplanung beginnt erst bei einem akuten Engpass.",
+          "Liquidität wird laufend und vorausschauend geplant.",
+          "Zahlungsströme werden unabhängig vom Gewinn beurteilt."
         ],
         "richtige_indices": [
-          2,
-          4
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Wichtig ist die Trennung von liquiditätswirksamen Zahlungen und rein buchhalterischen Erfolgswirkungen."
+        "kurz": "Richtig sind die Gleichsetzung von Gewinn und Liquidität, die Verwechslung von Cashflow und Gewinn sowie zu späte Liquiditätsplanung.",
+        "rechenweg": "Der Cashflow zeigt tatsächliche Zahlungsströme, der Gewinn enthält auch nicht-zahlungswirksame Posten wie Abschreibungen.",
+        "warum": "Prüfungsnah ist die Abgrenzung von Liquidität (Zahlungsfähigkeit) zu Rentabilität (Gewinn) - ein Unternehmen kann profitabel, aber illiquid sein."
       },
       "fehlerfallen": [
-        "Erfolg und Geldfluss verwechseln.",
-        "Zahlungszeitpunkt überlesen.",
-        "Forderungen/Vorräte beim falschen Liquiditätsgrad einrechnen."
+        "Gewinn mit Liquidität gleichsetzen.",
+        "Cashflow mit dem ausgewiesenen Gewinn verwechseln.",
+        "Liquiditätsplanung erst bei akutem Engpass beginnen."
       ],
       "review": {
         "box": 1,
@@ -3290,7 +3304,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gewinn ist Buchhaltung; Liquidität ist Geldbewegung."
+      "merksatz": "Gewinn ist Ansichtssache, Liquidität ist Tatsache."
     },
     {
       "id": "finanzwirtschaft_mahnwesen_stufe1_begriff",
@@ -3551,32 +3565,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Marketing / Verkauf vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Rabatte, Skonto und Zahlungskonditionen im Verkauf wirken sich direkt auf Deckungsbeitrag und Liquidität aus.",
+        "pruefungsrelevant": "Prüfungsnah ist, den finanziellen Effekt von Rabatt- und Zahlungskonditionen auf Deckungsbeitrag und Liquidität zu erklären."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Marketing / Verkauf“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Zusammenspiel von Verkauf und Finanzen sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Bei Reklamationen Ursache, Kundenanliegen und Folgeprozess systematisch prüfen.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Massnahmen immer mit Zielgruppe und Kundennutzen verknüpfen.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung."
+          "Rabatte werden gewährt, ohne die Wirkung auf den Deckungsbeitrag zu berechnen.",
+          "Zahlungskonditionen und ihre Liquiditätswirkung werden ausgeblendet.",
+          "Eine Tiefpreisstrategie wird ohne Blick auf die Kostenstruktur gewählt.",
+          "Rabatte werden gezielt auf ihre Wirkung auf den Deckungsbeitrag geprüft.",
+          "Zahlungsfristen werden bewusst mit der Liquiditätsplanung abgestimmt."
         ],
         "richtige_indices": [
           0,
-          3
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Richtig sind unberechnete Rabattwirkungen, ausgeblendete Zahlungskonditionen und eine kostenblinde Tiefpreisstrategie.",
+        "rechenweg": "Jeder Rabatt oder Skontoabzug senkt den effektiven Verkaufspreis und damit den Deckungsbeitrag - das muss eingerechnet werden.",
+        "warum": "Prüfungsnah ist, den finanziellen Effekt von Rabatt- und Zahlungskonditionen auf Deckungsbeitrag und Liquidität zu erklären."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Rabatte gewähren, ohne die Wirkung auf den Deckungsbeitrag zu berechnen.",
+        "Zahlungskonditionen und deren Liquiditätswirkung ausblenden.",
+        "Tiefpreisstrategie ohne Blick auf die Kostenstruktur wählen."
       ],
       "review": {
         "box": 1,
@@ -3599,7 +3614,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Jeder Rabatt kostet Deckungsbeitrag - Verkauf und Finanzen gehören zusammen."
     },
     {
       "id": "finanzwirtschaft_mehrwertsteuer_stufe1_begriff",
@@ -3962,32 +3977,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Payback vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Die Payback-Methode zeigt, wie lange es dauert, bis eine Investition durch die jährlichen Rückflüsse wieder hereingeholt ist.",
+        "pruefungsrelevant": "Prüfungsnah ist die Berechnung: Anschaffungswert geteilt durch den durchschnittlichen jährlichen Rückfluss (Gewinn plus Abschreibung)."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Payback“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Payback-Methode sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen."
+          "Die Payback-Dauer wird mit der gesamten Rentabilität der Investition gleichgesetzt.",
+          "Abschreibungen werden beim Rückfluss vergessen und nur der Gewinn eingerechnet.",
+          "Der Zeitwert des Geldes wird ignoriert, obwohl die Methode ihn nicht berücksichtigt.",
+          "Die Payback-Dauer wird korrekt als Anschaffungswert / jährlicher Rückfluss berechnet.",
+          "Die Methode wird zusätzlich mit ROI oder Kapitalwert ergänzt."
         ],
         "richtige_indices": [
-          2,
-          4
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Richtig sind die Gleichsetzung mit der Gesamtrentabilität, vergessene Abschreibungen im Rückfluss und das ignorierte Fehlen des Zeitwerts.",
+        "rechenweg": "Die Payback-Methode sagt nichts über die Rentabilität nach der Rückflussdauer aus - dafür braucht es ROI oder Kapitalwert.",
+        "warum": "Prüfungsnah ist die Berechnung: Anschaffungswert geteilt durch den durchschnittlichen jährlichen Rückfluss (Gewinn plus Abschreibung)."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Payback-Dauer mit der gesamten Rentabilität der Investition gleichsetzen.",
+        "Abschreibungen beim Rückfluss vergessen und nur den Gewinn einrechnen.",
+        "Zeitwert des Geldes ignorieren, den die Payback-Methode nicht berücksichtigt."
       ],
       "review": {
         "box": 1,
@@ -4010,7 +4026,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Payback zeigt, wann - nicht wie rentabel."
     },
     {
       "id": "finanzwirtschaft_planung_kapitalbedarf_stufe1_begriff",
@@ -4102,32 +4118,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Planung Kapitalbedarf vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Die Kapitalbedarfsrechnung ermittelt, wie viel Kapital für Anlage- und Umlaufvermögen während der Kapitalbindungsdauer nötig ist.",
+        "pruefungsrelevant": "Prüfungsnah ist, den Kapitalbedarf aus Umlaufvermögen (Lager, Debitoren) und dessen Kapitalbindungsdauer herzuleiten."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Planung Kapitalbedarf“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Planung des Kapitalbedarfs sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig."
+          "Die Kapitalbindungsdauer bei Lager und Debitoren wird nicht berücksichtigt.",
+          "Der Kapitalbedarf wird mit dem laufenden Gewinn verwechselt.",
+          "Nur das Anlagevermögen, nicht das Umlaufvermögen wird eingerechnet.",
+          "Lager- und Debitorenbestände werden korrekt in die Kapitalbedarfsrechnung einbezogen.",
+          "Die Kapitalbindungsdauer wird für verschiedene Vermögensposten separat berechnet."
         ],
         "richtige_indices": [
           0,
-          3
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Richtig sind die vernachlässigte Kapitalbindungsdauer, die Verwechslung mit dem Gewinn und das fehlende Umlaufvermögen.",
+        "rechenweg": "Wird nur das Anlagevermögen betrachtet, bleibt der oft grössere Kapitalbedarf aus Lager und Debitoren unberücksichtigt.",
+        "warum": "Prüfungsnah ist, den Kapitalbedarf aus Umlaufvermögen (Lager, Debitoren) und dessen Kapitalbindungsdauer herzuleiten."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Kapitalbindungsdauer bei Lager und Debitoren nicht berücksichtigen.",
+        "Kapitalbedarf mit dem laufenden Gewinn verwechseln.",
+        "Nur das Anlagevermögen, nicht das Umlaufvermögen einrechnen."
       ],
       "review": {
         "box": 1,
@@ -4150,7 +4167,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Je länger das Kapital gebunden ist, desto grösser der Kapitalbedarf."
     },
     {
       "id": "finanzwirtschaft_rechnung_rechnungspruefung_stufe1_begriff",
@@ -4390,28 +4407,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Rechtliche Grundlagen verstehen",
       "begriff_erklaerung": {
-        "kurz": "Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden.",
-        "pruefungsrelevant": "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
+        "kurz": "Rechtliche Grundlagen im Finanzbereich umfassen v.a. das Obligationenrecht (Buchführungspflicht, Rechnungslegung) und steuerrechtliche Vorschriften.",
+        "pruefungsrelevant": "Prüfungsnah ist, welche Buchführungs- und Rechnungslegungspflichten sich aus dem Obligationenrecht ergeben."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Rechtliche Grundlagen“ fachlich am besten?",
+      "frage": "Welche rechtlichen Grundlagen sind im Finanzbereich besonders relevant?",
       "antwort_daten": {
         "optionen": [
-          "Bei Rechtsfällen reicht Bauchgefühl; Fristen und Gesetzesfolgen sind zweitrangig.",
-          "VWL-Antworten brauchen keine Ursache-Wirkungs-Begründung.",
-          "Die Lösung muss zur konkreten Rechtsnorm oder zum wirtschaftlichen Wirkungszusammenhang im Fall passen.",
-          "Kaufvertrag, Werkvertrag und Auftrag unterscheiden sich nur durch den Preis."
+          "Rechtliche Grundlagen im Finanzbereich umfassen v.a. das Obligationenrecht (Buchführungspflicht, Rechnungslegung) und steuerrechtliche Vorschriften.",
+          "Nur interne Firmenrichtlinien ohne gesetzliche Basis.",
+          "Ausschliesslich das Arbeitsrecht.",
+          "Rechnungslegung ist in der Schweiz gesetzlich nicht geregelt."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Die Lösung muss zur konkreten Rechtsnorm oder zum wirtschaftlichen Wirkungszusammenhang im Fall passen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
+        "kurz": "Rechtliche Grundlagen im Finanzbereich umfassen v.a. das Obligationenrecht (Buchführungspflicht, Rechnungslegung) und steuerrechtliche Vorschriften.",
+        "rechenweg": "Das Obligationenrecht schreibt Buchführung, Bewertung und Aufbewahrung von Geschäftsunterlagen verbindlich vor.",
+        "warum": "Interne Richtlinien allein oder das Arbeitsrecht decken die finanzrechtlichen Buchführungspflichten nicht ab."
       },
       "fehlerfallen": [
-        "Vertragsarten verwechseln.",
-        "Fristen/Rechtsfolgen übersehen.",
-        "Bei VWL nur Begriffe nennen, aber keine Wirkung erklären."
+        "Buchführungspflicht als freiwillig statt gesetzlich vorgeschrieben ansehen.",
+        "Steuerrechtliche und handelsrechtliche Vorschriften verwechseln.",
+        "Aufbewahrungspflichten für Geschäftsunterlagen missachten."
       ],
       "review": {
         "box": 1,
@@ -4432,7 +4449,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Recht: Tatbestand → Regel → Rechtsfolge. VWL: Ursache → Wirkung → Begründung."
+      "merksatz": "Buchführung ist Pflicht, nicht Kür."
     },
     {
       "id": "finanzwirtschaft_rechtliche_grundlagen_stufe2_fehlerfalle",
@@ -4477,32 +4494,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Rechtliche Grundlagen vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden.",
-        "pruefungsrelevant": "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
+        "kurz": "Rechtliche Grundlagen im Finanzbereich umfassen v.a. das Obligationenrecht (Buchführungspflicht, Rechnungslegung) und steuerrechtliche Vorschriften.",
+        "pruefungsrelevant": "Prüfungsnah ist, welche Buchführungs- und Rechnungslegungspflichten sich aus dem Obligationenrecht ergeben."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Rechtliche Grundlagen“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei rechtlichen Grundlagen im Finanzbereich sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Kaufvertrag, Werkvertrag und Auftrag unterscheiden sich nur durch den Preis.",
-          "Rechtsfälle mit Tatbestand, Regel und Rechtsfolge lösen.",
-          "Bei Rechtsfällen reicht Bauchgefühl; Fristen und Gesetzesfolgen sind zweitrangig.",
-          "Bei VWL Ursache, Wirkung und Begründung sauber verbinden.",
-          "VWL-Antworten brauchen keine Ursache-Wirkungs-Begründung."
+          "Die Buchführungspflicht wird als freiwillig statt gesetzlich vorgeschrieben angesehen.",
+          "Steuerrechtliche und handelsrechtliche Vorschriften werden verwechselt.",
+          "Aufbewahrungspflichten für Geschäftsunterlagen werden missachtet.",
+          "Die gesetzliche Aufbewahrungsfrist wird korrekt eingehalten.",
+          "Buchführungspflichten werden gemäss Obligationenrecht umgesetzt."
         ],
         "richtige_indices": [
+          0,
           1,
-          3
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
+        "kurz": "Richtig sind die falsche Einstufung als freiwillig, die Verwechslung von Steuer- und Handelsrecht sowie missachtete Aufbewahrungspflichten.",
+        "rechenweg": "Geschäftsunterlagen müssen gesetzlich während einer bestimmten Frist aufbewahrt werden - wird das missachtet, drohen rechtliche Konsequenzen.",
+        "warum": "Prüfungsnah ist, welche Buchführungs- und Rechnungslegungspflichten sich aus dem Obligationenrecht ergeben."
       },
       "fehlerfallen": [
-        "Vertragsarten verwechseln.",
-        "Fristen/Rechtsfolgen übersehen.",
-        "Bei VWL nur Begriffe nennen, aber keine Wirkung erklären."
+        "Buchführungspflicht als freiwillig statt gesetzlich vorgeschrieben ansehen.",
+        "Steuerrechtliche und handelsrechtliche Vorschriften verwechseln.",
+        "Aufbewahrungspflichten für Geschäftsunterlagen missachten."
       ],
       "review": {
         "box": 1,
@@ -4525,7 +4543,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Recht: Tatbestand → Regel → Rechtsfolge. VWL: Ursache → Wirkung → Begründung."
+      "merksatz": "Buchführung ist Pflicht, nicht Kür."
     },
     {
       "id": "finanzwirtschaft_roe_stufe1_begriff",
@@ -5032,32 +5050,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Verhalten gegenüber der Kundschaft vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Auch bei offenen Forderungen kommuniziert die Finanzabteilung sachlich, korrekt und lösungsorientiert mit der Kundschaft.",
+        "pruefungsrelevant": "Prüfungsnah ist der professionelle, faire Umgang mit Kundinnen und Kunden bei Zahlungsverzug unter Einhaltung des Datenschutzes."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Verhalten gegenüber der Kundschaft“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern im Umgang mit der Kundschaft (z.B. bei offenen Forderungen) sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug."
+          "Kundendaten werden ohne Einwilligung weitergegeben.",
+          "Bei Zahlungsverzug wird ein unangemessen scharfer, blossstellender Ton gewählt.",
+          "Die Kommunikation wird bei Unstimmigkeiten ganz abgebrochen.",
+          "Die Kommunikation bleibt sachlich, korrekt und lösungsorientiert.",
+          "Datenschutzvorgaben werden auch bei Mahnungen konsequent eingehalten."
         ],
         "richtige_indices": [
-          2,
-          3
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Richtig sind Datenschutzverstösse, ein zu scharfer Ton bei Zahlungsverzug und der abrupte Kommunikationsabbruch.",
+        "rechenweg": "Professionelles Verhalten bedeutet, Fristen konsequent einzuhalten, ohne die Kundenbeziehung unnötig zu beschädigen.",
+        "warum": "Prüfungsnah ist der professionelle, faire Umgang mit Kundinnen und Kunden bei Zahlungsverzug unter Einhaltung des Datenschutzes."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Kundendaten ohne Einwilligung weitergeben (Datenschutzverstoss).",
+        "Bei Zahlungsverzug unangemessen scharfen oder blossstellenden Ton wählen.",
+        "Kommunikation bei Unstimmigkeiten ganz abbrechen, statt lösungsorientiert zu bleiben."
       ],
       "review": {
         "box": 1,
@@ -5080,7 +5099,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Konsequent bei der Sache, fair im Ton - das wahrt die Kundenbeziehung."
     },
     {
       "id": "finanzwirtschaft_ziele_smart_stufe1_begriff",
@@ -5132,28 +5151,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Ziele / SMART verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Finanzielle Ziele werden nach dem SMART-Prinzip mit konkreten Zahlen, Terminen und realistischen Vorgaben formuliert.",
+        "pruefungsrelevant": "Prüfungsnah ist, unspezifische Zielformulierungen zu erkennen und in messbare, terminierte Finanzziele umzuformulieren."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Ziele / SMART“ fachlich am besten?",
+      "frage": "Was bedeutet das SMART-Prinzip bei der Formulierung finanzieller Ziele?",
       "antwort_daten": {
         "optionen": [
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich."
+          "Ziele sollen spezifisch, messbar, akzeptiert, realistisch und terminiert sein, z.B. 'Umsatz bis Jahresende um 5% steigern'.",
+          "Finanzielle Ziele sollten möglichst allgemein formuliert werden, damit sie flexibel bleiben.",
+          "Eine Terminierung ist bei finanziellen Zielen nicht nötig.",
+          "Messbarkeit spielt bei finanziellen Zielen keine Rolle."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Ziele sollen spezifisch, messbar, akzeptiert, realistisch und terminiert sein, z.B. 'Umsatz bis Jahresende um 5% steigern'.",
+        "rechenweg": "Nur ein konkretes, terminiertes Ziel lässt sich später mit einem Soll-Ist-Vergleich auch tatsächlich überprüfen.",
+        "warum": "Allgemeine, unterminierte oder nicht messbare Ziele verlieren ihre Steuerungswirkung als Führungsinstrument."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Ziele zu allgemein formulieren, ohne Zahl oder Termin.",
+        "Unrealistische Ziele setzen, die von Beginn an demotivieren.",
+        "Zielerreichung nie überprüfen oder nachsteuern."
       ],
       "review": {
         "box": 1,
@@ -5174,7 +5193,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Ohne Zahl und Termin ist ein Ziel nur ein Wunsch."
     },
     {
       "id": "finanzwirtschaft_ziele_smart_stufe2_fehlerfalle",
@@ -5300,28 +5319,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Zuschlagskalkulation verstehen",
       "begriff_erklaerung": {
-        "kurz": "Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
-        "pruefungsrelevant": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
+        "kurz": "Die Zuschlagskalkulation verteilt Gemeinkosten über prozentuale Zuschlagssätze auf die Einzelkosten eines Produkts.",
+        "pruefungsrelevant": "Prüfungsnah ist die Berechnung von Zuschlagssätzen (Gemeinkosten / Einzelkosten-Basis × 100) und deren Anwendung."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Zuschlagskalkulation“ fachlich am besten?",
+      "frage": "Wie funktioniert die Zuschlagskalkulation?",
       "antwort_daten": {
         "optionen": [
-          "Die MWST wird zu den Selbstkosten gezählt.",
-          "Materialgemeinkosten werden direkt auf den Verkaufspreis berechnet.",
-          "Zuschläge werden auf der vorgesehenen Bezugsbasis gerechnet; Selbstkosten liegen vor Gewinn und vor MWST.",
-          "Der Gewinnzuschlag gehört zu den Herstellkosten."
+          "Die Zuschlagskalkulation verteilt Gemeinkosten über prozentuale Zuschlagssätze auf die Einzelkosten eines Produkts.",
+          "Sie verteilt sämtliche Kosten gleichmässig auf alle Produkte, unabhängig vom Verursacherprinzip.",
+          "Sie berücksichtigt ausschliesslich variable Kosten.",
+          "Sie wird nur bei Dienstleistungen, nie bei physischen Produkten angewendet."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Zuschläge werden auf der vorgesehenen Bezugsbasis gerechnet; Selbstkosten liegen vor Gewinn und vor MWST.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
+        "kurz": "Die Zuschlagskalkulation verteilt Gemeinkosten über prozentuale Zuschlagssätze auf die Einzelkosten eines Produkts.",
+        "rechenweg": "Ein Zuschlagssatz (z.B. Material- oder Verwaltungsgemeinkostenzuschlag) verteilt Gemeinkosten anteilig auf die Einzelkosten jedes Produkts.",
+        "warum": "Eine Gleichverteilung ohne Verursacherbezug oder die Beschränkung auf variable Kosten entsprechen nicht der Zuschlagskalkulation."
       },
       "fehlerfallen": [
-        "Falsche Zuschlagsbasis verwenden.",
-        "Gewinn und MWST in die Selbstkosten mischen.",
-        "Rabatt, Skonto und MWST in falscher Reihenfolge einsetzen."
+        "Zuschlagssätze auf die falsche Kostenbasis anwenden.",
+        "Gemeinkosten und Einzelkosten bei der Verteilung vertauschen.",
+        "Zuschlagssatz einmal berechnen und nie mehr aktualisieren."
       ],
       "review": {
         "box": 1,
@@ -5342,7 +5361,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Kosten sauber aufbauen, dann Gewinn, dann MWST – sonst wird die Rechnung Hackfleisch."
+      "merksatz": "Der Zuschlagssatz verteilt Gemeinkosten fair auf die Produkte, die sie verursacht haben."
     },
     {
       "id": "finanzwirtschaft_zuschlagskalkulation_stufe2_fehlerfalle",
@@ -5367,32 +5386,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Zuschlagskalkulation vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
-        "pruefungsrelevant": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
+        "kurz": "Die Zuschlagskalkulation verteilt Gemeinkosten über prozentuale Zuschlagssätze auf die Einzelkosten eines Produkts.",
+        "pruefungsrelevant": "Prüfungsnah ist die Berechnung von Zuschlagssätzen (Gemeinkosten / Einzelkosten-Basis × 100) und deren Anwendung."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Zuschlagskalkulation“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Zuschlagskalkulation sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Der Gewinnzuschlag gehört zu den Herstellkosten.",
-          "Die MWST wird zu den Selbstkosten gezählt.",
-          "Gewinn und MWST nicht in die Selbstkosten einrechnen.",
-          "Zuschlagsbasis vor dem Einsetzen der Zahlen kontrollieren.",
-          "Materialgemeinkosten werden direkt auf den Verkaufspreis berechnet."
+          "Zuschlagssätze werden auf die falsche Kostenbasis angewendet.",
+          "Gemeinkosten und Einzelkosten werden bei der Verteilung vertauscht.",
+          "Der Zuschlagssatz wird einmal berechnet und nie mehr aktualisiert.",
+          "Zuschlagssätze werden periodisch anhand aktueller Kostendaten neu berechnet.",
+          "Einzelkosten werden korrekt direkt dem jeweiligen Produkt zugeordnet."
         ],
         "richtige_indices": [
-          2,
-          3
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
+        "kurz": "Richtig sind die falsche Kostenbasis, vertauschte Kostenarten und ein veralteter, nie aktualisierter Zuschlagssatz.",
+        "rechenweg": "Ändern sich Gemeinkosten oder Einzelkostenbasis, muss der Zuschlagssatz neu berechnet werden, sonst verzerrt er die Kalkulation.",
+        "warum": "Prüfungsnah ist die Berechnung von Zuschlagssätzen (Gemeinkosten / Einzelkosten-Basis × 100) und deren Anwendung."
       },
       "fehlerfallen": [
-        "Falsche Zuschlagsbasis verwenden.",
-        "Gewinn und MWST in die Selbstkosten mischen.",
-        "Rabatt, Skonto und MWST in falscher Reihenfolge einsetzen."
+        "Zuschlagssätze auf die falsche Kostenbasis anwenden.",
+        "Gemeinkosten und Einzelkosten bei der Verteilung vertauschen.",
+        "Zuschlagssatz einmal berechnen und nie mehr aktualisieren."
       ],
       "review": {
         "box": 1,
@@ -5415,7 +5435,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Kosten sauber aufbauen, dann Gewinn, dann MWST – sonst wird die Rechnung Hackfleisch."
+      "merksatz": "Der Zuschlagssatz verteilt Gemeinkosten fair auf die Produkte, die sie verursacht haben."
     },
     {
       "id": "integrierte_fallstudie_10_punkte_stufe1_begriff",
