@@ -17,7 +17,8 @@ export default [
         document: 'readonly',
         localStorage: 'readonly',
         navigator: 'readonly',
-        crypto: 'readonly'
+        crypto: 'readonly',
+        console: 'readonly'
       },
       parserOptions: {
         ecmaFeatures: {

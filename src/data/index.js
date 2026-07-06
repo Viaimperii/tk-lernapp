@@ -1,4 +1,4 @@
-import dataset from './lernkarten_pruefungen_final_Alle_Faecher.json'
+import dataset from './pruefungs_app_final_lerntauglich/lernkarten_pruefungen_final_lerntauglich_Alle_Faecher.json'
 
 export const allowedTypes = [
   'single_choice',
@@ -20,26 +20,20 @@ function isValidIndex(index, items) {
   return isNumber(index) && Array.isArray(items) && index >= 0 && index < items.length
 }
 
+// Pflichtfelder: id, fach, typ, frage, antwort_daten, stufe.
+// Alles andere (thema, thema_id, lernziel, begriff_erklaerung, loesungsvorschlag,
+// fehlerfallen, merksatz, erklaerung, tags, quelle, jahr, ...) ist optional und
+// wird nur angezeigt, wenn vorhanden.
 function validateCard(card) {
   const errors = []
 
   if (!card?.id) errors.push('id fehlt')
   if (!card?.fach) errors.push('fach fehlt')
-  if (!card?.thema_id) errors.push('thema_id fehlt')
-  if (!card?.thema) errors.push('thema fehlt')
-  if (!card?.quelle || typeof card.quelle !== 'object') errors.push('quelle fehlt')
   if (![1, 2, 3].includes(card?.stufe)) errors.push('stufe ist ungültig')
   if (!card?.typ) errors.push('typ fehlt')
-  if (!card?.lernziel) errors.push('lernziel fehlt')
-  if (!card?.begriff_erklaerung?.kurz) errors.push('begriff_erklaerung.kurz fehlt')
-  if (!card?.begriff_erklaerung?.pruefungsrelevant) errors.push('begriff_erklaerung.pruefungsrelevant fehlt')
   if (!card?.frage) errors.push('frage fehlt')
   if (!card?.antwort_daten) errors.push('antwort_daten fehlt')
-  if (!card?.loesungsvorschlag?.kurz) errors.push('loesungsvorschlag.kurz fehlt')
-  if (!Array.isArray(card?.fehlerfallen)) errors.push('fehlerfallen fehlt')
-  if (!card?.review || typeof card.review !== 'object') errors.push('review fehlt')
-  if (!Array.isArray(card?.tags)) errors.push('tags fehlt')
-  if (card?.typ && !allowedTypes.includes(card.typ)) errors.push(`ungültiger typ: ${card.typ}`)
+  if (card?.typ && !allowedTypes.includes(card.typ)) errors.push(`ungültiger typ (nicht mehr unterstützt): ${card.typ}`)
 
   const data = card?.antwort_daten ?? {}
 
@@ -111,7 +105,7 @@ const checkedCards = (dataset.karten ?? []).map((card) => {
       ...card,
       titel: card.thema || card.lernziel || card.frage,
       untertitel: card.lernziel && card.lernziel !== card.thema ? card.lernziel : '',
-      quelle_id: card.thema_id,
+      quelle_id: card.quelle_id || card.thema_id || card.id,
       frequenz: card.stufe >= 3 ? 'rot' : card.stufe === 2 ? 'gelb' : 'gruen'
     },
     errors
@@ -129,3 +123,26 @@ export const invalidCards = checkedCards
 
 export const contentMeta = dataset.meta ?? {}
 export const schemaVersion = dataset.meta?.schema_version ?? dataset.schema_version ?? '2.0-final-learning'
+
+invalidCards.forEach(({ id, errors }) => {
+  console.warn(`[tk-lernapp] Karte "${id}" übersprungen: ${errors.join(', ')}`)
+})
+
+function countBy(items, getKey) {
+  return items.reduce((acc, item) => {
+    const key = getKey(item) ?? 'unbekannt'
+    acc[key] = (acc[key] ?? 0) + 1
+    return acc
+  }, {})
+}
+
+console.info('[tk-lernapp] Lernkarten geladen', {
+  quelle: 'lernkarten_pruefungen_final_lerntauglich_Alle_Faecher.json',
+  schemaVersion,
+  geladen: checkedCards.length,
+  gueltig: cards.length,
+  uebersprungen: invalidCards.length,
+  kartentypen: countBy(cards, (card) => card.typ),
+  stufen: countBy(cards, (card) => card.stufe),
+  faecher: countBy(cards, (card) => card.fach)
+})

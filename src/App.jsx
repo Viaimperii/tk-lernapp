@@ -476,6 +476,7 @@ function LearningCard({ eyebrow, topic, card, progress, result, answer, setAnswe
           <StageBadge stage={currentStage} />
           <span className="rounded-full bg-slate-100 px-2 py-1 text-xs font-black text-slate-700">{stageLabel(currentStage)}</span>
           <TypeBadge type={card.typ} />
+          {card.jahr && <span className="rounded-full bg-slate-100 px-2 py-1 text-xs font-black text-slate-700">Prüfung {card.jahr}</span>}
           {progress.solvedOnce && (
             <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2 py-1 text-xs font-black text-emerald-800">
               <Trophy size={12} /> Schon gelöst
@@ -715,6 +716,8 @@ function FeedbackPanel({ result, card, finalStage }) {
       {card.loesungsvorschlag?.warum && <InfoBlock title="Warum" text={card.loesungsvorschlag.warum} />}
       <InfoBlock title="Kurz erklärt" text={card.begriff_erklaerung?.kurz} />
       <InfoBlock title="Prüfungsrelevant" text={card.begriff_erklaerung?.pruefungsrelevant} />
+      <InfoBlock title="Erklärung" text={card.erklaerung} />
+      <InfoBlock title="Merksatz" text={card.merksatz} />
       {card.fehlerfallen?.length > 0 && (
         <div className="mt-3 rounded-lg bg-white p-3">
           <h3 className="text-sm font-black">Fehlerfallen</h3>
