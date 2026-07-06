@@ -89,28 +89,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Aufgaben der Finanzbuchhaltung verstehen",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Die Finanzbuchhaltung erfasst lückenlos alle Geschäftsfälle und bildet die gesetzliche Grundlage für Bilanz und Erfolgsrechnung.",
+        "pruefungsrelevant": "Wichtig ist die Abgrenzung zur Betriebsbuchhaltung: Finanzbuchhaltung ist gesetzlich vorgeschrieben und richtet sich an Aussenstehende."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Aufgaben der Finanzbuchhaltung“ fachlich am besten?",
+      "frage": "Was ist die zentrale Aufgabe der Finanzbuchhaltung?",
       "antwort_daten": {
         "optionen": [
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt."
+          "Sämtliche Geschäftsfälle lückenlos erfassen und daraus Bilanz und Erfolgsrechnung für aussenstehende Adressaten erstellen.",
+          "Nur die Selbstkosten einzelner Produkte oder Aufträge kalkulieren.",
+          "Ausschliesslich das Budget für das nächste Geschäftsjahr planen.",
+          "Nur die Löhne der Mitarbeitenden berechnen und auszahlen."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Sämtliche Geschäftsfälle lückenlos erfassen und daraus Bilanz und Erfolgsrechnung für aussenstehende Adressaten erstellen.",
+        "rechenweg": "Die Finanzbuchhaltung ist gesetzlich vorgeschrieben (Buchführungspflicht nach OR) und dient externen Adressaten wie Steuerbehörden, Banken und Eigentümern.",
+        "warum": "Kalkulation, Budgetierung und Lohnwesen sind eigene Teilbereiche und nicht die Kernaufgabe der Finanzbuchhaltung."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Finanzbuchhaltung mit Betriebsbuchhaltung (Kostenrechnung) verwechseln.",
+        "Vergessen, dass die Buchführungspflicht gesetzlich (OR) geregelt ist.",
+        "Annehmen, die Finanzbuchhaltung diene nur internen Zwecken."
       ],
       "review": {
         "box": 1,
@@ -131,7 +131,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Finanzbuchhaltung schaut nach aussen, Betriebsbuchhaltung schaut nach innen."
     },
     {
       "id": "finanzwirtschaft_aufgaben_der_finanzbuchhaltung_stufe2_fehlerfalle",
@@ -156,32 +156,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Aufgaben der Finanzbuchhaltung vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Die Finanzbuchhaltung erfasst lückenlos alle Geschäftsfälle und bildet die gesetzliche Grundlage für Bilanz und Erfolgsrechnung.",
+        "pruefungsrelevant": "Wichtig ist die Abgrenzung zur Betriebsbuchhaltung: Finanzbuchhaltung ist gesetzlich vorgeschrieben und richtet sich an Aussenstehende."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Aufgaben der Finanzbuchhaltung“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zur Finanzbuchhaltung sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden."
+          "Sie ist gesetzlich vorgeschrieben (Buchführungspflicht nach OR).",
+          "Sie liefert die Grundlage für Bilanz und Erfolgsrechnung.",
+          "Sie berechnet die Selbstkosten einzelner Produkte oder Aufträge.",
+          "Sie ist rein freiwillig und dient ausschliesslich internen Zwecken.",
+          "Sie richtet sich in erster Linie an aussenstehende Adressaten wie Banken oder Steuerbehörden."
         ],
         "richtige_indices": [
           0,
+          1,
           4
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Richtig sind die gesetzliche Pflicht, die Grundlage für Bilanz/Erfolgsrechnung und die Ausrichtung auf externe Adressaten.",
+        "rechenweg": "Die Berechnung von Selbstkosten gehört zur Betriebsbuchhaltung, nicht zur Finanzbuchhaltung - das ist die klassische Verwechslungsfalle.",
+        "warum": "Die Finanzbuchhaltung ist kein freiwilliges internes Instrument, sondern gesetzlich vorgeschrieben und extern ausgerichtet."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Finanzbuchhaltung mit Betriebsbuchhaltung (Kostenrechnung) verwechseln.",
+        "Vergessen, dass die Buchführungspflicht gesetzlich (OR) geregelt ist.",
+        "Annehmen, die Finanzbuchhaltung diene nur internen Zwecken."
       ],
       "review": {
         "box": 1,
@@ -204,7 +205,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Finanzbuchhaltung schaut nach aussen, Betriebsbuchhaltung schaut nach innen."
     },
     {
       "id": "finanzwirtschaft_beschaffung_lieferanten_stufe1_begriff",
@@ -561,28 +562,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Betriebsbuchhaltung verstehen",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Die Betriebsbuchhaltung berechnet über Kostenstellen- und Kostenträgerrechnung die Selbstkosten für interne Entscheidungen.",
+        "pruefungsrelevant": "Wichtig ist die Abgrenzung zur Finanzbuchhaltung: Betriebsbuchhaltung ist freiwillig und dient der internen Steuerung."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Betriebsbuchhaltung“ fachlich am besten?",
+      "frage": "Was unterscheidet die Betriebsbuchhaltung von der Finanzbuchhaltung?",
       "antwort_daten": {
         "optionen": [
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug."
+          "Sie berechnet über Kostenstellen- und Kostenträgerrechnung die Selbstkosten von Produkten und Aufträgen für interne Entscheidungen.",
+          "Sie erstellt die gesetzlich vorgeschriebene Bilanz für aussenstehende Adressaten.",
+          "Sie ist ausschliesslich für die Mehrwertsteuerabrechnung zuständig.",
+          "Sie erfasst nur die Löhne der Belegschaft."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Sie berechnet über Kostenstellen- und Kostenträgerrechnung die Selbstkosten von Produkten und Aufträgen für interne Entscheidungen.",
+        "rechenweg": "Die Betriebsbuchhaltung ist ein internes, freiwilliges Führungsinstrument - im Gegensatz zur gesetzlich vorgeschriebenen, extern ausgerichteten Finanzbuchhaltung.",
+        "warum": "Bilanzerstellung, Mehrwertsteuer und Lohnwesen sind eigene Aufgaben anderer Bereiche."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Betriebsbuchhaltung mit Finanzbuchhaltung verwechseln.",
+        "Vergessen, dass die Betriebsbuchhaltung freiwillig (nicht gesetzlich) geführt wird.",
+        "Kostenstellen- und Kostenträgerrechnung nicht auseinanderhalten."
       ],
       "review": {
         "box": 1,
@@ -603,7 +604,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Finanzbuchhaltung schaut nach aussen, Betriebsbuchhaltung schaut nach innen."
     },
     {
       "id": "finanzwirtschaft_betriebsbuchhaltung_stufe2_fehlerfalle",
@@ -701,28 +702,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Bilanzanalyse verstehen",
       "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Die Bilanzanalyse beurteilt mit Kennzahlen (Liquiditäts-, Finanzierungs- und Rentabilitätsgrade) die finanzielle Lage eines Unternehmens.",
+        "pruefungsrelevant": "Prüfungsnah ist die richtige Zuordnung von Kennzahlen zu Liquidität, Finanzierung (Eigenfinanzierungsgrad) und Rentabilität (ROI/ROE)."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Bilanzanalyse“ fachlich am besten?",
+      "frage": "Was ist Ziel der Bilanzanalyse?",
       "antwort_daten": {
         "optionen": [
-          "Eine gute Massnahme passt zur Analyse, ist umsetzbar und berücksichtigt Anspruchsgruppen, Kosten, Nutzen und Risiken.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat."
+          "Mit Kennzahlen wie Liquiditäts-, Finanzierungs- und Rentabilitätsgraden die finanzielle Lage eines Unternehmens beurteilen.",
+          "Nur die Anzahl der gebuchten Belege in einer Periode zählen.",
+          "Ausschliesslich den aktuellen Lagerbestand kontrollieren.",
+          "Nur die Mehrwertsteuerabrechnung für die Steuerverwaltung erstellen."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Eine gute Massnahme passt zur Analyse, ist umsetzbar und berücksichtigt Anspruchsgruppen, Kosten, Nutzen und Risiken.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Mit Kennzahlen wie Liquiditäts-, Finanzierungs- und Rentabilitätsgraden die finanzielle Lage eines Unternehmens beurteilen.",
+        "rechenweg": "Bilanzanalyse setzt Bilanzpositionen zueinander ins Verhältnis (z.B. Eigenkapital/Gesamtkapital), um Stabilität und Rentabilität einzuschätzen.",
+        "warum": "Belegzahl, Lagerbestand und Mehrwertsteuer sind einzelne Detailfragen, keine Bilanzkennzahlen."
       },
       "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
+        "Kennzahlen einzeln betrachten statt im Gesamtbild.",
+        "Liquiditäts- und Rentabilitätskennzahlen verwechseln.",
+        "Vorjahreswerte oder Branchenwerte nicht zum Vergleich heranziehen."
       ],
       "review": {
         "box": 1,
@@ -743,7 +744,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Eine Kennzahl allein sagt wenig - erst der Vergleich zeigt die Lage."
     },
     {
       "id": "finanzwirtschaft_bilanzanalyse_stufe2_fehlerfalle",
@@ -1501,28 +1502,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Einfacher Jahresabschluss verstehen",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Der einfache Jahresabschluss umfasst Bilanz und Erfolgsrechnung inkl. Abschlussbuchungen wie Abschreibungen und Rechnungsabgrenzung.",
+        "pruefungsrelevant": "Prüfungsnah ist, welche Abschlussbuchungen (Abschreibung, aktive/passive Rechnungsabgrenzung) nötig sind, bevor Bilanz und Erfolgsrechnung stimmen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Einfacher Jahresabschluss“ fachlich am besten?",
+      "frage": "Was gehört zum einfachen Jahresabschluss?",
       "antwort_daten": {
         "optionen": [
-          "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt."
+          "Bilanz und Erfolgsrechnung erstellen, inklusive Abschlussbuchungen wie Abschreibungen und Rechnungsabgrenzung.",
+          "Nur die Kalkulation der Verkaufspreise für das nächste Jahr.",
+          "Ausschliesslich das Budget für das kommende Geschäftsjahr.",
+          "Nur die Zahlung aller offenen Rechnungen vor Jahresende."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Bilanz und Erfolgsrechnung erstellen, inklusive Abschlussbuchungen wie Abschreibungen und Rechnungsabgrenzung.",
+        "rechenweg": "Vor dem Abschluss müssen Abschreibungen verbucht und Aufwand/Ertrag periodengerecht abgegrenzt werden, erst danach stimmen Bilanz und Erfolgsrechnung.",
+        "warum": "Kalkulation und Budgetierung sind vorausschauende Planungsinstrumente, kein Bestandteil des Jahresabschlusses."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Abschreibungen oder Rechnungsabgrenzung vergessen.",
+        "Bilanz und Erfolgsrechnung nicht miteinander abstimmen (Erfolg verändert das Eigenkapital).",
+        "Budgetierung mit Jahresabschluss verwechseln."
       ],
       "review": {
         "box": 1,
@@ -1543,7 +1544,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Erst abgrenzen und abschreiben, dann stimmt der Abschluss."
     },
     {
       "id": "finanzwirtschaft_einfacher_jahresabschluss_stufe2_fehlerfalle",
@@ -1568,32 +1569,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Einfacher Jahresabschluss vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Der einfache Jahresabschluss umfasst Bilanz und Erfolgsrechnung inkl. Abschlussbuchungen wie Abschreibungen und Rechnungsabgrenzung.",
+        "pruefungsrelevant": "Prüfungsnah ist, welche Abschlussbuchungen (Abschreibung, aktive/passive Rechnungsabgrenzung) nötig sind, bevor Bilanz und Erfolgsrechnung stimmen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Einfacher Jahresabschluss“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Jahresabschluss sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen."
+          "Aktive und passive Rechnungsabgrenzung werden oft verwechselt.",
+          "Abschreibungen werden manchmal vergessen oder mit falschem Satz berechnet.",
+          "Der Jahresabschluss muss nur alle paar Jahre erstellt werden.",
+          "Abgrenzungen sind bei einem einfachen Abschluss nicht nötig.",
+          "Bilanz und Erfolgsrechnung müssen zueinander passen, weil der Erfolg das Eigenkapital verändert."
         ],
         "richtige_indices": [
+          0,
           1,
           4
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Richtig sind die Verwechslungsgefahr bei Rechnungsabgrenzungen, Fehler bei Abschreibungen und der Zusammenhang zwischen Erfolg und Eigenkapital.",
+        "rechenweg": "Aktive Rechnungsabgrenzung = im Voraus bezahlter Aufwand des Folgejahres; passive = im Voraus erhaltener Ertrag des Folgejahres - hier liegt die häufigste Verwechslung.",
+        "warum": "Der Jahresabschluss ist jährlich Pflicht, und auch ein einfacher Abschluss braucht Abgrenzungen, damit der Erfolg periodengerecht stimmt."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Abschreibungen oder Rechnungsabgrenzung vergessen.",
+        "Bilanz und Erfolgsrechnung nicht miteinander abstimmen (Erfolg verändert das Eigenkapital).",
+        "Budgetierung mit Jahresabschluss verwechseln."
       ],
       "review": {
         "box": 1,
@@ -1616,7 +1618,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Erst abgrenzen und abschreiben, dann stimmt der Abschluss."
     },
     {
       "id": "finanzwirtschaft_erstellung_eines_teilbudgets_stufe1_begriff",
@@ -1848,32 +1850,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Finanzierungsarten vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Finanzierungsarten unterscheiden Eigen-/Fremdfinanzierung und Innen-/Aussenfinanzierung.",
+        "pruefungsrelevant": "Prüfungsnah ist, Abschreibungen und einbehaltene Gewinne korrekt der Innenfinanzierung zuzuordnen und nicht mit Fremdkapital zu verwechseln."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Finanzierungsarten“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu Finanzierungsarten sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig."
+          "Eigenfinanzierung erhöht das Eigenkapital, Fremdfinanzierung erhöht das Fremdkapital.",
+          "Abschreibungen und einbehaltene Gewinne zählen zur Innenfinanzierung.",
+          "Bankkredite gehören zur Eigenfinanzierung.",
+          "Innenfinanzierung bedeutet immer eine Kapitalerhöhung durch neue Aktionäre.",
+          "Eine Kapitalerhöhung durch neue Aktionäre ist eine Form der Aussenfinanzierung."
         ],
         "richtige_indices": [
-          2,
-          3
+          0,
+          1,
+          4
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Richtig sind die Zuordnung von Eigen-/Fremdkapital, Abschreibungen/Gewinne zur Innenfinanzierung und Kapitalerhöhung zur Aussenfinanzierung.",
+        "rechenweg": "Innenfinanzierung kommt aus dem Betrieb selbst (Abschreibungen, einbehaltene Gewinne), Aussenfinanzierung von aussen (Kredite, Kapitalerhöhung).",
+        "warum": "Bankkredite sind Fremdkapital, keine Eigenfinanzierung - eine häufige Verwechslung in Prüfungen."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Eigen- und Fremdfinanzierung verwechseln.",
+        "Abschreibungen fälschlich der Aussenfinanzierung zuordnen.",
+        "Innen- und Aussenfinanzierung nicht sauber trennen."
       ],
       "review": {
         "box": 1,
@@ -1896,7 +1899,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Innen kommt vom Betrieb selbst, aussen kommt von Dritten."
     },
     {
       "id": "finanzwirtschaft_finanzplanung_stufe1_begriff",
@@ -2227,28 +2230,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Grundlagen Controlling verstehen",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Controlling unterstützt Planung, Steuerung und Kontrolle des Unternehmens, u.a. über Soll-Ist-Vergleiche und Abweichungsanalysen.",
+        "pruefungsrelevant": "Prüfungsnah ist der Regelkreis Planen - Steuern - Kontrollieren und die Ableitung von Massnahmen aus Abweichungen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Grundlagen Controlling“ fachlich am besten?",
+      "frage": "Was ist die Kernaufgabe des Controllings?",
       "antwort_daten": {
         "optionen": [
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt."
+          "Planung, Steuerung und Kontrolle des Unternehmens unterstützen, u.a. über Soll-Ist-Vergleiche und Abweichungsanalysen.",
+          "Nur die laufende Buchhaltung der Rechnungen führen.",
+          "Ausschliesslich die Löhne der Mitarbeitenden berechnen und auszahlen.",
+          "Nur gesetzliche Vorschriften der Bilanzierung überwachen."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Planung, Steuerung und Kontrolle des Unternehmens unterstützen, u.a. über Soll-Ist-Vergleiche und Abweichungsanalysen.",
+        "rechenweg": "Controlling vergleicht geplante mit tatsächlichen Werten, analysiert Abweichungen und leitet daraus Korrekturmassnahmen ab.",
+        "warum": "Laufende Buchhaltung, Lohnwesen und reine Bilanzkontrolle sind einzelne Teilbereiche, nicht die Kernaufgabe des Controllings."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Controlling mit reiner Buchhaltung verwechseln.",
+        "Abweichungen feststellen, aber keine Ursachen oder Massnahmen ableiten.",
+        "Controlling nur als Kontrolle, nicht als Planungsunterstützung verstehen."
       ],
       "review": {
         "box": 1,
@@ -2269,7 +2272,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Controlling heisst planen, steuern, kontrollieren - nicht nur kontrollieren."
     },
     {
       "id": "finanzwirtschaft_grundlagen_controlling_stufe2_fehlerfalle",
@@ -2394,28 +2397,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Investitionsentscheid verstehen",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Ein Investitionsentscheid stützt sich auf quantitative Methoden (Payback, Rentabilität, Kapitalwert) und qualitative Kriterien wie Risiko und Strategie.",
+        "pruefungsrelevant": "Prüfungsnah ist, mehrere Investitionsmethoden zu kennen und deren Ergebnisse zusammen mit qualitativen Faktoren zu beurteilen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Investitionsentscheid“ fachlich am besten?",
+      "frage": "Worauf stützt sich ein fundierter Investitionsentscheid?",
       "antwort_daten": {
         "optionen": [
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung."
+          "Auf quantitative Methoden wie Payback, Rentabilität (ROI) oder Kapitalwert sowie auf qualitative Kriterien wie Risiko und Strategie.",
+          "Ausschliesslich auf den tiefsten Anschaffungspreis am Markt.",
+          "Nur auf das Bauchgefühl der Geschäftsleitung.",
+          "Einzig auf die Zahlungskonditionen des Lieferanten."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Auf quantitative Methoden wie Payback, Rentabilität (ROI) oder Kapitalwert sowie auf qualitative Kriterien wie Risiko und Strategie.",
+        "rechenweg": "Quantitative Methoden liefern Zahlen (z.B. Payback-Dauer, Rendite), qualitative Kriterien (Risiko, strategische Passung) ergänzen das Bild.",
+        "warum": "Der tiefste Preis allein oder reines Bauchgefühl berücksichtigen weder Rentabilität noch Risiko."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Nur eine Methode statt mehrerer Investitionsrechnungen anwenden.",
+        "Qualitative Kriterien (Risiko, Strategie) ganz ausblenden.",
+        "Anschaffungspreis mit Rentabilität gleichsetzen."
       ],
       "review": {
         "box": 1,
@@ -2436,7 +2439,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Zahlen zeigen die Rendite, das Bauchgefühl zeigt das Risiko - beides gehört zusammen."
     },
     {
       "id": "finanzwirtschaft_investitionsentscheid_stufe2_fehlerfalle",
@@ -2561,28 +2564,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Jahresabschluss verstehen",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Der Jahresabschluss richtet sich an aussenstehende Adressaten wie Eigentümer, Banken und Steuerbehörden.",
+        "pruefungsrelevant": "Prüfungsnah ist, wer den Jahresabschluss braucht und wozu (Kreditvergabe, Steuerveranlagung, Eigentümerinformation)."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Jahresabschluss“ fachlich am besten?",
+      "frage": "An wen richtet sich der Jahresabschluss in erster Linie?",
       "antwort_daten": {
         "optionen": [
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig."
+          "An aussenstehende Adressaten wie Eigentümer, Banken und Steuerbehörden, die sich ein Bild über die finanzielle Lage machen wollen.",
+          "Ausschliesslich an die Marketingabteilung des eigenen Unternehmens.",
+          "Nur an Lieferanten zur Abwicklung von Bestellungen.",
+          "Nur an die Kundschaft für die Rechnungsstellung."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "An aussenstehende Adressaten wie Eigentümer, Banken und Steuerbehörden, die sich ein Bild über die finanzielle Lage machen wollen.",
+        "rechenweg": "Banken nutzen den Abschluss für Kreditentscheide, Steuerbehörden für die Veranlagung, Eigentümer zur Beurteilung ihrer Investition.",
+        "warum": "Marketing, Lieferanten und Rechnungsstellung sind operative Bereiche, keine typischen Adressaten des Jahresabschlusses."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Adressaten des Jahresabschlusses mit internen Stellen verwechseln.",
+        "Vergessen, dass der Abschluss auch für Kreditwürdigkeitsprüfungen genutzt wird.",
+        "Jahresabschluss und einfachen Abschluss inhaltlich gleichsetzen, ohne den Adressatenbezug zu nennen."
       ],
       "review": {
         "box": 1,
@@ -2603,7 +2606,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Der Jahresabschluss spricht nach aussen: Eigentümer, Banken, Steueramt."
     },
     {
       "id": "finanzwirtschaft_jahresabschluss_stufe2_fehlerfalle",
@@ -2628,32 +2631,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Jahresabschluss vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Der Jahresabschluss richtet sich an aussenstehende Adressaten wie Eigentümer, Banken und Steuerbehörden.",
+        "pruefungsrelevant": "Prüfungsnah ist, wer den Jahresabschluss braucht und wozu (Kreditvergabe, Steuerveranlagung, Eigentümerinformation)."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Jahresabschluss“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Jahresabschluss sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden."
+          "Bilanz und Erfolgsrechnung müssen zueinander passen, weil der Erfolg das Eigenkapital verändert.",
+          "Stille Reserven werden oft übersehen oder falsch interpretiert.",
+          "Der Jahresabschluss darf beliebig verglichen werden, auch wenn sich Bewertungsmethoden geändert haben.",
+          "Der Abschluss ist rein freiwillig und ohne rechtliche Konsequenzen.",
+          "Bewertungsmethoden sollten von Jahr zu Jahr konsistent angewendet werden, damit Vergleiche aussagekräftig bleiben."
         ],
         "richtige_indices": [
           0,
+          1,
           4
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Richtig sind der Zusammenhang zwischen Erfolg und Eigenkapital, die Gefahr übersehener stiller Reserven und die Notwendigkeit konsistenter Bewertungsmethoden.",
+        "rechenweg": "Ändern sich Bewertungsmethoden zwischen den Jahren, sind Vergleiche verzerrt - deshalb muss das offengelegt oder vermieden werden.",
+        "warum": "Der Jahresabschluss ist gesetzlich vorgeschrieben, nicht freiwillig, und hat rechtliche Konsequenzen (z.B. für Steuern und Gläubigerschutz)."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Adressaten des Jahresabschlusses mit internen Stellen verwechseln.",
+        "Vergessen, dass der Abschluss auch für Kreditwürdigkeitsprüfungen genutzt wird.",
+        "Jahresabschluss und einfachen Abschluss inhaltlich gleichsetzen, ohne den Adressatenbezug zu nennen."
       ],
       "review": {
         "box": 1,
@@ -2676,7 +2680,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Der Jahresabschluss spricht nach aussen: Eigentümer, Banken, Steueramt."
     },
     {
       "id": "finanzwirtschaft_kalkulation_stufe1_begriff",
@@ -2841,28 +2845,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Lager / Lagerkennzahlen verstehen",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Lagerkennzahlen wie Lagerumschlag und Lagerdauer zeigen, wie viel Kapital im Lager gebunden ist.",
+        "pruefungsrelevant": "Prüfungsnah ist die Berechnung von Lagerumschlag (Wareneinsatz/durchschnittlicher Lagerbestand) und Lagerdauer (360/Lagerumschlag)."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Lager / Lagerkennzahlen“ fachlich am besten?",
+      "frage": "Was zeigt der Lagerumschlag als Kennzahl?",
       "antwort_daten": {
         "optionen": [
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen."
+          "Wie oft sich der durchschnittliche Lagerbestand innerhalb einer Periode durch Verkäufe umschlägt - je höher, desto weniger Kapital ist im Lager gebunden.",
+          "Wie viele verschiedene Lieferanten ein Unternehmen im Einsatz hat.",
+          "Den Verkaufspreis der im Lager liegenden Ware.",
+          "Ein hoher Lagerbestand ist immer besser, weil dadurch nie ein Lieferengpass entsteht."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Wie oft sich der durchschnittliche Lagerbestand innerhalb einer Periode durch Verkäufe umschlägt - je höher, desto weniger Kapital ist im Lager gebunden.",
+        "rechenweg": "Lagerumschlag = Wareneinsatz / durchschnittlicher Lagerbestand. Je höher der Umschlag, desto kürzer die Lagerdauer (360 / Lagerumschlag) und desto weniger Kapital ist gebunden.",
+        "warum": "Ein hoher Lagerbestand bindet Kapital und verursacht Lagerhaltungskosten - er ist nicht automatisch positiv."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Hohe Lagerbestände unkritisch als positiv bewerten.",
+        "Lagerumschlag und Lagerdauer verwechseln oder falsch berechnen.",
+        "Kapitalbindungskosten des Lagers ausser Acht lassen."
       ],
       "review": {
         "box": 1,
@@ -2883,7 +2887,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Schneller Umschlag, kurze Lagerdauer, wenig gebundenes Kapital."
     },
     {
       "id": "finanzwirtschaft_lager_lagerkennzahlen_stufe2_fehlerfalle",
@@ -3311,28 +3315,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Mahnwesen verstehen",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Mahnwesen fordert offene Forderungen stufenweise (Zahlungserinnerung bis Betreibung) ein und wahrt dabei die Kundenbeziehung.",
+        "pruefungsrelevant": "Prüfungsnah ist der gestufte Mahnprozess und die Berechnung von Verzugszins bzw. Mahngebühren."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Mahnwesen“ fachlich am besten?",
+      "frage": "Was ist Ziel des Mahnwesens?",
       "antwort_daten": {
         "optionen": [
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug."
+          "Offene Forderungen konsequent, aber möglichst kundenfreundlich einfordern - stufenweise von der Zahlungserinnerung bis zur Betreibung.",
+          "Sofort bei jeder verspäteten Zahlung die Betreibung einleiten, ohne vorherige Erinnerung.",
+          "Offene Rechnungen bei Zahlungsverzug einfach abschreiben.",
+          "Nur bei sehr grossen Rechnungsbeträgen überhaupt eine Mahnung verschicken."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Offene Forderungen konsequent, aber möglichst kundenfreundlich einfordern - stufenweise von der Zahlungserinnerung bis zur Betreibung.",
+        "rechenweg": "Der übliche Ablauf ist: Zahlungserinnerung, 1./2. Mahnung (ggf. mit Verzugszins/Mahngebühr), zuletzt Betreibung als letztes Mittel.",
+        "warum": "Sofortige Betreibung oder das Abschreiben offener Forderungen widersprechen einem professionellen, stufenweisen Vorgehen."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Mahnstufen überspringen, statt gestuft vorzugehen.",
+        "Verzugszins und Mahngebühren vergessen, obwohl vertraglich zulässig.",
+        "Zu harscher Ton in der ersten Mahnung, statt sachlich-verbindlich zu bleiben."
       ],
       "review": {
         "box": 1,
@@ -3353,7 +3357,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Erst erinnern, dann mahnen, erst zuletzt betreiben."
     },
     {
       "id": "finanzwirtschaft_mahnwesen_stufe2_fehlerfalle",
@@ -3378,32 +3382,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Mahnwesen vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Mahnwesen fordert offene Forderungen stufenweise (Zahlungserinnerung bis Betreibung) ein und wahrt dabei die Kundenbeziehung.",
+        "pruefungsrelevant": "Prüfungsnah ist der gestufte Mahnprozess und die Berechnung von Verzugszins bzw. Mahngebühren."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Mahnwesen“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern im Mahnwesen sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt."
+          "Mahnstufen werden übersprungen, obwohl ein gestuftes Vorgehen sinnvoller wäre.",
+          "Verzugszins und Mahngebühren werden vergessen, obwohl sie vertraglich zulässig wären.",
+          "Der Ton der Mahnungen darf von Anfang an sehr harsch sein, das beschleunigt die Zahlung.",
+          "Nach der ersten Mahnung ist der Fall automatisch erledigt.",
+          "Fristen für Zahlungserinnerung und Mahnungen werden nicht konsequent überwacht."
         ],
         "richtige_indices": [
-          2,
-          3
+          0,
+          1,
+          4
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Richtig sind das Überspringen von Mahnstufen, vergessene Verzugszinsen/Gebühren und mangelnde Fristenkontrolle.",
+        "rechenweg": "Ein professionelles Mahnwesen braucht klare Fristen je Stufe und konsequente Nachverfolgung, sonst verpuffen Zahlungserinnerungen wirkungslos.",
+        "warum": "Ein harscher Ton von Anfang an gefährdet die Kundenbeziehung unnötig, und nach der ersten Mahnung ist der Fall keineswegs automatisch erledigt."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Mahnstufen überspringen, statt gestuft vorzugehen.",
+        "Verzugszins und Mahngebühren vergessen, obwohl vertraglich zulässig.",
+        "Zu harscher Ton in der ersten Mahnung, statt sachlich-verbindlich zu bleiben."
       ],
       "review": {
         "box": 1,
@@ -3426,7 +3431,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Erst erinnern, dann mahnen, erst zuletzt betreiben."
     },
     {
       "id": "finanzwirtschaft_marketing_verkauf_stufe1_begriff",
@@ -3465,28 +3470,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Marketing / Verkauf verstehen",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Verkaufsentscheide wie Rabatte, Skonto und Zahlungskonditionen wirken sich direkt auf Deckungsbeitrag und Liquidität aus.",
+        "pruefungsrelevant": "Prüfungsnah ist, den finanziellen Effekt von Rabatt- und Zahlungskonditionen auf Deckungsbeitrag und Liquidität zu erklären."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Marketing / Verkauf“ fachlich am besten?",
+      "frage": "Welchen finanziellen Aspekt muss die Verkaufsabteilung bei Preisentscheiden besonders beachten?",
       "antwort_daten": {
         "optionen": [
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich."
+          "Wie sich Rabatte, Skonto und Zahlungskonditionen auf Deckungsbeitrag und Liquidität auswirken.",
+          "Rabatte haben keinen Einfluss auf den Deckungsbeitrag pro Stück.",
+          "Zahlungskonditionen sind reine Verkaufssache und betreffen die Finanzabteilung nicht.",
+          "Ein möglichst tiefer Preis ist immer die beste Verkaufsstrategie, unabhängig von den Kosten."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Wie sich Rabatte, Skonto und Zahlungskonditionen auf Deckungsbeitrag und Liquidität auswirken.",
+        "rechenweg": "Jeder Rabatt oder Skontoabzug senkt den effektiven Verkaufspreis und damit den Deckungsbeitrag pro Stück - das muss bei der Preisgestaltung eingerechnet werden.",
+        "warum": "Verkaufsentscheide haben immer eine finanzielle Wirkung, sie sind nicht von der Finanzabteilung isoliert zu betrachten."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Rabatte gewähren, ohne die Wirkung auf den Deckungsbeitrag zu berechnen.",
+        "Zahlungskonditionen (z.B. lange Zahlungsfristen) und deren Liquiditätswirkung ausblenden.",
+        "Tiefpreisstrategie ohne Blick auf die Kostenstruktur wählen."
       ],
       "review": {
         "box": 1,
@@ -3507,7 +3512,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Jeder Rabatt kostet Deckungsbeitrag - Verkauf und Finanzen gehören zusammen."
     },
     {
       "id": "finanzwirtschaft_marketing_verkauf_stufe2_fehlerfalle",
@@ -3890,28 +3895,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Payback verstehen",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Die Payback-Methode zeigt, wie lange es dauert, bis eine Investition durch die jährlichen Rückflüsse wieder hereingeholt ist.",
+        "pruefungsrelevant": "Prüfungsnah ist die Berechnung: Anschaffungswert geteilt durch den durchschnittlichen jährlichen Rückfluss (Gewinn plus Abschreibung)."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Payback“ fachlich am besten?",
+      "frage": "Was misst die Payback-Methode bei einem Investitionsentscheid?",
       "antwort_daten": {
         "optionen": [
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt."
+          "Die Zeit, bis die Anschaffungskosten einer Investition durch die jährlichen Rückflüsse (Gewinn plus Abschreibungen) wieder hereingeholt sind.",
+          "Die langfristige Rentabilität einer Investition über ihre gesamte Nutzungsdauer.",
+          "Den Verkaufspreis, der für die Investition am Markt erzielt werden könnte.",
+          "Die Höhe der jährlichen Abschreibung in Prozent des Anschaffungswerts."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Die Zeit, bis die Anschaffungskosten einer Investition durch die jährlichen Rückflüsse (Gewinn plus Abschreibungen) wieder hereingeholt sind.",
+        "rechenweg": "Payback-Dauer = Anschaffungswert / durchschnittlicher jährlicher Rückfluss (Gewinn + Abschreibung). Kürzere Payback-Dauer gilt als risikoärmer.",
+        "warum": "Die Payback-Methode sagt nichts über die Rentabilität nach der Rückflussdauer aus - dafür braucht es ROI oder Kapitalwert."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Payback-Dauer mit der gesamten Rentabilität der Investition gleichsetzen.",
+        "Abschreibungen beim Rückfluss vergessen und nur den Gewinn einrechnen.",
+        "Zeitwert des Geldes ignorieren, den die Payback-Methode nicht berücksichtigt."
       ],
       "review": {
         "box": 1,
@@ -3932,7 +3937,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Payback zeigt, wann - nicht wie rentabel."
     },
     {
       "id": "finanzwirtschaft_payback_stufe2_fehlerfalle",
@@ -4030,28 +4035,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Planung Kapitalbedarf verstehen",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Die Kapitalbedarfsrechnung ermittelt, wie viel Kapital für Anlage- und Umlaufvermögen während der Kapitalbindungsdauer nötig ist.",
+        "pruefungsrelevant": "Prüfungsnah ist, den Kapitalbedarf aus Umlaufvermögen (Lager, Debitoren) und dessen Kapitalbindungsdauer herzuleiten."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Planung Kapitalbedarf“ fachlich am besten?",
+      "frage": "Was ermittelt die Kapitalbedarfsrechnung?",
       "antwort_daten": {
         "optionen": [
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt."
+          "Wie viel Kapital ein Unternehmen benötigt, um Anlage- und Umlaufvermögen während der Kapitalbindungsdauer zu finanzieren.",
+          "Nur die Höhe der geschuldeten Mehrwertsteuer.",
+          "Ausschliesslich den Gewinn des laufenden Geschäftsjahres.",
+          "Wie viele Mitarbeitende zusätzlich eingestellt werden können."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Wie viel Kapital ein Unternehmen benötigt, um Anlage- und Umlaufvermögen während der Kapitalbindungsdauer zu finanzieren.",
+        "rechenweg": "Je länger Kapital in Lager oder Debitoren gebunden ist (Kapitalbindungsdauer), desto höher ist der Kapitalbedarf, den ein Unternehmen finanzieren muss.",
+        "warum": "Mehrwertsteuer, Gewinn und Personalplanung sind eigenständige Themen und keine Kapitalbedarfsrechnung."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Kapitalbindungsdauer bei Lager und Debitoren nicht berücksichtigen.",
+        "Kapitalbedarf mit dem laufenden Gewinn verwechseln.",
+        "Nur das Anlagevermögen, nicht das Umlaufvermögen einrechnen."
       ],
       "review": {
         "box": 1,
@@ -4072,7 +4077,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Je länger das Kapital gebunden ist, desto grösser der Kapitalbedarf."
     },
     {
       "id": "finanzwirtschaft_planung_kapitalbedarf_stufe2_fehlerfalle",
@@ -4197,28 +4202,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Rechnung / Rechnungsprüfung verstehen",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Die Rechnungsprüfung kontrolliert formell (Vollständigkeit, MwSt.) und materiell (Menge/Preis gemäss Bestellung/Lieferung).",
+        "pruefungsrelevant": "Prüfungsnah ist der Abgleich von Rechnung mit Bestellung und Lieferschein sowie das Einhalten von Zahlungs- und Skontofristen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Rechnung / Rechnungsprüfung“ fachlich am besten?",
+      "frage": "Worauf wird bei der Rechnungsprüfung geachtet?",
       "antwort_daten": {
         "optionen": [
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung."
+          "Formell (Vollständigkeit, Mehrwertsteuer, Rechnungsnummer) und materiell (Menge und Preis stimmen mit Bestellung/Lieferung überein), inklusive Zahlungs- und Skontofristen.",
+          "Nur darauf, ob die Rechnung optisch professionell gestaltet ist.",
+          "Ausschliesslich das Zahlungsdatum, unabhängig vom Rechnungsinhalt.",
+          "Rechnungen müssen nicht mit der ursprünglichen Bestellung verglichen werden."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Formell (Vollständigkeit, Mehrwertsteuer, Rechnungsnummer) und materiell (Menge und Preis stimmen mit Bestellung/Lieferung überein), inklusive Zahlungs- und Skontofristen.",
+        "rechenweg": "Formelle Prüfung: Sind alle Pflichtangaben (MwSt., Adresse, Rechnungsnummer) vorhanden? Materielle Prüfung: Stimmen Menge und Preis mit Bestellung und Lieferschein überein?",
+        "warum": "Das Aussehen der Rechnung oder nur das Zahlungsdatum sagen nichts über deren inhaltliche Richtigkeit aus."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Rechnung bezahlen, ohne sie mit Bestellung/Lieferschein zu vergleichen.",
+        "Skontofristen verpassen und dadurch einen Preisvorteil verlieren.",
+        "Mehrwertsteuerbetrag auf der Rechnung nicht kontrollieren."
       ],
       "review": {
         "box": 1,
@@ -4239,7 +4244,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Erst vergleichen (Bestellung/Lieferschein/Rechnung), dann bezahlen."
     },
     {
       "id": "finanzwirtschaft_rechnung_rechnungspruefung_stufe2_fehlerfalle",
@@ -4291,32 +4296,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Rechnung / Rechnungsprüfung vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Die Rechnungsprüfung kontrolliert formell (Vollständigkeit, MwSt.) und materiell (Menge/Preis gemäss Bestellung/Lieferung).",
+        "pruefungsrelevant": "Prüfungsnah ist der Abgleich von Rechnung mit Bestellung und Lieferschein sowie das Einhalten von Zahlungs- und Skontofristen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Rechnung / Rechnungsprüfung“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Rechnungsprüfung sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig."
+          "Skontofristen werden verpasst, wodurch ein Preisvorteil verloren geht.",
+          "Die Rechnung wird bezahlt, ohne sie mit Bestellung und Lieferschein zu vergleichen.",
+          "Die Mehrwertsteuer auf der Rechnung muss nie kontrolliert werden.",
+          "Eine Rechnungsprüfung ist nur bei sehr hohen Beträgen nötig.",
+          "Formelle Pflichtangaben wie Rechnungsnummer oder Adresse werden nicht kontrolliert."
         ],
         "richtige_indices": [
-          2,
-          3
+          0,
+          1,
+          4
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Richtig sind verpasste Skontofristen, fehlender Abgleich mit Bestellung/Lieferschein und übersehene formelle Pflichtangaben.",
+        "rechenweg": "Jede Rechnung - unabhängig von der Höhe - sollte formell und materiell geprüft werden, sonst schleichen sich Fehler oder unberechtigte Beträge ein.",
+        "warum": "Die Mehrwertsteuer gehört zu den Pflichtangaben, die immer kontrolliert werden müssen - auch bei kleinen Beträgen."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Rechnung bezahlen, ohne sie mit Bestellung/Lieferschein zu vergleichen.",
+        "Skontofristen verpassen und dadurch einen Preisvorteil verlieren.",
+        "Mehrwertsteuerbetrag auf der Rechnung nicht kontrollieren."
       ],
       "review": {
         "box": 1,
@@ -4339,7 +4345,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Erst vergleichen (Bestellung/Lieferschein/Rechnung), dann bezahlen."
     },
     {
       "id": "finanzwirtschaft_rechtliche_grundlagen_stufe1_begriff",
@@ -4525,7 +4531,7 @@
       "id": "finanzwirtschaft_roe_stufe1_begriff",
       "fach": "Finanzwirtschaft",
       "thema_id": "roe",
-      "thema": "Integrierte Fallstudie",
+      "thema": "Kennzahl ROE (Eigenkapitalrendite)",
       "quelle": {
         "typ": "abgeleitet_aus_pruefungen",
         "jahre": [],
@@ -4540,30 +4546,30 @@
       },
       "stufe": 1,
       "typ": "single_choice",
-      "lernziel": "Grundidee zu roe verstehen",
+      "lernziel": "Grundidee zur Eigenkapitalrendite (ROE) verstehen",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Der ROE (Eigenkapitalrendite) zeigt, wie gut sich das von den Eigentümern eingesetzte Eigenkapital verzinst.",
+        "pruefungsrelevant": "Prüfungsnah ist die Formel ROE = Reingewinn / Eigenkapital und die Abgrenzung zum ROI (Gesamtkapitalrendite)."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Integrierte Fallstudie“ fachlich am besten?",
+      "frage": "Was misst die Eigenkapitalrendite (ROE)?",
       "antwort_daten": {
         "optionen": [
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig."
+          "Wie gut sich das eingesetzte Eigenkapital der Eigentümer verzinst (Reingewinn im Verhältnis zum Eigenkapital).",
+          "Wie viel Fremdkapital das Unternehmen insgesamt aufgenommen hat.",
+          "Den Umsatz im Verhältnis zum durchschnittlichen Lagerbestand.",
+          "Die Liquidität des Unternehmens am Bilanzstichtag."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Wie gut sich das eingesetzte Eigenkapital der Eigentümer verzinst (Reingewinn im Verhältnis zum Eigenkapital).",
+        "rechenweg": "ROE = Reingewinn / Eigenkapital × 100%. Ein hoher ROE zeigt, dass die Eigentümer ihr eingesetztes Kapital gut verzinst bekommen.",
+        "warum": "Fremdkapitalhöhe, Lagerumschlag und Liquidität sind andere Kennzahlen und beantworten nicht die Frage nach der Eigenkapitalverzinsung."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "ROE mit ROI (Gesamtkapitalrendite) verwechseln.",
+        "Eigenkapital statt Gesamtkapital im Nenner falsch einsetzen.",
+        "Reingewinn mit Umsatz verwechseln."
       ],
       "review": {
         "box": 1,
@@ -4584,7 +4590,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "ROE verzinst das Eigenkapital, ROI verzinst das Gesamtkapital."
     },
     {
       "id": "finanzwirtschaft_roe_stufe2_fehlerfalle",
@@ -4605,34 +4611,35 @@
       },
       "stufe": 2,
       "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei roe vermeiden",
+      "lernziel": "Typische Fehler bei der Eigenkapitalrendite (ROE) vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Der ROE (Eigenkapitalrendite) zeigt, wie gut sich das von den Eigentümern eingesetzte Eigenkapital verzinst.",
+        "pruefungsrelevant": "Prüfungsnah ist die Formel ROE = Reingewinn / Eigenkapital und die Abgrenzung zum ROI (Gesamtkapitalrendite)."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Integrierte Fallstudie“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Eigenkapitalrendite (ROE) sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig."
+          "ROE wird mit dem ROI (Gesamtkapitalrendite) verwechselt.",
+          "Im Nenner wird versehentlich das Gesamtkapital statt des Eigenkapitals verwendet.",
+          "Ein hoher ROE bedeutet automatisch ein tiefes unternehmerisches Risiko.",
+          "Reingewinn und Umsatz werden gleichgesetzt, obwohl sie unterschiedliche Grössen sind.",
+          "Der ROE sagt allein noch nichts über die Liquidität des Unternehmens aus."
         ],
         "richtige_indices": [
           0,
+          1,
           3
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Richtig sind die Verwechslung mit dem ROI, der falsche Nenner (Gesamtkapital statt Eigenkapital) und die Verwechslung von Reingewinn und Umsatz.",
+        "rechenweg": "ROE = Reingewinn / Eigenkapital. Wird stattdessen das Gesamtkapital eingesetzt, erhält man den ROI, nicht den ROE.",
+        "warum": "Ein hoher ROE kann auch durch hohe Verschuldung (wenig Eigenkapital) entstehen und ist deshalb kein alleiniger Beleg für tiefes Risiko."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "ROE mit ROI (Gesamtkapitalrendite) verwechseln.",
+        "Eigenkapital statt Gesamtkapital im Nenner falsch einsetzen.",
+        "Reingewinn mit Umsatz verwechseln."
       ],
       "review": {
         "box": 1,
@@ -4655,13 +4662,13 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "ROE verzinst das Eigenkapital, ROI verzinst das Gesamtkapital."
     },
     {
       "id": "finanzwirtschaft_roi_stufe1_begriff",
       "fach": "Finanzwirtschaft",
       "thema_id": "roi",
-      "thema": "Integrierte Fallstudie",
+      "thema": "Kennzahl ROI (Gesamtkapitalrendite)",
       "quelle": {
         "typ": "abgeleitet_aus_pruefungen",
         "jahre": [],
@@ -4676,30 +4683,30 @@
       },
       "stufe": 1,
       "typ": "single_choice",
-      "lernziel": "Grundidee zu roi verstehen",
+      "lernziel": "Grundidee zum Return on Investment (ROI) verstehen",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Der ROI (Return on Investment) zeigt, wie rentabel das gesamte eingesetzte Kapital genutzt wird.",
+        "pruefungsrelevant": "Prüfungsnah ist die Formel ROI = Umsatzrentabilität × Kapitalumschlag und die Abgrenzung zum ROE (Eigenkapitalrendite)."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Integrierte Fallstudie“ fachlich am besten?",
+      "frage": "Was zeigt der Return on Investment (ROI)?",
       "antwort_daten": {
         "optionen": [
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig."
+          "Wie rentabel das gesamte eingesetzte Kapital (Eigen- und Fremdkapital) genutzt wird, z.B. über Umsatzrentabilität mal Kapitalumschlag.",
+          "Nur den Gewinn in absoluten Franken, unabhängig vom eingesetzten Kapital.",
+          "Ausschliesslich die Liquidität 2. Grades des Unternehmens.",
+          "Die Höhe der jährlich anfallenden Fremdkapitalzinsen."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Wie rentabel das gesamte eingesetzte Kapital (Eigen- und Fremdkapital) genutzt wird, z.B. über Umsatzrentabilität mal Kapitalumschlag.",
+        "rechenweg": "ROI = Umsatzrentabilität (Gewinn/Umsatz) × Kapitalumschlag (Umsatz/Gesamtkapital) = Gewinn / Gesamtkapital.",
+        "warum": "Der absolute Gewinn allein, Liquiditätskennzahlen oder Fremdkapitalzinsen beantworten nicht die Frage nach der Kapitalrentabilität."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "ROI mit ROE (Eigenkapitalrendite) verwechseln.",
+        "Nur den absoluten Gewinn statt die Rendite auf das eingesetzte Kapital betrachten.",
+        "Umsatzrentabilität und Kapitalumschlag nicht miteinander verknüpfen."
       ],
       "review": {
         "box": 1,
@@ -4720,7 +4727,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "ROE verzinst das Eigenkapital, ROI verzinst das Gesamtkapital."
     },
     {
       "id": "finanzwirtschaft_roi_stufe2_fehlerfalle",
@@ -4741,34 +4748,35 @@
       },
       "stufe": 2,
       "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei roi vermeiden",
+      "lernziel": "Typische Fehler beim Return on Investment (ROI) vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Der ROI (Return on Investment) zeigt, wie rentabel das gesamte eingesetzte Kapital genutzt wird.",
+        "pruefungsrelevant": "Prüfungsnah ist die Formel ROI = Umsatzrentabilität × Kapitalumschlag und die Abgrenzung zum ROE (Eigenkapitalrendite)."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Integrierte Fallstudie“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Return on Investment (ROI) sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt."
+          "ROI wird mit dem ROE (Eigenkapitalrendite) verwechselt.",
+          "Nur der absolute Gewinn wird betrachtet, ohne ihn zum eingesetzten Kapital in Bezug zu setzen.",
+          "Umsatzrentabilität und Kapitalumschlag werden bei der Berechnung nicht miteinander verknüpft.",
+          "Ein hoher ROI bedeutet automatisch eine hohe Liquidität.",
+          "Der ROI berücksichtigt sowohl Eigen- als auch Fremdkapital im Nenner."
         ],
         "richtige_indices": [
-          2,
-          3
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Richtig sind die Verwechslung mit dem ROE, das Betrachten des absoluten Gewinns ohne Kapitalbezug und die fehlende Verknüpfung von Umsatzrentabilität und Kapitalumschlag.",
+        "rechenweg": "ROI = Umsatzrentabilität (Gewinn/Umsatz) × Kapitalumschlag (Umsatz/Gesamtkapital) = Gewinn / Gesamtkapital.",
+        "warum": "Rentabilität (ROI) und Liquidität sind unterschiedliche Kennzahlen - ein hoher ROI sagt nichts über die Zahlungsfähigkeit aus."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "ROI mit ROE (Eigenkapitalrendite) verwechseln.",
+        "Nur den absoluten Gewinn statt die Rendite auf das eingesetzte Kapital betrachten.",
+        "Umsatzrentabilität und Kapitalumschlag nicht miteinander verknüpfen."
       ],
       "review": {
         "box": 1,
@@ -4791,7 +4799,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "ROE verzinst das Eigenkapital, ROI verzinst das Gesamtkapital."
     },
     {
       "id": "finanzwirtschaft_soll_ist_vergleich_stufe1_begriff",
@@ -4816,28 +4824,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Soll-Ist-Vergleich verstehen",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Der Soll-Ist-Vergleich stellt budgetierte (Soll-)Werte den tatsächlichen (Ist-)Werten gegenüber, um Abweichungen zu erkennen.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus festgestellten Abweichungen die Ursachen zu analysieren und konkrete Massnahmen abzuleiten."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Soll-Ist-Vergleich“ fachlich am besten?",
+      "frage": "Wozu dient der Soll-Ist-Vergleich?",
       "antwort_daten": {
         "optionen": [
-          "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig."
+          "Budgetierte (Soll-)Werte den tatsächlichen (Ist-)Werten gegenüberzustellen, Abweichungen zu analysieren und Massnahmen abzuleiten.",
+          "Nur um festzustellen, ob die Buchhaltung formell korrekt geführt wurde.",
+          "Ausschliesslich zur Berechnung der geschuldeten Mehrwertsteuer.",
+          "Um einmalig den aktuellen Lagerbestand zu zählen."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Budgetierte (Soll-)Werte den tatsächlichen (Ist-)Werten gegenüberzustellen, Abweichungen zu analysieren und Massnahmen abzuleiten.",
+        "rechenweg": "Abweichung = Ist-Wert minus Soll-Wert. Danach folgt die Ursachenanalyse (z.B. Preis- oder Mengenabweichung) und die Ableitung von Korrekturmassnahmen.",
+        "warum": "Buchführungskorrektheit, Mehrwertsteuer und Lagerzählung sind eigene Aufgaben, keine Ziele des Soll-Ist-Vergleichs."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Abweichungen feststellen, aber Ursachen nicht analysieren.",
+        "Keine konkreten Korrekturmassnahmen aus den Abweichungen ableiten.",
+        "Soll-Ist-Vergleich nur einmal jährlich statt periodisch durchführen."
       ],
       "review": {
         "box": 1,
@@ -4858,7 +4866,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Abweichung erkennen ist nur der erste Schritt - Ursache und Massnahme zählen."
     },
     {
       "id": "finanzwirtschaft_soll_ist_vergleich_stufe2_fehlerfalle",
@@ -4883,32 +4891,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Soll-Ist-Vergleich vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Der Soll-Ist-Vergleich stellt budgetierte (Soll-)Werte den tatsächlichen (Ist-)Werten gegenüber, um Abweichungen zu erkennen.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus festgestellten Abweichungen die Ursachen zu analysieren und konkrete Massnahmen abzuleiten."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Soll-Ist-Vergleich“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Soll-Ist-Vergleich sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden."
+          "Abweichungen werden festgestellt, aber die Ursachen nicht analysiert.",
+          "Es werden keine konkreten Korrekturmassnahmen aus den Abweichungen abgeleitet.",
+          "Jede Abweichung ist automatisch ein Zeichen für schlechte Arbeit.",
+          "Ein Soll-Ist-Vergleich ist nur am Jahresende sinnvoll.",
+          "Preis- und Mengenabweichungen werden nicht getrennt betrachtet."
         ],
         "richtige_indices": [
-          2,
+          0,
+          1,
           4
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Richtig sind: Ursachen nicht analysieren, keine Massnahmen ableiten und Preis-/Mengenabweichungen nicht trennen.",
+        "rechenweg": "Erst die Trennung von Preis- und Mengenabweichung zeigt, ob z.B. höhere Kosten oder ein höherer Absatz die Ursache waren.",
+        "warum": "Nicht jede Abweichung bedeutet schlechte Arbeit (z.B. mehr Absatz als geplant), und der Vergleich ist auch unterjährig sinnvoll, nicht nur am Jahresende."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Abweichungen feststellen, aber Ursachen nicht analysieren.",
+        "Keine konkreten Korrekturmassnahmen aus den Abweichungen ableiten.",
+        "Soll-Ist-Vergleich nur einmal jährlich statt periodisch durchführen."
       ],
       "review": {
         "box": 1,
@@ -4931,7 +4940,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Abweichung erkennen ist nur der erste Schritt - Ursache und Massnahme zählen."
     },
     {
       "id": "finanzwirtschaft_verhalten_gegenueber_der_kundschaft_stufe1_begriff",
@@ -4956,28 +4965,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Verhalten gegenüber der Kundschaft verstehen",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Auch bei offenen Forderungen kommuniziert die Finanzabteilung sachlich, korrekt und lösungsorientiert mit der Kundschaft.",
+        "pruefungsrelevant": "Prüfungsnah ist der professionelle, faire Umgang mit Kundinnen und Kunden bei Zahlungsverzug unter Einhaltung des Datenschutzes."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Verhalten gegenüber der Kundschaft“ fachlich am besten?",
+      "frage": "Wie sollte sich die Finanzabteilung gegenüber der Kundschaft verhalten, z.B. bei offenen Forderungen?",
       "antwort_daten": {
         "optionen": [
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung."
+          "Sachlich, korrekt und verbindlich kommunizieren - konsequent bei Fristen, aber fair und lösungsorientiert im Ton.",
+          "Kundinnen und Kunden bei Zahlungsverzug öffentlich blossstellen, um Druck aufzubauen.",
+          "Persönliche Daten der Kundschaft ohne Rücksicht auf den Datenschutz an Dritte weitergeben.",
+          "Bei jeder Unstimmigkeit den Kontakt zur Kundschaft sofort abbrechen."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Sachlich, korrekt und verbindlich kommunizieren - konsequent bei Fristen, aber fair und lösungsorientiert im Ton.",
+        "rechenweg": "Professionelles Verhalten bedeutet, Fristen und Prozesse konsequent einzuhalten, ohne die Kundenbeziehung unnötig zu beschädigen.",
+        "warum": "Blossstellung, Datenschutzverletzungen und Kontaktabbruch verstossen gegen rechtliche und ethische Grundsätze im Kundenumgang."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Kundendaten ohne Einwilligung weitergeben (Datenschutzverstoss).",
+        "Bei Zahlungsverzug unangemessen scharfen oder blossstellenden Ton wählen.",
+        "Kommunikation bei Unstimmigkeiten ganz abbrechen, statt lösungsorientiert zu bleiben."
       ],
       "review": {
         "box": 1,
@@ -4998,7 +5007,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Konsequent bei der Sache, fair im Ton - das wahrt die Kundenbeziehung."
     },
     {
       "id": "finanzwirtschaft_verhalten_gegenueber_der_kundschaft_stufe2_fehlerfalle",
@@ -5217,32 +5226,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Ziele / SMART vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Finanzielle Ziele werden nach dem SMART-Prinzip mit konkreten Zahlen, Terminen und realistischen Vorgaben formuliert.",
+        "pruefungsrelevant": "Prüfungsnah ist, unspezifische Zielformulierungen zu erkennen und in messbare, terminierte Finanzziele umzuformulieren."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Ziele / SMART“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu finanziellen Zielen nach dem SMART-Prinzip sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Ziele konkret, messbar und terminiert formulieren."
+          "Finanzielle Ziele sollten mit konkreten Zahlen und einem Termin versehen werden, z.B. 'Umsatz bis Jahresende um 5% steigern'.",
+          "Ziele müssen realistisch erreichbar sein, sonst verlieren sie ihre Steuerungswirkung.",
+          "Ein Ziel wie 'die Finanzen verbessern' ist bereits ausreichend konkret formuliert.",
+          "Finanzielle Ziele müssen nicht überprüft werden, sobald sie einmal festgelegt sind.",
+          "Der Zielerreichungsgrad sollte periodisch mit einem Soll-Ist-Vergleich überprüft werden."
         ],
         "richtige_indices": [
-          3,
+          0,
+          1,
           4
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Richtig sind konkrete, terminierte Zielformulierungen, realistische Erreichbarkeit und die periodische Überprüfung des Zielerreichungsgrads.",
+        "rechenweg": "SMART steht für spezifisch, messbar, akzeptiert, realistisch, terminiert - 'Finanzen verbessern' erfüllt keines dieser Kriterien konkret.",
+        "warum": "Ziele ohne Überprüfung verlieren ihre Steuerungswirkung; erst der laufende Soll-Ist-Vergleich zeigt, ob nachgesteuert werden muss."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Ziele zu allgemein formulieren, ohne Zahl oder Termin.",
+        "Unrealistische Ziele setzen, die von Beginn an demotivieren.",
+        "Zielerreichung nie überprüfen oder nachsteuern."
       ],
       "review": {
         "box": 1,
@@ -5265,7 +5275,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Ohne Zahl und Termin ist ein Ziel nur ein Wunsch."
     },
     {
       "id": "finanzwirtschaft_zuschlagskalkulation_stufe1_begriff",
@@ -44616,7 +44626,7 @@
       "fach": "Finanzwirtschaft",
       "quelle_id": "formel_kontrolle_pruefungen_2022_2025",
       "quelle_pdf": null,
-      "lernziel": "Formel prüfungsnah sicher abrufen: roe",
+      "lernziel": "Formel zur Eigenkapitalrendite (ROE) prüfungsnah sicher abrufen",
       "typ": "formel_luecke_mc",
       "frage": "Ergänze die Formel mit Auswahlfeldern.",
       "antwort_daten": {
@@ -44663,7 +44673,7 @@
         "lerntauglich"
       ],
       "thema_id": "roe",
-      "thema": "Integrierte Fallstudie",
+      "thema": "Kennzahl ROE (Eigenkapitalrendite)",
       "quelle": {
         "typ": "pruefung",
         "jahr": null,
@@ -44705,7 +44715,7 @@
       "fach": "Finanzwirtschaft",
       "quelle_id": "formel_kontrolle_pruefungen_2022_2025",
       "quelle_pdf": null,
-      "lernziel": "Formel prüfungsnah sicher abrufen: roi",
+      "lernziel": "Formel zum Return on Investment (ROI) prüfungsnah sicher abrufen",
       "typ": "formel_luecke_mc",
       "frage": "Ergänze die Formel mit Auswahlfeldern.",
       "antwort_daten": {
@@ -44752,7 +44762,7 @@
         "lerntauglich"
       ],
       "thema_id": "roi",
-      "thema": "Integrierte Fallstudie",
+      "thema": "Kennzahl ROI (Gesamtkapitalrendite)",
       "quelle": {
         "typ": "pruefung",
         "jahr": null,
