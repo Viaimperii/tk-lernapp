@@ -19,14 +19,7 @@ import { cards, contentMeta, invalidCards, schemaVersion } from './data'
 
 const PROGRESS_KEY = 'tk-lernapp-topic-progress-v1'
 const DISABLED_KEY = 'tk-lernapp-disabled-topics-v3'
-const REVIEW_DAYS = {
-  1: 1,
-  2: 2,
-  3: 5,
-  4: 10,
-  5: 20,
-  6: 40
-}
+const REVIEW_LOCK_MS = 12 * 60 * 60 * 1000
 
 const subjects = [
   { id: 'Finanzwirtschaft', label: 'Finanzwirtschaft', color: '#2f80ed', icon: CircleDollarSign },
@@ -47,7 +40,6 @@ const defaultProgress = {
   correct: 0,
   wrong: 0,
   solvedOnce: false,
-  box: 1,
   richtig_in_folge: 0,
   falsch_in_folge: 0,
   lastAnswer: null,
@@ -87,10 +79,6 @@ function formatRemaining(target) {
   return `${hours} Std. ${minutes} Min.`
 }
 
-function addDaysIso(days) {
-  return new Date(Date.now() + days * 24 * 60 * 60 * 1000).toISOString()
-}
-
 function stageLabel(stage) {
   if (stage === 1) return 'Grundlage'
   if (stage === 2) return 'Anwendung / Fehlerfalle'
@@ -119,29 +107,27 @@ function App() {
   function updateTopicProgress(topic, card, answer, isCorrect) {
     const current = getProgress(progress, topic.id)
     const currentStage = normalizeStage(topic, current.stage)
-    const nextBox = isCorrect ? Math.min((current.box ?? 1) + 1, 6) : 1
-    const nextReview = addDaysIso(REVIEW_DAYS[nextBox])
     const now = new Date().toISOString()
     const nextAttempts = {
       ...current.attemptsByStage,
       [currentStage]: (current.attemptsByStage?.[currentStage] ?? 0) + 1
     }
     const reachedFinalStage = currentStage >= topic.maxStage
+    const justSolvedFinalStage = isCorrect && reachedFinalStage
     const nextStage = isCorrect ? getNextTopicStage(topic, currentStage) : currentStage
     const nextProgress = {
       ...current,
       stage: nextStage,
       correct: current.correct + (isCorrect ? 1 : 0),
       wrong: current.wrong + (isCorrect ? 0 : 1),
-      box: nextBox,
       richtig_in_folge: isCorrect ? (current.richtig_in_folge ?? 0) + 1 : 0,
       falsch_in_folge: isCorrect ? 0 : (current.falsch_in_folge ?? 0) + 1,
-      solvedOnce: current.solvedOnce || (isCorrect && reachedFinalStage),
+      solvedOnce: current.solvedOnce || justSolvedFinalStage,
       lastAnswer: answer,
       lastCardId: card.id,
       lastCorrect: isCorrect,
       lastTimestamp: now,
-      nextReview: nextReview,
+      nextReview: justSolvedFinalStage ? new Date(Date.now() + REVIEW_LOCK_MS).toISOString() : current.nextReview,
       attemptsByStage: nextAttempts
     }
 
@@ -323,7 +309,6 @@ function SubjectScreen({ subject, progress, disabled, onBack, onToggle, onStartS
                 <button className="min-h-[64px] min-w-0 flex-1 text-left" disabled={off} onClick={() => onOpenTopic(topic.id)}>
                   <div className="mb-2 flex flex-wrap items-center gap-2">
                     <StageBadge stage={currentStage} />
-                    <span className="rounded-full bg-slate-100 px-2 py-1 text-xs font-black text-slate-700">Box {topicProgress.box ?? 1}</span>
                     {topicProgress.solvedOnce && (
                       <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2 py-1 text-xs font-black text-emerald-800">
                         <Trophy size={12} /> Schon gelöst
@@ -698,7 +683,7 @@ function FeedbackPanel({ result, card, finalStage }) {
       </div>
       {result.correct && finalStage && (
         <p className="mb-3 flex items-center gap-2 rounded-lg bg-white p-2 text-sm font-black text-emerald-800">
-          <Trophy size={17} /> Höchste Stufe korrekt gelöst: Thema ist nach Wiederholungsbox terminiert.
+          <Trophy size={17} /> Höchste Stufe korrekt gelöst: Thema ist jetzt für 12 Stunden gesperrt.
         </p>
       )}
       {result.correct && !finalStage && (
