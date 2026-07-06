@@ -26321,32 +26321,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei ABC-Analyse vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Die ABC-Analyse klassifiziert Materialien nach ihrem Wertanteil: A-Güter (wenige, aber wertintensiv) werden intensiv gesteuert, C-Güter (viele, aber wertgering) einfacher bewirtschaftet.",
+        "pruefungsrelevant": "Prüfungsnah ist, A-Güter von C-Gütern zu unterscheiden und passende Steuerungsintensität abzuleiten."
       },
-      "frage": "Welche Hinweise helfen beim Thema „ABC-Analyse“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der ABC-Analyse sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl."
+          "A- und C-Güter werden verwechselt (Menge statt Wert als Kriterium).",
+          "Alle Güter werden gleich intensiv gesteuert, ohne nach Wertanteil zu differenzieren.",
+          "A-Güter werden fälschlich als mengenmässig grösste Gruppe angenommen.",
+          "A-Güter werden mit besonderer Sorgfalt disponiert und überwacht.",
+          "C-Güter werden mit vereinfachten, pauschalen Bestellregeln bewirtschaftet."
         ],
         "richtige_indices": [
+          0,
           1,
-          3
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Richtig sind die Verwechslung von Menge und Wert, die undifferenzierte Steuerung aller Güter und die falsche Mengenannahme bei A-Gütern.",
+        "rechenweg": "A-Güter machen meist einen kleinen Mengen-, aber grossen Wertanteil aus - deshalb lohnt sich hier intensivere Steuerung als bei C-Gütern.",
+        "warum": "Prüfungsnah ist, A-Güter von C-Gütern zu unterscheiden und passende Steuerungsintensität abzuleiten."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "A- und C-Güter verwechseln (Menge statt Wert als Kriterium nehmen).",
+        "Alle Güter gleich intensiv steuern, statt nach Wertanteil zu differenzieren.",
+        "Annehmen, A-Güter seien mengenmässig die grösste Gruppe."
       ],
       "review": {
         "box": 1,
@@ -26369,7 +26370,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Wenig Menge, viel Wert: das sind die A-Güter."
     },
     {
       "id": "scm_anspruchsgruppen_stufe1_begriff",
@@ -26602,32 +26603,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Belieferungskonzepte vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Belieferungskonzepte wie Just-in-Time oder Just-in-Sequence sollen Material bedarfsgerecht liefern und Lagerbestände tief halten.",
+        "pruefungsrelevant": "Prüfungsnah ist, Nutzen (weniger Kapitalbindung) und Risiken (Abhängigkeit von pünktlicher Lieferung) von Belieferungskonzepten zu benennen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Belieferungskonzepte“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei Belieferungskonzepten sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten."
+          "Just-in-Time wird eingesetzt, ohne die Lieferzuverlässigkeit des Lieferanten zu prüfen.",
+          "Das Belieferungskonzept wird gewählt, ohne Lagerkosten und Versorgungssicherheit abzuwägen.",
+          "Alle Artikel werden gleich behandelt, statt das Konzept je nach Artikel anzupassen.",
+          "Das Konzept wird passend zur Bedeutung und Verfügbarkeit jedes Artikels gewählt.",
+          "Lieferanten werden vor Einführung von Just-in-Time auf Zuverlässigkeit geprüft."
         ],
         "richtige_indices": [
+          0,
           1,
-          4
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Richtig sind das ungeprüfte Einsetzen von Just-in-Time, die fehlende Abwägung von Kosten/Sicherheit und die undifferenzierte Behandlung aller Artikel.",
+        "rechenweg": "Ohne verlässliche Lieferanten führt Just-in-Time schnell zu Produktionsausfällen statt zu Kosteneinsparungen.",
+        "warum": "Prüfungsnah ist, Nutzen (weniger Kapitalbindung) und Risiken (Abhängigkeit von pünktlicher Lieferung) von Belieferungskonzepten zu benennen."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Just-in-Time ohne Blick auf Lieferzuverlässigkeit einsetzen.",
+        "Belieferungskonzept wählen, ohne Lagerkosten und Versorgungssicherheit gegeneinander abzuwägen.",
+        "Alle Artikel gleich behandeln, statt das Konzept je nach Artikel anzupassen."
       ],
       "review": {
         "box": 1,
@@ -26650,7 +26652,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Just-in-Time heisst: genau dann, wenn's gebraucht wird - nicht früher, nicht mehr."
     },
     {
       "id": "scm_beschaffung_lieferanten_stufe1_begriff",
@@ -26937,32 +26939,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Bestandteile einer Offerte vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Eine vollständige Offerte enthält alle Angaben, die für einen fairen Vergleich und eine verbindliche Bestellung nötig sind.",
+        "pruefungsrelevant": "Prüfungsnah ist, welche Angaben in einer Offerte zwingend enthalten sein müssen, damit sie vergleichbar und rechtlich verbindlich ist."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Bestandteile einer Offerte“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Umgang mit Offerten sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten."
+          "Offerten werden nur nach dem Preis verglichen, andere Kriterien werden ignoriert.",
+          "Eine fehlende Gültigkeitsdauer wird nicht bemerkt und ein abgelaufenes Angebot angenommen.",
+          "Der Leistungsbeschrieb wird zu ungenau formuliert, was zu Missverständnissen führt.",
+          "Alle relevanten Kriterien (Preis, Frist, Zahlungsbedingungen) werden systematisch verglichen.",
+          "Die Gültigkeitsdauer jeder Offerte wird vor der Annahme geprüft."
         ],
         "richtige_indices": [
-          2,
-          4
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Richtig sind der reine Preisvergleich, das Übersehen der Gültigkeitsdauer und ein zu ungenauer Leistungsbeschrieb.",
+        "rechenweg": "Nur ein vollständiger Vergleich aller Kriterien (nicht nur Preis) verhindert teure Fehlentscheide bei der Auftragsvergabe.",
+        "warum": "Prüfungsnah ist, welche Angaben in einer Offerte zwingend enthalten sein müssen, damit sie vergleichbar und rechtlich verbindlich ist."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Offerten nur nach Preis vergleichen, ohne Lieferfrist oder Zahlungsbedingungen zu beachten.",
+        "Fehlende Gültigkeitsdauer nicht bemerken und ein abgelaufenes Angebot annehmen.",
+        "Leistungsbeschrieb zu ungenau formulieren, sodass Missverständnisse entstehen."
       ],
       "review": {
         "box": 1,
@@ -26985,7 +26988,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Eine gute Offerte beantwortet: was, wie viel, zu welchem Preis, bis wann."
     },
     {
       "id": "scm_dienstleistungsorientierung_stufe1_begriff",
@@ -27010,28 +27013,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Dienstleistungsorientierung verstehen",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Dienstleistungsorientierung bedeutet, Kundenerwartungen entlang der ganzen Lieferkette zuverlässig zu erfüllen.",
+        "pruefungsrelevant": "Prüfungsnah ist, konkrete Ursachen für schlechten Service (z.B. unrealistische Terminzusagen) zu erkennen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Dienstleistungsorientierung“ fachlich am besten?",
+      "frage": "Was bedeutet Dienstleistungsorientierung in der Supply Chain?",
       "antwort_daten": {
         "optionen": [
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung."
+          "Dienstleistungsorientierung bedeutet, Kundenerwartungen entlang der ganzen Lieferkette zuverlässig zu erfüllen.",
+          "Ausschliesslich freundliches Auftreten am Empfang.",
+          "Kundenerwartungen betreffen nur den Verkauf, nicht die Logistik.",
+          "Reklamationen sollten möglichst schnell und ohne weitere Prüfung abgewiesen werden."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Dienstleistungsorientierung bedeutet, Kundenerwartungen entlang der ganzen Lieferkette zuverlässig zu erfüllen.",
+        "rechenweg": "Zuverlässige Termine, transparente Kommunikation und funktionierende Prozesse entlang der ganzen Kette erfüllen Kundenerwartungen.",
+        "warum": "Freundlichkeit allein oder eine auf den Verkauf beschränkte Sichtweise deckt Dienstleistungsorientierung nicht vollständig ab."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Reklamationen nicht konsequent nachverfolgen.",
+        "Liefertermine ohne Kapazitätsprüfung zusagen.",
+        "Serviceverantwortung nur beim Verkauf sehen, nicht in der ganzen Lieferkette."
       ],
       "review": {
         "box": 1,
@@ -27052,7 +27055,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Guter Service hält, was er verspricht - und sagt rechtzeitig Bescheid, wenn nicht."
     },
     {
       "id": "scm_dienstleistungsorientierung_stufe2_fehlerfalle",
@@ -27218,32 +27221,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Distribution vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Distribution regelt, über welche Kanäle und Wege Produkte den Weg zur Kundschaft finden.",
+        "pruefungsrelevant": "Prüfungsnah ist die Unterscheidung direkter (Hersteller-Kunde) und indirekter (über Handel) Distributionswege sowie deren Vor-/Nachteile."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Distribution“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Distribution sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut."
+          "Direkte und indirekte Distribution werden nicht sauber unterschieden.",
+          "Distributionswege werden gewählt, ohne Zielgruppe und Produktart zu berücksichtigen.",
+          "Kosten der Distributionskanäle (z.B. Handelsmarge) werden nicht eingerechnet.",
+          "Der Distributionsweg wird passend zu Zielgruppe und Produkt gewählt.",
+          "Handelsmargen werden bei der Preiskalkulation berücksichtigt."
         ],
         "richtige_indices": [
+          0,
           1,
           2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Richtig sind die fehlende Unterscheidung der Distributionswege, die missachtete Zielgruppe und ignorierte Kanalkosten.",
+        "rechenweg": "Jeder Distributionskanal hat eigene Kosten (z.B. Handelsmarge) und Reichweite - beides muss in die Wahl einfliessen.",
+        "warum": "Prüfungsnah ist die Unterscheidung direkter (Hersteller-Kunde) und indirekter (über Handel) Distributionswege sowie deren Vor-/Nachteile."
       },
       "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
+        "Direkte und indirekte Distribution nicht unterscheiden können.",
+        "Distributionswege wählen, ohne Zielgruppe und Produktart zu berücksichtigen.",
+        "Kosten der Distributionskanäle (z.B. Handelsmarge) nicht einrechnen."
       ],
       "review": {
         "box": 1,
@@ -27266,7 +27270,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Distribution ist der Weg der Ware zur Kundschaft - direkt oder über den Handel."
     },
     {
       "id": "scm_e_procurement_stufe1_begriff",
@@ -27291,28 +27295,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu E-Procurement verstehen",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "E-Procurement nutzt elektronische Systeme (Online-Kataloge, E-Marktplätze) für effizientere, transparentere Beschaffungsprozesse.",
+        "pruefungsrelevant": "Prüfungsnah ist der Nutzen von E-Procurement: Zeitersparnis, Kostenreduktion und bessere Datenqualität durch Automatisierung."
       },
-      "frage": "Welche Aussage beschreibt das Thema „E-Procurement“ fachlich am besten?",
+      "frage": "Was ist der Nutzen von E-Procurement (elektronische Beschaffung)?",
       "antwort_daten": {
         "optionen": [
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt."
+          "E-Procurement nutzt elektronische Systeme (Online-Kataloge, E-Marktplätze) für effizientere, transparentere Beschaffungsprozesse.",
+          "E-Procurement ersetzt jede Lieferantenbeziehung vollständig durch Automaten.",
+          "E-Procurement funktioniert unabhängig von der Datenqualität der Systeme.",
+          "E-Procurement lohnt sich nur bei sehr grossen Unternehmen."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "E-Procurement nutzt elektronische Systeme (Online-Kataloge, E-Marktplätze) für effizientere, transparentere Beschaffungsprozesse.",
+        "rechenweg": "Elektronische Kataloge und automatisierte Bestellprozesse sparen Zeit, senken Fehlerquellen und schaffen Transparenz über Bestellungen.",
+        "warum": "E-Procurement ersetzt nicht die Lieferantenbeziehung, benötigt gute Datenqualität und lohnt sich auch für kleinere Unternehmen."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "E-Procurement nur als reines IT-Projekt statt als Prozessveränderung verstehen.",
+        "Datenqualität in den Systemen nicht sicherstellen.",
+        "Mitarbeitende nicht in neue elektronische Prozesse einführen."
       ],
       "review": {
         "box": 1,
@@ -27333,7 +27337,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "E-Procurement automatisiert den Prozess - die Datenqualität bleibt trotzdem Handarbeit."
     },
     {
       "id": "scm_e_procurement_stufe2_fehlerfalle",
@@ -27358,32 +27362,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei E-Procurement vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "E-Procurement nutzt elektronische Systeme (Online-Kataloge, E-Marktplätze) für effizientere, transparentere Beschaffungsprozesse.",
+        "pruefungsrelevant": "Prüfungsnah ist der Nutzen von E-Procurement: Zeitersparnis, Kostenreduktion und bessere Datenqualität durch Automatisierung."
       },
-      "frage": "Welche Hinweise helfen beim Thema „E-Procurement“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Einsatz von E-Procurement sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden."
+          "E-Procurement wird nur als IT-Projekt statt als Prozessveränderung verstanden.",
+          "Die Datenqualität in den Systemen wird nicht sichergestellt.",
+          "Mitarbeitende werden nicht in die neuen elektronischen Prozesse eingeführt.",
+          "Bestellprozesse werden durch die Automatisierung transparenter und schneller.",
+          "Kataloge und Stammdaten werden regelmässig gepflegt und aktualisiert."
         ],
         "richtige_indices": [
           0,
-          4
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Richtig sind die rein technische Sichtweise, vernachlässigte Datenqualität und fehlende Einführung der Mitarbeitenden.",
+        "rechenweg": "Ohne gepflegte Stammdaten und geschulte Mitarbeitende bleibt der erhoffte Effizienzgewinn von E-Procurement aus.",
+        "warum": "Prüfungsnah ist der Nutzen von E-Procurement: Zeitersparnis, Kostenreduktion und bessere Datenqualität durch Automatisierung."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "E-Procurement nur als reines IT-Projekt statt als Prozessveränderung verstehen.",
+        "Datenqualität in den Systemen nicht sicherstellen.",
+        "Mitarbeitende nicht in neue elektronische Prozesse einführen."
       ],
       "review": {
         "box": 1,
@@ -27406,7 +27411,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "E-Procurement automatisiert den Prozess - die Datenqualität bleibt trotzdem Handarbeit."
     },
     {
       "id": "scm_entsorgung_stufe1_begriff",
@@ -27639,32 +27644,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Entsorgungserklärung und -nachweis vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Der Entsorgungsnachweis belegt gegenüber Behörden die korrekte Entsorgung, v.a. bei Sonderabfällen.",
+        "pruefungsrelevant": "Prüfungsnah ist, dass Sonderabfälle eine lückenlose, dokumentierte Nachweiskette (Begleitschein) benötigen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Entsorgungserklärung und -nachweis“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Entsorgungsnachweis sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen."
+          "Entsorgungsnachweise werden unvollständig oder gar nicht aufbewahrt.",
+          "Es wird angenommen, der Nachweis betreffe nur unbedenkliche Abfälle wie Papier.",
+          "Der Nachweis wird mit der blossen Rechnung des Entsorgungsunternehmens verwechselt.",
+          "Begleitscheine für Sonderabfälle werden lückenlos dokumentiert.",
+          "Nachweise werden über die gesetzlich vorgeschriebene Dauer aufbewahrt."
         ],
         "richtige_indices": [
+          0,
           1,
-          4
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Richtig sind unvollständige Aufbewahrung, die falsche Beschränkung auf unbedenkliche Abfälle und die Verwechslung mit der Rechnung.",
+        "rechenweg": "Nur ein lückenloser Begleitschein erfüllt die gesetzliche Nachweispflicht - eine Rechnung allein genügt nicht.",
+        "warum": "Prüfungsnah ist, dass Sonderabfälle eine lückenlose, dokumentierte Nachweiskette (Begleitschein) benötigen."
       },
       "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
+        "Entsorgungsnachweise unvollständig oder gar nicht aufbewahren.",
+        "Annehmen, der Nachweis betreffe nur unbedenkliche Abfälle wie Papier.",
+        "Nachweis mit der blossen Rechnung des Entsorgers verwechseln."
       ],
       "review": {
         "box": 1,
@@ -27687,7 +27693,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Ohne Nachweis ist die Entsorgung aus Sicht des Gesetzes nicht erfolgt."
     },
     {
       "id": "scm_entsorgungslogistik_stufe1_begriff",
@@ -27779,32 +27785,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Entsorgungslogistik vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Entsorgungslogistik (Reverse Logistics) organisiert den Rückfluss von Abfällen und Wertstoffen zur Verwertung.",
+        "pruefungsrelevant": "Prüfungsnah ist die Abgrenzung zur klassischen Distributionslogistik: Entsorgungslogistik fliesst vom Betrieb weg zur Verwertung."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Entsorgungslogistik“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Entsorgungslogistik sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden."
+          "Entsorgungslogistik wird mit gewöhnlicher Distributionslogistik verwechselt.",
+          "Reststoffe werden nicht systematisch erfasst und transportiert.",
+          "Kosten der Rückführung und Verwertung werden bei der Planung vergessen.",
+          "Sammlung, Transport und Verwertung werden gezielt geplant.",
+          "Reststoffe werden nach Stoffart getrennt erfasst."
         ],
         "richtige_indices": [
+          0,
           1,
-          4
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Richtig sind die Verwechslung mit der Distributionslogistik, unsystematische Reststofferfassung und vergessene Rückführungskosten.",
+        "rechenweg": "Entsorgungslogistik läuft entgegengesetzt zur normalen Distribution und braucht eine eigene, geplante Organisation.",
+        "warum": "Prüfungsnah ist die Abgrenzung zur klassischen Distributionslogistik: Entsorgungslogistik fliesst vom Betrieb weg zur Verwertung."
       },
       "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
+        "Entsorgungslogistik mit gewöhnlicher Distributionslogistik verwechseln.",
+        "Reststoffe nicht systematisch erfassen und transportieren lassen.",
+        "Kosten der Rückführung/Verwertung bei der Planung vergessen."
       ],
       "review": {
         "box": 1,
@@ -27827,7 +27834,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Entsorgungslogistik ist der Weg des Abfalls - organisiert wie jeder andere Warenfluss."
     },
     {
       "id": "scm_fuehrung_personal_stufe1_begriff",
@@ -27878,28 +27885,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Führung / Personal verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Führung im Lager-/Logistikbereich muss Sicherheits- und Prozessvorgaben konsequent durchsetzen und klare Verantwortlichkeiten schaffen.",
+        "pruefungsrelevant": "Prüfungsnah ist, typische Führungslücken (unklare Verantwortlichkeiten, inkonsequente Durchsetzung von Vorgaben) zu erkennen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Führung / Personal“ fachlich am besten?",
+      "frage": "Was ist im Lager-/Logistikbereich für gute Personalführung besonders wichtig?",
       "antwort_daten": {
         "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht."
+          "Führung im Lager-/Logistikbereich muss Sicherheits- und Prozessvorgaben konsequent durchsetzen und klare Verantwortlichkeiten schaffen.",
+          "Sicherheitsvorgaben nur bei Kontrollen durch Vorgesetzte zu beachten.",
+          "Verantwortlichkeiten zwischen Schichten bewusst offen zu lassen.",
+          "Feedback zu Fehlern erst am Ende des Jahres zu geben."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Führung im Lager-/Logistikbereich muss Sicherheits- und Prozessvorgaben konsequent durchsetzen und klare Verantwortlichkeiten schaffen.",
+        "rechenweg": "Klare Verantwortlichkeiten und konsequent durchgesetzte Sicherheitsvorgaben verhindern Unfälle und Doppelspurigkeiten im Lagerbetrieb.",
+        "warum": "Vorgaben nur bei Kontrolle zu beachten, offene Verantwortlichkeiten oder spätes Feedback widersprechen professioneller Führung."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Sicherheitsvorgaben nicht konsequent durchsetzen.",
+        "Verantwortlichkeiten zwischen Schichten nicht klären.",
+        "Feedback zu Fehlern erst spät statt zeitnah geben."
       ],
       "review": {
         "box": 1,
@@ -27920,7 +27927,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Klare Verantwortung und konsequente Vorgaben verhindern Unfälle und Doppelspurigkeiten."
     },
     {
       "id": "scm_fuehrung_personal_stufe2_fehlerfalle",
@@ -28052,28 +28059,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Incoterms verstehen",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Incoterms (z.B. EXW, FOB, DAP) regeln international, ab welchem Punkt Kosten und Risiko für den Transport vom Verkäufer auf den Käufer übergehen.",
+        "pruefungsrelevant": "Prüfungsnah ist, für ausgewählte Incoterms zu wissen, wer Transport, Versicherung und Risiko bis zu welchem Punkt trägt."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Incoterms“ fachlich am besten?",
+      "frage": "Wozu dienen Incoterms im internationalen Handel?",
       "antwort_daten": {
         "optionen": [
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen."
+          "Incoterms (z.B. EXW, FOB, DAP) regeln international, ab welchem Punkt Kosten und Risiko für den Transport vom Verkäufer auf den Käufer übergehen.",
+          "Sie regeln ausschliesslich die Zahlungsfrist einer Rechnung.",
+          "Sie bestimmen den Eigentumsübergang der Ware.",
+          "Sie sind nur für den Seetransport gültig."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Incoterms (z.B. EXW, FOB, DAP) regeln international, ab welchem Punkt Kosten und Risiko für den Transport vom Verkäufer auf den Käufer übergehen.",
+        "rechenweg": "Je nach Incoterm (z.B. EXW: Käufer trägt fast alles; DAP: Verkäufer liefert bis zum Bestimmungsort) verschiebt sich der Kosten-/Risikoübergang.",
+        "warum": "Zahlungsfristen und Eigentumsübergang werden separat vertraglich geregelt, nicht durch Incoterms selbst."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Kosten- und Risikoübergang bei Incoterms verwechseln.",
+        "Annehmen, Incoterms regeln auch den Eigentumsübergang (tun sie nicht).",
+        "Falschen Incoterm für den gewählten Transportweg verwenden (z.B. FOB bei Lufttransport)."
       ],
       "review": {
         "box": 1,
@@ -28094,7 +28101,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Incoterms regeln, wer wann für Kosten und Risiko verantwortlich ist - nicht das Eigentum."
     },
     {
       "id": "scm_incoterms_stufe2_fehlerfalle",
@@ -28126,32 +28133,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Incoterms vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Incoterms (z.B. EXW, FOB, DAP) regeln international, ab welchem Punkt Kosten und Risiko für den Transport vom Verkäufer auf den Käufer übergehen.",
+        "pruefungsrelevant": "Prüfungsnah ist, für ausgewählte Incoterms zu wissen, wer Transport, Versicherung und Risiko bis zu welchem Punkt trägt."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Incoterms“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Umgang mit Incoterms sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl."
+          "Kosten- und Risikoübergang werden verwechselt.",
+          "Es wird angenommen, Incoterms würden auch den Eigentumsübergang regeln.",
+          "Ein für den Transportweg ungeeigneter Incoterm wird verwendet (z.B. FOB bei Lufttransport).",
+          "Der passende Incoterm wird je nach Transportmittel gewählt.",
+          "Vertragspartner klären den Kosten-/Risikoübergang vorab klar."
         ],
         "richtige_indices": [
           0,
+          1,
           2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Richtig sind die Verwechslung von Kosten und Risiko, die falsche Annahme zum Eigentumsübergang und ein falsch gewählter Incoterm.",
+        "rechenweg": "Manche Incoterms (z.B. FOB, CIF) gelten nur für See-/Binnenschifftransport - bei Luft-/Landtransport braucht es andere Klauseln.",
+        "warum": "Prüfungsnah ist, für ausgewählte Incoterms zu wissen, wer Transport, Versicherung und Risiko bis zu welchem Punkt trägt."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Kosten- und Risikoübergang bei Incoterms verwechseln.",
+        "Annehmen, Incoterms regeln auch den Eigentumsübergang (tun sie nicht).",
+        "Falschen Incoterm für den gewählten Transportweg verwenden (z.B. FOB bei Lufttransport)."
       ],
       "review": {
         "box": 1,
@@ -28174,7 +28182,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Incoterms regeln, wer wann für Kosten und Risiko verantwortlich ist - nicht das Eigentum."
     },
     {
       "id": "scm_infrastruktur_stufe1_begriff",
@@ -28548,32 +28556,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Investitionsentscheid vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Investitionsentscheide in der Logistik kombinieren Zahlen (Rentabilität) mit qualitativen Faktoren wie Flexibilität und Risiko.",
+        "pruefungsrelevant": "Prüfungsnah ist, mehrere Investitionskriterien gemeinsam statt isoliert zu betrachten."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Investitionsentscheid“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei Investitionsentscheiden in der Logistik sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt."
+          "Es wird nur eine Kennzahl statt mehrerer Kriterien berücksichtigt.",
+          "Qualitative Faktoren wie Flexibilität und Risiko werden ausgeblendet.",
+          "Der Anschaffungspreis wird mit der Wirtschaftlichkeit gleichgesetzt.",
+          "Mehrere Investitionsmethoden werden kombiniert beurteilt.",
+          "Qualitative und quantitative Kriterien werden gemeinsam gewichtet."
         ],
         "richtige_indices": [
+          0,
           1,
           2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Richtig sind die einseitige Kennzahlenwahl, ausgeblendete qualitative Faktoren und die falsche Gleichsetzung von Preis und Wirtschaftlichkeit.",
+        "rechenweg": "Erst mehrere Methoden zusammen mit qualitativen Faktoren wie Flexibilität ergeben ein vollständiges Bild einer Investition.",
+        "warum": "Prüfungsnah ist, mehrere Investitionskriterien gemeinsam statt isoliert zu betrachten."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Nur eine Kennzahl statt mehrerer Kriterien berücksichtigen.",
+        "Qualitative Faktoren wie Flexibilität und Risiko ausblenden.",
+        "Anschaffungspreis mit Wirtschaftlichkeit gleichsetzen."
       ],
       "review": {
         "box": 1,
@@ -28596,7 +28605,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Zahlen zeigen die Rendite, das Gesamtbild zeigt das Risiko."
     },
     {
       "id": "scm_it_infrastruktur_stufe1_begriff",
@@ -28688,32 +28697,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei IT-Infrastruktur vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "IT-Infrastruktur umfasst alle technischen Systeme, die Geschäftsprozesse digital unterstützen.",
+        "pruefungsrelevant": "Prüfungsnah ist, IT-Infrastruktur breit zu verstehen (Hardware, Software, Netzwerke) und nicht auf Einzelaspekte zu reduzieren."
       },
-      "frage": "Welche Hinweise helfen beim Thema „IT-Infrastruktur“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der IT-Infrastruktur sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat."
+          "IT-Infrastruktur wird nur auf Hardware reduziert, Software/Netzwerke werden vergessen.",
+          "Es wird angenommen, IT-Infrastruktur betreffe nur eine einzelne Abteilung.",
+          "Sicherheitsaspekte der IT-Infrastruktur werden ausgeblendet.",
+          "Hardware, Software und Netzwerke werden gemeinsam betrachtet.",
+          "Sicherheitsrisiken werden systematisch bewertet und adressiert."
         ],
         "richtige_indices": [
+          0,
           1,
-          3
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Richtig sind die Reduktion auf Hardware, die Beschränkung auf eine Abteilung und ausgeblendete Sicherheitsaspekte.",
+        "rechenweg": "IT-Infrastruktur betrifft alle Abteilungen, die auf digitale Prozesse angewiesen sind - nicht nur eine einzelne Stelle.",
+        "warum": "Prüfungsnah ist, IT-Infrastruktur breit zu verstehen (Hardware, Software, Netzwerke) und nicht auf Einzelaspekte zu reduzieren."
       },
       "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
+        "IT-Infrastruktur nur auf Hardware reduzieren, Software/Netzwerke vergessen.",
+        "Annehmen, IT-Infrastruktur betreffe nur eine einzelne Abteilung.",
+        "Sicherheitsaspekte der IT-Infrastruktur ausblenden."
       ],
       "review": {
         "box": 1,
@@ -28736,7 +28746,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "IT-Infrastruktur ist das digitale Rückgrat aller Prozesse - nicht nur der Buchhaltung."
     },
     {
       "id": "scm_it_infrastruktur_beurteilen_und_optimieren_stufe1_begriff",
@@ -28828,32 +28838,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei IT-Infrastruktur beurteilen und optimieren vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "IT-Systeme müssen periodisch auf Leistung, Sicherheit und Kosten geprüft und bei Bedarf optimiert werden.",
+        "pruefungsrelevant": "Prüfungsnah ist, mehrere Beurteilungskriterien (Leistung, Sicherheit, Kosten, Anpassungsfähigkeit) gemeinsam zu nennen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „IT-Infrastruktur beurteilen und optimieren“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Beurteilen und Optimieren der IT-Infrastruktur sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden."
+          "IT-Systeme werden nach der Einführung nie mehr überprüft.",
+          "Nur der Anschaffungspreis, nicht die Betriebskosten wird beurteilt.",
+          "Sicherheitsrisiken werden bei der Beurteilung ausser Acht gelassen.",
+          "Systeme werden periodisch auf Leistung und Sicherheit geprüft.",
+          "Optimierungsmassnahmen werden aus der Beurteilung konkret abgeleitet."
         ],
         "richtige_indices": [
-          3,
-          4
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Richtig sind die fehlende periodische Überprüfung, die Fokussierung nur auf den Anschaffungspreis und ausgeblendete Sicherheitsrisiken.",
+        "rechenweg": "Betriebskosten (Wartung, Lizenzen) und Sicherheitsrisiken übersteigen langfristig oft den reinen Anschaffungspreis.",
+        "warum": "Prüfungsnah ist, mehrere Beurteilungskriterien (Leistung, Sicherheit, Kosten, Anpassungsfähigkeit) gemeinsam zu nennen."
       },
       "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
+        "IT-Systeme nach der Einführung nie mehr überprüfen.",
+        "Nur den Anschaffungspreis, nicht die Betriebskosten beurteilen.",
+        "Sicherheitsrisiken bei der Beurteilung ausser Acht lassen."
       ],
       "review": {
         "box": 1,
@@ -28876,7 +28887,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "IT-Infrastruktur braucht laufende Pflege, nicht nur eine einmalige Einrichtung."
     },
     {
       "id": "scm_kuenstliche_intelligenz_ki_stufe1_begriff",
@@ -29069,28 +29080,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Lager / Lagerkennzahlen verstehen",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Lagerkennzahlen wie Lagerumschlag und Lagerdauer zeigen, wie viel Kapital im Lager gebunden ist.",
+        "pruefungsrelevant": "Prüfungsnah ist die Berechnung von Lagerumschlag (Wareneinsatz/durchschnittlicher Lagerbestand) und Lagerdauer (360/Lagerumschlag)."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Lager / Lagerkennzahlen“ fachlich am besten?",
+      "frage": "Was zeigen Lagerkennzahlen wie der Lagerumschlag?",
       "antwort_daten": {
         "optionen": [
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen."
+          "Lagerkennzahlen wie Lagerumschlag und Lagerdauer zeigen, wie viel Kapital im Lager gebunden ist.",
+          "Nur die Anzahl der Mitarbeitenden im Lager.",
+          "Ausschliesslich den Verkaufspreis der gelagerten Ware.",
+          "Hohe Lagerbestände sind immer besser, unabhängig von den Kosten."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Lagerkennzahlen wie Lagerumschlag und Lagerdauer zeigen, wie viel Kapital im Lager gebunden ist.",
+        "rechenweg": "Ein hoher Lagerumschlag bedeutet kurze Lagerdauer und damit wenig gebundenes Kapital - ein zentrales Wirtschaftlichkeitsmass.",
+        "warum": "Personalzahl oder Verkaufspreis sagen nichts über die Kapitalbindung im Lager aus, und hohe Bestände sind nicht automatisch positiv."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Hohe Lagerbestände unkritisch als positiv bewerten.",
+        "Lagerumschlag und Lagerdauer verwechseln oder falsch berechnen.",
+        "Kapitalbindungskosten des Lagers ausser Acht lassen."
       ],
       "review": {
         "box": 1,
@@ -29111,7 +29122,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Schneller Umschlag, kurze Lagerdauer, wenig gebundenes Kapital."
     },
     {
       "id": "scm_lager_lagerkennzahlen_stufe2_fehlerfalle",
@@ -29163,32 +29174,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Lager / Lagerkennzahlen vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Lagerkennzahlen wie Lagerumschlag und Lagerdauer zeigen, wie viel Kapital im Lager gebunden ist.",
+        "pruefungsrelevant": "Prüfungsnah ist die Berechnung von Lagerumschlag (Wareneinsatz/durchschnittlicher Lagerbestand) und Lagerdauer (360/Lagerumschlag)."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Lager / Lagerkennzahlen“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei Lagerkennzahlen sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten."
+          "Hohe Lagerbestände werden unkritisch als positiv bewertet.",
+          "Lagerumschlag und Lagerdauer werden verwechselt oder falsch berechnet.",
+          "Kapitalbindungskosten des Lagers werden ausser Acht gelassen.",
+          "Ein hoher Lagerumschlag wird korrekt als Zeichen tiefer Kapitalbindung erkannt.",
+          "Lagerkennzahlen werden regelmässig im Zeitverlauf verglichen."
         ],
         "richtige_indices": [
           0,
-          4
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Richtig sind die unkritische Bewertung hoher Bestände, verwechselte Kennzahlen und ignorierte Kapitalbindungskosten.",
+        "rechenweg": "Hohe Bestände bedeuten oft hohe Kapitalbindung und Lagerkosten - das wird beim reinen Blick auf Lieferfähigkeit übersehen.",
+        "warum": "Prüfungsnah ist die Berechnung von Lagerumschlag (Wareneinsatz/durchschnittlicher Lagerbestand) und Lagerdauer (360/Lagerumschlag)."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Hohe Lagerbestände unkritisch als positiv bewerten.",
+        "Lagerumschlag und Lagerdauer verwechseln oder falsch berechnen.",
+        "Kapitalbindungskosten des Lagers ausser Acht lassen."
       ],
       "review": {
         "box": 1,
@@ -29211,7 +29223,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Schneller Umschlag, kurze Lagerdauer, wenig gebundenes Kapital."
     },
     {
       "id": "scm_lager_lagerkennzahlen_stufe1_formel_1",
@@ -29358,28 +29370,28 @@
       "typ": "single_choice",
       "lernziel": "Formel zu Lagerdauer sicher abrufen",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Lagerkennzahlen wie Lagerumschlag und Lagerdauer zeigen, wie viel Kapital im Lager gebunden ist.",
+        "pruefungsrelevant": "Prüfungsnah ist die Berechnung von Lagerumschlag (Wareneinsatz/durchschnittlicher Lagerbestand) und Lagerdauer (360/Lagerumschlag)."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Lager / Lagerkennzahlen“ fachlich am besten?",
+      "frage": "Wie berechnet sich die Lagerdauer?",
       "antwort_daten": {
         "optionen": [
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen."
+          "Lagerdauer = 360 Tage / Lagerumschlag.",
+          "Lagerdauer = Lagerumschlag / 360 Tage.",
+          "Lagerdauer = durchschnittlicher Lagerbestand / Anzahl Lieferanten.",
+          "Lagerdauer = Wareneinsatz × Lagerumschlag."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Lagerdauer = 360 Tage / Lagerumschlag.",
+        "rechenweg": "360 Tage geteilt durch den Lagerumschlag ergibt, wie viele Tage die Ware im Durchschnitt im Lager liegt.",
+        "warum": "Die umgekehrte Division oder ein Bezug zur Lieferantenanzahl entsprechen nicht der Lagerdauer-Formel."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Hohe Lagerbestände unkritisch als positiv bewerten.",
+        "Lagerumschlag und Lagerdauer verwechseln oder falsch berechnen.",
+        "Kapitalbindungskosten des Lagers ausser Acht lassen."
       ],
       "review": {
         "box": 1,
@@ -29401,7 +29413,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Schneller Umschlag, kurze Lagerdauer, wenig gebundenes Kapital."
     },
     {
       "id": "scm_logistikkonzept_stufe1_begriff",
@@ -29567,28 +29579,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Losgrössenoptimierung verstehen",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Die Losgrössenoptimierung sucht die Bestell- bzw. Fertigungsmenge, bei der Bestell-/Rüstkosten und Lagerhaltungskosten zusammen minimal sind.",
+        "pruefungsrelevant": "Prüfungsnah ist, dass grosse Lose die Bestellkosten pro Stück senken, aber die Lagerkosten erhöhen - und umgekehrt."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Losgrössenoptimierung“ fachlich am besten?",
+      "frage": "Was ist Ziel der Losgrössenoptimierung?",
       "antwort_daten": {
         "optionen": [
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen."
+          "Die Losgrössenoptimierung sucht die Bestell- bzw. Fertigungsmenge, bei der Bestell-/Rüstkosten und Lagerhaltungskosten zusammen minimal sind.",
+          "Die Losgrösse soll immer so gross wie möglich gewählt werden.",
+          "Die Losgrösse soll immer so klein wie möglich gewählt werden, unabhängig von Kosten.",
+          "Losgrössen spielen für die Wirtschaftlichkeit keine Rolle."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Die Losgrössenoptimierung sucht die Bestell- bzw. Fertigungsmenge, bei der Bestell-/Rüstkosten und Lagerhaltungskosten zusammen minimal sind.",
+        "rechenweg": "Grössere Lose senken die Bestell-/Rüstkosten pro Stück, erhöhen aber die Lagerhaltungskosten - die optimale Menge balanciert beides.",
+        "warum": "Weder maximale noch minimale Losgrössen sind automatisch optimal - beide Kostenarten müssen gegeneinander abgewogen werden."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Nur die Bestellkosten oder nur die Lagerkosten minimieren, statt beide zusammen.",
+        "Rüstkosten bei der Fertigungslosgrösse vergessen.",
+        "Losgrösse unabhängig vom tatsächlichen Bedarf festlegen."
       ],
       "review": {
         "box": 1,
@@ -29609,7 +29621,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Die optimale Losgrösse balanciert Bestell-/Rüstkosten und Lagerkosten."
     },
     {
       "id": "scm_losgroessenoptimierung_stufe2_fehlerfalle",
@@ -29634,32 +29646,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Losgrössenoptimierung vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Die Losgrössenoptimierung sucht die Bestell- bzw. Fertigungsmenge, bei der Bestell-/Rüstkosten und Lagerhaltungskosten zusammen minimal sind.",
+        "pruefungsrelevant": "Prüfungsnah ist, dass grosse Lose die Bestellkosten pro Stück senken, aber die Lagerkosten erhöhen - und umgekehrt."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Losgrössenoptimierung“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Losgrössenoptimierung sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen."
+          "Es wird nur die Bestell- oder nur die Lagerkosten minimiert, statt beide zusammen.",
+          "Rüstkosten werden bei der Fertigungslosgrösse vergessen.",
+          "Die Losgrösse wird unabhängig vom tatsächlichen Bedarf festgelegt.",
+          "Bestell-/Rüstkosten und Lagerkosten werden gemeinsam optimiert.",
+          "Die Losgrösse wird periodisch an den Bedarf angepasst."
         ],
         "richtige_indices": [
           0,
-          1
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Richtig sind die einseitige Kostenminimierung, vergessene Rüstkosten und eine bedarfsunabhängige Losgrösse.",
+        "rechenweg": "Nur die gemeinsame Betrachtung von Bestell-/Rüstkosten und Lagerkosten führt zur wirtschaftlich optimalen Losgrösse.",
+        "warum": "Prüfungsnah ist, dass grosse Lose die Bestellkosten pro Stück senken, aber die Lagerkosten erhöhen - und umgekehrt."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Nur die Bestellkosten oder nur die Lagerkosten minimieren, statt beide zusammen.",
+        "Rüstkosten bei der Fertigungslosgrösse vergessen.",
+        "Losgrösse unabhängig vom tatsächlichen Bedarf festlegen."
       ],
       "review": {
         "box": 1,
@@ -29682,7 +29695,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Die optimale Losgrösse balanciert Bestell-/Rüstkosten und Lagerkosten."
     },
     {
       "id": "scm_marketing_verkauf_stufe1_begriff",
@@ -30106,32 +30119,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Normen vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Normen legen einheitliche Standards für Qualität, Sicherheit oder Kompatibilität fest und schaffen Vertrauen bei Kundschaft und Partnern.",
+        "pruefungsrelevant": "Prüfungsnah ist, dass Normen konkrete inhaltliche Anforderungen stellen und branchenübergreifend gelten können."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Normen“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Verständnis von Normen sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat."
+          "Normen werden als reines Marketinginstrument ohne Substanz abgetan.",
+          "Es wird angenommen, Normen gälten nur für eine einzelne Branche.",
+          "Zertifizierung wird als einmaliger, dauerhaft gültiger Vorgang missverstanden.",
+          "Normen werden als überprüfbare, verbindliche Standards verstanden.",
+          "Zertifizierungen werden periodisch durch Audits erneuert."
         ],
         "richtige_indices": [
           0,
+          1,
           2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Richtig sind die Abwertung zu reinem Marketing, die falsche Branchenbeschränkung und das Missverständnis zur dauerhaften Gültigkeit.",
+        "rechenweg": "Zertifizierungen müssen regelmässig auditiert werden, um weiterhin gültig zu bleiben - keine einmalige Angelegenheit.",
+        "warum": "Prüfungsnah ist, dass Normen konkrete inhaltliche Anforderungen stellen und branchenübergreifend gelten können."
       },
       "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
+        "Normen als reines Marketinginstrument ohne Substanz abtun.",
+        "Annehmen, Normen gälten nur für eine einzelne Branche.",
+        "Zertifizierung als einmaligen, dauerhaft gültigen Vorgang missverstehen."
       ],
       "review": {
         "box": 1,
@@ -30154,7 +30168,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Normen schaffen Vertrauen durch überprüfbare, einheitliche Standards."
     },
     {
       "id": "scm_oekologische_normen_umsetzen_stufe1_begriff",
@@ -30246,32 +30260,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Ökologische Normen umsetzen vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Ökologische Normen wie ISO 14001 verlangen konkrete, dokumentierte Massnahmen zu Ressourcenschonung und Emissionen.",
+        "pruefungsrelevant": "Prüfungsnah ist, dass die Umsetzung alle Bereiche (Beschaffung, Produktion, Logistik) betrifft und dokumentiert werden muss."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Ökologische Normen umsetzen“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Umsetzung ökologischer Normen sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat."
+          "Ökologische Normen werden als rein freiwillig ohne Konsequenzen angesehen.",
+          "Die Umsetzung wird nur auf die Produktion beschränkt.",
+          "Die Nachweisführung zur Einhaltung wird vernachlässigt.",
+          "Massnahmen werden über Beschaffung, Produktion und Logistik hinweg umgesetzt.",
+          "Die Einhaltung wird regelmässig dokumentiert und überprüft."
         ],
         "richtige_indices": [
-          2,
-          3
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Richtig sind die falsche Einstufung als konsequenzlos freiwillig, die Beschränkung auf die Produktion und vernachlässigte Nachweise.",
+        "rechenweg": "Ökologische Normen sind oft vertraglich oder gesetzlich verlangt und betreffen die gesamte Lieferkette, nicht nur die Produktion.",
+        "warum": "Prüfungsnah ist, dass die Umsetzung alle Bereiche (Beschaffung, Produktion, Logistik) betrifft und dokumentiert werden muss."
       },
       "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
+        "Ökologische Normen als rein freiwillig ohne Konsequenzen ansehen.",
+        "Umsetzung nur auf die Produktion beschränken.",
+        "Nachweisführung zur Einhaltung vernachlässigen."
       ],
       "review": {
         "box": 1,
@@ -30294,7 +30309,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Normen umsetzen heisst: Massnahmen ergreifen und belegen, nicht nur Absicht erklären."
     },
     {
       "id": "scm_offertenevaluation_stufe1_begriff",
@@ -30386,32 +30401,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Offertenevaluation vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Eine systematische Offertenevaluation vergleicht mehrere Angebote anhand vorab festgelegter, gewichteter Kriterien.",
+        "pruefungsrelevant": "Prüfungsnah ist, dass Kriterien vor dem Vergleich festgelegt werden müssen, damit die Bewertung nachvollziehbar bleibt."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Offertenevaluation“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Offertenevaluation sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle."
+          "Es wird nur der Preis verglichen, andere Kriterien werden ausgeblendet.",
+          "Bewertungskriterien werden erst nach der Entscheidung festgelegt.",
+          "Es wird nur ein einziges Angebot eingeholt, statt mehrere zu vergleichen.",
+          "Kriterien werden vor dem Vergleich der Angebote definiert.",
+          "Mehrere Angebote werden systematisch mit einer Bewertungsmatrix verglichen."
         ],
         "richtige_indices": [
           0,
-          1
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Richtig sind der reine Preisvergleich, nachträglich festgelegte Kriterien und das Einholen nur eines einzigen Angebots.",
+        "rechenweg": "Werden Kriterien erst nach der Wahl festgelegt, rechtfertigen sie im Nachhinein die Entscheidung, statt sie objektiv zu leiten.",
+        "warum": "Prüfungsnah ist, dass Kriterien vor dem Vergleich festgelegt werden müssen, damit die Bewertung nachvollziehbar bleibt."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Nur den Preis vergleichen, andere Kriterien ausblenden.",
+        "Bewertungskriterien erst nach der Entscheidung festlegen.",
+        "Nur ein einziges Angebot einholen, statt mehrere zu vergleichen."
       ],
       "review": {
         "box": 1,
@@ -30434,7 +30450,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Erst Kriterien festlegen, dann vergleichen - nicht umgekehrt."
     },
     {
       "id": "scm_organisation_prozesse_stufe1_begriff",
@@ -30721,32 +30737,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Organisatorische Massnahmen zur Datensicherheit vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Organisatorische Massnahmen regeln Verhalten und Prozesse (Rechte, Richtlinien, Schulung), im Gegensatz zu rein technischen Massnahmen.",
+        "pruefungsrelevant": "Prüfungsnah ist die Abgrenzung organisatorischer (Regeln, Prozesse, Schulung) von technischen Massnahmen (Firewall, Verschlüsselung)."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Organisatorische Massnahmen zur Datensicherheit“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei organisatorischen Massnahmen zur Datensicherheit sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen."
+          "Organisatorische und technische Massnahmen werden verwechselt.",
+          "Datensicherheit wird als reines IT-Thema angesehen.",
+          "Schulungen der Mitarbeitenden werden für überflüssig gehalten.",
+          "Zugriffsrechte und Richtlinien werden regelmässig überprüft.",
+          "Mitarbeitende werden aktiv im sicheren Umgang mit Daten geschult."
         ],
         "richtige_indices": [
           0,
-          4
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Richtig sind die Verwechslung der Massnahmenarten, die Einordnung als reines IT-Thema und für überflüssig gehaltene Schulungen.",
+        "rechenweg": "Die meisten Datenpannen entstehen durch menschliches Fehlverhalten - organisatorische Massnahmen wie Schulung sind daher zentral.",
+        "warum": "Prüfungsnah ist die Abgrenzung organisatorischer (Regeln, Prozesse, Schulung) von technischen Massnahmen (Firewall, Verschlüsselung)."
       },
       "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
+        "Organisatorische und technische Massnahmen verwechseln.",
+        "Datensicherheit als reines IT-Thema ansehen.",
+        "Schulungen der Mitarbeitenden für überflüssig halten."
       ],
       "review": {
         "box": 1,
@@ -30769,7 +30786,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Technik schützt Systeme, Organisation schützt das Verhalten der Menschen."
     },
     {
       "id": "scm_projektmanagement_stufe1_begriff",
@@ -30861,32 +30878,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Projektmanagement vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Projektmanagement folgt einem Phasenmodell von der Initiierung bis zum formellen Abschluss inkl. Risikomanagement.",
+        "pruefungsrelevant": "Prüfungsnah ist, alle vier Phasen zu kennen und deren Zweck (z.B. Abschlussphase für Lessons Learned) zu benennen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Projektmanagement“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern im Projektmanagement sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut."
+          "Die Planungsphase wird übersprungen oder zu knapp gehalten.",
+          "Die Abschlussphase (Auswertung, Lessons Learned) wird ausgelassen.",
+          "Risikomanagement wird nur bei Grossprojekten für nötig gehalten.",
+          "Meilensteine werden klar definiert und laufend überwacht.",
+          "Erkenntnisse aus dem Projekt werden für künftige Projekte dokumentiert."
         ],
         "richtige_indices": [
           0,
+          1,
           2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Richtig sind eine zu knappe Planung, die ausgelassene Abschlussphase und Risikomanagement nur bei Grossprojekten.",
+        "rechenweg": "Auch kleinere Projekte profitieren von Risikomanagement und einer sauberen Abschlussauswertung.",
+        "warum": "Prüfungsnah ist, alle vier Phasen zu kennen und deren Zweck (z.B. Abschlussphase für Lessons Learned) zu benennen."
       },
       "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
+        "Planungsphase überspringen oder zu knapp halten.",
+        "Abschlussphase (Auswertung, Lessons Learned) auslassen.",
+        "Risikomanagement nur bei Grossprojekten für nötig halten."
       ],
       "review": {
         "box": 1,
@@ -30909,7 +30927,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Ein Projekt braucht Anfang, Mitte und einen sauberen Abschluss."
     },
     {
       "id": "scm_qualitaet_und_normen_stufe1_begriff",
@@ -31001,32 +31019,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Qualität und Normen vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Normen wie ISO 9001 definieren Anforderungen an ein Qualitätsmanagementsystem und dienen als Nachweis konsequenter, überprüfbarer Qualitätsarbeit.",
+        "pruefungsrelevant": "Prüfungsnah ist, dass Zertifizierungen periodisch überprüft (auditiert) werden müssen, nicht einmalig gültig sind."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Qualität und Normen“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Zusammenspiel von Qualität und Normen sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist."
+          "Qualitätskontrolle wird nur am Ende der Produktion durchgeführt.",
+          "Zertifizierung wird als dauerhaft gültig ohne Re-Audit betrachtet.",
+          "Normen werden losgelöst vom betrieblichen Qualitätsmanagement behandelt.",
+          "Qualität wird entlang des ganzen Prozesses laufend kontrolliert.",
+          "Zertifizierungen werden regelmässig durch Audits erneuert."
         ],
         "richtige_indices": [
           0,
-          1
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Richtig sind die späte Qualitätskontrolle, die falsche Annahme dauerhafter Zertifizierung und die Trennung von Norm und Qualitätsmanagement.",
+        "rechenweg": "Qualität muss laufend, nicht nur am Ende geprüft werden, und Zertifizierungen erfordern periodische Audits.",
+        "warum": "Prüfungsnah ist, dass Zertifizierungen periodisch überprüft (auditiert) werden müssen, nicht einmalig gültig sind."
       },
       "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
+        "Qualitätskontrolle nur am Ende der Produktion durchführen.",
+        "Zertifizierung als dauerhaft gültig ohne Re-Audit betrachten.",
+        "Normen als losgelöst vom betrieblichen Qualitätsmanagement behandeln."
       ],
       "review": {
         "box": 1,
@@ -31049,7 +31068,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Eine Norm ist kein einmaliges Zertifikat, sondern ein laufendes System."
     },
     {
       "id": "scm_qualitaetsmanagement_stufe1_begriff",
@@ -31074,28 +31093,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Qualitätsmanagement verstehen",
       "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Qualitätsmanagement plant, lenkt, sichert und verbessert die Qualität systematisch, oft nach dem PDCA-Zyklus (Plan-Do-Check-Act).",
+        "pruefungsrelevant": "Prüfungsnah ist der PDCA-Zyklus als Grundprinzip kontinuierlicher Qualitätsverbesserung."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Qualitätsmanagement“ fachlich am besten?",
+      "frage": "Was ist der Kerngedanke des Qualitätsmanagements?",
       "antwort_daten": {
         "optionen": [
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Eine gute Massnahme passt zur Analyse, ist umsetzbar und berücksichtigt Anspruchsgruppen, Kosten, Nutzen und Risiken.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut."
+          "Qualitätsmanagement plant, lenkt, sichert und verbessert die Qualität systematisch, oft nach dem PDCA-Zyklus (Plan-Do-Check-Act).",
+          "Qualität wird ausschliesslich am Ende der Produktion einmalig geprüft.",
+          "Qualitätsmanagement betrifft nur die Fertigung, nicht Beschaffung oder Verkauf.",
+          "Verbesserungsmassnahmen müssen nie überprüft werden."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Eine gute Massnahme passt zur Analyse, ist umsetzbar und berücksichtigt Anspruchsgruppen, Kosten, Nutzen und Risiken.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Qualitätsmanagement plant, lenkt, sichert und verbessert die Qualität systematisch, oft nach dem PDCA-Zyklus (Plan-Do-Check-Act).",
+        "rechenweg": "Der PDCA-Zyklus (Plan-Do-Check-Act) sorgt für kontinuierliche, systematische Verbesserung statt einmaliger Kontrolle.",
+        "warum": "Eine reine Endkontrolle oder die Beschränkung auf die Fertigung erfassen modernes Qualitätsmanagement nicht vollständig."
       },
       "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
+        "Qualitätsmanagement nur als einmalige Endkontrolle verstehen.",
+        "PDCA-Phasen überspringen oder in falscher Reihenfolge anwenden.",
+        "Verbesserungsmassnahmen nicht auf ihre Wirkung überprüfen."
       ],
       "review": {
         "box": 1,
@@ -31116,7 +31135,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Plan, Do, Check, Act - Qualität ist ein Kreislauf, kein einmaliger Akt."
     },
     {
       "id": "scm_qualitaetsmanagement_stufe2_fehlerfalle",
@@ -31141,32 +31160,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Qualitätsmanagement vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Qualitätsmanagement plant, lenkt, sichert und verbessert die Qualität systematisch, oft nach dem PDCA-Zyklus (Plan-Do-Check-Act).",
+        "pruefungsrelevant": "Prüfungsnah ist der PDCA-Zyklus als Grundprinzip kontinuierlicher Qualitätsverbesserung."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Qualitätsmanagement“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern im Qualitätsmanagement sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut."
+          "Qualitätsmanagement wird nur als einmalige Endkontrolle verstanden.",
+          "PDCA-Phasen werden übersprungen oder in falscher Reihenfolge angewendet.",
+          "Verbesserungsmassnahmen werden nicht auf ihre Wirkung überprüft.",
+          "Qualität wird über den gesamten Prozess laufend gesteuert.",
+          "Massnahmen werden nach der Umsetzung auf Wirksamkeit geprüft (Check-Phase)."
         ],
         "richtige_indices": [
+          0,
           1,
           2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Richtig sind die Beschränkung auf Endkontrolle, übersprungene PDCA-Phasen und ungeprüfte Verbesserungsmassnahmen.",
+        "rechenweg": "Ohne die Check-Phase bleibt unklar, ob eine Massnahme tatsächlich zur Verbesserung geführt hat.",
+        "warum": "Prüfungsnah ist der PDCA-Zyklus als Grundprinzip kontinuierlicher Qualitätsverbesserung."
       },
       "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
+        "Qualitätsmanagement nur als einmalige Endkontrolle verstehen.",
+        "PDCA-Phasen überspringen oder in falscher Reihenfolge anwenden.",
+        "Verbesserungsmassnahmen nicht auf ihre Wirkung überprüfen."
       ],
       "review": {
         "box": 1,
@@ -31189,7 +31209,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Plan, Do, Check, Act - Qualität ist ein Kreislauf, kein einmaliger Akt."
     },
     {
       "id": "scm_rechnung_rechnungspruefung_stufe1_begriff",
@@ -31305,32 +31325,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Rechnung / Rechnungsprüfung vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Die Rechnungsprüfung im Beschaffungsprozess gleicht Rechnung, Bestellung, Lieferschein und Wareneingang miteinander ab.",
+        "pruefungsrelevant": "Prüfungsnah ist der Drei-Wege-Abgleich: Bestellung - Lieferschein/Wareneingang - Rechnung."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Rechnung / Rechnungsprüfung“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Rechnungsprüfung sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt."
+          "Die Rechnung wird ohne Abgleich mit Wareneingang und Bestellung bezahlt.",
+          "Skontofristen werden verpasst, wodurch ein Preisvorteil verloren geht.",
+          "Der Mehrwertsteuerbetrag auf der Rechnung wird nicht kontrolliert.",
+          "Rechnung, Bestellung und Lieferschein werden systematisch abgeglichen.",
+          "Zahlungsfristen werden aktiv überwacht, um Skonti zu nutzen."
         ],
         "richtige_indices": [
           0,
-          1
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Richtig sind die fehlende Drei-Wege-Prüfung, verpasste Skontofristen und unkontrollierte Mehrwertsteuerbeträge.",
+        "rechenweg": "Nur der Abgleich von Bestellung, Lieferschein und Rechnung deckt Fehlmengen oder falsche Preise zuverlässig auf.",
+        "warum": "Prüfungsnah ist der Drei-Wege-Abgleich: Bestellung - Lieferschein/Wareneingang - Rechnung."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Rechnung ohne Abgleich mit Wareneingang und Bestellung bezahlen.",
+        "Skontofristen verpassen und Preisvorteil verlieren.",
+        "Mehrwertsteuerbetrag auf der Rechnung nicht kontrollieren."
       ],
       "review": {
         "box": 1,
@@ -31353,7 +31374,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Erst vergleichen (Bestellung/Lieferschein/Rechnung), dann bezahlen."
     },
     {
       "id": "scm_rechtliche_grundlagen_stufe1_begriff",
@@ -31398,28 +31419,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Rechtliche Grundlagen verstehen",
       "begriff_erklaerung": {
-        "kurz": "Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden.",
-        "pruefungsrelevant": "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
+        "kurz": "Rechtliche Grundlagen in SCM/Beschaffung betreffen v.a. das Vertragsrecht (Kaufvertrag) und Haftungsfragen bei Lieferverzug oder Mängeln.",
+        "pruefungsrelevant": "Prüfungsnah ist, Rechtsfälle mit den passenden Vertrags- und Haftungsregeln (z.B. Mängelrüge, Lieferverzug) zu lösen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Rechtliche Grundlagen“ fachlich am besten?",
+      "frage": "Welche rechtlichen Grundlagen sind in Beschaffung und SCM besonders relevant?",
       "antwort_daten": {
         "optionen": [
-          "Kaufvertrag, Werkvertrag und Auftrag unterscheiden sich nur durch den Preis.",
-          "VWL-Antworten brauchen keine Ursache-Wirkungs-Begründung.",
-          "Die Lösung muss zur konkreten Rechtsnorm oder zum wirtschaftlichen Wirkungszusammenhang im Fall passen.",
-          "Bei Rechtsfällen reicht Bauchgefühl; Fristen und Gesetzesfolgen sind zweitrangig."
+          "Rechtliche Grundlagen in SCM/Beschaffung betreffen v.a. das Vertragsrecht (Kaufvertrag) und Haftungsfragen bei Lieferverzug oder Mängeln.",
+          "Ausschliesslich das Arbeitsrecht.",
+          "Rechtliche Fragen spielen in der Beschaffung keine Rolle.",
+          "Nur interne Firmenrichtlinien ohne gesetzliche Basis."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Die Lösung muss zur konkreten Rechtsnorm oder zum wirtschaftlichen Wirkungszusammenhang im Fall passen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
+        "kurz": "Rechtliche Grundlagen in SCM/Beschaffung betreffen v.a. das Vertragsrecht (Kaufvertrag) und Haftungsfragen bei Lieferverzug oder Mängeln.",
+        "rechenweg": "Kaufvertragsrecht regelt u.a. Mängelrüge-Fristen und Haftung bei Lieferverzug - zentrale Themen in der Beschaffungspraxis.",
+        "warum": "Arbeitsrecht oder rein interne Richtlinien decken die vertrags- und haftungsrechtlichen Fragen der Beschaffung nicht ab."
       },
       "fehlerfallen": [
-        "Vertragsarten verwechseln.",
-        "Fristen/Rechtsfolgen übersehen.",
-        "Bei VWL nur Begriffe nennen, aber keine Wirkung erklären."
+        "Kaufvertragliche Fristen (z.B. Mängelrüge) übersehen.",
+        "Haftungsfragen bei Lieferverzug falsch einschätzen.",
+        "Rechtsfälle ohne Bezug zum konkreten Sachverhalt pauschal lösen."
       ],
       "review": {
         "box": 1,
@@ -31440,7 +31461,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Recht: Tatbestand → Regel → Rechtsfolge. VWL: Ursache → Wirkung → Begründung."
+      "merksatz": "Recht heisst: den konkreten Fall mit der passenden Regel verbinden."
     },
     {
       "id": "scm_rechtliche_grundlagen_stufe2_fehlerfalle",
@@ -31485,32 +31506,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Rechtliche Grundlagen vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden.",
-        "pruefungsrelevant": "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
+        "kurz": "Rechtliche Grundlagen in SCM/Beschaffung betreffen v.a. das Vertragsrecht (Kaufvertrag) und Haftungsfragen bei Lieferverzug oder Mängeln.",
+        "pruefungsrelevant": "Prüfungsnah ist, Rechtsfälle mit den passenden Vertrags- und Haftungsregeln (z.B. Mängelrüge, Lieferverzug) zu lösen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Rechtliche Grundlagen“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei rechtlichen Grundlagen in der Beschaffung sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Rechtsfälle mit Tatbestand, Regel und Rechtsfolge lösen.",
-          "Bei Rechtsfällen reicht Bauchgefühl; Fristen und Gesetzesfolgen sind zweitrangig.",
-          "Kaufvertrag, Werkvertrag und Auftrag unterscheiden sich nur durch den Preis.",
-          "VWL-Antworten brauchen keine Ursache-Wirkungs-Begründung.",
-          "Bei VWL Ursache, Wirkung und Begründung sauber verbinden."
+          "Kaufvertragliche Fristen (z.B. Mängelrüge) werden übersehen.",
+          "Haftungsfragen bei Lieferverzug werden falsch eingeschätzt.",
+          "Rechtsfälle werden ohne Bezug zum konkreten Sachverhalt pauschal gelöst.",
+          "Mängel werden fristgerecht und formell korrekt gerügt.",
+          "Haftungsregeln werden anhand des konkreten Vertrags geprüft."
         ],
         "richtige_indices": [
           0,
-          4
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
+        "kurz": "Richtig sind übersehene Fristen, falsch eingeschätzte Haftung und pauschale statt fallbezogene Rechtslösungen.",
+        "rechenweg": "Eine verspätete Mängelrüge kann Ansprüche verwirken - Fristen sind deshalb zentral im Beschaffungsrecht.",
+        "warum": "Prüfungsnah ist, Rechtsfälle mit den passenden Vertrags- und Haftungsregeln (z.B. Mängelrüge, Lieferverzug) zu lösen."
       },
       "fehlerfallen": [
-        "Vertragsarten verwechseln.",
-        "Fristen/Rechtsfolgen übersehen.",
-        "Bei VWL nur Begriffe nennen, aber keine Wirkung erklären."
+        "Kaufvertragliche Fristen (z.B. Mängelrüge) übersehen.",
+        "Haftungsfragen bei Lieferverzug falsch einschätzen.",
+        "Rechtsfälle ohne Bezug zum konkreten Sachverhalt pauschal lösen."
       ],
       "review": {
         "box": 1,
@@ -31533,7 +31555,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Recht: Tatbestand → Regel → Rechtsfolge. VWL: Ursache → Wirkung → Begründung."
+      "merksatz": "Recht heisst: den konkreten Fall mit der passenden Regel verbinden."
     },
     {
       "id": "scm_sicherheitsbestand_stufe1_begriff",
@@ -31706,28 +31728,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Strategie / Analyseinstrumente verstehen",
       "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Strategische Analyseinstrumente wie SWOT- oder Portfolio-Analyse helfen, die Ausgangslage eines Unternehmens systematisch zu beurteilen.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus einer Analyse (z.B. SWOT) konkrete, umsetzbare Massnahmen abzuleiten statt nur zu beschreiben."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Strategie / Analyseinstrumente“ fachlich am besten?",
+      "frage": "Wozu dienen strategische Analyseinstrumente wie die SWOT-Analyse?",
       "antwort_daten": {
         "optionen": [
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Eine gute Massnahme passt zur Analyse, ist umsetzbar und berücksichtigt Anspruchsgruppen, Kosten, Nutzen und Risiken.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat."
+          "Strategische Analyseinstrumente wie SWOT- oder Portfolio-Analyse helfen, die Ausgangslage eines Unternehmens systematisch zu beurteilen.",
+          "Sie ersetzen die Notwendigkeit, überhaupt Massnahmen zu definieren.",
+          "Sie betrachten ausschliesslich interne Faktoren eines Unternehmens.",
+          "Sie dienen nur der Dokumentation, ohne Einfluss auf Entscheidungen."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Eine gute Massnahme passt zur Analyse, ist umsetzbar und berücksichtigt Anspruchsgruppen, Kosten, Nutzen und Risiken.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Strategische Analyseinstrumente wie SWOT- oder Portfolio-Analyse helfen, die Ausgangslage eines Unternehmens systematisch zu beurteilen.",
+        "rechenweg": "Die SWOT-Analyse verknüpft interne Stärken/Schwächen mit externen Chancen/Risiken, um daraus strategische Massnahmen abzuleiten.",
+        "warum": "Eine Analyse allein ersetzt keine Massnahmen und betrachtet sowohl interne als auch externe Faktoren."
       },
       "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
+        "Analyseinstrumente anwenden, aber keine Massnahmen daraus ableiten.",
+        "Stärken/Schwächen (intern) mit Chancen/Risiken (extern) verwechseln.",
+        "Strategie nur allgemein formulieren, ohne konkrete Massnahmen."
       ],
       "review": {
         "box": 1,
@@ -31748,7 +31770,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Eine Analyse ohne Massnahme ist nur eine Bestandsaufnahme."
     },
     {
       "id": "scm_strategie_analyseinstrumente_stufe2_fehlerfalle",
@@ -31780,32 +31802,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Strategie / Analyseinstrumente vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Strategische Analyseinstrumente wie SWOT- oder Portfolio-Analyse helfen, die Ausgangslage eines Unternehmens systematisch zu beurteilen.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus einer Analyse (z.B. SWOT) konkrete, umsetzbare Massnahmen abzuleiten statt nur zu beschreiben."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Strategie / Analyseinstrumente“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Einsatz strategischer Analyseinstrumente sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist."
+          "Analyseinstrumente werden angewendet, aber es werden keine Massnahmen abgeleitet.",
+          "Interne Stärken/Schwächen werden mit externen Chancen/Risiken verwechselt.",
+          "Die Strategie wird nur allgemein formuliert, ohne konkrete Massnahmen.",
+          "Aus der Analyse werden konkrete, umsetzbare Massnahmen abgeleitet.",
+          "Interne und externe Faktoren werden sauber getrennt analysiert."
         ],
         "richtige_indices": [
-          2,
-          3
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Richtig sind die fehlende Massnahmenableitung, die verwechselten Analysefaktoren und zu allgemeine Strategieformulierungen.",
+        "rechenweg": "Eine SWOT-Analyse ohne konkrete Massnahmen bleibt reine Bestandsaufnahme ohne strategischen Nutzen.",
+        "warum": "Prüfungsnah ist, aus einer Analyse (z.B. SWOT) konkrete, umsetzbare Massnahmen abzuleiten statt nur zu beschreiben."
       },
       "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
+        "Analyseinstrumente anwenden, aber keine Massnahmen daraus ableiten.",
+        "Stärken/Schwächen (intern) mit Chancen/Risiken (extern) verwechseln.",
+        "Strategie nur allgemein formulieren, ohne konkrete Massnahmen."
       ],
       "review": {
         "box": 1,
@@ -31828,7 +31851,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Eine Analyse ohne Massnahme ist nur eine Bestandsaufnahme."
     },
     {
       "id": "scm_stueckliste_stufe1_begriff",
@@ -32061,32 +32084,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Terminplanung vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Gute Terminplanung berücksichtigt Unsicherheiten mit Pufferzeiten und wird laufend überwacht/angepasst.",
+        "pruefungsrelevant": "Prüfungsnah ist, dass Pufferzeiten und laufende Terminüberwachung typische Prüfungsaspekte sind."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Terminplanung“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Terminplanung sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Risiken werden erst nach Projektabschluss beurteilt.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Kriterien, Gewichtungen und Massnahmen nachvollziehbar dokumentieren.",
-          "Ursache, Ziel und Varianten vor der Entscheidung sauber klären."
+          "Termine werden ohne jeglichen Puffer für Unsicherheiten geplant.",
+          "Der Terminfortschritt wird nicht laufend überwacht.",
+          "Terminplanung wird als reines Verwaltungsthema statt operative Aufgabe angesehen.",
+          "Pufferzeiten werden für mögliche Verzögerungen eingeplant.",
+          "Der Fortschritt wird regelmässig mit dem Plan verglichen."
         ],
         "richtige_indices": [
-          3,
-          4
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+        "kurz": "Richtig sind fehlende Pufferzeiten, mangelnde Überwachung und die falsche Einordnung als reines Verwaltungsthema.",
+        "rechenweg": "Ohne Puffer und laufende Überwachung gefährdet jede kleine Verzögerung den gesamten Ablauf.",
+        "warum": "Prüfungsnah ist, dass Pufferzeiten und laufende Terminüberwachung typische Prüfungsaspekte sind."
       },
       "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
+        "Termine ohne jeglichen Puffer für Unsicherheiten planen.",
+        "Terminfortschritt nicht laufend überwachen.",
+        "Terminplanung als reines Verwaltungsthema statt operative Aufgabe ansehen."
       ],
       "review": {
         "box": 1,
@@ -32109,7 +32133,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
+      "merksatz": "Ein Termin ohne Puffer ist ein Termin, der garantiert reisst."
     },
     {
       "id": "scm_versorgungssicherheit_stufe1_begriff",
@@ -32201,32 +32225,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Versorgungssicherheit vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Versorgungssicherheit bedeutet, Lieferrisiken durch mehrere Bezugsquellen, Bestände oder Verträge aktiv zu managen.",
+        "pruefungsrelevant": "Prüfungsnah ist, konkrete Massnahmen zur Risikominderung (Mehrfachbeschaffung, Sicherheitsbestand, Verträge) zu kennen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Versorgungssicherheit“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Versorgungssicherheit sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten."
+          "Es wird sich bewusst nur auf einen einzigen Lieferanten verlassen.",
+          "Bei kritischen Materialien wird auf Sicherheitsbestände verzichtet.",
+          "Versorgungsrisiken werden nur bei Importware, nicht bei Inlandlieferanten geprüft.",
+          "Mehrere Lieferquellen werden für kritische Materialien aufgebaut.",
+          "Lieferverträge sichern langfristig die Materialverfügbarkeit."
         ],
         "richtige_indices": [
-          2,
-          4
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Richtig sind die einseitige Lieferantenabhängigkeit, fehlende Sicherheitsbestände und die einseitige Risikoprüfung nur bei Importware.",
+        "rechenweg": "Auch Inlandlieferanten können ausfallen - Versorgungsrisiken müssen unabhängig von der Herkunft geprüft werden.",
+        "warum": "Prüfungsnah ist, konkrete Massnahmen zur Risikominderung (Mehrfachbeschaffung, Sicherheitsbestand, Verträge) zu kennen."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Sich bewusst nur auf einen einzigen Lieferanten verlassen.",
+        "Auf Sicherheitsbestände bei kritischen Materialien verzichten.",
+        "Versorgungsrisiken nur bei Importware, nicht bei Inlandlieferanten prüfen."
       ],
       "review": {
         "box": 1,
@@ -32249,7 +32274,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Versorgungssicherheit heisst: nie von nur einer Quelle abhängig sein."
     },
     {
       "id": "scm_warenannahme_stufe1_begriff",
@@ -32341,32 +32366,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Warenannahme vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Bei der Warenannahme werden Menge und Zustand der Ware sofort mit Lieferschein/Bestellung verglichen und Schäden dokumentiert.",
+        "pruefungsrelevant": "Prüfungsnah ist, dass Mängel sofort bei Erhalt (nicht erst später) festgestellt und gemeldet werden müssen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Warenannahme“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Warenannahme sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen."
+          "Ware wird ohne Mengen-/Qualitätskontrolle direkt eingelagert.",
+          "Die Kontrolle wird bei vertrauten Lieferanten weggelassen.",
+          "Beschädigungen werden erst verspätet statt sofort gemeldet.",
+          "Menge und Zustand werden bei jeder Lieferung sofort geprüft.",
+          "Schäden werden unmittelbar bei Erhalt dokumentiert."
         ],
         "richtige_indices": [
           0,
-          4
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Richtig sind die fehlende Kontrolle vor Einlagerung, weggelassene Kontrolle bei bekannten Lieferanten und verspätete Schadensmeldung.",
+        "rechenweg": "Nur eine sofortige Kontrolle bei Anlieferung erlaubt es, Schäden dem Transporteur oder Lieferanten rechtzeitig anzulasten.",
+        "warum": "Prüfungsnah ist, dass Mängel sofort bei Erhalt (nicht erst später) festgestellt und gemeldet werden müssen."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Ware ohne Mengen-/Qualitätskontrolle direkt einlagern.",
+        "Kontrolle bei vertrauten Lieferanten weglassen.",
+        "Beschädigungen erst verspätet statt sofort melden."
       ],
       "review": {
         "box": 1,
@@ -32389,7 +32415,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Erst kontrollieren, dann quittieren."
     },
     {
       "id": "scm_warenannahme_abwickeln_stufe1_begriff",
@@ -32481,32 +32507,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Warenannahme abwickeln vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Der Ablauf der Warenannahme umfasst Entgegennahme, Kontrolle, Systemerfassung und fachgerechte Einlagerung - in dieser Reihenfolge.",
+        "pruefungsrelevant": "Prüfungsnah ist die richtige Reihenfolge der Abwicklungsschritte, insbesondere dass die Kontrolle vor der Einlagerung erfolgt."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Warenannahme abwickeln“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Abwicklung der Warenannahme sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten."
+          "Die Ware wird vor der Kontrolle bereits eingelagert.",
+          "Die Systemerfassung der Warenannahme wird verzögert oder ausgelassen.",
+          "Es wird nur die Rechnung, nicht die Ware selbst geprüft.",
+          "Kontrolle, Erfassung und Einlagerung erfolgen in der richtigen Reihenfolge.",
+          "Abweichungen zwischen Lieferung und Bestellung werden sofort erfasst."
         ],
         "richtige_indices": [
+          0,
           1,
-          4
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Richtig sind die vorzeitige Einlagerung, verzögerte Systemerfassung und die Prüfung nur der Rechnung statt der Ware.",
+        "rechenweg": "Nur wenn Kontrolle und Erfassung VOR der Einlagerung erfolgen, bleiben Bestände und Qualität korrekt dokumentiert.",
+        "warum": "Prüfungsnah ist die richtige Reihenfolge der Abwicklungsschritte, insbesondere dass die Kontrolle vor der Einlagerung erfolgt."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Ware vor der Kontrolle bereits einlagern.",
+        "Systemerfassung der Warenannahme verzögern oder auslassen.",
+        "Nur die Rechnung, nicht die Ware selbst prüfen."
       ],
       "review": {
         "box": 1,
@@ -32529,7 +32556,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Entgegennehmen, kontrollieren, erfassen, einlagern - in dieser Reihenfolge."
     },
     {
       "id": "scm_wartung_unterhalt_stufe1_begriff",
@@ -32554,28 +32581,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Wartung, Unterhalt verstehen",
       "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Wartung und Unterhalt sichern präventiv die Funktionsfähigkeit von Anlagen und Maschinen, um Ausfälle zu vermeiden und die Lebensdauer zu verlängern.",
+        "pruefungsrelevant": "Prüfungsnah ist die Unterscheidung von präventiver (geplanter) und reaktiver (nach Ausfall erfolgender) Instandhaltung."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Wartung, Unterhalt“ fachlich am besten?",
+      "frage": "Was ist der Vorteil präventiver Wartung gegenüber rein reaktiver Instandhaltung?",
       "antwort_daten": {
         "optionen": [
-          "Eine gute Massnahme passt zur Analyse, ist umsetzbar und berücksichtigt Anspruchsgruppen, Kosten, Nutzen und Risiken.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut."
+          "Wartung und Unterhalt sichern präventiv die Funktionsfähigkeit von Anlagen und Maschinen, um Ausfälle zu vermeiden und die Lebensdauer zu verlängern.",
+          "Präventive Wartung ist grundsätzlich teurer und deshalb zu vermeiden.",
+          "Reaktive Instandhaltung verhindert jeden Anlagenausfall zuverlässiger.",
+          "Wartungsintervalle spielen für die Lebensdauer von Anlagen keine Rolle."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Eine gute Massnahme passt zur Analyse, ist umsetzbar und berücksichtigt Anspruchsgruppen, Kosten, Nutzen und Risiken.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Wartung und Unterhalt sichern präventiv die Funktionsfähigkeit von Anlagen und Maschinen, um Ausfälle zu vermeiden und die Lebensdauer zu verlängern.",
+        "rechenweg": "Geplante Wartung erkennt Verschleiss frühzeitig und verhindert teure, ungeplante Ausfälle - günstiger als reine Reparatur nach dem Defekt.",
+        "warum": "Reaktive Instandhaltung reagiert erst nach dem Ausfall und ist damit weniger zuverlässig als vorausschauende Wartung."
       },
       "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
+        "Nur reaktiv warten (erst wenn eine Anlage bereits ausgefallen ist).",
+        "Wartungsintervalle nicht einhalten oder dokumentieren.",
+        "Wartungskosten kurzfristig einsparen und dadurch teurere Ausfälle riskieren."
       ],
       "review": {
         "box": 1,
@@ -32596,7 +32623,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Vorbeugen ist günstiger als reparieren."
     },
     {
       "id": "scm_wartung_unterhalt_stufe2_fehlerfalle",
@@ -32621,32 +32648,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Wartung, Unterhalt vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Wartung und Unterhalt sichern präventiv die Funktionsfähigkeit von Anlagen und Maschinen, um Ausfälle zu vermeiden und die Lebensdauer zu verlängern.",
+        "pruefungsrelevant": "Prüfungsnah ist die Unterscheidung von präventiver (geplanter) und reaktiver (nach Ausfall erfolgender) Instandhaltung."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Wartung, Unterhalt“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei Wartung und Unterhalt sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen."
+          "Es wird nur reaktiv gewartet, erst wenn eine Anlage bereits ausgefallen ist.",
+          "Wartungsintervalle werden nicht eingehalten oder dokumentiert.",
+          "Wartungskosten werden kurzfristig eingespart, was teurere Ausfälle riskiert.",
+          "Wartungsintervalle werden gemäss Herstellerangaben eingehalten.",
+          "Wartungsarbeiten werden lückenlos dokumentiert."
         ],
         "richtige_indices": [
           0,
-          4
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Richtig sind die rein reaktive Wartung, nicht eingehaltene Intervalle und riskante Kosteneinsparungen bei der Wartung.",
+        "rechenweg": "Ausgefallene Anlagen verursachen meist höhere Kosten (Produktionsausfall, Eilreparatur) als planmässige Wartung.",
+        "warum": "Prüfungsnah ist die Unterscheidung von präventiver (geplanter) und reaktiver (nach Ausfall erfolgender) Instandhaltung."
       },
       "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
+        "Nur reaktiv warten (erst wenn eine Anlage bereits ausgefallen ist).",
+        "Wartungsintervalle nicht einhalten oder dokumentieren.",
+        "Wartungskosten kurzfristig einsparen und dadurch teurere Ausfälle riskieren."
       ],
       "review": {
         "box": 1,
@@ -32669,7 +32697,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Vorbeugen ist günstiger als reparieren."
     },
     {
       "id": "scm_ziele_smart_stufe1_begriff",
