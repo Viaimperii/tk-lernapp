@@ -7213,28 +7213,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Beschaffung / Lieferanten verstehen",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall?",
+        "pruefungsrelevant": "Prüfungsnah ist, Lieferantenkriterien (Preis, Qualität, Lieferfähigkeit, Risiko) direkt mit den im Fall genannten Fakten zu verknüpfen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Beschaffung / Lieferanten“ fachlich am besten?",
+      "frage": "Worauf kommt es bei einer Beschaffungsfrage in der Integrierten Fallstudie an?",
       "antwort_daten": {
         "optionen": [
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen."
+          "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall?",
+          "Nur auf das Auswendiglernen der Beschaffungstheorie, unabhängig vom Fall.",
+          "Auf den tiefsten Preis, unabhängig von den Fallangaben zu Qualität oder Terminen.",
+          "Beschaffung ist in der Fallstudie nie prüfungsrelevant."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall?",
+        "rechenweg": "Die Fallstudie verlangt, allgemeines Beschaffungswissen (Preis, Qualität, Lieferfähigkeit, Risiko) konkret auf die im Fall beschriebene Situation anzuwenden.",
+        "warum": "Reines Theoriewissen ohne Fallbezug, reine Preisfixierung oder die Annahme, das Thema komme nicht vor, greifen alle zu kurz."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Lieferantenkriterien nur allgemein aufzählen, ohne Bezug zu den Fallangaben.",
+        "Nur den Preis vergleichen, obwohl der Fall Qualitäts- oder Terminprobleme schildert.",
+        "Risiken aus dem Fall (z.B. Einzellieferant) nicht in die Bewertung einbeziehen."
       ],
       "review": {
         "box": 1,
@@ -7255,7 +7255,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "In der Fallstudie zählt nicht die allgemeine Regel, sondern ihre Anwendung auf die konkreten Fakten."
     },
     {
       "id": "integrierte_fallstudie_beschaffung_lieferanten_stufe2_fehlerfalle",
@@ -7293,32 +7293,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Beschaffung / Lieferanten vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall?",
+        "pruefungsrelevant": "Prüfungsnah ist, Lieferantenkriterien (Preis, Qualität, Lieferfähigkeit, Risiko) direkt mit den im Fall genannten Fakten zu verknüpfen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Beschaffung / Lieferanten“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei Beschaffungsfragen in der Fallstudie sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen."
+          "Lieferantenkriterien werden nur allgemein aufgezählt, ohne Bezug zu den Fallangaben.",
+          "Es wird nur der Preis verglichen, obwohl der Fall Qualitäts- oder Terminprobleme schildert.",
+          "Risiken aus dem Fall (z.B. Abhängigkeit von einem Lieferanten) werden nicht einbezogen.",
+          "Die Fallangaben werden systematisch mit den Beschaffungskriterien verknüpft.",
+          "Konkrete Zahlen und Fakten aus dem Fall werden in die Begründung übernommen."
         ],
         "richtige_indices": [
-          2,
-          3
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Richtig sind die fehlende Fallverknüpfung, die reine Preisfixierung trotz anderslautender Fallangaben und übersehene Risiken.",
+        "rechenweg": "Nur wer die allgemeinen Kriterien mit den konkreten Fallangaben verbindet, erhält die volle Punktzahl.",
+        "warum": "Prüfungsnah ist, Lieferantenkriterien (Preis, Qualität, Lieferfähigkeit, Risiko) direkt mit den im Fall genannten Fakten zu verknüpfen."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Lieferantenkriterien nur allgemein aufzählen, ohne Bezug zu den Fallangaben.",
+        "Nur den Preis vergleichen, obwohl der Fall Qualitäts- oder Terminprobleme schildert.",
+        "Risiken aus dem Fall (z.B. Einzellieferant) nicht in die Bewertung einbeziehen."
       ],
       "review": {
         "box": 1,
@@ -7341,7 +7342,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "In der Fallstudie zählt nicht die allgemeine Regel, sondern ihre Anwendung auf die konkreten Fakten."
     },
     {
       "id": "integrierte_fallstudie_fuehrung_personal_stufe1_begriff",
@@ -7391,28 +7392,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Führung / Personal verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus der Fallsituation (z.B. Konflikt, Überlastung, Fachkräftemangel) das passende Führungsinstrument abzuleiten und zu begründen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Führung / Personal“ fachlich am besten?",
+      "frage": "Wie wird eine Führungs-/Personalfrage in der Integrierten Fallstudie sinnvoll beantwortet?",
       "antwort_daten": {
         "optionen": [
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden."
+          "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen.",
+          "Indem man ein beliebiges Führungsmodell nennt, unabhängig von der Fallsituation.",
+          "Indem man nur die Meinung der Geschäftsleitung wiedergibt.",
+          "Indem man das Thema Führung grundsätzlich auslässt, da es zu allgemein sei."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen.",
+        "rechenweg": "Aus der im Fall beschriebenen Situation (z.B. Teamkonflikt) wird das passende Führungsinstrument (z.B. Mitarbeitergespräch, klare Zielvereinbarung) abgeleitet und begründet.",
+        "warum": "Ein beliebiges, nicht fallbezogenes Modell oder das reine Wiedergeben einer Meinung ersetzt die geforderte Fallanalyse nicht."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Ein Führungsinstrument nennen, das nicht zur geschilderten Situation im Fall passt.",
+        "Nur Symptome ansprechen, ohne die im Fall genannte Ursache zu benennen.",
+        "Rechtliche Rahmenbedingungen (Fristen, Mitwirkung) bei Personalentscheiden übersehen."
       ],
       "review": {
         "box": 1,
@@ -7433,7 +7434,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste."
     },
     {
       "id": "integrierte_fallstudie_fuehrung_personal_stufe2_fehlerfalle",
@@ -7483,32 +7484,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Führung / Personal vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus der Fallsituation (z.B. Konflikt, Überlastung, Fachkräftemangel) das passende Führungsinstrument abzuleiten und zu begründen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Führung / Personal“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei Führungs-/Personalfragen in der Fallstudie sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden."
+          "Ein Führungsinstrument wird genannt, das nicht zur geschilderten Situation passt.",
+          "Es werden nur Symptome angesprochen, ohne die im Fall genannte Ursache zu nennen.",
+          "Rechtliche Rahmenbedingungen (Fristen, Mitwirkung) werden übersehen.",
+          "Das Führungsinstrument wird konkret aus der Fallsituation abgeleitet.",
+          "Ursache und Symptom werden im Fall klar unterschieden."
         ],
         "richtige_indices": [
           0,
-          3
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Richtig sind das unpassende Führungsinstrument, die reine Symptombehandlung und übersehene rechtliche Rahmenbedingungen.",
+        "rechenweg": "Wer nur Symptome behandelt statt die im Fall genannte Ursache, löst das eigentliche Führungsproblem nicht.",
+        "warum": "Prüfungsnah ist, aus der Fallsituation (z.B. Konflikt, Überlastung, Fachkräftemangel) das passende Führungsinstrument abzuleiten und zu begründen."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Ein Führungsinstrument nennen, das nicht zur geschilderten Situation im Fall passt.",
+        "Nur Symptome ansprechen, ohne die im Fall genannte Ursache zu benennen.",
+        "Rechtliche Rahmenbedingungen (Fristen, Mitwirkung) bei Personalentscheiden übersehen."
       ],
       "review": {
         "box": 1,
@@ -7531,7 +7533,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste."
     },
     {
       "id": "integrierte_fallstudie_lager_lagerkennzahlen_stufe1_begriff",
@@ -7563,28 +7565,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Lager / Lagerkennzahlen verstehen",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Der Lagerumschlag zeigt, wie oft der Lagerbestand pro Periode umgesetzt wird: Lagerumschlag = Verbrauch (Periode) / Durchschnittlicher Lagerbestand.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus im Fall gegebenen Zahlen (Verbrauch, Bestand) den Lagerumschlag oder die Lagerdauer korrekt zu berechnen und zu interpretieren."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Lager / Lagerkennzahlen“ fachlich am besten?",
+      "frage": "Was zeigt der Lagerumschlag als Kennzahl in der Fallstudie an?",
       "antwort_daten": {
         "optionen": [
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen."
+          "Der Lagerumschlag zeigt, wie oft der Lagerbestand pro Periode umgesetzt wird: Lagerumschlag = Verbrauch (Periode) / Durchschnittlicher Lagerbestand.",
+          "Ausschliesslich die Anzahl der Lagermitarbeitenden.",
+          "Den Lagerumschlag gibt es nur für Handelsunternehmen, nie für Dienstleister.",
+          "Der Lagerumschlag ist unabhängig vom Verbrauch und vom Bestand."
         ],
-        "richtig_index": 3
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Der Lagerumschlag zeigt, wie oft der Lagerbestand pro Periode umgesetzt wird: Lagerumschlag = Verbrauch (Periode) / Durchschnittlicher Lagerbestand.",
+        "rechenweg": "Verbrauch geteilt durch den durchschnittlichen Lagerbestand ergibt, wie oft sich das Lager im Betrachtungszeitraum umschlägt.",
+        "warum": "Die Kennzahl bezieht sich direkt auf Verbrauch und Bestand, nicht auf Personal, und ist branchenübergreifend anwendbar, wo Lager geführt werden."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Lagerumschlag und Lagerdauer verwechseln.",
+        "Durchschnittlichen statt aktuellen Lagerbestand falsch einsetzen oder umgekehrt.",
+        "Aus einer hohen Kennzahl automatisch 'gut' oder 'schlecht' ableiten, ohne Fallbezug."
       ],
       "review": {
         "box": 1,
@@ -7605,7 +7607,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Ein hoher Lagerumschlag bedeutet wenig gebundenes Kapital - aber nur, wenn die Lieferfähigkeit im Fall nicht leidet."
     },
     {
       "id": "integrierte_fallstudie_lager_lagerkennzahlen_stufe2_fehlerfalle",
@@ -7637,32 +7639,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Lager / Lagerkennzahlen vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Der Lagerumschlag zeigt, wie oft der Lagerbestand pro Periode umgesetzt wird: Lagerumschlag = Verbrauch (Periode) / Durchschnittlicher Lagerbestand.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus im Fall gegebenen Zahlen (Verbrauch, Bestand) den Lagerumschlag oder die Lagerdauer korrekt zu berechnen und zu interpretieren."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Lager / Lagerkennzahlen“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei Lagerkennzahlen in der Fallstudie sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen."
+          "Lagerumschlag und Lagerdauer werden verwechselt.",
+          "Der durchschnittliche Lagerbestand wird falsch mit dem aktuellen Bestand gleichgesetzt.",
+          "Aus einer hohen Kennzahl wird ohne Fallbezug automatisch 'gut' oder 'schlecht' abgeleitet.",
+          "Verbrauch und Bestand werden korrekt aus den Fallangaben entnommen.",
+          "Die Kennzahl wird im Fallkontext (z.B. Lieferfähigkeit) interpretiert."
         ],
         "richtige_indices": [
           0,
-          3
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Richtig sind die Verwechslung von Umschlag und Dauer, der falsch verwendete Bestandswert und die pauschale Bewertung ohne Fallbezug.",
+        "rechenweg": "Nur die korrekte Zuordnung von Verbrauch und Bestand aus dem Fall liefert eine belastbare Kennzahl.",
+        "warum": "Prüfungsnah ist, aus im Fall gegebenen Zahlen (Verbrauch, Bestand) den Lagerumschlag oder die Lagerdauer korrekt zu berechnen und zu interpretieren."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Lagerumschlag und Lagerdauer verwechseln.",
+        "Durchschnittlichen statt aktuellen Lagerbestand falsch einsetzen oder umgekehrt.",
+        "Aus einer hohen Kennzahl automatisch 'gut' oder 'schlecht' ableiten, ohne Fallbezug."
       ],
       "review": {
         "box": 1,
@@ -7685,7 +7688,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Ein hoher Lagerumschlag bedeutet wenig gebundenes Kapital - aber nur, wenn die Lieferfähigkeit im Fall nicht leidet."
     },
     {
       "id": "integrierte_fallstudie_lager_lagerkennzahlen_stufe1_formel_1",
@@ -7717,28 +7720,28 @@
       "typ": "single_choice",
       "lernziel": "Formel zu Lagerumschlag sicher abrufen",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Der Lagerumschlag zeigt, wie oft der Lagerbestand pro Periode umgesetzt wird: Lagerumschlag = Verbrauch (Periode) / Durchschnittlicher Lagerbestand.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus im Fall gegebenen Zahlen (Verbrauch, Bestand) den Lagerumschlag oder die Lagerdauer korrekt zu berechnen und zu interpretieren."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Lager / Lagerkennzahlen“ fachlich am besten?",
+      "frage": "Wie berechnet sich der Lagerumschlag?",
       "antwort_daten": {
         "optionen": [
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl."
+          "Lagerumschlag = Verbrauch (Periode) / durchschnittlicher Lagerbestand.",
+          "Lagerumschlag = durchschnittlicher Lagerbestand / Verbrauch (Periode).",
+          "Lagerumschlag = Lagerbestand × 360 Tage.",
+          "Lagerumschlag = Einkaufspreis / Verkaufspreis."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Lagerumschlag = Verbrauch (Periode) / durchschnittlicher Lagerbestand.",
+        "rechenweg": "Verbrauch geteilt durch den durchschnittlichen Bestand ergibt die Anzahl Umschläge pro Periode.",
+        "warum": "Eine umgekehrte Division, eine Tagesmultiplikation ohne Verbrauchsbezug oder ein Preisverhältnis entsprechen nicht der Lagerumschlag-Formel."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Lagerumschlag und Lagerdauer verwechseln.",
+        "Durchschnittlichen statt aktuellen Lagerbestand falsch einsetzen oder umgekehrt.",
+        "Aus einer hohen Kennzahl automatisch 'gut' oder 'schlecht' ableiten, ohne Fallbezug."
       ],
       "review": {
         "box": 1,
@@ -7760,7 +7763,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Ein hoher Lagerumschlag bedeutet wenig gebundenes Kapital - aber nur, wenn die Lieferfähigkeit im Fall nicht leidet."
     },
     {
       "id": "integrierte_fallstudie_lager_lagerkennzahlen_stufe1_formel_2",
@@ -7792,28 +7795,28 @@
       "typ": "single_choice",
       "lernziel": "Formel zu Lagerdauer sicher abrufen",
       "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Der Lagerumschlag zeigt, wie oft der Lagerbestand pro Periode umgesetzt wird: Lagerumschlag = Verbrauch (Periode) / Durchschnittlicher Lagerbestand.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus im Fall gegebenen Zahlen (Verbrauch, Bestand) den Lagerumschlag oder die Lagerdauer korrekt zu berechnen und zu interpretieren."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Lager / Lagerkennzahlen“ fachlich am besten?",
+      "frage": "Wie berechnet sich die durchschnittliche Lagerdauer in Tagen?",
       "antwort_daten": {
         "optionen": [
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle."
+          "Lagerdauer (Tage) = 360 / Lagerumschlag.",
+          "Lagerdauer (Tage) = Lagerumschlag / 360.",
+          "Lagerdauer (Tage) = Verbrauch × 360.",
+          "Lagerdauer (Tage) = durchschnittlicher Lagerbestand × Lagerumschlag."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Lieferanten werden nach Gesamtnutzen bewertet: Preis, Qualität, Lieferfähigkeit, Termine, Risiko und Service gehören zusammen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "Lagerdauer (Tage) = 360 / Lagerumschlag.",
+        "rechenweg": "360 Tage geteilt durch den Lagerumschlag ergibt, wie viele Tage im Schnitt eine Ware im Lager verweilt.",
+        "warum": "Nur die Division von 360 Tagen durch den Umschlag ergibt eine sinnvolle Tageszahl; die anderen Varianten liefern keine plausible Grösse."
       },
       "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
+        "Lagerumschlag und Lagerdauer verwechseln.",
+        "Durchschnittlichen statt aktuellen Lagerbestand falsch einsetzen oder umgekehrt.",
+        "Aus einer hohen Kennzahl automatisch 'gut' oder 'schlecht' ableiten, ohne Fallbezug."
       ],
       "review": {
         "box": 1,
@@ -7835,7 +7838,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Ein hoher Lagerumschlag bedeutet wenig gebundenes Kapital - aber nur, wenn die Lieferfähigkeit im Fall nicht leidet."
     },
     {
       "id": "integrierte_fallstudie_liquiditaet_mittelfluss_stufe1_begriff",
@@ -8027,28 +8030,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Marketing / Verkauf verstehen",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Marketingfragen in der Fallstudie verlangen, ein Marketinginstrument (Produkt, Preis, Kommunikation, Distribution) auf die im Fall genannte Zielgruppe und Situation anzuwenden.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus Fallangaben zu Kundschaft, Konkurrenz oder Absatzproblemen die passende Marketingmassnahme abzuleiten und zu begründen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Marketing / Verkauf“ fachlich am besten?",
+      "frage": "Wie wird eine Marketing-/Verkaufsfrage in der Integrierten Fallstudie fachlich korrekt gelöst?",
       "antwort_daten": {
         "optionen": [
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung."
+          "Marketingfragen in der Fallstudie verlangen, ein Marketinginstrument (Produkt, Preis, Kommunikation, Distribution) auf die im Fall genannte Zielgruppe und Situation anzuwenden.",
+          "Indem man alle Marketinginstrumente auswendig aufzählt, ohne Fallbezug.",
+          "Indem man nur den Preis senkt, unabhängig von den Fallangaben.",
+          "Indem man die Zielgruppe aus dem Fall ignoriert und allgemein antwortet."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Massnahmen müssen zur Zielgruppe, zum Kundennutzen und zur konkreten Fallsituation passen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Marketingfragen in der Fallstudie verlangen, ein Marketinginstrument (Produkt, Preis, Kommunikation, Distribution) auf die im Fall genannte Zielgruppe und Situation anzuwenden.",
+        "rechenweg": "Aus den Fallangaben zu Zielgruppe, Konkurrenz und Absatzproblem wird die passende Marketingmassnahme ausgewählt und mit dem Fall begründet.",
+        "warum": "Reines Aufzählen von Instrumenten, eine automatische Preissenkung oder das Ignorieren der Zielgruppe ersetzen die geforderte Fallanalyse nicht."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Ein Marketinginstrument wählen, das nicht zur im Fall beschriebenen Zielgruppe passt.",
+        "Die 4/7 P nur auswendig aufzählen, ohne sie auf den Fall zu beziehen.",
+        "Konkurrenzsituation aus dem Fall bei der Massnahmenwahl ignorieren."
       ],
       "review": {
         "box": 1,
@@ -8069,7 +8072,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Ein Marketingmix ist nur so gut wie sein Bezug zur konkreten Fallsituation."
     },
     {
       "id": "integrierte_fallstudie_marketing_verkauf_stufe2_fehlerfalle",
@@ -8107,32 +8110,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Marketing / Verkauf vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Marketingfragen in der Fallstudie verlangen, ein Marketinginstrument (Produkt, Preis, Kommunikation, Distribution) auf die im Fall genannte Zielgruppe und Situation anzuwenden.",
+        "pruefungsrelevant": "Prüfungsnah ist, aus Fallangaben zu Kundschaft, Konkurrenz oder Absatzproblemen die passende Marketingmassnahme abzuleiten und zu begründen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Marketing / Verkauf“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei Marketingfragen in der Fallstudie sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "Massnahmen immer mit Zielgruppe und Kundennutzen verknüpfen.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Bei Reklamationen Ursache, Kundenanliegen und Folgeprozess systematisch prüfen.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung."
+          "Ein Marketinginstrument wird gewählt, das nicht zur im Fall beschriebenen Zielgruppe passt.",
+          "Die Marketinginstrumente werden nur auswendig aufgezählt, ohne Fallbezug.",
+          "Die im Fall geschilderte Konkurrenzsituation wird bei der Massnahmenwahl ignoriert.",
+          "Die Massnahme wird konkret auf die im Fall genannte Zielgruppe zugeschnitten.",
+          "Die Konkurrenzsituation aus dem Fall fliesst in die Begründung ein."
         ],
         "richtige_indices": [
+          0,
           1,
-          3
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Richtig sind die unpassende Massnahme für die Zielgruppe, das reine Aufzählen ohne Fallbezug und die ignorierte Konkurrenzsituation.",
+        "rechenweg": "Nur eine auf Zielgruppe und Konkurrenzlage des Falls zugeschnittene Massnahme überzeugt in der Bewertung.",
+        "warum": "Prüfungsnah ist, aus Fallangaben zu Kundschaft, Konkurrenz oder Absatzproblemen die passende Marketingmassnahme abzuleiten und zu begründen."
       },
       "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
+        "Ein Marketinginstrument wählen, das nicht zur im Fall beschriebenen Zielgruppe passt.",
+        "Die 4/7 P nur auswendig aufzählen, ohne sie auf den Fall zu beziehen.",
+        "Konkurrenzsituation aus dem Fall bei der Massnahmenwahl ignorieren."
       ],
       "review": {
         "box": 1,
@@ -8155,7 +8159,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Ein Marketingmix ist nur so gut wie sein Bezug zur konkreten Fallsituation."
     },
     {
       "id": "integrierte_fallstudie_organisation_prozesse_stufe1_begriff",
@@ -8180,28 +8184,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Organisation / Prozesse verstehen",
       "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Organisationsfragen in der Fallstudie verlangen, ein im Fall beschriebenes Problem (z.B. unklare Zuständigkeit, Doppelspurigkeit) einer Organisations- oder Prozessmassnahme zuzuordnen.",
+        "pruefungsrelevant": "Prüfungsnah ist, Schwachstellen aus dem Fall (Schnittstellen, Verantwortlichkeiten) zu erkennen und mit einer konkreten Massnahme zu beheben."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Organisation / Prozesse“ fachlich am besten?",
+      "frage": "Worauf zielt eine Organisations-/Prozessfrage in der Integrierten Fallstudie ab?",
       "antwort_daten": {
         "optionen": [
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Eine gute Massnahme passt zur Analyse, ist umsetzbar und berücksichtigt Anspruchsgruppen, Kosten, Nutzen und Risiken.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat."
+          "Organisationsfragen in der Fallstudie verlangen, ein im Fall beschriebenes Problem (z.B. unklare Zuständigkeit, Doppelspurigkeit) einer Organisations- oder Prozessmassnahme zuzuordnen.",
+          "Auf das reine Aufsagen der Definition von Aufbau- und Ablauforganisation.",
+          "Auf die Anzahl Hierarchiestufen, unabhängig vom Fallproblem.",
+          "Organisation ist in der Fallstudie nie mit einer konkreten Massnahme verbunden."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Eine gute Massnahme passt zur Analyse, ist umsetzbar und berücksichtigt Anspruchsgruppen, Kosten, Nutzen und Risiken.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Organisationsfragen in der Fallstudie verlangen, ein im Fall beschriebenes Problem (z.B. unklare Zuständigkeit, Doppelspurigkeit) einer Organisations- oder Prozessmassnahme zuzuordnen.",
+        "rechenweg": "Aus der im Fall beschriebenen Schwachstelle (z.B. unklare Verantwortlichkeit) wird eine konkrete organisatorische oder prozessuale Massnahme abgeleitet.",
+        "warum": "Reine Definitionen oder eine von der Fallsituation losgelöste Kennzahl wie die Hierarchiestufenzahl beantworten die gestellte Frage nicht."
       },
       "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
+        "Ein im Fall beschriebenes Organisationsproblem nicht erkennen und stattdessen allgemein antworten.",
         "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
+        "Eine Massnahme vorschlagen, die im Fall bereits ausdrücklich ausgeschlossen wird."
       ],
       "review": {
         "box": 1,
@@ -8222,7 +8226,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Organisation in der Fallstudie heisst: die konkrete Schwachstelle im Fall finden, nicht die Theorie referieren."
     },
     {
       "id": "integrierte_fallstudie_organisation_prozesse_stufe2_fehlerfalle",
@@ -8247,32 +8251,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Organisation / Prozesse vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Organisationsfragen in der Fallstudie verlangen, ein im Fall beschriebenes Problem (z.B. unklare Zuständigkeit, Doppelspurigkeit) einer Organisations- oder Prozessmassnahme zuzuordnen.",
+        "pruefungsrelevant": "Prüfungsnah ist, Schwachstellen aus dem Fall (Schnittstellen, Verantwortlichkeiten) zu erkennen und mit einer konkreten Massnahme zu beheben."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Organisation / Prozesse“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei Organisationsfragen in der Fallstudie sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat."
+          "Ein im Fall beschriebenes Organisationsproblem wird nicht erkannt, es wird nur allgemein geantwortet.",
+          "Aufbau- und Ablauforganisation werden verwechselt.",
+          "Es wird eine Massnahme vorgeschlagen, die im Fall bereits ausdrücklich ausgeschlossen wird.",
+          "Die konkrete Schwachstelle aus dem Fall wird klar benannt.",
+          "Die vorgeschlagene Massnahme ist mit den Fallangaben vereinbar."
         ],
         "richtige_indices": [
           0,
-          3
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Richtig sind das nicht erkannte Fallproblem, die verwechselten Organisationsbegriffe und die mit dem Fall unvereinbare Massnahme.",
+        "rechenweg": "Eine Massnahme, die der Fall bereits ausschliesst, kann trotz richtiger Theorie nicht die volle Punktzahl bringen.",
+        "warum": "Prüfungsnah ist, Schwachstellen aus dem Fall (Schnittstellen, Verantwortlichkeiten) zu erkennen und mit einer konkreten Massnahme zu beheben."
       },
       "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
+        "Ein im Fall beschriebenes Organisationsproblem nicht erkennen und stattdessen allgemein antworten.",
         "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
+        "Eine Massnahme vorschlagen, die im Fall bereits ausdrücklich ausgeschlossen wird."
       ],
       "review": {
         "box": 1,
@@ -8295,7 +8300,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Organisation in der Fallstudie heisst: die konkrete Schwachstelle im Fall finden, nicht die Theorie referieren."
     },
     {
       "id": "integrierte_fallstudie_projekt_europaeische_wildkatze_stufe1_begriff",
@@ -8320,28 +8325,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Projekt «Europäische Wildkatze» verstehen",
       "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Beim Projekt «Europäische Wildkatze» werden Ziele, Massnahmen, Anspruchsgruppen, Kosten/Nutzen und Risiken anhand der konkreten Projektangaben im Fall beurteilt.",
+        "pruefungsrelevant": "Prüfungsnah ist, Projektziel, Anspruchsgruppen und Risiken aus dem Falltext zu benennen und eine Massnahme daran zu begründen, statt allgemein über Projektmanagement zu schreiben."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Projekt «Europäische Wildkatze»“ fachlich am besten?",
+      "frage": "Worauf kommt es bei Fragen zum Projekt «Europäische Wildkatze» in der Fallstudie an?",
       "antwort_daten": {
         "optionen": [
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Eine gute Massnahme passt zur Analyse, ist umsetzbar und berücksichtigt Anspruchsgruppen, Kosten, Nutzen und Risiken.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut."
+          "Beim Projekt «Europäische Wildkatze» werden Ziele, Massnahmen, Anspruchsgruppen, Kosten/Nutzen und Risiken anhand der konkreten Projektangaben im Fall beurteilt.",
+          "Auf das reine Aufsagen allgemeiner Projektmanagement-Theorie ohne Fallbezug.",
+          "Auf die Meinung einer einzelnen Anspruchsgruppe, unabhängig vom Gesamtprojekt.",
+          "Projektrisiken sind bei dieser Aufgabe nicht relevant."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Eine gute Massnahme passt zur Analyse, ist umsetzbar und berücksichtigt Anspruchsgruppen, Kosten, Nutzen und Risiken.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Beim Projekt «Europäische Wildkatze» werden Ziele, Massnahmen, Anspruchsgruppen, Kosten/Nutzen und Risiken anhand der konkreten Projektangaben im Fall beurteilt.",
+        "rechenweg": "Ziel, Anspruchsgruppen, Kosten/Nutzen und Risiken werden anhand der im Fall zum Projekt genannten konkreten Angaben beurteilt, nicht abstrakt.",
+        "warum": "Reine Theorie ohne Fallbezug, eine einseitige Anspruchsgruppen-Sicht oder das Ausblenden von Risiken werden der Aufgabenstellung nicht gerecht."
       },
       "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
+        "Projektziel und Massnahme nicht mit den konkreten Angaben zum Projekt im Fall verknüpfen.",
+        "Anspruchsgruppen des Projekts (z.B. Besuchende, Behörden, Tierärzte) nicht vollständig erfassen.",
+        "Kosten und Nutzen des Projekts nicht gegeneinander abwägen."
       ],
       "review": {
         "box": 1,
@@ -8362,7 +8367,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Ein Projekt wird nicht durch die Methode allein gut, sondern durch ihre Anwendung auf die konkreten Projektfakten."
     },
     {
       "id": "integrierte_fallstudie_projekt_europaeische_wildkatze_stufe2_fehlerfalle",
@@ -8387,32 +8392,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Projekt «Europäische Wildkatze» vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Beim Projekt «Europäische Wildkatze» werden Ziele, Massnahmen, Anspruchsgruppen, Kosten/Nutzen und Risiken anhand der konkreten Projektangaben im Fall beurteilt.",
+        "pruefungsrelevant": "Prüfungsnah ist, Projektziel, Anspruchsgruppen und Risiken aus dem Falltext zu benennen und eine Massnahme daran zu begründen, statt allgemein über Projektmanagement zu schreiben."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Projekt «Europäische Wildkatze»“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei Fragen zum Projekt «Europäische Wildkatze» sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden."
+          "Projektziel und Massnahme werden nicht mit den konkreten Projektangaben im Fall verknüpft.",
+          "Anspruchsgruppen des Projekts werden nicht vollständig erfasst.",
+          "Kosten und Nutzen des Projekts werden nicht gegeneinander abgewogen.",
+          "Die Massnahme wird konkret aus den Projektangaben im Fall begründet.",
+          "Alle relevanten Anspruchsgruppen werden im Fall benannt."
         ],
         "richtige_indices": [
+          0,
           1,
-          4
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Richtig sind die fehlende Verknüpfung von Ziel und Massnahme, unvollständig erfasste Anspruchsgruppen und die fehlende Kosten-Nutzen-Abwägung.",
+        "rechenweg": "Erst die vollständige Erfassung aller Anspruchsgruppen und eine klare Kosten-Nutzen-Abwägung ergeben eine überzeugende Projektbeurteilung.",
+        "warum": "Prüfungsnah ist, Projektziel, Anspruchsgruppen und Risiken aus dem Falltext zu benennen und eine Massnahme daran zu begründen, statt allgemein über Projektmanagement zu schreiben."
       },
       "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
+        "Projektziel und Massnahme nicht mit den konkreten Angaben zum Projekt im Fall verknüpfen.",
+        "Anspruchsgruppen des Projekts (z.B. Besuchende, Behörden, Tierärzte) nicht vollständig erfassen.",
+        "Kosten und Nutzen des Projekts nicht gegeneinander abwägen."
       ],
       "review": {
         "box": 1,
@@ -8435,7 +8441,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Ein Projekt wird nicht durch die Methode allein gut, sondern durch ihre Anwendung auf die konkreten Projektfakten."
     },
     {
       "id": "integrierte_fallstudie_rechnung_rechnungspruefung_stufe1_begriff",
@@ -8473,28 +8479,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Rechnung / Rechnungsprüfung verstehen",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Bei Rechnungsprüfungsfragen im Fall wird eine konkrete, im Fall abgebildete Rechnung auf Übereinstimmung mit Bestellung/Lieferschein und gesetzliche Pflichtangaben geprüft.",
+        "pruefungsrelevant": "Prüfungsnah ist, die im Fall gegebenen Zahlen (Menge, Preis, MwSt.) nachzurechnen und Abweichungen konkret zu benennen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Rechnung / Rechnungsprüfung“ fachlich am besten?",
+      "frage": "Wie wird eine Rechnungsprüfungsfrage in der Integrierten Fallstudie korrekt gelöst?",
       "antwort_daten": {
         "optionen": [
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt."
+          "Bei Rechnungsprüfungsfragen im Fall wird eine konkrete, im Fall abgebildete Rechnung auf Übereinstimmung mit Bestellung/Lieferschein und gesetzliche Pflichtangaben geprüft.",
+          "Indem die Rechnung ungeprüft als korrekt angenommen wird.",
+          "Indem nur die Höflichkeitsfloskeln der Rechnung beurteilt werden.",
+          "Indem die Mehrwertsteuer bei der Prüfung ausgeklammert wird."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Bei Rechnungsprüfungsfragen im Fall wird eine konkrete, im Fall abgebildete Rechnung auf Übereinstimmung mit Bestellung/Lieferschein und gesetzliche Pflichtangaben geprüft.",
+        "rechenweg": "Menge, Preis und Mehrwertsteuer aus der im Fall abgebildeten Rechnung werden mit Bestellung/Lieferschein nachgerechnet und verglichen.",
+        "warum": "Eine ungeprüfte Übernahme, die Beurteilung von Nebensächlichkeiten oder das Weglassen der Mehrwertsteuer verfehlen den Prüfauftrag."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Die im Fall gegebenen Zahlen nicht nachrechnen, sondern die Rechnung ungeprüft übernehmen.",
+        "Eine Abweichung erkennen, aber nicht mit den Fallzahlen belegen.",
+        "Mehrwertsteuer falsch berechnen oder aus der Prüfung weglassen."
       ],
       "review": {
         "box": 1,
@@ -8515,7 +8521,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Eine Rechnungsprüfung in der Fallstudie verlangt Nachrechnen, nicht nur Behaupten."
     },
     {
       "id": "integrierte_fallstudie_rechnung_rechnungspruefung_stufe2_fehlerfalle",
@@ -8553,32 +8559,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Rechnung / Rechnungsprüfung vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Bei Rechnungsprüfungsfragen im Fall wird eine konkrete, im Fall abgebildete Rechnung auf Übereinstimmung mit Bestellung/Lieferschein und gesetzliche Pflichtangaben geprüft.",
+        "pruefungsrelevant": "Prüfungsnah ist, die im Fall gegebenen Zahlen (Menge, Preis, MwSt.) nachzurechnen und Abweichungen konkret zu benennen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Rechnung / Rechnungsprüfung“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei der Rechnungsprüfung in der Fallstudie sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig."
+          "Die im Fall gegebenen Zahlen werden nicht nachgerechnet, die Rechnung wird ungeprüft übernommen.",
+          "Eine Abweichung wird erkannt, aber nicht mit den Fallzahlen belegt.",
+          "Die Mehrwertsteuer wird falsch berechnet oder aus der Prüfung weggelassen.",
+          "Menge, Preis und Mehrwertsteuer werden anhand der Fallzahlen nachgerechnet.",
+          "Abweichungen werden konkret mit Zahlen aus dem Fall belegt."
         ],
         "richtige_indices": [
+          0,
           1,
           2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Richtig sind die ungeprüfte Übernahme, die unbelegte Abweichung und die fehlerhafte oder fehlende Mehrwertsteuerprüfung.",
+        "rechenweg": "Nur das rechnerische Nachvollziehen der Fallzahlen deckt tatsächliche Abweichungen zuverlässig auf.",
+        "warum": "Prüfungsnah ist, die im Fall gegebenen Zahlen (Menge, Preis, MwSt.) nachzurechnen und Abweichungen konkret zu benennen."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Die im Fall gegebenen Zahlen nicht nachrechnen, sondern die Rechnung ungeprüft übernehmen.",
+        "Eine Abweichung erkennen, aber nicht mit den Fallzahlen belegen.",
+        "Mehrwertsteuer falsch berechnen oder aus der Prüfung weglassen."
       ],
       "review": {
         "box": 1,
@@ -8601,7 +8608,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Eine Rechnungsprüfung in der Fallstudie verlangt Nachrechnen, nicht nur Behaupten."
     },
     {
       "id": "integrierte_fallstudie_rechtliche_grundlagen_stufe1_begriff",
@@ -8790,28 +8797,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Strategie / Analyseinstrumente verstehen",
       "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Strategiefragen in der Fallstudie verlangen, ein Analyseinstrument (z.B. SWOT, Portfolio) mit den im Fall genannten Fakten zu füllen statt es nur zu beschreiben.",
+        "pruefungsrelevant": "Prüfungsnah ist, Stärken/Schwächen/Chancen/Risiken direkt aus dem Falltext zu entnehmen und im Instrument korrekt zuzuordnen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Strategie / Analyseinstrumente“ fachlich am besten?",
+      "frage": "Wie wird ein Analyseinstrument wie die SWOT-Analyse in der Integrierten Fallstudie korrekt eingesetzt?",
       "antwort_daten": {
         "optionen": [
-          "Eine gute Massnahme passt zur Analyse, ist umsetzbar und berücksichtigt Anspruchsgruppen, Kosten, Nutzen und Risiken.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist."
+          "Strategiefragen in der Fallstudie verlangen, ein Analyseinstrument (z.B. SWOT, Portfolio) mit den im Fall genannten Fakten zu füllen statt es nur zu beschreiben.",
+          "Indem die vier Felder nur mit allgemeinem Lehrbuchwissen statt mit Fallfakten gefüllt werden.",
+          "Indem nur die Chancen genannt werden, Risiken bleiben aussen vor.",
+          "Indem SWOT und Portfolio-Analyse als austauschbar behandelt werden."
         ],
         "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "Eine gute Massnahme passt zur Analyse, ist umsetzbar und berücksichtigt Anspruchsgruppen, Kosten, Nutzen und Risiken.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Strategiefragen in der Fallstudie verlangen, ein Analyseinstrument (z.B. SWOT, Portfolio) mit den im Fall genannten Fakten zu füllen statt es nur zu beschreiben.",
+        "rechenweg": "Stärken und Schwächen (unternehmensintern) sowie Chancen und Risiken (Umwelt) werden mit den konkret im Fall genannten Fakten befüllt, danach folgt eine Massnahme.",
+        "warum": "Allgemeines Lehrbuchwissen ohne Fallbezug, eine einseitige Betrachtung oder das Vermischen unterschiedlicher Instrumente erfüllen die Aufgabe nicht."
       },
       "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
+        "Ein Analyseinstrument nur allgemein beschreiben, ohne es mit Fallfakten zu füllen.",
+        "Chancen/Risiken (Umwelt) mit Stärken/Schwächen (Unternehmen) verwechseln.",
+        "Aus der Analyse keine konkrete, im Fall umsetzbare Massnahme ableiten."
       ],
       "review": {
         "box": 1,
@@ -8832,7 +8839,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Ein Analyseinstrument ohne Fallfakten ist eine leere Tabelle."
     },
     {
       "id": "integrierte_fallstudie_strategie_analyseinstrumente_stufe2_fehlerfalle",
@@ -8857,32 +8864,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Strategie / Analyseinstrumente vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Strategiefragen in der Fallstudie verlangen, ein Analyseinstrument (z.B. SWOT, Portfolio) mit den im Fall genannten Fakten zu füllen statt es nur zu beschreiben.",
+        "pruefungsrelevant": "Prüfungsnah ist, Stärken/Schwächen/Chancen/Risiken direkt aus dem Falltext zu entnehmen und im Instrument korrekt zuzuordnen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Strategie / Analyseinstrumente“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern beim Einsatz von Analyseinstrumenten in der Fallstudie sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen."
+          "Ein Analyseinstrument wird nur allgemein beschrieben, ohne es mit Fallfakten zu füllen.",
+          "Chancen/Risiken (Umwelt) werden mit Stärken/Schwächen (Unternehmen) verwechselt.",
+          "Aus der Analyse wird keine konkrete, im Fall umsetzbare Massnahme abgeleitet.",
+          "Die vier Felder werden korrekt mit Fallfakten gefüllt.",
+          "Aus der Analyse folgt eine konkrete, begründete Massnahme."
         ],
         "richtige_indices": [
-          2,
-          4
+          0,
+          1,
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Richtig sind die fehlende Fallfüllung, die vertauschten Analysefelder und die fehlende Massnahmenableitung.",
+        "rechenweg": "Eine Analyse ohne daraus folgende, fallbezogene Massnahme bringt in der Bewertung nur die halbe Punktzahl.",
+        "warum": "Prüfungsnah ist, Stärken/Schwächen/Chancen/Risiken direkt aus dem Falltext zu entnehmen und im Instrument korrekt zuzuordnen."
       },
       "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
+        "Ein Analyseinstrument nur allgemein beschreiben, ohne es mit Fallfakten zu füllen.",
+        "Chancen/Risiken (Umwelt) mit Stärken/Schwächen (Unternehmen) verwechseln.",
+        "Aus der Analyse keine konkrete, im Fall umsetzbare Massnahme ableiten."
       ],
       "review": {
         "box": 1,
@@ -8905,7 +8913,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Ein Analyseinstrument ohne Fallfakten ist eine leere Tabelle."
     },
     {
       "id": "integrierte_fallstudie_ziele_smart_stufe1_begriff",
@@ -8930,28 +8938,28 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Ziele / SMART verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "In der Fallstudie werden Ziele SMART formuliert und direkt aus den im Fall genannten Ausgangswerten (Ist-Zustand) abgeleitet.",
+        "pruefungsrelevant": "Prüfungsnah ist, ein im Fall vages Ziel in ein spezifisches, messbares, terminiertes Ziel mit Bezug zu den Fallzahlen umzuformulieren."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Ziele / SMART“ fachlich am besten?",
+      "frage": "Wie wird ein Ziel aus der Integrierten Fallstudie korrekt SMART formuliert?",
       "antwort_daten": {
         "optionen": [
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich."
+          "In der Fallstudie werden Ziele SMART formuliert und direkt aus den im Fall genannten Ausgangswerten (Ist-Zustand) abgeleitet.",
+          "Indem das Ziel möglichst allgemein bleibt, damit es zu jedem Fall passt.",
+          "Indem Termin und Messgrösse weggelassen werden, um flexibel zu bleiben.",
+          "Indem das Ziel unabhängig von den im Fall genannten Ressourcen gesetzt wird."
         ],
-        "richtig_index": 2
+        "richtig_index": 0
       },
       "loesungsvorschlag": {
-        "kurz": "HR-Entscheide müssen sachlich begründet, nachvollziehbar, rechtlich zulässig und zur Situation passend sein.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "In der Fallstudie werden Ziele SMART formuliert und direkt aus den im Fall genannten Ausgangswerten (Ist-Zustand) abgeleitet.",
+        "rechenweg": "Der im Fall genannte Ist-Zustand (z.B. aktuelle Kennzahl) wird zu einem konkreten, terminierten Soll-Wert weiterentwickelt.",
+        "warum": "Ein allgemeines, unterminiertes oder von den Fallressourcen losgelöstes Ziel erfüllt die SMART-Kriterien nicht und wird in der Fallstudie nicht voll bewertet."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Ein SMART-Ziel formulieren, das keinen Bezug zu den im Fall gegebenen Zahlen hat.",
+        "Terminierung oder Messgrösse im Ziel weglassen.",
+        "Ein unrealistisches Ziel setzen, das den Fallangaben (z.B. Ressourcen) widerspricht."
       ],
       "review": {
         "box": 1,
@@ -8972,7 +8980,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Ein SMART-Ziel in der Fallstudie steht und fällt mit dem Bezug zu den Fallzahlen."
     },
     {
       "id": "integrierte_fallstudie_ziele_smart_stufe2_fehlerfalle",
@@ -8997,32 +9005,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Ziele / SMART vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "In der Fallstudie werden Ziele SMART formuliert und direkt aus den im Fall genannten Ausgangswerten (Ist-Zustand) abgeleitet.",
+        "pruefungsrelevant": "Prüfungsnah ist, ein im Fall vages Ziel in ein spezifisches, messbares, terminiertes Ziel mit Bezug zu den Fallzahlen umzuformulieren."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Ziele / SMART“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Fehlern bei SMART-Zielen in der Fallstudie sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden."
+          "Ein SMART-Ziel wird formuliert, das keinen Bezug zu den Fallzahlen hat.",
+          "Terminierung oder Messgrösse werden im Ziel weggelassen.",
+          "Ein unrealistisches Ziel wird gesetzt, das den Fallangaben zu den Ressourcen widerspricht.",
+          "Das Ziel wird konkret aus dem im Fall genannten Ist-Zustand abgeleitet.",
+          "Termin und Messgrösse werden explizit genannt."
         ],
         "richtige_indices": [
+          0,
           1,
-          3
+          2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Richtig sind das fehlende Fallzahlenbezug, die fehlende Terminierung/Messgrösse und das unrealistische Ziel.",
+        "rechenweg": "Nur ein Ziel, das den Ist-Zustand aus dem Fall aufgreift und realistisch weiterentwickelt, erfüllt SMART vollständig.",
+        "warum": "Prüfungsnah ist, ein im Fall vages Ziel in ein spezifisches, messbares, terminiertes Ziel mit Bezug zu den Fallzahlen umzuformulieren."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Ein SMART-Ziel formulieren, das keinen Bezug zu den im Fall gegebenen Zahlen hat.",
+        "Terminierung oder Messgrösse im Ziel weglassen.",
+        "Ein unrealistisches Ziel setzen, das den Fallangaben (z.B. Ressourcen) widerspricht."
       ],
       "review": {
         "box": 1,
@@ -9045,7 +9054,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Ein SMART-Ziel in der Fallstudie steht und fällt mit dem Bezug zu den Fallzahlen."
     },
     {
       "id": "marketing_verkauf_absatzentscheidung_stufe1_begriff",
