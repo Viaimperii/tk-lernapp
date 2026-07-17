@@ -4,6 +4,7 @@ export const allowedTypes = [
   'single_choice',
   'multiple_choice',
   'formel_luecke_mc',
+  'formel_builder',
   'reihenfolge',
   'zuordnung'
 ]
@@ -29,7 +30,7 @@ function validateCard(card) {
 
   if (!card?.id) errors.push('id fehlt')
   if (!card?.fach) errors.push('fach fehlt')
-  if (![1, 2, 3].includes(card?.stufe)) errors.push('stufe ist ungültig')
+  if (!Number.isInteger(card?.stufe) || card.stufe < 1 || card.stufe > 5) errors.push('stufe ist ungültig (erlaubt: 1-5)')
   if (!card?.typ) errors.push('typ fehlt')
   if (!card?.frage) errors.push('frage fehlt')
   if (!card?.antwort_daten) errors.push('antwort_daten fehlt')
@@ -65,6 +66,31 @@ function validateCard(card) {
           errors.push(`formel_luecke_mc.luecken_mc[${index}].richtig_index außerhalb der optionen`)
         }
       })
+    }
+  }
+
+  if (card?.typ === 'formel_builder') {
+    if (!isArray(data.bausteine)) errors.push('formel_builder.bausteine fehlt')
+    if (!isArray(data.richtige_reihenfolge)) errors.push('formel_builder.richtige_reihenfolge fehlt')
+    if (isArray(data.bausteine)) {
+      const ids = new Set()
+      data.bausteine.forEach((item, index) => {
+        if (!item?.id || !item?.label) errors.push(`formel_builder.bausteine[${index}] ist ungültig`)
+        if (item?.id && ids.has(item.id)) errors.push(`formel_builder.bausteine ID doppelt: ${item.id}`)
+        if (item?.id) ids.add(item.id)
+      })
+      if (isArray(data.richtige_reihenfolge)) {
+        data.richtige_reihenfolge.forEach((id) => {
+          if (!ids.has(id)) errors.push(`formel_builder.richtige_reihenfolge unbekannt: ${id}`)
+        })
+      }
+      const balanceIds = [...(data.bilanz?.aktiven ?? []), ...(data.bilanz?.passiven ?? [])]
+      balanceIds.forEach((id) => {
+        if (!ids.has(id)) errors.push(`formel_builder.bilanz unbekannt: ${id}`)
+      })
+    }
+    if (data.ergebnis != null && typeof data.ergebnis.richtiger_wert !== 'number') {
+      errors.push('formel_builder.ergebnis.richtiger_wert fehlt')
     }
   }
 

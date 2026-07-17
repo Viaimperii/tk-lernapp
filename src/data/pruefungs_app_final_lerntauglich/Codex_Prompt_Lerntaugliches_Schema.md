@@ -10,6 +10,7 @@ Nutze als Referenz:
 - `single_choice`
 - `multiple_choice`
 - `formel_luecke_mc`
+- `formel_builder`
 - `reihenfolge`
 - `zuordnung`
 
@@ -33,6 +34,10 @@ Jede Karte hat mindestens:
 - `merksatz`
 - `review`
 - `tags`
+
+`stufe` darf je nach Prüfungsfrequenz und fachlicher Tiefe zwischen 1 und 5 liegen.
+Ein Thema verwendet nur die Stufen, für die Karten vorhanden sind; die App leitet daraus
+seine variable Stufenfolge ab. Pro Stufe werden höchstens drei Aufgabenvarianten rotiert.
 
 ## Anzeige vor der Antwort
 Zeige:
@@ -67,6 +72,12 @@ Für jede Lücke `luecken_mc` eine Auswahl anzeigen.
 Karte ist korrekt, wenn alle Lücken den jeweiligen `richtig_index` treffen.
 Nachher vollständige Formel aus `antwort_daten.formel` anzeigen.
 
+### formel_builder
+Zeige Bilanzfelder und weitere Bausteine aus `antwort_daten.bausteine` als antippbare Elemente.
+Prüfe die erstellte ID-Folge exakt gegen `antwort_daten.richtige_reihenfolge`.
+Falls `antwort_daten.ergebnis` vorhanden ist, prüfe zusätzlich den Zahlenwert innerhalb der angegebenen Toleranz.
+`antwort_daten.bilanz` ordnet Bausteine optional den Spalten Aktiven und Passiven zu.
+
 ### reihenfolge
 Gewählte Reihenfolge als Indexliste gegen `richtige_reihenfolge` prüfen.
 
@@ -74,8 +85,10 @@ Gewählte Reihenfolge als Indexliste gegen `richtige_reihenfolge` prüfen.
 Gewählte Paare gegen `richtige_paare` prüfen.
 
 ## Review-System
-Speichere pro Karte lokal oder in der Datenbank:
-- `box`
+Speichere den Fortschritt pro Thema lokal:
+- `lvl`
+- `zeitpunkt_letzter_aufstieg`
+- aktuelle Themenstufe
 - `gesamt_richtig`
 - `gesamt_falsch`
 - `richtig_in_folge`
@@ -83,16 +96,10 @@ Speichere pro Karte lokal oder in der Datenbank:
 - `letzte_wiederholung`
 - `naechste_wiederholung`
 
-Vorschlag Intervall:
-- Box 1: 1 Tag
-- Box 2: 2 Tage
-- Box 3: 5 Tage
-- Box 4: 10 Tage
-- Box 5: 20 Tage
-- Box 6: 40 Tage
-
-Bei richtiger Antwort: Box + 1 bis max. 6.
-Bei falscher Antwort: Box zurück auf 1.
+Intervalle: LVL 1 nach 3 Tagen, LVL 2 nach 7 Tagen, LVL 3 nach 2 Wochen,
+LVL 4 nach 3 Wochen und LVL 5 nach einem Monat.
+Ein Fehler senkt nur die Aufgabenstufe innerhalb des Themas, niemals das LVL.
+Ein LVL-Aufstieg zählt nur bei einer fälligen Wiederholung auf der höchsten Themenstufe.
 
 ## Lernmodi
 Baue Filter ein:
@@ -100,7 +107,7 @@ Baue Filter ein:
 - Fehlertraining
 - Fach auswählen
 - Thema auswählen
-- Stufe 1/2/3 auswählen
+- vorhandene Themenstufe auswählen
 - Nur Formeln
 - Nur Prüfungsfragen Stufe 3
 - Gemischte Session

@@ -21,6 +21,58 @@ body {
   min-height: 100vh;
 }
 
+.level-sky-cta {
+  background:
+    radial-gradient(circle at 82% 22%, rgba(255, 255, 255, 0.28) 0 8%, transparent 9%),
+    linear-gradient(132deg, #075985 0%, #0284c7 54%, #38bdf8 100%);
+}
+
+.level-sky-screen {
+  background:
+    radial-gradient(ellipse at 88% 8%, rgba(255, 255, 255, 0.95) 0 7%, transparent 7.5%),
+    radial-gradient(ellipse at 76% 13%, rgba(255, 255, 255, 0.7) 0 10%, transparent 10.5%),
+    linear-gradient(180deg, #dff4ff 0%, #eff9ff 44%, #f7f8fb 100%);
+}
+
+.level-flight-path {
+  padding-left: 1.75rem;
+}
+
+.level-flight-path::before {
+  position: absolute;
+  inset: 1.5rem auto 2rem 0;
+  width: 3px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #0f172a 0%, #0284c7 78%, #bae6fd 100%);
+  content: '';
+}
+
+.level-route-card {
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.level-route-card:active {
+  transform: translateY(2px) scale(0.99);
+}
+
+.formula-workbench {
+  background-image:
+    linear-gradient(rgba(14, 165, 233, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(14, 165, 233, 0.055) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
 button,
 input {
   font: inherit;

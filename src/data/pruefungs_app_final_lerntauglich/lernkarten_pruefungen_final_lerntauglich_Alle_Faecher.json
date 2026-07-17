@@ -12,7 +12,8 @@
       "single_choice": 563,
       "multiple_choice": 572,
       "reihenfolge": 34,
-      "formel_luecke_mc": 11,
+      "formel_luecke_mc": 10,
+      "formel_builder": 1,
       "zuordnung": 27
     },
     "stufen": {
@@ -32,6 +33,7 @@
     },
     "validierungsfehler": 0,
     "erlaubte_typen": [
+      "formel_builder",
       "formel_luecke_mc",
       "multiple_choice",
       "reihenfolge",
@@ -44738,37 +44740,76 @@
       "quelle_id": "formel_kontrolle_pruefungen_2022_2025",
       "quelle_pdf": null,
       "lernziel": "Formel prüfungsnah sicher abrufen: liquiditaet_3",
-      "typ": "formel_luecke_mc",
-      "frage": "Ergänze die Formel mit Auswahlfeldern.",
+      "typ": "formel_builder",
+      "frage": "Baue die Formel für den Liquiditätsgrad III aus den Bilanzfeldern zusammen.",
       "antwort_daten": {
         "formel": "Liquiditätsgrad III = Umlaufvermögen / kurzfristiges Fremdkapital × 100",
-        "luecken_mc": [
+        "bausteine": [
           {
-            "position": 1,
-            "richtig": "Umlaufvermögen",
-            "optionen": [
-              "Umlaufvermögen",
-              "Anlagevermögen",
-              "Eigenkapital",
-              "langfristiges Fremdkapital",
-              "Reingewinn"
-            ],
-            "richtig_index": 0
+            "id": "umlaufvermoegen",
+            "label": "Umlaufvermögen",
+            "gruppe": "Bilanz"
           },
           {
-            "position": 2,
-            "richtig": "kurzfristiges Fremdkapital",
-            "optionen": [
-              "kurzfristiges Fremdkapital",
-              "Anlagevermögen",
-              "Eigenkapital",
-              "langfristiges Fremdkapital",
-              "Reingewinn"
-            ],
-            "richtig_index": 0
+            "id": "anlagevermoegen",
+            "label": "Anlagevermögen",
+            "gruppe": "Bilanz"
+          },
+          {
+            "id": "kurzfristiges_fremdkapital",
+            "label": "kurzfristiges Fremdkapital",
+            "gruppe": "Bilanz"
+          },
+          {
+            "id": "langfristiges_fremdkapital",
+            "label": "langfristiges Fremdkapital",
+            "gruppe": "Bilanz"
+          },
+          {
+            "id": "eigenkapital",
+            "label": "Eigenkapital",
+            "gruppe": "Bilanz"
+          },
+          {
+            "id": "reingewinn",
+            "label": "Reingewinn",
+            "gruppe": "Erfolg"
+          },
+          {
+            "id": "geteilt",
+            "label": "÷",
+            "gruppe": "Operator"
+          },
+          {
+            "id": "mal",
+            "label": "×",
+            "gruppe": "Operator"
+          },
+          {
+            "id": "hundert",
+            "label": "100",
+            "gruppe": "Zahl"
           }
         ],
-        "eingabeart": "auswahl"
+        "richtige_reihenfolge": [
+          "umlaufvermoegen",
+          "geteilt",
+          "kurzfristiges_fremdkapital",
+          "mal",
+          "hundert"
+        ],
+        "bilanz": {
+          "aktiven": [
+            "umlaufvermoegen",
+            "anlagevermoegen"
+          ],
+          "passiven": [
+            "kurzfristiges_fremdkapital",
+            "langfristiges_fremdkapital",
+            "eigenkapital"
+          ]
+        },
+        "eingabeart": "antippen"
       },
       "erklaerung": "Formel am Ende manuell gegen Standardformel/Prüfungslogik kontrolliert.",
       "stufe": 3,

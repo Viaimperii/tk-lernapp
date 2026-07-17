@@ -1,25 +1,43 @@
 import { useEffect, useMemo, useState } from 'react'
 import {
+  Archive,
   ArrowLeft,
   BookOpen,
+  CalendarClock,
   Check,
   ChevronRight,
   CircleDollarSign,
+  Cloud,
   ClipboardList,
   Factory,
   Handshake,
   Layers3,
-  Lock,
+  Plane,
+  RotateCcw,
   Scale,
   Shuffle,
+  Sparkles,
   Trophy,
+  Undo2,
   X
 } from 'lucide-react'
 import { cards, contentMeta, invalidCards, schemaVersion } from './data'
+import {
+  applyTopicAnswer,
+  checkAnswer,
+  defaultProgress,
+  getLevelDueAt,
+  getTopicProgress,
+  hasAnswer,
+  initialAnswer,
+  isLevelDue,
+  normalizeStage,
+  pickTopicCard,
+  serializeAnswer
+} from './cardEngine'
 
 const PROGRESS_KEY = 'tk-lernapp-topic-progress-v1'
 const DISABLED_KEY = 'tk-lernapp-disabled-topics-v3'
-const REVIEW_LOCK_MS = 12 * 60 * 60 * 1000
 
 const subjects = [
   { id: 'Finanzwirtschaft', label: 'Finanzwirtschaft', color: '#2f80ed', icon: CircleDollarSign },
@@ -35,21 +53,6 @@ const subjects = [
 const subjectById = Object.fromEntries(subjects.map((subject) => [subject.id, subject]))
 const topics = buildTopics(cards)
 
-const defaultProgress = {
-  stage: 1,
-  correct: 0,
-  wrong: 0,
-  solvedOnce: false,
-  richtig_in_folge: 0,
-  falsch_in_folge: 0,
-  lastAnswer: null,
-  lastCardId: null,
-  lastCorrect: null,
-  lastTimestamp: null,
-  nextReview: null,
-  attemptsByStage: {}
-}
-
 function readStorage(key, fallback) {
   try {
     const value = localStorage.getItem(key)
@@ -64,11 +67,7 @@ function writeStorage(key, value) {
 }
 
 function getProgress(progress, id) {
-  return { ...defaultProgress, ...(progress[id] ?? {}) }
-}
-
-function isLocked(topicProgress) {
-  return Boolean(topicProgress.solvedOnce && topicProgress.nextReview && Date.parse(topicProgress.nextReview) > Date.now())
+  return getTopicProgress(progress, id, topics.find((topic) => topic.id === id))
 }
 
 function formatRemaining(target) {
@@ -79,10 +78,12 @@ function formatRemaining(target) {
   return `${hours} Std. ${minutes} Min.`
 }
 
-function stageLabel(stage) {
-  if (stage === 1) return 'Grundlage'
-  if (stage === 2) return 'Anwendung / Fehlerfalle'
-  return 'Prüfungsnah'
+function stageLabel(stage, topic) {
+  if (topic.minStage === topic.maxStage) return 'Kompakt'
+  if (stage === topic.minStage) return 'Grundlage'
+  if (stage === topic.maxStage) return 'Prüfungsnah'
+  const position = topic.stages.indexOf(stage)
+  return position > 0 ? `Vertiefung ${position}` : 'Vertiefung'
 }
 
 function App() {
@@ -110,7 +111,10 @@ function App() {
     window.history.back()
   }
 
-  const activeTopics = useMemo(() => topics.filter((topic) => !disabled[topic.id]), [disabled])
+  const activeTopics = useMemo(
+    () => topics.filter((topic) => !disabled[topic.id] && getProgress(progress, topic.id).lvl === 0),
+    [disabled, progress]
+  )
   const selectedSubject = view.subjectId ? subjectById[view.subjectId] : null
   const selectedTopic = view.topicId ? topics.find((topic) => topic.id === view.topicId) : null
 
@@ -126,32 +130,9 @@ function App() {
 
   function updateTopicProgress(topic, card, answer, isCorrect) {
     const current = getProgress(progress, topic.id)
-    const currentStage = normalizeStage(topic, current.stage)
-    const now = new Date().toISOString()
-    const nextAttempts = {
-      ...current.attemptsByStage,
-      [currentStage]: (current.attemptsByStage?.[currentStage] ?? 0) + 1
-    }
-    const reachedFinalStage = currentStage >= topic.maxStage
-    const justSolvedFinalStage = isCorrect && reachedFinalStage
-    const nextStage = isCorrect ? getNextTopicStage(topic, currentStage) : currentStage
-    const nextProgress = {
-      ...current,
-      stage: nextStage,
-      correct: current.correct + (isCorrect ? 1 : 0),
-      wrong: current.wrong + (isCorrect ? 0 : 1),
-      richtig_in_folge: isCorrect ? (current.richtig_in_folge ?? 0) + 1 : 0,
-      falsch_in_folge: isCorrect ? 0 : (current.falsch_in_folge ?? 0) + 1,
-      solvedOnce: current.solvedOnce || justSolvedFinalStage,
-      lastAnswer: answer,
-      lastCardId: card.id,
-      lastCorrect: isCorrect,
-      lastTimestamp: now,
-      nextReview: justSolvedFinalStage ? new Date(Date.now() + REVIEW_LOCK_MS).toISOString() : current.nextReview,
-      attemptsByStage: nextAttempts
-    }
-
-    persistProgress({ ...progress, [topic.id]: nextProgress })
+    const update = applyTopicAnswer(topic, current, card, answer, isCorrect)
+    persistProgress({ ...progress, [topic.id]: update.progress })
+    return update.outcome
   }
 
   function toggleTopic(topicId) {
@@ -163,7 +144,7 @@ function App() {
   function startShuffle(subjectId) {
     const topicIds = shuffle(
       topicsForSubject(subjectId)
-        .filter((topic) => !disabled[topic.id] && !isLocked(getProgress(progress, topic.id)))
+        .filter((topic) => !disabled[topic.id] && getProgress(progress, topic.id).lvl === 0)
         .map((topic) => topic.id)
     )
     if (topicIds.length === 0) return
@@ -179,6 +160,24 @@ function App() {
             disabled={disabled}
             progress={progress}
             onOpenSubject={(subjectId) => navigate({ name: 'subject', subjectId })}
+            onOpenLevels={() => navigate({ name: 'levels' })}
+          />
+        )}
+        {view.name === 'levels' && (
+          <LevelJourneyScreen
+            progress={progress}
+            disabled={disabled}
+            onBack={goBack}
+            onOpenLevel={(level) => navigate({ name: 'level', level })}
+          />
+        )}
+        {view.name === 'level' && (
+          <LevelDetailScreen
+            level={view.level}
+            progress={progress}
+            disabled={disabled}
+            onBack={goBack}
+            onOpenTopic={(topic) => navigate({ name: 'topic', subjectId: topic.fach, topicId: topic.id })}
           />
         )}
         {view.name === 'subject' && selectedSubject && (
@@ -214,7 +213,10 @@ function App() {
   )
 }
 
-function HomeScreen({ activeTopics, disabled, progress, onOpenSubject }) {
+function HomeScreen({ activeTopics, disabled, progress, onOpenSubject, onOpenLevels }) {
+  const dueCount = topics.filter((topic) => !disabled[topic.id] && isLevelDue(getProgress(progress, topic.id))).length
+  const skyCount = topics.filter((topic) => !disabled[topic.id] && getProgress(progress, topic.id).lvl > 0).length
+
   return (
     <section className="flex flex-1 flex-col px-4 pb-6 pt-5">
       <header className="mb-5">
@@ -224,16 +226,16 @@ function HomeScreen({ activeTopics, disabled, progress, onOpenSubject }) {
           </div>
           <div>
             <h1 className="text-2xl font-black leading-tight tracking-normal">TK-Lernapp</h1>
-            <p className="text-sm font-medium text-slate-600">Themenweise von Stufe 1 bis 3.</p>
+            <p className="text-sm font-medium text-slate-600">Vom ersten Verständnis bis zur sicheren Wiederholung.</p>
           </div>
         </div>
         <div className="rounded-lg border border-slate-200 bg-white p-3">
           <div className="flex items-center justify-between text-sm">
-            <span className="font-semibold text-slate-700">Aktive Themen</span>
-            <span className="font-black">{activeTopics.length} / {topics.length}</span>
+            <span className="font-semibold text-slate-700">Normaler Lernbestand</span>
+            <span className="font-black">{activeTopics.length} Themen</span>
           </div>
           <div className="mt-2 h-2 overflow-hidden rounded-full bg-slate-100">
-            <div className="h-full rounded-full bg-slate-950" style={{ width: `${(activeTopics.length / topics.length) * 100}%` }} />
+            <div className="h-full rounded-full bg-slate-950" style={{ width: `${((topics.length - activeTopics.length) / topics.length) * 100}%` }} />
           </div>
           <p className="mt-2 text-xs font-semibold text-slate-500">
             {contentMeta.anzahl_karten ?? cards.length} Karten in {topics.length} Themen geladen · Schema {schemaVersion}
@@ -242,12 +244,32 @@ function HomeScreen({ activeTopics, disabled, progress, onOpenSubject }) {
         </div>
       </header>
 
+      <button
+        className="level-sky-cta mb-4 flex min-h-[92px] w-full items-center gap-3 overflow-hidden rounded-xl px-4 text-left text-white shadow-lift"
+        onClick={onOpenLevels}
+      >
+        <span className="relative grid h-14 w-14 shrink-0 place-items-center rounded-full bg-white/15">
+          <Cloud className="absolute bottom-1 text-white/50" size={35} />
+          <Plane className="relative -translate-y-1 rotate-[-18deg]" size={25} />
+        </span>
+        <span className="min-w-0 flex-1">
+          <span className="block text-lg font-black">LVL-Himmel</span>
+          <span className="mt-1 block text-xs font-bold text-sky-100">
+            {dueCount
+              ? `${dueCount} ${dueCount === 1 ? 'Wiederholung' : 'Wiederholungen'} fällig`
+              : `${skyCount} ${skyCount === 1 ? 'Thema' : 'Themen'} im Aufstieg`}
+          </span>
+        </span>
+        <ChevronRight size={24} />
+      </button>
+
       <div className="space-y-3">
         {subjects.map((subject) => {
-          const subjectTopics = topicsForSubject(subject.id).filter((topic) => !disabled[topic.id])
-          const mastered = subjectTopics.filter((topic) => getProgress(progress, topic.id).solvedOnce).length
+          const allSubjectTopics = topicsForSubject(subject.id).filter((topic) => !disabled[topic.id])
+          const subjectTopics = allSubjectTopics.filter((topic) => getProgress(progress, topic.id).lvl === 0)
+          const mastered = allSubjectTopics.length - subjectTopics.length
           const Icon = subject.icon
-          const total = subjectTopics.length
+          const total = allSubjectTopics.length
           const percent = total ? (mastered / total) * 100 : 0
 
           return (
@@ -265,7 +287,7 @@ function HomeScreen({ activeTopics, disabled, progress, onOpenSubject }) {
                   <span className="block h-full rounded-full" style={{ width: `${percent}%`, background: subject.color }} />
                 </span>
                 <span className="mt-1 block text-xs font-semibold text-slate-500">
-                  {mastered} von {total} Themen einmal gelöst
+                  {subjectTopics.length} offen · {mastered} im LVL-System
                 </span>
               </span>
               <ChevronRight className="shrink-0 text-slate-400" size={22} />
@@ -277,10 +299,198 @@ function HomeScreen({ activeTopics, disabled, progress, onOpenSubject }) {
   )
 }
 
+function levelTopics(level, progress, disabled) {
+  return topics.filter((topic) => {
+    if (disabled[topic.id]) return false
+    const topicProgress = getProgress(progress, topic.id)
+    if (level === 'archive') return Boolean(topicProgress.completedAt)
+    return topicProgress.lvl === level && !topicProgress.completedAt
+  })
+}
+
+function estimateSubjectGrade(subjectId, progress, disabled) {
+  const subjectTopics = topicsForSubject(subjectId).filter((topic) => !disabled[topic.id])
+  if (!subjectTopics.length) return '–'
+  const levelWeights = { 1: 0.35, 2: 0.5, 3: 0.65, 4: 0.8, 5: 0.92 }
+  const score = subjectTopics.reduce((sum, topic) => {
+    const topicProgress = getProgress(progress, topic.id)
+    if (topicProgress.completedAt) return sum + 1
+    if (topicProgress.lvl > 0) return sum + levelWeights[topicProgress.lvl]
+    const stageIndex = Math.max(0, topic.stages.indexOf(normalizeStage(topic, topicProgress.stage)))
+    return sum + (topic.stages.length > 1 ? (stageIndex / (topic.stages.length - 1)) * 0.24 : 0.12)
+  }, 0) / subjectTopics.length
+  return (1 + score * 5).toFixed(1)
+}
+
+function LevelJourneyScreen({ progress, disabled, onBack, onOpenLevel }) {
+  const levels = [5, 4, 3, 2, 1]
+  const completed = levelTopics('archive', progress, disabled).length
+
+  return (
+    <section className="level-sky-screen flex flex-1 flex-col px-4 pb-8 pt-4">
+      <HeaderButton onBack={onBack} />
+      <header className="mb-5">
+        <span className="mb-2 inline-flex items-center gap-2 rounded-full bg-white/70 px-3 py-1 text-xs font-black text-sky-900">
+          <Plane size={14} /> Deine Wiederholungsroute
+        </span>
+        <h1 className="text-3xl font-black leading-none tracking-tight text-slate-950">Aufstieg in den<br />LVL-Himmel</h1>
+        <p className="mt-3 max-w-sm text-sm font-semibold leading-relaxed text-slate-700">
+          Ein ganzes Thema steigt erst nach der fälligen Wiederholung. Fehler verändern nur die Aufgabenstufe – niemals das LVL.
+        </p>
+      </header>
+
+      <div className="level-flight-path relative space-y-4 pb-2">
+        {levels.map((level) => {
+          const items = levelTopics(level, progress, disabled)
+          const due = items.filter((topic) => isLevelDue(getProgress(progress, topic.id))).length
+          const activeSubjects = subjects.filter((subject) => items.some((topic) => topic.fach === subject.id))
+          return (
+            <button
+              key={level}
+              className="level-route-card relative z-10 w-full rounded-2xl border border-white/80 bg-white/85 p-4 text-left shadow-sm backdrop-blur"
+              onClick={() => onOpenLevel(level)}
+            >
+              <span className="absolute -left-1 top-5 grid h-10 w-10 -translate-x-1/2 place-items-center rounded-full border-4 border-sky-100 bg-slate-950 text-sm font-black text-white">
+                {level}
+              </span>
+              <span className="flex items-start justify-between gap-3 pl-5">
+                <span>
+                  <span className="block text-lg font-black">LVL {level}</span>
+                  <span className="mt-1 block text-xs font-bold text-slate-500">
+                    {items.length ? `${items.length} ${items.length === 1 ? 'Thema' : 'Themen'} auf dieser Höhe` : 'Noch keine Themen hier'}
+                  </span>
+                </span>
+                {due > 0 ? (
+                  <span className="rounded-full bg-rose-100 px-2.5 py-1 text-xs font-black text-rose-800">{due} fällig</span>
+                ) : (
+                  <Cloud className="text-sky-300" size={28} />
+                )}
+              </span>
+              {activeSubjects.length > 0 && (
+                <span className="mt-3 grid grid-cols-2 gap-2 pl-5">
+                  {activeSubjects.map((subject) => {
+                    const Icon = subject.icon
+                    return (
+                      <span key={subject.id} className="flex min-h-[38px] items-center gap-2 rounded-lg bg-slate-50 px-2 text-xs font-black text-slate-700">
+                        <Icon size={15} style={{ color: subject.color }} />
+                        <span className="min-w-0 flex-1 truncate">{subject.label}</span>
+                        <span>{estimateSubjectGrade(subject.id, progress, disabled)}</span>
+                      </span>
+                    )
+                  })}
+                </span>
+              )}
+            </button>
+          )
+        })}
+      </div>
+
+      <button
+        className="mt-4 flex min-h-[58px] items-center gap-3 rounded-xl border border-slate-200 bg-white px-4 text-left shadow-sm"
+        onClick={() => onOpenLevel('archive')}
+      >
+        <Archive size={22} />
+        <span className="flex-1">
+          <span className="block font-black">Archiv / abgeschlossen</span>
+          <span className="block text-xs font-bold text-slate-500">{completed} {completed === 1 ? 'Thema' : 'Themen'} · jederzeit freiwillig übbar</span>
+        </span>
+        <ChevronRight size={21} className="text-slate-400" />
+      </button>
+    </section>
+  )
+}
+
+function LevelDetailScreen({ level, progress, disabled, onBack, onOpenTopic }) {
+  const [subjectId, setSubjectId] = useState(subjects[0].id)
+  const items = levelTopics(level, progress, disabled)
+  const visibleTopics = items.filter((topic) => topic.fach === subjectId)
+  const selectedSubject = subjectById[subjectId]
+
+  return (
+    <section className="flex flex-1 flex-col px-4 pb-8 pt-4">
+      <HeaderButton onBack={onBack} />
+      <header className="mb-4">
+        <span className="inline-flex items-center gap-2 rounded-full bg-sky-100 px-3 py-1 text-xs font-black text-sky-900">
+          {level === 'archive' ? <Archive size={14} /> : <><Sparkles size={14} /> LVL {level}</>}
+        </span>
+        <h1 className="mt-2 text-2xl font-black">{level === 'archive' ? 'Gemeisterte Themen' : `Themen auf LVL ${level}`}</h1>
+        <p className="mt-1 text-sm font-semibold text-slate-600">
+          Freies Üben ist immer möglich. Ein Aufstieg zählt nur, wenn die Wartezeit abgelaufen ist.
+        </p>
+      </header>
+
+      <div className="-mx-4 mb-4 flex gap-2 overflow-x-auto px-4 pb-1">
+        {subjects.map((subject) => {
+          const Icon = subject.icon
+          const count = items.filter((topic) => topic.fach === subject.id).length
+          const active = subject.id === subjectId
+          return (
+            <button
+              key={subject.id}
+              className={[
+                'flex min-h-[46px] shrink-0 items-center gap-2 rounded-xl border px-3 text-sm font-black',
+                active ? 'border-slate-950 bg-slate-950 text-white' : 'border-slate-200 bg-white text-slate-700'
+              ].join(' ')}
+              onClick={() => setSubjectId(subject.id)}
+            >
+              <Icon size={17} /> {subject.label} <span className={active ? 'text-white/70' : 'text-slate-400'}>{count}</span>
+            </button>
+          )
+        })}
+      </div>
+
+      <div className="mb-3 flex items-center justify-between rounded-xl border border-slate-200 bg-white p-3">
+        <span className="text-sm font-black">{selectedSubject.label}</span>
+        <span className="rounded-full px-2.5 py-1 text-xs font-black text-white" style={{ background: selectedSubject.color }}>
+          Lernstand {estimateSubjectGrade(subjectId, progress, disabled)}
+        </span>
+      </div>
+
+      <div className="space-y-3">
+        {visibleTopics.length === 0 && (
+          <div className="rounded-xl border border-dashed border-slate-300 bg-white p-6 text-center">
+            <Cloud className="mx-auto text-sky-300" size={34} />
+            <p className="mt-2 text-sm font-bold text-slate-600">In diesem Fach ist auf dieser Ebene noch kein Thema.</p>
+          </div>
+        )}
+        {visibleTopics.map((topic) => {
+          const topicProgress = getProgress(progress, topic.id)
+          const dueAt = getLevelDueAt(topicProgress)
+          const due = isLevelDue(topicProgress)
+          return (
+            <button
+              key={topic.id}
+              className="w-full rounded-xl border border-slate-200 bg-white p-4 text-left shadow-sm"
+              onClick={() => onOpenTopic(topic)}
+            >
+              <span className="mb-2 flex flex-wrap items-center gap-2">
+                <StageBadge stage={topicProgress.stage} />
+                {level !== 'archive' && (due ? (
+                  <span className="inline-flex items-center gap-1 rounded-full bg-rose-100 px-2 py-1 text-xs font-black text-rose-800">
+                    <CalendarClock size={13} /> Wiederholung fällig
+                  </span>
+                ) : dueAt ? (
+                  <span className="inline-flex items-center gap-1 rounded-full bg-sky-100 px-2 py-1 text-xs font-black text-sky-800">
+                    <CalendarClock size={13} /> in {formatRemaining(dueAt.getTime())}
+                  </span>
+                ) : null)}
+              </span>
+              <span className="block text-base font-black leading-snug">{topic.titel}</span>
+              <span className="mt-1 block text-xs font-bold text-slate-500">
+                {topicProgress.correct} richtig · {topicProgress.wrong} falsch · bis zu 3 Varianten je Stufe
+              </span>
+            </button>
+          )
+        })}
+      </div>
+    </section>
+  )
+}
+
 function SubjectScreen({ subject, progress, disabled, onBack, onToggle, onStartShuffle, onOpenTopic }) {
-  const subjectTopics = topicsForSubject(subject.id)
+  const subjectTopics = topicsForSubject(subject.id).filter((topic) => getProgress(progress, topic.id).lvl === 0)
   const activeSubjectTopics = subjectTopics.filter((topic) => !disabled[topic.id])
-  const availableTopics = activeSubjectTopics.filter((topic) => !isLocked(getProgress(progress, topic.id)))
+  const availableTopics = activeSubjectTopics
   const Icon = subject.icon
 
   return (
@@ -312,9 +522,8 @@ function SubjectScreen({ subject, progress, disabled, onBack, onToggle, onStartS
         {subjectTopics.map((topic) => {
           const topicProgress = getProgress(progress, topic.id)
           const currentStage = normalizeStage(topic, topicProgress.stage)
-          const locked = isLocked(topicProgress)
           const off = Boolean(disabled[topic.id])
-          const focus = topicProgress.wrong >= 3 && topicProgress.wrong > topicProgress.correct
+          const focus = topicProgress.wrong >= 8
 
           return (
             <article
@@ -329,16 +538,6 @@ function SubjectScreen({ subject, progress, disabled, onBack, onToggle, onStartS
                 <button className="min-h-[64px] min-w-0 flex-1 text-left" disabled={off} onClick={() => onOpenTopic(topic.id)}>
                   <div className="mb-2 flex flex-wrap items-center gap-2">
                     <StageBadge stage={currentStage} />
-                    {topicProgress.solvedOnce && (
-                      <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2 py-1 text-xs font-black text-emerald-800">
-                        <Trophy size={12} /> Schon gelöst
-                      </span>
-                    )}
-                    {locked && (
-                      <span className="inline-flex items-center gap-1 rounded-full bg-slate-900 px-2 py-1 text-xs font-black text-white">
-                        <Lock size={12} /> fällig in {formatRemaining(Date.parse(topicProgress.nextReview))}
-                      </span>
-                    )}
                     {focus && <span className="rounded-full bg-amber-200 px-2 py-1 text-xs font-black text-amber-950">Fokus</span>}
                   </div>
                   <h2 className="text-base font-black leading-snug">{topic.titel}</h2>
@@ -411,8 +610,8 @@ function ShuffleScreen({ subject, topicIds, progress, onBack, onAnswered }) {
       onCheck={() => {
         const correct = checkAnswer(card, answer)
         const storedAnswer = serializeAnswer(answer)
-        setResult({ correct, answer: storedAnswer })
-        onAnswered(topic, card, storedAnswer, correct)
+        const outcome = onAnswered(topic, card, storedAnswer, correct)
+        setResult({ correct, answer: storedAnswer, ...outcome })
       }}
       nextLabel={isLastTopic ? 'Runde beenden' : 'Nächstes Thema'}
       onNext={goNext}
@@ -424,26 +623,6 @@ function TopicScreen({ topic, progress, onBack, onAnswered }) {
   const [card, setCard] = useState(() => pickTopicCard(topic, progress))
   const [answer, setAnswer] = useState(() => initialAnswer(card))
   const [result, setResult] = useState(null)
-
-  if (isLocked(progress) && !result) {
-    return (
-      <section className="flex flex-1 flex-col px-4 pb-6 pt-4">
-        <HeaderButton onBack={onBack} />
-        <div className="mt-16 rounded-lg border border-emerald-200 bg-white p-5 text-center shadow-lift">
-          <div className="mx-auto mb-4 grid h-14 w-14 place-items-center rounded-lg bg-emerald-100 text-emerald-800">
-            <Lock size={28} />
-          </div>
-          <h1 className="text-xl font-black">Thema pausiert</h1>
-          <p className="mt-2 text-sm font-semibold text-slate-600">
-            Dieses Thema wurde auf der höchsten Stufe korrekt gelöst und ist noch {formatRemaining(Date.parse(progress.nextReview))} gesperrt.
-          </p>
-          <p className="mt-3 inline-flex items-center gap-1 rounded-full bg-emerald-100 px-3 py-2 text-xs font-black text-emerald-800">
-            <Trophy size={14} /> Schon einmal richtig gelöst
-          </p>
-        </div>
-      </section>
-    )
-  }
 
   return (
     <LearningCard
@@ -458,8 +637,8 @@ function TopicScreen({ topic, progress, onBack, onAnswered }) {
       onCheck={() => {
         const correct = checkAnswer(card, answer)
         const storedAnswer = serializeAnswer(answer)
-        setResult({ correct, answer: storedAnswer })
-        onAnswered(card, storedAnswer, correct)
+        const outcome = onAnswered(card, storedAnswer, correct)
+        setResult({ correct, answer: storedAnswer, ...outcome })
       }}
       nextLabel="Weiter"
       onNext={() => {
@@ -482,13 +661,16 @@ function LearningCard({ eyebrow, topic, card, progress, result, answer, setAnswe
         <div className="mb-3 flex flex-wrap items-center gap-2">
           <span className="rounded-full bg-slate-950 px-2 py-1 text-xs font-black text-white">{eyebrow}</span>
           <StageBadge stage={currentStage} />
-          <span className="rounded-full bg-slate-100 px-2 py-1 text-xs font-black text-slate-700">{stageLabel(currentStage)}</span>
+          <span className="rounded-full bg-slate-100 px-2 py-1 text-xs font-black text-slate-700">{stageLabel(currentStage, topic)}</span>
           <TypeBadge type={card.typ} />
           {card.jahr && <span className="rounded-full bg-slate-100 px-2 py-1 text-xs font-black text-slate-700">Prüfung {card.jahr}</span>}
           {progress.solvedOnce && (
             <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2 py-1 text-xs font-black text-emerald-800">
               <Trophy size={12} /> Schon gelöst
             </span>
+          )}
+          {progress.lvl > 0 && !progress.completedAt && (
+            <span className="rounded-full bg-sky-100 px-2 py-1 text-xs font-black text-sky-900">LVL {progress.lvl}</span>
           )}
         </div>
 
@@ -543,6 +725,7 @@ function TypeBadge({ type }) {
     single_choice: 'Einfachauswahl',
     multiple_choice: 'Mehrfachauswahl',
     formel_luecke_mc: 'Formelwahl',
+    formel_builder: 'Formel bauen',
     reihenfolge: 'Reihenfolge',
     zuordnung: 'Zuordnung'
   }
@@ -558,6 +741,9 @@ function AnswerInput({ card, value, onChange, disabled }) {
   }
   if (card.typ === 'formel_luecke_mc') {
     return <FormulaMcInput data={card.antwort_daten} value={value} onChange={onChange} disabled={disabled} />
+  }
+  if (card.typ === 'formel_builder') {
+    return <FormulaBuilderInput data={card.antwort_daten} value={value} onChange={onChange} disabled={disabled} />
   }
   if (card.typ === 'reihenfolge') {
     return <OrderInput data={card.antwort_daten} value={value} onChange={onChange} disabled={disabled} />
@@ -621,6 +807,116 @@ function FormulaMcInput({ data, value, onChange, disabled }) {
           </div>
         </section>
       ))}
+    </div>
+  )
+}
+
+function FormulaBuilderInput({ data, value, onChange, disabled }) {
+  const itemsById = Object.fromEntries(data.bausteine.map((item) => [item.id, item]))
+  const balanceIds = new Set([...(data.bilanz?.aktiven ?? []), ...(data.bilanz?.passiven ?? [])])
+  const tools = data.bausteine.filter((item) => !balanceIds.has(item.id))
+
+  function append(id) {
+    if (disabled || value.sequence.length >= data.richtige_reihenfolge.length) return
+    onChange({ ...value, sequence: [...value.sequence, id] })
+  }
+
+  function BalanceColumn({ title, ids }) {
+    return (
+      <section className="min-w-0 flex-1 p-2.5">
+        <h3 className="border-b border-slate-300 pb-2 text-center text-xs font-black uppercase tracking-[0.12em] text-slate-500">{title}</h3>
+        <div className="mt-2 space-y-2">
+          {ids.map((id) => (
+            <button
+              key={id}
+              className="min-h-[46px] w-full rounded-lg border border-slate-200 bg-white px-2 py-2 text-left text-sm font-black text-slate-800 shadow-sm transition active:scale-[0.98] disabled:opacity-60"
+              disabled={disabled}
+              onClick={() => append(id)}
+            >
+              {itemsById[id]?.label ?? id}
+            </button>
+          ))}
+        </div>
+        <p className="mt-3 border-t-2 border-slate-900 pt-1 text-right text-[11px] font-black uppercase tracking-widest text-slate-500">Total</p>
+      </section>
+    )
+  }
+
+  return (
+    <div className="space-y-3">
+      <section className="formula-workbench rounded-2xl border border-sky-200 bg-sky-50/70 p-3">
+        <div className="mb-3 flex items-center justify-between">
+          <h2 className="text-sm font-black text-sky-950">Deine Formel</h2>
+          <span className="text-xs font-bold text-sky-700">{value.sequence.length}/{data.richtige_reihenfolge.length} Bausteine</span>
+        </div>
+        <div className="flex min-h-[58px] flex-wrap items-center gap-2 rounded-xl border-2 border-dashed border-sky-300 bg-white p-2">
+          {value.sequence.length === 0 && <span className="px-1 text-sm font-bold text-slate-400">Bilanzfelder und Zeichen antippen</span>}
+          {value.sequence.map((id, index) => (
+            <span key={`${id}-${index}`} className="rounded-lg bg-slate-950 px-2.5 py-2 text-sm font-black text-white">
+              {itemsById[id]?.label ?? id}
+            </span>
+          ))}
+        </div>
+        <div className="mt-2 flex gap-2">
+          <button
+            className="flex min-h-[44px] flex-1 items-center justify-center gap-2 rounded-lg border border-sky-200 bg-white text-sm font-black text-sky-900 disabled:opacity-40"
+            disabled={disabled || value.sequence.length === 0}
+            onClick={() => onChange({ ...value, sequence: value.sequence.slice(0, -1) })}
+          >
+            <Undo2 size={16} /> Letzten zurück
+          </button>
+          <button
+            className="grid h-11 w-11 place-items-center rounded-lg border border-sky-200 bg-white text-sky-900 disabled:opacity-40"
+            aria-label="Formel leeren"
+            disabled={disabled || value.sequence.length === 0}
+            onClick={() => onChange({ ...value, sequence: [] })}
+          >
+            <RotateCcw size={17} />
+          </button>
+        </div>
+      </section>
+
+      {data.bilanz && (
+        <section className="overflow-hidden rounded-2xl border-2 border-slate-900 bg-slate-50">
+          <div className="border-b-2 border-slate-900 bg-white px-3 py-2 text-center text-sm font-black">Bilanzfelder</div>
+          <div className="flex divide-x-2 divide-slate-900">
+            <BalanceColumn title="Aktiven" ids={data.bilanz.aktiven} />
+            <BalanceColumn title="Passiven" ids={data.bilanz.passiven} />
+          </div>
+        </section>
+      )}
+
+      <section>
+        <h3 className="mb-2 text-xs font-black uppercase tracking-[0.12em] text-slate-500">Weitere Bausteine &amp; Rechenzeichen</h3>
+        <div className="grid grid-cols-3 gap-2">
+          {tools.map((item) => (
+            <button
+              key={item.id}
+              className="min-h-[48px] rounded-xl border border-slate-200 bg-white px-2 text-base font-black text-slate-900 shadow-sm disabled:opacity-60"
+              disabled={disabled}
+              onClick={() => append(item.id)}
+            >
+              {item.label}
+            </button>
+          ))}
+        </div>
+      </section>
+
+      {data.ergebnis && (
+        <label className="block rounded-xl border border-slate-200 bg-white p-3">
+          <span className="text-sm font-black">Ergebnis</span>
+          <span className="mt-2 flex items-center gap-2">
+            <input
+              className="min-h-[48px] min-w-0 flex-1 rounded-lg border border-slate-300 px-3 text-lg font-black outline-none focus:border-sky-600"
+              inputMode="decimal"
+              value={value.result}
+              disabled={disabled}
+              onChange={(event) => onChange({ ...value, result: event.target.value })}
+            />
+            <span className="font-black text-slate-600">{data.ergebnis.einheit}</span>
+          </span>
+        </label>
+      )}
     </div>
   )
 }
@@ -704,19 +1000,31 @@ function FeedbackPanel({ result, card, finalStage }) {
         </span>
         <h2 className="font-black">{result.correct ? 'Richtig beantwortet' : 'Falsch beantwortet'}</h2>
       </div>
-      {result.correct && finalStage && (
+      {result.promoted && (
         <p className="mb-3 flex items-center gap-2 rounded-lg bg-white p-2 text-sm font-black text-emerald-800">
-          <Trophy size={17} /> Höchste Stufe korrekt gelöst: Thema ist jetzt für 12 Stunden gesperrt.
+          <Plane size={17} /> Ganzes Thema geschafft: Aufstieg auf LVL {result.nextLevel}. Die neue Wartezeit läuft jetzt.
         </p>
       )}
-      {result.correct && !finalStage && (
+      {result.completed && (
+        <p className="mb-3 flex items-center gap-2 rounded-lg bg-white p-2 text-sm font-black text-emerald-800">
+          <Trophy size={17} /> Letzte Wiederholung geschafft: Das Thema ist jetzt im Archiv.
+        </p>
+      )}
+      {result.correct && !result.promoted && !result.completed && !finalStage && (
         <p className="mb-3 rounded-lg bg-white p-2 text-sm font-black text-emerald-800">
           Richtig. Dieses Thema ist jetzt für die nächste Stufe freigeschaltet.
         </p>
       )}
+      {result.correct && !result.promoted && !result.completed && finalStage && (
+        <p className="mb-3 rounded-lg bg-white p-2 text-sm font-black text-sky-800">
+          Freiwillig richtig geübt. Das LVL bleibt gleich, bis die Wartezeit abgelaufen ist.
+        </p>
+      )}
       {!result.correct && (
         <p className="mb-3 rounded-lg bg-white p-2 text-sm font-black text-rose-800">
-          Die Stufe bleibt gleich. Schau dir Erklärung und korrekte Lösung an.
+          {result.nextStage < result.previousStage
+            ? `Zurück auf Stufe ${result.nextStage}. Dein LVL bleibt unverändert.`
+            : 'Du bleibst auf dieser Stufe. Dein LVL bleibt unverändert.'}
         </p>
       )}
       <InfoBlock title="Lösungsvorschlag" text={card.loesungsvorschlag?.kurz} />
@@ -738,6 +1046,12 @@ function FeedbackPanel({ result, card, finalStage }) {
       )}
       <CorrectAnswerPanel card={card} />
       {card.typ === 'formel_luecke_mc' && card.antwort_daten.formel && (
+        <div className="mt-3 rounded-lg bg-white p-3">
+          <h3 className="text-sm font-black">Vollständige Formel</h3>
+          <p className="mt-1 text-base font-black text-slate-800">{card.antwort_daten.formel}</p>
+        </div>
+      )}
+      {card.typ === 'formel_builder' && card.antwort_daten.formel && (
         <div className="mt-3 rounded-lg bg-white p-3">
           <h3 className="text-sm font-black">Vollständige Formel</h3>
           <p className="mt-1 text-base font-black text-slate-800">{card.antwort_daten.formel}</p>
@@ -771,6 +1085,14 @@ function CorrectAnswerPanel({ card }) {
 
   if (card.typ === 'formel_luecke_mc') {
     return <SolutionBox items={data.luecken_mc.map((gap) => `Lücke ${gap.position}: ${gap.richtig ?? gap.optionen[gap.richtig_index]}`)} />
+  }
+
+  if (card.typ === 'formel_builder') {
+    const labels = Object.fromEntries(data.bausteine.map((item) => [item.id, item.label]))
+    const formula = data.richtige_reihenfolge.map((id) => labels[id] ?? id).join(' ')
+    const items = [formula]
+    if (data.ergebnis) items.push(`${data.ergebnis.richtiger_wert} ${data.ergebnis.einheit ?? ''}`.trim())
+    return <SolutionBox items={items} />
   }
 
   if (card.typ === 'reihenfolge') {
@@ -832,67 +1154,6 @@ function buildTopics(sourceCards) {
 
 function topicsForSubject(subjectId) {
   return topics.filter((topic) => topic.fach === subjectId)
-}
-
-function normalizeStage(topic, stage) {
-  if (topic.stages.includes(stage)) return stage
-  return topic.minStage
-}
-
-function getNextTopicStage(topic, currentStage) {
-  const nextStage = topic.stages.find((stage) => stage > currentStage)
-  return nextStage ?? currentStage
-}
-
-function pickTopicCard(topic, topicProgress) {
-  const stage = normalizeStage(topic, topicProgress.stage)
-  const stageCards = topic.cards.filter((card) => (card.stufe ?? 1) === stage)
-  const attempts = topicProgress.attemptsByStage?.[stage] ?? 0
-  return stageCards[attempts % stageCards.length] ?? topic.cards[0]
-}
-
-function initialAnswer(card) {
-  if (!card) return null
-  if (card.typ === 'multiple_choice' || card.typ === 'reihenfolge') return []
-  if (card.typ === 'formel_luecke_mc' || card.typ === 'zuordnung') return {}
-  return null
-}
-
-function hasAnswer(card, answer) {
-  if (card.typ === 'single_choice') return Number.isInteger(answer)
-  if (card.typ === 'multiple_choice') return Array.isArray(answer) && answer.length > 0
-  if (card.typ === 'formel_luecke_mc') return Object.keys(answer ?? {}).length === card.antwort_daten.luecken_mc.length
-  if (card.typ === 'reihenfolge') return Array.isArray(answer) && answer.length === card.antwort_daten.items.length
-  if (card.typ === 'zuordnung') return Object.keys(answer ?? {}).length === card.antwort_daten.links.length
-  return false
-}
-
-function checkAnswer(card, answer) {
-  const data = card.antwort_daten
-  if (card.typ === 'single_choice') return answer === data.richtig_index
-  if (card.typ === 'multiple_choice') {
-    const selected = [...answer].sort((a, b) => a - b).join(',')
-    const correct = [...data.richtige_indices].sort((a, b) => a - b).join(',')
-    return selected === correct
-  }
-  if (card.typ === 'formel_luecke_mc') {
-    return data.luecken_mc.every((gap, index) => answer[index] === gap.richtig_index)
-  }
-  if (card.typ === 'reihenfolge') {
-    return answer.join(',') === data.richtige_reihenfolge.join(',')
-  }
-  if (card.typ === 'zuordnung') {
-    return data.richtige_paare.every(([left, right]) => answer[left] === right)
-  }
-  return false
-}
-
-function serializeAnswer(answer) {
-  try {
-    return JSON.parse(JSON.stringify(answer))
-  } catch {
-    return null
-  }
 }
 
 function shuffle(items) {
