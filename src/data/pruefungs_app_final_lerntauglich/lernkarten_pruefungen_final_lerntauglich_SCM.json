@@ -6,29 +6,22 @@
     "hinweis_2021": "2021.zip war leer und konnte nicht ausgewertet werden.",
     "quelle": "auf Basis von pruefungs_app_import/lernkarten_pruefungen_Alle_Faecher.json plus automatischer Struktur-/Logik-Kontrolle",
     "schema_version": "2.0-final-learning",
-    "anzahl_karten": 191,
-    "anzahl_themen_gruppiert": 237,
+    "anzahl_karten": 149,
+    "anzahl_themen_gruppiert": 43,
     "kartentypen": {
       "single_choice": 85,
-      "multiple_choice": 95,
+      "multiple_choice": 53,
       "reihenfolge": 4,
       "zuordnung": 4,
       "formel_luecke_mc": 3
     },
     "stufen": {
       "1": 45,
-      "2": 43,
+      "2": 1,
       "3": 103
     },
     "karten_pro_fach": {
-      "Finanzwirtschaft": 177,
-      "Integrierte_Fallstudie": 114,
-      "Marketing_Verkauf": 153,
-      "Personalmanagement": 183,
-      "Problemloesung_Entscheidung": 77,
-      "Recht_VWL": 149,
-      "SCM": 191,
-      "Unternehmensfuehrung": 163
+      "SCM": 149
     },
     "validierungsfehler": 0,
     "erlaubte_typen": [
@@ -64,7 +57,9 @@
     "patched_stufe_1": 256,
     "patched_stufe_2": 237,
     "generische_antwortoptionen_rest": 0,
-    "fach": "SCM"
+    "fach": "SCM",
+    "entfernte_fehlerfragen": 42,
+    "bereinigung_fehlerfragen_am": "2026-07-17"
   },
   "karten": [
     {
@@ -142,92 +137,6 @@
         "grundlage",
         "SCM",
         "ABC-Analyse",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
-    },
-    {
-      "id": "scm_abc_analyse_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "abc_analyse",
-      "thema": "ABC-Analyse",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022,
-          2023
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-            "aufgabe": "2022:SCM:3.1"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_SCM.pdf",
-            "aufgabe": "2023:SCM:1.15"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_SCM.pdf",
-            "aufgabe": "2023:SCM:2.4"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei ABC-Analyse vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „ABC-Analyse“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl."
-        ],
-        "richtige_indices": [
-          1,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "ABC-Analyse",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -323,32 +232,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Anspruchsgruppen vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Anspruchsgruppen sind alle internen und externen Parteien mit berechtigten Erwartungen ans Unternehmen.",
+        "pruefungsrelevant": "Prüfungsnah ist, verschiedene Anspruchsgruppen zu benennen und ihre teils widersprüchlichen Erwartungen zu erkennen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Anspruchsgruppen“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zum Umgang mit Anspruchsgruppen sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist."
+          "Unterschiedliche Anspruchsgruppen können widersprüchliche Erwartungen haben (z.B. tiefe Preise vs. hohe Gewinne).",
+          "Wichtige Anspruchsgruppen sollten aktiv informiert und wo sinnvoll einbezogen werden.",
+          "Nur Anspruchsgruppen mit finanzieller Beteiligung zählen.",
+          "Die Erwartungen aller Anspruchsgruppen sind immer identisch und lassen sich ignorieren.",
+          "Anspruchsgruppen können sich im Zeitverlauf ändern und sollten periodisch neu beurteilt werden."
         ],
         "richtige_indices": [
-          2,
-          3
+          0,
+          1,
+          4
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Richtig sind der Umgang mit widersprüchlichen Erwartungen, aktive Information/Einbezug und die periodische Neubeurteilung von Anspruchsgruppen.",
+        "rechenweg": "Anspruchsgruppen mit rein finanzieller Beteiligung zu betrachten greift zu kurz, und Erwartungen sind selten für alle Gruppen gleich.",
+        "warum": "Prüfungsnah ist, verschiedene Anspruchsgruppen zu benennen und ihre teils widersprüchlichen Erwartungen zu erkennen."
       },
       "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
+        "Nur finanziell beteiligte Gruppen als Anspruchsgruppen zählen.",
+        "Interne Anspruchsgruppen (z.B. Mitarbeitende) vergessen.",
+        "Widersprüchliche Erwartungen verschiedener Gruppen ignorieren."
       ],
       "review": {
         "box": 1,
@@ -371,7 +281,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Wer etwas vom Unternehmen erwartet, ist eine Anspruchsgruppe."
     },
     {
       "id": "scm_belieferungskonzepte_stufe1_begriff",
@@ -435,79 +345,6 @@
         "grundlage",
         "SCM",
         "Belieferungskonzepte",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
-    },
-    {
-      "id": "scm_belieferungskonzepte_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "belieferungskonzepte",
-      "thema": "Belieferungskonzepte",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/01_SCM_2024_Aufgaben.pdf",
-            "aufgabe": "2024:SCM:1.13"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Belieferungskonzepte vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Belieferungskonzepte“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten."
-        ],
-        "richtige_indices": [
-          1,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Belieferungskonzepte",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -608,106 +445,6 @@
       "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
     },
     {
-      "id": "scm_beschaffung_lieferanten_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "beschaffung_lieferanten",
-      "thema": "Beschaffung / Lieferanten",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022,
-          2023,
-          2024,
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-            "aufgabe": "2022:SCM:1.1"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-            "aufgabe": "2022:SCM:1.2"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-            "aufgabe": "2022:SCM:1.3"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-            "aufgabe": "2022:SCM:2.1"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-            "aufgabe": "2022:SCM:3.2"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Beschaffung / Lieferanten vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Beschaffung / Lieferanten“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen."
-        ],
-        "richtige_indices": [
-          1,
-          2
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Beschaffung / Lieferanten",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
-    },
-    {
       "id": "scm_bestandteile_einer_offerte_stufe1_begriff",
       "fach": "SCM",
       "thema_id": "bestandteile_einer_offerte",
@@ -769,79 +506,6 @@
         "grundlage",
         "SCM",
         "Bestandteile einer Offerte",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
-    },
-    {
-      "id": "scm_bestandteile_einer_offerte_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "bestandteile_einer_offerte",
-      "thema": "Bestandteile einer Offerte",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/01_SCM_2024_Aufgaben.pdf",
-            "aufgabe": "2024:SCM:1.5"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Bestandteile einer Offerte vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Bestandteile einer Offerte“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten."
-        ],
-        "richtige_indices": [
-          2,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Bestandteile einer Offerte",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -915,79 +579,6 @@
       "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
     },
     {
-      "id": "scm_dienstleistungsorientierung_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "dienstleistungsorientierung",
-      "thema": "Dienstleistungsorientierung",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-            "aufgabe": "2022:SCM:1.10"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Dienstleistungsorientierung vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Dienstleistungsorientierung“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden."
-        ],
-        "richtige_indices": [
-          0,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Dienstleistungsorientierung",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
-    },
-    {
       "id": "scm_distribution_stufe1_begriff",
       "fach": "SCM",
       "thema_id": "distribution",
@@ -1049,79 +640,6 @@
         "grundlage",
         "SCM",
         "Distribution",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
-    },
-    {
-      "id": "scm_distribution_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "distribution",
-      "thema": "Distribution",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/SCM_Aufgaben_2025.pdf",
-            "aufgabe": "2025:SCM:1.15"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Distribution vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Distribution“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut."
-        ],
-        "richtige_indices": [
-          1,
-          2
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Distribution",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -1195,79 +713,6 @@
       "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
     },
     {
-      "id": "scm_e_procurement_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "e_procurement",
-      "thema": "E-Procurement",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/01_SCM_2024_Aufgaben.pdf",
-            "aufgabe": "2024:SCM:2.4"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei E-Procurement vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „E-Procurement“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden."
-        ],
-        "richtige_indices": [
-          0,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "E-Procurement",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
-    },
-    {
       "id": "scm_entsorgung_stufe1_begriff",
       "fach": "SCM",
       "thema_id": "entsorgung",
@@ -1329,79 +774,6 @@
         "grundlage",
         "SCM",
         "Entsorgung",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
-    },
-    {
-      "id": "scm_entsorgung_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "entsorgung",
-      "thema": "Entsorgung",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/01_SCM_2024_Aufgaben.pdf",
-            "aufgabe": "2024:SCM:1.15"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Entsorgung vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Entsorgung“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen."
-        ],
-        "richtige_indices": [
-          2,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Entsorgung",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -1475,79 +847,6 @@
       "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
     },
     {
-      "id": "scm_entsorgungserklaerung_und_nachweis_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "entsorgungserklaerung_und_nachweis",
-      "thema": "Entsorgungserklärung und -nachweis",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/01_SCM_2024_Aufgaben.pdf",
-            "aufgabe": "2024:SCM:1.4"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Entsorgungserklärung und -nachweis vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Entsorgungserklärung und -nachweis“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen."
-        ],
-        "richtige_indices": [
-          1,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Entsorgungserklärung und -nachweis",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
-    },
-    {
       "id": "scm_entsorgungslogistik_stufe1_begriff",
       "fach": "SCM",
       "thema_id": "entsorgungslogistik",
@@ -1609,79 +908,6 @@
         "grundlage",
         "SCM",
         "Entsorgungslogistik",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
-    },
-    {
-      "id": "scm_entsorgungslogistik_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "entsorgungslogistik",
-      "thema": "Entsorgungslogistik",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2023
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_SCM.pdf",
-            "aufgabe": "2023:SCM:2.2"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Entsorgungslogistik vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Entsorgungslogistik“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden."
-        ],
-        "richtige_indices": [
-          1,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Entsorgungslogistik",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -1781,105 +1007,6 @@
       "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
     },
     {
-      "id": "scm_fuehrung_personal_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "fuehrung_personal",
-      "thema": "Führung / Personal",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022,
-          2023,
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-            "aufgabe": "2022:SCM:1.14"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-            "aufgabe": "2022:SCM:3.3"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_SCM.pdf",
-            "aufgabe": "2023:SCM:1.12"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_SCM.pdf",
-            "aufgabe": "2023:SCM:1.9"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/SCM_Aufgaben_2025.pdf",
-            "aufgabe": "2025:SCM:1.14"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Führung / Personal vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Führung / Personal“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht."
-        ],
-        "richtige_indices": [
-          0,
-          2
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Führung / Personal",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
       "id": "scm_incoterms_stufe1_begriff",
       "fach": "SCM",
       "thema_id": "incoterms",
@@ -1954,86 +1081,6 @@
       "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
     },
     {
-      "id": "scm_incoterms_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "incoterms",
-      "thema": "Incoterms",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024,
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/01_SCM_2024_Aufgaben.pdf",
-            "aufgabe": "2024:SCM:2.5"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/SCM_Aufgaben_2025.pdf",
-            "aufgabe": "2025:SCM:1.17"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Incoterms vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Incoterms“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl."
-        ],
-        "richtige_indices": [
-          0,
-          2
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Incoterms",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
-    },
-    {
       "id": "scm_infrastruktur_stufe1_begriff",
       "fach": "SCM",
       "thema_id": "infrastruktur",
@@ -2095,79 +1142,6 @@
         "grundlage",
         "SCM",
         "Infrastruktur",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
-    },
-    {
-      "id": "scm_infrastruktur_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "infrastruktur",
-      "thema": "Infrastruktur",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/SCM_Aufgaben_2025.pdf",
-            "aufgabe": "2025:SCM:3.1"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Infrastruktur vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Infrastruktur“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden."
-        ],
-        "richtige_indices": [
-          3,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Infrastruktur",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -2241,79 +1215,6 @@
       "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
     },
     {
-      "id": "scm_infrastruktur_beschaffen_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "infrastruktur_beschaffen",
-      "thema": "Infrastruktur beschaffen",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2023
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_SCM.pdf",
-            "aufgabe": "2023:SCM:2.5"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Infrastruktur beschaffen vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Infrastruktur beschaffen“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist."
-        ],
-        "richtige_indices": [
-          2,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Infrastruktur beschaffen",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
-    },
-    {
       "id": "scm_investitionsentscheid_stufe1_begriff",
       "fach": "SCM",
       "thema_id": "investitionsentscheid",
@@ -2375,79 +1276,6 @@
         "grundlage",
         "SCM",
         "Investitionsentscheid",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
-    },
-    {
-      "id": "scm_investitionsentscheid_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "investitionsentscheid",
-      "thema": "Investitionsentscheid",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/01_SCM_2024_Aufgaben.pdf",
-            "aufgabe": "2024:SCM:1.17"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Investitionsentscheid vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Investitionsentscheid“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt."
-        ],
-        "richtige_indices": [
-          1,
-          2
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Investitionsentscheid",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -2521,79 +1349,6 @@
       "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
     },
     {
-      "id": "scm_it_infrastruktur_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "it_infrastruktur",
-      "thema": "IT-Infrastruktur",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-            "aufgabe": "2022:SCM:1.12"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei IT-Infrastruktur vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „IT-Infrastruktur“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat."
-        ],
-        "richtige_indices": [
-          1,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "IT-Infrastruktur",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
-    },
-    {
       "id": "scm_it_infrastruktur_beurteilen_und_optimieren_stufe1_begriff",
       "fach": "SCM",
       "thema_id": "it_infrastruktur_beurteilen_und_optimieren",
@@ -2661,79 +1416,6 @@
       "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
     },
     {
-      "id": "scm_it_infrastruktur_beurteilen_und_optimieren_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "it_infrastruktur_beurteilen_und_optimieren",
-      "thema": "IT-Infrastruktur beurteilen und optimieren",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2023
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_SCM.pdf",
-            "aufgabe": "2023:SCM:1.8"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei IT-Infrastruktur beurteilen und optimieren vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „IT-Infrastruktur beurteilen und optimieren“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden."
-        ],
-        "richtige_indices": [
-          3,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "IT-Infrastruktur beurteilen und optimieren",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
-    },
-    {
       "id": "scm_kuenstliche_intelligenz_ki_stufe1_begriff",
       "fach": "SCM",
       "thema_id": "kuenstliche_intelligenz_ki",
@@ -2795,79 +1477,6 @@
         "grundlage",
         "SCM",
         "Künstliche Intelligenz KI",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
-    },
-    {
-      "id": "scm_kuenstliche_intelligenz_ki_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "kuenstliche_intelligenz_ki",
-      "thema": "Künstliche Intelligenz KI",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/SCM_Aufgaben_2025.pdf",
-            "aufgabe": "2025:SCM:3.2"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Künstliche Intelligenz KI vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Künstliche Intelligenz KI“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden."
-        ],
-        "richtige_indices": [
-          3,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Künstliche Intelligenz KI",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -2962,106 +1571,6 @@
         "grundlage",
         "SCM",
         "Lager / Lagerkennzahlen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
-    },
-    {
-      "id": "scm_lager_lagerkennzahlen_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "lager_lagerkennzahlen",
-      "thema": "Lager / Lagerkennzahlen",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022,
-          2023,
-          2024,
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-            "aufgabe": "2022:SCM:1.11"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-            "aufgabe": "2022:SCM:1.15"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-            "aufgabe": "2022:SCM:1.7"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-            "aufgabe": "2022:SCM:1.9"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-            "aufgabe": "2022:SCM:2.3"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Lager / Lagerkennzahlen vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Lager / Lagerkennzahlen“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten."
-        ],
-        "richtige_indices": [
-          0,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Lager / Lagerkennzahlen",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -3325,79 +1834,6 @@
       "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
     },
     {
-      "id": "scm_logistikkonzept_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "logistikkonzept",
-      "thema": "Logistikkonzept",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/01_SCM_2024_Aufgaben.pdf",
-            "aufgabe": "2024:SCM:3.2"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Logistikkonzept vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Logistikkonzept“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat."
-        ],
-        "richtige_indices": [
-          1,
-          2
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Logistikkonzept",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
-    },
-    {
       "id": "scm_losgroessenoptimierung_stufe1_begriff",
       "fach": "SCM",
       "thema_id": "losgroessenoptimierung",
@@ -3459,79 +1895,6 @@
         "grundlage",
         "SCM",
         "Losgrössenoptimierung",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
-    },
-    {
-      "id": "scm_losgroessenoptimierung_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "losgroessenoptimierung",
-      "thema": "Losgrössenoptimierung",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/SCM_Aufgaben_2025.pdf",
-            "aufgabe": "2025:SCM:2.5"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Losgrössenoptimierung vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Losgrössenoptimierung“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen."
-        ],
-        "richtige_indices": [
-          0,
-          1
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Losgrössenoptimierung",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -3631,105 +1994,6 @@
       "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
     },
     {
-      "id": "scm_marketing_verkauf_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "marketing_verkauf",
-      "thema": "Marketing / Verkauf",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2023,
-          2024,
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_SCM.pdf",
-            "aufgabe": "2023:SCM:1.5"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/01_SCM_2024_Aufgaben.pdf",
-            "aufgabe": "2024:SCM:1.10"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/01_SCM_2024_Aufgaben.pdf",
-            "aufgabe": "2024:SCM:1.2"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/01_SCM_2024_Aufgaben.pdf",
-            "aufgabe": "2024:SCM:2.2"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/SCM_Aufgaben_2025.pdf",
-            "aufgabe": "2025:SCM:1.16"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Marketing / Verkauf vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Marketing / Verkauf“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Bei Reklamationen Ursache, Kundenanliegen und Folgeprozess systematisch prüfen.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Massnahmen immer mit Zielgruppe und Kundennutzen verknüpfen.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung."
-        ],
-        "richtige_indices": [
-          0,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
-      },
-      "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Marketing / Verkauf",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
-    },
-    {
       "id": "scm_nachkalkulation_stufe1_begriff",
       "fach": "SCM",
       "thema_id": "nachkalkulation",
@@ -3791,79 +2055,6 @@
         "grundlage",
         "SCM",
         "Nachkalkulation",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Erst Kosten sauber aufbauen, dann Gewinn, dann MWST – sonst wird die Rechnung Hackfleisch."
-    },
-    {
-      "id": "scm_nachkalkulation_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "nachkalkulation",
-      "thema": "Nachkalkulation",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/SCM_Aufgaben_2025.pdf",
-            "aufgabe": "2025:SCM:2.4"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Nachkalkulation vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
-        "pruefungsrelevant": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Nachkalkulation“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Zuschlagsbasis vor dem Einsetzen der Zahlen kontrollieren.",
-          "Der Gewinnzuschlag gehört zu den Herstellkosten.",
-          "Die MWST wird zu den Selbstkosten gezählt.",
-          "Gewinn und MWST nicht in die Selbstkosten einrechnen.",
-          "Materialgemeinkosten werden direkt auf den Verkaufspreis berechnet."
-        ],
-        "richtige_indices": [
-          0,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
-      },
-      "fehlerfallen": [
-        "Falsche Zuschlagsbasis verwenden.",
-        "Gewinn und MWST in die Selbstkosten mischen.",
-        "Rabatt, Skonto und MWST in falscher Reihenfolge einsetzen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Nachkalkulation",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -3937,79 +2128,6 @@
       "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
     },
     {
-      "id": "scm_normen_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "normen",
-      "thema": "Normen",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-            "aufgabe": "2022:SCM:1.16"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Normen vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Normen“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat."
-        ],
-        "richtige_indices": [
-          0,
-          2
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Normen",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
-    },
-    {
       "id": "scm_oekologische_normen_umsetzen_stufe1_begriff",
       "fach": "SCM",
       "thema_id": "oekologische_normen_umsetzen",
@@ -4077,79 +2195,6 @@
       "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
     },
     {
-      "id": "scm_oekologische_normen_umsetzen_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "oekologische_normen_umsetzen",
-      "thema": "Ökologische Normen umsetzen",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2023
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_SCM.pdf",
-            "aufgabe": "2023:SCM:1.3"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Ökologische Normen umsetzen vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Ökologische Normen umsetzen“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat."
-        ],
-        "richtige_indices": [
-          2,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Ökologische Normen umsetzen",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
-    },
-    {
       "id": "scm_offertenevaluation_stufe1_begriff",
       "fach": "SCM",
       "thema_id": "offertenevaluation",
@@ -4211,79 +2256,6 @@
         "grundlage",
         "SCM",
         "Offertenevaluation",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
-    },
-    {
-      "id": "scm_offertenevaluation_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "offertenevaluation",
-      "thema": "Offertenevaluation",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2023
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_SCM.pdf",
-            "aufgabe": "2023:SCM:3.1"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Offertenevaluation vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Offertenevaluation“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle."
-        ],
-        "richtige_indices": [
-          0,
-          1
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Offertenevaluation",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -4384,106 +2356,6 @@
       "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
     },
     {
-      "id": "scm_organisation_prozesse_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "organisation_prozesse",
-      "thema": "Organisation / Prozesse",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022,
-          2023,
-          2024,
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-            "aufgabe": "2022:SCM:1.5"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-            "aufgabe": "2022:SCM:2.4"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_SCM.pdf",
-            "aufgabe": "2023:SCM:1.17"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_SCM.pdf",
-            "aufgabe": "2023:SCM:1.7"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_SCM.pdf",
-            "aufgabe": "2023:SCM:3.2"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Organisation / Prozesse vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Organisation / Prozesse“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen."
-        ],
-        "richtige_indices": [
-          2,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Organisation / Prozesse",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
-    },
-    {
       "id": "scm_organisatorische_massnahmen_zur_datensicherheit_stufe1_begriff",
       "fach": "SCM",
       "thema_id": "organisatorische_massnahmen_zur_datensicherheit",
@@ -4545,79 +2417,6 @@
         "grundlage",
         "SCM",
         "Organisatorische Massnahmen zur Datensicherheit",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
-    },
-    {
-      "id": "scm_organisatorische_massnahmen_zur_datensicherheit_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "organisatorische_massnahmen_zur_datensicherheit",
-      "thema": "Organisatorische Massnahmen zur Datensicherheit",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/01_SCM_2024_Aufgaben.pdf",
-            "aufgabe": "2024:SCM:1.1"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Organisatorische Massnahmen zur Datensicherheit vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Organisatorische Massnahmen zur Datensicherheit“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen."
-        ],
-        "richtige_indices": [
-          0,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Organisatorische Massnahmen zur Datensicherheit",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -4691,79 +2490,6 @@
       "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
     },
     {
-      "id": "scm_projektmanagement_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "projektmanagement",
-      "thema": "Projektmanagement",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/01_SCM_2024_Aufgaben.pdf",
-            "aufgabe": "2024:SCM:1.16"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Projektmanagement vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Projektmanagement“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut."
-        ],
-        "richtige_indices": [
-          0,
-          2
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Projektmanagement",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
-    },
-    {
       "id": "scm_qualitaet_und_normen_stufe1_begriff",
       "fach": "SCM",
       "thema_id": "qualitaet_und_normen",
@@ -4831,79 +2557,6 @@
       "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
     },
     {
-      "id": "scm_qualitaet_und_normen_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "qualitaet_und_normen",
-      "thema": "Qualität und Normen",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2023
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_SCM.pdf",
-            "aufgabe": "2023:SCM:1.2"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Qualität und Normen vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Qualität und Normen“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist."
-        ],
-        "richtige_indices": [
-          0,
-          1
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Qualität und Normen",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
-    },
-    {
       "id": "scm_qualitaetsmanagement_stufe1_begriff",
       "fach": "SCM",
       "thema_id": "qualitaetsmanagement",
@@ -4965,79 +2618,6 @@
         "grundlage",
         "SCM",
         "Qualitätsmanagement",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
-    },
-    {
-      "id": "scm_qualitaetsmanagement_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "qualitaetsmanagement",
-      "thema": "Qualitätsmanagement",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/SCM_Aufgaben_2025.pdf",
-            "aufgabe": "2025:SCM:2.3"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Qualitätsmanagement vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Qualitätsmanagement“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut."
-        ],
-        "richtige_indices": [
-          1,
-          2
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Qualitätsmanagement",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -5117,91 +2697,6 @@
         "grundlage",
         "SCM",
         "Rechnung / Rechnungsprüfung",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
-    },
-    {
-      "id": "scm_rechnung_rechnungspruefung_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "rechnung_rechnungspruefung",
-      "thema": "Rechnung / Rechnungsprüfung",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2023
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_SCM.pdf",
-            "aufgabe": "2023:SCM:1.11"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_SCM.pdf",
-            "aufgabe": "2023:SCM:1.14"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_SCM.pdf",
-            "aufgabe": "2023:SCM:1.6"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Rechnung / Rechnungsprüfung vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Rechnung / Rechnungsprüfung“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt."
-        ],
-        "richtige_indices": [
-          0,
-          1
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Rechnung / Rechnungsprüfung",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -5295,99 +2790,6 @@
       "merksatz": "Recht: Tatbestand → Regel → Rechtsfolge. VWL: Ursache → Wirkung → Begründung."
     },
     {
-      "id": "scm_rechtliche_grundlagen_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "rechtliche_grundlagen",
-      "thema": "Rechtliche Grundlagen",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022,
-          2023,
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-            "aufgabe": "2022:SCM:1.8"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_SCM.pdf",
-            "aufgabe": "2023:SCM:2.3"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/SCM_Aufgaben_2025.pdf",
-            "aufgabe": "2025:SCM:1.12"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/SCM_Aufgaben_2025.pdf",
-            "aufgabe": "2025:SCM:1.2"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Rechtliche Grundlagen vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden.",
-        "pruefungsrelevant": "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Rechtliche Grundlagen“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Rechtsfälle mit Tatbestand, Regel und Rechtsfolge lösen.",
-          "Bei Rechtsfällen reicht Bauchgefühl; Fristen und Gesetzesfolgen sind zweitrangig.",
-          "Kaufvertrag, Werkvertrag und Auftrag unterscheiden sich nur durch den Preis.",
-          "VWL-Antworten brauchen keine Ursache-Wirkungs-Begründung.",
-          "Bei VWL Ursache, Wirkung und Begründung sauber verbinden."
-        ],
-        "richtige_indices": [
-          0,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
-      },
-      "fehlerfallen": [
-        "Vertragsarten verwechseln.",
-        "Fristen/Rechtsfolgen übersehen.",
-        "Bei VWL nur Begriffe nennen, aber keine Wirkung erklären."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Rechtliche Grundlagen",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Recht: Tatbestand → Regel → Rechtsfolge. VWL: Ursache → Wirkung → Begründung."
-    },
-    {
       "id": "scm_sicherheitsbestand_stufe1_begriff",
       "fach": "SCM",
       "thema_id": "sicherheitsbestand",
@@ -5449,79 +2851,6 @@
         "grundlage",
         "SCM",
         "Sicherheitsbestand",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
-    },
-    {
-      "id": "scm_sicherheitsbestand_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "sicherheitsbestand",
-      "thema": "Sicherheitsbestand",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/01_SCM_2024_Aufgaben.pdf",
-            "aufgabe": "2024:SCM:2.3"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Sicherheitsbestand vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Sicherheitsbestand“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen."
-        ],
-        "richtige_indices": [
-          1,
-          2
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Sicherheitsbestand",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -5602,86 +2931,6 @@
       "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
     },
     {
-      "id": "scm_strategie_analyseinstrumente_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "strategie_analyseinstrumente",
-      "thema": "Strategie / Analyseinstrumente",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022,
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-            "aufgabe": "2022:SCM:2.2"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/01_SCM_2024_Aufgaben.pdf",
-            "aufgabe": "2024:SCM:1.7"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Strategie / Analyseinstrumente vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Strategie / Analyseinstrumente“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist."
-        ],
-        "richtige_indices": [
-          2,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Strategie / Analyseinstrumente",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
-    },
-    {
       "id": "scm_stueckliste_stufe1_begriff",
       "fach": "SCM",
       "thema_id": "stueckliste",
@@ -5743,79 +2992,6 @@
         "grundlage",
         "SCM",
         "Stückliste",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
-    },
-    {
-      "id": "scm_stueckliste_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "stueckliste",
-      "thema": "Stückliste",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/01_SCM_2024_Aufgaben.pdf",
-            "aufgabe": "2024:SCM:3.1"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Stückliste vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Stückliste“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen."
-        ],
-        "richtige_indices": [
-          3,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Stückliste",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -5889,79 +3065,6 @@
       "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
     },
     {
-      "id": "scm_terminplanung_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "terminplanung",
-      "thema": "Terminplanung",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/SCM_Aufgaben_2025.pdf",
-            "aufgabe": "2025:SCM:1.1"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Terminplanung vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Terminplanung“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden.",
-          "Risiken werden erst nach Projektabschluss beurteilt.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Kriterien, Gewichtungen und Massnahmen nachvollziehbar dokumentieren.",
-          "Ursache, Ziel und Varianten vor der Entscheidung sauber klären."
-        ],
-        "richtige_indices": [
-          3,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
-      },
-      "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Terminplanung",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
-    },
-    {
       "id": "scm_versorgungssicherheit_stufe1_begriff",
       "fach": "SCM",
       "thema_id": "versorgungssicherheit",
@@ -6023,79 +3126,6 @@
         "grundlage",
         "SCM",
         "Versorgungssicherheit",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
-    },
-    {
-      "id": "scm_versorgungssicherheit_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "versorgungssicherheit",
-      "thema": "Versorgungssicherheit",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/01_SCM_2024_Aufgaben.pdf",
-            "aufgabe": "2024:SCM:2.1"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Versorgungssicherheit vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Versorgungssicherheit“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten."
-        ],
-        "richtige_indices": [
-          2,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Versorgungssicherheit",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -6169,79 +3199,6 @@
       "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
     },
     {
-      "id": "scm_warenannahme_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "warenannahme",
-      "thema": "Warenannahme",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/01_SCM_2024_Aufgaben.pdf",
-            "aufgabe": "2024:SCM:3.3"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Warenannahme vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Warenannahme“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen."
-        ],
-        "richtige_indices": [
-          0,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Warenannahme",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
-    },
-    {
       "id": "scm_warenannahme_abwickeln_stufe1_begriff",
       "fach": "SCM",
       "thema_id": "warenannahme_abwickeln",
@@ -6309,79 +3266,6 @@
       "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
     },
     {
-      "id": "scm_warenannahme_abwickeln_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "warenannahme_abwickeln",
-      "thema": "Warenannahme abwickeln",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-            "aufgabe": "2022:SCM:1.4"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Warenannahme abwickeln vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Warenannahme abwickeln“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten."
-        ],
-        "richtige_indices": [
-          1,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Warenannahme abwickeln",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
-    },
-    {
       "id": "scm_wartung_unterhalt_stufe1_begriff",
       "fach": "SCM",
       "thema_id": "wartung_unterhalt",
@@ -6443,79 +3327,6 @@
         "grundlage",
         "SCM",
         "Wartung, Unterhalt",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
-    },
-    {
-      "id": "scm_wartung_unterhalt_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "wartung_unterhalt",
-      "thema": "Wartung, Unterhalt",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-            "aufgabe": "2022:SCM:1.13"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Wartung, Unterhalt vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Wartung, Unterhalt“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen."
-        ],
-        "richtige_indices": [
-          0,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Wartung, Unterhalt",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -6596,92 +3407,6 @@
         "grundlage",
         "SCM",
         "Ziele / SMART",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
-      "id": "scm_ziele_smart_stufe2_fehlerfalle",
-      "fach": "SCM",
-      "thema_id": "ziele_smart",
-      "thema": "Ziele / SMART",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022,
-          2023
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-            "aufgabe": "2022:SCM:1.17"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-            "aufgabe": "2022:SCM:1.6"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_SCM.pdf",
-            "aufgabe": "2023:SCM:1.1"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Ziele / SMART vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Ziele / SMART“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Ziele konkret, messbar und terminiert formulieren."
-        ],
-        "richtige_indices": [
-          3,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "SCM",
-        "Ziele / SMART",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],

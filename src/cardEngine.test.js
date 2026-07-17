@@ -101,6 +101,20 @@ test('pro Stufe rotieren höchstens drei Aufgabenvarianten', () => {
   assert.deepEqual(selected, ['s3-a', 's3-b', 's3-c', 's3-a'])
 })
 
+test('Themen überspringen eine entfernte Zwischenstufe', () => {
+  const compactTopic = {
+    ...topic,
+    stages: [1, 3],
+    cards: topic.cards.filter((card) => card.stufe !== 2)
+  }
+  const up = applyTopicAnswer(compactTopic, progress({ stage: 1 }), compactTopic.cards[0], null, true)
+  const down = applyTopicAnswer(compactTopic, progress({ stage: 3, lvl: 1, solvedOnce: true }), compactTopic.cards[1], null, false)
+
+  assert.equal(up.progress.stage, 3)
+  assert.equal(down.progress.stage, 1)
+  assert.equal(down.progress.lvl, 1)
+})
+
 test('formel_builder prüft die aktiv zusammengesetzte Reihenfolge', () => {
   const card = {
     typ: 'formel_builder',

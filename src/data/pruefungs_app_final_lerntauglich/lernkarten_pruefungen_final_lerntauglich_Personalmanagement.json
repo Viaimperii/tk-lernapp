@@ -6,28 +6,21 @@
     "hinweis_2021": "2021.zip war leer und konnte nicht ausgewertet werden.",
     "quelle": "auf Basis von pruefungs_app_import/lernkarten_pruefungen_Alle_Faecher.json plus automatischer Struktur-/Logik-Kontrolle",
     "schema_version": "2.0-final-learning",
-    "anzahl_karten": 183,
-    "anzahl_themen_gruppiert": 237,
+    "anzahl_karten": 144,
+    "anzahl_themen_gruppiert": 40,
     "kartentypen": {
       "single_choice": 83,
-      "multiple_choice": 83,
+      "multiple_choice": 44,
       "reihenfolge": 8,
       "zuordnung": 9
     },
     "stufen": {
       "1": 42,
-      "2": 40,
-      "3": 101
+      "2": 2,
+      "3": 100
     },
     "karten_pro_fach": {
-      "Finanzwirtschaft": 177,
-      "Integrierte_Fallstudie": 114,
-      "Marketing_Verkauf": 153,
-      "Personalmanagement": 183,
-      "Problemloesung_Entscheidung": 77,
-      "Recht_VWL": 149,
-      "SCM": 191,
-      "Unternehmensfuehrung": 163
+      "Personalmanagement": 144
     },
     "validierungsfehler": 0,
     "erlaubte_typen": [
@@ -63,7 +56,9 @@
     "patched_stufe_1": 256,
     "patched_stufe_2": 237,
     "generische_antwortoptionen_rest": 0,
-    "fach": "Personalmanagement"
+    "fach": "Personalmanagement",
+    "entfernte_fehlerfragen": 39,
+    "bereinigung_fehlerfragen_am": "2026-07-17"
   },
   "karten": [
     {
@@ -128,79 +123,6 @@
         "grundlage",
         "Personalmanagement",
         "3-Säulen-Prinzip",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "1 staatlich, 2 beruflich, 3 privat – das ist der Vorsorge-Kompass."
-    },
-    {
-      "id": "personalmanagement_3_saeulen_prinzip_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "3_saeulen_prinzip",
-      "thema": "3-Säulen-Prinzip",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/PM_Aufgaben_2025.pdf",
-            "aufgabe": "2025:Personalmanagement:2.2"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei 3-Säulen-Prinzip vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Sozialversicherungs- und Vorsorgeaufgaben prüfen, ob du die Versicherungen, Säulen und Zuständigkeiten korrekt einordnest.",
-        "pruefungsrelevant": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „3-Säulen-Prinzip“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Die Säule 3a ist eine obligatorische Arbeitgeberversicherung.",
-          "1., 2. und 3. Säule bewusst unterscheiden.",
-          "Versicherung immer nach Zweck, Träger und obligatorisch/freiwillig einordnen.",
-          "Alle Sozialversicherungen gehören automatisch zur 2. Säule.",
-          "Unfallversicherung und berufliche Vorsorge decken denselben Zweck vollständig ab."
-        ],
-        "richtige_indices": [
-          1,
-          2
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
-      },
-      "fehlerfallen": [
-        "Säulen verwechseln.",
-        "Obligatorische und freiwillige Versicherungen vermischen.",
-        "AHV/BVG/UVG nach Namen statt nach Zweck einordnen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "3-Säulen-Prinzip",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -274,79 +196,6 @@
       "merksatz": "1 staatlich, 2 beruflich, 3 privat – das ist der Vorsorge-Kompass."
     },
     {
-      "id": "personalmanagement_alterskapital_bei_pensionierung_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "alterskapital_bei_pensionierung",
-      "thema": "Alterskapital bei Pensionierung",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/03_Personalmanagement_2024_Aufgaben.pdf",
-            "aufgabe": "2024:Personalmanagement:2.5"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Alterskapital bei Pensionierung vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Sozialversicherungs- und Vorsorgeaufgaben prüfen, ob du die Versicherungen, Säulen und Zuständigkeiten korrekt einordnest.",
-        "pruefungsrelevant": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Alterskapital bei Pensionierung“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Versicherung immer nach Zweck, Träger und obligatorisch/freiwillig einordnen.",
-          "1., 2. und 3. Säule bewusst unterscheiden.",
-          "Die Säule 3a ist eine obligatorische Arbeitgeberversicherung.",
-          "Alle Sozialversicherungen gehören automatisch zur 2. Säule.",
-          "Unfallversicherung und berufliche Vorsorge decken denselben Zweck vollständig ab."
-        ],
-        "richtige_indices": [
-          0,
-          1
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
-      },
-      "fehlerfallen": [
-        "Säulen verwechseln.",
-        "Obligatorische und freiwillige Versicherungen vermischen.",
-        "AHV/BVG/UVG nach Namen statt nach Zweck einordnen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Alterskapital bei Pensionierung",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "1 staatlich, 2 beruflich, 3 privat – das ist der Vorsorge-Kompass."
-    },
-    {
       "id": "personalmanagement_arbeitszeugnis_stufe1_begriff",
       "fach": "Personalmanagement",
       "thema_id": "arbeitszeugnis",
@@ -408,79 +257,6 @@
         "grundlage",
         "Personalmanagement",
         "Arbeitszeugnis",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
-      "id": "personalmanagement_arbeitszeugnis_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "arbeitszeugnis",
-      "thema": "Arbeitszeugnis",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/03_Personalmanagement_2024_Aufgaben.pdf",
-            "aufgabe": "2024:Personalmanagement:1.7"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Arbeitszeugnis vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Arbeitszeugnis“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden."
-        ],
-        "richtige_indices": [
-          0,
-          1
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Arbeitszeugnis",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -554,79 +330,6 @@
       "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
     },
     {
-      "id": "personalmanagement_arbeitszeugnisse_in_der_rekrutierung_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "arbeitszeugnisse_in_der_rekrutierung",
-      "thema": "Arbeitszeugnisse in der Rekrutierung",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2023
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2023:Personalmanagement:1.8"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Arbeitszeugnisse in der Rekrutierung vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Arbeitszeugnisse in der Rekrutierung“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich."
-        ],
-        "richtige_indices": [
-          1,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Arbeitszeugnisse in der Rekrutierung",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
       "id": "personalmanagement_ausbildungsvereinbarung_stufe1_begriff",
       "fach": "Personalmanagement",
       "thema_id": "ausbildungsvereinbarung",
@@ -694,79 +397,6 @@
       "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
     },
     {
-      "id": "personalmanagement_ausbildungsvereinbarung_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "ausbildungsvereinbarung",
-      "thema": "Ausbildungsvereinbarung",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/PM_Aufgaben_2025.pdf",
-            "aufgabe": "2025:Personalmanagement:2.1"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Ausbildungsvereinbarung vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Ausbildungsvereinbarung“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht."
-        ],
-        "richtige_indices": [
-          2,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Ausbildungsvereinbarung",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
       "id": "personalmanagement_beendigung_arbeitsverhaeltnis_stufe1_begriff",
       "fach": "Personalmanagement",
       "thema_id": "beendigung_arbeitsverhaeltnis",
@@ -828,79 +458,6 @@
         "grundlage",
         "Personalmanagement",
         "Beendigung Arbeitsverhältnis",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
-      "id": "personalmanagement_beendigung_arbeitsverhaeltnis_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "beendigung_arbeitsverhaeltnis",
-      "thema": "Beendigung Arbeitsverhältnis",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/PM_Aufgaben_2025.pdf",
-            "aufgabe": "2025:Personalmanagement:2.4"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Beendigung Arbeitsverhältnis vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Beendigung Arbeitsverhältnis“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich."
-        ],
-        "richtige_indices": [
-          0,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Beendigung Arbeitsverhältnis",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -981,86 +538,6 @@
       "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
     },
     {
-      "id": "personalmanagement_beschaffung_lieferanten_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "beschaffung_lieferanten",
-      "thema": "Beschaffung / Lieferanten",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024,
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/03_Personalmanagement_2024_Aufgaben.pdf",
-            "aufgabe": "2024:Personalmanagement:2.3"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/PM_Aufgaben_2025.pdf",
-            "aufgabe": "2025:Personalmanagement:1.1"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Beschaffung / Lieferanten vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Beschaffung / Lieferanten“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten."
-        ],
-        "richtige_indices": [
-          3,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Beschaffung / Lieferanten",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
-    },
-    {
       "id": "personalmanagement_bewerbungsunterlagen_stufe1_begriff",
       "fach": "Personalmanagement",
       "thema_id": "bewerbungsunterlagen",
@@ -1128,79 +605,6 @@
       "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
     },
     {
-      "id": "personalmanagement_bewerbungsunterlagen_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "bewerbungsunterlagen",
-      "thema": "Bewerbungsunterlagen",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/03_Personalmanagement_2024_Aufgaben.pdf",
-            "aufgabe": "2024:Personalmanagement:1.4"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Bewerbungsunterlagen vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Bewerbungsunterlagen“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden."
-        ],
-        "richtige_indices": [
-          2,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Bewerbungsunterlagen",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
       "id": "personalmanagement_bonussystem_stufe1_begriff",
       "fach": "Personalmanagement",
       "thema_id": "bonussystem",
@@ -1262,79 +666,6 @@
         "grundlage",
         "Personalmanagement",
         "Bonussystem",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
-      "id": "personalmanagement_bonussystem_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "bonussystem",
-      "thema": "Bonussystem",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/PM_Aufgaben_2025.pdf",
-            "aufgabe": "2025:Personalmanagement:3.3"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Bonussystem vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Bonussystem“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich."
-        ],
-        "richtige_indices": [
-          1,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Bonussystem",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -1423,100 +754,6 @@
         "grundlage",
         "Personalmanagement",
         "Break-even / Deckungsbeitrag",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "DB deckt Fixkosten; Break-even ist dort, wo die DB-Summe die Fixkosten trägt."
-    },
-    {
-      "id": "personalmanagement_break_even_deckungsbeitrag_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "break_even_deckungsbeitrag",
-      "thema": "Break-even / Deckungsbeitrag",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022,
-          2023,
-          2024,
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2022:Personalmanagement:2.5"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2023:Personalmanagement:1.9"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/03_Personalmanagement_2024_Aufgaben.pdf",
-            "aufgabe": "2024:Personalmanagement:1.6"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/PM_Aufgaben_2025.pdf",
-            "aufgabe": "2025:Personalmanagement:2.5"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Break-even / Deckungsbeitrag vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
-        "pruefungsrelevant": "Beim Break-even wird geprüft, ab welcher Menge oder welchem Umsatz die Fixkosten gedeckt sind."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Break-even / Deckungsbeitrag“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Fixkosten werden vom Verkaufspreis abgezogen, um den DB pro Stück zu erhalten.",
-          "Ein positiver Deckungsbeitrag ist grundsätzlich ein Grund, ein Produkt sofort zu streichen.",
-          "Für den Break-even die Fixkosten durch den DB pro Stück teilen.",
-          "Break-even-Umsatz wird mit den variablen Kosten pro Stück berechnet.",
-          "Nur variable Kosten vom Verkaufspreis abziehen, um den DB pro Stück zu erhalten."
-        ],
-        "richtige_indices": [
-          2,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Beim Break-even wird geprüft, ab welcher Menge oder welchem Umsatz die Fixkosten gedeckt sind."
-      },
-      "fehlerfallen": [
-        "Fixkosten statt variable Kosten vom Preis abziehen.",
-        "Bei BEP in CHF den Verkaufspreis vergessen.",
-        "Positive DB fälschlich als Verlust interpretieren."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Break-even / Deckungsbeitrag",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -1768,79 +1005,6 @@
       "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
     },
     {
-      "id": "personalmanagement_burnout_eines_mitarbeitenden_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "burnout_eines_mitarbeitenden",
-      "thema": "Burnout eines Mitarbeitenden",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2023
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2023:Personalmanagement:3.3"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Burnout eines Mitarbeitenden vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Burnout eines Mitarbeitenden“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht."
-        ],
-        "richtige_indices": [
-          1,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Burnout eines Mitarbeitenden",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
       "id": "personalmanagement_das_eigene_ressourcenmanagement_verbessern_stufe1_begriff",
       "fach": "Personalmanagement",
       "thema_id": "das_eigene_ressourcenmanagement_verbessern",
@@ -1902,79 +1066,6 @@
         "grundlage",
         "Personalmanagement",
         "Das eigene Ressourcenmanagement verbessern",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
-      "id": "personalmanagement_das_eigene_ressourcenmanagement_verbessern_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "das_eigene_ressourcenmanagement_verbessern",
-      "thema": "Das eigene Ressourcenmanagement verbessern",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2022:Personalmanagement:1.10"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Das eigene Ressourcenmanagement verbessern vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Das eigene Ressourcenmanagement verbessern“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht."
-        ],
-        "richtige_indices": [
-          0,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Das eigene Ressourcenmanagement verbessern",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -2048,79 +1139,6 @@
       "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
     },
     {
-      "id": "personalmanagement_erstellen_einer_mitarbeitendenbefragung_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "erstellen_einer_mitarbeitendenbefragung",
-      "thema": "Erstellen einer Mitarbeitendenbefragung",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/03_Personalmanagement_2024_Aufgaben.pdf",
-            "aufgabe": "2024:Personalmanagement:3.2"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Erstellen einer Mitarbeitendenbefragung vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Erstellen einer Mitarbeitendenbefragung“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich."
-        ],
-        "richtige_indices": [
-          2,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Erstellen einer Mitarbeitendenbefragung",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
       "id": "personalmanagement_fluktuation_stufe1_begriff",
       "fach": "Personalmanagement",
       "thema_id": "fluktuation",
@@ -2188,79 +1206,6 @@
       "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
     },
     {
-      "id": "personalmanagement_fluktuation_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "fluktuation",
-      "thema": "Fluktuation",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2023
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2023:Personalmanagement:3.1"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Fluktuation vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Fluktuation“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht."
-        ],
-        "richtige_indices": [
-          1,
-          2
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Fluktuation",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
       "id": "personalmanagement_fragen_im_bewerbungsgespraech_stufe1_begriff",
       "fach": "Personalmanagement",
       "thema_id": "fragen_im_bewerbungsgespraech",
@@ -2322,79 +1267,6 @@
         "grundlage",
         "Personalmanagement",
         "Fragen im Bewerbungsgespräch",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
-      "id": "personalmanagement_fragen_im_bewerbungsgespraech_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "fragen_im_bewerbungsgespraech",
-      "thema": "Fragen im Bewerbungsgespräch",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2023
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2023:Personalmanagement:1.12"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Fragen im Bewerbungsgespräch vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Fragen im Bewerbungsgespräch“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden."
-        ],
-        "richtige_indices": [
-          0,
-          1
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Fragen im Bewerbungsgespräch",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -2495,106 +1367,6 @@
       "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
     },
     {
-      "id": "personalmanagement_fuehrung_personal_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "fuehrung_personal",
-      "thema": "Führung / Personal",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022,
-          2023,
-          2024,
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2022:Personalmanagement:1.14"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2022:Personalmanagement:1.15"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2022:Personalmanagement:1.16"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2022:Personalmanagement:1.2"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2022:Personalmanagement:1.3"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Führung / Personal vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Führung / Personal“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Ziele konkret, messbar und terminiert formulieren."
-        ],
-        "richtige_indices": [
-          2,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Führung / Personal",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
       "id": "personalmanagement_homeoffice_selbstmanagement_stufe1_begriff",
       "fach": "Personalmanagement",
       "thema_id": "homeoffice_selbstmanagement",
@@ -2656,79 +1428,6 @@
         "grundlage",
         "Personalmanagement",
         "Homeoffice / Selbstmanagement",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
-      "id": "personalmanagement_homeoffice_selbstmanagement_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "homeoffice_selbstmanagement",
-      "thema": "Homeoffice / Selbstmanagement",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/PM_Aufgaben_2025.pdf",
-            "aufgabe": "2025:Personalmanagement:1.2"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Homeoffice / Selbstmanagement vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Homeoffice / Selbstmanagement“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht."
-        ],
-        "richtige_indices": [
-          1,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Homeoffice / Selbstmanagement",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -2802,79 +1501,6 @@
       "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
     },
     {
-      "id": "personalmanagement_ich_bin_okay_du_bist_okay_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "ich_bin_okay_du_bist_okay",
-      "thema": "Ich bin okay – du bist okay",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2023
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2023:Personalmanagement:1.11"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Ich bin okay – du bist okay vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Ich bin okay – du bist okay“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Ziele konkret, messbar und terminiert formulieren."
-        ],
-        "richtige_indices": [
-          0,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Ich bin okay – du bist okay",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
       "id": "personalmanagement_informationen_im_berufsfeld_aktuell_halten_stufe1_begriff",
       "fach": "Personalmanagement",
       "thema_id": "informationen_im_berufsfeld_aktuell_halten",
@@ -2936,79 +1562,6 @@
         "grundlage",
         "Personalmanagement",
         "Informationen im Berufsfeld aktuell halten",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
-      "id": "personalmanagement_informationen_im_berufsfeld_aktuell_halten_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "informationen_im_berufsfeld_aktuell_halten",
-      "thema": "Informationen im Berufsfeld aktuell halten",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/03_Personalmanagement_2024_Aufgaben.pdf",
-            "aufgabe": "2024:Personalmanagement:2.4"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Informationen im Berufsfeld aktuell halten vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Informationen im Berufsfeld aktuell halten“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Ziele konkret, messbar und terminiert formulieren."
-        ],
-        "richtige_indices": [
-          3,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Informationen im Berufsfeld aktuell halten",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -3082,79 +1635,6 @@
       "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
     },
     {
-      "id": "personalmanagement_instrumente_der_medienarbeit_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "instrumente_der_medienarbeit",
-      "thema": "Instrumente der Medienarbeit",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2022:Personalmanagement:1.11"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Instrumente der Medienarbeit vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Instrumente der Medienarbeit“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Ziele konkret, messbar und terminiert formulieren."
-        ],
-        "richtige_indices": [
-          2,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Instrumente der Medienarbeit",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
       "id": "personalmanagement_interkulturelle_kommunikation_stufe1_begriff",
       "fach": "Personalmanagement",
       "thema_id": "interkulturelle_kommunikation",
@@ -3216,79 +1696,6 @@
         "grundlage",
         "Personalmanagement",
         "Interkulturelle Kommunikation",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
-      "id": "personalmanagement_interkulturelle_kommunikation_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "interkulturelle_kommunikation",
-      "thema": "Interkulturelle Kommunikation",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2022:Personalmanagement:1.4"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Interkulturelle Kommunikation vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Interkulturelle Kommunikation“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich."
-        ],
-        "richtige_indices": [
-          1,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Interkulturelle Kommunikation",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -3362,79 +1769,6 @@
       "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
     },
     {
-      "id": "personalmanagement_kommunikationsgrundsaetze_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "kommunikationsgrundsaetze",
-      "thema": "Kommunikationsgrundsätze",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2022:Personalmanagement:1.12"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Kommunikationsgrundsätze vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Kommunikationsgrundsätze“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Ziele konkret, messbar und terminiert formulieren."
-        ],
-        "richtige_indices": [
-          3,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Kommunikationsgrundsätze",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
       "id": "personalmanagement_krisenkommunikation_stufe1_begriff",
       "fach": "Personalmanagement",
       "thema_id": "krisenkommunikation",
@@ -3496,79 +1830,6 @@
         "grundlage",
         "Personalmanagement",
         "Krisenkommunikation",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
-      "id": "personalmanagement_krisenkommunikation_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "krisenkommunikation",
-      "thema": "Krisenkommunikation",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/03_Personalmanagement_2024_Aufgaben.pdf",
-            "aufgabe": "2024:Personalmanagement:3.3"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Krisenkommunikation vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Krisenkommunikation“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen."
-        ],
-        "richtige_indices": [
-          0,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Krisenkommunikation",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -3642,79 +1903,6 @@
       "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
     },
     {
-      "id": "personalmanagement_lohnformen_anreizsysteme_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "lohnformen_anreizsysteme",
-      "thema": "Lohnformen/Anreizsysteme",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2022:Personalmanagement:1.17"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Lohnformen/Anreizsysteme vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Lohnformen/Anreizsysteme“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht."
-        ],
-        "richtige_indices": [
-          0,
-          2
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Lohnformen/Anreizsysteme",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
       "id": "personalmanagement_motivationstheorie_stufe1_begriff",
       "fach": "Personalmanagement",
       "thema_id": "motivationstheorie",
@@ -3776,79 +1964,6 @@
         "grundlage",
         "Personalmanagement",
         "Motivationstheorie",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
-      "id": "personalmanagement_motivationstheorie_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "motivationstheorie",
-      "thema": "Motivationstheorie",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2022:Personalmanagement:1.9"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Motivationstheorie vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Motivationstheorie“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht."
-        ],
-        "richtige_indices": [
-          0,
-          1
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Motivationstheorie",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -3922,79 +2037,6 @@
       "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
     },
     {
-      "id": "personalmanagement_nebenbeschaeftigung_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "nebenbeschaeftigung",
-      "thema": "Nebenbeschäftigung",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2023
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2023:Personalmanagement:2.2"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Nebenbeschäftigung vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Nebenbeschäftigung“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht."
-        ],
-        "richtige_indices": [
-          0,
-          2
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Nebenbeschäftigung",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
       "id": "personalmanagement_nicht_monetaere_verguetung_stufe1_begriff",
       "fach": "Personalmanagement",
       "thema_id": "nicht_monetaere_verguetung",
@@ -4056,79 +2098,6 @@
         "grundlage",
         "Personalmanagement",
         "Nicht-monetäre Vergütung",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
-      "id": "personalmanagement_nicht_monetaere_verguetung_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "nicht_monetaere_verguetung",
-      "thema": "Nicht-monetäre Vergütung",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/03_Personalmanagement_2024_Aufgaben.pdf",
-            "aufgabe": "2024:Personalmanagement:1.5"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Nicht-monetäre Vergütung vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Nicht-monetäre Vergütung“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Ziele konkret, messbar und terminiert formulieren."
-        ],
-        "richtige_indices": [
-          3,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Nicht-monetäre Vergütung",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -4202,79 +2171,6 @@
       "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
     },
     {
-      "id": "personalmanagement_organisation_prozesse_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "organisation_prozesse",
-      "thema": "Organisation / Prozesse",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2022:Personalmanagement:1.13"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Organisation / Prozesse vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Organisation / Prozesse“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Ziele konkret, messbar und terminiert formulieren."
-        ],
-        "richtige_indices": [
-          1,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Organisation / Prozesse",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
       "id": "personalmanagement_rechnung_rechnungspruefung_stufe1_begriff",
       "fach": "Personalmanagement",
       "thema_id": "rechnung_rechnungspruefung",
@@ -4336,79 +2232,6 @@
         "grundlage",
         "Personalmanagement",
         "Rechnung / Rechnungsprüfung",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
-      "id": "personalmanagement_rechnung_rechnungspruefung_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "rechnung_rechnungspruefung",
-      "thema": "Rechnung / Rechnungsprüfung",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2023
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2023:Personalmanagement:2.1"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Rechnung / Rechnungsprüfung vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Rechnung / Rechnungsprüfung“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen."
-        ],
-        "richtige_indices": [
-          3,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Rechnung / Rechnungsprüfung",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -4509,106 +2332,6 @@
       "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
     },
     {
-      "id": "personalmanagement_rechtliche_grundlagen_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "rechtliche_grundlagen",
-      "thema": "Rechtliche Grundlagen",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022,
-          2023,
-          2024,
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2022:Personalmanagement:1.1"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2022:Personalmanagement:2.1"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2023:Personalmanagement:1.4"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2023:Personalmanagement:1.7"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/03_Personalmanagement_2024_Aufgaben.pdf",
-            "aufgabe": "2024:Personalmanagement:1.11"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Rechtliche Grundlagen vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Rechtliche Grundlagen“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich."
-        ],
-        "richtige_indices": [
-          2,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Rechtliche Grundlagen",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
       "id": "personalmanagement_rueckdelegation_stufe1_begriff",
       "fach": "Personalmanagement",
       "thema_id": "rueckdelegation",
@@ -4670,79 +2393,6 @@
         "grundlage",
         "Personalmanagement",
         "Rückdelegation",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
-      "id": "personalmanagement_rueckdelegation_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "rueckdelegation",
-      "thema": "Rückdelegation",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2023
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2023:Personalmanagement:2.5"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Rückdelegation vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Rückdelegation“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden."
-        ],
-        "richtige_indices": [
-          0,
-          2
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Rückdelegation",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -4816,79 +2466,6 @@
       "merksatz": "1 staatlich, 2 beruflich, 3 privat – das ist der Vorsorge-Kompass."
     },
     {
-      "id": "personalmanagement_schweizerisches_vorsorgesystem_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "schweizerisches_vorsorgesystem",
-      "thema": "Schweizerisches Vorsorgesystem",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2023
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2023:Personalmanagement:1.2"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Schweizerisches Vorsorgesystem vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Sozialversicherungs- und Vorsorgeaufgaben prüfen, ob du die Versicherungen, Säulen und Zuständigkeiten korrekt einordnest.",
-        "pruefungsrelevant": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Schweizerisches Vorsorgesystem“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Versicherung immer nach Zweck, Träger und obligatorisch/freiwillig einordnen.",
-          "Die Säule 3a ist eine obligatorische Arbeitgeberversicherung.",
-          "1., 2. und 3. Säule bewusst unterscheiden.",
-          "Unfallversicherung und berufliche Vorsorge decken denselben Zweck vollständig ab.",
-          "Alle Sozialversicherungen gehören automatisch zur 2. Säule."
-        ],
-        "richtige_indices": [
-          0,
-          2
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
-      },
-      "fehlerfallen": [
-        "Säulen verwechseln.",
-        "Obligatorische und freiwillige Versicherungen vermischen.",
-        "AHV/BVG/UVG nach Namen statt nach Zweck einordnen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Schweizerisches Vorsorgesystem",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "1 staatlich, 2 beruflich, 3 privat – das ist der Vorsorge-Kompass."
-    },
-    {
       "id": "personalmanagement_sitzungsmoderation_stufe1_begriff",
       "fach": "Personalmanagement",
       "thema_id": "sitzungsmoderation",
@@ -4956,79 +2533,6 @@
       "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
     },
     {
-      "id": "personalmanagement_sitzungsmoderation_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "sitzungsmoderation",
-      "thema": "Sitzungsmoderation",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/03_Personalmanagement_2024_Aufgaben.pdf",
-            "aufgabe": "2024:Personalmanagement:2.1"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Sitzungsmoderation vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Sitzungsmoderation“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich."
-        ],
-        "richtige_indices": [
-          1,
-          2
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Sitzungsmoderation",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
       "id": "personalmanagement_sozialversicherungen_stufe1_begriff",
       "fach": "Personalmanagement",
       "thema_id": "sozialversicherungen",
@@ -5090,79 +2594,6 @@
         "grundlage",
         "Personalmanagement",
         "Sozialversicherungen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "1 staatlich, 2 beruflich, 3 privat – das ist der Vorsorge-Kompass."
-    },
-    {
-      "id": "personalmanagement_sozialversicherungen_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "sozialversicherungen",
-      "thema": "Sozialversicherungen",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/03_Personalmanagement_2024_Aufgaben.pdf",
-            "aufgabe": "2024:Personalmanagement:1.9"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Sozialversicherungen vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Sozialversicherungs- und Vorsorgeaufgaben prüfen, ob du die Versicherungen, Säulen und Zuständigkeiten korrekt einordnest.",
-        "pruefungsrelevant": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Sozialversicherungen“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Versicherung immer nach Zweck, Träger und obligatorisch/freiwillig einordnen.",
-          "Unfallversicherung und berufliche Vorsorge decken denselben Zweck vollständig ab.",
-          "Die Säule 3a ist eine obligatorische Arbeitgeberversicherung.",
-          "Alle Sozialversicherungen gehören automatisch zur 2. Säule.",
-          "1., 2. und 3. Säule bewusst unterscheiden."
-        ],
-        "richtige_indices": [
-          0,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
-      },
-      "fehlerfallen": [
-        "Säulen verwechseln.",
-        "Obligatorische und freiwillige Versicherungen vermischen.",
-        "AHV/BVG/UVG nach Namen statt nach Zweck einordnen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Sozialversicherungen",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -5258,32 +2689,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Umgang mit Widerstand vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Widerstand entsteht oft aus unklarer Kommunikation oder unbeachteten Bedenken und sollte ernst genommen, nicht überfahren werden.",
+        "pruefungsrelevant": "Prüfungsnah ist, Widerstand als Signal zu verstehen und durch Einbezug/Kommunikation statt Druck zu begegnen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Umgang mit Widerstand“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zum professionellen Umgang mit Widerstand (z.B. bei Veränderungen) sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Ziele konkret, messbar und terminiert formulieren."
+          "Die Ursachen des Widerstands werden nicht ernst genommen oder erfragt.",
+          "Betroffene werden nicht in den Veränderungsprozess einbezogen.",
+          "Widerstand wird als wertvolles Signal für unklare Kommunikation oder offene Bedenken verstanden.",
+          "Widerstand wird als reine Böswilligkeit oder Unwille abgetan.",
+          "Es wird versucht, Widerstand ausschliesslich mit Druck und Anweisungen zu brechen."
         ],
         "richtige_indices": [
-          3,
-          4
+          0,
+          1,
+          3
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Richtig sind das Ignorieren der Ursachen, der fehlende Einbezug Betroffener und die Fehlinterpretation als reine Böswilligkeit.",
+        "rechenweg": "Wer Widerstand als Signal versteht und Betroffene einbezieht, statt mit Druck zu reagieren, löst die dahinterliegenden Bedenken nachhaltiger.",
+        "warum": "Widerstand als Signal zu verstehen ist der richtige, empfohlene Ansatz - kein Fehler."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Ursachen von Widerstand nicht erfragen.",
+        "Betroffene nicht in Veränderungsprozesse einbeziehen.",
+        "Widerstand als reine Böswilligkeit statt als Signal interpretieren."
       ],
       "review": {
         "box": 1,
@@ -5306,7 +2738,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Widerstand ist ein Signal - kein Grund für mehr Druck."
     },
     {
       "id": "personalmanagement_unfallversicherung_stufe1_begriff",
@@ -5370,79 +2802,6 @@
         "grundlage",
         "Personalmanagement",
         "Unfallversicherung",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "1 staatlich, 2 beruflich, 3 privat – das ist der Vorsorge-Kompass."
-    },
-    {
-      "id": "personalmanagement_unfallversicherung_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "unfallversicherung",
-      "thema": "Unfallversicherung",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/03_Personalmanagement_2024_Aufgaben.pdf",
-            "aufgabe": "2024:Personalmanagement:1.1"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Unfallversicherung vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Sozialversicherungs- und Vorsorgeaufgaben prüfen, ob du die Versicherungen, Säulen und Zuständigkeiten korrekt einordnest.",
-        "pruefungsrelevant": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Unfallversicherung“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Versicherung immer nach Zweck, Träger und obligatorisch/freiwillig einordnen.",
-          "Die Säule 3a ist eine obligatorische Arbeitgeberversicherung.",
-          "1., 2. und 3. Säule bewusst unterscheiden.",
-          "Unfallversicherung und berufliche Vorsorge decken denselben Zweck vollständig ab.",
-          "Alle Sozialversicherungen gehören automatisch zur 2. Säule."
-        ],
-        "richtige_indices": [
-          0,
-          2
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
-      },
-      "fehlerfallen": [
-        "Säulen verwechseln.",
-        "Obligatorische und freiwillige Versicherungen vermischen.",
-        "AHV/BVG/UVG nach Namen statt nach Zweck einordnen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Unfallversicherung",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -5516,79 +2875,6 @@
       "merksatz": "1 staatlich, 2 beruflich, 3 privat – das ist der Vorsorge-Kompass."
     },
     {
-      "id": "personalmanagement_versicherungen_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "versicherungen",
-      "thema": "Versicherungen",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/PM_Aufgaben_2025.pdf",
-            "aufgabe": "2025:Personalmanagement:1.11"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Versicherungen vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Sozialversicherungs- und Vorsorgeaufgaben prüfen, ob du die Versicherungen, Säulen und Zuständigkeiten korrekt einordnest.",
-        "pruefungsrelevant": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Versicherungen“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Alle Sozialversicherungen gehören automatisch zur 2. Säule.",
-          "Die Säule 3a ist eine obligatorische Arbeitgeberversicherung.",
-          "1., 2. und 3. Säule bewusst unterscheiden.",
-          "Unfallversicherung und berufliche Vorsorge decken denselben Zweck vollständig ab.",
-          "Versicherung immer nach Zweck, Träger und obligatorisch/freiwillig einordnen."
-        ],
-        "richtige_indices": [
-          2,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Wichtig sind 1. Säule staatlich, 2. Säule beruflich, 3. Säule privat sowie die Trennung von AHV/IV/EO, BVG, UVG und privaten Versicherungen."
-      },
-      "fehlerfallen": [
-        "Säulen verwechseln.",
-        "Obligatorische und freiwillige Versicherungen vermischen.",
-        "AHV/BVG/UVG nach Namen statt nach Zweck einordnen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Versicherungen",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "1 staatlich, 2 beruflich, 3 privat – das ist der Vorsorge-Kompass."
-    },
-    {
       "id": "personalmanagement_verwarnungsschreiben_stufe1_begriff",
       "fach": "Personalmanagement",
       "thema_id": "verwarnungsschreiben",
@@ -5650,79 +2936,6 @@
         "grundlage",
         "Personalmanagement",
         "Verwarnungsschreiben",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
-      "id": "personalmanagement_verwarnungsschreiben_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "verwarnungsschreiben",
-      "thema": "Verwarnungsschreiben",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/PM_Aufgaben_2025.pdf",
-            "aufgabe": "2025:Personalmanagement:3.2"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Verwarnungsschreiben vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Verwarnungsschreiben“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Ziele konkret, messbar und terminiert formulieren."
-        ],
-        "richtige_indices": [
-          3,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Verwarnungsschreiben",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -5818,32 +3031,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Zeitfallen vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Zeitfallen wie Multitasking oder fehlende Priorisierung führen dazu, dass wichtige Aufgaben liegen bleiben.",
+        "pruefungsrelevant": "Prüfungsnah ist, typische Zeitfallen zu erkennen und Werkzeuge wie die Eisenhower-Matrix zur Priorisierung zu kennen."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Zeitfallen“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu typischen Zeitfallen im Berufsalltag sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden."
+          "Aufgaben werden nicht nach Wichtigkeit/Dringlichkeit priorisiert.",
+          "Es wird ständig zwischen Aufgaben gewechselt (Multitasking).",
+          "Es werden keine festen, störungsfreien Zeitfenster für konzentriertes Arbeiten eingeplant.",
+          "Prioritäten werden z.B. mit der Eisenhower-Matrix bewusst gesetzt.",
+          "Feste Zeitfenster für konzentrierte Arbeit werden eingeplant und eingehalten."
         ],
         "richtige_indices": [
           0,
+          1,
           2
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Richtig sind fehlende Priorisierung, ständiges Multitasking und das Fehlen fester, konzentrierter Arbeitszeitfenster.",
+        "rechenweg": "Wer nicht priorisiert und ständig wechselt, verliert durch Umschaltkosten mehr Zeit, als er durch scheinbare Effizienz gewinnt.",
+        "warum": "Prüfungsnah ist, typische Zeitfallen zu erkennen und Werkzeuge wie die Eisenhower-Matrix zur Priorisierung zu kennen."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Aufgaben nicht nach Wichtigkeit/Dringlichkeit priorisieren.",
+        "Ständig zwischen Aufgaben wechseln (Multitasking).",
+        "Keine festen, störungsfreien Zeitfenster für konzentriertes Arbeiten einplanen."
       ],
       "review": {
         "box": 1,
@@ -5866,7 +3080,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Wer alles gleichzeitig macht, schafft am Ende am wenigsten."
     },
     {
       "id": "personalmanagement_ziele_smart_stufe1_begriff",
@@ -5956,105 +3170,6 @@
         "grundlage",
         "Personalmanagement",
         "Ziele / SMART",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
-      "id": "personalmanagement_ziele_smart_stufe2_fehlerfalle",
-      "fach": "Personalmanagement",
-      "thema_id": "ziele_smart",
-      "thema": "Ziele / SMART",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022,
-          2023,
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2022:Personalmanagement:2.4"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2023:Personalmanagement:1.1"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Personalmanagement.pdf",
-            "aufgabe": "2023:Personalmanagement:1.15"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/PM_Aufgaben_2025.pdf",
-            "aufgabe": "2025:Personalmanagement:1.14"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/PM_Aufgaben_2025.pdf",
-            "aufgabe": "2025:Personalmanagement:1.16"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Ziele / SMART vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Ziele / SMART“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Ziele konkret, messbar und terminiert formulieren."
-        ],
-        "richtige_indices": [
-          1,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Personalmanagement",
-        "Ziele / SMART",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -7100,75 +4215,6 @@
       "loesungsvorschlag": {
         "kurz": "Richtig ist: Unter natürlichen Personalabgängen werden ausschliesslich Abgänge auf Grund von \nPensionierungen verstanden.",
         "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
-      "id": "pr2022_personalmanagement_1_8_choice_stufe3",
-      "jahr": 2022,
-      "fach": "Personalmanagement",
-      "quelle_id": "2022:Personalmanagement:1.8",
-      "quelle_pdf": "2022/Aufgaben/DE_2022_Aufgaben_Personalmanagement.pdf",
-      "lernziel": "Prüfungsnahe Aufgabe 2022 Personalmanagement: Beurteilungsfehler in der Mitarbeiterbeurteilung",
-      "typ": "multiple_choice",
-      "frage": "Beurteilungsfehler in der Mitarbeiterbeurteilung\n \n \nAusgangslage \n \nIm Rahmen der Personalbeurteilung kommt es manchmal zu Beurteilungsfehlern. \n \n \nFrage \n \nWelche der folgenden Aussagen zu Beurteilungsfehlern sind richtig?",
-      "antwort_daten": {
-        "optionen": [
-          "Als eine Ursache für Beurteilungsfehler bezeichnet man den Halo-Effekt. Dabei über-\nstahlen einzelne Aspekte oder Eigenschaften des Mitarbeitenden den Gesamteindruck \nund verfälschen dadurch die Bewertung.",
-          "Beurteilungsfehler passieren weniger, wenn die Mitarbeiterbeurteilung einen klar struktu-\nrierten Rahmen hat, der den Führungskräften dabei hilft, die Beurteilung nicht nur einmal \nim Jahr zu machen, sondern mehrere Beurteilungszeitpunkte vorsieht.",
-          "Werden die teils unbewussten Erwartungshaltungen gegenüber einem Mitarbeitenden \nnicht erfüllt, kann es zu einer unbewussten Schlechterbewertung des Mitarbeitenden \nkommen.",
-          "Beurteilungsfehler stellen in der Beziehung zwischen Vorgesetztem und Mitarbeitendem \nkein Problem dar. Der Mitarbeitende hat zu akzeptieren, wie er durch den Vorgesetzten \nbeurteilt wird."
-        ],
-        "richtige_indices": [
-          0,
-          1,
-          2
-        ]
-      },
-      "erklaerung": "Antwort gemäss offiziellem Lösungsvorschlag/Lösungshinweis.",
-      "stufe": 3,
-      "tags": [
-        "prüfung",
-        "originalnah",
-        "geschlossen",
-        "Personalmanagement",
-        "stufe_3",
-        "prüfungsnah",
-        "Führung / Personal",
-        "stufe3",
-        "lerntauglich"
-      ],
-      "thema_id": "fuehrung_personal",
-      "thema": "Führung / Personal",
-      "quelle": {
-        "typ": "pruefung",
-        "jahr": 2022,
-        "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Personalmanagement.pdf",
-        "aufgabe": "2022:Personalmanagement:1.8"
-      },
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind: Als eine Ursache für Beurteilungsfehler bezeichnet man den Halo-Effekt. Dabei über-\nstahlen einzelne Aspekte oder Eigenschaften des Mitarbeitenden den Gesamteindruck \nund verfälschen dadurch die Bewertung.; Beurteilungsfehler passieren weniger, wenn die Mitarbeiterbeurteilung einen klar struktu-\nrierten Rahmen hat, der den Führungskräften dabei hilft, die Beurteilung nicht nur einmal \nim Jahr zu machen, sondern mehrere Beurteilungszeitpunkte vorsieht.; Werden die teils unbewussten Erwartungshaltungen gegenüber einem Mitarbeitenden \nnicht erfüllt, kann es zu einer unbewussten Schlechterbewertung des Mitarbeitenden \nkommen.",
-        "rechenweg": "Bei Mehrfachauswahl jede Aussage einzeln gegen die Ausgangslage prüfen. Eine Option ist nur richtig, wenn sie fachlich korrekt ist und zum Fall passt.",
         "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "fehlerfallen": [

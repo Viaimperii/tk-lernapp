@@ -6,29 +6,22 @@
     "hinweis_2021": "2021.zip war leer und konnte nicht ausgewertet werden.",
     "quelle": "auf Basis von pruefungs_app_import/lernkarten_pruefungen_Alle_Faecher.json plus automatischer Struktur-/Logik-Kontrolle",
     "schema_version": "2.0-final-learning",
-    "anzahl_karten": 177,
-    "anzahl_themen_gruppiert": 237,
+    "anzahl_karten": 148,
+    "anzahl_themen_gruppiert": 32,
     "kartentypen": {
       "single_choice": 84,
-      "multiple_choice": 79,
+      "multiple_choice": 50,
       "reihenfolge": 7,
       "formel_luecke_mc": 6,
       "formel_builder": 1
     },
     "stufen": {
       "1": 37,
-      "2": 32,
+      "2": 3,
       "3": 108
     },
     "karten_pro_fach": {
-      "Finanzwirtschaft": 177,
-      "Integrierte_Fallstudie": 114,
-      "Marketing_Verkauf": 153,
-      "Personalmanagement": 183,
-      "Problemloesung_Entscheidung": 77,
-      "Recht_VWL": 149,
-      "SCM": 191,
-      "Unternehmensfuehrung": 163
+      "Finanzwirtschaft": 148
     },
     "validierungsfehler": 0,
     "erlaubte_typen": [
@@ -65,7 +58,9 @@
     "patched_stufe_1": 256,
     "patched_stufe_2": 237,
     "generische_antwortoptionen_rest": 0,
-    "fach": "Finanzwirtschaft"
+    "fach": "Finanzwirtschaft",
+    "entfernte_fehlerfragen": 29,
+    "bereinigung_fehlerfragen_am": "2026-07-17"
   },
   "karten": [
     {
@@ -158,32 +153,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Aufgaben der Finanzbuchhaltung vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Die Finanzbuchhaltung erfasst lückenlos alle Geschäftsfälle und bildet die gesetzliche Grundlage für Bilanz und Erfolgsrechnung.",
+        "pruefungsrelevant": "Wichtig ist die Abgrenzung zur Betriebsbuchhaltung: Finanzbuchhaltung ist gesetzlich vorgeschrieben und richtet sich an Aussenstehende."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Aufgaben der Finanzbuchhaltung“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zur Finanzbuchhaltung sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden."
+          "Sie ist gesetzlich vorgeschrieben (Buchführungspflicht nach OR).",
+          "Sie liefert die Grundlage für Bilanz und Erfolgsrechnung.",
+          "Sie berechnet die Selbstkosten einzelner Produkte oder Aufträge.",
+          "Sie ist rein freiwillig und dient ausschliesslich internen Zwecken.",
+          "Sie richtet sich in erster Linie an aussenstehende Adressaten wie Banken oder Steuerbehörden."
         ],
         "richtige_indices": [
           0,
+          1,
           4
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Richtig sind die gesetzliche Pflicht, die Grundlage für Bilanz/Erfolgsrechnung und die Ausrichtung auf externe Adressaten.",
+        "rechenweg": "Die Berechnung von Selbstkosten gehört zur Betriebsbuchhaltung, nicht zur Finanzbuchhaltung - das ist die klassische Verwechslungsfalle.",
+        "warum": "Die Finanzbuchhaltung ist kein freiwilliges internes Instrument, sondern gesetzlich vorgeschrieben und extern ausgerichtet."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Finanzbuchhaltung mit Betriebsbuchhaltung (Kostenrechnung) verwechseln.",
+        "Vergessen, dass die Buchführungspflicht gesetzlich (OR) geregelt ist.",
+        "Annehmen, die Finanzbuchhaltung diene nur internen Zwecken."
       ],
       "review": {
         "box": 1,
@@ -206,7 +202,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Finanzbuchhaltung schaut nach aussen, Betriebsbuchhaltung schaut nach innen."
     },
     {
       "id": "finanzwirtschaft_beschaffung_lieferanten_stufe1_begriff",
@@ -302,105 +298,6 @@
       "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
     },
     {
-      "id": "finanzwirtschaft_beschaffung_lieferanten_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "beschaffung_lieferanten",
-      "thema": "Beschaffung / Lieferanten",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022,
-          2023,
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2022:Finanzwirtschaft:1.5"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2023:Finanzwirtschaft:1.4"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/04_Finanzwirtschaft_2024-Aufgaben.pdf",
-            "aufgabe": "2024:Finanzwirtschaft:1.16"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/04_Finanzwirtschaft_2024-Aufgaben.pdf",
-            "aufgabe": "2024:Finanzwirtschaft:1.2"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/04_Finanzwirtschaft_2024-Aufgaben.pdf",
-            "aufgabe": "2024:Finanzwirtschaft:1.8"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Beschaffung / Lieferanten vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Beschaffung / Lieferanten“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten."
-        ],
-        "richtige_indices": [
-          0,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Beschaffung / Lieferanten",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
-    },
-    {
       "id": "finanzwirtschaft_bestimmung_mindestumsatz_stufe1_begriff",
       "fach": "Finanzwirtschaft",
       "thema_id": "bestimmung_mindestumsatz",
@@ -462,79 +359,6 @@
         "grundlage",
         "Finanzwirtschaft",
         "Bestimmung Mindestumsatz",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Erst Kosten sauber aufbauen, dann Gewinn, dann MWST – sonst wird die Rechnung Hackfleisch."
-    },
-    {
-      "id": "finanzwirtschaft_bestimmung_mindestumsatz_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "bestimmung_mindestumsatz",
-      "thema": "Bestimmung Mindestumsatz",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/04_Finanzwirtschaft_2024-Aufgaben.pdf",
-            "aufgabe": "2024:Finanzwirtschaft:2.5"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Bestimmung Mindestumsatz vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
-        "pruefungsrelevant": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Bestimmung Mindestumsatz“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Zuschlagsbasis vor dem Einsetzen der Zahlen kontrollieren.",
-          "Der Gewinnzuschlag gehört zu den Herstellkosten.",
-          "Materialgemeinkosten werden direkt auf den Verkaufspreis berechnet.",
-          "Die MWST wird zu den Selbstkosten gezählt.",
-          "Gewinn und MWST nicht in die Selbstkosten einrechnen."
-        ],
-        "richtige_indices": [
-          0,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
-      },
-      "fehlerfallen": [
-        "Falsche Zuschlagsbasis verwenden.",
-        "Gewinn und MWST in die Selbstkosten mischen.",
-        "Rabatt, Skonto und MWST in falscher Reihenfolge einsetzen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Bestimmung Mindestumsatz",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -608,79 +432,6 @@
       "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
     },
     {
-      "id": "finanzwirtschaft_betriebsbuchhaltung_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "betriebsbuchhaltung",
-      "thema": "Betriebsbuchhaltung",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/Finanzen_Aufgaben_2025.pdf",
-            "aufgabe": "2025:Finanzwirtschaft:3.3"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Betriebsbuchhaltung vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Betriebsbuchhaltung“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug."
-        ],
-        "richtige_indices": [
-          1,
-          2
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Betriebsbuchhaltung",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
-    },
-    {
       "id": "finanzwirtschaft_bilanzanalyse_stufe1_begriff",
       "fach": "Finanzwirtschaft",
       "thema_id": "bilanzanalyse",
@@ -742,79 +493,6 @@
         "grundlage",
         "Finanzwirtschaft",
         "Bilanzanalyse",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
-    },
-    {
-      "id": "finanzwirtschaft_bilanzanalyse_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "bilanzanalyse",
-      "thema": "Bilanzanalyse",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2023
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2023:Finanzwirtschaft:2.3"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Bilanzanalyse vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Bilanzanalyse“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Analyse, Massnahme und Begründung direkt miteinander verbinden.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist.",
-          "Verantwortlichkeiten, Ressourcen und Risiken konkret benennen.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut."
-        ],
-        "richtige_indices": [
-          0,
-          2
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
-      },
-      "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Bilanzanalyse",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -908,105 +586,6 @@
         "grundlage",
         "Finanzwirtschaft",
         "Break-even / Deckungsbeitrag",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "DB deckt Fixkosten; Break-even ist dort, wo die DB-Summe die Fixkosten trägt."
-    },
-    {
-      "id": "finanzwirtschaft_break_even_deckungsbeitrag_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "break_even_deckungsbeitrag",
-      "thema": "Break-even / Deckungsbeitrag",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022,
-          2023,
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2022:Finanzwirtschaft:1.8"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2023:Finanzwirtschaft:3.1"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/Finanzen_Aufgaben_2025.pdf",
-            "aufgabe": "2025:Finanzwirtschaft:2.5"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": null,
-            "pdf": null,
-            "aufgabe": "formel_kontrolle_pruefungen_2022_2025"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": null,
-            "pdf": null,
-            "aufgabe": "formel_kontrolle_pruefungen_2022_2025"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Break-even / Deckungsbeitrag vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
-        "pruefungsrelevant": "Beim Break-even wird geprüft, ab welcher Menge oder welchem Umsatz die Fixkosten gedeckt sind."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Break-even / Deckungsbeitrag“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Fixkosten werden vom Verkaufspreis abgezogen, um den DB pro Stück zu erhalten.",
-          "Für den Break-even die Fixkosten durch den DB pro Stück teilen.",
-          "Nur variable Kosten vom Verkaufspreis abziehen, um den DB pro Stück zu erhalten.",
-          "Ein positiver Deckungsbeitrag ist grundsätzlich ein Grund, ein Produkt sofort zu streichen.",
-          "Break-even-Umsatz wird mit den variablen Kosten pro Stück berechnet."
-        ],
-        "richtige_indices": [
-          1,
-          2
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Beim Break-even wird geprüft, ab welcher Menge oder welchem Umsatz die Fixkosten gedeckt sind."
-      },
-      "fehlerfallen": [
-        "Fixkosten statt variable Kosten vom Preis abziehen.",
-        "Bei BEP in CHF den Verkaufspreis vergessen.",
-        "Positive DB fälschlich als Verlust interpretieren."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Break-even / Deckungsbeitrag",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -1268,79 +847,6 @@
       "merksatz": "Erst Kosten sauber aufbauen, dann Gewinn, dann MWST – sonst wird die Rechnung Hackfleisch."
     },
     {
-      "id": "finanzwirtschaft_budget_plausibilisieren_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "budget_plausibilisieren",
-      "thema": "Budget plausibilisieren",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/04_Finanzwirtschaft_2024-Aufgaben.pdf",
-            "aufgabe": "2024:Finanzwirtschaft:2.1"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Budget plausibilisieren vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
-        "pruefungsrelevant": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Budget plausibilisieren“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Der Gewinnzuschlag gehört zu den Herstellkosten.",
-          "Zuschlagsbasis vor dem Einsetzen der Zahlen kontrollieren.",
-          "Materialgemeinkosten werden direkt auf den Verkaufspreis berechnet.",
-          "Gewinn und MWST nicht in die Selbstkosten einrechnen.",
-          "Die MWST wird zu den Selbstkosten gezählt."
-        ],
-        "richtige_indices": [
-          1,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
-      },
-      "fehlerfallen": [
-        "Falsche Zuschlagsbasis verwenden.",
-        "Gewinn und MWST in die Selbstkosten mischen.",
-        "Rabatt, Skonto und MWST in falscher Reihenfolge einsetzen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Budget plausibilisieren",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Erst Kosten sauber aufbauen, dann Gewinn, dann MWST – sonst wird die Rechnung Hackfleisch."
-    },
-    {
       "id": "finanzwirtschaft_budgetierung_stufe1_begriff",
       "fach": "Finanzwirtschaft",
       "thema_id": "budgetierung",
@@ -1402,79 +908,6 @@
         "grundlage",
         "Finanzwirtschaft",
         "Budgetierung",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Erst Kosten sauber aufbauen, dann Gewinn, dann MWST – sonst wird die Rechnung Hackfleisch."
-    },
-    {
-      "id": "finanzwirtschaft_budgetierung_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "budgetierung",
-      "thema": "Budgetierung",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2022:Finanzwirtschaft:2.3"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Budgetierung vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
-        "pruefungsrelevant": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Budgetierung“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Die MWST wird zu den Selbstkosten gezählt.",
-          "Der Gewinnzuschlag gehört zu den Herstellkosten.",
-          "Gewinn und MWST nicht in die Selbstkosten einrechnen.",
-          "Zuschlagsbasis vor dem Einsetzen der Zahlen kontrollieren.",
-          "Materialgemeinkosten werden direkt auf den Verkaufspreis berechnet."
-        ],
-        "richtige_indices": [
-          2,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
-      },
-      "fehlerfallen": [
-        "Falsche Zuschlagsbasis verwenden.",
-        "Gewinn und MWST in die Selbstkosten mischen.",
-        "Rabatt, Skonto und MWST in falscher Reihenfolge einsetzen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Budgetierung",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -1548,79 +981,6 @@
       "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
     },
     {
-      "id": "finanzwirtschaft_einfacher_jahresabschluss_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "einfacher_jahresabschluss",
-      "thema": "Einfacher Jahresabschluss",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/04_Finanzwirtschaft_2024-Aufgaben.pdf",
-            "aufgabe": "2024:Finanzwirtschaft:2.2"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Einfacher Jahresabschluss vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Einfacher Jahresabschluss“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen."
-        ],
-        "richtige_indices": [
-          1,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Einfacher Jahresabschluss",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
-    },
-    {
       "id": "finanzwirtschaft_erstellung_eines_teilbudgets_stufe1_begriff",
       "fach": "Finanzwirtschaft",
       "thema_id": "erstellung_eines_teilbudgets",
@@ -1682,79 +1042,6 @@
         "grundlage",
         "Finanzwirtschaft",
         "Erstellung eines Teilbudgets",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Erst Kosten sauber aufbauen, dann Gewinn, dann MWST – sonst wird die Rechnung Hackfleisch."
-    },
-    {
-      "id": "finanzwirtschaft_erstellung_eines_teilbudgets_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "erstellung_eines_teilbudgets",
-      "thema": "Erstellung eines Teilbudgets",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/Finanzen_Aufgaben_2025.pdf",
-            "aufgabe": "2025:Finanzwirtschaft:2.3"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Erstellung eines Teilbudgets vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
-        "pruefungsrelevant": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Erstellung eines Teilbudgets“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Die MWST wird zu den Selbstkosten gezählt.",
-          "Zuschlagsbasis vor dem Einsetzen der Zahlen kontrollieren.",
-          "Materialgemeinkosten werden direkt auf den Verkaufspreis berechnet.",
-          "Der Gewinnzuschlag gehört zu den Herstellkosten.",
-          "Gewinn und MWST nicht in die Selbstkosten einrechnen."
-        ],
-        "richtige_indices": [
-          1,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
-      },
-      "fehlerfallen": [
-        "Falsche Zuschlagsbasis verwenden.",
-        "Gewinn und MWST in die Selbstkosten mischen.",
-        "Rabatt, Skonto und MWST in falscher Reihenfolge einsetzen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Erstellung eines Teilbudgets",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -1850,32 +1137,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Finanzierungsarten vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Finanzierungsarten unterscheiden Eigen-/Fremdfinanzierung und Innen-/Aussenfinanzierung.",
+        "pruefungsrelevant": "Prüfungsnah ist, Abschreibungen und einbehaltene Gewinne korrekt der Innenfinanzierung zuzuordnen und nicht mit Fremdkapital zu verwechseln."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Finanzierungsarten“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu Finanzierungsarten sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig."
+          "Eigenfinanzierung erhöht das Eigenkapital, Fremdfinanzierung erhöht das Fremdkapital.",
+          "Abschreibungen und einbehaltene Gewinne zählen zur Innenfinanzierung.",
+          "Bankkredite gehören zur Eigenfinanzierung.",
+          "Innenfinanzierung bedeutet immer eine Kapitalerhöhung durch neue Aktionäre.",
+          "Eine Kapitalerhöhung durch neue Aktionäre ist eine Form der Aussenfinanzierung."
         ],
         "richtige_indices": [
-          2,
-          3
+          0,
+          1,
+          4
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Richtig sind die Zuordnung von Eigen-/Fremdkapital, Abschreibungen/Gewinne zur Innenfinanzierung und Kapitalerhöhung zur Aussenfinanzierung.",
+        "rechenweg": "Innenfinanzierung kommt aus dem Betrieb selbst (Abschreibungen, einbehaltene Gewinne), Aussenfinanzierung von aussen (Kredite, Kapitalerhöhung).",
+        "warum": "Bankkredite sind Fremdkapital, keine Eigenfinanzierung - eine häufige Verwechslung in Prüfungen."
       },
       "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
+        "Eigen- und Fremdfinanzierung verwechseln.",
+        "Abschreibungen fälschlich der Aussenfinanzierung zuordnen.",
+        "Innen- und Aussenfinanzierung nicht sauber trennen."
       ],
       "review": {
         "box": 1,
@@ -1898,7 +1186,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Innen kommt vom Betrieb selbst, aussen kommt von Dritten."
     },
     {
       "id": "finanzwirtschaft_finanzplanung_stufe1_begriff",
@@ -1962,79 +1250,6 @@
         "grundlage",
         "Finanzwirtschaft",
         "Finanzplanung",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
-    },
-    {
-      "id": "finanzwirtschaft_finanzplanung_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "finanzplanung",
-      "thema": "Finanzplanung",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2022:Finanzwirtschaft:3.2"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Finanzplanung vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Finanzplanung“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig."
-        ],
-        "richtige_indices": [
-          0,
-          2
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Finanzplanung",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -2121,92 +1336,6 @@
       "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
     },
     {
-      "id": "finanzwirtschaft_fuehrung_personal_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "fuehrung_personal",
-      "thema": "Führung / Personal",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022,
-          2023
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2022:Finanzwirtschaft:1.2"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2022:Finanzwirtschaft:1.7"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2023:Finanzwirtschaft:1.3"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Führung / Personal vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Führung / Personal“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Ziele konkret, messbar und terminiert formulieren.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht."
-        ],
-        "richtige_indices": [
-          1,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Führung / Personal",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
-    },
-    {
       "id": "finanzwirtschaft_grundlagen_controlling_stufe1_begriff",
       "fach": "Finanzwirtschaft",
       "thema_id": "grundlagen_controlling",
@@ -2268,79 +1397,6 @@
         "grundlage",
         "Finanzwirtschaft",
         "Grundlagen Controlling",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
-    },
-    {
-      "id": "finanzwirtschaft_grundlagen_controlling_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "grundlagen_controlling",
-      "thema": "Grundlagen Controlling",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/04_Finanzwirtschaft_2024-Aufgaben.pdf",
-            "aufgabe": "2024:Finanzwirtschaft:1.13"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Grundlagen Controlling vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Grundlagen Controlling“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden."
-        ],
-        "richtige_indices": [
-          1,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Grundlagen Controlling",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -2441,106 +1497,6 @@
       "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
     },
     {
-      "id": "finanzwirtschaft_investitionsentscheid_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "investitionsentscheid",
-      "thema": "Investitionsentscheid",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022,
-          2023,
-          2024,
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2022:Finanzwirtschaft:1.12"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2022:Finanzwirtschaft:1.13"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2022:Finanzwirtschaft:1.9"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2023:Finanzwirtschaft:2.4"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2023:Finanzwirtschaft:3.2"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Investitionsentscheid vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Investitionsentscheid“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig."
-        ],
-        "richtige_indices": [
-          2,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Investitionsentscheid",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
-    },
-    {
       "id": "finanzwirtschaft_jahresabschluss_stufe1_begriff",
       "fach": "Finanzwirtschaft",
       "thema_id": "jahresabschluss",
@@ -2602,79 +1558,6 @@
         "grundlage",
         "Finanzwirtschaft",
         "Jahresabschluss",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
-    },
-    {
-      "id": "finanzwirtschaft_jahresabschluss_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "jahresabschluss",
-      "thema": "Jahresabschluss",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/Finanzen_Aufgaben_2025.pdf",
-            "aufgabe": "2025:Finanzwirtschaft:2.2"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Jahresabschluss vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Jahresabschluss“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden."
-        ],
-        "richtige_indices": [
-          0,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Jahresabschluss",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -2748,79 +1631,6 @@
       "merksatz": "Erst Kosten sauber aufbauen, dann Gewinn, dann MWST – sonst wird die Rechnung Hackfleisch."
     },
     {
-      "id": "finanzwirtschaft_kalkulation_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "kalkulation",
-      "thema": "Kalkulation",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2023
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2023:Finanzwirtschaft:2.1"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Kalkulation vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
-        "pruefungsrelevant": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Kalkulation“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Der Gewinnzuschlag gehört zu den Herstellkosten.",
-          "Zuschlagsbasis vor dem Einsetzen der Zahlen kontrollieren.",
-          "Die MWST wird zu den Selbstkosten gezählt.",
-          "Materialgemeinkosten werden direkt auf den Verkaufspreis berechnet.",
-          "Gewinn und MWST nicht in die Selbstkosten einrechnen."
-        ],
-        "richtige_indices": [
-          1,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
-      },
-      "fehlerfallen": [
-        "Falsche Zuschlagsbasis verwenden.",
-        "Gewinn und MWST in die Selbstkosten mischen.",
-        "Rabatt, Skonto und MWST in falscher Reihenfolge einsetzen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Kalkulation",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Erst Kosten sauber aufbauen, dann Gewinn, dann MWST – sonst wird die Rechnung Hackfleisch."
-    },
-    {
       "id": "finanzwirtschaft_lager_lagerkennzahlen_stufe1_begriff",
       "fach": "Finanzwirtschaft",
       "thema_id": "lager_lagerkennzahlen",
@@ -2882,79 +1692,6 @@
         "grundlage",
         "Finanzwirtschaft",
         "Lager / Lagerkennzahlen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
-    },
-    {
-      "id": "finanzwirtschaft_lager_lagerkennzahlen_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "lager_lagerkennzahlen",
-      "thema": "Lager / Lagerkennzahlen",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2023
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2023:Finanzwirtschaft:1.8"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Lager / Lagerkennzahlen vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Lager / Lagerkennzahlen“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Nicht nur Preis, sondern Gesamtkosten und Gesamtnutzen bewerten.",
-          "Qualität und Lieferfähigkeit spielen bei der Beschaffung keine Rolle.",
-          "Der tiefste Einkaufspreis ist immer automatisch die beste Wahl.",
-          "Hohe Lagerbestände sind immer besser, weil sie jede Wirtschaftlichkeitsfrage lösen.",
-          "Lieferfähigkeit, Qualität und Risiko bewusst berücksichtigen."
-        ],
-        "richtige_indices": [
-          0,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
-      },
-      "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Lager / Lagerkennzahlen",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -3191,106 +1928,6 @@
       "merksatz": "Gewinn ist Buchhaltung; Liquidität ist Geldbewegung."
     },
     {
-      "id": "finanzwirtschaft_liquiditaet_mittelfluss_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "liquiditaet_mittelfluss",
-      "thema": "Liquidität / Mittelfluss",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022,
-          2023,
-          2024,
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2022:Finanzwirtschaft:1.11"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2022:Finanzwirtschaft:1.16"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2022:Finanzwirtschaft:1.17"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2023:Finanzwirtschaft:1.13"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2023:Finanzwirtschaft:1.17"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Liquidität / Mittelfluss vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Liquidität zeigt, ob kurzfristige Zahlungsverpflichtungen rechtzeitig bezahlt werden können.",
-        "pruefungsrelevant": "Wichtig ist die Trennung von liquiditätswirksamen Zahlungen und rein buchhalterischen Erfolgswirkungen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Liquidität / Mittelfluss“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Gewinn und Liquidität sind dasselbe.",
-          "Kauf gegen Rechnung ist sofort eine Auszahlung.",
-          "Ein- und Auszahlungen von Aufwand und Ertrag trennen.",
-          "Abschreibungen sind immer ein direkter Mittelabfluss.",
-          "Zahlungszeitpunkt und Zahlungsart aus der Fallangabe markieren."
-        ],
-        "richtige_indices": [
-          2,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Wichtig ist die Trennung von liquiditätswirksamen Zahlungen und rein buchhalterischen Erfolgswirkungen."
-      },
-      "fehlerfallen": [
-        "Erfolg und Geldfluss verwechseln.",
-        "Zahlungszeitpunkt überlesen.",
-        "Forderungen/Vorräte beim falschen Liquiditätsgrad einrechnen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Liquidität / Mittelfluss",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Gewinn ist Buchhaltung; Liquidität ist Geldbewegung."
-    },
-    {
       "id": "finanzwirtschaft_mahnwesen_stufe1_begriff",
       "fach": "Finanzwirtschaft",
       "thema_id": "mahnwesen",
@@ -3352,79 +1989,6 @@
         "grundlage",
         "Finanzwirtschaft",
         "Mahnwesen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
-    },
-    {
-      "id": "finanzwirtschaft_mahnwesen_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "mahnwesen",
-      "thema": "Mahnwesen",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2022:Finanzwirtschaft:2.2"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Mahnwesen vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Mahnwesen“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt."
-        ],
-        "richtige_indices": [
-          2,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Mahnwesen",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -3506,93 +2070,6 @@
         "grundlage",
         "Finanzwirtschaft",
         "Marketing / Verkauf",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
-    },
-    {
-      "id": "finanzwirtschaft_marketing_verkauf_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "marketing_verkauf",
-      "thema": "Marketing / Verkauf",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022,
-          2024,
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2022:Finanzwirtschaft:1.15"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/04_Finanzwirtschaft_2024-Aufgaben.pdf",
-            "aufgabe": "2024:Finanzwirtschaft:1.6"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/Finanzen_Aufgaben_2025.pdf",
-            "aufgabe": "2025:Finanzwirtschaft:1.9"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Marketing / Verkauf vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Marketing / Verkauf“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Bei Reklamationen Ursache, Kundenanliegen und Folgeprozess systematisch prüfen.",
-          "Marketing bedeutet nur Werbung; Produkt, Preis und Vertrieb sind nebensächlich.",
-          "CRM dient nur zum Speichern alter Adressen und nicht zur Kundenbearbeitung.",
-          "Massnahmen immer mit Zielgruppe und Kundennutzen verknüpfen.",
-          "Bei Reklamationen ist eine schnelle Standardabsage meist die beste Lösung."
-        ],
-        "richtige_indices": [
-          0,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
-      },
-      "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Marketing / Verkauf",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -3681,100 +2158,6 @@
         "grundlage",
         "Finanzwirtschaft",
         "Mehrwertsteuer",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Brutto enthält die Steuer bereits – erst Netto rauslösen, dann Steuerbetrag bestimmen."
-    },
-    {
-      "id": "finanzwirtschaft_mehrwertsteuer_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "mehrwertsteuer",
-      "thema": "Mehrwertsteuer",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022,
-          2023,
-          2024,
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2022:Finanzwirtschaft:1.1"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2023:Finanzwirtschaft:1.11"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/04_Finanzwirtschaft_2024-Aufgaben.pdf",
-            "aufgabe": "2024:Finanzwirtschaft:1.3"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/Finanzen_Aufgaben_2025.pdf",
-            "aufgabe": "2025:Finanzwirtschaft:1.4"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Mehrwertsteuer vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Mehrwertsteuer-Aufgaben prüfen die saubere Trennung von Brutto, Netto und Steuerbetrag.",
-        "pruefungsrelevant": "Bei inklusiver MWST musst du zuerst Netto herausrechnen; Brutto × Steuersatz ist die typische Falle."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Mehrwertsteuer“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Brutto, Netto und Steuerbetrag vor der Rechnung markieren.",
-          "Die MWST gehört zu den Selbstkosten der Zuschlagskalkulation.",
-          "Bei inklusiver MWST zuerst den Nettobetrag herausrechnen.",
-          "Rabatte werden grundsätzlich erst nach der MWST addiert.",
-          "Die enthaltene MWST ist immer Bruttobetrag × Steuersatz."
-        ],
-        "richtige_indices": [
-          0,
-          2
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Bei inklusiver MWST musst du zuerst Netto herausrechnen; Brutto × Steuersatz ist die typische Falle."
-      },
-      "fehlerfallen": [
-        "Brutto und Netto verwechseln.",
-        "Steuersatz direkt auf den Bruttobetrag anwenden.",
-        "Rabatte/Skonti in falscher Reihenfolge berücksichtigen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Mehrwertsteuer",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -3937,79 +2320,6 @@
       "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
     },
     {
-      "id": "finanzwirtschaft_payback_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "payback",
-      "thema": "Payback",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2022:Finanzwirtschaft:2.5"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Payback vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Payback“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen."
-        ],
-        "richtige_indices": [
-          2,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Payback",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
-    },
-    {
       "id": "finanzwirtschaft_planung_kapitalbedarf_stufe1_begriff",
       "fach": "Finanzwirtschaft",
       "thema_id": "planung_kapitalbedarf",
@@ -4071,79 +2381,6 @@
         "grundlage",
         "Finanzwirtschaft",
         "Planung Kapitalbedarf",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
-    },
-    {
-      "id": "finanzwirtschaft_planung_kapitalbedarf_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "planung_kapitalbedarf",
-      "thema": "Planung Kapitalbedarf",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/04_Finanzwirtschaft_2024-Aufgaben.pdf",
-            "aufgabe": "2024:Finanzwirtschaft:3.1"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Planung Kapitalbedarf vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Planung Kapitalbedarf“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig."
-        ],
-        "richtige_indices": [
-          0,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Planung Kapitalbedarf",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -4244,106 +2481,6 @@
       "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
     },
     {
-      "id": "finanzwirtschaft_rechnung_rechnungspruefung_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "rechnung_rechnungspruefung",
-      "thema": "Rechnung / Rechnungsprüfung",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022,
-          2023,
-          2024,
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2022:Finanzwirtschaft:1.10"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2022:Finanzwirtschaft:1.6"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2022:Finanzwirtschaft:3.1"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2022:Finanzwirtschaft:3.3"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2023:Finanzwirtschaft:1.1"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Rechnung / Rechnungsprüfung vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Rechnung / Rechnungsprüfung“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig."
-        ],
-        "richtige_indices": [
-          2,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Rechnung / Rechnungsprüfung",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
-    },
-    {
       "id": "finanzwirtschaft_rechtliche_grundlagen_stufe1_begriff",
       "fach": "Finanzwirtschaft",
       "thema_id": "rechtliche_grundlagen",
@@ -4431,99 +2568,6 @@
       "merksatz": "Recht: Tatbestand → Regel → Rechtsfolge. VWL: Ursache → Wirkung → Begründung."
     },
     {
-      "id": "finanzwirtschaft_rechtliche_grundlagen_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "rechtliche_grundlagen",
-      "thema": "Rechtliche Grundlagen",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2022,
-          2023,
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2022,
-            "pdf": "2022/Aufgaben/DE_2022_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2022:Finanzwirtschaft:1.4"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2023,
-            "pdf": "2023/Aufgaben/DE_2023_Aufgaben_Finanzwirtschaft.pdf",
-            "aufgabe": "2023:Finanzwirtschaft:1.5"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/Finanzen_Aufgaben_2025.pdf",
-            "aufgabe": "2025:Finanzwirtschaft:1.10"
-          },
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/Finanzen_Aufgaben_2025.pdf",
-            "aufgabe": "2025:Finanzwirtschaft:1.16"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Rechtliche Grundlagen vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden.",
-        "pruefungsrelevant": "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Rechtliche Grundlagen“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Kaufvertrag, Werkvertrag und Auftrag unterscheiden sich nur durch den Preis.",
-          "Rechtsfälle mit Tatbestand, Regel und Rechtsfolge lösen.",
-          "Bei Rechtsfällen reicht Bauchgefühl; Fristen und Gesetzesfolgen sind zweitrangig.",
-          "Bei VWL Ursache, Wirkung und Begründung sauber verbinden.",
-          "VWL-Antworten brauchen keine Ursache-Wirkungs-Begründung."
-        ],
-        "richtige_indices": [
-          1,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
-      },
-      "fehlerfallen": [
-        "Vertragsarten verwechseln.",
-        "Fristen/Rechtsfolgen übersehen.",
-        "Bei VWL nur Begriffe nennen, aber keine Wirkung erklären."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Rechtliche Grundlagen",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Recht: Tatbestand → Regel → Rechtsfolge. VWL: Ursache → Wirkung → Begründung."
-    },
-    {
       "id": "finanzwirtschaft_roe_stufe1_begriff",
       "fach": "Finanzwirtschaft",
       "thema_id": "roe",
@@ -4589,77 +2633,6 @@
       "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
     },
     {
-      "id": "finanzwirtschaft_roe_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "roe",
-      "thema": "Integrierte Fallstudie",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": null,
-            "pdf": null,
-            "aufgabe": "formel_kontrolle_pruefungen_2022_2025"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei roe vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Integrierte Fallstudie“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig."
-        ],
-        "richtige_indices": [
-          0,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "roe",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
-    },
-    {
       "id": "finanzwirtschaft_roi_stufe1_begriff",
       "fach": "Finanzwirtschaft",
       "thema_id": "roi",
@@ -4719,77 +2692,6 @@
         "grundlage",
         "Finanzwirtschaft",
         "roi",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
-    },
-    {
-      "id": "finanzwirtschaft_roi_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "roi",
-      "thema": "Integrierte Fallstudie",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": null,
-            "pdf": null,
-            "aufgabe": "formel_kontrolle_pruefungen_2022_2025"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei roi vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Integrierte Fallstudie“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt."
-        ],
-        "richtige_indices": [
-          2,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "roi",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -4863,79 +2765,6 @@
       "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
     },
     {
-      "id": "finanzwirtschaft_soll_ist_vergleich_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "soll_ist_vergleich",
-      "thema": "Soll-Ist-Vergleich",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2024
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2024,
-            "pdf": "2024/Aufgaben/04_Finanzwirtschaft_2024-Aufgaben.pdf",
-            "aufgabe": "2024:Finanzwirtschaft:1.1"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Soll-Ist-Vergleich vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Soll-Ist-Vergleich“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden."
-        ],
-        "richtige_indices": [
-          2,
-          4
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Soll-Ist-Vergleich",
-        "fehlerfallen",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
-    },
-    {
       "id": "finanzwirtschaft_verhalten_gegenueber_der_kundschaft_stufe1_begriff",
       "fach": "Finanzwirtschaft",
       "thema_id": "verhalten_gegenueber_der_kundschaft",
@@ -4997,79 +2826,6 @@
         "grundlage",
         "Finanzwirtschaft",
         "Verhalten gegenüber der Kundschaft",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
-    },
-    {
-      "id": "finanzwirtschaft_verhalten_gegenueber_der_kundschaft_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "verhalten_gegenueber_der_kundschaft",
-      "thema": "Verhalten gegenüber der Kundschaft",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/Finanzen_Aufgaben_2025.pdf",
-            "aufgabe": "2025:Finanzwirtschaft:1.2"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Verhalten gegenüber der Kundschaft vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Verhalten gegenüber der Kundschaft“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Begriff nicht nur nennen, sondern auf die Situation anwenden.",
-          "Ausgangslage markieren und Antwort mit dem konkreten Fall verknüpfen.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug."
-        ],
-        "richtige_indices": [
-          2,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Verhalten gegenüber der Kundschaft",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
@@ -5219,32 +2975,33 @@
       "typ": "multiple_choice",
       "lernziel": "Typische Fehler bei Ziele / SMART vermeiden",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Finanzielle Ziele werden nach dem SMART-Prinzip mit konkreten Zahlen, Terminen und realistischen Vorgaben formuliert.",
+        "pruefungsrelevant": "Prüfungsnah ist, unspezifische Zielformulierungen zu erkennen und in messbare, terminierte Finanzziele umzuformulieren."
       },
-      "frage": "Welche Hinweise helfen beim Thema „Ziele / SMART“, typische Prüfungsfehler wirklich zu vermeiden?",
+      "frage": "Welche Aussagen zu finanziellen Zielen nach dem SMART-Prinzip sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Motivation entsteht nur über Geld; nicht-monetäre Faktoren zählen nicht.",
-          "Mitarbeitergespräche sollen möglichst ohne konkrete Beispiele geführt werden.",
-          "Arbeitsrechtliche Fristen und Fürsorgepflicht sind bei Führungsentscheiden nebensächlich.",
-          "Feedback mit beobachtbaren Beispielen und fairem Fallbezug begründen.",
-          "Ziele konkret, messbar und terminiert formulieren."
+          "Finanzielle Ziele sollten mit konkreten Zahlen und einem Termin versehen werden, z.B. 'Umsatz bis Jahresende um 5% steigern'.",
+          "Ziele müssen realistisch erreichbar sein, sonst verlieren sie ihre Steuerungswirkung.",
+          "Ein Ziel wie 'die Finanzen verbessern' ist bereits ausreichend konkret formuliert.",
+          "Finanzielle Ziele müssen nicht überprüft werden, sobald sie einmal festgelegt sind.",
+          "Der Zielerreichungsgrad sollte periodisch mit einem Soll-Ist-Vergleich überprüft werden."
         ],
         "richtige_indices": [
-          3,
+          0,
+          1,
           4
         ]
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Richtig sind konkrete, terminierte Zielformulierungen, realistische Erreichbarkeit und die periodische Überprüfung des Zielerreichungsgrads.",
+        "rechenweg": "SMART steht für spezifisch, messbar, akzeptiert, realistisch, terminiert - 'Finanzen verbessern' erfüllt keines dieser Kriterien konkret.",
+        "warum": "Ziele ohne Überprüfung verlieren ihre Steuerungswirkung; erst der laufende Soll-Ist-Vergleich zeigt, ob nachgesteuert werden muss."
       },
       "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
+        "Ziele zu allgemein formulieren, ohne Zahl oder Termin.",
+        "Unrealistische Ziele setzen, die von Beginn an demotivieren.",
+        "Zielerreichung nie überprüfen oder nachsteuern."
       ],
       "review": {
         "box": 1,
@@ -5267,7 +3024,7 @@
         "lerntauglich",
         "plausible_distraktoren"
       ],
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Ohne Zahl und Termin ist ein Ziel nur ein Wunsch."
     },
     {
       "id": "finanzwirtschaft_zuschlagskalkulation_stufe1_begriff",
@@ -5331,79 +3088,6 @@
         "grundlage",
         "Finanzwirtschaft",
         "Zuschlagskalkulation",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Erst Kosten sauber aufbauen, dann Gewinn, dann MWST – sonst wird die Rechnung Hackfleisch."
-    },
-    {
-      "id": "finanzwirtschaft_zuschlagskalkulation_stufe2_fehlerfalle",
-      "fach": "Finanzwirtschaft",
-      "thema_id": "zuschlagskalkulation",
-      "thema": "Zuschlagskalkulation",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/Finanzen_Aufgaben_2025.pdf",
-            "aufgabe": "2025:Finanzwirtschaft:3.2"
-          }
-        ]
-      },
-      "stufe": 2,
-      "typ": "multiple_choice",
-      "lernziel": "Typische Fehler bei Zuschlagskalkulation vermeiden",
-      "begriff_erklaerung": {
-        "kurz": "Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
-        "pruefungsrelevant": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
-      },
-      "frage": "Welche Hinweise helfen beim Thema „Zuschlagskalkulation“, typische Prüfungsfehler wirklich zu vermeiden?",
-      "antwort_daten": {
-        "optionen": [
-          "Der Gewinnzuschlag gehört zu den Herstellkosten.",
-          "Die MWST wird zu den Selbstkosten gezählt.",
-          "Gewinn und MWST nicht in die Selbstkosten einrechnen.",
-          "Zuschlagsbasis vor dem Einsetzen der Zahlen kontrollieren.",
-          "Materialgemeinkosten werden direkt auf den Verkaufspreis berechnet."
-        ],
-        "richtige_indices": [
-          2,
-          3
-        ]
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig sind die Hinweise, die konkret auf Fallbezug, Bezugsgrössen, Fachbegriffe oder methodisches Vorgehen achten.",
-        "rechenweg": "Prüfe bewusst: Welche Angaben muss ich markieren? Welche Begriffe darf ich nicht verwechseln? Welche Rechnung oder Begründung verlangt die Aufgabe wirklich?",
-        "warum": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
-      },
-      "fehlerfallen": [
-        "Falsche Zuschlagsbasis verwenden.",
-        "Gewinn und MWST in die Selbstkosten mischen.",
-        "Rabatt, Skonto und MWST in falscher Reihenfolge einsetzen."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_2",
-        "anwendung",
-        "fehlerfalle",
-        "Finanzwirtschaft",
-        "Zuschlagskalkulation",
-        "fehlerfallen",
         "lerntauglich",
         "plausible_distraktoren"
       ],
