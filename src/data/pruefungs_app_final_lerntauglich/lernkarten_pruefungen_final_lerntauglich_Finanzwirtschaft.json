@@ -86,9 +86,9 @@
       "antwort_daten": {
         "optionen": [
           "Eigenkapital ÷ Anlagevermögen × 100",
-          "Gewinn ÷ Nettoerlös × 100",
-          "Fremdkapital ÷ Gesamtkapital × 100",
-          "Umlaufvermögen ÷ Eigenkapital × 100"
+          "Flüssige Mittel ÷ kurzfristiges Fremdkapital × 100",
+          "Umlaufvermögen ÷ kurzfristiges Fremdkapital × 100",
+          "Eigenkapital ÷ Gesamtkapital × 100"
         ],
         "richtig_index": 0
       },
@@ -123,27 +123,27 @@
         "kurz": "Anlagedeckungsgrad I zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Was wird mit Anlagedeckungsgrad I beurteilt? Wähle alle passenden Aussagen.",
+      "frage": "Welche Aussagen erklären die Aussagekraft und Beurteilung von Anlagedeckungsgrad I richtig?",
       "antwort_daten": {
         "optionen": [
-          "Die Kennzahl wird mit der Formel „Eigenkapital ÷ Anlagevermögen × 100“ berechnet.",
-          "85.7 % des Anlagevermögens sind durch Eigenkapital gedeckt.",
-          "Die Kennzahl ersetzt immer den Branchenvergleich.",
-          "Ein hoher Wert ist ausnahmslos gut."
+          "Er zeigt, wie viel des langfristig gebundenen Anlagevermögens allein durch Eigenkapital finanziert ist.",
+          "Häufig werden 75–100 % als Orientierung verwendet. Je näher bei 100 %, desto stärker ist das Anlagevermögen durch Eigenkapital gedeckt.",
+          "Die Kennzahl zeigt den absoluten Reingewinn direkt in Franken.",
+          "Die Kennzahl kann ohne Branchen-, Zeit- oder Risikovergleich abschließend beurteilt werden."
         ],
         "richtige_indices": [
           0,
           1
         ]
       },
-      "erklaerung": "85.7 % des Anlagevermögens sind durch Eigenkapital gedeckt.",
-      "abschlusserklaerung": "85.7 % des Anlagevermögens sind durch Eigenkapital gedeckt.",
+      "erklaerung": "Er zeigt, wie viel des langfristig gebundenen Anlagevermögens allein durch Eigenkapital finanziert ist. Häufig werden 75–100 % als Orientierung verwendet. Je näher bei 100 %, desto stärker ist das Anlagevermögen durch Eigenkapital gedeckt.",
+      "abschlusserklaerung": "Er zeigt, wie viel des langfristig gebundenen Anlagevermögens allein durch Eigenkapital finanziert ist. Häufig werden 75–100 % als Orientierung verwendet. Je näher bei 100 %, desto stärker ist das Anlagevermögen durch Eigenkapital gedeckt.",
       "loesungsvorschlag": {
-        "kurz": "85.7 % des Anlagevermögens sind durch Eigenkapital gedeckt.",
-        "warum": "85.7 % des Anlagevermögens sind durch Eigenkapital gedeckt."
+        "kurz": "Er zeigt, wie viel des langfristig gebundenen Anlagevermögens allein durch Eigenkapital finanziert ist. Häufig werden 75–100 % als Orientierung verwendet. Je näher bei 100 %, desto stärker ist das Anlagevermögen durch Eigenkapital gedeckt.",
+        "warum": "Er zeigt, wie viel des langfristig gebundenen Anlagevermögens allein durch Eigenkapital finanziert ist. Häufig werden 75–100 % als Orientierung verwendet. Je näher bei 100 %, desto stärker ist das Anlagevermögen durch Eigenkapital gedeckt."
       },
       "fehlerfallen": [],
-      "merksatz": "85.7 % des Anlagevermögens sind durch Eigenkapital gedeckt.",
+      "merksatz": "Er zeigt, wie viel des langfristig gebundenen Anlagevermögens allein durch Eigenkapital finanziert ist. Häufig werden 75–100 % als Orientierung verwendet. Je näher bei 100 %, desto stärker ist das Anlagevermögen durch Eigenkapital gedeckt.",
       "review": {},
       "tags": [
         "formel",
@@ -167,20 +167,104 @@
         "kurz": "Anlagedeckungsgrad I zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Tippe im Jahresabschluss die benötigten Positionen und Rechenzeichen für Anlagedeckungsgrad I in der richtigen Reihenfolge an.",
+      "frage": "Wähle aus Bilanz und Erfolgsrechnung nur die benötigten Positionen und setze daraus Anlagedeckungsgrad I zusammen.",
       "antwort_daten": {
         "bausteine": [
           {
+            "id": "fluessige_mittel",
+            "label": "Flüssige Mittel · CHF 120'000"
+          },
+          {
+            "id": "forderungen",
+            "label": "Forderungen · CHF 180'000"
+          },
+          {
+            "id": "vorrat",
+            "label": "Vorräte · CHF 300'000"
+          },
+          {
+            "id": "umlaufvermoegen",
+            "label": "Umlaufvermögen · CHF 600'000"
+          },
+          {
+            "id": "maschinen",
+            "label": "Maschinen · CHF 420'000"
+          },
+          {
             "id": "anlagevermoegen",
             "label": "Anlagevermögen · CHF 700'000"
+          },
+          {
+            "id": "gesamtkapital",
+            "label": "Bilanzsumme / Gesamtkapital · CHF 1'300'000"
+          },
+          {
+            "id": "verbindlichkeiten",
+            "label": "Verbindlichkeiten · CHF 160'000"
+          },
+          {
+            "id": "kurzfristiges_fk",
+            "label": "Kurzfristiges FK · CHF 300'000"
+          },
+          {
+            "id": "langfristiges_fk",
+            "label": "Langfristiges FK · CHF 400'000"
+          },
+          {
+            "id": "fremdkapital",
+            "label": "Fremdkapital · CHF 700'000"
           },
           {
             "id": "eigenkapital",
             "label": "Eigenkapital · CHF 600'000"
           },
           {
+            "id": "aktienkapital",
+            "label": "Aktienkapital · CHF 400'000"
+          },
+          {
+            "id": "reserven",
+            "label": "Reserven · CHF 110'000"
+          },
+          {
+            "id": "reingewinn",
+            "label": "Reingewinn · CHF 90'000"
+          },
+          {
+            "id": "ebit",
+            "label": "EBIT · CHF 150'000"
+          },
+          {
+            "id": "fk_zinsen",
+            "label": "Fremdkapitalzinsen · CHF 20'000"
+          },
+          {
+            "id": "nettoerloes",
+            "label": "Nettoerlös · CHF 1'800'000"
+          },
+          {
+            "id": "personalaufwand",
+            "label": "Personalaufwand · CHF 420'000"
+          },
+          {
+            "id": "ist_umsatz",
+            "label": "Ist-Umsatz · CHF 1'800'000"
+          },
+          {
+            "id": "bep_umsatz",
+            "label": "BEP-Umsatz · CHF 1'350'000"
+          },
+          {
             "id": "geteilt",
             "label": "÷"
+          },
+          {
+            "id": "plus",
+            "label": "+"
+          },
+          {
+            "id": "minus",
+            "label": "−"
           },
           {
             "id": "mal_hundert",
@@ -195,12 +279,32 @@
         ],
         "bilanz": {
           "aktiven": [
-            "anlagevermoegen"
+            "fluessige_mittel",
+            "forderungen",
+            "vorrat",
+            "umlaufvermoegen",
+            "maschinen",
+            "anlagevermoegen",
+            "gesamtkapital"
           ],
           "passiven": [
+            "verbindlichkeiten",
+            "kurzfristiges_fk",
+            "langfristiges_fk",
+            "fremdkapital",
+            "aktienkapital",
+            "reserven",
             "eigenkapital"
           ],
-          "erfolgsrechnung": []
+          "erfolgsrechnung": [
+            "nettoerloes",
+            "personalaufwand",
+            "ebit",
+            "fk_zinsen",
+            "reingewinn",
+            "ist_umsatz",
+            "bep_umsatz"
+          ]
         },
         "formel": "Eigenkapital ÷ Anlagevermögen × 100",
         "ergebnis": {
@@ -211,15 +315,15 @@
           "rechenbasis": "Die App berechnet das Resultat aus den angezeigten Werten."
         }
       },
-      "aufgaben_hinweis": "Du stellst nur die Formel zusammen; das Resultat berechnet die App automatisch.",
-      "erklaerung": "85.7 % des Anlagevermögens sind durch Eigenkapital gedeckt.",
-      "abschlusserklaerung": "85.7 % des Anlagevermögens sind durch Eigenkapital gedeckt.",
+      "aufgaben_hinweis": "Nicht alle angezeigten Konten und Rechenzeichen gehören in die Formel. Das Resultat wird nach dem korrekten Aufbau automatisch berechnet.",
+      "erklaerung": "85.7 % liegen im häufig verwendeten Orientierungsbereich: Ein großer Teil des Anlagevermögens ist durch Eigenkapital finanziert.",
+      "abschlusserklaerung": "85.7 % liegen im häufig verwendeten Orientierungsbereich: Ein großer Teil des Anlagevermögens ist durch Eigenkapital finanziert.",
       "loesungsvorschlag": {
-        "kurz": "85.7 % des Anlagevermögens sind durch Eigenkapital gedeckt.",
-        "warum": "85.7 % des Anlagevermögens sind durch Eigenkapital gedeckt."
+        "kurz": "85.7 % liegen im häufig verwendeten Orientierungsbereich: Ein großer Teil des Anlagevermögens ist durch Eigenkapital finanziert.",
+        "warum": "85.7 % liegen im häufig verwendeten Orientierungsbereich: Ein großer Teil des Anlagevermögens ist durch Eigenkapital finanziert."
       },
       "fehlerfallen": [],
-      "merksatz": "85.7 % des Anlagevermögens sind durch Eigenkapital gedeckt.",
+      "merksatz": "85.7 % liegen im häufig verwendeten Orientierungsbereich: Ein großer Teil des Anlagevermögens ist durch Eigenkapital finanziert.",
       "review": {},
       "tags": [
         "formel",
@@ -243,24 +347,24 @@
         "kurz": "Anlagedeckungsgrad I zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Das berechnete Resultat beträgt 85.7 %. Welche Interpretation passt?",
+      "frage": "Das berechnete Resultat beträgt 85.7 %. Wie ist dieses Ergebnis fachlich zu beurteilen?",
       "antwort_daten": {
         "optionen": [
-          "85.7 % des Anlagevermögens sind durch Eigenkapital gedeckt.",
-          "Das Resultat beweist automatisch eine ausgezeichnete Gesamtlage.",
-          "Die Kennzahl zeigt ausschließlich die Zahlungsfähigkeit heute.",
-          "Ohne weitere Rechnung lässt sich daraus der absolute Gewinn ablesen."
+          "85.7 % liegen im häufig verwendeten Orientierungsbereich: Ein großer Teil des Anlagevermögens ist durch Eigenkapital finanziert.",
+          "Der Wert ist automatisch optimal, weil jede positive Kennzahl gut ist.",
+          "Der Wert beweist unabhängig von Branche und Entwicklung eine schlechte Gesamtlage.",
+          "Aus dieser Kennzahl allein lässt sich der absolute Reingewinn direkt ablesen."
         ],
         "richtig_index": 0
       },
-      "erklaerung": "85.7 % des Anlagevermögens sind durch Eigenkapital gedeckt. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-      "abschlusserklaerung": "85.7 % des Anlagevermögens sind durch Eigenkapital gedeckt. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "erklaerung": "85.7 % liegen im häufig verwendeten Orientierungsbereich: Ein großer Teil des Anlagevermögens ist durch Eigenkapital finanziert.",
+      "abschlusserklaerung": "85.7 % liegen im häufig verwendeten Orientierungsbereich: Ein großer Teil des Anlagevermögens ist durch Eigenkapital finanziert.",
       "loesungsvorschlag": {
-        "kurz": "85.7 % des Anlagevermögens sind durch Eigenkapital gedeckt. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-        "warum": "85.7 % des Anlagevermögens sind durch Eigenkapital gedeckt. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden."
+        "kurz": "85.7 % liegen im häufig verwendeten Orientierungsbereich: Ein großer Teil des Anlagevermögens ist durch Eigenkapital finanziert.",
+        "warum": "85.7 % liegen im häufig verwendeten Orientierungsbereich: Ein großer Teil des Anlagevermögens ist durch Eigenkapital finanziert."
       },
       "fehlerfallen": [],
-      "merksatz": "85.7 % des Anlagevermögens sind durch Eigenkapital gedeckt. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "merksatz": "85.7 % liegen im häufig verwendeten Orientierungsbereich: Ein großer Teil des Anlagevermögens ist durch Eigenkapital finanziert.",
       "review": {},
       "tags": [
         "formel",
@@ -288,9 +392,9 @@
       "antwort_daten": {
         "optionen": [
           "(Eigenkapital + langfristiges Fremdkapital) ÷ Anlagevermögen × 100",
-          "Gewinn ÷ Nettoerlös × 100",
-          "Fremdkapital ÷ Gesamtkapital × 100",
-          "Umlaufvermögen ÷ Eigenkapital × 100"
+          "Flüssige Mittel ÷ kurzfristiges Fremdkapital × 100",
+          "Umlaufvermögen ÷ kurzfristiges Fremdkapital × 100",
+          "Eigenkapital ÷ Gesamtkapital × 100"
         ],
         "richtig_index": 0
       },
@@ -325,27 +429,27 @@
         "kurz": "Anlagedeckungsgrad II zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Was wird mit Anlagedeckungsgrad II beurteilt? Wähle alle passenden Aussagen.",
+      "frage": "Welche Aussagen erklären die Aussagekraft und Beurteilung von Anlagedeckungsgrad II richtig?",
       "antwort_daten": {
         "optionen": [
-          "Die Kennzahl wird mit der Formel „(Eigenkapital + langfristiges Fremdkapital) ÷ Anlagevermögen × 100“ berechnet.",
-          "Über 100 %: Die goldene Bilanzregel ist erfüllt.",
-          "Die Kennzahl ersetzt immer den Branchenvergleich.",
-          "Ein hoher Wert ist ausnahmslos gut."
+          "Er zeigt, ob langfristig gebundenes Anlagevermögen vollständig mit langfristigem Kapital finanziert ist.",
+          "Mindestens 100 % erfüllen die goldene Bilanzregel; der langfristige Kapitalüberschuss finanziert dann zusätzlich einen Teil des Umlaufvermögens.",
+          "Die Kennzahl zeigt den absoluten Reingewinn direkt in Franken.",
+          "Die Kennzahl kann ohne Branchen-, Zeit- oder Risikovergleich abschließend beurteilt werden."
         ],
         "richtige_indices": [
           0,
           1
         ]
       },
-      "erklaerung": "Über 100 %: Die goldene Bilanzregel ist erfüllt.",
-      "abschlusserklaerung": "Über 100 %: Die goldene Bilanzregel ist erfüllt.",
+      "erklaerung": "Er zeigt, ob langfristig gebundenes Anlagevermögen vollständig mit langfristigem Kapital finanziert ist. Mindestens 100 % erfüllen die goldene Bilanzregel; der langfristige Kapitalüberschuss finanziert dann zusätzlich einen Teil des Umlaufvermögens.",
+      "abschlusserklaerung": "Er zeigt, ob langfristig gebundenes Anlagevermögen vollständig mit langfristigem Kapital finanziert ist. Mindestens 100 % erfüllen die goldene Bilanzregel; der langfristige Kapitalüberschuss finanziert dann zusätzlich einen Teil des Umlaufvermögens.",
       "loesungsvorschlag": {
-        "kurz": "Über 100 %: Die goldene Bilanzregel ist erfüllt.",
-        "warum": "Über 100 %: Die goldene Bilanzregel ist erfüllt."
+        "kurz": "Er zeigt, ob langfristig gebundenes Anlagevermögen vollständig mit langfristigem Kapital finanziert ist. Mindestens 100 % erfüllen die goldene Bilanzregel; der langfristige Kapitalüberschuss finanziert dann zusätzlich einen Teil des Umlaufvermögens.",
+        "warum": "Er zeigt, ob langfristig gebundenes Anlagevermögen vollständig mit langfristigem Kapital finanziert ist. Mindestens 100 % erfüllen die goldene Bilanzregel; der langfristige Kapitalüberschuss finanziert dann zusätzlich einen Teil des Umlaufvermögens."
       },
       "fehlerfallen": [],
-      "merksatz": "Über 100 %: Die goldene Bilanzregel ist erfüllt.",
+      "merksatz": "Er zeigt, ob langfristig gebundenes Anlagevermögen vollständig mit langfristigem Kapital finanziert ist. Mindestens 100 % erfüllen die goldene Bilanzregel; der langfristige Kapitalüberschuss finanziert dann zusätzlich einen Teil des Umlaufvermögens.",
       "review": {},
       "tags": [
         "formel",
@@ -369,20 +473,92 @@
         "kurz": "Anlagedeckungsgrad II zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Tippe im Jahresabschluss die benötigten Positionen und Rechenzeichen für Anlagedeckungsgrad II in der richtigen Reihenfolge an.",
+      "frage": "Wähle aus Bilanz und Erfolgsrechnung nur die benötigten Positionen und setze daraus Anlagedeckungsgrad II zusammen.",
       "antwort_daten": {
         "bausteine": [
           {
+            "id": "fluessige_mittel",
+            "label": "Flüssige Mittel · CHF 120'000"
+          },
+          {
+            "id": "forderungen",
+            "label": "Forderungen · CHF 180'000"
+          },
+          {
+            "id": "vorrat",
+            "label": "Vorräte · CHF 300'000"
+          },
+          {
+            "id": "umlaufvermoegen",
+            "label": "Umlaufvermögen · CHF 600'000"
+          },
+          {
+            "id": "maschinen",
+            "label": "Maschinen · CHF 420'000"
+          },
+          {
             "id": "anlagevermoegen",
             "label": "Anlagevermögen · CHF 700'000"
+          },
+          {
+            "id": "gesamtkapital",
+            "label": "Bilanzsumme / Gesamtkapital · CHF 1'300'000"
+          },
+          {
+            "id": "verbindlichkeiten",
+            "label": "Verbindlichkeiten · CHF 160'000"
+          },
+          {
+            "id": "kurzfristiges_fk",
+            "label": "Kurzfristiges FK · CHF 300'000"
           },
           {
             "id": "langfristiges_fk",
             "label": "Langfristiges FK · CHF 400'000"
           },
           {
+            "id": "fremdkapital",
+            "label": "Fremdkapital · CHF 700'000"
+          },
+          {
             "id": "eigenkapital",
             "label": "Eigenkapital · CHF 600'000"
+          },
+          {
+            "id": "aktienkapital",
+            "label": "Aktienkapital · CHF 400'000"
+          },
+          {
+            "id": "reserven",
+            "label": "Reserven · CHF 110'000"
+          },
+          {
+            "id": "reingewinn",
+            "label": "Reingewinn · CHF 90'000"
+          },
+          {
+            "id": "ebit",
+            "label": "EBIT · CHF 150'000"
+          },
+          {
+            "id": "fk_zinsen",
+            "label": "Fremdkapitalzinsen · CHF 20'000"
+          },
+          {
+            "id": "nettoerloes",
+            "label": "Nettoerlös · CHF 1'800'000"
+          },
+          {
+            "id": "personalaufwand",
+            "label": "Personalaufwand · CHF 420'000"
+          },
+          {
+            "id": "ist_umsatz",
+            "label": "Ist-Umsatz · CHF 1'800'000"
+          },
+          {
+            "id": "bep_umsatz",
+            "label": "BEP-Umsatz · CHF 1'350'000"
           },
           {
             "id": "geteilt",
@@ -391,6 +567,10 @@
           {
             "id": "plus",
             "label": "+"
+          },
+          {
+            "id": "minus",
+            "label": "−"
           },
           {
             "id": "mal_hundert",
@@ -407,13 +587,32 @@
         ],
         "bilanz": {
           "aktiven": [
-            "anlagevermoegen"
+            "fluessige_mittel",
+            "forderungen",
+            "vorrat",
+            "umlaufvermoegen",
+            "maschinen",
+            "anlagevermoegen",
+            "gesamtkapital"
           ],
           "passiven": [
-            "eigenkapital",
-            "langfristiges_fk"
+            "verbindlichkeiten",
+            "kurzfristiges_fk",
+            "langfristiges_fk",
+            "fremdkapital",
+            "aktienkapital",
+            "reserven",
+            "eigenkapital"
           ],
-          "erfolgsrechnung": []
+          "erfolgsrechnung": [
+            "nettoerloes",
+            "personalaufwand",
+            "ebit",
+            "fk_zinsen",
+            "reingewinn",
+            "ist_umsatz",
+            "bep_umsatz"
+          ]
         },
         "formel": "(Eigenkapital + langfristiges Fremdkapital) ÷ Anlagevermögen × 100",
         "ergebnis": {
@@ -424,15 +623,15 @@
           "rechenbasis": "Die App berechnet das Resultat aus den angezeigten Werten."
         }
       },
-      "aufgaben_hinweis": "Du stellst nur die Formel zusammen; das Resultat berechnet die App automatisch.",
-      "erklaerung": "Über 100 %: Die goldene Bilanzregel ist erfüllt.",
-      "abschlusserklaerung": "Über 100 %: Die goldene Bilanzregel ist erfüllt.",
+      "aufgaben_hinweis": "Nicht alle angezeigten Konten und Rechenzeichen gehören in die Formel. Das Resultat wird nach dem korrekten Aufbau automatisch berechnet.",
+      "erklaerung": "142.9 % liegen klar über 100 %: Die goldene Bilanzregel ist erfüllt und langfristiges Kapital deckt zusätzlich Umlaufvermögen.",
+      "abschlusserklaerung": "142.9 % liegen klar über 100 %: Die goldene Bilanzregel ist erfüllt und langfristiges Kapital deckt zusätzlich Umlaufvermögen.",
       "loesungsvorschlag": {
-        "kurz": "Über 100 %: Die goldene Bilanzregel ist erfüllt.",
-        "warum": "Über 100 %: Die goldene Bilanzregel ist erfüllt."
+        "kurz": "142.9 % liegen klar über 100 %: Die goldene Bilanzregel ist erfüllt und langfristiges Kapital deckt zusätzlich Umlaufvermögen.",
+        "warum": "142.9 % liegen klar über 100 %: Die goldene Bilanzregel ist erfüllt und langfristiges Kapital deckt zusätzlich Umlaufvermögen."
       },
       "fehlerfallen": [],
-      "merksatz": "Über 100 %: Die goldene Bilanzregel ist erfüllt.",
+      "merksatz": "142.9 % liegen klar über 100 %: Die goldene Bilanzregel ist erfüllt und langfristiges Kapital deckt zusätzlich Umlaufvermögen.",
       "review": {},
       "tags": [
         "formel",
@@ -456,24 +655,24 @@
         "kurz": "Anlagedeckungsgrad II zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Das berechnete Resultat beträgt 142.9 %. Welche Interpretation passt?",
+      "frage": "Das berechnete Resultat beträgt 142.9 %. Wie ist dieses Ergebnis fachlich zu beurteilen?",
       "antwort_daten": {
         "optionen": [
-          "Über 100 %: Die goldene Bilanzregel ist erfüllt.",
-          "Das Resultat beweist automatisch eine ausgezeichnete Gesamtlage.",
-          "Die Kennzahl zeigt ausschließlich die Zahlungsfähigkeit heute.",
-          "Ohne weitere Rechnung lässt sich daraus der absolute Gewinn ablesen."
+          "142.9 % liegen klar über 100 %: Die goldene Bilanzregel ist erfüllt und langfristiges Kapital deckt zusätzlich Umlaufvermögen.",
+          "Der Wert ist automatisch optimal, weil jede positive Kennzahl gut ist.",
+          "Der Wert beweist unabhängig von Branche und Entwicklung eine schlechte Gesamtlage.",
+          "Aus dieser Kennzahl allein lässt sich der absolute Reingewinn direkt ablesen."
         ],
         "richtig_index": 0
       },
-      "erklaerung": "Über 100 %: Die goldene Bilanzregel ist erfüllt. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-      "abschlusserklaerung": "Über 100 %: Die goldene Bilanzregel ist erfüllt. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "erklaerung": "142.9 % liegen klar über 100 %: Die goldene Bilanzregel ist erfüllt und langfristiges Kapital deckt zusätzlich Umlaufvermögen.",
+      "abschlusserklaerung": "142.9 % liegen klar über 100 %: Die goldene Bilanzregel ist erfüllt und langfristiges Kapital deckt zusätzlich Umlaufvermögen.",
       "loesungsvorschlag": {
-        "kurz": "Über 100 %: Die goldene Bilanzregel ist erfüllt. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-        "warum": "Über 100 %: Die goldene Bilanzregel ist erfüllt. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden."
+        "kurz": "142.9 % liegen klar über 100 %: Die goldene Bilanzregel ist erfüllt und langfristiges Kapital deckt zusätzlich Umlaufvermögen.",
+        "warum": "142.9 % liegen klar über 100 %: Die goldene Bilanzregel ist erfüllt und langfristiges Kapital deckt zusätzlich Umlaufvermögen."
       },
       "fehlerfallen": [],
-      "merksatz": "Über 100 %: Die goldene Bilanzregel ist erfüllt. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "merksatz": "142.9 % liegen klar über 100 %: Die goldene Bilanzregel ist erfüllt und langfristiges Kapital deckt zusätzlich Umlaufvermögen.",
       "review": {},
       "tags": [
         "formel",
@@ -2444,16 +2643,16 @@
       "typ": "single_choice",
       "lernziel": "EBIT-Marge auswählen, aus Jahresabschlusspositionen aufbauen und interpretieren.",
       "begriff_erklaerung": {
-        "kurz": "EBIT-Marge zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
+        "kurz": "EBIT-Marge zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört. Reingewinn ist der Erfolg nach Zinsen und Steuern; EBIT ist der operative Erfolg vor Zinsen und Steuern.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
       "frage": "Welche Formel berechnet EBIT-Marge?",
       "antwort_daten": {
         "optionen": [
           "EBIT ÷ Nettoerlös × 100",
-          "Gewinn ÷ Nettoerlös × 100",
-          "Fremdkapital ÷ Gesamtkapital × 100",
-          "Umlaufvermögen ÷ Eigenkapital × 100"
+          "Flüssige Mittel ÷ kurzfristiges Fremdkapital × 100",
+          "Umlaufvermögen ÷ kurzfristiges Fremdkapital × 100",
+          "Eigenkapital ÷ Gesamtkapital × 100"
         ],
         "richtig_index": 0
       },
@@ -2485,30 +2684,30 @@
       "typ": "multiple_choice",
       "lernziel": "EBIT-Marge auswählen, aus Jahresabschlusspositionen aufbauen und interpretieren.",
       "begriff_erklaerung": {
-        "kurz": "EBIT-Marge zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
+        "kurz": "EBIT-Marge zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört. Reingewinn ist der Erfolg nach Zinsen und Steuern; EBIT ist der operative Erfolg vor Zinsen und Steuern.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Was wird mit EBIT-Marge beurteilt? Wähle alle passenden Aussagen.",
+      "frage": "Welche Aussagen erklären die Aussagekraft und Beurteilung von EBIT-Marge richtig?",
       "antwort_daten": {
         "optionen": [
-          "Die Kennzahl wird mit der Formel „EBIT ÷ Nettoerlös × 100“ berechnet.",
-          "Die operative Marge beträgt 8.3 % vor Zinsen und Steuern.",
-          "Die Kennzahl ersetzt immer den Branchenvergleich.",
-          "Ein hoher Wert ist ausnahmslos gut."
+          "Sie zeigt die operative Ertragskraft vor Fremdkapitalzinsen und Steuern und trennt damit Betriebserfolg von Finanzierung und Steuerbelastung.",
+          "Der Richtwert ist stark branchenabhängig. Eine steigende EBIT-Marge zeigt grundsätzlich eine verbesserte operative Profitabilität.",
+          "Die Kennzahl zeigt den absoluten Reingewinn direkt in Franken.",
+          "Die Kennzahl kann ohne Branchen-, Zeit- oder Risikovergleich abschließend beurteilt werden."
         ],
         "richtige_indices": [
           0,
           1
         ]
       },
-      "erklaerung": "Die operative Marge beträgt 8.3 % vor Zinsen und Steuern.",
-      "abschlusserklaerung": "Die operative Marge beträgt 8.3 % vor Zinsen und Steuern.",
+      "erklaerung": "Sie zeigt die operative Ertragskraft vor Fremdkapitalzinsen und Steuern und trennt damit Betriebserfolg von Finanzierung und Steuerbelastung. Der Richtwert ist stark branchenabhängig. Eine steigende EBIT-Marge zeigt grundsätzlich eine verbesserte operative Profitabilität.",
+      "abschlusserklaerung": "Sie zeigt die operative Ertragskraft vor Fremdkapitalzinsen und Steuern und trennt damit Betriebserfolg von Finanzierung und Steuerbelastung. Der Richtwert ist stark branchenabhängig. Eine steigende EBIT-Marge zeigt grundsätzlich eine verbesserte operative Profitabilität.",
       "loesungsvorschlag": {
-        "kurz": "Die operative Marge beträgt 8.3 % vor Zinsen und Steuern.",
-        "warum": "Die operative Marge beträgt 8.3 % vor Zinsen und Steuern."
+        "kurz": "Sie zeigt die operative Ertragskraft vor Fremdkapitalzinsen und Steuern und trennt damit Betriebserfolg von Finanzierung und Steuerbelastung. Der Richtwert ist stark branchenabhängig. Eine steigende EBIT-Marge zeigt grundsätzlich eine verbesserte operative Profitabilität.",
+        "warum": "Sie zeigt die operative Ertragskraft vor Fremdkapitalzinsen und Steuern und trennt damit Betriebserfolg von Finanzierung und Steuerbelastung. Der Richtwert ist stark branchenabhängig. Eine steigende EBIT-Marge zeigt grundsätzlich eine verbesserte operative Profitabilität."
       },
       "fehlerfallen": [],
-      "merksatz": "Die operative Marge beträgt 8.3 % vor Zinsen und Steuern.",
+      "merksatz": "Sie zeigt die operative Ertragskraft vor Fremdkapitalzinsen und Steuern und trennt damit Betriebserfolg von Finanzierung und Steuerbelastung. Der Richtwert ist stark branchenabhängig. Eine steigende EBIT-Marge zeigt grundsätzlich eine verbesserte operative Profitabilität.",
       "review": {},
       "tags": [
         "formel",
@@ -2529,23 +2728,107 @@
       "typ": "formel_builder",
       "lernziel": "EBIT-Marge auswählen, aus Jahresabschlusspositionen aufbauen und interpretieren.",
       "begriff_erklaerung": {
-        "kurz": "EBIT-Marge zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
+        "kurz": "EBIT-Marge zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört. Reingewinn ist der Erfolg nach Zinsen und Steuern; EBIT ist der operative Erfolg vor Zinsen und Steuern.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Tippe im Jahresabschluss die benötigten Positionen und Rechenzeichen für EBIT-Marge in der richtigen Reihenfolge an.",
+      "frage": "Wähle aus Bilanz und Erfolgsrechnung nur die benötigten Positionen und setze daraus EBIT-Marge zusammen.",
       "antwort_daten": {
         "bausteine": [
           {
+            "id": "fluessige_mittel",
+            "label": "Flüssige Mittel · CHF 120'000"
+          },
+          {
+            "id": "forderungen",
+            "label": "Forderungen · CHF 180'000"
+          },
+          {
+            "id": "vorrat",
+            "label": "Vorräte · CHF 300'000"
+          },
+          {
+            "id": "umlaufvermoegen",
+            "label": "Umlaufvermögen · CHF 600'000"
+          },
+          {
+            "id": "maschinen",
+            "label": "Maschinen · CHF 420'000"
+          },
+          {
+            "id": "anlagevermoegen",
+            "label": "Anlagevermögen · CHF 700'000"
+          },
+          {
+            "id": "gesamtkapital",
+            "label": "Bilanzsumme / Gesamtkapital · CHF 1'300'000"
+          },
+          {
+            "id": "verbindlichkeiten",
+            "label": "Verbindlichkeiten · CHF 160'000"
+          },
+          {
+            "id": "kurzfristiges_fk",
+            "label": "Kurzfristiges FK · CHF 300'000"
+          },
+          {
+            "id": "langfristiges_fk",
+            "label": "Langfristiges FK · CHF 400'000"
+          },
+          {
+            "id": "fremdkapital",
+            "label": "Fremdkapital · CHF 700'000"
+          },
+          {
+            "id": "eigenkapital",
+            "label": "Eigenkapital · CHF 600'000"
+          },
+          {
+            "id": "aktienkapital",
+            "label": "Aktienkapital · CHF 400'000"
+          },
+          {
+            "id": "reserven",
+            "label": "Reserven · CHF 110'000"
+          },
+          {
+            "id": "reingewinn",
+            "label": "Reingewinn · CHF 90'000"
+          },
+          {
             "id": "ebit",
             "label": "EBIT · CHF 150'000"
+          },
+          {
+            "id": "fk_zinsen",
+            "label": "Fremdkapitalzinsen · CHF 20'000"
           },
           {
             "id": "nettoerloes",
             "label": "Nettoerlös · CHF 1'800'000"
           },
           {
+            "id": "personalaufwand",
+            "label": "Personalaufwand · CHF 420'000"
+          },
+          {
+            "id": "ist_umsatz",
+            "label": "Ist-Umsatz · CHF 1'800'000"
+          },
+          {
+            "id": "bep_umsatz",
+            "label": "BEP-Umsatz · CHF 1'350'000"
+          },
+          {
             "id": "geteilt",
             "label": "÷"
+          },
+          {
+            "id": "plus",
+            "label": "+"
+          },
+          {
+            "id": "minus",
+            "label": "−"
           },
           {
             "id": "mal_hundert",
@@ -2559,11 +2842,32 @@
           "mal_hundert"
         ],
         "bilanz": {
-          "aktiven": [],
-          "passiven": [],
+          "aktiven": [
+            "fluessige_mittel",
+            "forderungen",
+            "vorrat",
+            "umlaufvermoegen",
+            "maschinen",
+            "anlagevermoegen",
+            "gesamtkapital"
+          ],
+          "passiven": [
+            "verbindlichkeiten",
+            "kurzfristiges_fk",
+            "langfristiges_fk",
+            "fremdkapital",
+            "aktienkapital",
+            "reserven",
+            "eigenkapital"
+          ],
           "erfolgsrechnung": [
+            "nettoerloes",
+            "personalaufwand",
             "ebit",
-            "nettoerloes"
+            "fk_zinsen",
+            "reingewinn",
+            "ist_umsatz",
+            "bep_umsatz"
           ]
         },
         "formel": "EBIT ÷ Nettoerlös × 100",
@@ -2575,15 +2879,15 @@
           "rechenbasis": "Die App berechnet das Resultat aus den angezeigten Werten."
         }
       },
-      "aufgaben_hinweis": "Du stellst nur die Formel zusammen; das Resultat berechnet die App automatisch.",
-      "erklaerung": "Die operative Marge beträgt 8.3 % vor Zinsen und Steuern.",
-      "abschlusserklaerung": "Die operative Marge beträgt 8.3 % vor Zinsen und Steuern.",
+      "aufgaben_hinweis": "Nicht alle angezeigten Konten und Rechenzeichen gehören in die Formel. Das Resultat wird nach dem korrekten Aufbau automatisch berechnet.",
+      "erklaerung": "8.3 % operative Marge müssen mit Branche und Vorjahren verglichen werden. Der Wert zeigt noch nicht den Reingewinn nach Zinsen und Steuern.",
+      "abschlusserklaerung": "8.3 % operative Marge müssen mit Branche und Vorjahren verglichen werden. Der Wert zeigt noch nicht den Reingewinn nach Zinsen und Steuern.",
       "loesungsvorschlag": {
-        "kurz": "Die operative Marge beträgt 8.3 % vor Zinsen und Steuern.",
-        "warum": "Die operative Marge beträgt 8.3 % vor Zinsen und Steuern."
+        "kurz": "8.3 % operative Marge müssen mit Branche und Vorjahren verglichen werden. Der Wert zeigt noch nicht den Reingewinn nach Zinsen und Steuern.",
+        "warum": "8.3 % operative Marge müssen mit Branche und Vorjahren verglichen werden. Der Wert zeigt noch nicht den Reingewinn nach Zinsen und Steuern."
       },
       "fehlerfallen": [],
-      "merksatz": "Die operative Marge beträgt 8.3 % vor Zinsen und Steuern.",
+      "merksatz": "8.3 % operative Marge müssen mit Branche und Vorjahren verglichen werden. Der Wert zeigt noch nicht den Reingewinn nach Zinsen und Steuern.",
       "review": {},
       "tags": [
         "formel",
@@ -2604,27 +2908,27 @@
       "typ": "single_choice",
       "lernziel": "EBIT-Marge auswählen, aus Jahresabschlusspositionen aufbauen und interpretieren.",
       "begriff_erklaerung": {
-        "kurz": "EBIT-Marge zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
+        "kurz": "EBIT-Marge zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört. Reingewinn ist der Erfolg nach Zinsen und Steuern; EBIT ist der operative Erfolg vor Zinsen und Steuern.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Das berechnete Resultat beträgt 8.3 %. Welche Interpretation passt?",
+      "frage": "Das berechnete Resultat beträgt 8.3 %. Wie ist dieses Ergebnis fachlich zu beurteilen?",
       "antwort_daten": {
         "optionen": [
-          "Die operative Marge beträgt 8.3 % vor Zinsen und Steuern.",
-          "Das Resultat beweist automatisch eine ausgezeichnete Gesamtlage.",
-          "Die Kennzahl zeigt ausschließlich die Zahlungsfähigkeit heute.",
-          "Ohne weitere Rechnung lässt sich daraus der absolute Gewinn ablesen."
+          "8.3 % operative Marge müssen mit Branche und Vorjahren verglichen werden. Der Wert zeigt noch nicht den Reingewinn nach Zinsen und Steuern.",
+          "Der Wert ist automatisch optimal, weil jede positive Kennzahl gut ist.",
+          "Der Wert beweist unabhängig von Branche und Entwicklung eine schlechte Gesamtlage.",
+          "Aus dieser Kennzahl allein lässt sich der absolute Reingewinn direkt ablesen."
         ],
         "richtig_index": 0
       },
-      "erklaerung": "Die operative Marge beträgt 8.3 % vor Zinsen und Steuern. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-      "abschlusserklaerung": "Die operative Marge beträgt 8.3 % vor Zinsen und Steuern. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "erklaerung": "8.3 % operative Marge müssen mit Branche und Vorjahren verglichen werden. Der Wert zeigt noch nicht den Reingewinn nach Zinsen und Steuern.",
+      "abschlusserklaerung": "8.3 % operative Marge müssen mit Branche und Vorjahren verglichen werden. Der Wert zeigt noch nicht den Reingewinn nach Zinsen und Steuern.",
       "loesungsvorschlag": {
-        "kurz": "Die operative Marge beträgt 8.3 % vor Zinsen und Steuern. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-        "warum": "Die operative Marge beträgt 8.3 % vor Zinsen und Steuern. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden."
+        "kurz": "8.3 % operative Marge müssen mit Branche und Vorjahren verglichen werden. Der Wert zeigt noch nicht den Reingewinn nach Zinsen und Steuern.",
+        "warum": "8.3 % operative Marge müssen mit Branche und Vorjahren verglichen werden. Der Wert zeigt noch nicht den Reingewinn nach Zinsen und Steuern."
       },
       "fehlerfallen": [],
-      "merksatz": "Die operative Marge beträgt 8.3 % vor Zinsen und Steuern. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "merksatz": "8.3 % operative Marge müssen mit Branche und Vorjahren verglichen werden. Der Wert zeigt noch nicht den Reingewinn nach Zinsen und Steuern.",
       "review": {},
       "tags": [
         "formel",
@@ -2652,9 +2956,9 @@
       "antwort_daten": {
         "optionen": [
           "Eigenkapital ÷ Gesamtkapital × 100",
-          "Gewinn ÷ Nettoerlös × 100",
-          "Fremdkapital ÷ Gesamtkapital × 100",
-          "Umlaufvermögen ÷ Eigenkapital × 100"
+          "Flüssige Mittel ÷ kurzfristiges Fremdkapital × 100",
+          "Umlaufvermögen ÷ kurzfristiges Fremdkapital × 100",
+          "Fremdkapital ÷ Eigenkapital × 100"
         ],
         "richtig_index": 0
       },
@@ -2689,27 +2993,27 @@
         "kurz": "Eigenfinanzierungsgrad zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Was wird mit Eigenfinanzierungsgrad beurteilt? Wähle alle passenden Aussagen.",
+      "frage": "Welche Aussagen erklären die Aussagekraft und Beurteilung von Eigenfinanzierungsgrad richtig?",
       "antwort_daten": {
         "optionen": [
-          "Die Kennzahl wird mit der Formel „Eigenkapital ÷ Gesamtkapital × 100“ berechnet.",
-          "46.2 % liegt im häufig genannten soliden Bereich von 30–50 %.",
-          "Die Kennzahl ersetzt immer den Branchenvergleich.",
-          "Ein hoher Wert ist ausnahmslos gut."
+          "Er zeigt, welcher Anteil des gesamten Unternehmenskapitals von den Eigentümern finanziert ist.",
+          "30–50 % gelten häufig als solider Orientierungsbereich; Branchenrisiko und Geschäftsmodell müssen mitbeurteilt werden.",
+          "Die Kennzahl zeigt den absoluten Reingewinn direkt in Franken.",
+          "Die Kennzahl kann ohne Branchen-, Zeit- oder Risikovergleich abschließend beurteilt werden."
         ],
         "richtige_indices": [
           0,
           1
         ]
       },
-      "erklaerung": "46.2 % liegt im häufig genannten soliden Bereich von 30–50 %.",
-      "abschlusserklaerung": "46.2 % liegt im häufig genannten soliden Bereich von 30–50 %.",
+      "erklaerung": "Er zeigt, welcher Anteil des gesamten Unternehmenskapitals von den Eigentümern finanziert ist. 30–50 % gelten häufig als solider Orientierungsbereich; Branchenrisiko und Geschäftsmodell müssen mitbeurteilt werden.",
+      "abschlusserklaerung": "Er zeigt, welcher Anteil des gesamten Unternehmenskapitals von den Eigentümern finanziert ist. 30–50 % gelten häufig als solider Orientierungsbereich; Branchenrisiko und Geschäftsmodell müssen mitbeurteilt werden.",
       "loesungsvorschlag": {
-        "kurz": "46.2 % liegt im häufig genannten soliden Bereich von 30–50 %.",
-        "warum": "46.2 % liegt im häufig genannten soliden Bereich von 30–50 %."
+        "kurz": "Er zeigt, welcher Anteil des gesamten Unternehmenskapitals von den Eigentümern finanziert ist. 30–50 % gelten häufig als solider Orientierungsbereich; Branchenrisiko und Geschäftsmodell müssen mitbeurteilt werden.",
+        "warum": "Er zeigt, welcher Anteil des gesamten Unternehmenskapitals von den Eigentümern finanziert ist. 30–50 % gelten häufig als solider Orientierungsbereich; Branchenrisiko und Geschäftsmodell müssen mitbeurteilt werden."
       },
       "fehlerfallen": [],
-      "merksatz": "46.2 % liegt im häufig genannten soliden Bereich von 30–50 %.",
+      "merksatz": "Er zeigt, welcher Anteil des gesamten Unternehmenskapitals von den Eigentümern finanziert ist. 30–50 % gelten häufig als solider Orientierungsbereich; Branchenrisiko und Geschäftsmodell müssen mitbeurteilt werden.",
       "review": {},
       "tags": [
         "formel",
@@ -2733,20 +3037,104 @@
         "kurz": "Eigenfinanzierungsgrad zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Tippe im Jahresabschluss die benötigten Positionen und Rechenzeichen für Eigenfinanzierungsgrad in der richtigen Reihenfolge an.",
+      "frage": "Wähle aus Bilanz und Erfolgsrechnung nur die benötigten Positionen und setze daraus Eigenfinanzierungsgrad zusammen.",
       "antwort_daten": {
         "bausteine": [
           {
+            "id": "fluessige_mittel",
+            "label": "Flüssige Mittel · CHF 120'000"
+          },
+          {
+            "id": "forderungen",
+            "label": "Forderungen · CHF 180'000"
+          },
+          {
+            "id": "vorrat",
+            "label": "Vorräte · CHF 300'000"
+          },
+          {
+            "id": "umlaufvermoegen",
+            "label": "Umlaufvermögen · CHF 600'000"
+          },
+          {
+            "id": "maschinen",
+            "label": "Maschinen · CHF 420'000"
+          },
+          {
+            "id": "anlagevermoegen",
+            "label": "Anlagevermögen · CHF 700'000"
+          },
+          {
             "id": "gesamtkapital",
-            "label": "Gesamtkapital · CHF 1'300'000"
+            "label": "Bilanzsumme / Gesamtkapital · CHF 1'300'000"
+          },
+          {
+            "id": "verbindlichkeiten",
+            "label": "Verbindlichkeiten · CHF 160'000"
+          },
+          {
+            "id": "kurzfristiges_fk",
+            "label": "Kurzfristiges FK · CHF 300'000"
+          },
+          {
+            "id": "langfristiges_fk",
+            "label": "Langfristiges FK · CHF 400'000"
+          },
+          {
+            "id": "fremdkapital",
+            "label": "Fremdkapital · CHF 700'000"
           },
           {
             "id": "eigenkapital",
             "label": "Eigenkapital · CHF 600'000"
           },
           {
+            "id": "aktienkapital",
+            "label": "Aktienkapital · CHF 400'000"
+          },
+          {
+            "id": "reserven",
+            "label": "Reserven · CHF 110'000"
+          },
+          {
+            "id": "reingewinn",
+            "label": "Reingewinn · CHF 90'000"
+          },
+          {
+            "id": "ebit",
+            "label": "EBIT · CHF 150'000"
+          },
+          {
+            "id": "fk_zinsen",
+            "label": "Fremdkapitalzinsen · CHF 20'000"
+          },
+          {
+            "id": "nettoerloes",
+            "label": "Nettoerlös · CHF 1'800'000"
+          },
+          {
+            "id": "personalaufwand",
+            "label": "Personalaufwand · CHF 420'000"
+          },
+          {
+            "id": "ist_umsatz",
+            "label": "Ist-Umsatz · CHF 1'800'000"
+          },
+          {
+            "id": "bep_umsatz",
+            "label": "BEP-Umsatz · CHF 1'350'000"
+          },
+          {
             "id": "geteilt",
             "label": "÷"
+          },
+          {
+            "id": "plus",
+            "label": "+"
+          },
+          {
+            "id": "minus",
+            "label": "−"
           },
           {
             "id": "mal_hundert",
@@ -2761,12 +3149,32 @@
         ],
         "bilanz": {
           "aktiven": [
+            "fluessige_mittel",
+            "forderungen",
+            "vorrat",
+            "umlaufvermoegen",
+            "maschinen",
+            "anlagevermoegen",
             "gesamtkapital"
           ],
           "passiven": [
+            "verbindlichkeiten",
+            "kurzfristiges_fk",
+            "langfristiges_fk",
+            "fremdkapital",
+            "aktienkapital",
+            "reserven",
             "eigenkapital"
           ],
-          "erfolgsrechnung": []
+          "erfolgsrechnung": [
+            "nettoerloes",
+            "personalaufwand",
+            "ebit",
+            "fk_zinsen",
+            "reingewinn",
+            "ist_umsatz",
+            "bep_umsatz"
+          ]
         },
         "formel": "Eigenkapital ÷ Gesamtkapital × 100",
         "ergebnis": {
@@ -2777,15 +3185,15 @@
           "rechenbasis": "Die App berechnet das Resultat aus den angezeigten Werten."
         }
       },
-      "aufgaben_hinweis": "Du stellst nur die Formel zusammen; das Resultat berechnet die App automatisch.",
-      "erklaerung": "46.2 % liegt im häufig genannten soliden Bereich von 30–50 %.",
-      "abschlusserklaerung": "46.2 % liegt im häufig genannten soliden Bereich von 30–50 %.",
+      "aufgaben_hinweis": "Nicht alle angezeigten Konten und Rechenzeichen gehören in die Formel. Das Resultat wird nach dem korrekten Aufbau automatisch berechnet.",
+      "erklaerung": "46.2 % liegen im häufig genannten soliden Bereich: Das Unternehmen verfügt über eine gute Eigenkapitalbasis.",
+      "abschlusserklaerung": "46.2 % liegen im häufig genannten soliden Bereich: Das Unternehmen verfügt über eine gute Eigenkapitalbasis.",
       "loesungsvorschlag": {
-        "kurz": "46.2 % liegt im häufig genannten soliden Bereich von 30–50 %.",
-        "warum": "46.2 % liegt im häufig genannten soliden Bereich von 30–50 %."
+        "kurz": "46.2 % liegen im häufig genannten soliden Bereich: Das Unternehmen verfügt über eine gute Eigenkapitalbasis.",
+        "warum": "46.2 % liegen im häufig genannten soliden Bereich: Das Unternehmen verfügt über eine gute Eigenkapitalbasis."
       },
       "fehlerfallen": [],
-      "merksatz": "46.2 % liegt im häufig genannten soliden Bereich von 30–50 %.",
+      "merksatz": "46.2 % liegen im häufig genannten soliden Bereich: Das Unternehmen verfügt über eine gute Eigenkapitalbasis.",
       "review": {},
       "tags": [
         "formel",
@@ -2809,24 +3217,24 @@
         "kurz": "Eigenfinanzierungsgrad zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Das berechnete Resultat beträgt 46.2 %. Welche Interpretation passt?",
+      "frage": "Das berechnete Resultat beträgt 46.2 %. Wie ist dieses Ergebnis fachlich zu beurteilen?",
       "antwort_daten": {
         "optionen": [
-          "46.2 % liegt im häufig genannten soliden Bereich von 30–50 %.",
-          "Das Resultat beweist automatisch eine ausgezeichnete Gesamtlage.",
-          "Die Kennzahl zeigt ausschließlich die Zahlungsfähigkeit heute.",
-          "Ohne weitere Rechnung lässt sich daraus der absolute Gewinn ablesen."
+          "46.2 % liegen im häufig genannten soliden Bereich: Das Unternehmen verfügt über eine gute Eigenkapitalbasis.",
+          "Der Wert ist automatisch optimal, weil jede positive Kennzahl gut ist.",
+          "Der Wert beweist unabhängig von Branche und Entwicklung eine schlechte Gesamtlage.",
+          "Aus dieser Kennzahl allein lässt sich der absolute Reingewinn direkt ablesen."
         ],
         "richtig_index": 0
       },
-      "erklaerung": "46.2 % liegt im häufig genannten soliden Bereich von 30–50 %. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-      "abschlusserklaerung": "46.2 % liegt im häufig genannten soliden Bereich von 30–50 %. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "erklaerung": "46.2 % liegen im häufig genannten soliden Bereich: Das Unternehmen verfügt über eine gute Eigenkapitalbasis.",
+      "abschlusserklaerung": "46.2 % liegen im häufig genannten soliden Bereich: Das Unternehmen verfügt über eine gute Eigenkapitalbasis.",
       "loesungsvorschlag": {
-        "kurz": "46.2 % liegt im häufig genannten soliden Bereich von 30–50 %. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-        "warum": "46.2 % liegt im häufig genannten soliden Bereich von 30–50 %. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden."
+        "kurz": "46.2 % liegen im häufig genannten soliden Bereich: Das Unternehmen verfügt über eine gute Eigenkapitalbasis.",
+        "warum": "46.2 % liegen im häufig genannten soliden Bereich: Das Unternehmen verfügt über eine gute Eigenkapitalbasis."
       },
       "fehlerfallen": [],
-      "merksatz": "46.2 % liegt im häufig genannten soliden Bereich von 30–50 %. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "merksatz": "46.2 % liegen im häufig genannten soliden Bereich: Das Unternehmen verfügt über eine gute Eigenkapitalbasis.",
       "review": {},
       "tags": [
         "formel",
@@ -3599,8 +4007,9 @@
       "antwort_daten": {
         "optionen": [
           "Fremdkapital ÷ Gesamtkapital × 100",
-          "Gewinn ÷ Nettoerlös × 100",
-          "Umlaufvermögen ÷ Eigenkapital × 100"
+          "Flüssige Mittel ÷ kurzfristiges Fremdkapital × 100",
+          "Umlaufvermögen ÷ kurzfristiges Fremdkapital × 100",
+          "Eigenkapital ÷ Gesamtkapital × 100"
         ],
         "richtig_index": 0
       },
@@ -3635,27 +4044,27 @@
         "kurz": "Fremdfinanzierungsgrad zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Was wird mit Fremdfinanzierungsgrad beurteilt? Wähle alle passenden Aussagen.",
+      "frage": "Welche Aussagen erklären die Aussagekraft und Beurteilung von Fremdfinanzierungsgrad richtig?",
       "antwort_daten": {
         "optionen": [
-          "Die Kennzahl wird mit der Formel „Fremdkapital ÷ Gesamtkapital × 100“ berechnet.",
-          "53.8 % des Gesamtkapitals stammen von Fremdkapitalgebern.",
-          "Die Kennzahl ersetzt immer den Branchenvergleich.",
-          "Ein hoher Wert ist ausnahmslos gut."
+          "Er zeigt, welcher Anteil des Gesamtkapitals von externen Fremdkapitalgebern stammt.",
+          "Eigen- und Fremdfinanzierungsgrad ergeben zusammen 100 %. Ein höherer Fremdanteil erhöht meist Zins- und Rückzahlungsabhängigkeit.",
+          "Die Kennzahl zeigt den absoluten Reingewinn direkt in Franken.",
+          "Die Kennzahl kann ohne Branchen-, Zeit- oder Risikovergleich abschließend beurteilt werden."
         ],
         "richtige_indices": [
           0,
           1
         ]
       },
-      "erklaerung": "53.8 % des Gesamtkapitals stammen von Fremdkapitalgebern.",
-      "abschlusserklaerung": "53.8 % des Gesamtkapitals stammen von Fremdkapitalgebern.",
+      "erklaerung": "Er zeigt, welcher Anteil des Gesamtkapitals von externen Fremdkapitalgebern stammt. Eigen- und Fremdfinanzierungsgrad ergeben zusammen 100 %. Ein höherer Fremdanteil erhöht meist Zins- und Rückzahlungsabhängigkeit.",
+      "abschlusserklaerung": "Er zeigt, welcher Anteil des Gesamtkapitals von externen Fremdkapitalgebern stammt. Eigen- und Fremdfinanzierungsgrad ergeben zusammen 100 %. Ein höherer Fremdanteil erhöht meist Zins- und Rückzahlungsabhängigkeit.",
       "loesungsvorschlag": {
-        "kurz": "53.8 % des Gesamtkapitals stammen von Fremdkapitalgebern.",
-        "warum": "53.8 % des Gesamtkapitals stammen von Fremdkapitalgebern."
+        "kurz": "Er zeigt, welcher Anteil des Gesamtkapitals von externen Fremdkapitalgebern stammt. Eigen- und Fremdfinanzierungsgrad ergeben zusammen 100 %. Ein höherer Fremdanteil erhöht meist Zins- und Rückzahlungsabhängigkeit.",
+        "warum": "Er zeigt, welcher Anteil des Gesamtkapitals von externen Fremdkapitalgebern stammt. Eigen- und Fremdfinanzierungsgrad ergeben zusammen 100 %. Ein höherer Fremdanteil erhöht meist Zins- und Rückzahlungsabhängigkeit."
       },
       "fehlerfallen": [],
-      "merksatz": "53.8 % des Gesamtkapitals stammen von Fremdkapitalgebern.",
+      "merksatz": "Er zeigt, welcher Anteil des Gesamtkapitals von externen Fremdkapitalgebern stammt. Eigen- und Fremdfinanzierungsgrad ergeben zusammen 100 %. Ein höherer Fremdanteil erhöht meist Zins- und Rückzahlungsabhängigkeit.",
       "review": {},
       "tags": [
         "formel",
@@ -3679,20 +4088,104 @@
         "kurz": "Fremdfinanzierungsgrad zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Tippe im Jahresabschluss die benötigten Positionen und Rechenzeichen für Fremdfinanzierungsgrad in der richtigen Reihenfolge an.",
+      "frage": "Wähle aus Bilanz und Erfolgsrechnung nur die benötigten Positionen und setze daraus Fremdfinanzierungsgrad zusammen.",
       "antwort_daten": {
         "bausteine": [
           {
+            "id": "fluessige_mittel",
+            "label": "Flüssige Mittel · CHF 120'000"
+          },
+          {
+            "id": "forderungen",
+            "label": "Forderungen · CHF 180'000"
+          },
+          {
+            "id": "vorrat",
+            "label": "Vorräte · CHF 300'000"
+          },
+          {
+            "id": "umlaufvermoegen",
+            "label": "Umlaufvermögen · CHF 600'000"
+          },
+          {
+            "id": "maschinen",
+            "label": "Maschinen · CHF 420'000"
+          },
+          {
+            "id": "anlagevermoegen",
+            "label": "Anlagevermögen · CHF 700'000"
+          },
+          {
             "id": "gesamtkapital",
-            "label": "Gesamtkapital · CHF 1'300'000"
+            "label": "Bilanzsumme / Gesamtkapital · CHF 1'300'000"
+          },
+          {
+            "id": "verbindlichkeiten",
+            "label": "Verbindlichkeiten · CHF 160'000"
+          },
+          {
+            "id": "kurzfristiges_fk",
+            "label": "Kurzfristiges FK · CHF 300'000"
+          },
+          {
+            "id": "langfristiges_fk",
+            "label": "Langfristiges FK · CHF 400'000"
           },
           {
             "id": "fremdkapital",
             "label": "Fremdkapital · CHF 700'000"
           },
           {
+            "id": "eigenkapital",
+            "label": "Eigenkapital · CHF 600'000"
+          },
+          {
+            "id": "aktienkapital",
+            "label": "Aktienkapital · CHF 400'000"
+          },
+          {
+            "id": "reserven",
+            "label": "Reserven · CHF 110'000"
+          },
+          {
+            "id": "reingewinn",
+            "label": "Reingewinn · CHF 90'000"
+          },
+          {
+            "id": "ebit",
+            "label": "EBIT · CHF 150'000"
+          },
+          {
+            "id": "fk_zinsen",
+            "label": "Fremdkapitalzinsen · CHF 20'000"
+          },
+          {
+            "id": "nettoerloes",
+            "label": "Nettoerlös · CHF 1'800'000"
+          },
+          {
+            "id": "personalaufwand",
+            "label": "Personalaufwand · CHF 420'000"
+          },
+          {
+            "id": "ist_umsatz",
+            "label": "Ist-Umsatz · CHF 1'800'000"
+          },
+          {
+            "id": "bep_umsatz",
+            "label": "BEP-Umsatz · CHF 1'350'000"
+          },
+          {
             "id": "geteilt",
             "label": "÷"
+          },
+          {
+            "id": "plus",
+            "label": "+"
+          },
+          {
+            "id": "minus",
+            "label": "−"
           },
           {
             "id": "mal_hundert",
@@ -3707,12 +4200,32 @@
         ],
         "bilanz": {
           "aktiven": [
+            "fluessige_mittel",
+            "forderungen",
+            "vorrat",
+            "umlaufvermoegen",
+            "maschinen",
+            "anlagevermoegen",
             "gesamtkapital"
           ],
           "passiven": [
-            "fremdkapital"
+            "verbindlichkeiten",
+            "kurzfristiges_fk",
+            "langfristiges_fk",
+            "fremdkapital",
+            "aktienkapital",
+            "reserven",
+            "eigenkapital"
           ],
-          "erfolgsrechnung": []
+          "erfolgsrechnung": [
+            "nettoerloes",
+            "personalaufwand",
+            "ebit",
+            "fk_zinsen",
+            "reingewinn",
+            "ist_umsatz",
+            "bep_umsatz"
+          ]
         },
         "formel": "Fremdkapital ÷ Gesamtkapital × 100",
         "ergebnis": {
@@ -3723,15 +4236,15 @@
           "rechenbasis": "Die App berechnet das Resultat aus den angezeigten Werten."
         }
       },
-      "aufgaben_hinweis": "Du stellst nur die Formel zusammen; das Resultat berechnet die App automatisch.",
-      "erklaerung": "53.8 % des Gesamtkapitals stammen von Fremdkapitalgebern.",
-      "abschlusserklaerung": "53.8 % des Gesamtkapitals stammen von Fremdkapitalgebern.",
+      "aufgaben_hinweis": "Nicht alle angezeigten Konten und Rechenzeichen gehören in die Formel. Das Resultat wird nach dem korrekten Aufbau automatisch berechnet.",
+      "erklaerung": "53.8 % des Kapitals stammen von Fremdkapitalgebern. Zusammen mit 46.2 % Eigenkapital ist die Finanzierung relativ ausgewogen.",
+      "abschlusserklaerung": "53.8 % des Kapitals stammen von Fremdkapitalgebern. Zusammen mit 46.2 % Eigenkapital ist die Finanzierung relativ ausgewogen.",
       "loesungsvorschlag": {
-        "kurz": "53.8 % des Gesamtkapitals stammen von Fremdkapitalgebern.",
-        "warum": "53.8 % des Gesamtkapitals stammen von Fremdkapitalgebern."
+        "kurz": "53.8 % des Kapitals stammen von Fremdkapitalgebern. Zusammen mit 46.2 % Eigenkapital ist die Finanzierung relativ ausgewogen.",
+        "warum": "53.8 % des Kapitals stammen von Fremdkapitalgebern. Zusammen mit 46.2 % Eigenkapital ist die Finanzierung relativ ausgewogen."
       },
       "fehlerfallen": [],
-      "merksatz": "53.8 % des Gesamtkapitals stammen von Fremdkapitalgebern.",
+      "merksatz": "53.8 % des Kapitals stammen von Fremdkapitalgebern. Zusammen mit 46.2 % Eigenkapital ist die Finanzierung relativ ausgewogen.",
       "review": {},
       "tags": [
         "formel",
@@ -3755,24 +4268,24 @@
         "kurz": "Fremdfinanzierungsgrad zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Das berechnete Resultat beträgt 53.8 %. Welche Interpretation passt?",
+      "frage": "Das berechnete Resultat beträgt 53.8 %. Wie ist dieses Ergebnis fachlich zu beurteilen?",
       "antwort_daten": {
         "optionen": [
-          "53.8 % des Gesamtkapitals stammen von Fremdkapitalgebern.",
-          "Das Resultat beweist automatisch eine ausgezeichnete Gesamtlage.",
-          "Die Kennzahl zeigt ausschließlich die Zahlungsfähigkeit heute.",
-          "Ohne weitere Rechnung lässt sich daraus der absolute Gewinn ablesen."
+          "53.8 % des Kapitals stammen von Fremdkapitalgebern. Zusammen mit 46.2 % Eigenkapital ist die Finanzierung relativ ausgewogen.",
+          "Der Wert ist automatisch optimal, weil jede positive Kennzahl gut ist.",
+          "Der Wert beweist unabhängig von Branche und Entwicklung eine schlechte Gesamtlage.",
+          "Aus dieser Kennzahl allein lässt sich der absolute Reingewinn direkt ablesen."
         ],
         "richtig_index": 0
       },
-      "erklaerung": "53.8 % des Gesamtkapitals stammen von Fremdkapitalgebern. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-      "abschlusserklaerung": "53.8 % des Gesamtkapitals stammen von Fremdkapitalgebern. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "erklaerung": "53.8 % des Kapitals stammen von Fremdkapitalgebern. Zusammen mit 46.2 % Eigenkapital ist die Finanzierung relativ ausgewogen.",
+      "abschlusserklaerung": "53.8 % des Kapitals stammen von Fremdkapitalgebern. Zusammen mit 46.2 % Eigenkapital ist die Finanzierung relativ ausgewogen.",
       "loesungsvorschlag": {
-        "kurz": "53.8 % des Gesamtkapitals stammen von Fremdkapitalgebern. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-        "warum": "53.8 % des Gesamtkapitals stammen von Fremdkapitalgebern. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden."
+        "kurz": "53.8 % des Kapitals stammen von Fremdkapitalgebern. Zusammen mit 46.2 % Eigenkapital ist die Finanzierung relativ ausgewogen.",
+        "warum": "53.8 % des Kapitals stammen von Fremdkapitalgebern. Zusammen mit 46.2 % Eigenkapital ist die Finanzierung relativ ausgewogen."
       },
       "fehlerfallen": [],
-      "merksatz": "53.8 % des Gesamtkapitals stammen von Fremdkapitalgebern. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "merksatz": "53.8 % des Kapitals stammen von Fremdkapitalgebern. Zusammen mit 46.2 % Eigenkapital ist die Finanzierung relativ ausgewogen.",
       "review": {},
       "tags": [
         "formel",
@@ -5181,9 +5694,9 @@
       "antwort_daten": {
         "optionen": [
           "Nettoerlös ÷ Gesamtkapital",
-          "Gewinn ÷ Nettoerlös × 100",
-          "Fremdkapital ÷ Gesamtkapital × 100",
-          "Umlaufvermögen ÷ Eigenkapital × 100"
+          "Flüssige Mittel ÷ kurzfristiges Fremdkapital × 100",
+          "Umlaufvermögen ÷ kurzfristiges Fremdkapital × 100",
+          "Eigenkapital ÷ Gesamtkapital × 100"
         ],
         "richtig_index": 0
       },
@@ -5218,27 +5731,27 @@
         "kurz": "Kapitalumschlag zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Was wird mit Kapitalumschlag beurteilt? Wähle alle passenden Aussagen.",
+      "frage": "Welche Aussagen erklären die Aussagekraft und Beurteilung von Kapitalumschlag richtig?",
       "antwort_daten": {
         "optionen": [
-          "Die Kennzahl wird mit der Formel „Nettoerlös ÷ Gesamtkapital“ berechnet.",
-          "Das eingesetzte Kapital wird über den Umsatz rund 1.38-mal pro Jahr umgeschlagen.",
-          "Die Kennzahl ersetzt immer den Branchenvergleich.",
-          "Ein hoher Wert ist ausnahmslos gut."
+          "Er zeigt, wie viel Nettoerlös mit jedem eingesetzten Franken Gesamtkapital erwirtschaftet wird.",
+          "Ein Wert über 1 wird oft als kapitalintensitätsabhängige Orientierung verwendet. Ein höherer Umschlag ist meist effizienter, muss aber zur Branche passen.",
+          "Die Kennzahl zeigt den absoluten Reingewinn direkt in Franken.",
+          "Die Kennzahl kann ohne Branchen-, Zeit- oder Risikovergleich abschließend beurteilt werden."
         ],
         "richtige_indices": [
           0,
           1
         ]
       },
-      "erklaerung": "Das eingesetzte Kapital wird über den Umsatz rund 1.38-mal pro Jahr umgeschlagen.",
-      "abschlusserklaerung": "Das eingesetzte Kapital wird über den Umsatz rund 1.38-mal pro Jahr umgeschlagen.",
+      "erklaerung": "Er zeigt, wie viel Nettoerlös mit jedem eingesetzten Franken Gesamtkapital erwirtschaftet wird. Ein Wert über 1 wird oft als kapitalintensitätsabhängige Orientierung verwendet. Ein höherer Umschlag ist meist effizienter, muss aber zur Branche passen.",
+      "abschlusserklaerung": "Er zeigt, wie viel Nettoerlös mit jedem eingesetzten Franken Gesamtkapital erwirtschaftet wird. Ein Wert über 1 wird oft als kapitalintensitätsabhängige Orientierung verwendet. Ein höherer Umschlag ist meist effizienter, muss aber zur Branche passen.",
       "loesungsvorschlag": {
-        "kurz": "Das eingesetzte Kapital wird über den Umsatz rund 1.38-mal pro Jahr umgeschlagen.",
-        "warum": "Das eingesetzte Kapital wird über den Umsatz rund 1.38-mal pro Jahr umgeschlagen."
+        "kurz": "Er zeigt, wie viel Nettoerlös mit jedem eingesetzten Franken Gesamtkapital erwirtschaftet wird. Ein Wert über 1 wird oft als kapitalintensitätsabhängige Orientierung verwendet. Ein höherer Umschlag ist meist effizienter, muss aber zur Branche passen.",
+        "warum": "Er zeigt, wie viel Nettoerlös mit jedem eingesetzten Franken Gesamtkapital erwirtschaftet wird. Ein Wert über 1 wird oft als kapitalintensitätsabhängige Orientierung verwendet. Ein höherer Umschlag ist meist effizienter, muss aber zur Branche passen."
       },
       "fehlerfallen": [],
-      "merksatz": "Das eingesetzte Kapital wird über den Umsatz rund 1.38-mal pro Jahr umgeschlagen.",
+      "merksatz": "Er zeigt, wie viel Nettoerlös mit jedem eingesetzten Franken Gesamtkapital erwirtschaftet wird. Ein Wert über 1 wird oft als kapitalintensitätsabhängige Orientierung verwendet. Ein höherer Umschlag ist meist effizienter, muss aber zur Branche passen.",
       "review": {},
       "tags": [
         "formel",
@@ -5262,20 +5775,108 @@
         "kurz": "Kapitalumschlag zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Tippe im Jahresabschluss die benötigten Positionen und Rechenzeichen für Kapitalumschlag in der richtigen Reihenfolge an.",
+      "frage": "Wähle aus Bilanz und Erfolgsrechnung nur die benötigten Positionen und setze daraus Kapitalumschlag zusammen.",
       "antwort_daten": {
         "bausteine": [
           {
+            "id": "fluessige_mittel",
+            "label": "Flüssige Mittel · CHF 120'000"
+          },
+          {
+            "id": "forderungen",
+            "label": "Forderungen · CHF 180'000"
+          },
+          {
+            "id": "vorrat",
+            "label": "Vorräte · CHF 300'000"
+          },
+          {
+            "id": "umlaufvermoegen",
+            "label": "Umlaufvermögen · CHF 600'000"
+          },
+          {
+            "id": "maschinen",
+            "label": "Maschinen · CHF 420'000"
+          },
+          {
+            "id": "anlagevermoegen",
+            "label": "Anlagevermögen · CHF 700'000"
+          },
+          {
             "id": "gesamtkapital",
-            "label": "Gesamtkapital · CHF 1'300'000"
+            "label": "Bilanzsumme / Gesamtkapital · CHF 1'300'000"
+          },
+          {
+            "id": "verbindlichkeiten",
+            "label": "Verbindlichkeiten · CHF 160'000"
+          },
+          {
+            "id": "kurzfristiges_fk",
+            "label": "Kurzfristiges FK · CHF 300'000"
+          },
+          {
+            "id": "langfristiges_fk",
+            "label": "Langfristiges FK · CHF 400'000"
+          },
+          {
+            "id": "fremdkapital",
+            "label": "Fremdkapital · CHF 700'000"
+          },
+          {
+            "id": "eigenkapital",
+            "label": "Eigenkapital · CHF 600'000"
+          },
+          {
+            "id": "aktienkapital",
+            "label": "Aktienkapital · CHF 400'000"
+          },
+          {
+            "id": "reserven",
+            "label": "Reserven · CHF 110'000"
+          },
+          {
+            "id": "reingewinn",
+            "label": "Reingewinn · CHF 90'000"
+          },
+          {
+            "id": "ebit",
+            "label": "EBIT · CHF 150'000"
+          },
+          {
+            "id": "fk_zinsen",
+            "label": "Fremdkapitalzinsen · CHF 20'000"
           },
           {
             "id": "nettoerloes",
             "label": "Nettoerlös · CHF 1'800'000"
           },
           {
+            "id": "personalaufwand",
+            "label": "Personalaufwand · CHF 420'000"
+          },
+          {
+            "id": "ist_umsatz",
+            "label": "Ist-Umsatz · CHF 1'800'000"
+          },
+          {
+            "id": "bep_umsatz",
+            "label": "BEP-Umsatz · CHF 1'350'000"
+          },
+          {
             "id": "geteilt",
             "label": "÷"
+          },
+          {
+            "id": "plus",
+            "label": "+"
+          },
+          {
+            "id": "minus",
+            "label": "−"
+          },
+          {
+            "id": "mal_hundert",
+            "label": "× 100"
           }
         ],
         "richtige_reihenfolge": [
@@ -5285,11 +5886,31 @@
         ],
         "bilanz": {
           "aktiven": [
+            "fluessige_mittel",
+            "forderungen",
+            "vorrat",
+            "umlaufvermoegen",
+            "maschinen",
+            "anlagevermoegen",
             "gesamtkapital"
           ],
-          "passiven": [],
+          "passiven": [
+            "verbindlichkeiten",
+            "kurzfristiges_fk",
+            "langfristiges_fk",
+            "fremdkapital",
+            "aktienkapital",
+            "reserven",
+            "eigenkapital"
+          ],
           "erfolgsrechnung": [
-            "nettoerloes"
+            "nettoerloes",
+            "personalaufwand",
+            "ebit",
+            "fk_zinsen",
+            "reingewinn",
+            "ist_umsatz",
+            "bep_umsatz"
           ]
         },
         "formel": "Nettoerlös ÷ Gesamtkapital",
@@ -5301,15 +5922,15 @@
           "rechenbasis": "Die App berechnet das Resultat aus den angezeigten Werten."
         }
       },
-      "aufgaben_hinweis": "Du stellst nur die Formel zusammen; das Resultat berechnet die App automatisch.",
-      "erklaerung": "Das eingesetzte Kapital wird über den Umsatz rund 1.38-mal pro Jahr umgeschlagen.",
-      "abschlusserklaerung": "Das eingesetzte Kapital wird über den Umsatz rund 1.38-mal pro Jahr umgeschlagen.",
+      "aufgaben_hinweis": "Nicht alle angezeigten Konten und Rechenzeichen gehören in die Formel. Das Resultat wird nach dem korrekten Aufbau automatisch berechnet.",
+      "erklaerung": "1.38-mal bedeutet: Jeder eingesetzte Kapitalfranken erzeugt CHF 1.38 Nettoerlös. Für eine Qualitätsaussage braucht es den Branchenvergleich.",
+      "abschlusserklaerung": "1.38-mal bedeutet: Jeder eingesetzte Kapitalfranken erzeugt CHF 1.38 Nettoerlös. Für eine Qualitätsaussage braucht es den Branchenvergleich.",
       "loesungsvorschlag": {
-        "kurz": "Das eingesetzte Kapital wird über den Umsatz rund 1.38-mal pro Jahr umgeschlagen.",
-        "warum": "Das eingesetzte Kapital wird über den Umsatz rund 1.38-mal pro Jahr umgeschlagen."
+        "kurz": "1.38-mal bedeutet: Jeder eingesetzte Kapitalfranken erzeugt CHF 1.38 Nettoerlös. Für eine Qualitätsaussage braucht es den Branchenvergleich.",
+        "warum": "1.38-mal bedeutet: Jeder eingesetzte Kapitalfranken erzeugt CHF 1.38 Nettoerlös. Für eine Qualitätsaussage braucht es den Branchenvergleich."
       },
       "fehlerfallen": [],
-      "merksatz": "Das eingesetzte Kapital wird über den Umsatz rund 1.38-mal pro Jahr umgeschlagen.",
+      "merksatz": "1.38-mal bedeutet: Jeder eingesetzte Kapitalfranken erzeugt CHF 1.38 Nettoerlös. Für eine Qualitätsaussage braucht es den Branchenvergleich.",
       "review": {},
       "tags": [
         "formel",
@@ -5333,24 +5954,24 @@
         "kurz": "Kapitalumschlag zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Das berechnete Resultat beträgt 1.38-mal. Welche Interpretation passt?",
+      "frage": "Das berechnete Resultat beträgt 1.38-mal. Wie ist dieses Ergebnis fachlich zu beurteilen?",
       "antwort_daten": {
         "optionen": [
-          "Das eingesetzte Kapital wird über den Umsatz rund 1.38-mal pro Jahr umgeschlagen.",
-          "Das Resultat beweist automatisch eine ausgezeichnete Gesamtlage.",
-          "Die Kennzahl zeigt ausschließlich die Zahlungsfähigkeit heute.",
-          "Ohne weitere Rechnung lässt sich daraus der absolute Gewinn ablesen."
+          "1.38-mal bedeutet: Jeder eingesetzte Kapitalfranken erzeugt CHF 1.38 Nettoerlös. Für eine Qualitätsaussage braucht es den Branchenvergleich.",
+          "Der Wert ist automatisch optimal, weil jede positive Kennzahl gut ist.",
+          "Der Wert beweist unabhängig von Branche und Entwicklung eine schlechte Gesamtlage.",
+          "Aus dieser Kennzahl allein lässt sich der absolute Reingewinn direkt ablesen."
         ],
         "richtig_index": 0
       },
-      "erklaerung": "Das eingesetzte Kapital wird über den Umsatz rund 1.38-mal pro Jahr umgeschlagen. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-      "abschlusserklaerung": "Das eingesetzte Kapital wird über den Umsatz rund 1.38-mal pro Jahr umgeschlagen. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "erklaerung": "1.38-mal bedeutet: Jeder eingesetzte Kapitalfranken erzeugt CHF 1.38 Nettoerlös. Für eine Qualitätsaussage braucht es den Branchenvergleich.",
+      "abschlusserklaerung": "1.38-mal bedeutet: Jeder eingesetzte Kapitalfranken erzeugt CHF 1.38 Nettoerlös. Für eine Qualitätsaussage braucht es den Branchenvergleich.",
       "loesungsvorschlag": {
-        "kurz": "Das eingesetzte Kapital wird über den Umsatz rund 1.38-mal pro Jahr umgeschlagen. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-        "warum": "Das eingesetzte Kapital wird über den Umsatz rund 1.38-mal pro Jahr umgeschlagen. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden."
+        "kurz": "1.38-mal bedeutet: Jeder eingesetzte Kapitalfranken erzeugt CHF 1.38 Nettoerlös. Für eine Qualitätsaussage braucht es den Branchenvergleich.",
+        "warum": "1.38-mal bedeutet: Jeder eingesetzte Kapitalfranken erzeugt CHF 1.38 Nettoerlös. Für eine Qualitätsaussage braucht es den Branchenvergleich."
       },
       "fehlerfallen": [],
-      "merksatz": "Das eingesetzte Kapital wird über den Umsatz rund 1.38-mal pro Jahr umgeschlagen. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "merksatz": "1.38-mal bedeutet: Jeder eingesetzte Kapitalfranken erzeugt CHF 1.38 Nettoerlös. Für eine Qualitätsaussage braucht es den Branchenvergleich.",
       "review": {},
       "tags": [
         "formel",
@@ -6849,9 +7470,9 @@
       "antwort_daten": {
         "optionen": [
           "Flüssige Mittel ÷ kurzfristiges Fremdkapital × 100",
-          "Gewinn ÷ Nettoerlös × 100",
-          "Fremdkapital ÷ Gesamtkapital × 100",
-          "Umlaufvermögen ÷ Eigenkapital × 100"
+          "Umlaufvermögen ÷ kurzfristiges Fremdkapital × 100",
+          "Eigenkapital ÷ Gesamtkapital × 100",
+          "Fremdkapital ÷ Eigenkapital × 100"
         ],
         "richtig_index": 0
       },
@@ -6886,27 +7507,27 @@
         "kurz": "Liquiditätsgrad I zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Was wird mit Liquiditätsgrad I beurteilt? Wähle alle passenden Aussagen.",
+      "frage": "Welche Aussagen erklären die Aussagekraft und Beurteilung von Liquiditätsgrad I richtig?",
       "antwort_daten": {
         "optionen": [
-          "Die Kennzahl wird mit der Formel „Flüssige Mittel ÷ kurzfristiges Fremdkapital × 100“ berechnet.",
-          "20–30 % gelten häufig als Richtbereich; 40 % bedeutet eine komfortable sofortige Liquidität.",
-          "Die Kennzahl ersetzt immer den Branchenvergleich.",
-          "Ein hoher Wert ist ausnahmslos gut."
+          "Er zeigt, welcher Anteil der kurzfristigen Schulden sofort mit flüssigen Mitteln bezahlt werden könnte.",
+          "Als grober Richtbereich gelten oft 20–30 %. Ein deutlich höherer Wert kann Sicherheit bedeuten, aber auch unproduktiv gebundene Liquidität.",
+          "Die Kennzahl zeigt den absoluten Reingewinn direkt in Franken.",
+          "Die Kennzahl kann ohne Branchen-, Zeit- oder Risikovergleich abschließend beurteilt werden."
         ],
         "richtige_indices": [
           0,
           1
         ]
       },
-      "erklaerung": "20–30 % gelten häufig als Richtbereich; 40 % bedeutet eine komfortable sofortige Liquidität.",
-      "abschlusserklaerung": "20–30 % gelten häufig als Richtbereich; 40 % bedeutet eine komfortable sofortige Liquidität.",
+      "erklaerung": "Er zeigt, welcher Anteil der kurzfristigen Schulden sofort mit flüssigen Mitteln bezahlt werden könnte. Als grober Richtbereich gelten oft 20–30 %. Ein deutlich höherer Wert kann Sicherheit bedeuten, aber auch unproduktiv gebundene Liquidität.",
+      "abschlusserklaerung": "Er zeigt, welcher Anteil der kurzfristigen Schulden sofort mit flüssigen Mitteln bezahlt werden könnte. Als grober Richtbereich gelten oft 20–30 %. Ein deutlich höherer Wert kann Sicherheit bedeuten, aber auch unproduktiv gebundene Liquidität.",
       "loesungsvorschlag": {
-        "kurz": "20–30 % gelten häufig als Richtbereich; 40 % bedeutet eine komfortable sofortige Liquidität.",
-        "warum": "20–30 % gelten häufig als Richtbereich; 40 % bedeutet eine komfortable sofortige Liquidität."
+        "kurz": "Er zeigt, welcher Anteil der kurzfristigen Schulden sofort mit flüssigen Mitteln bezahlt werden könnte. Als grober Richtbereich gelten oft 20–30 %. Ein deutlich höherer Wert kann Sicherheit bedeuten, aber auch unproduktiv gebundene Liquidität.",
+        "warum": "Er zeigt, welcher Anteil der kurzfristigen Schulden sofort mit flüssigen Mitteln bezahlt werden könnte. Als grober Richtbereich gelten oft 20–30 %. Ein deutlich höherer Wert kann Sicherheit bedeuten, aber auch unproduktiv gebundene Liquidität."
       },
       "fehlerfallen": [],
-      "merksatz": "20–30 % gelten häufig als Richtbereich; 40 % bedeutet eine komfortable sofortige Liquidität.",
+      "merksatz": "Er zeigt, welcher Anteil der kurzfristigen Schulden sofort mit flüssigen Mitteln bezahlt werden könnte. Als grober Richtbereich gelten oft 20–30 %. Ein deutlich höherer Wert kann Sicherheit bedeuten, aber auch unproduktiv gebundene Liquidität.",
       "review": {},
       "tags": [
         "formel",
@@ -6930,7 +7551,7 @@
         "kurz": "Liquiditätsgrad I zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Tippe im Jahresabschluss die benötigten Positionen und Rechenzeichen für Liquiditätsgrad I in der richtigen Reihenfolge an.",
+      "frage": "Wähle aus Bilanz und Erfolgsrechnung nur die benötigten Positionen und setze daraus Liquiditätsgrad I zusammen.",
       "antwort_daten": {
         "bausteine": [
           {
@@ -6938,12 +7559,96 @@
             "label": "Flüssige Mittel · CHF 120'000"
           },
           {
+            "id": "forderungen",
+            "label": "Forderungen · CHF 180'000"
+          },
+          {
+            "id": "vorrat",
+            "label": "Vorräte · CHF 300'000"
+          },
+          {
+            "id": "umlaufvermoegen",
+            "label": "Umlaufvermögen · CHF 600'000"
+          },
+          {
+            "id": "maschinen",
+            "label": "Maschinen · CHF 420'000"
+          },
+          {
+            "id": "anlagevermoegen",
+            "label": "Anlagevermögen · CHF 700'000"
+          },
+          {
+            "id": "gesamtkapital",
+            "label": "Bilanzsumme / Gesamtkapital · CHF 1'300'000"
+          },
+          {
+            "id": "verbindlichkeiten",
+            "label": "Verbindlichkeiten · CHF 160'000"
+          },
+          {
             "id": "kurzfristiges_fk",
             "label": "Kurzfristiges FK · CHF 300'000"
           },
           {
+            "id": "langfristiges_fk",
+            "label": "Langfristiges FK · CHF 400'000"
+          },
+          {
+            "id": "fremdkapital",
+            "label": "Fremdkapital · CHF 700'000"
+          },
+          {
+            "id": "eigenkapital",
+            "label": "Eigenkapital · CHF 600'000"
+          },
+          {
+            "id": "aktienkapital",
+            "label": "Aktienkapital · CHF 400'000"
+          },
+          {
+            "id": "reserven",
+            "label": "Reserven · CHF 110'000"
+          },
+          {
+            "id": "reingewinn",
+            "label": "Reingewinn · CHF 90'000"
+          },
+          {
+            "id": "ebit",
+            "label": "EBIT · CHF 150'000"
+          },
+          {
+            "id": "fk_zinsen",
+            "label": "Fremdkapitalzinsen · CHF 20'000"
+          },
+          {
+            "id": "nettoerloes",
+            "label": "Nettoerlös · CHF 1'800'000"
+          },
+          {
+            "id": "personalaufwand",
+            "label": "Personalaufwand · CHF 420'000"
+          },
+          {
+            "id": "ist_umsatz",
+            "label": "Ist-Umsatz · CHF 1'800'000"
+          },
+          {
+            "id": "bep_umsatz",
+            "label": "BEP-Umsatz · CHF 1'350'000"
+          },
+          {
             "id": "geteilt",
             "label": "÷"
+          },
+          {
+            "id": "plus",
+            "label": "+"
+          },
+          {
+            "id": "minus",
+            "label": "−"
           },
           {
             "id": "mal_hundert",
@@ -6958,12 +7663,32 @@
         ],
         "bilanz": {
           "aktiven": [
-            "fluessige_mittel"
+            "fluessige_mittel",
+            "forderungen",
+            "vorrat",
+            "umlaufvermoegen",
+            "maschinen",
+            "anlagevermoegen",
+            "gesamtkapital"
           ],
           "passiven": [
-            "kurzfristiges_fk"
+            "verbindlichkeiten",
+            "kurzfristiges_fk",
+            "langfristiges_fk",
+            "fremdkapital",
+            "aktienkapital",
+            "reserven",
+            "eigenkapital"
           ],
-          "erfolgsrechnung": []
+          "erfolgsrechnung": [
+            "nettoerloes",
+            "personalaufwand",
+            "ebit",
+            "fk_zinsen",
+            "reingewinn",
+            "ist_umsatz",
+            "bep_umsatz"
+          ]
         },
         "formel": "Flüssige Mittel ÷ kurzfristiges Fremdkapital × 100",
         "ergebnis": {
@@ -6974,15 +7699,15 @@
           "rechenbasis": "Die App berechnet das Resultat aus den angezeigten Werten."
         }
       },
-      "aufgaben_hinweis": "Du stellst nur die Formel zusammen; das Resultat berechnet die App automatisch.",
-      "erklaerung": "20–30 % gelten häufig als Richtbereich; 40 % bedeutet eine komfortable sofortige Liquidität.",
-      "abschlusserklaerung": "20–30 % gelten häufig als Richtbereich; 40 % bedeutet eine komfortable sofortige Liquidität.",
+      "aufgaben_hinweis": "Nicht alle angezeigten Konten und Rechenzeichen gehören in die Formel. Das Resultat wird nach dem korrekten Aufbau automatisch berechnet.",
+      "erklaerung": "40 % liegen über dem üblichen Richtbereich: Die sofortige Zahlungsfähigkeit ist komfortabel, gleichzeitig sollte überschüssige Liquidität geprüft werden.",
+      "abschlusserklaerung": "40 % liegen über dem üblichen Richtbereich: Die sofortige Zahlungsfähigkeit ist komfortabel, gleichzeitig sollte überschüssige Liquidität geprüft werden.",
       "loesungsvorschlag": {
-        "kurz": "20–30 % gelten häufig als Richtbereich; 40 % bedeutet eine komfortable sofortige Liquidität.",
-        "warum": "20–30 % gelten häufig als Richtbereich; 40 % bedeutet eine komfortable sofortige Liquidität."
+        "kurz": "40 % liegen über dem üblichen Richtbereich: Die sofortige Zahlungsfähigkeit ist komfortabel, gleichzeitig sollte überschüssige Liquidität geprüft werden.",
+        "warum": "40 % liegen über dem üblichen Richtbereich: Die sofortige Zahlungsfähigkeit ist komfortabel, gleichzeitig sollte überschüssige Liquidität geprüft werden."
       },
       "fehlerfallen": [],
-      "merksatz": "20–30 % gelten häufig als Richtbereich; 40 % bedeutet eine komfortable sofortige Liquidität.",
+      "merksatz": "40 % liegen über dem üblichen Richtbereich: Die sofortige Zahlungsfähigkeit ist komfortabel, gleichzeitig sollte überschüssige Liquidität geprüft werden.",
       "review": {},
       "tags": [
         "formel",
@@ -7006,24 +7731,24 @@
         "kurz": "Liquiditätsgrad I zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Das berechnete Resultat beträgt 40 %. Welche Interpretation passt?",
+      "frage": "Das berechnete Resultat beträgt 40 %. Wie ist dieses Ergebnis fachlich zu beurteilen?",
       "antwort_daten": {
         "optionen": [
-          "20–30 % gelten häufig als Richtbereich; 40 % bedeutet eine komfortable sofortige Liquidität.",
-          "Das Resultat beweist automatisch eine ausgezeichnete Gesamtlage.",
-          "Die Kennzahl zeigt ausschließlich die Zahlungsfähigkeit heute.",
-          "Ohne weitere Rechnung lässt sich daraus der absolute Gewinn ablesen."
+          "40 % liegen über dem üblichen Richtbereich: Die sofortige Zahlungsfähigkeit ist komfortabel, gleichzeitig sollte überschüssige Liquidität geprüft werden.",
+          "Der Wert ist automatisch optimal, weil jede positive Kennzahl gut ist.",
+          "Der Wert beweist unabhängig von Branche und Entwicklung eine schlechte Gesamtlage.",
+          "Aus dieser Kennzahl allein lässt sich der absolute Reingewinn direkt ablesen."
         ],
         "richtig_index": 0
       },
-      "erklaerung": "20–30 % gelten häufig als Richtbereich; 40 % bedeutet eine komfortable sofortige Liquidität. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-      "abschlusserklaerung": "20–30 % gelten häufig als Richtbereich; 40 % bedeutet eine komfortable sofortige Liquidität. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "erklaerung": "40 % liegen über dem üblichen Richtbereich: Die sofortige Zahlungsfähigkeit ist komfortabel, gleichzeitig sollte überschüssige Liquidität geprüft werden.",
+      "abschlusserklaerung": "40 % liegen über dem üblichen Richtbereich: Die sofortige Zahlungsfähigkeit ist komfortabel, gleichzeitig sollte überschüssige Liquidität geprüft werden.",
       "loesungsvorschlag": {
-        "kurz": "20–30 % gelten häufig als Richtbereich; 40 % bedeutet eine komfortable sofortige Liquidität. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-        "warum": "20–30 % gelten häufig als Richtbereich; 40 % bedeutet eine komfortable sofortige Liquidität. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden."
+        "kurz": "40 % liegen über dem üblichen Richtbereich: Die sofortige Zahlungsfähigkeit ist komfortabel, gleichzeitig sollte überschüssige Liquidität geprüft werden.",
+        "warum": "40 % liegen über dem üblichen Richtbereich: Die sofortige Zahlungsfähigkeit ist komfortabel, gleichzeitig sollte überschüssige Liquidität geprüft werden."
       },
       "fehlerfallen": [],
-      "merksatz": "20–30 % gelten häufig als Richtbereich; 40 % bedeutet eine komfortable sofortige Liquidität. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "merksatz": "40 % liegen über dem üblichen Richtbereich: Die sofortige Zahlungsfähigkeit ist komfortabel, gleichzeitig sollte überschüssige Liquidität geprüft werden.",
       "review": {},
       "tags": [
         "formel",
@@ -7051,9 +7776,9 @@
       "antwort_daten": {
         "optionen": [
           "(Flüssige Mittel + Forderungen) ÷ kurzfristiges Fremdkapital × 100",
-          "Gewinn ÷ Nettoerlös × 100",
-          "Fremdkapital ÷ Gesamtkapital × 100",
-          "Umlaufvermögen ÷ Eigenkapital × 100"
+          "Flüssige Mittel ÷ kurzfristiges Fremdkapital × 100",
+          "Umlaufvermögen ÷ kurzfristiges Fremdkapital × 100",
+          "Eigenkapital ÷ Gesamtkapital × 100"
         ],
         "richtig_index": 0
       },
@@ -7088,27 +7813,27 @@
         "kurz": "Liquiditätsgrad II zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Was wird mit Liquiditätsgrad II beurteilt? Wähle alle passenden Aussagen.",
+      "frage": "Welche Aussagen erklären die Aussagekraft und Beurteilung von Liquiditätsgrad II richtig?",
       "antwort_daten": {
         "optionen": [
-          "Die Kennzahl wird mit der Formel „(Flüssige Mittel + Forderungen) ÷ kurzfristiges Fremdkapital × 100“ berechnet.",
-          "100 % bedeutet, dass das kurzfristige Fremdkapital ohne Verkauf der Vorräte gedeckt ist.",
-          "Die Kennzahl ersetzt immer den Branchenvergleich.",
-          "Ein hoher Wert ist ausnahmslos gut."
+          "Er zeigt, ob kurzfristige Schulden ohne Verkauf der Vorräte durch flüssige Mittel und Forderungen gedeckt sind.",
+          "Mindestens 100 % gelten häufig als Zielwert, weil dann das kurzfristige Fremdkapital ohne Vorratsverkauf gedeckt ist.",
+          "Die Kennzahl zeigt den absoluten Reingewinn direkt in Franken.",
+          "Die Kennzahl kann ohne Branchen-, Zeit- oder Risikovergleich abschließend beurteilt werden."
         ],
         "richtige_indices": [
           0,
           1
         ]
       },
-      "erklaerung": "100 % bedeutet, dass das kurzfristige Fremdkapital ohne Verkauf der Vorräte gedeckt ist.",
-      "abschlusserklaerung": "100 % bedeutet, dass das kurzfristige Fremdkapital ohne Verkauf der Vorräte gedeckt ist.",
+      "erklaerung": "Er zeigt, ob kurzfristige Schulden ohne Verkauf der Vorräte durch flüssige Mittel und Forderungen gedeckt sind. Mindestens 100 % gelten häufig als Zielwert, weil dann das kurzfristige Fremdkapital ohne Vorratsverkauf gedeckt ist.",
+      "abschlusserklaerung": "Er zeigt, ob kurzfristige Schulden ohne Verkauf der Vorräte durch flüssige Mittel und Forderungen gedeckt sind. Mindestens 100 % gelten häufig als Zielwert, weil dann das kurzfristige Fremdkapital ohne Vorratsverkauf gedeckt ist.",
       "loesungsvorschlag": {
-        "kurz": "100 % bedeutet, dass das kurzfristige Fremdkapital ohne Verkauf der Vorräte gedeckt ist.",
-        "warum": "100 % bedeutet, dass das kurzfristige Fremdkapital ohne Verkauf der Vorräte gedeckt ist."
+        "kurz": "Er zeigt, ob kurzfristige Schulden ohne Verkauf der Vorräte durch flüssige Mittel und Forderungen gedeckt sind. Mindestens 100 % gelten häufig als Zielwert, weil dann das kurzfristige Fremdkapital ohne Vorratsverkauf gedeckt ist.",
+        "warum": "Er zeigt, ob kurzfristige Schulden ohne Verkauf der Vorräte durch flüssige Mittel und Forderungen gedeckt sind. Mindestens 100 % gelten häufig als Zielwert, weil dann das kurzfristige Fremdkapital ohne Vorratsverkauf gedeckt ist."
       },
       "fehlerfallen": [],
-      "merksatz": "100 % bedeutet, dass das kurzfristige Fremdkapital ohne Verkauf der Vorräte gedeckt ist.",
+      "merksatz": "Er zeigt, ob kurzfristige Schulden ohne Verkauf der Vorräte durch flüssige Mittel und Forderungen gedeckt sind. Mindestens 100 % gelten häufig als Zielwert, weil dann das kurzfristige Fremdkapital ohne Vorratsverkauf gedeckt ist.",
       "review": {},
       "tags": [
         "formel",
@@ -7132,7 +7857,7 @@
         "kurz": "Liquiditätsgrad II zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Tippe im Jahresabschluss die benötigten Positionen und Rechenzeichen für Liquiditätsgrad II in der richtigen Reihenfolge an.",
+      "frage": "Wähle aus Bilanz und Erfolgsrechnung nur die benötigten Positionen und setze daraus Liquiditätsgrad II zusammen.",
       "antwort_daten": {
         "bausteine": [
           {
@@ -7144,8 +7869,80 @@
             "label": "Forderungen · CHF 180'000"
           },
           {
+            "id": "vorrat",
+            "label": "Vorräte · CHF 300'000"
+          },
+          {
+            "id": "umlaufvermoegen",
+            "label": "Umlaufvermögen · CHF 600'000"
+          },
+          {
+            "id": "maschinen",
+            "label": "Maschinen · CHF 420'000"
+          },
+          {
+            "id": "anlagevermoegen",
+            "label": "Anlagevermögen · CHF 700'000"
+          },
+          {
+            "id": "gesamtkapital",
+            "label": "Bilanzsumme / Gesamtkapital · CHF 1'300'000"
+          },
+          {
+            "id": "verbindlichkeiten",
+            "label": "Verbindlichkeiten · CHF 160'000"
+          },
+          {
             "id": "kurzfristiges_fk",
             "label": "Kurzfristiges FK · CHF 300'000"
+          },
+          {
+            "id": "langfristiges_fk",
+            "label": "Langfristiges FK · CHF 400'000"
+          },
+          {
+            "id": "fremdkapital",
+            "label": "Fremdkapital · CHF 700'000"
+          },
+          {
+            "id": "eigenkapital",
+            "label": "Eigenkapital · CHF 600'000"
+          },
+          {
+            "id": "aktienkapital",
+            "label": "Aktienkapital · CHF 400'000"
+          },
+          {
+            "id": "reserven",
+            "label": "Reserven · CHF 110'000"
+          },
+          {
+            "id": "reingewinn",
+            "label": "Reingewinn · CHF 90'000"
+          },
+          {
+            "id": "ebit",
+            "label": "EBIT · CHF 150'000"
+          },
+          {
+            "id": "fk_zinsen",
+            "label": "Fremdkapitalzinsen · CHF 20'000"
+          },
+          {
+            "id": "nettoerloes",
+            "label": "Nettoerlös · CHF 1'800'000"
+          },
+          {
+            "id": "personalaufwand",
+            "label": "Personalaufwand · CHF 420'000"
+          },
+          {
+            "id": "ist_umsatz",
+            "label": "Ist-Umsatz · CHF 1'800'000"
+          },
+          {
+            "id": "bep_umsatz",
+            "label": "BEP-Umsatz · CHF 1'350'000"
           },
           {
             "id": "geteilt",
@@ -7154,6 +7951,10 @@
           {
             "id": "plus",
             "label": "+"
+          },
+          {
+            "id": "minus",
+            "label": "−"
           },
           {
             "id": "mal_hundert",
@@ -7171,12 +7972,31 @@
         "bilanz": {
           "aktiven": [
             "fluessige_mittel",
-            "forderungen"
+            "forderungen",
+            "vorrat",
+            "umlaufvermoegen",
+            "maschinen",
+            "anlagevermoegen",
+            "gesamtkapital"
           ],
           "passiven": [
-            "kurzfristiges_fk"
+            "verbindlichkeiten",
+            "kurzfristiges_fk",
+            "langfristiges_fk",
+            "fremdkapital",
+            "aktienkapital",
+            "reserven",
+            "eigenkapital"
           ],
-          "erfolgsrechnung": []
+          "erfolgsrechnung": [
+            "nettoerloes",
+            "personalaufwand",
+            "ebit",
+            "fk_zinsen",
+            "reingewinn",
+            "ist_umsatz",
+            "bep_umsatz"
+          ]
         },
         "formel": "(Flüssige Mittel + Forderungen) ÷ kurzfristiges Fremdkapital × 100",
         "ergebnis": {
@@ -7187,15 +8007,15 @@
           "rechenbasis": "Die App berechnet das Resultat aus den angezeigten Werten."
         }
       },
-      "aufgaben_hinweis": "Du stellst nur die Formel zusammen; das Resultat berechnet die App automatisch.",
-      "erklaerung": "100 % bedeutet, dass das kurzfristige Fremdkapital ohne Verkauf der Vorräte gedeckt ist.",
-      "abschlusserklaerung": "100 % bedeutet, dass das kurzfristige Fremdkapital ohne Verkauf der Vorräte gedeckt ist.",
+      "aufgaben_hinweis": "Nicht alle angezeigten Konten und Rechenzeichen gehören in die Formel. Das Resultat wird nach dem korrekten Aufbau automatisch berechnet.",
+      "erklaerung": "100 % entsprechen dem häufig genannten Mindestziel: Das kurzfristige Fremdkapital ist ohne Verkauf der Vorräte genau gedeckt.",
+      "abschlusserklaerung": "100 % entsprechen dem häufig genannten Mindestziel: Das kurzfristige Fremdkapital ist ohne Verkauf der Vorräte genau gedeckt.",
       "loesungsvorschlag": {
-        "kurz": "100 % bedeutet, dass das kurzfristige Fremdkapital ohne Verkauf der Vorräte gedeckt ist.",
-        "warum": "100 % bedeutet, dass das kurzfristige Fremdkapital ohne Verkauf der Vorräte gedeckt ist."
+        "kurz": "100 % entsprechen dem häufig genannten Mindestziel: Das kurzfristige Fremdkapital ist ohne Verkauf der Vorräte genau gedeckt.",
+        "warum": "100 % entsprechen dem häufig genannten Mindestziel: Das kurzfristige Fremdkapital ist ohne Verkauf der Vorräte genau gedeckt."
       },
       "fehlerfallen": [],
-      "merksatz": "100 % bedeutet, dass das kurzfristige Fremdkapital ohne Verkauf der Vorräte gedeckt ist.",
+      "merksatz": "100 % entsprechen dem häufig genannten Mindestziel: Das kurzfristige Fremdkapital ist ohne Verkauf der Vorräte genau gedeckt.",
       "review": {},
       "tags": [
         "formel",
@@ -7219,24 +8039,24 @@
         "kurz": "Liquiditätsgrad II zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Das berechnete Resultat beträgt 100 %. Welche Interpretation passt?",
+      "frage": "Das berechnete Resultat beträgt 100 %. Wie ist dieses Ergebnis fachlich zu beurteilen?",
       "antwort_daten": {
         "optionen": [
-          "100 % bedeutet, dass das kurzfristige Fremdkapital ohne Verkauf der Vorräte gedeckt ist.",
-          "Das Resultat beweist automatisch eine ausgezeichnete Gesamtlage.",
-          "Die Kennzahl zeigt ausschließlich die Zahlungsfähigkeit heute.",
-          "Ohne weitere Rechnung lässt sich daraus der absolute Gewinn ablesen."
+          "100 % entsprechen dem häufig genannten Mindestziel: Das kurzfristige Fremdkapital ist ohne Verkauf der Vorräte genau gedeckt.",
+          "Der Wert ist automatisch optimal, weil jede positive Kennzahl gut ist.",
+          "Der Wert beweist unabhängig von Branche und Entwicklung eine schlechte Gesamtlage.",
+          "Aus dieser Kennzahl allein lässt sich der absolute Reingewinn direkt ablesen."
         ],
         "richtig_index": 0
       },
-      "erklaerung": "100 % bedeutet, dass das kurzfristige Fremdkapital ohne Verkauf der Vorräte gedeckt ist. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-      "abschlusserklaerung": "100 % bedeutet, dass das kurzfristige Fremdkapital ohne Verkauf der Vorräte gedeckt ist. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "erklaerung": "100 % entsprechen dem häufig genannten Mindestziel: Das kurzfristige Fremdkapital ist ohne Verkauf der Vorräte genau gedeckt.",
+      "abschlusserklaerung": "100 % entsprechen dem häufig genannten Mindestziel: Das kurzfristige Fremdkapital ist ohne Verkauf der Vorräte genau gedeckt.",
       "loesungsvorschlag": {
-        "kurz": "100 % bedeutet, dass das kurzfristige Fremdkapital ohne Verkauf der Vorräte gedeckt ist. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-        "warum": "100 % bedeutet, dass das kurzfristige Fremdkapital ohne Verkauf der Vorräte gedeckt ist. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden."
+        "kurz": "100 % entsprechen dem häufig genannten Mindestziel: Das kurzfristige Fremdkapital ist ohne Verkauf der Vorräte genau gedeckt.",
+        "warum": "100 % entsprechen dem häufig genannten Mindestziel: Das kurzfristige Fremdkapital ist ohne Verkauf der Vorräte genau gedeckt."
       },
       "fehlerfallen": [],
-      "merksatz": "100 % bedeutet, dass das kurzfristige Fremdkapital ohne Verkauf der Vorräte gedeckt ist. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "merksatz": "100 % entsprechen dem häufig genannten Mindestziel: Das kurzfristige Fremdkapital ist ohne Verkauf der Vorräte genau gedeckt.",
       "review": {},
       "tags": [
         "formel",
@@ -7264,9 +8084,9 @@
       "antwort_daten": {
         "optionen": [
           "Umlaufvermögen ÷ kurzfristiges Fremdkapital × 100",
-          "Gewinn ÷ Nettoerlös × 100",
-          "Fremdkapital ÷ Gesamtkapital × 100",
-          "Umlaufvermögen ÷ Eigenkapital × 100"
+          "Flüssige Mittel ÷ kurzfristiges Fremdkapital × 100",
+          "Eigenkapital ÷ Gesamtkapital × 100",
+          "Fremdkapital ÷ Eigenkapital × 100"
         ],
         "richtig_index": 0
       },
@@ -7301,27 +8121,27 @@
         "kurz": "Liquiditätsgrad III zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Was wird mit Liquiditätsgrad III beurteilt? Wähle alle passenden Aussagen.",
+      "frage": "Welche Aussagen erklären die Aussagekraft und Beurteilung von Liquiditätsgrad III richtig?",
       "antwort_daten": {
         "optionen": [
-          "Die Kennzahl wird mit der Formel „Umlaufvermögen ÷ kurzfristiges Fremdkapital × 100“ berechnet.",
-          "200 % liegt am oberen Rand des üblichen Richtbereichs von 150–200 %.",
-          "Die Kennzahl ersetzt immer den Branchenvergleich.",
-          "Ein hoher Wert ist ausnahmslos gut."
+          "Er vergleicht das gesamte Umlaufvermögen einschließlich Vorräten mit dem kurzfristigen Fremdkapital.",
+          "Als grober Richtbereich werden oft 150–200 % verwendet; zu hohe Werte können auf hohe Vorräte oder ineffiziente Mittelbindung hinweisen.",
+          "Die Kennzahl zeigt den absoluten Reingewinn direkt in Franken.",
+          "Die Kennzahl kann ohne Branchen-, Zeit- oder Risikovergleich abschließend beurteilt werden."
         ],
         "richtige_indices": [
           0,
           1
         ]
       },
-      "erklaerung": "200 % liegt am oberen Rand des üblichen Richtbereichs von 150–200 %.",
-      "abschlusserklaerung": "200 % liegt am oberen Rand des üblichen Richtbereichs von 150–200 %.",
+      "erklaerung": "Er vergleicht das gesamte Umlaufvermögen einschließlich Vorräten mit dem kurzfristigen Fremdkapital. Als grober Richtbereich werden oft 150–200 % verwendet; zu hohe Werte können auf hohe Vorräte oder ineffiziente Mittelbindung hinweisen.",
+      "abschlusserklaerung": "Er vergleicht das gesamte Umlaufvermögen einschließlich Vorräten mit dem kurzfristigen Fremdkapital. Als grober Richtbereich werden oft 150–200 % verwendet; zu hohe Werte können auf hohe Vorräte oder ineffiziente Mittelbindung hinweisen.",
       "loesungsvorschlag": {
-        "kurz": "200 % liegt am oberen Rand des üblichen Richtbereichs von 150–200 %.",
-        "warum": "200 % liegt am oberen Rand des üblichen Richtbereichs von 150–200 %."
+        "kurz": "Er vergleicht das gesamte Umlaufvermögen einschließlich Vorräten mit dem kurzfristigen Fremdkapital. Als grober Richtbereich werden oft 150–200 % verwendet; zu hohe Werte können auf hohe Vorräte oder ineffiziente Mittelbindung hinweisen.",
+        "warum": "Er vergleicht das gesamte Umlaufvermögen einschließlich Vorräten mit dem kurzfristigen Fremdkapital. Als grober Richtbereich werden oft 150–200 % verwendet; zu hohe Werte können auf hohe Vorräte oder ineffiziente Mittelbindung hinweisen."
       },
       "fehlerfallen": [],
-      "merksatz": "200 % liegt am oberen Rand des üblichen Richtbereichs von 150–200 %.",
+      "merksatz": "Er vergleicht das gesamte Umlaufvermögen einschließlich Vorräten mit dem kurzfristigen Fremdkapital. Als grober Richtbereich werden oft 150–200 % verwendet; zu hohe Werte können auf hohe Vorräte oder ineffiziente Mittelbindung hinweisen.",
       "review": {},
       "tags": [
         "formel",
@@ -7345,20 +8165,104 @@
         "kurz": "Liquiditätsgrad III zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Tippe im Jahresabschluss die benötigten Positionen und Rechenzeichen für Liquiditätsgrad III in der richtigen Reihenfolge an.",
+      "frage": "Wähle aus Bilanz und Erfolgsrechnung nur die benötigten Positionen und setze daraus Liquiditätsgrad III zusammen.",
       "antwort_daten": {
         "bausteine": [
           {
+            "id": "fluessige_mittel",
+            "label": "Flüssige Mittel · CHF 120'000"
+          },
+          {
+            "id": "forderungen",
+            "label": "Forderungen · CHF 180'000"
+          },
+          {
+            "id": "vorrat",
+            "label": "Vorräte · CHF 300'000"
+          },
+          {
             "id": "umlaufvermoegen",
             "label": "Umlaufvermögen · CHF 600'000"
+          },
+          {
+            "id": "maschinen",
+            "label": "Maschinen · CHF 420'000"
+          },
+          {
+            "id": "anlagevermoegen",
+            "label": "Anlagevermögen · CHF 700'000"
+          },
+          {
+            "id": "gesamtkapital",
+            "label": "Bilanzsumme / Gesamtkapital · CHF 1'300'000"
+          },
+          {
+            "id": "verbindlichkeiten",
+            "label": "Verbindlichkeiten · CHF 160'000"
           },
           {
             "id": "kurzfristiges_fk",
             "label": "Kurzfristiges FK · CHF 300'000"
           },
           {
+            "id": "langfristiges_fk",
+            "label": "Langfristiges FK · CHF 400'000"
+          },
+          {
+            "id": "fremdkapital",
+            "label": "Fremdkapital · CHF 700'000"
+          },
+          {
+            "id": "eigenkapital",
+            "label": "Eigenkapital · CHF 600'000"
+          },
+          {
+            "id": "aktienkapital",
+            "label": "Aktienkapital · CHF 400'000"
+          },
+          {
+            "id": "reserven",
+            "label": "Reserven · CHF 110'000"
+          },
+          {
+            "id": "reingewinn",
+            "label": "Reingewinn · CHF 90'000"
+          },
+          {
+            "id": "ebit",
+            "label": "EBIT · CHF 150'000"
+          },
+          {
+            "id": "fk_zinsen",
+            "label": "Fremdkapitalzinsen · CHF 20'000"
+          },
+          {
+            "id": "nettoerloes",
+            "label": "Nettoerlös · CHF 1'800'000"
+          },
+          {
+            "id": "personalaufwand",
+            "label": "Personalaufwand · CHF 420'000"
+          },
+          {
+            "id": "ist_umsatz",
+            "label": "Ist-Umsatz · CHF 1'800'000"
+          },
+          {
+            "id": "bep_umsatz",
+            "label": "BEP-Umsatz · CHF 1'350'000"
+          },
+          {
             "id": "geteilt",
             "label": "÷"
+          },
+          {
+            "id": "plus",
+            "label": "+"
+          },
+          {
+            "id": "minus",
+            "label": "−"
           },
           {
             "id": "mal_hundert",
@@ -7373,12 +8277,32 @@
         ],
         "bilanz": {
           "aktiven": [
-            "umlaufvermoegen"
+            "fluessige_mittel",
+            "forderungen",
+            "vorrat",
+            "umlaufvermoegen",
+            "maschinen",
+            "anlagevermoegen",
+            "gesamtkapital"
           ],
           "passiven": [
-            "kurzfristiges_fk"
+            "verbindlichkeiten",
+            "kurzfristiges_fk",
+            "langfristiges_fk",
+            "fremdkapital",
+            "aktienkapital",
+            "reserven",
+            "eigenkapital"
           ],
-          "erfolgsrechnung": []
+          "erfolgsrechnung": [
+            "nettoerloes",
+            "personalaufwand",
+            "ebit",
+            "fk_zinsen",
+            "reingewinn",
+            "ist_umsatz",
+            "bep_umsatz"
+          ]
         },
         "formel": "Umlaufvermögen ÷ kurzfristiges Fremdkapital × 100",
         "ergebnis": {
@@ -7389,15 +8313,15 @@
           "rechenbasis": "Die App berechnet das Resultat aus den angezeigten Werten."
         }
       },
-      "aufgaben_hinweis": "Du stellst nur die Formel zusammen; das Resultat berechnet die App automatisch.",
-      "erklaerung": "200 % liegt am oberen Rand des üblichen Richtbereichs von 150–200 %.",
-      "abschlusserklaerung": "200 % liegt am oberen Rand des üblichen Richtbereichs von 150–200 %.",
+      "aufgaben_hinweis": "Nicht alle angezeigten Konten und Rechenzeichen gehören in die Formel. Das Resultat wird nach dem korrekten Aufbau automatisch berechnet.",
+      "erklaerung": "200 % liegen am oberen Rand des üblichen Richtbereichs: Die kurzfristige Deckung ist stark, die Zusammensetzung des Umlaufvermögens bleibt zu prüfen.",
+      "abschlusserklaerung": "200 % liegen am oberen Rand des üblichen Richtbereichs: Die kurzfristige Deckung ist stark, die Zusammensetzung des Umlaufvermögens bleibt zu prüfen.",
       "loesungsvorschlag": {
-        "kurz": "200 % liegt am oberen Rand des üblichen Richtbereichs von 150–200 %.",
-        "warum": "200 % liegt am oberen Rand des üblichen Richtbereichs von 150–200 %."
+        "kurz": "200 % liegen am oberen Rand des üblichen Richtbereichs: Die kurzfristige Deckung ist stark, die Zusammensetzung des Umlaufvermögens bleibt zu prüfen.",
+        "warum": "200 % liegen am oberen Rand des üblichen Richtbereichs: Die kurzfristige Deckung ist stark, die Zusammensetzung des Umlaufvermögens bleibt zu prüfen."
       },
       "fehlerfallen": [],
-      "merksatz": "200 % liegt am oberen Rand des üblichen Richtbereichs von 150–200 %.",
+      "merksatz": "200 % liegen am oberen Rand des üblichen Richtbereichs: Die kurzfristige Deckung ist stark, die Zusammensetzung des Umlaufvermögens bleibt zu prüfen.",
       "review": {},
       "tags": [
         "formel",
@@ -7421,24 +8345,24 @@
         "kurz": "Liquiditätsgrad III zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Das berechnete Resultat beträgt 200 %. Welche Interpretation passt?",
+      "frage": "Das berechnete Resultat beträgt 200 %. Wie ist dieses Ergebnis fachlich zu beurteilen?",
       "antwort_daten": {
         "optionen": [
-          "200 % liegt am oberen Rand des üblichen Richtbereichs von 150–200 %.",
-          "Das Resultat beweist automatisch eine ausgezeichnete Gesamtlage.",
-          "Die Kennzahl zeigt ausschließlich die Zahlungsfähigkeit heute.",
-          "Ohne weitere Rechnung lässt sich daraus der absolute Gewinn ablesen."
+          "200 % liegen am oberen Rand des üblichen Richtbereichs: Die kurzfristige Deckung ist stark, die Zusammensetzung des Umlaufvermögens bleibt zu prüfen.",
+          "Der Wert ist automatisch optimal, weil jede positive Kennzahl gut ist.",
+          "Der Wert beweist unabhängig von Branche und Entwicklung eine schlechte Gesamtlage.",
+          "Aus dieser Kennzahl allein lässt sich der absolute Reingewinn direkt ablesen."
         ],
         "richtig_index": 0
       },
-      "erklaerung": "200 % liegt am oberen Rand des üblichen Richtbereichs von 150–200 %. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-      "abschlusserklaerung": "200 % liegt am oberen Rand des üblichen Richtbereichs von 150–200 %. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "erklaerung": "200 % liegen am oberen Rand des üblichen Richtbereichs: Die kurzfristige Deckung ist stark, die Zusammensetzung des Umlaufvermögens bleibt zu prüfen.",
+      "abschlusserklaerung": "200 % liegen am oberen Rand des üblichen Richtbereichs: Die kurzfristige Deckung ist stark, die Zusammensetzung des Umlaufvermögens bleibt zu prüfen.",
       "loesungsvorschlag": {
-        "kurz": "200 % liegt am oberen Rand des üblichen Richtbereichs von 150–200 %. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-        "warum": "200 % liegt am oberen Rand des üblichen Richtbereichs von 150–200 %. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden."
+        "kurz": "200 % liegen am oberen Rand des üblichen Richtbereichs: Die kurzfristige Deckung ist stark, die Zusammensetzung des Umlaufvermögens bleibt zu prüfen.",
+        "warum": "200 % liegen am oberen Rand des üblichen Richtbereichs: Die kurzfristige Deckung ist stark, die Zusammensetzung des Umlaufvermögens bleibt zu prüfen."
       },
       "fehlerfallen": [],
-      "merksatz": "200 % liegt am oberen Rand des üblichen Richtbereichs von 150–200 %. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "merksatz": "200 % liegen am oberen Rand des üblichen Richtbereichs: Die kurzfristige Deckung ist stark, die Zusammensetzung des Umlaufvermögens bleibt zu prüfen.",
       "review": {},
       "tags": [
         "formel",
@@ -8116,26 +9040,27 @@
       "typ": "single_choice",
       "lernziel": "Nettogewinnquote auswählen, aus Jahresabschlusspositionen aufbauen und interpretieren.",
       "begriff_erklaerung": {
-        "kurz": "Nettogewinnquote zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
+        "kurz": "Nettogewinnquote zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört. Reingewinn ist der Erfolg nach Zinsen und Steuern; EBIT ist der operative Erfolg vor Zinsen und Steuern.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
       "frage": "Welche Formel berechnet Nettogewinnquote?",
       "antwort_daten": {
         "optionen": [
-          "Gewinn ÷ Nettoerlös × 100",
-          "Fremdkapital ÷ Gesamtkapital × 100",
-          "Umlaufvermögen ÷ Eigenkapital × 100"
+          "Reingewinn ÷ Nettoerlös × 100",
+          "Flüssige Mittel ÷ kurzfristiges Fremdkapital × 100",
+          "Umlaufvermögen ÷ kurzfristiges Fremdkapital × 100",
+          "Eigenkapital ÷ Gesamtkapital × 100"
         ],
         "richtig_index": 0
       },
-      "erklaerung": "Gewinn ÷ Nettoerlös × 100",
-      "abschlusserklaerung": "Gewinn ÷ Nettoerlös × 100",
+      "erklaerung": "Reingewinn ÷ Nettoerlös × 100",
+      "abschlusserklaerung": "Reingewinn ÷ Nettoerlös × 100",
       "loesungsvorschlag": {
-        "kurz": "Gewinn ÷ Nettoerlös × 100",
-        "warum": "Gewinn ÷ Nettoerlös × 100"
+        "kurz": "Reingewinn ÷ Nettoerlös × 100",
+        "warum": "Reingewinn ÷ Nettoerlös × 100"
       },
       "fehlerfallen": [],
-      "merksatz": "Gewinn ÷ Nettoerlös × 100",
+      "merksatz": "Reingewinn ÷ Nettoerlös × 100",
       "review": {},
       "tags": [
         "formel",
@@ -8156,30 +9081,30 @@
       "typ": "multiple_choice",
       "lernziel": "Nettogewinnquote auswählen, aus Jahresabschlusspositionen aufbauen und interpretieren.",
       "begriff_erklaerung": {
-        "kurz": "Nettogewinnquote zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
+        "kurz": "Nettogewinnquote zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört. Reingewinn ist der Erfolg nach Zinsen und Steuern; EBIT ist der operative Erfolg vor Zinsen und Steuern.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Was wird mit Nettogewinnquote beurteilt? Wähle alle passenden Aussagen.",
+      "frage": "Welche Aussagen erklären die Aussagekraft und Beurteilung von Nettogewinnquote richtig?",
       "antwort_daten": {
         "optionen": [
-          "Die Kennzahl wird mit der Formel „Gewinn ÷ Nettoerlös × 100“ berechnet.",
-          "Von CHF 100 Nettoerlös bleiben CHF 5 Gewinn.",
-          "Die Kennzahl ersetzt immer den Branchenvergleich.",
-          "Ein hoher Wert ist ausnahmslos gut."
+          "Sie zeigt, wie viel Reingewinn nach Zinsen und Steuern von CHF 100 Nettoerlös übrig bleibt.",
+          "Es gibt keinen allgemeinen Idealwert. Aussagekräftig sind Branchen-, Budget- und Zeitvergleich; eine steigende Quote ist meist positiv.",
+          "Die Kennzahl zeigt den absoluten Reingewinn direkt in Franken.",
+          "Die Kennzahl kann ohne Branchen-, Zeit- oder Risikovergleich abschließend beurteilt werden."
         ],
         "richtige_indices": [
           0,
           1
         ]
       },
-      "erklaerung": "Von CHF 100 Nettoerlös bleiben CHF 5 Gewinn.",
-      "abschlusserklaerung": "Von CHF 100 Nettoerlös bleiben CHF 5 Gewinn.",
+      "erklaerung": "Sie zeigt, wie viel Reingewinn nach Zinsen und Steuern von CHF 100 Nettoerlös übrig bleibt. Es gibt keinen allgemeinen Idealwert. Aussagekräftig sind Branchen-, Budget- und Zeitvergleich; eine steigende Quote ist meist positiv.",
+      "abschlusserklaerung": "Sie zeigt, wie viel Reingewinn nach Zinsen und Steuern von CHF 100 Nettoerlös übrig bleibt. Es gibt keinen allgemeinen Idealwert. Aussagekräftig sind Branchen-, Budget- und Zeitvergleich; eine steigende Quote ist meist positiv.",
       "loesungsvorschlag": {
-        "kurz": "Von CHF 100 Nettoerlös bleiben CHF 5 Gewinn.",
-        "warum": "Von CHF 100 Nettoerlös bleiben CHF 5 Gewinn."
+        "kurz": "Sie zeigt, wie viel Reingewinn nach Zinsen und Steuern von CHF 100 Nettoerlös übrig bleibt. Es gibt keinen allgemeinen Idealwert. Aussagekräftig sind Branchen-, Budget- und Zeitvergleich; eine steigende Quote ist meist positiv.",
+        "warum": "Sie zeigt, wie viel Reingewinn nach Zinsen und Steuern von CHF 100 Nettoerlös übrig bleibt. Es gibt keinen allgemeinen Idealwert. Aussagekräftig sind Branchen-, Budget- und Zeitvergleich; eine steigende Quote ist meist positiv."
       },
       "fehlerfallen": [],
-      "merksatz": "Von CHF 100 Nettoerlös bleiben CHF 5 Gewinn.",
+      "merksatz": "Sie zeigt, wie viel Reingewinn nach Zinsen und Steuern von CHF 100 Nettoerlös übrig bleibt. Es gibt keinen allgemeinen Idealwert. Aussagekräftig sind Branchen-, Budget- und Zeitvergleich; eine steigende Quote ist meist positiv.",
       "review": {},
       "tags": [
         "formel",
@@ -8200,23 +9125,107 @@
       "typ": "formel_builder",
       "lernziel": "Nettogewinnquote auswählen, aus Jahresabschlusspositionen aufbauen und interpretieren.",
       "begriff_erklaerung": {
-        "kurz": "Nettogewinnquote zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
+        "kurz": "Nettogewinnquote zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört. Reingewinn ist der Erfolg nach Zinsen und Steuern; EBIT ist der operative Erfolg vor Zinsen und Steuern.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Tippe im Jahresabschluss die benötigten Positionen und Rechenzeichen für Nettogewinnquote in der richtigen Reihenfolge an.",
+      "frage": "Wähle aus Bilanz und Erfolgsrechnung nur die benötigten Positionen und setze daraus Nettogewinnquote zusammen.",
       "antwort_daten": {
         "bausteine": [
           {
-            "id": "gewinn",
-            "label": "Gewinn · CHF 90'000"
+            "id": "fluessige_mittel",
+            "label": "Flüssige Mittel · CHF 120'000"
+          },
+          {
+            "id": "forderungen",
+            "label": "Forderungen · CHF 180'000"
+          },
+          {
+            "id": "vorrat",
+            "label": "Vorräte · CHF 300'000"
+          },
+          {
+            "id": "umlaufvermoegen",
+            "label": "Umlaufvermögen · CHF 600'000"
+          },
+          {
+            "id": "maschinen",
+            "label": "Maschinen · CHF 420'000"
+          },
+          {
+            "id": "anlagevermoegen",
+            "label": "Anlagevermögen · CHF 700'000"
+          },
+          {
+            "id": "gesamtkapital",
+            "label": "Bilanzsumme / Gesamtkapital · CHF 1'300'000"
+          },
+          {
+            "id": "verbindlichkeiten",
+            "label": "Verbindlichkeiten · CHF 160'000"
+          },
+          {
+            "id": "kurzfristiges_fk",
+            "label": "Kurzfristiges FK · CHF 300'000"
+          },
+          {
+            "id": "langfristiges_fk",
+            "label": "Langfristiges FK · CHF 400'000"
+          },
+          {
+            "id": "fremdkapital",
+            "label": "Fremdkapital · CHF 700'000"
+          },
+          {
+            "id": "eigenkapital",
+            "label": "Eigenkapital · CHF 600'000"
+          },
+          {
+            "id": "aktienkapital",
+            "label": "Aktienkapital · CHF 400'000"
+          },
+          {
+            "id": "reserven",
+            "label": "Reserven · CHF 110'000"
+          },
+          {
+            "id": "reingewinn",
+            "label": "Reingewinn · CHF 90'000"
+          },
+          {
+            "id": "ebit",
+            "label": "EBIT · CHF 150'000"
+          },
+          {
+            "id": "fk_zinsen",
+            "label": "Fremdkapitalzinsen · CHF 20'000"
           },
           {
             "id": "nettoerloes",
             "label": "Nettoerlös · CHF 1'800'000"
           },
           {
+            "id": "personalaufwand",
+            "label": "Personalaufwand · CHF 420'000"
+          },
+          {
+            "id": "ist_umsatz",
+            "label": "Ist-Umsatz · CHF 1'800'000"
+          },
+          {
+            "id": "bep_umsatz",
+            "label": "BEP-Umsatz · CHF 1'350'000"
+          },
+          {
             "id": "geteilt",
             "label": "÷"
+          },
+          {
+            "id": "plus",
+            "label": "+"
+          },
+          {
+            "id": "minus",
+            "label": "−"
           },
           {
             "id": "mal_hundert",
@@ -8224,20 +9233,41 @@
           }
         ],
         "richtige_reihenfolge": [
-          "gewinn",
+          "reingewinn",
           "geteilt",
           "nettoerloes",
           "mal_hundert"
         ],
         "bilanz": {
-          "aktiven": [],
-          "passiven": [],
+          "aktiven": [
+            "fluessige_mittel",
+            "forderungen",
+            "vorrat",
+            "umlaufvermoegen",
+            "maschinen",
+            "anlagevermoegen",
+            "gesamtkapital"
+          ],
+          "passiven": [
+            "verbindlichkeiten",
+            "kurzfristiges_fk",
+            "langfristiges_fk",
+            "fremdkapital",
+            "aktienkapital",
+            "reserven",
+            "eigenkapital"
+          ],
           "erfolgsrechnung": [
-            "gewinn",
-            "nettoerloes"
+            "nettoerloes",
+            "personalaufwand",
+            "ebit",
+            "fk_zinsen",
+            "reingewinn",
+            "ist_umsatz",
+            "bep_umsatz"
           ]
         },
-        "formel": "Gewinn ÷ Nettoerlös × 100",
+        "formel": "Reingewinn ÷ Nettoerlös × 100",
         "ergebnis": {
           "automatisch": true,
           "richtiger_wert": 5,
@@ -8246,15 +9276,15 @@
           "rechenbasis": "Die App berechnet das Resultat aus den angezeigten Werten."
         }
       },
-      "aufgaben_hinweis": "Du stellst nur die Formel zusammen; das Resultat berechnet die App automatisch.",
-      "erklaerung": "Von CHF 100 Nettoerlös bleiben CHF 5 Gewinn.",
-      "abschlusserklaerung": "Von CHF 100 Nettoerlös bleiben CHF 5 Gewinn.",
+      "aufgaben_hinweis": "Nicht alle angezeigten Konten und Rechenzeichen gehören in die Formel. Das Resultat wird nach dem korrekten Aufbau automatisch berechnet.",
+      "erklaerung": "5 % bedeuten: Von CHF 100 Nettoerlös bleiben CHF 5 Reingewinn. Die Qualität des Werts lässt sich erst im Branchen- und Zeitvergleich beurteilen.",
+      "abschlusserklaerung": "5 % bedeuten: Von CHF 100 Nettoerlös bleiben CHF 5 Reingewinn. Die Qualität des Werts lässt sich erst im Branchen- und Zeitvergleich beurteilen.",
       "loesungsvorschlag": {
-        "kurz": "Von CHF 100 Nettoerlös bleiben CHF 5 Gewinn.",
-        "warum": "Von CHF 100 Nettoerlös bleiben CHF 5 Gewinn."
+        "kurz": "5 % bedeuten: Von CHF 100 Nettoerlös bleiben CHF 5 Reingewinn. Die Qualität des Werts lässt sich erst im Branchen- und Zeitvergleich beurteilen.",
+        "warum": "5 % bedeuten: Von CHF 100 Nettoerlös bleiben CHF 5 Reingewinn. Die Qualität des Werts lässt sich erst im Branchen- und Zeitvergleich beurteilen."
       },
       "fehlerfallen": [],
-      "merksatz": "Von CHF 100 Nettoerlös bleiben CHF 5 Gewinn.",
+      "merksatz": "5 % bedeuten: Von CHF 100 Nettoerlös bleiben CHF 5 Reingewinn. Die Qualität des Werts lässt sich erst im Branchen- und Zeitvergleich beurteilen.",
       "review": {},
       "tags": [
         "formel",
@@ -8275,27 +9305,27 @@
       "typ": "single_choice",
       "lernziel": "Nettogewinnquote auswählen, aus Jahresabschlusspositionen aufbauen und interpretieren.",
       "begriff_erklaerung": {
-        "kurz": "Nettogewinnquote zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
+        "kurz": "Nettogewinnquote zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört. Reingewinn ist der Erfolg nach Zinsen und Steuern; EBIT ist der operative Erfolg vor Zinsen und Steuern.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Das berechnete Resultat beträgt 5 %. Welche Interpretation passt?",
+      "frage": "Das berechnete Resultat beträgt 5 %. Wie ist dieses Ergebnis fachlich zu beurteilen?",
       "antwort_daten": {
         "optionen": [
-          "Von CHF 100 Nettoerlös bleiben CHF 5 Gewinn.",
-          "Das Resultat beweist automatisch eine ausgezeichnete Gesamtlage.",
-          "Die Kennzahl zeigt ausschließlich die Zahlungsfähigkeit heute.",
-          "Ohne weitere Rechnung lässt sich daraus der absolute Gewinn ablesen."
+          "5 % bedeuten: Von CHF 100 Nettoerlös bleiben CHF 5 Reingewinn. Die Qualität des Werts lässt sich erst im Branchen- und Zeitvergleich beurteilen.",
+          "Der Wert ist automatisch optimal, weil jede positive Kennzahl gut ist.",
+          "Der Wert beweist unabhängig von Branche und Entwicklung eine schlechte Gesamtlage.",
+          "Aus dieser Kennzahl allein lässt sich der absolute Reingewinn direkt ablesen."
         ],
         "richtig_index": 0
       },
-      "erklaerung": "Von CHF 100 Nettoerlös bleiben CHF 5 Gewinn. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-      "abschlusserklaerung": "Von CHF 100 Nettoerlös bleiben CHF 5 Gewinn. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "erklaerung": "5 % bedeuten: Von CHF 100 Nettoerlös bleiben CHF 5 Reingewinn. Die Qualität des Werts lässt sich erst im Branchen- und Zeitvergleich beurteilen.",
+      "abschlusserklaerung": "5 % bedeuten: Von CHF 100 Nettoerlös bleiben CHF 5 Reingewinn. Die Qualität des Werts lässt sich erst im Branchen- und Zeitvergleich beurteilen.",
       "loesungsvorschlag": {
-        "kurz": "Von CHF 100 Nettoerlös bleiben CHF 5 Gewinn. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-        "warum": "Von CHF 100 Nettoerlös bleiben CHF 5 Gewinn. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden."
+        "kurz": "5 % bedeuten: Von CHF 100 Nettoerlös bleiben CHF 5 Reingewinn. Die Qualität des Werts lässt sich erst im Branchen- und Zeitvergleich beurteilen.",
+        "warum": "5 % bedeuten: Von CHF 100 Nettoerlös bleiben CHF 5 Reingewinn. Die Qualität des Werts lässt sich erst im Branchen- und Zeitvergleich beurteilen."
       },
       "fehlerfallen": [],
-      "merksatz": "Von CHF 100 Nettoerlös bleiben CHF 5 Gewinn. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "merksatz": "5 % bedeuten: Von CHF 100 Nettoerlös bleiben CHF 5 Reingewinn. Die Qualität des Werts lässt sich erst im Branchen- und Zeitvergleich beurteilen.",
       "review": {},
       "tags": [
         "formel",
@@ -10829,27 +11859,27 @@
       "typ": "single_choice",
       "lernziel": "ROE (Eigenkapitalrendite) auswählen, aus Jahresabschlusspositionen aufbauen und interpretieren.",
       "begriff_erklaerung": {
-        "kurz": "ROE (Eigenkapitalrendite) zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
+        "kurz": "ROE (Eigenkapitalrendite) zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört. Reingewinn ist der Erfolg nach Zinsen und Steuern; EBIT ist der operative Erfolg vor Zinsen und Steuern.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
       "frage": "Welche Formel berechnet ROE (Eigenkapitalrendite)?",
       "antwort_daten": {
         "optionen": [
-          "Gewinn ÷ Eigenkapital × 100",
-          "Gewinn ÷ Nettoerlös × 100",
-          "Fremdkapital ÷ Gesamtkapital × 100",
-          "Umlaufvermögen ÷ Eigenkapital × 100"
+          "Reingewinn ÷ Eigenkapital × 100",
+          "Flüssige Mittel ÷ kurzfristiges Fremdkapital × 100",
+          "Umlaufvermögen ÷ kurzfristiges Fremdkapital × 100",
+          "Eigenkapital ÷ Gesamtkapital × 100"
         ],
         "richtig_index": 0
       },
-      "erklaerung": "Gewinn ÷ Eigenkapital × 100",
-      "abschlusserklaerung": "Gewinn ÷ Eigenkapital × 100",
+      "erklaerung": "Reingewinn ÷ Eigenkapital × 100",
+      "abschlusserklaerung": "Reingewinn ÷ Eigenkapital × 100",
       "loesungsvorschlag": {
-        "kurz": "Gewinn ÷ Eigenkapital × 100",
-        "warum": "Gewinn ÷ Eigenkapital × 100"
+        "kurz": "Reingewinn ÷ Eigenkapital × 100",
+        "warum": "Reingewinn ÷ Eigenkapital × 100"
       },
       "fehlerfallen": [],
-      "merksatz": "Gewinn ÷ Eigenkapital × 100",
+      "merksatz": "Reingewinn ÷ Eigenkapital × 100",
       "review": {},
       "tags": [
         "formel",
@@ -10870,30 +11900,30 @@
       "typ": "multiple_choice",
       "lernziel": "ROE (Eigenkapitalrendite) auswählen, aus Jahresabschlusspositionen aufbauen und interpretieren.",
       "begriff_erklaerung": {
-        "kurz": "ROE (Eigenkapitalrendite) zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
+        "kurz": "ROE (Eigenkapitalrendite) zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört. Reingewinn ist der Erfolg nach Zinsen und Steuern; EBIT ist der operative Erfolg vor Zinsen und Steuern.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Was wird mit ROE (Eigenkapitalrendite) beurteilt? Wähle alle passenden Aussagen.",
+      "frage": "Welche Aussagen erklären die Aussagekraft und Beurteilung von ROE (Eigenkapitalrendite) richtig?",
       "antwort_daten": {
         "optionen": [
-          "Die Kennzahl wird mit der Formel „Gewinn ÷ Eigenkapital × 100“ berechnet.",
-          "Das Eigenkapital wird mit 15 % verzinst; für die Beurteilung ist ein Branchenvergleich nötig.",
-          "Die Kennzahl ersetzt immer den Branchenvergleich.",
-          "Ein hoher Wert ist ausnahmslos gut."
+          "Der ROE zeigt, wie stark sich das von den Eigentümern eingesetzte Eigenkapital durch den Reingewinn verzinst.",
+          "Der Zielwert ist branchen- und risikoabhängig. Ein ROE über dem ROI kann durch Fremdkapitaleinsatz entstehen, bringt aber zusätzliches Risiko.",
+          "Die Kennzahl zeigt den absoluten Reingewinn direkt in Franken.",
+          "Die Kennzahl kann ohne Branchen-, Zeit- oder Risikovergleich abschließend beurteilt werden."
         ],
         "richtige_indices": [
           0,
           1
         ]
       },
-      "erklaerung": "Das Eigenkapital wird mit 15 % verzinst; für die Beurteilung ist ein Branchenvergleich nötig.",
-      "abschlusserklaerung": "Das Eigenkapital wird mit 15 % verzinst; für die Beurteilung ist ein Branchenvergleich nötig.",
+      "erklaerung": "Der ROE zeigt, wie stark sich das von den Eigentümern eingesetzte Eigenkapital durch den Reingewinn verzinst. Der Zielwert ist branchen- und risikoabhängig. Ein ROE über dem ROI kann durch Fremdkapitaleinsatz entstehen, bringt aber zusätzliches Risiko.",
+      "abschlusserklaerung": "Der ROE zeigt, wie stark sich das von den Eigentümern eingesetzte Eigenkapital durch den Reingewinn verzinst. Der Zielwert ist branchen- und risikoabhängig. Ein ROE über dem ROI kann durch Fremdkapitaleinsatz entstehen, bringt aber zusätzliches Risiko.",
       "loesungsvorschlag": {
-        "kurz": "Das Eigenkapital wird mit 15 % verzinst; für die Beurteilung ist ein Branchenvergleich nötig.",
-        "warum": "Das Eigenkapital wird mit 15 % verzinst; für die Beurteilung ist ein Branchenvergleich nötig."
+        "kurz": "Der ROE zeigt, wie stark sich das von den Eigentümern eingesetzte Eigenkapital durch den Reingewinn verzinst. Der Zielwert ist branchen- und risikoabhängig. Ein ROE über dem ROI kann durch Fremdkapitaleinsatz entstehen, bringt aber zusätzliches Risiko.",
+        "warum": "Der ROE zeigt, wie stark sich das von den Eigentümern eingesetzte Eigenkapital durch den Reingewinn verzinst. Der Zielwert ist branchen- und risikoabhängig. Ein ROE über dem ROI kann durch Fremdkapitaleinsatz entstehen, bringt aber zusätzliches Risiko."
       },
       "fehlerfallen": [],
-      "merksatz": "Das Eigenkapital wird mit 15 % verzinst; für die Beurteilung ist ein Branchenvergleich nötig.",
+      "merksatz": "Der ROE zeigt, wie stark sich das von den Eigentümern eingesetzte Eigenkapital durch den Reingewinn verzinst. Der Zielwert ist branchen- und risikoabhängig. Ein ROE über dem ROI kann durch Fremdkapitaleinsatz entstehen, bringt aber zusätzliches Risiko.",
       "review": {},
       "tags": [
         "formel",
@@ -10914,23 +11944,107 @@
       "typ": "formel_builder",
       "lernziel": "ROE (Eigenkapitalrendite) auswählen, aus Jahresabschlusspositionen aufbauen und interpretieren.",
       "begriff_erklaerung": {
-        "kurz": "ROE (Eigenkapitalrendite) zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
+        "kurz": "ROE (Eigenkapitalrendite) zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört. Reingewinn ist der Erfolg nach Zinsen und Steuern; EBIT ist der operative Erfolg vor Zinsen und Steuern.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Tippe im Jahresabschluss die benötigten Positionen und Rechenzeichen für ROE (Eigenkapitalrendite) in der richtigen Reihenfolge an.",
+      "frage": "Wähle aus Bilanz und Erfolgsrechnung nur die benötigten Positionen und setze daraus ROE (Eigenkapitalrendite) zusammen.",
       "antwort_daten": {
         "bausteine": [
+          {
+            "id": "fluessige_mittel",
+            "label": "Flüssige Mittel · CHF 120'000"
+          },
+          {
+            "id": "forderungen",
+            "label": "Forderungen · CHF 180'000"
+          },
+          {
+            "id": "vorrat",
+            "label": "Vorräte · CHF 300'000"
+          },
+          {
+            "id": "umlaufvermoegen",
+            "label": "Umlaufvermögen · CHF 600'000"
+          },
+          {
+            "id": "maschinen",
+            "label": "Maschinen · CHF 420'000"
+          },
+          {
+            "id": "anlagevermoegen",
+            "label": "Anlagevermögen · CHF 700'000"
+          },
+          {
+            "id": "gesamtkapital",
+            "label": "Bilanzsumme / Gesamtkapital · CHF 1'300'000"
+          },
+          {
+            "id": "verbindlichkeiten",
+            "label": "Verbindlichkeiten · CHF 160'000"
+          },
+          {
+            "id": "kurzfristiges_fk",
+            "label": "Kurzfristiges FK · CHF 300'000"
+          },
+          {
+            "id": "langfristiges_fk",
+            "label": "Langfristiges FK · CHF 400'000"
+          },
+          {
+            "id": "fremdkapital",
+            "label": "Fremdkapital · CHF 700'000"
+          },
           {
             "id": "eigenkapital",
             "label": "Eigenkapital · CHF 600'000"
           },
           {
-            "id": "gewinn",
-            "label": "Gewinn · CHF 90'000"
+            "id": "aktienkapital",
+            "label": "Aktienkapital · CHF 400'000"
+          },
+          {
+            "id": "reserven",
+            "label": "Reserven · CHF 110'000"
+          },
+          {
+            "id": "reingewinn",
+            "label": "Reingewinn · CHF 90'000"
+          },
+          {
+            "id": "ebit",
+            "label": "EBIT · CHF 150'000"
+          },
+          {
+            "id": "fk_zinsen",
+            "label": "Fremdkapitalzinsen · CHF 20'000"
+          },
+          {
+            "id": "nettoerloes",
+            "label": "Nettoerlös · CHF 1'800'000"
+          },
+          {
+            "id": "personalaufwand",
+            "label": "Personalaufwand · CHF 420'000"
+          },
+          {
+            "id": "ist_umsatz",
+            "label": "Ist-Umsatz · CHF 1'800'000"
+          },
+          {
+            "id": "bep_umsatz",
+            "label": "BEP-Umsatz · CHF 1'350'000"
           },
           {
             "id": "geteilt",
             "label": "÷"
+          },
+          {
+            "id": "plus",
+            "label": "+"
+          },
+          {
+            "id": "minus",
+            "label": "−"
           },
           {
             "id": "mal_hundert",
@@ -10938,21 +12052,41 @@
           }
         ],
         "richtige_reihenfolge": [
-          "gewinn",
+          "reingewinn",
           "geteilt",
           "eigenkapital",
           "mal_hundert"
         ],
         "bilanz": {
-          "aktiven": [],
+          "aktiven": [
+            "fluessige_mittel",
+            "forderungen",
+            "vorrat",
+            "umlaufvermoegen",
+            "maschinen",
+            "anlagevermoegen",
+            "gesamtkapital"
+          ],
           "passiven": [
+            "verbindlichkeiten",
+            "kurzfristiges_fk",
+            "langfristiges_fk",
+            "fremdkapital",
+            "aktienkapital",
+            "reserven",
             "eigenkapital"
           ],
           "erfolgsrechnung": [
-            "gewinn"
+            "nettoerloes",
+            "personalaufwand",
+            "ebit",
+            "fk_zinsen",
+            "reingewinn",
+            "ist_umsatz",
+            "bep_umsatz"
           ]
         },
-        "formel": "Gewinn ÷ Eigenkapital × 100",
+        "formel": "Reingewinn ÷ Eigenkapital × 100",
         "ergebnis": {
           "automatisch": true,
           "richtiger_wert": 15,
@@ -10961,15 +12095,15 @@
           "rechenbasis": "Die App berechnet das Resultat aus den angezeigten Werten."
         }
       },
-      "aufgaben_hinweis": "Du stellst nur die Formel zusammen; das Resultat berechnet die App automatisch.",
-      "erklaerung": "Das Eigenkapital wird mit 15 % verzinst; für die Beurteilung ist ein Branchenvergleich nötig.",
-      "abschlusserklaerung": "Das Eigenkapital wird mit 15 % verzinst; für die Beurteilung ist ein Branchenvergleich nötig.",
+      "aufgaben_hinweis": "Nicht alle angezeigten Konten und Rechenzeichen gehören in die Formel. Das Resultat wird nach dem korrekten Aufbau automatisch berechnet.",
+      "erklaerung": "15 % bedeuten eine gute Verzinsung des Eigenkapitals. Ob der Wert angemessen ist, hängt von Branche, Risiko und Fremdfinanzierung ab.",
+      "abschlusserklaerung": "15 % bedeuten eine gute Verzinsung des Eigenkapitals. Ob der Wert angemessen ist, hängt von Branche, Risiko und Fremdfinanzierung ab.",
       "loesungsvorschlag": {
-        "kurz": "Das Eigenkapital wird mit 15 % verzinst; für die Beurteilung ist ein Branchenvergleich nötig.",
-        "warum": "Das Eigenkapital wird mit 15 % verzinst; für die Beurteilung ist ein Branchenvergleich nötig."
+        "kurz": "15 % bedeuten eine gute Verzinsung des Eigenkapitals. Ob der Wert angemessen ist, hängt von Branche, Risiko und Fremdfinanzierung ab.",
+        "warum": "15 % bedeuten eine gute Verzinsung des Eigenkapitals. Ob der Wert angemessen ist, hängt von Branche, Risiko und Fremdfinanzierung ab."
       },
       "fehlerfallen": [],
-      "merksatz": "Das Eigenkapital wird mit 15 % verzinst; für die Beurteilung ist ein Branchenvergleich nötig.",
+      "merksatz": "15 % bedeuten eine gute Verzinsung des Eigenkapitals. Ob der Wert angemessen ist, hängt von Branche, Risiko und Fremdfinanzierung ab.",
       "review": {},
       "tags": [
         "formel",
@@ -10990,27 +12124,27 @@
       "typ": "single_choice",
       "lernziel": "ROE (Eigenkapitalrendite) auswählen, aus Jahresabschlusspositionen aufbauen und interpretieren.",
       "begriff_erklaerung": {
-        "kurz": "ROE (Eigenkapitalrendite) zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
+        "kurz": "ROE (Eigenkapitalrendite) zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört. Reingewinn ist der Erfolg nach Zinsen und Steuern; EBIT ist der operative Erfolg vor Zinsen und Steuern.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Das berechnete Resultat beträgt 15 %. Welche Interpretation passt?",
+      "frage": "Das berechnete Resultat beträgt 15 %. Wie ist dieses Ergebnis fachlich zu beurteilen?",
       "antwort_daten": {
         "optionen": [
-          "Das Eigenkapital wird mit 15 % verzinst; für die Beurteilung ist ein Branchenvergleich nötig.",
-          "Das Resultat beweist automatisch eine ausgezeichnete Gesamtlage.",
-          "Die Kennzahl zeigt ausschließlich die Zahlungsfähigkeit heute.",
-          "Ohne weitere Rechnung lässt sich daraus der absolute Gewinn ablesen."
+          "15 % bedeuten eine gute Verzinsung des Eigenkapitals. Ob der Wert angemessen ist, hängt von Branche, Risiko und Fremdfinanzierung ab.",
+          "Der Wert ist automatisch optimal, weil jede positive Kennzahl gut ist.",
+          "Der Wert beweist unabhängig von Branche und Entwicklung eine schlechte Gesamtlage.",
+          "Aus dieser Kennzahl allein lässt sich der absolute Reingewinn direkt ablesen."
         ],
         "richtig_index": 0
       },
-      "erklaerung": "Das Eigenkapital wird mit 15 % verzinst; für die Beurteilung ist ein Branchenvergleich nötig. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-      "abschlusserklaerung": "Das Eigenkapital wird mit 15 % verzinst; für die Beurteilung ist ein Branchenvergleich nötig. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "erklaerung": "15 % bedeuten eine gute Verzinsung des Eigenkapitals. Ob der Wert angemessen ist, hängt von Branche, Risiko und Fremdfinanzierung ab.",
+      "abschlusserklaerung": "15 % bedeuten eine gute Verzinsung des Eigenkapitals. Ob der Wert angemessen ist, hängt von Branche, Risiko und Fremdfinanzierung ab.",
       "loesungsvorschlag": {
-        "kurz": "Das Eigenkapital wird mit 15 % verzinst; für die Beurteilung ist ein Branchenvergleich nötig. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-        "warum": "Das Eigenkapital wird mit 15 % verzinst; für die Beurteilung ist ein Branchenvergleich nötig. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden."
+        "kurz": "15 % bedeuten eine gute Verzinsung des Eigenkapitals. Ob der Wert angemessen ist, hängt von Branche, Risiko und Fremdfinanzierung ab.",
+        "warum": "15 % bedeuten eine gute Verzinsung des Eigenkapitals. Ob der Wert angemessen ist, hängt von Branche, Risiko und Fremdfinanzierung ab."
       },
       "fehlerfallen": [],
-      "merksatz": "Das Eigenkapital wird mit 15 % verzinst; für die Beurteilung ist ein Branchenvergleich nötig. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "merksatz": "15 % bedeuten eine gute Verzinsung des Eigenkapitals. Ob der Wert angemessen ist, hängt von Branche, Risiko und Fremdfinanzierung ab.",
       "review": {},
       "tags": [
         "formel",
@@ -11031,27 +12165,27 @@
       "typ": "single_choice",
       "lernziel": "ROI (Gesamtkapitalrendite) auswählen, aus Jahresabschlusspositionen aufbauen und interpretieren.",
       "begriff_erklaerung": {
-        "kurz": "ROI (Gesamtkapitalrendite) zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
+        "kurz": "ROI (Gesamtkapitalrendite) zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört. Reingewinn ist der Erfolg nach Zinsen und Steuern; EBIT ist der operative Erfolg vor Zinsen und Steuern.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
       "frage": "Welche Formel berechnet ROI (Gesamtkapitalrendite)?",
       "antwort_daten": {
         "optionen": [
-          "Gewinn ÷ Gesamtkapital × 100",
-          "Gewinn ÷ Nettoerlös × 100",
-          "Fremdkapital ÷ Gesamtkapital × 100",
-          "Umlaufvermögen ÷ Eigenkapital × 100"
+          "(Reingewinn + Fremdkapitalzinsen) ÷ Gesamtkapital × 100",
+          "Flüssige Mittel ÷ kurzfristiges Fremdkapital × 100",
+          "Umlaufvermögen ÷ kurzfristiges Fremdkapital × 100",
+          "Eigenkapital ÷ Gesamtkapital × 100"
         ],
         "richtig_index": 0
       },
-      "erklaerung": "Gewinn ÷ Gesamtkapital × 100",
-      "abschlusserklaerung": "Gewinn ÷ Gesamtkapital × 100",
+      "erklaerung": "(Reingewinn + Fremdkapitalzinsen) ÷ Gesamtkapital × 100",
+      "abschlusserklaerung": "(Reingewinn + Fremdkapitalzinsen) ÷ Gesamtkapital × 100",
       "loesungsvorschlag": {
-        "kurz": "Gewinn ÷ Gesamtkapital × 100",
-        "warum": "Gewinn ÷ Gesamtkapital × 100"
+        "kurz": "(Reingewinn + Fremdkapitalzinsen) ÷ Gesamtkapital × 100",
+        "warum": "(Reingewinn + Fremdkapitalzinsen) ÷ Gesamtkapital × 100"
       },
       "fehlerfallen": [],
-      "merksatz": "Gewinn ÷ Gesamtkapital × 100",
+      "merksatz": "(Reingewinn + Fremdkapitalzinsen) ÷ Gesamtkapital × 100",
       "review": {},
       "tags": [
         "formel",
@@ -11072,30 +12206,30 @@
       "typ": "multiple_choice",
       "lernziel": "ROI (Gesamtkapitalrendite) auswählen, aus Jahresabschlusspositionen aufbauen und interpretieren.",
       "begriff_erklaerung": {
-        "kurz": "ROI (Gesamtkapitalrendite) zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
+        "kurz": "ROI (Gesamtkapitalrendite) zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört. Reingewinn ist der Erfolg nach Zinsen und Steuern; EBIT ist der operative Erfolg vor Zinsen und Steuern.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Was wird mit ROI (Gesamtkapitalrendite) beurteilt? Wähle alle passenden Aussagen.",
+      "frage": "Welche Aussagen erklären die Aussagekraft und Beurteilung von ROI (Gesamtkapitalrendite) richtig?",
       "antwort_daten": {
         "optionen": [
-          "Die Kennzahl wird mit der Formel „Gewinn ÷ Gesamtkapital × 100“ berechnet.",
-          "6.9 % liegt unter dem häufig genannten guten Bereich von 8–10 %.",
-          "Die Kennzahl ersetzt immer den Branchenvergleich.",
-          "Ein hoher Wert ist ausnahmslos gut."
+          "Der ROI zeigt, wie rentabel das gesamte eingesetzte Kapital arbeitet – unabhängig davon, ob es von Eigentümern oder Fremdkapitalgebern stammt.",
+          "Über 8–10 % gelten oft als gute Orientierung. Entscheidend sind aber Branche, Risiko und Kapitalkosten. Fremdkapitalzinsen werden addiert, weil sie Ertrag der Fremdkapitalgeber sind.",
+          "Die Kennzahl zeigt den absoluten Reingewinn direkt in Franken.",
+          "Die Kennzahl kann ohne Branchen-, Zeit- oder Risikovergleich abschließend beurteilt werden."
         ],
         "richtige_indices": [
           0,
           1
         ]
       },
-      "erklaerung": "6.9 % liegt unter dem häufig genannten guten Bereich von 8–10 %.",
-      "abschlusserklaerung": "6.9 % liegt unter dem häufig genannten guten Bereich von 8–10 %.",
+      "erklaerung": "Der ROI zeigt, wie rentabel das gesamte eingesetzte Kapital arbeitet – unabhängig davon, ob es von Eigentümern oder Fremdkapitalgebern stammt. Über 8–10 % gelten oft als gute Orientierung. Entscheidend sind aber Branche, Risiko und Kapitalkosten. Fremdkapitalzinsen werden addiert, weil sie Ertrag der Fremdkapitalgeber sind.",
+      "abschlusserklaerung": "Der ROI zeigt, wie rentabel das gesamte eingesetzte Kapital arbeitet – unabhängig davon, ob es von Eigentümern oder Fremdkapitalgebern stammt. Über 8–10 % gelten oft als gute Orientierung. Entscheidend sind aber Branche, Risiko und Kapitalkosten. Fremdkapitalzinsen werden addiert, weil sie Ertrag der Fremdkapitalgeber sind.",
       "loesungsvorschlag": {
-        "kurz": "6.9 % liegt unter dem häufig genannten guten Bereich von 8–10 %.",
-        "warum": "6.9 % liegt unter dem häufig genannten guten Bereich von 8–10 %."
+        "kurz": "Der ROI zeigt, wie rentabel das gesamte eingesetzte Kapital arbeitet – unabhängig davon, ob es von Eigentümern oder Fremdkapitalgebern stammt. Über 8–10 % gelten oft als gute Orientierung. Entscheidend sind aber Branche, Risiko und Kapitalkosten. Fremdkapitalzinsen werden addiert, weil sie Ertrag der Fremdkapitalgeber sind.",
+        "warum": "Der ROI zeigt, wie rentabel das gesamte eingesetzte Kapital arbeitet – unabhängig davon, ob es von Eigentümern oder Fremdkapitalgebern stammt. Über 8–10 % gelten oft als gute Orientierung. Entscheidend sind aber Branche, Risiko und Kapitalkosten. Fremdkapitalzinsen werden addiert, weil sie Ertrag der Fremdkapitalgeber sind."
       },
       "fehlerfallen": [],
-      "merksatz": "6.9 % liegt unter dem häufig genannten guten Bereich von 8–10 %.",
+      "merksatz": "Der ROI zeigt, wie rentabel das gesamte eingesetzte Kapital arbeitet – unabhängig davon, ob es von Eigentümern oder Fremdkapitalgebern stammt. Über 8–10 % gelten oft als gute Orientierung. Entscheidend sind aber Branche, Risiko und Kapitalkosten. Fremdkapitalzinsen werden addiert, weil sie Ertrag der Fremdkapitalgeber sind.",
       "review": {},
       "tags": [
         "formel",
@@ -11116,23 +12250,107 @@
       "typ": "formel_builder",
       "lernziel": "ROI (Gesamtkapitalrendite) auswählen, aus Jahresabschlusspositionen aufbauen und interpretieren.",
       "begriff_erklaerung": {
-        "kurz": "ROI (Gesamtkapitalrendite) zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
+        "kurz": "ROI (Gesamtkapitalrendite) zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört. Reingewinn ist der Erfolg nach Zinsen und Steuern; EBIT ist der operative Erfolg vor Zinsen und Steuern.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Tippe im Jahresabschluss die benötigten Positionen und Rechenzeichen für ROI (Gesamtkapitalrendite) in der richtigen Reihenfolge an.",
+      "frage": "Wähle aus Bilanz und Erfolgsrechnung nur die benötigten Positionen und setze daraus ROI (Gesamtkapitalrendite) zusammen.",
       "antwort_daten": {
         "bausteine": [
           {
-            "id": "gesamtkapital",
-            "label": "Gesamtkapital · CHF 1'300'000"
+            "id": "fluessige_mittel",
+            "label": "Flüssige Mittel · CHF 120'000"
           },
           {
-            "id": "gewinn",
-            "label": "Gewinn · CHF 90'000"
+            "id": "forderungen",
+            "label": "Forderungen · CHF 180'000"
+          },
+          {
+            "id": "vorrat",
+            "label": "Vorräte · CHF 300'000"
+          },
+          {
+            "id": "umlaufvermoegen",
+            "label": "Umlaufvermögen · CHF 600'000"
+          },
+          {
+            "id": "maschinen",
+            "label": "Maschinen · CHF 420'000"
+          },
+          {
+            "id": "anlagevermoegen",
+            "label": "Anlagevermögen · CHF 700'000"
+          },
+          {
+            "id": "gesamtkapital",
+            "label": "Bilanzsumme / Gesamtkapital · CHF 1'300'000"
+          },
+          {
+            "id": "verbindlichkeiten",
+            "label": "Verbindlichkeiten · CHF 160'000"
+          },
+          {
+            "id": "kurzfristiges_fk",
+            "label": "Kurzfristiges FK · CHF 300'000"
+          },
+          {
+            "id": "langfristiges_fk",
+            "label": "Langfristiges FK · CHF 400'000"
+          },
+          {
+            "id": "fremdkapital",
+            "label": "Fremdkapital · CHF 700'000"
+          },
+          {
+            "id": "eigenkapital",
+            "label": "Eigenkapital · CHF 600'000"
+          },
+          {
+            "id": "aktienkapital",
+            "label": "Aktienkapital · CHF 400'000"
+          },
+          {
+            "id": "reserven",
+            "label": "Reserven · CHF 110'000"
+          },
+          {
+            "id": "reingewinn",
+            "label": "Reingewinn · CHF 90'000"
+          },
+          {
+            "id": "ebit",
+            "label": "EBIT · CHF 150'000"
+          },
+          {
+            "id": "fk_zinsen",
+            "label": "Fremdkapitalzinsen · CHF 20'000"
+          },
+          {
+            "id": "nettoerloes",
+            "label": "Nettoerlös · CHF 1'800'000"
+          },
+          {
+            "id": "personalaufwand",
+            "label": "Personalaufwand · CHF 420'000"
+          },
+          {
+            "id": "ist_umsatz",
+            "label": "Ist-Umsatz · CHF 1'800'000"
+          },
+          {
+            "id": "bep_umsatz",
+            "label": "BEP-Umsatz · CHF 1'350'000"
           },
           {
             "id": "geteilt",
             "label": "÷"
+          },
+          {
+            "id": "plus",
+            "label": "+"
+          },
+          {
+            "id": "minus",
+            "label": "−"
           },
           {
             "id": "mal_hundert",
@@ -11140,38 +12358,60 @@
           }
         ],
         "richtige_reihenfolge": [
-          "gewinn",
+          "reingewinn",
+          "plus",
+          "fk_zinsen",
           "geteilt",
           "gesamtkapital",
           "mal_hundert"
         ],
         "bilanz": {
           "aktiven": [
+            "fluessige_mittel",
+            "forderungen",
+            "vorrat",
+            "umlaufvermoegen",
+            "maschinen",
+            "anlagevermoegen",
             "gesamtkapital"
           ],
-          "passiven": [],
+          "passiven": [
+            "verbindlichkeiten",
+            "kurzfristiges_fk",
+            "langfristiges_fk",
+            "fremdkapital",
+            "aktienkapital",
+            "reserven",
+            "eigenkapital"
+          ],
           "erfolgsrechnung": [
-            "gewinn"
+            "nettoerloes",
+            "personalaufwand",
+            "ebit",
+            "fk_zinsen",
+            "reingewinn",
+            "ist_umsatz",
+            "bep_umsatz"
           ]
         },
-        "formel": "Gewinn ÷ Gesamtkapital × 100",
+        "formel": "(Reingewinn + Fremdkapitalzinsen) ÷ Gesamtkapital × 100",
         "ergebnis": {
           "automatisch": true,
-          "richtiger_wert": 6.9,
+          "richtiger_wert": 8.5,
           "toleranz": 0.1,
           "einheit": "%",
           "rechenbasis": "Die App berechnet das Resultat aus den angezeigten Werten."
         }
       },
-      "aufgaben_hinweis": "Du stellst nur die Formel zusammen; das Resultat berechnet die App automatisch.",
-      "erklaerung": "6.9 % liegt unter dem häufig genannten guten Bereich von 8–10 %.",
-      "abschlusserklaerung": "6.9 % liegt unter dem häufig genannten guten Bereich von 8–10 %.",
+      "aufgaben_hinweis": "Nicht alle angezeigten Konten und Rechenzeichen gehören in die Formel. Das Resultat wird nach dem korrekten Aufbau automatisch berechnet.",
+      "erklaerung": "8.5 % liegen im häufig genannten guten Orientierungsbereich. Das Gesamtkapital wird ordentlich verzinst, sollte aber mit Branche und Kapitalkosten verglichen werden.",
+      "abschlusserklaerung": "8.5 % liegen im häufig genannten guten Orientierungsbereich. Das Gesamtkapital wird ordentlich verzinst, sollte aber mit Branche und Kapitalkosten verglichen werden.",
       "loesungsvorschlag": {
-        "kurz": "6.9 % liegt unter dem häufig genannten guten Bereich von 8–10 %.",
-        "warum": "6.9 % liegt unter dem häufig genannten guten Bereich von 8–10 %."
+        "kurz": "8.5 % liegen im häufig genannten guten Orientierungsbereich. Das Gesamtkapital wird ordentlich verzinst, sollte aber mit Branche und Kapitalkosten verglichen werden.",
+        "warum": "8.5 % liegen im häufig genannten guten Orientierungsbereich. Das Gesamtkapital wird ordentlich verzinst, sollte aber mit Branche und Kapitalkosten verglichen werden."
       },
       "fehlerfallen": [],
-      "merksatz": "6.9 % liegt unter dem häufig genannten guten Bereich von 8–10 %.",
+      "merksatz": "8.5 % liegen im häufig genannten guten Orientierungsbereich. Das Gesamtkapital wird ordentlich verzinst, sollte aber mit Branche und Kapitalkosten verglichen werden.",
       "review": {},
       "tags": [
         "formel",
@@ -11192,27 +12432,27 @@
       "typ": "single_choice",
       "lernziel": "ROI (Gesamtkapitalrendite) auswählen, aus Jahresabschlusspositionen aufbauen und interpretieren.",
       "begriff_erklaerung": {
-        "kurz": "ROI (Gesamtkapitalrendite) zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
+        "kurz": "ROI (Gesamtkapitalrendite) zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört. Reingewinn ist der Erfolg nach Zinsen und Steuern; EBIT ist der operative Erfolg vor Zinsen und Steuern.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Das berechnete Resultat beträgt 6.9 %. Welche Interpretation passt?",
+      "frage": "Das berechnete Resultat beträgt 8.5 %. Wie ist dieses Ergebnis fachlich zu beurteilen?",
       "antwort_daten": {
         "optionen": [
-          "6.9 % liegt unter dem häufig genannten guten Bereich von 8–10 %.",
-          "Das Resultat beweist automatisch eine ausgezeichnete Gesamtlage.",
-          "Die Kennzahl zeigt ausschließlich die Zahlungsfähigkeit heute.",
-          "Ohne weitere Rechnung lässt sich daraus der absolute Gewinn ablesen."
+          "8.5 % liegen im häufig genannten guten Orientierungsbereich. Das Gesamtkapital wird ordentlich verzinst, sollte aber mit Branche und Kapitalkosten verglichen werden.",
+          "Der Wert ist automatisch optimal, weil jede positive Kennzahl gut ist.",
+          "Der Wert beweist unabhängig von Branche und Entwicklung eine schlechte Gesamtlage.",
+          "Aus dieser Kennzahl allein lässt sich der absolute Reingewinn direkt ablesen."
         ],
         "richtig_index": 0
       },
-      "erklaerung": "6.9 % liegt unter dem häufig genannten guten Bereich von 8–10 %. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-      "abschlusserklaerung": "6.9 % liegt unter dem häufig genannten guten Bereich von 8–10 %. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "erklaerung": "8.5 % liegen im häufig genannten guten Orientierungsbereich. Das Gesamtkapital wird ordentlich verzinst, sollte aber mit Branche und Kapitalkosten verglichen werden.",
+      "abschlusserklaerung": "8.5 % liegen im häufig genannten guten Orientierungsbereich. Das Gesamtkapital wird ordentlich verzinst, sollte aber mit Branche und Kapitalkosten verglichen werden.",
       "loesungsvorschlag": {
-        "kurz": "6.9 % liegt unter dem häufig genannten guten Bereich von 8–10 %. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-        "warum": "6.9 % liegt unter dem häufig genannten guten Bereich von 8–10 %. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden."
+        "kurz": "8.5 % liegen im häufig genannten guten Orientierungsbereich. Das Gesamtkapital wird ordentlich verzinst, sollte aber mit Branche und Kapitalkosten verglichen werden.",
+        "warum": "8.5 % liegen im häufig genannten guten Orientierungsbereich. Das Gesamtkapital wird ordentlich verzinst, sollte aber mit Branche und Kapitalkosten verglichen werden."
       },
       "fehlerfallen": [],
-      "merksatz": "6.9 % liegt unter dem häufig genannten guten Bereich von 8–10 %. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "merksatz": "8.5 % liegen im häufig genannten guten Orientierungsbereich. Das Gesamtkapital wird ordentlich verzinst, sollte aber mit Branche und Kapitalkosten verglichen werden.",
       "review": {},
       "tags": [
         "formel",
@@ -11240,9 +12480,9 @@
       "antwort_daten": {
         "optionen": [
           "(Ist-Umsatz − Break-even-Umsatz) ÷ Ist-Umsatz × 100",
-          "Gewinn ÷ Nettoerlös × 100",
-          "Fremdkapital ÷ Gesamtkapital × 100",
-          "Umlaufvermögen ÷ Eigenkapital × 100"
+          "Flüssige Mittel ÷ kurzfristiges Fremdkapital × 100",
+          "Umlaufvermögen ÷ kurzfristiges Fremdkapital × 100",
+          "Eigenkapital ÷ Gesamtkapital × 100"
         ],
         "richtig_index": 0
       },
@@ -11277,27 +12517,27 @@
         "kurz": "Sicherheitsmarge zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Was wird mit Sicherheitsmarge beurteilt? Wähle alle passenden Aussagen.",
+      "frage": "Welche Aussagen erklären die Aussagekraft und Beurteilung von Sicherheitsmarge richtig?",
       "antwort_daten": {
         "optionen": [
-          "Die Kennzahl wird mit der Formel „(Ist-Umsatz − Break-even-Umsatz) ÷ Ist-Umsatz × 100“ berechnet.",
-          "Der Umsatz kann um 25 % sinken, bevor die Gewinnschwelle erreicht wird.",
-          "Die Kennzahl ersetzt immer den Branchenvergleich.",
-          "Ein hoher Wert ist ausnahmslos gut."
+          "Sie zeigt, um wie viel Prozent der aktuelle Umsatz sinken darf, bevor die Gewinnschwelle erreicht wird.",
+          "Je höher die Sicherheitsmarge, desto robuster ist das Geschäft gegenüber Umsatzrückgängen. Ein sehr kleiner Wert weist auf ein hohes Verlustrisiko hin.",
+          "Die Kennzahl zeigt den absoluten Reingewinn direkt in Franken.",
+          "Die Kennzahl kann ohne Branchen-, Zeit- oder Risikovergleich abschließend beurteilt werden."
         ],
         "richtige_indices": [
           0,
           1
         ]
       },
-      "erklaerung": "Der Umsatz kann um 25 % sinken, bevor die Gewinnschwelle erreicht wird.",
-      "abschlusserklaerung": "Der Umsatz kann um 25 % sinken, bevor die Gewinnschwelle erreicht wird.",
+      "erklaerung": "Sie zeigt, um wie viel Prozent der aktuelle Umsatz sinken darf, bevor die Gewinnschwelle erreicht wird. Je höher die Sicherheitsmarge, desto robuster ist das Geschäft gegenüber Umsatzrückgängen. Ein sehr kleiner Wert weist auf ein hohes Verlustrisiko hin.",
+      "abschlusserklaerung": "Sie zeigt, um wie viel Prozent der aktuelle Umsatz sinken darf, bevor die Gewinnschwelle erreicht wird. Je höher die Sicherheitsmarge, desto robuster ist das Geschäft gegenüber Umsatzrückgängen. Ein sehr kleiner Wert weist auf ein hohes Verlustrisiko hin.",
       "loesungsvorschlag": {
-        "kurz": "Der Umsatz kann um 25 % sinken, bevor die Gewinnschwelle erreicht wird.",
-        "warum": "Der Umsatz kann um 25 % sinken, bevor die Gewinnschwelle erreicht wird."
+        "kurz": "Sie zeigt, um wie viel Prozent der aktuelle Umsatz sinken darf, bevor die Gewinnschwelle erreicht wird. Je höher die Sicherheitsmarge, desto robuster ist das Geschäft gegenüber Umsatzrückgängen. Ein sehr kleiner Wert weist auf ein hohes Verlustrisiko hin.",
+        "warum": "Sie zeigt, um wie viel Prozent der aktuelle Umsatz sinken darf, bevor die Gewinnschwelle erreicht wird. Je höher die Sicherheitsmarge, desto robuster ist das Geschäft gegenüber Umsatzrückgängen. Ein sehr kleiner Wert weist auf ein hohes Verlustrisiko hin."
       },
       "fehlerfallen": [],
-      "merksatz": "Der Umsatz kann um 25 % sinken, bevor die Gewinnschwelle erreicht wird.",
+      "merksatz": "Sie zeigt, um wie viel Prozent der aktuelle Umsatz sinken darf, bevor die Gewinnschwelle erreicht wird. Je höher die Sicherheitsmarge, desto robuster ist das Geschäft gegenüber Umsatzrückgängen. Ein sehr kleiner Wert weist auf ein hohes Verlustrisiko hin.",
       "review": {},
       "tags": [
         "formel",
@@ -11321,9 +12561,85 @@
         "kurz": "Sicherheitsmarge zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Tippe im Jahresabschluss die benötigten Positionen und Rechenzeichen für Sicherheitsmarge in der richtigen Reihenfolge an.",
+      "frage": "Wähle aus Bilanz und Erfolgsrechnung nur die benötigten Positionen und setze daraus Sicherheitsmarge zusammen.",
       "antwort_daten": {
         "bausteine": [
+          {
+            "id": "fluessige_mittel",
+            "label": "Flüssige Mittel · CHF 120'000"
+          },
+          {
+            "id": "forderungen",
+            "label": "Forderungen · CHF 180'000"
+          },
+          {
+            "id": "vorrat",
+            "label": "Vorräte · CHF 300'000"
+          },
+          {
+            "id": "umlaufvermoegen",
+            "label": "Umlaufvermögen · CHF 600'000"
+          },
+          {
+            "id": "maschinen",
+            "label": "Maschinen · CHF 420'000"
+          },
+          {
+            "id": "anlagevermoegen",
+            "label": "Anlagevermögen · CHF 700'000"
+          },
+          {
+            "id": "gesamtkapital",
+            "label": "Bilanzsumme / Gesamtkapital · CHF 1'300'000"
+          },
+          {
+            "id": "verbindlichkeiten",
+            "label": "Verbindlichkeiten · CHF 160'000"
+          },
+          {
+            "id": "kurzfristiges_fk",
+            "label": "Kurzfristiges FK · CHF 300'000"
+          },
+          {
+            "id": "langfristiges_fk",
+            "label": "Langfristiges FK · CHF 400'000"
+          },
+          {
+            "id": "fremdkapital",
+            "label": "Fremdkapital · CHF 700'000"
+          },
+          {
+            "id": "eigenkapital",
+            "label": "Eigenkapital · CHF 600'000"
+          },
+          {
+            "id": "aktienkapital",
+            "label": "Aktienkapital · CHF 400'000"
+          },
+          {
+            "id": "reserven",
+            "label": "Reserven · CHF 110'000"
+          },
+          {
+            "id": "reingewinn",
+            "label": "Reingewinn · CHF 90'000"
+          },
+          {
+            "id": "ebit",
+            "label": "EBIT · CHF 150'000"
+          },
+          {
+            "id": "fk_zinsen",
+            "label": "Fremdkapitalzinsen · CHF 20'000"
+          },
+          {
+            "id": "nettoerloes",
+            "label": "Nettoerlös · CHF 1'800'000"
+          },
+          {
+            "id": "personalaufwand",
+            "label": "Personalaufwand · CHF 420'000"
+          },
           {
             "id": "ist_umsatz",
             "label": "Ist-Umsatz · CHF 1'800'000"
@@ -11335,6 +12651,10 @@
           {
             "id": "geteilt",
             "label": "÷"
+          },
+          {
+            "id": "plus",
+            "label": "+"
           },
           {
             "id": "minus",
@@ -11354,9 +12674,30 @@
           "mal_hundert"
         ],
         "bilanz": {
-          "aktiven": [],
-          "passiven": [],
+          "aktiven": [
+            "fluessige_mittel",
+            "forderungen",
+            "vorrat",
+            "umlaufvermoegen",
+            "maschinen",
+            "anlagevermoegen",
+            "gesamtkapital"
+          ],
+          "passiven": [
+            "verbindlichkeiten",
+            "kurzfristiges_fk",
+            "langfristiges_fk",
+            "fremdkapital",
+            "aktienkapital",
+            "reserven",
+            "eigenkapital"
+          ],
           "erfolgsrechnung": [
+            "nettoerloes",
+            "personalaufwand",
+            "ebit",
+            "fk_zinsen",
+            "reingewinn",
             "ist_umsatz",
             "bep_umsatz"
           ]
@@ -11370,15 +12711,15 @@
           "rechenbasis": "Die App berechnet das Resultat aus den angezeigten Werten."
         }
       },
-      "aufgaben_hinweis": "Du stellst nur die Formel zusammen; das Resultat berechnet die App automatisch.",
-      "erklaerung": "Der Umsatz kann um 25 % sinken, bevor die Gewinnschwelle erreicht wird.",
-      "abschlusserklaerung": "Der Umsatz kann um 25 % sinken, bevor die Gewinnschwelle erreicht wird.",
+      "aufgaben_hinweis": "Nicht alle angezeigten Konten und Rechenzeichen gehören in die Formel. Das Resultat wird nach dem korrekten Aufbau automatisch berechnet.",
+      "erklaerung": "25 % bedeuten: Der Umsatz kann um ein Viertel sinken, bevor die Gewinnschwelle erreicht wird. Das bietet einen spürbaren, aber nicht unbegrenzten Puffer.",
+      "abschlusserklaerung": "25 % bedeuten: Der Umsatz kann um ein Viertel sinken, bevor die Gewinnschwelle erreicht wird. Das bietet einen spürbaren, aber nicht unbegrenzten Puffer.",
       "loesungsvorschlag": {
-        "kurz": "Der Umsatz kann um 25 % sinken, bevor die Gewinnschwelle erreicht wird.",
-        "warum": "Der Umsatz kann um 25 % sinken, bevor die Gewinnschwelle erreicht wird."
+        "kurz": "25 % bedeuten: Der Umsatz kann um ein Viertel sinken, bevor die Gewinnschwelle erreicht wird. Das bietet einen spürbaren, aber nicht unbegrenzten Puffer.",
+        "warum": "25 % bedeuten: Der Umsatz kann um ein Viertel sinken, bevor die Gewinnschwelle erreicht wird. Das bietet einen spürbaren, aber nicht unbegrenzten Puffer."
       },
       "fehlerfallen": [],
-      "merksatz": "Der Umsatz kann um 25 % sinken, bevor die Gewinnschwelle erreicht wird.",
+      "merksatz": "25 % bedeuten: Der Umsatz kann um ein Viertel sinken, bevor die Gewinnschwelle erreicht wird. Das bietet einen spürbaren, aber nicht unbegrenzten Puffer.",
       "review": {},
       "tags": [
         "formel",
@@ -11402,24 +12743,24 @@
         "kurz": "Sicherheitsmarge zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Das berechnete Resultat beträgt 25 %. Welche Interpretation passt?",
+      "frage": "Das berechnete Resultat beträgt 25 %. Wie ist dieses Ergebnis fachlich zu beurteilen?",
       "antwort_daten": {
         "optionen": [
-          "Der Umsatz kann um 25 % sinken, bevor die Gewinnschwelle erreicht wird.",
-          "Das Resultat beweist automatisch eine ausgezeichnete Gesamtlage.",
-          "Die Kennzahl zeigt ausschließlich die Zahlungsfähigkeit heute.",
-          "Ohne weitere Rechnung lässt sich daraus der absolute Gewinn ablesen."
+          "25 % bedeuten: Der Umsatz kann um ein Viertel sinken, bevor die Gewinnschwelle erreicht wird. Das bietet einen spürbaren, aber nicht unbegrenzten Puffer.",
+          "Der Wert ist automatisch optimal, weil jede positive Kennzahl gut ist.",
+          "Der Wert beweist unabhängig von Branche und Entwicklung eine schlechte Gesamtlage.",
+          "Aus dieser Kennzahl allein lässt sich der absolute Reingewinn direkt ablesen."
         ],
         "richtig_index": 0
       },
-      "erklaerung": "Der Umsatz kann um 25 % sinken, bevor die Gewinnschwelle erreicht wird. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-      "abschlusserklaerung": "Der Umsatz kann um 25 % sinken, bevor die Gewinnschwelle erreicht wird. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "erklaerung": "25 % bedeuten: Der Umsatz kann um ein Viertel sinken, bevor die Gewinnschwelle erreicht wird. Das bietet einen spürbaren, aber nicht unbegrenzten Puffer.",
+      "abschlusserklaerung": "25 % bedeuten: Der Umsatz kann um ein Viertel sinken, bevor die Gewinnschwelle erreicht wird. Das bietet einen spürbaren, aber nicht unbegrenzten Puffer.",
       "loesungsvorschlag": {
-        "kurz": "Der Umsatz kann um 25 % sinken, bevor die Gewinnschwelle erreicht wird. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-        "warum": "Der Umsatz kann um 25 % sinken, bevor die Gewinnschwelle erreicht wird. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden."
+        "kurz": "25 % bedeuten: Der Umsatz kann um ein Viertel sinken, bevor die Gewinnschwelle erreicht wird. Das bietet einen spürbaren, aber nicht unbegrenzten Puffer.",
+        "warum": "25 % bedeuten: Der Umsatz kann um ein Viertel sinken, bevor die Gewinnschwelle erreicht wird. Das bietet einen spürbaren, aber nicht unbegrenzten Puffer."
       },
       "fehlerfallen": [],
-      "merksatz": "Der Umsatz kann um 25 % sinken, bevor die Gewinnschwelle erreicht wird. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "merksatz": "25 % bedeuten: Der Umsatz kann um ein Viertel sinken, bevor die Gewinnschwelle erreicht wird. Das bietet einen spürbaren, aber nicht unbegrenzten Puffer.",
       "review": {},
       "tags": [
         "formel",
@@ -11776,9 +13117,9 @@
       "antwort_daten": {
         "optionen": [
           "Fremdkapital ÷ Eigenkapital × 100",
-          "Gewinn ÷ Nettoerlös × 100",
-          "Fremdkapital ÷ Gesamtkapital × 100",
-          "Umlaufvermögen ÷ Eigenkapital × 100"
+          "Flüssige Mittel ÷ kurzfristiges Fremdkapital × 100",
+          "Umlaufvermögen ÷ kurzfristiges Fremdkapital × 100",
+          "Eigenkapital ÷ Gesamtkapital × 100"
         ],
         "richtig_index": 0
       },
@@ -11813,27 +13154,27 @@
         "kurz": "Verschuldungsgrad zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Was wird mit Verschuldungsgrad beurteilt? Wähle alle passenden Aussagen.",
+      "frage": "Welche Aussagen erklären die Aussagekraft und Beurteilung von Verschuldungsgrad richtig?",
       "antwort_daten": {
         "optionen": [
-          "Die Kennzahl wird mit der Formel „Fremdkapital ÷ Eigenkapital × 100“ berechnet.",
-          "Auf CHF 100 Eigenkapital entfallen rund CHF 116.70 Fremdkapital.",
-          "Die Kennzahl ersetzt immer den Branchenvergleich.",
-          "Ein hoher Wert ist ausnahmslos gut."
+          "Er zeigt das Verhältnis von Fremdkapital zu Eigenkapital und damit die finanzielle Hebelwirkung und Abhängigkeit.",
+          "Es gibt keinen universellen Idealwert. Ein steigender Wert bedeutet grundsätzlich mehr Fremdfinanzierung und damit meist mehr finanzielles Risiko.",
+          "Die Kennzahl zeigt den absoluten Reingewinn direkt in Franken.",
+          "Die Kennzahl kann ohne Branchen-, Zeit- oder Risikovergleich abschließend beurteilt werden."
         ],
         "richtige_indices": [
           0,
           1
         ]
       },
-      "erklaerung": "Auf CHF 100 Eigenkapital entfallen rund CHF 116.70 Fremdkapital.",
-      "abschlusserklaerung": "Auf CHF 100 Eigenkapital entfallen rund CHF 116.70 Fremdkapital.",
+      "erklaerung": "Er zeigt das Verhältnis von Fremdkapital zu Eigenkapital und damit die finanzielle Hebelwirkung und Abhängigkeit. Es gibt keinen universellen Idealwert. Ein steigender Wert bedeutet grundsätzlich mehr Fremdfinanzierung und damit meist mehr finanzielles Risiko.",
+      "abschlusserklaerung": "Er zeigt das Verhältnis von Fremdkapital zu Eigenkapital und damit die finanzielle Hebelwirkung und Abhängigkeit. Es gibt keinen universellen Idealwert. Ein steigender Wert bedeutet grundsätzlich mehr Fremdfinanzierung und damit meist mehr finanzielles Risiko.",
       "loesungsvorschlag": {
-        "kurz": "Auf CHF 100 Eigenkapital entfallen rund CHF 116.70 Fremdkapital.",
-        "warum": "Auf CHF 100 Eigenkapital entfallen rund CHF 116.70 Fremdkapital."
+        "kurz": "Er zeigt das Verhältnis von Fremdkapital zu Eigenkapital und damit die finanzielle Hebelwirkung und Abhängigkeit. Es gibt keinen universellen Idealwert. Ein steigender Wert bedeutet grundsätzlich mehr Fremdfinanzierung und damit meist mehr finanzielles Risiko.",
+        "warum": "Er zeigt das Verhältnis von Fremdkapital zu Eigenkapital und damit die finanzielle Hebelwirkung und Abhängigkeit. Es gibt keinen universellen Idealwert. Ein steigender Wert bedeutet grundsätzlich mehr Fremdfinanzierung und damit meist mehr finanzielles Risiko."
       },
       "fehlerfallen": [],
-      "merksatz": "Auf CHF 100 Eigenkapital entfallen rund CHF 116.70 Fremdkapital.",
+      "merksatz": "Er zeigt das Verhältnis von Fremdkapital zu Eigenkapital und damit die finanzielle Hebelwirkung und Abhängigkeit. Es gibt keinen universellen Idealwert. Ein steigender Wert bedeutet grundsätzlich mehr Fremdfinanzierung und damit meist mehr finanzielles Risiko.",
       "review": {},
       "tags": [
         "formel",
@@ -11857,9 +13198,49 @@
         "kurz": "Verschuldungsgrad zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Tippe im Jahresabschluss die benötigten Positionen und Rechenzeichen für Verschuldungsgrad in der richtigen Reihenfolge an.",
+      "frage": "Wähle aus Bilanz und Erfolgsrechnung nur die benötigten Positionen und setze daraus Verschuldungsgrad zusammen.",
       "antwort_daten": {
         "bausteine": [
+          {
+            "id": "fluessige_mittel",
+            "label": "Flüssige Mittel · CHF 120'000"
+          },
+          {
+            "id": "forderungen",
+            "label": "Forderungen · CHF 180'000"
+          },
+          {
+            "id": "vorrat",
+            "label": "Vorräte · CHF 300'000"
+          },
+          {
+            "id": "umlaufvermoegen",
+            "label": "Umlaufvermögen · CHF 600'000"
+          },
+          {
+            "id": "maschinen",
+            "label": "Maschinen · CHF 420'000"
+          },
+          {
+            "id": "anlagevermoegen",
+            "label": "Anlagevermögen · CHF 700'000"
+          },
+          {
+            "id": "gesamtkapital",
+            "label": "Bilanzsumme / Gesamtkapital · CHF 1'300'000"
+          },
+          {
+            "id": "verbindlichkeiten",
+            "label": "Verbindlichkeiten · CHF 160'000"
+          },
+          {
+            "id": "kurzfristiges_fk",
+            "label": "Kurzfristiges FK · CHF 300'000"
+          },
+          {
+            "id": "langfristiges_fk",
+            "label": "Langfristiges FK · CHF 400'000"
+          },
           {
             "id": "fremdkapital",
             "label": "Fremdkapital · CHF 700'000"
@@ -11869,8 +13250,52 @@
             "label": "Eigenkapital · CHF 600'000"
           },
           {
+            "id": "aktienkapital",
+            "label": "Aktienkapital · CHF 400'000"
+          },
+          {
+            "id": "reserven",
+            "label": "Reserven · CHF 110'000"
+          },
+          {
+            "id": "reingewinn",
+            "label": "Reingewinn · CHF 90'000"
+          },
+          {
+            "id": "ebit",
+            "label": "EBIT · CHF 150'000"
+          },
+          {
+            "id": "fk_zinsen",
+            "label": "Fremdkapitalzinsen · CHF 20'000"
+          },
+          {
+            "id": "nettoerloes",
+            "label": "Nettoerlös · CHF 1'800'000"
+          },
+          {
+            "id": "personalaufwand",
+            "label": "Personalaufwand · CHF 420'000"
+          },
+          {
+            "id": "ist_umsatz",
+            "label": "Ist-Umsatz · CHF 1'800'000"
+          },
+          {
+            "id": "bep_umsatz",
+            "label": "BEP-Umsatz · CHF 1'350'000"
+          },
+          {
             "id": "geteilt",
             "label": "÷"
+          },
+          {
+            "id": "plus",
+            "label": "+"
+          },
+          {
+            "id": "minus",
+            "label": "−"
           },
           {
             "id": "mal_hundert",
@@ -11884,12 +13309,33 @@
           "mal_hundert"
         ],
         "bilanz": {
-          "aktiven": [],
+          "aktiven": [
+            "fluessige_mittel",
+            "forderungen",
+            "vorrat",
+            "umlaufvermoegen",
+            "maschinen",
+            "anlagevermoegen",
+            "gesamtkapital"
+          ],
           "passiven": [
+            "verbindlichkeiten",
+            "kurzfristiges_fk",
+            "langfristiges_fk",
             "fremdkapital",
+            "aktienkapital",
+            "reserven",
             "eigenkapital"
           ],
-          "erfolgsrechnung": []
+          "erfolgsrechnung": [
+            "nettoerloes",
+            "personalaufwand",
+            "ebit",
+            "fk_zinsen",
+            "reingewinn",
+            "ist_umsatz",
+            "bep_umsatz"
+          ]
         },
         "formel": "Fremdkapital ÷ Eigenkapital × 100",
         "ergebnis": {
@@ -11900,15 +13346,15 @@
           "rechenbasis": "Die App berechnet das Resultat aus den angezeigten Werten."
         }
       },
-      "aufgaben_hinweis": "Du stellst nur die Formel zusammen; das Resultat berechnet die App automatisch.",
-      "erklaerung": "Auf CHF 100 Eigenkapital entfallen rund CHF 116.70 Fremdkapital.",
-      "abschlusserklaerung": "Auf CHF 100 Eigenkapital entfallen rund CHF 116.70 Fremdkapital.",
+      "aufgaben_hinweis": "Nicht alle angezeigten Konten und Rechenzeichen gehören in die Formel. Das Resultat wird nach dem korrekten Aufbau automatisch berechnet.",
+      "erklaerung": "116.7 % bedeuten: Auf CHF 100 Eigenkapital entfallen CHF 116.70 Fremdkapital. Das Fremdkapital ist etwas höher als das Eigenkapital.",
+      "abschlusserklaerung": "116.7 % bedeuten: Auf CHF 100 Eigenkapital entfallen CHF 116.70 Fremdkapital. Das Fremdkapital ist etwas höher als das Eigenkapital.",
       "loesungsvorschlag": {
-        "kurz": "Auf CHF 100 Eigenkapital entfallen rund CHF 116.70 Fremdkapital.",
-        "warum": "Auf CHF 100 Eigenkapital entfallen rund CHF 116.70 Fremdkapital."
+        "kurz": "116.7 % bedeuten: Auf CHF 100 Eigenkapital entfallen CHF 116.70 Fremdkapital. Das Fremdkapital ist etwas höher als das Eigenkapital.",
+        "warum": "116.7 % bedeuten: Auf CHF 100 Eigenkapital entfallen CHF 116.70 Fremdkapital. Das Fremdkapital ist etwas höher als das Eigenkapital."
       },
       "fehlerfallen": [],
-      "merksatz": "Auf CHF 100 Eigenkapital entfallen rund CHF 116.70 Fremdkapital.",
+      "merksatz": "116.7 % bedeuten: Auf CHF 100 Eigenkapital entfallen CHF 116.70 Fremdkapital. Das Fremdkapital ist etwas höher als das Eigenkapital.",
       "review": {},
       "tags": [
         "formel",
@@ -11932,24 +13378,24 @@
         "kurz": "Verschuldungsgrad zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.",
         "pruefungsrelevant": "In der Prüfung müssen die richtigen Positionen aus Bilanz oder Erfolgsrechnung ausgewählt und das Resultat fachlich interpretiert werden."
       },
-      "frage": "Das berechnete Resultat beträgt 116.7 %. Welche Interpretation passt?",
+      "frage": "Das berechnete Resultat beträgt 116.7 %. Wie ist dieses Ergebnis fachlich zu beurteilen?",
       "antwort_daten": {
         "optionen": [
-          "Auf CHF 100 Eigenkapital entfallen rund CHF 116.70 Fremdkapital.",
-          "Das Resultat beweist automatisch eine ausgezeichnete Gesamtlage.",
-          "Die Kennzahl zeigt ausschließlich die Zahlungsfähigkeit heute.",
-          "Ohne weitere Rechnung lässt sich daraus der absolute Gewinn ablesen."
+          "116.7 % bedeuten: Auf CHF 100 Eigenkapital entfallen CHF 116.70 Fremdkapital. Das Fremdkapital ist etwas höher als das Eigenkapital.",
+          "Der Wert ist automatisch optimal, weil jede positive Kennzahl gut ist.",
+          "Der Wert beweist unabhängig von Branche und Entwicklung eine schlechte Gesamtlage.",
+          "Aus dieser Kennzahl allein lässt sich der absolute Reingewinn direkt ablesen."
         ],
         "richtig_index": 0
       },
-      "erklaerung": "Auf CHF 100 Eigenkapital entfallen rund CHF 116.70 Fremdkapital. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-      "abschlusserklaerung": "Auf CHF 100 Eigenkapital entfallen rund CHF 116.70 Fremdkapital. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "erklaerung": "116.7 % bedeuten: Auf CHF 100 Eigenkapital entfallen CHF 116.70 Fremdkapital. Das Fremdkapital ist etwas höher als das Eigenkapital.",
+      "abschlusserklaerung": "116.7 % bedeuten: Auf CHF 100 Eigenkapital entfallen CHF 116.70 Fremdkapital. Das Fremdkapital ist etwas höher als das Eigenkapital.",
       "loesungsvorschlag": {
-        "kurz": "Auf CHF 100 Eigenkapital entfallen rund CHF 116.70 Fremdkapital. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
-        "warum": "Auf CHF 100 Eigenkapital entfallen rund CHF 116.70 Fremdkapital. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden."
+        "kurz": "116.7 % bedeuten: Auf CHF 100 Eigenkapital entfallen CHF 116.70 Fremdkapital. Das Fremdkapital ist etwas höher als das Eigenkapital.",
+        "warum": "116.7 % bedeuten: Auf CHF 100 Eigenkapital entfallen CHF 116.70 Fremdkapital. Das Fremdkapital ist etwas höher als das Eigenkapital."
       },
       "fehlerfallen": [],
-      "merksatz": "Auf CHF 100 Eigenkapital entfallen rund CHF 116.70 Fremdkapital. Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.",
+      "merksatz": "116.7 % bedeuten: Auf CHF 100 Eigenkapital entfallen CHF 116.70 Fremdkapital. Das Fremdkapital ist etwas höher als das Eigenkapital.",
       "review": {},
       "tags": [
         "formel",

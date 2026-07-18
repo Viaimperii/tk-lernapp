@@ -235,16 +235,23 @@ function baseCard({ id, title, stage, type, intro, question, answer, explanation
 const common = [
   { id: 'fluessige_mittel', label: "Flüssige Mittel · CHF 120'000" },
   { id: 'forderungen', label: "Forderungen · CHF 180'000" },
+  { id: 'vorrat', label: "Vorräte · CHF 300'000" },
   { id: 'umlaufvermoegen', label: "Umlaufvermögen · CHF 600'000" },
+  { id: 'maschinen', label: "Maschinen · CHF 420'000" },
   { id: 'anlagevermoegen', label: "Anlagevermögen · CHF 700'000" },
-  { id: 'gesamtkapital', label: "Gesamtkapital · CHF 1'300'000" },
+  { id: 'gesamtkapital', label: "Bilanzsumme / Gesamtkapital · CHF 1'300'000" },
+  { id: 'verbindlichkeiten', label: "Verbindlichkeiten · CHF 160'000" },
   { id: 'kurzfristiges_fk', label: "Kurzfristiges FK · CHF 300'000" },
   { id: 'langfristiges_fk', label: "Langfristiges FK · CHF 400'000" },
   { id: 'fremdkapital', label: "Fremdkapital · CHF 700'000" },
   { id: 'eigenkapital', label: "Eigenkapital · CHF 600'000" },
-  { id: 'gewinn', label: "Gewinn · CHF 90'000" },
+  { id: 'aktienkapital', label: "Aktienkapital · CHF 400'000" },
+  { id: 'reserven', label: "Reserven · CHF 110'000" },
+  { id: 'reingewinn', label: "Reingewinn · CHF 90'000" },
   { id: 'ebit', label: "EBIT · CHF 150'000" },
+  { id: 'fk_zinsen', label: "Fremdkapitalzinsen · CHF 20'000" },
   { id: 'nettoerloes', label: "Nettoerlös · CHF 1'800'000" },
+  { id: 'personalaufwand', label: "Personalaufwand · CHF 420'000" },
   { id: 'ist_umsatz', label: "Ist-Umsatz · CHF 1'800'000" },
   { id: 'bep_umsatz', label: "BEP-Umsatz · CHF 1'350'000" },
   { id: 'geteilt', label: '÷' },
@@ -254,45 +261,62 @@ const common = [
 ]
 
 const formulas = [
-  ['liquiditaetsgrad_1', 'Liquiditätsgrad I', 'Flüssige Mittel ÷ kurzfristiges Fremdkapital × 100', ['fluessige_mittel', 'geteilt', 'kurzfristiges_fk', 'mal_hundert'], 40, '20–30 % gelten häufig als Richtbereich; 40 % bedeutet eine komfortable sofortige Liquidität.', ['fluessige_mittel'], ['kurzfristiges_fk']],
-  ['liquiditaetsgrad_2', 'Liquiditätsgrad II', '(Flüssige Mittel + Forderungen) ÷ kurzfristiges Fremdkapital × 100', ['fluessige_mittel', 'plus', 'forderungen', 'geteilt', 'kurzfristiges_fk', 'mal_hundert'], 100, '100 % bedeutet, dass das kurzfristige Fremdkapital ohne Verkauf der Vorräte gedeckt ist.', ['fluessige_mittel', 'forderungen'], ['kurzfristiges_fk']],
-  ['liquiditaetsgrad_3', 'Liquiditätsgrad III', 'Umlaufvermögen ÷ kurzfristiges Fremdkapital × 100', ['umlaufvermoegen', 'geteilt', 'kurzfristiges_fk', 'mal_hundert'], 200, '200 % liegt am oberen Rand des üblichen Richtbereichs von 150–200 %.', ['umlaufvermoegen'], ['kurzfristiges_fk']],
-  ['eigenfinanzierungsgrad', 'Eigenfinanzierungsgrad', 'Eigenkapital ÷ Gesamtkapital × 100', ['eigenkapital', 'geteilt', 'gesamtkapital', 'mal_hundert'], 46.2, '46.2 % liegt im häufig genannten soliden Bereich von 30–50 %.', ['gesamtkapital'], ['eigenkapital']],
-  ['fremdfinanzierungsgrad', 'Fremdfinanzierungsgrad', 'Fremdkapital ÷ Gesamtkapital × 100', ['fremdkapital', 'geteilt', 'gesamtkapital', 'mal_hundert'], 53.8, '53.8 % des Gesamtkapitals stammen von Fremdkapitalgebern.', ['gesamtkapital'], ['fremdkapital']],
-  ['verschuldungsgrad', 'Verschuldungsgrad', 'Fremdkapital ÷ Eigenkapital × 100', ['fremdkapital', 'geteilt', 'eigenkapital', 'mal_hundert'], 116.7, 'Auf CHF 100 Eigenkapital entfallen rund CHF 116.70 Fremdkapital.', [], ['fremdkapital', 'eigenkapital']],
-  ['anlagedeckungsgrad_1', 'Anlagedeckungsgrad I', 'Eigenkapital ÷ Anlagevermögen × 100', ['eigenkapital', 'geteilt', 'anlagevermoegen', 'mal_hundert'], 85.7, '85.7 % des Anlagevermögens sind durch Eigenkapital gedeckt.', ['anlagevermoegen'], ['eigenkapital']],
-  ['anlagedeckungsgrad_2', 'Anlagedeckungsgrad II', '(Eigenkapital + langfristiges Fremdkapital) ÷ Anlagevermögen × 100', ['eigenkapital', 'plus', 'langfristiges_fk', 'geteilt', 'anlagevermoegen', 'mal_hundert'], 142.9, 'Über 100 %: Die goldene Bilanzregel ist erfüllt.', ['anlagevermoegen'], ['eigenkapital', 'langfristiges_fk']],
-  ['roi', 'ROI (Gesamtkapitalrendite)', 'Gewinn ÷ Gesamtkapital × 100', ['gewinn', 'geteilt', 'gesamtkapital', 'mal_hundert'], 6.9, '6.9 % liegt unter dem häufig genannten guten Bereich von 8–10 %.', ['gesamtkapital'], [], ['gewinn']],
-  ['roe', 'ROE (Eigenkapitalrendite)', 'Gewinn ÷ Eigenkapital × 100', ['gewinn', 'geteilt', 'eigenkapital', 'mal_hundert'], 15, 'Das Eigenkapital wird mit 15 % verzinst; für die Beurteilung ist ein Branchenvergleich nötig.', [], ['eigenkapital'], ['gewinn']],
-  ['nettogewinnquote', 'Nettogewinnquote', 'Gewinn ÷ Nettoerlös × 100', ['gewinn', 'geteilt', 'nettoerloes', 'mal_hundert'], 5, 'Von CHF 100 Nettoerlös bleiben CHF 5 Gewinn.', [], [], ['gewinn', 'nettoerloes']],
-  ['ebit_marge', 'EBIT-Marge', 'EBIT ÷ Nettoerlös × 100', ['ebit', 'geteilt', 'nettoerloes', 'mal_hundert'], 8.3, 'Die operative Marge beträgt 8.3 % vor Zinsen und Steuern.', [], [], ['ebit', 'nettoerloes']],
-  ['kapitalumschlag', 'Kapitalumschlag', 'Nettoerlös ÷ Gesamtkapital', ['nettoerloes', 'geteilt', 'gesamtkapital'], 1.38, 'Das eingesetzte Kapital wird über den Umsatz rund 1.38-mal pro Jahr umgeschlagen.', ['gesamtkapital'], [], ['nettoerloes']],
-  ['sicherheitsmarge', 'Sicherheitsmarge', '(Ist-Umsatz − Break-even-Umsatz) ÷ Ist-Umsatz × 100', ['ist_umsatz', 'minus', 'bep_umsatz', 'geteilt', 'ist_umsatz', 'mal_hundert'], 25, 'Der Umsatz kann um 25 % sinken, bevor die Gewinnschwelle erreicht wird.', [], [], ['ist_umsatz', 'bep_umsatz']]
+  { id: 'liquiditaetsgrad_1', title: 'Liquiditätsgrad I', formula: 'Flüssige Mittel ÷ kurzfristiges Fremdkapital × 100', sequence: ['fluessige_mittel', 'geteilt', 'kurzfristiges_fk', 'mal_hundert'], result: 40, meaning: 'Er zeigt, welcher Anteil der kurzfristigen Schulden sofort mit flüssigen Mitteln bezahlt werden könnte.', benchmark: 'Als grober Richtbereich gelten oft 20–30 %. Ein deutlich höherer Wert kann Sicherheit bedeuten, aber auch unproduktiv gebundene Liquidität.', interpretation: '40 % liegen über dem üblichen Richtbereich: Die sofortige Zahlungsfähigkeit ist komfortabel, gleichzeitig sollte überschüssige Liquidität geprüft werden.' },
+  { id: 'liquiditaetsgrad_2', title: 'Liquiditätsgrad II', formula: '(Flüssige Mittel + Forderungen) ÷ kurzfristiges Fremdkapital × 100', sequence: ['fluessige_mittel', 'plus', 'forderungen', 'geteilt', 'kurzfristiges_fk', 'mal_hundert'], result: 100, meaning: 'Er zeigt, ob kurzfristige Schulden ohne Verkauf der Vorräte durch flüssige Mittel und Forderungen gedeckt sind.', benchmark: 'Mindestens 100 % gelten häufig als Zielwert, weil dann das kurzfristige Fremdkapital ohne Vorratsverkauf gedeckt ist.', interpretation: '100 % entsprechen dem häufig genannten Mindestziel: Das kurzfristige Fremdkapital ist ohne Verkauf der Vorräte genau gedeckt.' },
+  { id: 'liquiditaetsgrad_3', title: 'Liquiditätsgrad III', formula: 'Umlaufvermögen ÷ kurzfristiges Fremdkapital × 100', sequence: ['umlaufvermoegen', 'geteilt', 'kurzfristiges_fk', 'mal_hundert'], result: 200, meaning: 'Er vergleicht das gesamte Umlaufvermögen einschließlich Vorräten mit dem kurzfristigen Fremdkapital.', benchmark: 'Als grober Richtbereich werden oft 150–200 % verwendet; zu hohe Werte können auf hohe Vorräte oder ineffiziente Mittelbindung hinweisen.', interpretation: '200 % liegen am oberen Rand des üblichen Richtbereichs: Die kurzfristige Deckung ist stark, die Zusammensetzung des Umlaufvermögens bleibt zu prüfen.' },
+  { id: 'eigenfinanzierungsgrad', title: 'Eigenfinanzierungsgrad', formula: 'Eigenkapital ÷ Gesamtkapital × 100', sequence: ['eigenkapital', 'geteilt', 'gesamtkapital', 'mal_hundert'], result: 46.2, meaning: 'Er zeigt, welcher Anteil des gesamten Unternehmenskapitals von den Eigentümern finanziert ist.', benchmark: '30–50 % gelten häufig als solider Orientierungsbereich; Branchenrisiko und Geschäftsmodell müssen mitbeurteilt werden.', interpretation: '46.2 % liegen im häufig genannten soliden Bereich: Das Unternehmen verfügt über eine gute Eigenkapitalbasis.' },
+  { id: 'fremdfinanzierungsgrad', title: 'Fremdfinanzierungsgrad', formula: 'Fremdkapital ÷ Gesamtkapital × 100', sequence: ['fremdkapital', 'geteilt', 'gesamtkapital', 'mal_hundert'], result: 53.8, meaning: 'Er zeigt, welcher Anteil des Gesamtkapitals von externen Fremdkapitalgebern stammt.', benchmark: 'Eigen- und Fremdfinanzierungsgrad ergeben zusammen 100 %. Ein höherer Fremdanteil erhöht meist Zins- und Rückzahlungsabhängigkeit.', interpretation: '53.8 % des Kapitals stammen von Fremdkapitalgebern. Zusammen mit 46.2 % Eigenkapital ist die Finanzierung relativ ausgewogen.' },
+  { id: 'verschuldungsgrad', title: 'Verschuldungsgrad', formula: 'Fremdkapital ÷ Eigenkapital × 100', sequence: ['fremdkapital', 'geteilt', 'eigenkapital', 'mal_hundert'], result: 116.7, meaning: 'Er zeigt das Verhältnis von Fremdkapital zu Eigenkapital und damit die finanzielle Hebelwirkung und Abhängigkeit.', benchmark: 'Es gibt keinen universellen Idealwert. Ein steigender Wert bedeutet grundsätzlich mehr Fremdfinanzierung und damit meist mehr finanzielles Risiko.', interpretation: '116.7 % bedeuten: Auf CHF 100 Eigenkapital entfallen CHF 116.70 Fremdkapital. Das Fremdkapital ist etwas höher als das Eigenkapital.' },
+  { id: 'anlagedeckungsgrad_1', title: 'Anlagedeckungsgrad I', formula: 'Eigenkapital ÷ Anlagevermögen × 100', sequence: ['eigenkapital', 'geteilt', 'anlagevermoegen', 'mal_hundert'], result: 85.7, meaning: 'Er zeigt, wie viel des langfristig gebundenen Anlagevermögens allein durch Eigenkapital finanziert ist.', benchmark: 'Häufig werden 75–100 % als Orientierung verwendet. Je näher bei 100 %, desto stärker ist das Anlagevermögen durch Eigenkapital gedeckt.', interpretation: '85.7 % liegen im häufig verwendeten Orientierungsbereich: Ein großer Teil des Anlagevermögens ist durch Eigenkapital finanziert.' },
+  { id: 'anlagedeckungsgrad_2', title: 'Anlagedeckungsgrad II', formula: '(Eigenkapital + langfristiges Fremdkapital) ÷ Anlagevermögen × 100', sequence: ['eigenkapital', 'plus', 'langfristiges_fk', 'geteilt', 'anlagevermoegen', 'mal_hundert'], result: 142.9, meaning: 'Er zeigt, ob langfristig gebundenes Anlagevermögen vollständig mit langfristigem Kapital finanziert ist.', benchmark: 'Mindestens 100 % erfüllen die goldene Bilanzregel; der langfristige Kapitalüberschuss finanziert dann zusätzlich einen Teil des Umlaufvermögens.', interpretation: '142.9 % liegen klar über 100 %: Die goldene Bilanzregel ist erfüllt und langfristiges Kapital deckt zusätzlich Umlaufvermögen.' },
+  { id: 'roi', title: 'ROI (Gesamtkapitalrendite)', formula: '(Reingewinn + Fremdkapitalzinsen) ÷ Gesamtkapital × 100', sequence: ['reingewinn', 'plus', 'fk_zinsen', 'geteilt', 'gesamtkapital', 'mal_hundert'], result: 8.5, meaning: 'Der ROI zeigt, wie rentabel das gesamte eingesetzte Kapital arbeitet – unabhängig davon, ob es von Eigentümern oder Fremdkapitalgebern stammt.', benchmark: 'Über 8–10 % gelten oft als gute Orientierung. Entscheidend sind aber Branche, Risiko und Kapitalkosten. Fremdkapitalzinsen werden addiert, weil sie Ertrag der Fremdkapitalgeber sind.', interpretation: '8.5 % liegen im häufig genannten guten Orientierungsbereich. Das Gesamtkapital wird ordentlich verzinst, sollte aber mit Branche und Kapitalkosten verglichen werden.' },
+  { id: 'roe', title: 'ROE (Eigenkapitalrendite)', formula: 'Reingewinn ÷ Eigenkapital × 100', sequence: ['reingewinn', 'geteilt', 'eigenkapital', 'mal_hundert'], result: 15, meaning: 'Der ROE zeigt, wie stark sich das von den Eigentümern eingesetzte Eigenkapital durch den Reingewinn verzinst.', benchmark: 'Der Zielwert ist branchen- und risikoabhängig. Ein ROE über dem ROI kann durch Fremdkapitaleinsatz entstehen, bringt aber zusätzliches Risiko.', interpretation: '15 % bedeuten eine gute Verzinsung des Eigenkapitals. Ob der Wert angemessen ist, hängt von Branche, Risiko und Fremdfinanzierung ab.' },
+  { id: 'nettogewinnquote', title: 'Nettogewinnquote', formula: 'Reingewinn ÷ Nettoerlös × 100', sequence: ['reingewinn', 'geteilt', 'nettoerloes', 'mal_hundert'], result: 5, meaning: 'Sie zeigt, wie viel Reingewinn nach Zinsen und Steuern von CHF 100 Nettoerlös übrig bleibt.', benchmark: 'Es gibt keinen allgemeinen Idealwert. Aussagekräftig sind Branchen-, Budget- und Zeitvergleich; eine steigende Quote ist meist positiv.', interpretation: '5 % bedeuten: Von CHF 100 Nettoerlös bleiben CHF 5 Reingewinn. Die Qualität des Werts lässt sich erst im Branchen- und Zeitvergleich beurteilen.' },
+  { id: 'ebit_marge', title: 'EBIT-Marge', formula: 'EBIT ÷ Nettoerlös × 100', sequence: ['ebit', 'geteilt', 'nettoerloes', 'mal_hundert'], result: 8.3, meaning: 'Sie zeigt die operative Ertragskraft vor Fremdkapitalzinsen und Steuern und trennt damit Betriebserfolg von Finanzierung und Steuerbelastung.', benchmark: 'Der Richtwert ist stark branchenabhängig. Eine steigende EBIT-Marge zeigt grundsätzlich eine verbesserte operative Profitabilität.', interpretation: '8.3 % operative Marge müssen mit Branche und Vorjahren verglichen werden. Der Wert zeigt noch nicht den Reingewinn nach Zinsen und Steuern.' },
+  { id: 'kapitalumschlag', title: 'Kapitalumschlag', formula: 'Nettoerlös ÷ Gesamtkapital', sequence: ['nettoerloes', 'geteilt', 'gesamtkapital'], result: 1.38, unit: '×', meaning: 'Er zeigt, wie viel Nettoerlös mit jedem eingesetzten Franken Gesamtkapital erwirtschaftet wird.', benchmark: 'Ein Wert über 1 wird oft als kapitalintensitätsabhängige Orientierung verwendet. Ein höherer Umschlag ist meist effizienter, muss aber zur Branche passen.', interpretation: '1.38-mal bedeutet: Jeder eingesetzte Kapitalfranken erzeugt CHF 1.38 Nettoerlös. Für eine Qualitätsaussage braucht es den Branchenvergleich.' },
+  { id: 'sicherheitsmarge', title: 'Sicherheitsmarge', formula: '(Ist-Umsatz − Break-even-Umsatz) ÷ Ist-Umsatz × 100', sequence: ['ist_umsatz', 'minus', 'bep_umsatz', 'geteilt', 'ist_umsatz', 'mal_hundert'], result: 25, meaning: 'Sie zeigt, um wie viel Prozent der aktuelle Umsatz sinken darf, bevor die Gewinnschwelle erreicht wird.', benchmark: 'Je höher die Sicherheitsmarge, desto robuster ist das Geschäft gegenüber Umsatzrückgängen. Ein sehr kleiner Wert weist auf ein hohes Verlustrisiko hin.', interpretation: '25 % bedeuten: Der Umsatz kann um ein Viertel sinken, bevor die Gewinnschwelle erreicht wird. Das bietet einen spürbaren, aber nicht unbegrenzten Puffer.' }
 ]
 
-const formulaTopicIds = new Set(formulas.map(([id]) => id))
+const formulaTopicIds = new Set(formulas.map(({ id }) => id))
 cards = cards.filter((card) => !(card.fach === 'Finanzwirtschaft' && formulaTopicIds.has(card.thema_id)))
 
-for (const [id, title, formula, sequence, result, interpretation, aktiven = [], passiven = [], erfolg = []] of formulas) {
-  const intro = `${title} zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.`
-  const distractors = [formula, 'Gewinn ÷ Nettoerlös × 100', 'Fremdkapital ÷ Gesamtkapital × 100', 'Umlaufvermögen ÷ Eigenkapital × 100']
+const balanceAssets = ['fluessige_mittel', 'forderungen', 'vorrat', 'umlaufvermoegen', 'maschinen', 'anlagevermoegen', 'gesamtkapital']
+const balanceLiabilities = ['verbindlichkeiten', 'kurzfristiges_fk', 'langfristiges_fk', 'fremdkapital', 'aktienkapital', 'reserven', 'eigenkapital']
+const incomeStatement = ['nettoerloes', 'personalaufwand', 'ebit', 'fk_zinsen', 'reingewinn', 'ist_umsatz', 'bep_umsatz']
+const formulaChoices = [
+  'Flüssige Mittel ÷ kurzfristiges Fremdkapital × 100',
+  'Umlaufvermögen ÷ kurzfristiges Fremdkapital × 100',
+  'Eigenkapital ÷ Gesamtkapital × 100',
+  'Fremdkapital ÷ Eigenkapital × 100',
+  'Reingewinn ÷ Eigenkapital × 100',
+  '(Reingewinn + Fremdkapitalzinsen) ÷ Gesamtkapital × 100',
+  'EBIT ÷ Nettoerlös × 100',
+  'Nettoerlös ÷ Gesamtkapital'
+]
+
+for (const { id, title, formula, sequence, result, unit = '%', meaning, benchmark, interpretation } of formulas) {
+  const profitNote = /roi|roe|nettogewinnquote|ebit_marge/.test(id)
+    ? ' Reingewinn ist der Erfolg nach Zinsen und Steuern; EBIT ist der operative Erfolg vor Zinsen und Steuern.'
+    : ''
+  const intro = `${title} zeigt eine klar abgegrenzte finanzielle Beziehung. Entscheidend ist, welche Position oben und welche unten in die Formel gehört.${profitNote}`
+  const distractors = [formula, ...formulaChoices.filter((choice) => choice !== formula)].slice(0, 4)
   const uniqueOptions = [...new Set(distractors)]
-  const assets = aktiven
-  const liabilities = passiven
-  const income = erfolg
-  const needed = new Set([...assets, ...liabilities, ...income, ...sequence])
+  const assets = balanceAssets
+  const liabilities = balanceLiabilities
+  const income = incomeStatement
+  const needed = new Set([...assets, ...liabilities, ...income, ...sequence, 'geteilt', 'plus', 'minus', 'mal_hundert'])
   const blocks = common.filter((item) => needed.has(item.id))
 
   const stage1 = baseCard({ id: `formel_${id}_stufe1`, title, stage: 1, type: 'single_choice', intro, question: `Welche Formel berechnet ${title}?`, answer: { optionen: uniqueOptions, richtig_index: uniqueOptions.indexOf(formula) }, explanation: formula })
   stage1.thema_id = id
 
-  const stage2 = baseCard({ id: `formel_${id}_stufe2`, title, stage: 2, type: 'multiple_choice', intro, question: `Was wird mit ${title} beurteilt? Wähle alle passenden Aussagen.`, answer: { optionen: [`Die Kennzahl wird mit der Formel „${formula}“ berechnet.`, interpretation, 'Die Kennzahl ersetzt immer den Branchenvergleich.', 'Ein hoher Wert ist ausnahmslos gut.'], richtige_indices: [0, 1] }, explanation: interpretation })
+  const stage2 = baseCard({ id: `formel_${id}_stufe2`, title, stage: 2, type: 'multiple_choice', intro, question: `Welche Aussagen erklären die Aussagekraft und Beurteilung von ${title} richtig?`, answer: { optionen: [meaning, benchmark, 'Die Kennzahl zeigt den absoluten Reingewinn direkt in Franken.', 'Die Kennzahl kann ohne Branchen-, Zeit- oder Risikovergleich abschließend beurteilt werden.'], richtige_indices: [0, 1] }, explanation: `${meaning} ${benchmark}` })
   stage2.thema_id = id
 
-  const stage3 = baseCard({ id: `formel_${id}_stufe3`, title, stage: 3, type: 'formel_builder', intro, question: `Tippe im Jahresabschluss die benötigten Positionen und Rechenzeichen für ${title} in der richtigen Reihenfolge an.`, answer: { bausteine: blocks, richtige_reihenfolge: sequence, bilanz: { aktiven: assets.filter((item) => needed.has(item)), passiven: liabilities.filter((item) => needed.has(item)), erfolgsrechnung: income.filter((item) => needed.has(item)) }, formel: formula, ergebnis: { automatisch: true, richtiger_wert: result, toleranz: 0.1, einheit: id === 'kapitalumschlag' ? '×' : '%', rechenbasis: 'Die App berechnet das Resultat aus den angezeigten Werten.' } }, explanation: interpretation, hint: 'Du stellst nur die Formel zusammen; das Resultat berechnet die App automatisch.' })
+  const stage3 = baseCard({ id: `formel_${id}_stufe3`, title, stage: 3, type: 'formel_builder', intro, question: `Wähle aus Bilanz und Erfolgsrechnung nur die benötigten Positionen und setze daraus ${title} zusammen.`, answer: { bausteine: blocks, richtige_reihenfolge: sequence, bilanz: { aktiven: assets, passiven: liabilities, erfolgsrechnung: income }, formel: formula, ergebnis: { automatisch: true, richtiger_wert: result, toleranz: 0.1, einheit: unit, rechenbasis: 'Die App berechnet das Resultat aus den angezeigten Werten.' } }, explanation: interpretation, hint: 'Nicht alle angezeigten Konten und Rechenzeichen gehören in die Formel. Das Resultat wird nach dem korrekten Aufbau automatisch berechnet.' })
   stage3.thema_id = id
 
-  const stage4 = baseCard({ id: `formel_${id}_stufe4`, title, stage: 4, type: 'single_choice', intro, question: `Das berechnete Resultat beträgt ${result}${id === 'kapitalumschlag' ? '-mal' : ' %'}. Welche Interpretation passt?`, answer: { optionen: [interpretation, 'Das Resultat beweist automatisch eine ausgezeichnete Gesamtlage.', 'Die Kennzahl zeigt ausschließlich die Zahlungsfähigkeit heute.', 'Ohne weitere Rechnung lässt sich daraus der absolute Gewinn ablesen.'], richtig_index: 0 }, explanation: `${interpretation} Einzelne Kennzahlen sollten immer im Zeit- und Branchenvergleich gelesen werden.` })
+  const stage4 = baseCard({ id: `formel_${id}_stufe4`, title, stage: 4, type: 'single_choice', intro, question: `Das berechnete Resultat beträgt ${result}${unit === '×' ? '-mal' : ' %'}. Wie ist dieses Ergebnis fachlich zu beurteilen?`, answer: { optionen: [interpretation, 'Der Wert ist automatisch optimal, weil jede positive Kennzahl gut ist.', 'Der Wert beweist unabhängig von Branche und Entwicklung eine schlechte Gesamtlage.', 'Aus dieser Kennzahl allein lässt sich der absolute Reingewinn direkt ablesen.'], richtig_index: 0 }, explanation: interpretation })
   stage4.thema_id = id
   cards.push(stage1, stage2, stage3, stage4)
 }
