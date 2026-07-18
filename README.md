@@ -1,2 +1,2 @@
 # tk-lernapp
-Karteikarten App mit für Technischer Kaufmann.
+Karteikarten App für vorbereitung Technischer Kaufmann abschlussprüfung.
