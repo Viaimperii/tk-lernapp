@@ -1,11 +1,11 @@
-const DAY_MS = 24 * 60 * 60 * 1000
+const HOUR_MS = 60 * 60 * 1000
 
 export const LEVEL_DELAYS = {
-  1: 3 * DAY_MS,
-  2: 7 * DAY_MS,
-  3: 14 * DAY_MS,
-  4: 21 * DAY_MS,
-  5: 30 * DAY_MS
+  1: 4 * HOUR_MS,
+  2: 6 * HOUR_MS,
+  3: 8 * HOUR_MS,
+  4: 12 * HOUR_MS,
+  5: 24 * HOUR_MS
 }
 
 export const MAX_VARIANTS_PER_STAGE = 3
@@ -87,7 +87,9 @@ export function hasAnswer(card, answer) {
   if (card.typ === 'zuordnung') return Object.keys(answer ?? {}).length === card.antwort_daten.links.length
   if (card.typ === 'formel_builder') {
     const formulaComplete = answer?.sequence?.length === card.antwort_daten.richtige_reihenfolge.length
-    const resultComplete = card.antwort_daten.ergebnis == null || String(answer?.result ?? '').trim() !== ''
+    const resultComplete = card.antwort_daten.ergebnis == null
+      || card.antwort_daten.ergebnis.automatisch
+      || String(answer?.result ?? '').trim() !== ''
     return formulaComplete && resultComplete
   }
   return false
@@ -112,7 +114,7 @@ export function checkAnswer(card, answer) {
   if (card.typ === 'formel_builder') {
     const formulaCorrect = answer.sequence.join('|') === data.richtige_reihenfolge.join('|')
     if (!formulaCorrect) return false
-    if (data.ergebnis == null) return true
+    if (data.ergebnis == null || data.ergebnis.automatisch) return true
     const submitted = normalizeNumber(answer.result)
     const expected = normalizeNumber(data.ergebnis.richtiger_wert)
     return Number.isFinite(submitted)

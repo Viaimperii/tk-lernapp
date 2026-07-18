@@ -107,6 +107,11 @@ function App() {
     setView(next)
   }
 
+  function replaceView(next) {
+    window.history.replaceState(next, '')
+    setView(next)
+  }
+
   function goBack() {
     window.history.back()
   }
@@ -177,12 +182,14 @@ function App() {
             progress={progress}
             disabled={disabled}
             onBack={goBack}
-            onOpenTopic={(topic) => navigate({ name: 'topic', subjectId: topic.fach, topicId: topic.id })}
+            onOpenTopic={(topic) => navigate({ name: 'topic', subjectId: topic.fach, topicId: topic.id, returnTo: 'level', level: view.level })}
           />
         )}
         {view.name === 'subject' && selectedSubject && (
           <SubjectScreen
             subject={selectedSubject}
+            celebrationTopicId={view.celebrationTopicId}
+            celebrationLevel={view.celebrationLevel}
             progress={progress}
             disabled={disabled}
             onBack={goBack}
@@ -197,6 +204,18 @@ function App() {
             progress={getProgress(progress, selectedTopic.id)}
             onBack={goBack}
             onAnswered={(card, answer, isCorrect) => updateTopicProgress(selectedTopic, card, answer, isCorrect)}
+            onFinish={(outcome) => {
+              if (view.returnTo === 'level') {
+                replaceView({ name: 'level', level: view.level })
+                return
+              }
+              replaceView({
+                name: 'subject',
+                subjectId: selectedTopic.fach,
+                celebrationTopicId: outcome.promoted || outcome.completed ? selectedTopic.id : null,
+                celebrationLevel: outcome.nextLevel
+              })
+            }}
           />
         )}
         {view.name === 'shuffle' && selectedSubject && (
@@ -407,7 +426,7 @@ function LevelDetailScreen({ level, progress, disabled, onBack, onOpenTopic }) {
   const selectedSubject = subjectById[subjectId]
 
   return (
-    <section className="flex flex-1 flex-col px-4 pb-8 pt-4">
+    <section className={`level-world level-world-${level} flex flex-1 flex-col px-4 pb-8 pt-4`}>
       <HeaderButton onBack={onBack} />
       <header className="mb-4">
         <span className="inline-flex items-center gap-2 rounded-full bg-sky-100 px-3 py-1 text-xs font-black text-sky-900">
@@ -487,8 +506,10 @@ function LevelDetailScreen({ level, progress, disabled, onBack, onOpenTopic }) {
   )
 }
 
-function SubjectScreen({ subject, progress, disabled, onBack, onToggle, onStartShuffle, onOpenTopic }) {
-  const subjectTopics = topicsForSubject(subject.id).filter((topic) => getProgress(progress, topic.id).lvl === 0)
+function SubjectScreen({ subject, progress, disabled, celebrationTopicId, celebrationLevel, onBack, onToggle, onStartShuffle, onOpenTopic }) {
+  const subjectTopics = topicsForSubject(subject.id).filter((topic) => (
+    getProgress(progress, topic.id).lvl === 0 || topic.id === celebrationTopicId
+  ))
   const activeSubjectTopics = subjectTopics.filter((topic) => !disabled[topic.id])
   const availableTopics = activeSubjectTopics
   const Icon = subject.icon
@@ -531,7 +552,8 @@ function SubjectScreen({ subject, progress, disabled, onBack, onToggle, onStartS
               className={[
                 'rounded-lg border bg-white p-3 shadow-sm',
                 focus ? 'border-amber-400 bg-amber-50' : 'border-slate-200',
-                off ? 'opacity-60' : ''
+                off ? 'opacity-60' : '',
+                topic.id === celebrationTopicId ? `topic-ascend topic-ascend-${celebrationLevel ?? 1}` : ''
               ].join(' ')}
             >
               <div className="flex gap-3">
@@ -567,6 +589,7 @@ function ShuffleScreen({ subject, topicIds, progress, onBack, onAnswered }) {
   const [card, setCard] = useState(() => (topic ? pickTopicCard(topic, getProgress(progress, topic.id)) : null))
   const [answer, setAnswer] = useState(() => initialAnswer(card))
   const [result, setResult] = useState(null)
+  const [showIntro, setShowIntro] = useState(true)
   const isLastTopic = index >= topicIds.length - 1
 
   if (!topic || !card) {
@@ -595,6 +618,11 @@ function ShuffleScreen({ subject, topicIds, progress, onBack, onAnswered }) {
     setCard(nextCard)
     setAnswer(initialAnswer(nextCard))
     setResult(null)
+    setShowIntro(true)
+  }
+
+  if (showIntro) {
+    return <TopicIntroCard topic={topic} progress={getProgress(progress, topic.id)} onBack={onBack} onStart={() => setShowIntro(false)} />
   }
 
   return (
@@ -619,10 +647,16 @@ function ShuffleScreen({ subject, topicIds, progress, onBack, onAnswered }) {
   )
 }
 
-function TopicScreen({ topic, progress, onBack, onAnswered }) {
+function TopicScreen({ topic, progress, onBack, onAnswered, onFinish }) {
   const [card, setCard] = useState(() => pickTopicCard(topic, progress))
   const [answer, setAnswer] = useState(() => initialAnswer(card))
   const [result, setResult] = useState(null)
+
+  const [showIntro, setShowIntro] = useState(true)
+
+  if (showIntro) {
+    return <TopicIntroCard topic={topic} progress={progress} onBack={onBack} onStart={() => setShowIntro(false)} />
+  }
 
   return (
     <LearningCard
@@ -642,6 +676,10 @@ function TopicScreen({ topic, progress, onBack, onAnswered }) {
       }}
       nextLabel="Weiter"
       onNext={() => {
+        if (result?.correct && (result.previousStage >= topic.maxStage || result.promoted || result.completed)) {
+          onFinish(result)
+          return
+        }
         const nextCard = pickTopicCard(topic, progress)
         setCard(nextCard)
         setAnswer(initialAnswer(nextCard))
@@ -676,7 +714,7 @@ function LearningCard({ eyebrow, topic, card, progress, result, answer, setAnswe
 
         <h1 className="text-xl font-black leading-tight">{topic.titel}</h1>
         {card.untertitel && <p className="mt-2 text-sm font-bold text-slate-500">{card.untertitel}</p>}
-        <InfoBlock title="Kurz erklärt" text={card.begriff_erklaerung?.kurz} compact />
+        <InfoBlock title="Kurz erklärt" text={taskExplanation(card)} compact />
         <p className="mt-4 text-lg font-bold leading-snug text-slate-800">{card.frage}</p>
 
         <div className="mt-5">
@@ -710,7 +748,7 @@ function LearningCard({ eyebrow, topic, card, progress, result, answer, setAnswe
 
 function HeaderButton({ onBack }) {
   return (
-    <button className="mb-4 flex h-11 w-11 items-center justify-center rounded-lg bg-white text-slate-800 shadow-sm" onClick={onBack}>
+    <button aria-label="Zurück" className="mb-4 flex h-11 w-11 items-center justify-center rounded-lg bg-white text-slate-800 shadow-sm" onClick={onBack}>
       <ArrowLeft size={22} />
     </button>
   )
@@ -730,6 +768,12 @@ function TypeBadge({ type }) {
     zuordnung: 'Zuordnung'
   }
   return <span className="rounded-full bg-slate-950 px-2 py-1 text-xs font-black text-white">{labels[type] ?? type}</span>
+}
+
+function taskExplanation(card) {
+  if (card.aufgaben_hinweis) return card.aufgaben_hinweis
+  const text = card.begriff_erklaerung?.kurz ?? ''
+  return /Prüfungsaufgabe|Verständnisprüfung|Massnahmen geprüft|Maßnahmen geprüft/i.test(text) ? text : ''
 }
 
 function AnswerInput({ card, value, onChange, disabled }) {
@@ -813,7 +857,11 @@ function FormulaMcInput({ data, value, onChange, disabled }) {
 
 function FormulaBuilderInput({ data, value, onChange, disabled }) {
   const itemsById = Object.fromEntries(data.bausteine.map((item) => [item.id, item]))
-  const balanceIds = new Set([...(data.bilanz?.aktiven ?? []), ...(data.bilanz?.passiven ?? [])])
+  const balanceIds = new Set([
+    ...(data.bilanz?.aktiven ?? []),
+    ...(data.bilanz?.passiven ?? []),
+    ...(data.bilanz?.erfolgsrechnung ?? [])
+  ])
   const tools = data.bausteine.filter((item) => !balanceIds.has(item.id))
 
   function append(id) {
@@ -878,11 +926,30 @@ function FormulaBuilderInput({ data, value, onChange, disabled }) {
 
       {data.bilanz && (
         <section className="overflow-hidden rounded-2xl border-2 border-slate-900 bg-slate-50">
-          <div className="border-b-2 border-slate-900 bg-white px-3 py-2 text-center text-sm font-black">Bilanzfelder</div>
-          <div className="flex divide-x-2 divide-slate-900">
-            <BalanceColumn title="Aktiven" ids={data.bilanz.aktiven} />
-            <BalanceColumn title="Passiven" ids={data.bilanz.passiven} />
-          </div>
+          <div className="border-b-2 border-slate-900 bg-white px-3 py-2 text-center text-sm font-black">Jahresabschluss</div>
+          {(data.bilanz.aktiven?.length > 0 || data.bilanz.passiven?.length > 0) && (
+            <div className="flex divide-x-2 divide-slate-900">
+              <BalanceColumn title="Aktiven" ids={data.bilanz.aktiven ?? []} />
+              <BalanceColumn title="Passiven" ids={data.bilanz.passiven ?? []} />
+            </div>
+          )}
+          {data.bilanz.erfolgsrechnung?.length > 0 && (
+            <div className="border-t-2 border-slate-900 bg-white p-2.5">
+              <h3 className="border-b border-slate-300 pb-2 text-center text-xs font-black uppercase tracking-[0.12em] text-slate-500">Erfolgsrechnung</h3>
+              <div className="mt-2 grid grid-cols-2 gap-2">
+                {data.bilanz.erfolgsrechnung.map((id) => (
+                  <button
+                    key={id}
+                    className="min-h-[46px] rounded-lg border border-slate-200 bg-white px-2 py-2 text-left text-sm font-black text-slate-800 shadow-sm disabled:opacity-60"
+                    disabled={disabled}
+                    onClick={() => append(id)}
+                  >
+                    {itemsById[id]?.label ?? id}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
         </section>
       )}
 
@@ -902,7 +969,7 @@ function FormulaBuilderInput({ data, value, onChange, disabled }) {
         </div>
       </section>
 
-      {data.ergebnis && (
+      {data.ergebnis && !data.ergebnis.automatisch && (
         <label className="block rounded-xl border border-slate-200 bg-white p-3">
           <span className="text-sm font-black">Ergebnis</span>
           <span className="mt-2 flex items-center gap-2">
@@ -918,6 +985,34 @@ function FormulaBuilderInput({ data, value, onChange, disabled }) {
         </label>
       )}
     </div>
+  )
+}
+
+function TopicIntroCard({ topic, progress, onBack, onStart }) {
+  const introCard = topic.cards.find((card) => card.stufe === topic.minStage) ?? topic.cards[0]
+  const intro = introCard?.themen_einfuehrung
+    ?? introCard?.begriff_erklaerung?.kurz
+    ?? `In diesem Thema lernst du die wichtigsten Grundlagen zu ${topic.titel}.`
+
+  return (
+    <section className="topic-intro-screen flex flex-1 flex-col px-4 pb-4 pt-4">
+      <HeaderButton onBack={onBack} />
+      <article className="topic-intro-card flex flex-1 flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white p-5 shadow-lift">
+        <div className="topic-intro-orbit" aria-hidden="true"><BookOpen size={30} /></div>
+        <div className="relative mt-auto">
+          <span className="inline-flex rounded-full bg-slate-950 px-3 py-1 text-xs font-black text-white">Bevor du startest</span>
+          <h1 className="mt-4 text-3xl font-black leading-[1.05] tracking-tight">{topic.titel}</h1>
+          <p className="mt-4 text-base font-semibold leading-relaxed text-slate-700">{intro}</p>
+          <div className="mt-5 flex flex-wrap gap-2">
+            <StageBadge stage={normalizeStage(topic, progress.stage)} />
+            <span className="rounded-full bg-sky-100 px-2.5 py-1 text-xs font-black text-sky-900">{topic.stages.length} Lernstufen</span>
+          </div>
+        </div>
+        <button className="safe-bottom relative mt-8 min-h-[54px] w-full rounded-xl bg-slate-950 px-4 text-base font-black text-white shadow-sm" onClick={onStart}>
+          Erste Aufgabe starten
+        </button>
+      </article>
+    </section>
   )
 }
 
@@ -961,11 +1056,18 @@ function OrderInput({ data, value, onChange, disabled }) {
 }
 
 function MatchInput({ data, value, onChange, disabled }) {
+  const reusedTargets = new Set(data.richtige_paare.map(([, right]) => right)).size < data.richtige_paare.length
+  const allowReuse = data.mehrfachverwendung ?? reusedTargets
+  const usedTargets = new Set(Object.values(value))
+
   return (
     <div className="space-y-2">
       {data.links.map((left, index) => (
         <label key={`${left}-${index}`} className="grid gap-2 rounded-lg border border-slate-200 bg-white p-3">
-          <span className="text-sm font-black">{left}</span>
+          <span className="flex items-start gap-2 text-sm font-black">
+            <span className="grid h-7 w-7 shrink-0 place-items-center rounded-md bg-slate-950 text-xs text-white">{String.fromCharCode(65 + index)}</span>
+            <span>{left.replace(/^[A-Z]:\s*/, '')}</span>
+          </span>
           <select
             className="min-h-[44px] rounded-lg border border-slate-200 bg-slate-50 px-3 text-base font-bold outline-none"
             value={value[index] ?? ''}
@@ -973,12 +1075,16 @@ function MatchInput({ data, value, onChange, disabled }) {
             onChange={(event) => onChange({ ...value, [index]: Number(event.target.value) })}
           >
             <option value="" disabled>Zuordnen</option>
-            {data.rechts.map((right, rightIndex) => (
-              <option key={`${right}-${rightIndex}`} value={rightIndex}>{right}</option>
-            ))}
+            {data.rechts.map((right, rightIndex) => {
+              const unavailable = !allowReuse && usedTargets.has(rightIndex) && value[index] !== rightIndex
+              return <option key={`${right}-${rightIndex}`} value={rightIndex} disabled={unavailable}>{rightIndex + 1}. {right}</option>
+            })}
           </select>
         </label>
       ))}
+      <p className="px-1 text-xs font-semibold text-slate-500">
+        {allowReuse ? 'Eine Zahl darf mehrfach verwendet werden.' : 'Jede Zahl kann nur einmal zugeordnet werden.'}
+      </p>
     </div>
   )
 }
@@ -1027,14 +1133,17 @@ function FeedbackPanel({ result, card, finalStage }) {
             : 'Du bleibst auf dieser Stufe. Dein LVL bleibt unverändert.'}
         </p>
       )}
-      <InfoBlock title="Lösungsvorschlag" text={card.loesungsvorschlag?.kurz} />
-      {card.loesungsvorschlag?.rechenweg && <InfoBlock title="Rechenweg" text={card.loesungsvorschlag.rechenweg} />}
-      {card.loesungsvorschlag?.warum && <InfoBlock title="Warum" text={card.loesungsvorschlag.warum} />}
-      <InfoBlock title="Kurz erklärt" text={card.begriff_erklaerung?.kurz} />
-      <InfoBlock title="Prüfungsrelevant" text={card.begriff_erklaerung?.pruefungsrelevant} />
-      <InfoBlock title="Erklärung" text={card.erklaerung} />
-      <InfoBlock title="Merksatz" text={card.merksatz} />
-      {card.fehlerfallen?.length > 0 && (
+      {result.correct && finalStage && (
+        <InfoBlock
+          title="Zum Abschluss"
+          text={card.abschlusserklaerung ?? card.erklaerung ?? card.loesungsvorschlag?.warum ?? card.merksatz}
+        />
+      )}
+      {!result.correct && card.loesungsvorschlag?.rechenweg && <InfoBlock title="Rechenweg" text={card.loesungsvorschlag.rechenweg} />}
+      {!result.correct && card.loesungsvorschlag?.warum && <InfoBlock title="Warum diese Lösung stimmt" text={card.loesungsvorschlag.warum} />}
+      {!result.correct && <InfoBlock title="Erklärung" text={card.erklaerung} />}
+      {!result.correct && <InfoBlock title="Merksatz" text={card.merksatz} />}
+      {!result.correct && card.fehlerfallen?.length > 0 && (
         <div className="mt-3 rounded-lg bg-white p-3">
           <h3 className="text-sm font-black">Fehlerfallen</h3>
           <ul className="mt-2 space-y-1">
@@ -1044,20 +1153,48 @@ function FeedbackPanel({ result, card, finalStage }) {
           </ul>
         </div>
       )}
-      <CorrectAnswerPanel card={card} />
-      {card.typ === 'formel_luecke_mc' && card.antwort_daten.formel && (
+      {!result.correct && <CorrectAnswerPanel card={card} />}
+      <LegalReference reference={card.rechtsgrundlage} />
+      {card.typ === 'formel_builder' && card.antwort_daten.ergebnis?.automatisch && result.correct && (
+        <div className="mt-3 rounded-lg bg-white p-3">
+          <h3 className="text-sm font-black">Automatisch berechnetes Resultat</h3>
+          <p className="mt-1 text-xl font-black text-slate-900">
+            {card.antwort_daten.ergebnis.richtiger_wert} {card.antwort_daten.ergebnis.einheit ?? ''}
+          </p>
+          {card.antwort_daten.ergebnis.rechenbasis && <p className="mt-1 text-xs font-semibold text-slate-500">{card.antwort_daten.ergebnis.rechenbasis}</p>}
+        </div>
+      )}
+      {!result.correct && card.typ === 'formel_luecke_mc' && card.antwort_daten.formel && (
         <div className="mt-3 rounded-lg bg-white p-3">
           <h3 className="text-sm font-black">Vollständige Formel</h3>
           <p className="mt-1 text-base font-black text-slate-800">{card.antwort_daten.formel}</p>
         </div>
       )}
-      {card.typ === 'formel_builder' && card.antwort_daten.formel && (
+      {!result.correct && card.typ === 'formel_builder' && card.antwort_daten.formel && (
         <div className="mt-3 rounded-lg bg-white p-3">
           <h3 className="text-sm font-black">Vollständige Formel</h3>
           <p className="mt-1 text-base font-black text-slate-800">{card.antwort_daten.formel}</p>
         </div>
       )}
     </section>
+  )
+}
+
+function LegalReference({ reference }) {
+  if (!reference) return null
+  const items = Array.isArray(reference) ? reference : [reference]
+
+  return (
+    <div className="mt-3 rounded-lg border border-cyan-200 bg-cyan-50 p-3">
+      <h3 className="text-sm font-black text-cyan-950">Rechtsgrundlage</h3>
+      <ul className="mt-2 space-y-1">
+        {items.map((item) => (
+          <li key={typeof item === 'string' ? item : `${item.gesetz}-${item.artikel}`} className="text-sm font-bold text-cyan-950">
+            {typeof item === 'string' ? item : `${item.gesetz} Art. ${item.artikel}${item.absatz ? ` Abs. ${item.absatz}` : ''}${item.hinweis ? ` – ${item.hinweis}` : ''}`}
+          </li>
+        ))}
+      </ul>
+    </div>
   )
 }
 

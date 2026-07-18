@@ -28,7 +28,7 @@ function progress(overrides = {}) {
   return { ...defaultProgress, ...overrides, attemptsByStage: overrides.attemptsByStage ?? {} }
 }
 
-test('erste vollständige Themenlösung steigt auf LVL 1 und startet drei Tage Wartezeit', () => {
+test('erste vollständige Themenlösung steigt auf LVL 1 und startet vier Stunden Wartezeit', () => {
   const now = Date.UTC(2026, 6, 16, 8)
   const update = applyTopicAnswer(topic, progress({ stage: 3 }), topic.cards[2], null, true, now)
 
@@ -124,4 +124,21 @@ test('formel_builder prüft die aktiv zusammengesetzte Reihenfolge', () => {
   }
   assert.equal(checkAnswer(card, { sequence: ['uv', 'geteilt', 'kfk', 'mal', 'hundert'], result: '' }), true)
   assert.equal(checkAnswer(card, { sequence: ['kfk', 'geteilt', 'uv', 'mal', 'hundert'], result: '' }), false)
+})
+
+test('automatisch berechneter formel_builder verlangt keine Ergebniseingabe', () => {
+  const card = {
+    typ: 'formel_builder',
+    antwort_daten: {
+      bausteine: [
+        { id: 'ek', label: 'Eigenkapital' },
+        { id: 'geteilt', label: '÷' },
+        { id: 'gk', label: 'Gesamtkapital' }
+      ],
+      richtige_reihenfolge: ['ek', 'geteilt', 'gk'],
+      ergebnis: { automatisch: true, richtiger_wert: 40, einheit: '%' }
+    }
+  }
+
+  assert.equal(checkAnswer(card, { sequence: ['ek', 'geteilt', 'gk'], result: '' }), true)
 })

@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint .",
-    "test": "node --test src/cardEngine.test.js"
+    "test": "node --test src/cardEngine.test.js",
+    "audit:content": "node scripts/audit-content.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.4",

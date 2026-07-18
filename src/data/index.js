@@ -84,7 +84,11 @@ function validateCard(card) {
           if (!ids.has(id)) errors.push(`formel_builder.richtige_reihenfolge unbekannt: ${id}`)
         })
       }
-      const balanceIds = [...(data.bilanz?.aktiven ?? []), ...(data.bilanz?.passiven ?? [])]
+      const balanceIds = [
+        ...(data.bilanz?.aktiven ?? []),
+        ...(data.bilanz?.passiven ?? []),
+        ...(data.bilanz?.erfolgsrechnung ?? [])
+      ]
       balanceIds.forEach((id) => {
         if (!ids.has(id)) errors.push(`formel_builder.bilanz unbekannt: ${id}`)
       })

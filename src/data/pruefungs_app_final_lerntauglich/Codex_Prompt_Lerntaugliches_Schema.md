@@ -40,24 +40,27 @@ Ein Thema verwendet nur die Stufen, für die Karten vorhanden sind; die App leit
 seine variable Stufenfolge ab. Pro Stufe werden höchstens drei Aufgabenvarianten rotiert.
 
 ## Anzeige vor der Antwort
-Zeige:
+Zeige beim Öffnen jedes Themas zuerst eine eigene Einführungskarte mit Titel und
+`begriff_erklaerung.kurz`. Erst danach folgt die erste Aufgabe.
+
+Auf der Aufgabenkarte zeige:
 1. Fach
 2. Thema
 3. Stufe
 4. Lernziel
-5. Begriffserklärung `begriff_erklaerung.kurz`
+5. optional `aufgaben_hinweis` beziehungsweise eine ausdrücklich aufgabenspezifische Kurzerklärung
 6. Frage
 7. Antwortoptionen je nach Kartentyp
 
 ## Anzeige nach der Antwort
 Nach dem Prüfen zeige:
 - richtig/falsch
-- korrekte Antwort(en)
-- `loesungsvorschlag.kurz`
-- `loesungsvorschlag.rechenweg`
-- `loesungsvorschlag.warum`
-- `fehlerfallen`
-- `merksatz`
+- bei falscher Antwort: korrekte Antwort(en), Rechenweg, Begründung und Merksatz
+- bei richtiger Antwort auf der letzten Stufe: die Abschlusserklärung
+- falls vorhanden: `rechtsgrundlage` mit Gesetz, Artikel und Absatz
+
+Bei einer richtigen Antwort werden weder „Lösungsvorschlag“, „Kurz erklärt“ noch die
+bereits gewählte korrekte Lösung wiederholt.
 
 ## Antwortprüfung
 ### single_choice
@@ -96,8 +99,8 @@ Speichere den Fortschritt pro Thema lokal:
 - `letzte_wiederholung`
 - `naechste_wiederholung`
 
-Intervalle: LVL 1 nach 3 Tagen, LVL 2 nach 7 Tagen, LVL 3 nach 2 Wochen,
-LVL 4 nach 3 Wochen und LVL 5 nach einem Monat.
+Intervalle: LVL 1 nach 4 Stunden, LVL 2 nach 6 Stunden, LVL 3 nach 8 Stunden,
+LVL 4 nach 12 Stunden und LVL 5 nach 24 Stunden.
 Ein Fehler senkt nur die Aufgabenstufe innerhalb des Themas, niemals das LVL.
 Ein LVL-Aufstieg zählt nur bei einer fälligen Wiederholung auf der höchsten Themenstufe.
 
