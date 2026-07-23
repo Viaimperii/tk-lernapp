@@ -6,22 +6,23 @@
     "hinweis_2021": "2021.zip war leer und konnte nicht ausgewertet werden.",
     "quelle": "auf Basis von pruefungs_app_import/lernkarten_pruefungen_Alle_Faecher.json plus automatischer Struktur-/Logik-Kontrolle",
     "schema_version": "2.0-final-learning",
-    "anzahl_karten": 143,
+    "anzahl_karten": 144,
     "anzahl_themen_gruppiert": 37,
     "kartentypen": {
       "single_choice": 70,
       "multiple_choice": 55,
       "reihenfolge": 8,
-      "zuordnung": 10
+      "zuordnung": 10,
+      "fallentscheidung": 1
     },
     "stufen": {
       "1": 40,
       "2": 3,
       "3": 99,
-      "4": 1
+      "4": 2
     },
     "karten_pro_fach": {
-      "Personalmanagement": 143
+      "Personalmanagement": 144
     },
     "validierungsfehler": 0,
     "erlaubte_typen": [
@@ -8266,6 +8267,54 @@
       },
       "erklaerung": "AHV/IV gehören zur staatlichen, die Pensionskasse zur beruflichen und 3a sowie 3b zur privaten Vorsorge.",
       "merksatz": "3a ist gebunden, 3b ist frei – beide gehören zur privaten 3. Säule."
+    },
+    {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Eine Vorsorgelücke der passenden Säule zuordnen.",
+      "begriff_erklaerung": {
+        "kurz": "Die gebundene Selbstvorsorge 3a ergänzt AHV und berufliche Vorsorge freiwillig unter gesetzlichen Bedingungen.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Wähle das passende Instrument und begründe die Wahl.",
+      "erklaerung": "Die Säule 3a kann eine persönliche Vorsorgelücke ergänzen. Verfügbarkeit und Steuerabzug richten sich nach den gesetzlichen Bedingungen.",
+      "abschlusserklaerung": "Die Säule 3a kann eine persönliche Vorsorgelücke ergänzen. Verfügbarkeit und Steuerabzug richten sich nach den gesetzlichen Bedingungen.",
+      "loesungsvorschlag": {
+        "kurz": "Die Säule 3a kann eine persönliche Vorsorgelücke ergänzen. Verfügbarkeit und Steuerabzug richten sich nach den gesetzlichen Bedingungen.",
+        "warum": "Die Säule 3a kann eine persönliche Vorsorgelücke ergänzen. Verfügbarkeit und Steuerabzug richten sich nach den gesetzlichen Bedingungen."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Die Säule 3a kann eine persönliche Vorsorgelücke ergänzen. Verfügbarkeit und Steuerabzug richten sich nach den gesetzlichen Bedingungen.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_1"
+      ],
+      "id": "lvl_personal_3_saeulen_fallentscheidung_1",
+      "fach": "Personalmanagement",
+      "thema_id": "3_saeulen_prinzip",
+      "thema": "Schweizerisches 3-Säulen-System",
+      "stufe": 4,
+      "ab_lvl": 1,
+      "typ": "fallentscheidung",
+      "frage": "Eine angestellte Person hat AHV und Pensionskasse, erwartet aber eine Vorsorgelücke und möchte freiwillig steuerbegünstigt sparen.",
+      "antwort_daten": {
+        "entscheidungen": [
+          "Zusätzliche AHV-Beiträge ausserhalb der gesetzlichen Regeln einzahlen.",
+          "Eine gebundene Vorsorge 3a unter Beachtung der gesetzlichen Bedingungen prüfen.",
+          "Die Pensionskasse kündigen und sämtliche Vorsorge durch Bargeld ersetzen."
+        ],
+        "begruendungen": [
+          "Die Säule 3a ist freiwillige gebundene Selbstvorsorge und kann die Leistungen aus Säule 1 und 2 ergänzen.",
+          "Die Säule 3a ersetzt obligatorisch die AHV.",
+          "Nur die freie Vorsorge 3b ist gesetzlich gebunden."
+        ],
+        "richtig": {
+          "entscheidung": 1,
+          "begruendung": 0
+        }
+      }
     },
     {
       "fach": "Personalmanagement",

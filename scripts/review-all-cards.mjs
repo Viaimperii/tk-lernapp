@@ -72,6 +72,24 @@ function expectedAnswer(card) {
     indices: data.richtige_reihenfolge ?? [],
     values: [data.formel, data.ergebnis?.richtiger_wert === undefined ? null : `${data.ergebnis.richtiger_wert} ${data.ergebnis.einheit ?? ''}`].filter(Boolean)
   }
+  if (card.typ === 'zahlen_eingabe') return {
+    indices: [],
+    values: [`${data.richtiger_wert} ${data.einheit ?? ''}`.trim()]
+  }
+  if (card.typ === 'buchungssatz_builder') {
+    const labels = Object.fromEntries((data.konten ?? []).map((account) => [account.id, account.label]))
+    return {
+      indices: [],
+      values: [`${labels[data.richtig?.soll]} an ${labels[data.richtig?.haben]}${data.richtig?.betrag == null ? '' : `, CHF ${data.richtig.betrag}`}`]
+    }
+  }
+  if (card.typ === 'fallentscheidung') return {
+    indices: [data.richtig?.entscheidung, data.richtig?.begruendung],
+    values: [
+      data.entscheidungen?.[data.richtig?.entscheidung],
+      data.begruendungen?.[data.richtig?.begruendung]
+    ].filter(Boolean)
+  }
   return { indices: [], values: [] }
 }
 
@@ -129,6 +147,22 @@ function structuralReview(card) {
     }
   }
 
+  if (card.typ === 'zahlen_eingabe') {
+    if (!Number.isFinite(data.richtiger_wert)) errors.push('Zahlenaufgabe ohne gültiges Resultat')
+    if (!Number.isFinite(data.toleranz ?? 0) || (data.toleranz ?? 0) < 0) errors.push('Ungültige Zahlentoleranz')
+  }
+
+  if (card.typ === 'buchungssatz_builder') {
+    const accountIds = new Set((data.konten ?? []).map((account) => account.id))
+    if (!accountIds.has(data.richtig?.soll) || !accountIds.has(data.richtig?.haben)) errors.push('Ungültiger Buchungssatz')
+    if (data.richtig?.betrag != null && !Number.isFinite(data.richtig.betrag)) errors.push('Ungültiger Buchungsbetrag')
+  }
+
+  if (card.typ === 'fallentscheidung') {
+    if (!data.entscheidungen?.[data.richtig?.entscheidung]) errors.push('Ungültige Fallentscheidung')
+    if (!data.begruendungen?.[data.richtig?.begruendung]) errors.push('Ungültige Fallbegründung')
+  }
+
   return { errors, warnings }
 }
 
@@ -175,6 +209,7 @@ function difficultyReview(card) {
   let score = Number(card.stufe ?? 1)
   if (['multiple_choice', 'reihenfolge', 'zuordnung'].includes(card.typ)) score += 0.5
   if (['formel_luecke_mc', 'formel_builder'].includes(card.typ)) score += 1
+  if (['zahlen_eingabe', 'buchungssatz_builder', 'fallentscheidung'].includes(card.typ)) score += 1
   if (String(card.frage).length > 350) score += 0.5
   if ((card.antwort_daten?.optionen?.length ?? 0) >= 5) score += 0.25
   score = Math.max(1, Math.min(5, Math.round(score * 2) / 2))
@@ -188,7 +223,7 @@ function learningReview(card, duplicateQuestionCount) {
   const question = String(card.frage ?? '')
   const explanation = String(card.erklaerung ?? card.abschlusserklaerung ?? '')
 
-  if (['reihenfolge', 'zuordnung', 'formel_luecke_mc', 'formel_builder'].includes(card.typ)) {
+  if (['reihenfolge', 'zuordnung', 'formel_luecke_mc', 'formel_builder', 'zahlen_eingabe', 'buchungssatz_builder', 'fallentscheidung'].includes(card.typ)) {
     score += 1
     reasons.push('aktive Anwendung statt reiner Wiedererkennung')
   }

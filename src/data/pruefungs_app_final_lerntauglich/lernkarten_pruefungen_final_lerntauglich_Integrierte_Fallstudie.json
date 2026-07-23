@@ -6,18 +6,19 @@
     "hinweis_2021": "2021.zip war leer und konnte nicht ausgewertet werden.",
     "quelle": "auf Basis von pruefungs_app_import/lernkarten_pruefungen_Alle_Faecher.json plus automatischer Struktur-/Logik-Kontrolle",
     "schema_version": "2.0-final-learning",
-    "anzahl_karten": 42,
+    "anzahl_karten": 43,
     "anzahl_themen_gruppiert": 14,
     "kartentypen": {
       "single_choice": 16,
-      "multiple_choice": 26
+      "multiple_choice": 26,
+      "fallentscheidung": 1
     },
     "stufen": {
       "1": 16,
-      "3": 26
+      "3": 27
     },
     "karten_pro_fach": {
-      "Integrierte_Fallstudie": 42
+      "Integrierte_Fallstudie": 43
     },
     "validierungsfehler": 0,
     "erlaubte_typen": [
@@ -665,6 +666,54 @@
       "merksatz": "Zuerst müssen Sachverhalt und Wesentlichkeit geklärt werden. Danach folgen abgestimmte Korrektur, transparente Information und saubere Dokumentation.",
       "erklaerung": "Zuerst müssen Sachverhalt und Wesentlichkeit geklärt werden. Danach folgen abgestimmte Korrektur, transparente Information und saubere Dokumentation.",
       "abschlusserklaerung": "Zuerst müssen Sachverhalt und Wesentlichkeit geklärt werden. Danach folgen abgestimmte Korrektur, transparente Information und saubere Dokumentation."
+    },
+    {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Einen wesentlichen Berichtsfehler transparent und kontrolliert korrigieren.",
+      "begriff_erklaerung": {
+        "kurz": "Nach bereits erfolgter Publikation müssen Fehlerwirkung, Zuständigkeiten, Korrektur und Adressateninformation abgestimmt werden.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Wähle Vorgehen und Begründung als zusammengehöriges Paar.",
+      "erklaerung": "Originalbelege bleiben unverändert. Fehler und Auswirkungen werden dokumentiert und die Berichtigung wird mit den zuständigen Stellen transparent kommuniziert.",
+      "abschlusserklaerung": "Originalbelege bleiben unverändert. Fehler und Auswirkungen werden dokumentiert und die Berichtigung wird mit den zuständigen Stellen transparent kommuniziert.",
+      "loesungsvorschlag": {
+        "kurz": "Originalbelege bleiben unverändert. Fehler und Auswirkungen werden dokumentiert und die Berichtigung wird mit den zuständigen Stellen transparent kommuniziert.",
+        "warum": "Originalbelege bleiben unverändert. Fehler und Auswirkungen werden dokumentiert und die Berichtigung wird mit den zuständigen Stellen transparent kommuniziert."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Originalbelege bleiben unverändert. Fehler und Auswirkungen werden dokumentiert und die Berichtigung wird mit den zuständigen Stellen transparent kommuniziert.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_1"
+      ],
+      "id": "lvl_ifs_geschaeftsbericht_fallentscheidung_2",
+      "fach": "Integrierte_Fallstudie",
+      "thema_id": "fehler_im_geschaeftsbericht",
+      "thema": "Fehler im Geschäftsbericht",
+      "stufe": 3,
+      "ab_lvl": 1,
+      "typ": "fallentscheidung",
+      "frage": "Nach dem Versand des Geschäftsberichts wird eine wesentliche falsche Bilanzzahl bestätigt. Welches Vorgehen ist sachgerecht?",
+      "antwort_daten": {
+        "entscheidungen": [
+          "Belege an die publizierte Zahl anpassen.",
+          "Auswirkung dokumentieren, zuständige Stellen einbeziehen und die Adressaten abgestimmt berichtigen.",
+          "Den Fehler erst im nächsten Jahresbericht kommentarlos korrigieren."
+        ],
+        "begruendungen": [
+          "Transparenz und Nachvollziehbarkeit verlangen eine kontrollierte Berichtigung ohne Veränderung der Originalbelege.",
+          "Gedruckte Berichte dürfen grundsätzlich nie berichtigt werden.",
+          "Eine Bilanzzahl ist nach Versand unabhängig von ihrer Wesentlichkeit unbeachtlich."
+        ],
+        "richtig": {
+          "entscheidung": 1,
+          "begruendung": 0
+        }
+      }
     },
     {
       "id": "pr2025_integrierte_fallstudie_1_2_thema_stufe3",

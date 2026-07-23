@@ -6,30 +6,33 @@
     "hinweis_2021": "2021.zip war leer und konnte nicht ausgewertet werden.",
     "quelle": "auf Basis von pruefungs_app_import/lernkarten_pruefungen_Alle_Faecher.json plus automatischer Struktur-/Logik-Kontrolle",
     "schema_version": "2.0-final-learning",
-    "anzahl_karten": 974,
+    "anzahl_karten": 987,
     "anzahl_themen_gruppiert": 214,
     "kartentypen": {
       "single_choice": 456,
       "multiple_choice": 432,
       "formel_builder": 15,
+      "buchungssatz_builder": 1,
       "zuordnung": 29,
       "formel_luecke_mc": 8,
-      "reihenfolge": 34
+      "zahlen_eingabe": 6,
+      "reihenfolge": 35,
+      "fallentscheidung": 5
     },
     "stufen": {
       "1": 257,
       "2": 21,
-      "3": 681,
-      "4": 15
+      "3": 693,
+      "4": 16
     },
     "karten_pro_fach": {
-      "Finanzwirtschaft": 207,
-      "Integrierte_Fallstudie": 42,
+      "Finanzwirtschaft": 212,
+      "Integrierte_Fallstudie": 43,
       "Marketing_Verkauf": 120,
-      "Personalmanagement": 143,
-      "Problemloesung_Entscheidung": 55,
-      "Recht_VWL": 123,
-      "SCM": 157,
+      "Personalmanagement": 144,
+      "Problemloesung_Entscheidung": 57,
+      "Recht_VWL": 124,
+      "SCM": 160,
       "Unternehmensfuehrung": 127
     },
     "validierungsfehler": 0,
@@ -826,6 +829,68 @@
         "plausible_distraktoren"
       ],
       "merksatz": "Finanzbuchhaltung schaut nach aussen, Betriebsbuchhaltung schaut nach innen."
+    },
+    {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Einen einfachen Geschäftsfall als Buchungssatz erfassen.",
+      "begriff_erklaerung": {
+        "kurz": "Aufwand nimmt im Soll zu; eine neue Lieferantenschuld wird im Haben auf dem Kreditorenkonto erfasst.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Wähle Sollkonto, Habenkonto und Betrag.",
+      "erklaerung": "Die Rechnung erhöht den Raumaufwand im Soll und die Verbindlichkeit gegenüber dem Lieferanten im Haben: Raumaufwand an Kreditoren CHF 2’500.",
+      "abschlusserklaerung": "Die Rechnung erhöht den Raumaufwand im Soll und die Verbindlichkeit gegenüber dem Lieferanten im Haben: Raumaufwand an Kreditoren CHF 2’500.",
+      "loesungsvorschlag": {
+        "kurz": "Die Rechnung erhöht den Raumaufwand im Soll und die Verbindlichkeit gegenüber dem Lieferanten im Haben: Raumaufwand an Kreditoren CHF 2’500.",
+        "warum": "Die Rechnung erhöht den Raumaufwand im Soll und die Verbindlichkeit gegenüber dem Lieferanten im Haben: Raumaufwand an Kreditoren CHF 2’500."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Die Rechnung erhöht den Raumaufwand im Soll und die Verbindlichkeit gegenüber dem Lieferanten im Haben: Raumaufwand an Kreditoren CHF 2’500.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_1"
+      ],
+      "id": "lvl_finanzwirtschaft_buchungssatz_kreditmiete_2",
+      "fach": "Finanzwirtschaft",
+      "thema_id": "aufgaben_der_finanzbuchhaltung",
+      "thema": "Aufgaben der Finanzbuchhaltung",
+      "stufe": 3,
+      "ab_lvl": 1,
+      "typ": "buchungssatz_builder",
+      "frage": "Die Monatsmiete von CHF 2’500 trifft als Rechnung ein und wird erst später bezahlt. Wie lautet der Buchungssatz?",
+      "antwort_daten": {
+        "konten": [
+          {
+            "id": "raumaufwand",
+            "label": "Raumaufwand"
+          },
+          {
+            "id": "kreditoren",
+            "label": "Kreditoren"
+          },
+          {
+            "id": "bank",
+            "label": "Bank"
+          },
+          {
+            "id": "debitoren",
+            "label": "Debitoren"
+          },
+          {
+            "id": "mietertrag",
+            "label": "Mietertrag"
+          }
+        ],
+        "richtig": {
+          "soll": "raumaufwand",
+          "haben": "kreditoren",
+          "betrag": 2500
+        },
+        "toleranz": 0
+      }
     },
     {
       "id": "pr2022_finanzwirtschaft_1_3_choice_stufe3",
@@ -3042,6 +3107,45 @@
       "merksatz": "DB deckt Fixkosten; Break-even ist dort, wo die DB-Summe die Fixkosten trägt.",
       "kontrolle": {
         "formel_check": "DB = Erlös − variable Kosten."
+      }
+    },
+    {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Die Break-even-Menge ohne vorgegebene Resultate berechnen.",
+      "begriff_erklaerung": {
+        "kurz": "Die Break-even-Menge zeigt, ab welcher Stückzahl die Fixkosten vollständig durch Deckungsbeiträge gedeckt sind.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Berechne das Resultat selbst und gib nur die Stückzahl ein.",
+      "erklaerung": "Bei 3’000 Stück decken die gesamten Deckungsbeiträge von CHF 120’000 genau die Fixkosten.",
+      "abschlusserklaerung": "Bei 3’000 Stück decken die gesamten Deckungsbeiträge von CHF 120’000 genau die Fixkosten.",
+      "loesungsvorschlag": {
+        "kurz": "Bei 3’000 Stück decken die gesamten Deckungsbeiträge von CHF 120’000 genau die Fixkosten.",
+        "warum": "Bei 3’000 Stück decken die gesamten Deckungsbeiträge von CHF 120’000 genau die Fixkosten.",
+        "rechenweg": "CHF 120’000 ÷ CHF 40 = 3’000 Stück."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Bei 3’000 Stück decken die gesamten Deckungsbeiträge von CHF 120’000 genau die Fixkosten.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_1"
+      ],
+      "id": "lvl_finanzwirtschaft_break_even_zahleneingabe_1",
+      "fach": "Finanzwirtschaft",
+      "thema_id": "break_even_deckungsbeitrag",
+      "thema": "Break-even / Deckungsbeitrag",
+      "stufe": 3,
+      "ab_lvl": 1,
+      "typ": "zahlen_eingabe",
+      "frage": "Ein Produkt erzielt CHF 40 Deckungsbeitrag pro Stück. Die Fixkosten betragen CHF 120’000. Wie hoch ist die Break-even-Menge?",
+      "antwort_daten": {
+        "richtiger_wert": 3000,
+        "toleranz": 0,
+        "einheit": "Stück",
+        "rundung": "Ganze Stück"
       }
     },
     {
@@ -7647,6 +7751,84 @@
       }
     },
     {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Den Liquiditätsgrad 1 ohne Antwortvorgaben berechnen.",
+      "begriff_erklaerung": {
+        "kurz": "Der Liquiditätsgrad 1 vergleicht die sofort verfügbaren flüssigen Mittel mit dem kurzfristigen Fremdkapital.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Gib das Ergebnis in Prozent ein.",
+      "erklaerung": "Der Liquiditätsgrad 1 beträgt 25 %. Pro CHF 100 kurzfristiger Verpflichtungen stehen CHF 25 sofort verfügbare Mittel bereit.",
+      "abschlusserklaerung": "Der Liquiditätsgrad 1 beträgt 25 %. Pro CHF 100 kurzfristiger Verpflichtungen stehen CHF 25 sofort verfügbare Mittel bereit.",
+      "loesungsvorschlag": {
+        "kurz": "Der Liquiditätsgrad 1 beträgt 25 %. Pro CHF 100 kurzfristiger Verpflichtungen stehen CHF 25 sofort verfügbare Mittel bereit.",
+        "warum": "Der Liquiditätsgrad 1 beträgt 25 %. Pro CHF 100 kurzfristiger Verpflichtungen stehen CHF 25 sofort verfügbare Mittel bereit.",
+        "rechenweg": "CHF 25’000 ÷ CHF 100’000 × 100 = 25 %."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Der Liquiditätsgrad 1 beträgt 25 %. Pro CHF 100 kurzfristiger Verpflichtungen stehen CHF 25 sofort verfügbare Mittel bereit.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_1"
+      ],
+      "id": "lvl_finanzwirtschaft_liquiditaetsgrad_1_zahleneingabe_1",
+      "fach": "Finanzwirtschaft",
+      "thema_id": "liquiditaet_mittelfluss",
+      "thema": "Liquidität / Mittelfluss",
+      "stufe": 3,
+      "ab_lvl": 1,
+      "typ": "zahlen_eingabe",
+      "frage": "Flüssige Mittel: CHF 25’000; kurzfristiges Fremdkapital: CHF 100’000. Wie hoch ist der Liquiditätsgrad 1?",
+      "antwort_daten": {
+        "richtiger_wert": 25,
+        "toleranz": 0.1,
+        "einheit": "%",
+        "rundung": "Auf 1 Dezimalstelle"
+      }
+    },
+    {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Den Liquiditätsgrad 2 aus Bilanzwerten selbst berechnen.",
+      "begriff_erklaerung": {
+        "kurz": "Der Liquiditätsgrad 2 stellt flüssige Mittel und kurzfristige Forderungen dem kurzfristigen Fremdkapital gegenüber.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Gib das Ergebnis in Prozent ein. Ein Dezimalkomma ist möglich.",
+      "erklaerung": "Der Liquiditätsgrad 2 beträgt 125 %. Kurzfristige Verpflichtungen sind durch flüssige Mittel und Forderungen rechnerisch gedeckt.",
+      "abschlusserklaerung": "Der Liquiditätsgrad 2 beträgt 125 %. Kurzfristige Verpflichtungen sind durch flüssige Mittel und Forderungen rechnerisch gedeckt.",
+      "loesungsvorschlag": {
+        "kurz": "Der Liquiditätsgrad 2 beträgt 125 %. Kurzfristige Verpflichtungen sind durch flüssige Mittel und Forderungen rechnerisch gedeckt.",
+        "warum": "Der Liquiditätsgrad 2 beträgt 125 %. Kurzfristige Verpflichtungen sind durch flüssige Mittel und Forderungen rechnerisch gedeckt.",
+        "rechenweg": "(CHF 45’000 + CHF 80’000) ÷ CHF 100’000 × 100 = 125 %."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Der Liquiditätsgrad 2 beträgt 125 %. Kurzfristige Verpflichtungen sind durch flüssige Mittel und Forderungen rechnerisch gedeckt.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_2"
+      ],
+      "id": "lvl_finanzwirtschaft_liquiditaetsgrad_2_zahleneingabe_2",
+      "fach": "Finanzwirtschaft",
+      "thema_id": "liquiditaet_mittelfluss",
+      "thema": "Liquidität / Mittelfluss",
+      "stufe": 3,
+      "ab_lvl": 2,
+      "typ": "zahlen_eingabe",
+      "frage": "Flüssige Mittel: CHF 45’000; Forderungen: CHF 80’000; kurzfristiges Fremdkapital: CHF 100’000. Wie hoch ist der Liquiditätsgrad 2?",
+      "antwort_daten": {
+        "richtiger_wert": 125,
+        "toleranz": 0.1,
+        "einheit": "%",
+        "rundung": "Auf 1 Dezimalstelle"
+      }
+    },
+    {
       "id": "pr2022_finanzwirtschaft_1_11_choice_stufe3",
       "jahr": 2022,
       "fach": "Finanzwirtschaft",
@@ -9673,6 +9855,45 @@
       "merksatz": "Der Bruttobetrag besteht aus Nettobetrag plus MWST. Bei 8,1 % wird der Nettobetrag deshalb mit 1,081 multipliziert.",
       "erklaerung": "Der Bruttobetrag besteht aus Nettobetrag plus MWST. Bei 8,1 % wird der Nettobetrag deshalb mit 1,081 multipliziert.",
       "abschlusserklaerung": "Der Bruttobetrag besteht aus Nettobetrag plus MWST. Bei 8,1 % wird der Nettobetrag deshalb mit 1,081 multipliziert."
+    },
+    {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Den MWST-Betrag aus einem Nettobetrag selbst bestimmen.",
+      "begriff_erklaerung": {
+        "kurz": "Bei einem Nettobetrag wird der Steuerbetrag durch Multiplikation mit dem MWST-Satz berechnet.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Gib nur den MWST-Betrag ein.",
+      "erklaerung": "Der MWST-Betrag beträgt CHF 202.50; der Bruttobetrag wäre CHF 2’702.50.",
+      "abschlusserklaerung": "Der MWST-Betrag beträgt CHF 202.50; der Bruttobetrag wäre CHF 2’702.50.",
+      "loesungsvorschlag": {
+        "kurz": "Der MWST-Betrag beträgt CHF 202.50; der Bruttobetrag wäre CHF 2’702.50.",
+        "warum": "Der MWST-Betrag beträgt CHF 202.50; der Bruttobetrag wäre CHF 2’702.50.",
+        "rechenweg": "CHF 2’500 × 8,1 % = CHF 202.50."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Der MWST-Betrag beträgt CHF 202.50; der Bruttobetrag wäre CHF 2’702.50.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_1"
+      ],
+      "id": "lvl_finanzwirtschaft_mwst_zahleneingabe_1",
+      "fach": "Finanzwirtschaft",
+      "thema_id": "mehrwertsteuer",
+      "thema": "Mehrwertsteuer",
+      "stufe": 3,
+      "ab_lvl": 1,
+      "typ": "zahlen_eingabe",
+      "frage": "Eine Leistung kostet netto CHF 2’500. Wie hoch ist die MWST bei einem Satz von 8,1 %?",
+      "antwort_daten": {
+        "richtiger_wert": 202.5,
+        "toleranz": 0.01,
+        "einheit": "CHF",
+        "rundung": "Auf Rappen"
+      }
     },
     {
       "id": "pr2022_finanzwirtschaft_1_1_choice_stufe3",
@@ -15622,6 +15843,54 @@
       "merksatz": "Zuerst müssen Sachverhalt und Wesentlichkeit geklärt werden. Danach folgen abgestimmte Korrektur, transparente Information und saubere Dokumentation.",
       "erklaerung": "Zuerst müssen Sachverhalt und Wesentlichkeit geklärt werden. Danach folgen abgestimmte Korrektur, transparente Information und saubere Dokumentation.",
       "abschlusserklaerung": "Zuerst müssen Sachverhalt und Wesentlichkeit geklärt werden. Danach folgen abgestimmte Korrektur, transparente Information und saubere Dokumentation."
+    },
+    {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Einen wesentlichen Berichtsfehler transparent und kontrolliert korrigieren.",
+      "begriff_erklaerung": {
+        "kurz": "Nach bereits erfolgter Publikation müssen Fehlerwirkung, Zuständigkeiten, Korrektur und Adressateninformation abgestimmt werden.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Wähle Vorgehen und Begründung als zusammengehöriges Paar.",
+      "erklaerung": "Originalbelege bleiben unverändert. Fehler und Auswirkungen werden dokumentiert und die Berichtigung wird mit den zuständigen Stellen transparent kommuniziert.",
+      "abschlusserklaerung": "Originalbelege bleiben unverändert. Fehler und Auswirkungen werden dokumentiert und die Berichtigung wird mit den zuständigen Stellen transparent kommuniziert.",
+      "loesungsvorschlag": {
+        "kurz": "Originalbelege bleiben unverändert. Fehler und Auswirkungen werden dokumentiert und die Berichtigung wird mit den zuständigen Stellen transparent kommuniziert.",
+        "warum": "Originalbelege bleiben unverändert. Fehler und Auswirkungen werden dokumentiert und die Berichtigung wird mit den zuständigen Stellen transparent kommuniziert."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Originalbelege bleiben unverändert. Fehler und Auswirkungen werden dokumentiert und die Berichtigung wird mit den zuständigen Stellen transparent kommuniziert.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_1"
+      ],
+      "id": "lvl_ifs_geschaeftsbericht_fallentscheidung_2",
+      "fach": "Integrierte_Fallstudie",
+      "thema_id": "fehler_im_geschaeftsbericht",
+      "thema": "Fehler im Geschäftsbericht",
+      "stufe": 3,
+      "ab_lvl": 1,
+      "typ": "fallentscheidung",
+      "frage": "Nach dem Versand des Geschäftsberichts wird eine wesentliche falsche Bilanzzahl bestätigt. Welches Vorgehen ist sachgerecht?",
+      "antwort_daten": {
+        "entscheidungen": [
+          "Belege an die publizierte Zahl anpassen.",
+          "Auswirkung dokumentieren, zuständige Stellen einbeziehen und die Adressaten abgestimmt berichtigen.",
+          "Den Fehler erst im nächsten Jahresbericht kommentarlos korrigieren."
+        ],
+        "begruendungen": [
+          "Transparenz und Nachvollziehbarkeit verlangen eine kontrollierte Berichtigung ohne Veränderung der Originalbelege.",
+          "Gedruckte Berichte dürfen grundsätzlich nie berichtigt werden.",
+          "Eine Bilanzzahl ist nach Versand unabhängig von ihrer Wesentlichkeit unbeachtlich."
+        ],
+        "richtig": {
+          "entscheidung": 1,
+          "begruendung": 0
+        }
+      }
     },
     {
       "id": "pr2025_integrierte_fallstudie_1_2_thema_stufe3",
@@ -34234,6 +34503,54 @@
       "merksatz": "3a ist gebunden, 3b ist frei – beide gehören zur privaten 3. Säule."
     },
     {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Eine Vorsorgelücke der passenden Säule zuordnen.",
+      "begriff_erklaerung": {
+        "kurz": "Die gebundene Selbstvorsorge 3a ergänzt AHV und berufliche Vorsorge freiwillig unter gesetzlichen Bedingungen.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Wähle das passende Instrument und begründe die Wahl.",
+      "erklaerung": "Die Säule 3a kann eine persönliche Vorsorgelücke ergänzen. Verfügbarkeit und Steuerabzug richten sich nach den gesetzlichen Bedingungen.",
+      "abschlusserklaerung": "Die Säule 3a kann eine persönliche Vorsorgelücke ergänzen. Verfügbarkeit und Steuerabzug richten sich nach den gesetzlichen Bedingungen.",
+      "loesungsvorschlag": {
+        "kurz": "Die Säule 3a kann eine persönliche Vorsorgelücke ergänzen. Verfügbarkeit und Steuerabzug richten sich nach den gesetzlichen Bedingungen.",
+        "warum": "Die Säule 3a kann eine persönliche Vorsorgelücke ergänzen. Verfügbarkeit und Steuerabzug richten sich nach den gesetzlichen Bedingungen."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Die Säule 3a kann eine persönliche Vorsorgelücke ergänzen. Verfügbarkeit und Steuerabzug richten sich nach den gesetzlichen Bedingungen.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_1"
+      ],
+      "id": "lvl_personal_3_saeulen_fallentscheidung_1",
+      "fach": "Personalmanagement",
+      "thema_id": "3_saeulen_prinzip",
+      "thema": "Schweizerisches 3-Säulen-System",
+      "stufe": 4,
+      "ab_lvl": 1,
+      "typ": "fallentscheidung",
+      "frage": "Eine angestellte Person hat AHV und Pensionskasse, erwartet aber eine Vorsorgelücke und möchte freiwillig steuerbegünstigt sparen.",
+      "antwort_daten": {
+        "entscheidungen": [
+          "Zusätzliche AHV-Beiträge ausserhalb der gesetzlichen Regeln einzahlen.",
+          "Eine gebundene Vorsorge 3a unter Beachtung der gesetzlichen Bedingungen prüfen.",
+          "Die Pensionskasse kündigen und sämtliche Vorsorge durch Bargeld ersetzen."
+        ],
+        "begruendungen": [
+          "Die Säule 3a ist freiwillige gebundene Selbstvorsorge und kann die Leistungen aus Säule 1 und 2 ergänzen.",
+          "Die Säule 3a ersetzt obligatorisch die AHV.",
+          "Nur die freie Vorsorge 3b ist gesetzlich gebunden."
+        ],
+        "richtig": {
+          "entscheidung": 1,
+          "begruendung": 0
+        }
+      }
+    },
+    {
       "fach": "Personalmanagement",
       "thema_id": "3_saeulen_prinzip",
       "thema": "Schweizerisches 3-Säulen-System",
@@ -38107,6 +38424,52 @@
       "abschlusserklaerung": "Beide Aufgaben sind wichtig, aber die Lohnzahlung hat die frühere Frist und gravierendere Folgen."
     },
     {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Mehrere Postkorbfälle anhand von Frist und Folgen priorisieren.",
+      "begriff_erklaerung": {
+        "kurz": "Priorität entsteht aus Dringlichkeit, Wichtigkeit, Folgen und Zuständigkeit.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Tippe die Vorgänge von zuerst bis zuletzt an.",
+      "erklaerung": "Akute Personengefährdung kommt zuerst, danach die unmittelbar fällige Lohnzahlung, dann die spätere Tagesfrist und zuletzt die langfristige unverbindliche Information.",
+      "abschlusserklaerung": "Akute Personengefährdung kommt zuerst, danach die unmittelbar fällige Lohnzahlung, dann die spätere Tagesfrist und zuletzt die langfristige unverbindliche Information.",
+      "loesungsvorschlag": {
+        "kurz": "Akute Personengefährdung kommt zuerst, danach die unmittelbar fällige Lohnzahlung, dann die spätere Tagesfrist und zuletzt die langfristige unverbindliche Information.",
+        "warum": "Akute Personengefährdung kommt zuerst, danach die unmittelbar fällige Lohnzahlung, dann die spätere Tagesfrist und zuletzt die langfristige unverbindliche Information."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Akute Personengefährdung kommt zuerst, danach die unmittelbar fällige Lohnzahlung, dann die spätere Tagesfrist und zuletzt die langfristige unverbindliche Information.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_1"
+      ],
+      "id": "lvl_problemloesung_postkorb_reihenfolge_1",
+      "fach": "Problemloesung_Entscheidung",
+      "thema_id": "postkorb_priorisierung",
+      "thema": "Postkorb / Priorisierung",
+      "stufe": 3,
+      "ab_lvl": 1,
+      "typ": "reihenfolge",
+      "frage": "Ordne die vier Vorgänge in eine sinnvolle Bearbeitungsreihenfolge.",
+      "antwort_daten": {
+        "items": [
+          "Lohnzahlung ist blockiert; Bankfreigabe endet um 08:30 Uhr.",
+          "Sicherheitsvorfall mit möglicher Personengefährdung ist soeben gemeldet worden.",
+          "Zeiterfassung muss bis 14:00 Uhr freigegeben werden.",
+          "Unverbindliche Einladung zu einer Messe in drei Monaten."
+        ],
+        "richtige_reihenfolge": [
+          1,
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
       "id": "pr2024_problemloesung_entscheidung_20_08_thema_stufe3_3",
       "jahr": 2024,
       "fach": "Problemloesung_Entscheidung",
@@ -39452,6 +39815,54 @@
       "merksatz": "Das Ziel nennt ein klares Ergebnis, eine messbare Grösse, einen Verantwortungsbereich und einen Termin.",
       "erklaerung": "Das Ziel nennt ein klares Ergebnis, eine messbare Grösse, einen Verantwortungsbereich und einen Termin.",
       "abschlusserklaerung": "Das Ziel nennt ein klares Ergebnis, eine messbare Grösse, einen Verantwortungsbereich und einen Termin."
+    },
+    {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Ein unpräzises Ziel in eine messbare Steuerungsgrösse überführen.",
+      "begriff_erklaerung": {
+        "kurz": "SMART-Ziele nennen ein konkretes Ergebnis, Messgrösse, Verantwortlichkeit und Termin.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Wähle die beste Zielformulierung und ihre Begründung.",
+      "erklaerung": "Die zweite Formulierung ist konkret, messbar, zugeordnet und terminiert. Damit kann die Zielerreichung kontrolliert werden.",
+      "abschlusserklaerung": "Die zweite Formulierung ist konkret, messbar, zugeordnet und terminiert. Damit kann die Zielerreichung kontrolliert werden.",
+      "loesungsvorschlag": {
+        "kurz": "Die zweite Formulierung ist konkret, messbar, zugeordnet und terminiert. Damit kann die Zielerreichung kontrolliert werden.",
+        "warum": "Die zweite Formulierung ist konkret, messbar, zugeordnet und terminiert. Damit kann die Zielerreichung kontrolliert werden."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Die zweite Formulierung ist konkret, messbar, zugeordnet und terminiert. Damit kann die Zielerreichung kontrolliert werden.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_1"
+      ],
+      "id": "lvl_problemloesung_smart_fallentscheidung_2",
+      "fach": "Problemloesung_Entscheidung",
+      "thema_id": "ziele_smart",
+      "thema": "Ziele / SMART",
+      "stufe": 3,
+      "ab_lvl": 1,
+      "typ": "fallentscheidung",
+      "frage": "Die Vorgabe lautet: «Wir verbessern bald die Lieferqualität.» Welche Überarbeitung eignet sich zur Steuerung?",
+      "antwort_daten": {
+        "entscheidungen": [
+          "Wir bemühen uns weiterhin um gute Lieferungen.",
+          "SCM senkt die Quote verspäteter Lieferungen bis 30. September von 8 % auf höchstens 3 %.",
+          "Alle Lieferungen müssen ab sofort perfekt sein."
+        ],
+        "begruendungen": [
+          "Das Ziel nennt Ausgangswert, Zielwert, Verantwortung und Termin.",
+          "Je allgemeiner ein Ziel formuliert ist, desto leichter lässt es sich kontrollieren.",
+          "Ein Ziel braucht keine Messgrösse, wenn es positiv klingt."
+        ],
+        "richtig": {
+          "entscheidung": 1,
+          "begruendung": 0
+        }
+      }
     },
     {
       "id": "pr2023_problemloesung_entscheidung_3_1_loesungspunkte_stufe3",
@@ -41956,6 +42367,68 @@
         "plausible_distraktoren"
       ],
       "merksatz": "Wer führt, haftet auch - Organpflichten sind keine Formsache."
+    },
+    {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Bei einem entdeckten Kaufmangel rechtzeitig und beweisbar handeln.",
+      "begriff_erklaerung": {
+        "kurz": "Die gekaufte Sache ist nach Erhalt zu prüfen; entdeckte Mängel sind dem Verkäufer grundsätzlich sofort anzuzeigen.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Wähle die rechtlich zweckmässige Handlung und die passende Begründung.",
+      "erklaerung": "Der Mangel muss nach der Prüfung unverzüglich und beweisbar gerügt werden. Anschliessend werden die passenden Gewährleistungsrechte beurteilt.",
+      "abschlusserklaerung": "Der Mangel muss nach der Prüfung unverzüglich und beweisbar gerügt werden. Anschliessend werden die passenden Gewährleistungsrechte beurteilt.",
+      "loesungsvorschlag": {
+        "kurz": "Der Mangel muss nach der Prüfung unverzüglich und beweisbar gerügt werden. Anschliessend werden die passenden Gewährleistungsrechte beurteilt.",
+        "warum": "Der Mangel muss nach der Prüfung unverzüglich und beweisbar gerügt werden. Anschliessend werden die passenden Gewährleistungsrechte beurteilt."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Der Mangel muss nach der Prüfung unverzüglich und beweisbar gerügt werden. Anschliessend werden die passenden Gewährleistungsrechte beurteilt.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_1"
+      ],
+      "id": "lvl_recht_maengelruege_fallentscheidung_2",
+      "fach": "Recht_VWL",
+      "thema_id": "rechtliche_grundlagen",
+      "thema": "Rechtliche Grundlagen",
+      "stufe": 3,
+      "ab_lvl": 1,
+      "typ": "fallentscheidung",
+      "frage": "Ein Unternehmen entdeckt bei der Eingangskontrolle einen erheblichen Mangel an einer gelieferten Maschine. Was ist zu tun?",
+      "antwort_daten": {
+        "entscheidungen": [
+          "Den Mangel dokumentieren und dem Verkäufer unverzüglich und nachweisbar rügen.",
+          "Die Maschine monatelang unverändert benutzen und erst später reklamieren.",
+          "Die Rechnung kommentarlos vernichten."
+        ],
+        "begruendungen": [
+          "Nur der Rechnungsbetrag entscheidet über die Gewährleistung.",
+          "Die Prüfungs- und Rügepflicht verlangt rechtzeitiges Handeln; Dokumentation sichert den Nachweis.",
+          "Mängel müssen nur bei privaten Käufen gemeldet werden."
+        ],
+        "richtig": {
+          "entscheidung": 0,
+          "begruendung": 1
+        }
+      },
+      "rechtsgrundlage": [
+        {
+          "gesetz": "OR",
+          "artikel": "201",
+          "absatz": "1",
+          "hinweis": "Prüfungs- und Rügepflicht"
+        },
+        {
+          "gesetz": "OR",
+          "artikel": "205",
+          "absatz": "1",
+          "hinweis": "Wandelung oder Minderung"
+        }
+      ]
     },
     {
       "id": "pr2022_recht_vwl_1_1_choice_stufe3",
@@ -48997,6 +49470,54 @@
       "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
     },
     {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Preis, Qualität und Versorgungsrisiko gemeinsam beurteilen.",
+      "begriff_erklaerung": {
+        "kurz": "Der tiefste Einstandspreis ist nicht automatisch die beste Wahl, wenn Termin- oder Qualitätsrisiken hohe Folgekosten verursachen.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Wähle zuerst die Massnahme und danach die dazu passende Begründung.",
+      "erklaerung": "Bei hohem Stillstandsrisiko müssen Zuverlässigkeit und Folgekosten stark gewichtet werden. Der nominell tiefste Preis kann insgesamt teurer sein.",
+      "abschlusserklaerung": "Bei hohem Stillstandsrisiko müssen Zuverlässigkeit und Folgekosten stark gewichtet werden. Der nominell tiefste Preis kann insgesamt teurer sein.",
+      "loesungsvorschlag": {
+        "kurz": "Bei hohem Stillstandsrisiko müssen Zuverlässigkeit und Folgekosten stark gewichtet werden. Der nominell tiefste Preis kann insgesamt teurer sein.",
+        "warum": "Bei hohem Stillstandsrisiko müssen Zuverlässigkeit und Folgekosten stark gewichtet werden. Der nominell tiefste Preis kann insgesamt teurer sein."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Bei hohem Stillstandsrisiko müssen Zuverlässigkeit und Folgekosten stark gewichtet werden. Der nominell tiefste Preis kann insgesamt teurer sein.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_1"
+      ],
+      "id": "lvl_scm_lieferantenauswahl_fallentscheidung_2",
+      "fach": "SCM",
+      "thema_id": "beschaffung_lieferanten",
+      "thema": "Beschaffung / Lieferanten",
+      "stufe": 3,
+      "ab_lvl": 1,
+      "typ": "fallentscheidung",
+      "frage": "Lieferant A ist 4 % günstiger, hat aber wiederholt verspätet geliefert. Lieferant B ist termintreu und qualitätsstabil. Ein Produktionsstillstand wäre sehr teuer. Wie entscheidest du?",
+      "antwort_daten": {
+        "entscheidungen": [
+          "Den gesamten Auftrag ohne weitere Prüfung an Lieferant A vergeben.",
+          "Gesamtkosten und Risiken gewichten; Lieferant B bevorzugen oder die Menge risikogerecht aufteilen.",
+          "Beide Lieferanten ausschliessen, weil ihre Preise nicht identisch sind."
+        ],
+        "begruendungen": [
+          "Der Stückpreis ist immer das einzige zulässige Beschaffungskriterium.",
+          "Verspätungen können Stillstandskosten verursachen, die den Preisvorteil übersteigen.",
+          "Termintreue spielt nur bei Dienstleistungen eine Rolle."
+        ],
+        "richtig": {
+          "entscheidung": 1,
+          "begruendung": 1
+        }
+      }
+    },
+    {
       "id": "pr2022_finanzwirtschaft_1_5_choice_stufe3",
       "jahr": 2022,
       "fach": "SCM",
@@ -53453,6 +53974,84 @@
         "letzte_antwort": null
       },
       "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+    },
+    {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Den durchschnittlichen Lagerbestand selbst berechnen.",
+      "begriff_erklaerung": {
+        "kurz": "Bei zwei Stichtagswerten wird der einfache durchschnittliche Lagerbestand aus Anfangs- und Endbestand gebildet.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Gib den durchschnittlichen Bestand in CHF ein.",
+      "erklaerung": "Der einfache durchschnittliche Lagerbestand beträgt CHF 100’000.",
+      "abschlusserklaerung": "Der einfache durchschnittliche Lagerbestand beträgt CHF 100’000.",
+      "loesungsvorschlag": {
+        "kurz": "Der einfache durchschnittliche Lagerbestand beträgt CHF 100’000.",
+        "warum": "Der einfache durchschnittliche Lagerbestand beträgt CHF 100’000.",
+        "rechenweg": "(CHF 80’000 + CHF 120’000) ÷ 2 = CHF 100’000."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Der einfache durchschnittliche Lagerbestand beträgt CHF 100’000.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_1"
+      ],
+      "id": "lvl_scm_lager_durchschnitt_zahleneingabe_1",
+      "fach": "SCM",
+      "thema_id": "lager_lagerkennzahlen",
+      "thema": "Lager / Lagerkennzahlen",
+      "stufe": 3,
+      "ab_lvl": 1,
+      "typ": "zahlen_eingabe",
+      "frage": "Der Lageranfangsbestand beträgt CHF 80’000, der Lagerendbestand CHF 120’000. Wie hoch ist der einfache durchschnittliche Lagerbestand?",
+      "antwort_daten": {
+        "richtiger_wert": 100000,
+        "toleranz": 0,
+        "einheit": "CHF",
+        "rundung": "Ganze Franken"
+      }
+    },
+    {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Den Lagerumschlag aus Warenaufwand und Durchschnittsbestand berechnen.",
+      "begriff_erklaerung": {
+        "kurz": "Der Lagerumschlag zeigt, wie oft der durchschnittliche Lagerbestand während der Periode umgesetzt wird.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Gib die Anzahl Umschläge ein.",
+      "erklaerung": "Der durchschnittliche Bestand wird sechsmal pro Jahr umgesetzt.",
+      "abschlusserklaerung": "Der durchschnittliche Bestand wird sechsmal pro Jahr umgesetzt.",
+      "loesungsvorschlag": {
+        "kurz": "Der durchschnittliche Bestand wird sechsmal pro Jahr umgesetzt.",
+        "warum": "Der durchschnittliche Bestand wird sechsmal pro Jahr umgesetzt.",
+        "rechenweg": "CHF 600’000 ÷ CHF 100’000 = 6."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Der durchschnittliche Bestand wird sechsmal pro Jahr umgesetzt.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_2"
+      ],
+      "id": "lvl_scm_lagerumschlag_zahleneingabe_2",
+      "fach": "SCM",
+      "thema_id": "lager_lagerkennzahlen",
+      "thema": "Lager / Lagerkennzahlen",
+      "stufe": 3,
+      "ab_lvl": 2,
+      "typ": "zahlen_eingabe",
+      "frage": "Der jährliche Warenaufwand beträgt CHF 600’000, der durchschnittliche Lagerbestand CHF 100’000. Wie hoch ist der Lagerumschlag?",
+      "antwort_daten": {
+        "richtiger_wert": 6,
+        "toleranz": 0.01,
+        "einheit": "×",
+        "rundung": "Auf 2 Dezimalstellen"
+      }
     },
     {
       "id": "pr2022_scm_1_11_choice_stufe3",

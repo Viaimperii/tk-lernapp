@@ -6,24 +6,26 @@
     "hinweis_2021": "2021.zip war leer und konnte nicht ausgewertet werden.",
     "quelle": "auf Basis von pruefungs_app_import/lernkarten_pruefungen_Alle_Faecher.json plus automatischer Struktur-/Logik-Kontrolle",
     "schema_version": "2.0-final-learning",
-    "anzahl_karten": 207,
+    "anzahl_karten": 212,
     "anzahl_themen_gruppiert": 39,
     "kartentypen": {
       "single_choice": 107,
       "multiple_choice": 73,
       "formel_builder": 15,
+      "buchungssatz_builder": 1,
       "zuordnung": 1,
       "formel_luecke_mc": 4,
+      "zahlen_eingabe": 4,
       "reihenfolge": 7
     },
     "stufen": {
       "1": 58,
       "2": 17,
-      "3": 118,
+      "3": 123,
       "4": 14
     },
     "karten_pro_fach": {
-      "Finanzwirtschaft": 207
+      "Finanzwirtschaft": 212
     },
     "validierungsfehler": 0,
     "erlaubte_typen": [
@@ -820,6 +822,68 @@
         "plausible_distraktoren"
       ],
       "merksatz": "Finanzbuchhaltung schaut nach aussen, Betriebsbuchhaltung schaut nach innen."
+    },
+    {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Einen einfachen Geschäftsfall als Buchungssatz erfassen.",
+      "begriff_erklaerung": {
+        "kurz": "Aufwand nimmt im Soll zu; eine neue Lieferantenschuld wird im Haben auf dem Kreditorenkonto erfasst.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Wähle Sollkonto, Habenkonto und Betrag.",
+      "erklaerung": "Die Rechnung erhöht den Raumaufwand im Soll und die Verbindlichkeit gegenüber dem Lieferanten im Haben: Raumaufwand an Kreditoren CHF 2’500.",
+      "abschlusserklaerung": "Die Rechnung erhöht den Raumaufwand im Soll und die Verbindlichkeit gegenüber dem Lieferanten im Haben: Raumaufwand an Kreditoren CHF 2’500.",
+      "loesungsvorschlag": {
+        "kurz": "Die Rechnung erhöht den Raumaufwand im Soll und die Verbindlichkeit gegenüber dem Lieferanten im Haben: Raumaufwand an Kreditoren CHF 2’500.",
+        "warum": "Die Rechnung erhöht den Raumaufwand im Soll und die Verbindlichkeit gegenüber dem Lieferanten im Haben: Raumaufwand an Kreditoren CHF 2’500."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Die Rechnung erhöht den Raumaufwand im Soll und die Verbindlichkeit gegenüber dem Lieferanten im Haben: Raumaufwand an Kreditoren CHF 2’500.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_1"
+      ],
+      "id": "lvl_finanzwirtschaft_buchungssatz_kreditmiete_2",
+      "fach": "Finanzwirtschaft",
+      "thema_id": "aufgaben_der_finanzbuchhaltung",
+      "thema": "Aufgaben der Finanzbuchhaltung",
+      "stufe": 3,
+      "ab_lvl": 1,
+      "typ": "buchungssatz_builder",
+      "frage": "Die Monatsmiete von CHF 2’500 trifft als Rechnung ein und wird erst später bezahlt. Wie lautet der Buchungssatz?",
+      "antwort_daten": {
+        "konten": [
+          {
+            "id": "raumaufwand",
+            "label": "Raumaufwand"
+          },
+          {
+            "id": "kreditoren",
+            "label": "Kreditoren"
+          },
+          {
+            "id": "bank",
+            "label": "Bank"
+          },
+          {
+            "id": "debitoren",
+            "label": "Debitoren"
+          },
+          {
+            "id": "mietertrag",
+            "label": "Mietertrag"
+          }
+        ],
+        "richtig": {
+          "soll": "raumaufwand",
+          "haben": "kreditoren",
+          "betrag": 2500
+        },
+        "toleranz": 0
+      }
     },
     {
       "id": "pr2022_finanzwirtschaft_1_3_choice_stufe3",
@@ -3036,6 +3100,45 @@
       "merksatz": "DB deckt Fixkosten; Break-even ist dort, wo die DB-Summe die Fixkosten trägt.",
       "kontrolle": {
         "formel_check": "DB = Erlös − variable Kosten."
+      }
+    },
+    {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Die Break-even-Menge ohne vorgegebene Resultate berechnen.",
+      "begriff_erklaerung": {
+        "kurz": "Die Break-even-Menge zeigt, ab welcher Stückzahl die Fixkosten vollständig durch Deckungsbeiträge gedeckt sind.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Berechne das Resultat selbst und gib nur die Stückzahl ein.",
+      "erklaerung": "Bei 3’000 Stück decken die gesamten Deckungsbeiträge von CHF 120’000 genau die Fixkosten.",
+      "abschlusserklaerung": "Bei 3’000 Stück decken die gesamten Deckungsbeiträge von CHF 120’000 genau die Fixkosten.",
+      "loesungsvorschlag": {
+        "kurz": "Bei 3’000 Stück decken die gesamten Deckungsbeiträge von CHF 120’000 genau die Fixkosten.",
+        "warum": "Bei 3’000 Stück decken die gesamten Deckungsbeiträge von CHF 120’000 genau die Fixkosten.",
+        "rechenweg": "CHF 120’000 ÷ CHF 40 = 3’000 Stück."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Bei 3’000 Stück decken die gesamten Deckungsbeiträge von CHF 120’000 genau die Fixkosten.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_1"
+      ],
+      "id": "lvl_finanzwirtschaft_break_even_zahleneingabe_1",
+      "fach": "Finanzwirtschaft",
+      "thema_id": "break_even_deckungsbeitrag",
+      "thema": "Break-even / Deckungsbeitrag",
+      "stufe": 3,
+      "ab_lvl": 1,
+      "typ": "zahlen_eingabe",
+      "frage": "Ein Produkt erzielt CHF 40 Deckungsbeitrag pro Stück. Die Fixkosten betragen CHF 120’000. Wie hoch ist die Break-even-Menge?",
+      "antwort_daten": {
+        "richtiger_wert": 3000,
+        "toleranz": 0,
+        "einheit": "Stück",
+        "rundung": "Ganze Stück"
       }
     },
     {
@@ -7641,6 +7744,84 @@
       }
     },
     {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Den Liquiditätsgrad 1 ohne Antwortvorgaben berechnen.",
+      "begriff_erklaerung": {
+        "kurz": "Der Liquiditätsgrad 1 vergleicht die sofort verfügbaren flüssigen Mittel mit dem kurzfristigen Fremdkapital.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Gib das Ergebnis in Prozent ein.",
+      "erklaerung": "Der Liquiditätsgrad 1 beträgt 25 %. Pro CHF 100 kurzfristiger Verpflichtungen stehen CHF 25 sofort verfügbare Mittel bereit.",
+      "abschlusserklaerung": "Der Liquiditätsgrad 1 beträgt 25 %. Pro CHF 100 kurzfristiger Verpflichtungen stehen CHF 25 sofort verfügbare Mittel bereit.",
+      "loesungsvorschlag": {
+        "kurz": "Der Liquiditätsgrad 1 beträgt 25 %. Pro CHF 100 kurzfristiger Verpflichtungen stehen CHF 25 sofort verfügbare Mittel bereit.",
+        "warum": "Der Liquiditätsgrad 1 beträgt 25 %. Pro CHF 100 kurzfristiger Verpflichtungen stehen CHF 25 sofort verfügbare Mittel bereit.",
+        "rechenweg": "CHF 25’000 ÷ CHF 100’000 × 100 = 25 %."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Der Liquiditätsgrad 1 beträgt 25 %. Pro CHF 100 kurzfristiger Verpflichtungen stehen CHF 25 sofort verfügbare Mittel bereit.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_1"
+      ],
+      "id": "lvl_finanzwirtschaft_liquiditaetsgrad_1_zahleneingabe_1",
+      "fach": "Finanzwirtschaft",
+      "thema_id": "liquiditaet_mittelfluss",
+      "thema": "Liquidität / Mittelfluss",
+      "stufe": 3,
+      "ab_lvl": 1,
+      "typ": "zahlen_eingabe",
+      "frage": "Flüssige Mittel: CHF 25’000; kurzfristiges Fremdkapital: CHF 100’000. Wie hoch ist der Liquiditätsgrad 1?",
+      "antwort_daten": {
+        "richtiger_wert": 25,
+        "toleranz": 0.1,
+        "einheit": "%",
+        "rundung": "Auf 1 Dezimalstelle"
+      }
+    },
+    {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Den Liquiditätsgrad 2 aus Bilanzwerten selbst berechnen.",
+      "begriff_erklaerung": {
+        "kurz": "Der Liquiditätsgrad 2 stellt flüssige Mittel und kurzfristige Forderungen dem kurzfristigen Fremdkapital gegenüber.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Gib das Ergebnis in Prozent ein. Ein Dezimalkomma ist möglich.",
+      "erklaerung": "Der Liquiditätsgrad 2 beträgt 125 %. Kurzfristige Verpflichtungen sind durch flüssige Mittel und Forderungen rechnerisch gedeckt.",
+      "abschlusserklaerung": "Der Liquiditätsgrad 2 beträgt 125 %. Kurzfristige Verpflichtungen sind durch flüssige Mittel und Forderungen rechnerisch gedeckt.",
+      "loesungsvorschlag": {
+        "kurz": "Der Liquiditätsgrad 2 beträgt 125 %. Kurzfristige Verpflichtungen sind durch flüssige Mittel und Forderungen rechnerisch gedeckt.",
+        "warum": "Der Liquiditätsgrad 2 beträgt 125 %. Kurzfristige Verpflichtungen sind durch flüssige Mittel und Forderungen rechnerisch gedeckt.",
+        "rechenweg": "(CHF 45’000 + CHF 80’000) ÷ CHF 100’000 × 100 = 125 %."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Der Liquiditätsgrad 2 beträgt 125 %. Kurzfristige Verpflichtungen sind durch flüssige Mittel und Forderungen rechnerisch gedeckt.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_2"
+      ],
+      "id": "lvl_finanzwirtschaft_liquiditaetsgrad_2_zahleneingabe_2",
+      "fach": "Finanzwirtschaft",
+      "thema_id": "liquiditaet_mittelfluss",
+      "thema": "Liquidität / Mittelfluss",
+      "stufe": 3,
+      "ab_lvl": 2,
+      "typ": "zahlen_eingabe",
+      "frage": "Flüssige Mittel: CHF 45’000; Forderungen: CHF 80’000; kurzfristiges Fremdkapital: CHF 100’000. Wie hoch ist der Liquiditätsgrad 2?",
+      "antwort_daten": {
+        "richtiger_wert": 125,
+        "toleranz": 0.1,
+        "einheit": "%",
+        "rundung": "Auf 1 Dezimalstelle"
+      }
+    },
+    {
       "id": "pr2022_finanzwirtschaft_1_11_choice_stufe3",
       "jahr": 2022,
       "fach": "Finanzwirtschaft",
@@ -9667,6 +9848,45 @@
       "merksatz": "Der Bruttobetrag besteht aus Nettobetrag plus MWST. Bei 8,1 % wird der Nettobetrag deshalb mit 1,081 multipliziert.",
       "erklaerung": "Der Bruttobetrag besteht aus Nettobetrag plus MWST. Bei 8,1 % wird der Nettobetrag deshalb mit 1,081 multipliziert.",
       "abschlusserklaerung": "Der Bruttobetrag besteht aus Nettobetrag plus MWST. Bei 8,1 % wird der Nettobetrag deshalb mit 1,081 multipliziert."
+    },
+    {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Den MWST-Betrag aus einem Nettobetrag selbst bestimmen.",
+      "begriff_erklaerung": {
+        "kurz": "Bei einem Nettobetrag wird der Steuerbetrag durch Multiplikation mit dem MWST-Satz berechnet.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Gib nur den MWST-Betrag ein.",
+      "erklaerung": "Der MWST-Betrag beträgt CHF 202.50; der Bruttobetrag wäre CHF 2’702.50.",
+      "abschlusserklaerung": "Der MWST-Betrag beträgt CHF 202.50; der Bruttobetrag wäre CHF 2’702.50.",
+      "loesungsvorschlag": {
+        "kurz": "Der MWST-Betrag beträgt CHF 202.50; der Bruttobetrag wäre CHF 2’702.50.",
+        "warum": "Der MWST-Betrag beträgt CHF 202.50; der Bruttobetrag wäre CHF 2’702.50.",
+        "rechenweg": "CHF 2’500 × 8,1 % = CHF 202.50."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Der MWST-Betrag beträgt CHF 202.50; der Bruttobetrag wäre CHF 2’702.50.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_1"
+      ],
+      "id": "lvl_finanzwirtschaft_mwst_zahleneingabe_1",
+      "fach": "Finanzwirtschaft",
+      "thema_id": "mehrwertsteuer",
+      "thema": "Mehrwertsteuer",
+      "stufe": 3,
+      "ab_lvl": 1,
+      "typ": "zahlen_eingabe",
+      "frage": "Eine Leistung kostet netto CHF 2’500. Wie hoch ist die MWST bei einem Satz von 8,1 %?",
+      "antwort_daten": {
+        "richtiger_wert": 202.5,
+        "toleranz": 0.01,
+        "einheit": "CHF",
+        "rundung": "Auf Rappen"
+      }
     },
     {
       "id": "pr2022_finanzwirtschaft_1_1_choice_stufe3",

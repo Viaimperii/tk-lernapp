@@ -6,6 +6,7 @@ import {
   checkAnswer,
   defaultProgress,
   getLevelDueAt,
+  hasAnswer,
   pickTopicCard
 } from './cardEngine.js'
 
@@ -141,4 +142,58 @@ test('automatisch berechneter formel_builder verlangt keine Ergebniseingabe', ()
   }
 
   assert.equal(checkAnswer(card, { sequence: ['ek', 'geteilt', 'gk'], result: '' }), true)
+})
+
+test('höhere LVL schalten anspruchsvollere Karten derselben Stufe frei', () => {
+  const levelTopic = {
+    minStage: 1,
+    maxStage: 3,
+    stages: [1, 3],
+    cards: [
+      { id: 'intro', stufe: 1 },
+      { id: 'basis', stufe: 3 },
+      { id: 'lvl-1', stufe: 3, ab_lvl: 1 },
+      { id: 'lvl-2', stufe: 3, ab_lvl: 2 }
+    ]
+  }
+
+  assert.equal(pickTopicCard(levelTopic, progress({ stage: 3, lvl: 0 })).id, 'basis')
+  assert.equal(pickTopicCard(levelTopic, progress({ stage: 3, lvl: 1 })).id, 'lvl-1')
+  assert.equal(pickTopicCard(levelTopic, progress({ stage: 3, lvl: 2 })).id, 'lvl-2')
+  assert.equal(pickTopicCard(levelTopic, progress({ stage: 3, lvl: 5 })).id, 'lvl-2')
+})
+
+test('zahlen_eingabe akzeptiert Dezimalkomma innerhalb der Toleranz', () => {
+  const card = {
+    typ: 'zahlen_eingabe',
+    antwort_daten: { richtiger_wert: 37.5, toleranz: 0.1 }
+  }
+
+  assert.equal(hasAnswer(card, ''), false)
+  assert.equal(hasAnswer(card, '37,45'), true)
+  assert.equal(checkAnswer(card, '37,45'), true)
+  assert.equal(checkAnswer(card, '38'), false)
+})
+
+test('buchungssatz_builder prüft Soll, Haben und Betrag gemeinsam', () => {
+  const card = {
+    typ: 'buchungssatz_builder',
+    antwort_daten: {
+      richtig: { soll: 'warenaufwand', haben: 'kreditoren', betrag: 1081 },
+      toleranz: 0.01
+    }
+  }
+
+  assert.equal(checkAnswer(card, { soll: 'warenaufwand', haben: 'kreditoren', betrag: "1'081" }), true)
+  assert.equal(checkAnswer(card, { soll: 'kreditoren', haben: 'warenaufwand', betrag: '1081' }), false)
+})
+
+test('fallentscheidung verlangt passende Massnahme und Begründung', () => {
+  const card = {
+    typ: 'fallentscheidung',
+    antwort_daten: { richtig: { entscheidung: 1, begruendung: 2 } }
+  }
+
+  assert.equal(checkAnswer(card, { entscheidung: 1, begruendung: 2 }), true)
+  assert.equal(checkAnswer(card, { entscheidung: 1, begruendung: 0 }), false)
 })

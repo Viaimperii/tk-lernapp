@@ -112,6 +112,19 @@ Prüfungsquelle oder ursprüngliche Überschrift allein bestimmen nicht das Fach
 - Mehrfachauswahlen müssen mindestens eine falsche Aussage enthalten.
 - Stufen müssen einen erkennbaren Lernfortschritt von Verständnis zu Anwendung und Beurteilung erzeugen.
 
+### LVL-Vertiefungen
+
+- `stufe` steuert den Lernweg beim erstmaligen Lösen eines Themas.
+- `ab_lvl` schaltet eine zusätzliche Aufgabe erst nach dem erfolgreichen Themenabschluss frei.
+- Auf der höchsten Themenstufe wird immer die anspruchsvollste für das aktuelle LVL freigeschaltete Kartengruppe verwendet.
+- Karten ohne `ab_lvl` bleiben die Grundlage für LVL 0.
+- Ein Fehler in einer LVL-Vertiefung senkt weiterhin nur die Aufgabenstufe und niemals das erreichte LVL.
+- Unterstützte aktive Vertiefungen sind `zahlen_eingabe`, `buchungssatz_builder` und `fallentscheidung`.
+- Neue LVL-Karten müssen auf der höchsten Stufe ihres Themas liegen und lokal eindeutig auswertbar sein.
+
+Beispiele für die neuen JSON-Strukturen stehen in
+`src/data/pruefungs_app_final_lerntauglich/JSON_Vorlage_LVL_Vertiefungen.md`.
+
 ### Themenintegrität
 
 - Eine Karte enthält nur Inhalte ihres ausgewiesenen Themas.

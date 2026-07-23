@@ -21,6 +21,7 @@ const incompleteAnswerPattern = /\b(?:und|oder|der|die|das|den|dem|des|ein|eine|
 const coherentUmbrellaTopics = new Set([
   'Finanzwirtschaft::mehrwertsteuer',
   'Marketing_Verkauf::strategie_analyseinstrumente',
+  'Personalmanagement::3_saeulen_prinzip',
   'Personalmanagement::rechtliche_grundlagen',
   'Problemloesung_Entscheidung::organisation_prozesse',
   'SCM::organisation_prozesse'
@@ -33,6 +34,10 @@ for (const card of cards) {
   const key = `${card.fach}::${card.thema_id}`
   if (!groups.has(key)) groups.set(key, [])
   groups.get(key).push(card)
+
+  if (card.ab_lvl != null && (!Number.isInteger(card.ab_lvl) || card.ab_lvl < 1 || card.ab_lvl > 5)) {
+    errors.push(`${card.id}: ab_lvl muss zwischen 1 und 5 liegen`)
+  }
 
   if (metaQuestionPattern.test(card.frage ?? '')) {
     errors.push(`${card.id}: unzulässige Musterlösungs-Metafrage`)
@@ -96,6 +101,31 @@ for (const card of cards) {
       errors.push(`${card.id}: notwendige Mehrfachverwendung ist nicht freigegeben`)
     }
   }
+
+  if (card.typ === 'zahlen_eingabe') {
+    const { richtiger_wert: expected, toleranz = 0 } = card.antwort_daten ?? {}
+    if (!Number.isFinite(expected)) errors.push(`${card.id}: Zahlenaufgabe ohne gültiges Resultat`)
+    if (!Number.isFinite(toleranz) || toleranz < 0) errors.push(`${card.id}: Zahlenaufgabe mit ungültiger Toleranz`)
+  }
+
+  if (card.typ === 'buchungssatz_builder') {
+    const { konten = [], richtig = {} } = card.antwort_daten ?? {}
+    const accountIds = new Set(konten.map((account) => account.id))
+    if (konten.length < 3) errors.push(`${card.id}: Buchungssatz besitzt zu wenige Konten`)
+    if (!accountIds.has(richtig.soll) || !accountIds.has(richtig.haben)) {
+      errors.push(`${card.id}: Buchungssatz besitzt ungültige Soll-/Habenkonten`)
+    }
+    if (richtig.soll === richtig.haben) errors.push(`${card.id}: Soll- und Habenkonto sind identisch`)
+  }
+
+  if (card.typ === 'fallentscheidung') {
+    const { entscheidungen = [], begruendungen = [], richtig = {} } = card.antwort_daten ?? {}
+    if (!entscheidungen[richtig.entscheidung]) errors.push(`${card.id}: Fallentscheidung besitzt keine gültige Massnahme`)
+    if (!begruendungen[richtig.begruendung]) errors.push(`${card.id}: Fallentscheidung besitzt keine gültige Begründung`)
+    if (entscheidungen.length < 3 || begruendungen.length < 3) {
+      errors.push(`${card.id}: Fallentscheidung benötigt jeweils mindestens drei Optionen`)
+    }
+  }
 }
 
 for (const [optionCount, positions] of stageOneAnswerPositions) {
@@ -116,6 +146,10 @@ for (const [key, topicCards] of groups) {
   if (!stages.has(1)) errors.push(`${key}: keine Einführungsstufe`)
   if (![...stages].some((stage) => stage > 1)) errors.push(`${key}: keine weiterführende, lösbare Lernstufe`)
   if (topicCards.some((card) => `${card.fach}::${card.thema_id}` !== key)) errors.push(`${key}: gemischte Themenzuordnung`)
+  const maxStage = Math.max(...topicCards.map((card) => card.stufe ?? 1))
+  for (const card of topicCards.filter((candidate) => candidate.ab_lvl != null)) {
+    if (card.stufe !== maxStage) errors.push(`${card.id}: LVL-Vertiefung liegt nicht auf der höchsten Themenstufe`)
+  }
 
   const titleWords = significantWords(topicCards[0]?.thema)
   const unrelated = topicCards
@@ -169,6 +203,7 @@ const summary = {
   topics: groups.size,
   subjects: [...new Set(cards.map((card) => card.fach))].length,
   matchingCards: cards.filter((card) => card.typ === 'zuordnung').length,
+  levelChallenges: cards.filter((card) => card.ab_lvl != null).length,
   legalReferences: cards.filter((card) => card.rechtsgrundlage).length,
   topicWarnings,
   errors

@@ -5,6 +5,9 @@ export const allowedTypes = [
   'multiple_choice',
   'formel_luecke_mc',
   'formel_builder',
+  'zahlen_eingabe',
+  'buchungssatz_builder',
+  'fallentscheidung',
   'reihenfolge',
   'zuordnung'
 ]
@@ -96,6 +99,26 @@ function validateCard(card) {
     if (data.ergebnis != null && typeof data.ergebnis.richtiger_wert !== 'number') {
       errors.push('formel_builder.ergebnis.richtiger_wert fehlt')
     }
+  }
+
+  if (card?.typ === 'zahlen_eingabe') {
+    if (typeof data.richtiger_wert !== 'number') errors.push('zahlen_eingabe.richtiger_wert fehlt')
+    if (data.toleranz != null && typeof data.toleranz !== 'number') errors.push('zahlen_eingabe.toleranz ist ungültig')
+  }
+
+  if (card?.typ === 'buchungssatz_builder') {
+    if (!isArray(data.konten)) errors.push('buchungssatz_builder.konten fehlt')
+    const accountIds = new Set((data.konten ?? []).map((account) => account.id))
+    if (!data.richtig?.soll || !accountIds.has(data.richtig.soll)) errors.push('buchungssatz_builder.richtig.soll ist ungültig')
+    if (!data.richtig?.haben || !accountIds.has(data.richtig.haben)) errors.push('buchungssatz_builder.richtig.haben ist ungültig')
+    if (data.richtig?.betrag != null && typeof data.richtig.betrag !== 'number') errors.push('buchungssatz_builder.richtig.betrag ist ungültig')
+  }
+
+  if (card?.typ === 'fallentscheidung') {
+    if (!isArray(data.entscheidungen)) errors.push('fallentscheidung.entscheidungen fehlt')
+    if (!isArray(data.begruendungen)) errors.push('fallentscheidung.begruendungen fehlt')
+    if (!isValidIndex(data.richtig?.entscheidung, data.entscheidungen)) errors.push('fallentscheidung.richtig.entscheidung ist ungültig')
+    if (!isValidIndex(data.richtig?.begruendung, data.begruendungen)) errors.push('fallentscheidung.richtig.begruendung ist ungültig')
   }
 
   if (card?.typ === 'reihenfolge') {

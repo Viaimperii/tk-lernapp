@@ -3,26 +3,26 @@
     "erstellt_am": "2026-07-23",
     "methode": "Jede Karte wurde aus den hinterlegten Lösungsdaten einmal beantwortet, strukturell validiert, gegen den extrahierten offiziellen Prüfungskorpus 2022–2025 abgeglichen und nach Schwierigkeit sowie Lerneffekt bewertet.",
     "einschraenkung": "Eine fehlende maschinelle Quellenbestätigung ist kein Beweis für eine falsche Lösung; Layout, Scanqualität und Paraphrasen können den Textabgleich verhindern.",
-    "karten": 974,
+    "karten": 987,
     "quellen_pdfs": 64,
     "pruefungsjahr_2021": "Archiv leer"
   },
   "zusammenfassung": {
     "urteile": {
-      "bestanden": 974,
+      "bestanden": 987,
       "ueberarbeiten": 0,
       "fehlerhaft": 0
     },
     "nach_fach": {
       "Finanzwirtschaft": {
-        "karten": 207,
-        "bestanden": 207,
+        "karten": 212,
+        "bestanden": 212,
         "ueberarbeiten": 0,
         "fehlerhaft": 0
       },
       "Integrierte_Fallstudie": {
-        "karten": 42,
-        "bestanden": 42,
+        "karten": 43,
+        "bestanden": 43,
         "ueberarbeiten": 0,
         "fehlerhaft": 0
       },
@@ -33,26 +33,26 @@
         "fehlerhaft": 0
       },
       "Personalmanagement": {
-        "karten": 143,
-        "bestanden": 143,
+        "karten": 144,
+        "bestanden": 144,
         "ueberarbeiten": 0,
         "fehlerhaft": 0
       },
       "Problemloesung_Entscheidung": {
-        "karten": 55,
-        "bestanden": 55,
+        "karten": 57,
+        "bestanden": 57,
         "ueberarbeiten": 0,
         "fehlerhaft": 0
       },
       "Recht_VWL": {
-        "karten": 123,
-        "bestanden": 123,
+        "karten": 124,
+        "bestanden": 124,
         "ueberarbeiten": 0,
         "fehlerhaft": 0
       },
       "SCM": {
-        "karten": 157,
-        "bestanden": 157,
+        "karten": 160,
+        "bestanden": 160,
         "ueberarbeiten": 0,
         "fehlerhaft": 0
       },
@@ -474,6 +474,45 @@
         "score": 3,
         "label": "ausreichend",
         "reasons": []
+      },
+      "urteil": "bestanden"
+    },
+    {
+      "id": "lvl_finanzwirtschaft_buchungssatz_kreditmiete_2",
+      "fach": "Finanzwirtschaft",
+      "thema_id": "aufgaben_der_finanzbuchhaltung",
+      "thema": "Aufgaben der Finanzbuchhaltung",
+      "stufe": 3,
+      "typ": "buchungssatz_builder",
+      "frage": "Die Monatsmiete von CHF 2’500 trifft als Rechnung ein und wird erst später bezahlt. Wie lautet der Buchungssatz?",
+      "selbstloesung": {
+        "indices": [],
+        "values": [
+          "Raumaufwand an Kreditoren, CHF 2500"
+        ]
+      },
+      "korrektheit": {
+        "score": 5,
+        "status": "strukturell_korrekt",
+        "fehler": [],
+        "hinweise": [],
+        "quelle": {
+          "status": "nicht_erforderlich",
+          "questionCoverage": null,
+          "answerCoverage": null
+        }
+      },
+      "schwierigkeit": {
+        "score": 4,
+        "label": "schwer"
+      },
+      "lerneffekt": {
+        "score": 4.5,
+        "label": "hoch",
+        "reasons": [
+          "aktive Anwendung statt reiner Wiedererkennung",
+          "erklärende Rückmeldung vorhanden"
+        ]
       },
       "urteil": "bestanden"
     },
@@ -1645,6 +1684,45 @@
           "aktive Anwendung statt reiner Wiedererkennung",
           "erklärende Rückmeldung vorhanden",
           "nahezu identische Frage kommt im selben Thema mehrfach vor"
+        ]
+      },
+      "urteil": "bestanden"
+    },
+    {
+      "id": "lvl_finanzwirtschaft_break_even_zahleneingabe_1",
+      "fach": "Finanzwirtschaft",
+      "thema_id": "break_even_deckungsbeitrag",
+      "thema": "Break-even / Deckungsbeitrag",
+      "stufe": 3,
+      "typ": "zahlen_eingabe",
+      "frage": "Ein Produkt erzielt CHF 40 Deckungsbeitrag pro Stück. Die Fixkosten betragen CHF 120’000. Wie hoch ist die Break-even-Menge?",
+      "selbstloesung": {
+        "indices": [],
+        "values": [
+          "3000 Stück"
+        ]
+      },
+      "korrektheit": {
+        "score": 5,
+        "status": "strukturell_korrekt",
+        "fehler": [],
+        "hinweise": [],
+        "quelle": {
+          "status": "nicht_erforderlich",
+          "questionCoverage": null,
+          "answerCoverage": null
+        }
+      },
+      "schwierigkeit": {
+        "score": 4,
+        "label": "schwer"
+      },
+      "lerneffekt": {
+        "score": 4.5,
+        "label": "hoch",
+        "reasons": [
+          "aktive Anwendung statt reiner Wiedererkennung",
+          "erklärende Rückmeldung vorhanden"
         ]
       },
       "urteil": "bestanden"
@@ -4271,6 +4349,84 @@
       "urteil": "bestanden"
     },
     {
+      "id": "lvl_finanzwirtschaft_liquiditaetsgrad_1_zahleneingabe_1",
+      "fach": "Finanzwirtschaft",
+      "thema_id": "liquiditaet_mittelfluss",
+      "thema": "Liquidität / Mittelfluss",
+      "stufe": 3,
+      "typ": "zahlen_eingabe",
+      "frage": "Flüssige Mittel: CHF 25’000; kurzfristiges Fremdkapital: CHF 100’000. Wie hoch ist der Liquiditätsgrad 1?",
+      "selbstloesung": {
+        "indices": [],
+        "values": [
+          "25 %"
+        ]
+      },
+      "korrektheit": {
+        "score": 5,
+        "status": "strukturell_korrekt",
+        "fehler": [],
+        "hinweise": [],
+        "quelle": {
+          "status": "nicht_erforderlich",
+          "questionCoverage": null,
+          "answerCoverage": null
+        }
+      },
+      "schwierigkeit": {
+        "score": 4,
+        "label": "schwer"
+      },
+      "lerneffekt": {
+        "score": 4.5,
+        "label": "hoch",
+        "reasons": [
+          "aktive Anwendung statt reiner Wiedererkennung",
+          "erklärende Rückmeldung vorhanden"
+        ]
+      },
+      "urteil": "bestanden"
+    },
+    {
+      "id": "lvl_finanzwirtschaft_liquiditaetsgrad_2_zahleneingabe_2",
+      "fach": "Finanzwirtschaft",
+      "thema_id": "liquiditaet_mittelfluss",
+      "thema": "Liquidität / Mittelfluss",
+      "stufe": 3,
+      "typ": "zahlen_eingabe",
+      "frage": "Flüssige Mittel: CHF 45’000; Forderungen: CHF 80’000; kurzfristiges Fremdkapital: CHF 100’000. Wie hoch ist der Liquiditätsgrad 2?",
+      "selbstloesung": {
+        "indices": [],
+        "values": [
+          "125 %"
+        ]
+      },
+      "korrektheit": {
+        "score": 5,
+        "status": "strukturell_korrekt",
+        "fehler": [],
+        "hinweise": [],
+        "quelle": {
+          "status": "nicht_erforderlich",
+          "questionCoverage": null,
+          "answerCoverage": null
+        }
+      },
+      "schwierigkeit": {
+        "score": 4,
+        "label": "schwer"
+      },
+      "lerneffekt": {
+        "score": 4.5,
+        "label": "hoch",
+        "reasons": [
+          "aktive Anwendung statt reiner Wiedererkennung",
+          "erklärende Rückmeldung vorhanden"
+        ]
+      },
+      "urteil": "bestanden"
+    },
+    {
       "id": "pr2022_finanzwirtschaft_1_11_choice_stufe3",
       "fach": "Finanzwirtschaft",
       "thema_id": "liquiditaet_mittelfluss",
@@ -5439,6 +5595,45 @@
         "score": 3.5,
         "label": "ausreichend",
         "reasons": [
+          "erklärende Rückmeldung vorhanden"
+        ]
+      },
+      "urteil": "bestanden"
+    },
+    {
+      "id": "lvl_finanzwirtschaft_mwst_zahleneingabe_1",
+      "fach": "Finanzwirtschaft",
+      "thema_id": "mehrwertsteuer",
+      "thema": "Mehrwertsteuer",
+      "stufe": 3,
+      "typ": "zahlen_eingabe",
+      "frage": "Eine Leistung kostet netto CHF 2’500. Wie hoch ist die MWST bei einem Satz von 8,1 %?",
+      "selbstloesung": {
+        "indices": [],
+        "values": [
+          "202.5 CHF"
+        ]
+      },
+      "korrektheit": {
+        "score": 5,
+        "status": "strukturell_korrekt",
+        "fehler": [],
+        "hinweise": [],
+        "quelle": {
+          "status": "nicht_erforderlich",
+          "questionCoverage": null,
+          "answerCoverage": null
+        }
+      },
+      "schwierigkeit": {
+        "score": 4,
+        "label": "schwer"
+      },
+      "lerneffekt": {
+        "score": 4.5,
+        "label": "hoch",
+        "reasons": [
+          "aktive Anwendung statt reiner Wiedererkennung",
           "erklärende Rückmeldung vorhanden"
         ]
       },
@@ -8997,6 +9192,49 @@
         "score": 3.5,
         "label": "ausreichend",
         "reasons": [
+          "erklärende Rückmeldung vorhanden"
+        ]
+      },
+      "urteil": "bestanden"
+    },
+    {
+      "id": "lvl_ifs_geschaeftsbericht_fallentscheidung_2",
+      "fach": "Integrierte_Fallstudie",
+      "thema_id": "fehler_im_geschaeftsbericht",
+      "thema": "Fehler im Geschäftsbericht",
+      "stufe": 3,
+      "typ": "fallentscheidung",
+      "frage": "Nach dem Versand des Geschäftsberichts wird eine wesentliche falsche Bilanzzahl bestätigt. Welches Vorgehen ist sachgerecht?",
+      "selbstloesung": {
+        "indices": [
+          1,
+          0
+        ],
+        "values": [
+          "Auswirkung dokumentieren, zuständige Stellen einbeziehen und die Adressaten abgestimmt berichtigen.",
+          "Transparenz und Nachvollziehbarkeit verlangen eine kontrollierte Berichtigung ohne Veränderung der Originalbelege."
+        ]
+      },
+      "korrektheit": {
+        "score": 5,
+        "status": "strukturell_korrekt",
+        "fehler": [],
+        "hinweise": [],
+        "quelle": {
+          "status": "nicht_erforderlich",
+          "questionCoverage": null,
+          "answerCoverage": null
+        }
+      },
+      "schwierigkeit": {
+        "score": 4,
+        "label": "schwer"
+      },
+      "lerneffekt": {
+        "score": 4.5,
+        "label": "hoch",
+        "reasons": [
+          "aktive Anwendung statt reiner Wiedererkennung",
           "erklärende Rückmeldung vorhanden"
         ]
       },
@@ -20493,6 +20731,49 @@
       "urteil": "bestanden"
     },
     {
+      "id": "lvl_personal_3_saeulen_fallentscheidung_1",
+      "fach": "Personalmanagement",
+      "thema_id": "3_saeulen_prinzip",
+      "thema": "Schweizerisches 3-Säulen-System",
+      "stufe": 4,
+      "typ": "fallentscheidung",
+      "frage": "Eine angestellte Person hat AHV und Pensionskasse, erwartet aber eine Vorsorgelücke und möchte freiwillig steuerbegünstigt sparen.",
+      "selbstloesung": {
+        "indices": [
+          1,
+          0
+        ],
+        "values": [
+          "Eine gebundene Vorsorge 3a unter Beachtung der gesetzlichen Bedingungen prüfen.",
+          "Die Säule 3a ist freiwillige gebundene Selbstvorsorge und kann die Leistungen aus Säule 1 und 2 ergänzen."
+        ]
+      },
+      "korrektheit": {
+        "score": 5,
+        "status": "strukturell_korrekt",
+        "fehler": [],
+        "hinweise": [],
+        "quelle": {
+          "status": "nicht_erforderlich",
+          "questionCoverage": null,
+          "answerCoverage": null
+        }
+      },
+      "schwierigkeit": {
+        "score": 5,
+        "label": "schwer"
+      },
+      "lerneffekt": {
+        "score": 4.5,
+        "label": "hoch",
+        "reasons": [
+          "aktive Anwendung statt reiner Wiedererkennung",
+          "erklärende Rückmeldung vorhanden"
+        ]
+      },
+      "urteil": "bestanden"
+    },
+    {
       "id": "personalmanagement_3_saeulen_system_stufe4",
       "fach": "Personalmanagement",
       "thema_id": "3_saeulen_prinzip",
@@ -22838,6 +23119,53 @@
       "urteil": "bestanden"
     },
     {
+      "id": "lvl_problemloesung_postkorb_reihenfolge_1",
+      "fach": "Problemloesung_Entscheidung",
+      "thema_id": "postkorb_priorisierung",
+      "thema": "Postkorb / Priorisierung",
+      "stufe": 3,
+      "typ": "reihenfolge",
+      "frage": "Ordne die vier Vorgänge in eine sinnvolle Bearbeitungsreihenfolge.",
+      "selbstloesung": {
+        "indices": [
+          1,
+          0,
+          2,
+          3
+        ],
+        "values": [
+          "Sicherheitsvorfall mit möglicher Personengefährdung ist soeben gemeldet worden.",
+          "Lohnzahlung ist blockiert; Bankfreigabe endet um 08:30 Uhr.",
+          "Zeiterfassung muss bis 14:00 Uhr freigegeben werden.",
+          "Unverbindliche Einladung zu einer Messe in drei Monaten."
+        ]
+      },
+      "korrektheit": {
+        "score": 5,
+        "status": "strukturell_korrekt",
+        "fehler": [],
+        "hinweise": [],
+        "quelle": {
+          "status": "nicht_erforderlich",
+          "questionCoverage": null,
+          "answerCoverage": null
+        }
+      },
+      "schwierigkeit": {
+        "score": 3.5,
+        "label": "anspruchsvoll"
+      },
+      "lerneffekt": {
+        "score": 4.5,
+        "label": "hoch",
+        "reasons": [
+          "aktive Anwendung statt reiner Wiedererkennung",
+          "erklärende Rückmeldung vorhanden"
+        ]
+      },
+      "urteil": "bestanden"
+    },
+    {
       "id": "pr2024_problemloesung_entscheidung_20_08_thema_stufe3_3",
       "fach": "Problemloesung_Entscheidung",
       "thema_id": "postkorb_priorisierung",
@@ -23646,6 +23974,49 @@
         "score": 3.5,
         "label": "ausreichend",
         "reasons": [
+          "erklärende Rückmeldung vorhanden"
+        ]
+      },
+      "urteil": "bestanden"
+    },
+    {
+      "id": "lvl_problemloesung_smart_fallentscheidung_2",
+      "fach": "Problemloesung_Entscheidung",
+      "thema_id": "ziele_smart",
+      "thema": "Ziele / SMART",
+      "stufe": 3,
+      "typ": "fallentscheidung",
+      "frage": "Die Vorgabe lautet: «Wir verbessern bald die Lieferqualität.» Welche Überarbeitung eignet sich zur Steuerung?",
+      "selbstloesung": {
+        "indices": [
+          1,
+          0
+        ],
+        "values": [
+          "SCM senkt die Quote verspäteter Lieferungen bis 30. September von 8 % auf höchstens 3 %.",
+          "Das Ziel nennt Ausgangswert, Zielwert, Verantwortung und Termin."
+        ]
+      },
+      "korrektheit": {
+        "score": 5,
+        "status": "strukturell_korrekt",
+        "fehler": [],
+        "hinweise": [],
+        "quelle": {
+          "status": "nicht_erforderlich",
+          "questionCoverage": null,
+          "answerCoverage": null
+        }
+      },
+      "schwierigkeit": {
+        "score": 4,
+        "label": "schwer"
+      },
+      "lerneffekt": {
+        "score": 4.5,
+        "label": "hoch",
+        "reasons": [
+          "aktive Anwendung statt reiner Wiedererkennung",
           "erklärende Rückmeldung vorhanden"
         ]
       },
@@ -25051,6 +25422,49 @@
         "score": 3,
         "label": "ausreichend",
         "reasons": []
+      },
+      "urteil": "bestanden"
+    },
+    {
+      "id": "lvl_recht_maengelruege_fallentscheidung_2",
+      "fach": "Recht_VWL",
+      "thema_id": "rechtliche_grundlagen",
+      "thema": "Rechtliche Grundlagen",
+      "stufe": 3,
+      "typ": "fallentscheidung",
+      "frage": "Ein Unternehmen entdeckt bei der Eingangskontrolle einen erheblichen Mangel an einer gelieferten Maschine. Was ist zu tun?",
+      "selbstloesung": {
+        "indices": [
+          0,
+          1
+        ],
+        "values": [
+          "Den Mangel dokumentieren und dem Verkäufer unverzüglich und nachweisbar rügen.",
+          "Die Prüfungs- und Rügepflicht verlangt rechtzeitiges Handeln; Dokumentation sichert den Nachweis."
+        ]
+      },
+      "korrektheit": {
+        "score": 5,
+        "status": "strukturell_korrekt",
+        "fehler": [],
+        "hinweise": [],
+        "quelle": {
+          "status": "nicht_erforderlich",
+          "questionCoverage": null,
+          "answerCoverage": null
+        }
+      },
+      "schwierigkeit": {
+        "score": 4,
+        "label": "schwer"
+      },
+      "lerneffekt": {
+        "score": 4.5,
+        "label": "hoch",
+        "reasons": [
+          "aktive Anwendung statt reiner Wiedererkennung",
+          "erklärende Rückmeldung vorhanden"
+        ]
       },
       "urteil": "bestanden"
     },
@@ -29393,6 +29807,49 @@
       "urteil": "bestanden"
     },
     {
+      "id": "lvl_scm_lieferantenauswahl_fallentscheidung_2",
+      "fach": "SCM",
+      "thema_id": "beschaffung_lieferanten",
+      "thema": "Beschaffung / Lieferanten",
+      "stufe": 3,
+      "typ": "fallentscheidung",
+      "frage": "Lieferant A ist 4 % günstiger, hat aber wiederholt verspätet geliefert. Lieferant B ist termintreu und qualitätsstabil. Ein Produktionsstillstand wäre sehr teuer. Wie entscheidest du?",
+      "selbstloesung": {
+        "indices": [
+          1,
+          1
+        ],
+        "values": [
+          "Gesamtkosten und Risiken gewichten; Lieferant B bevorzugen oder die Menge risikogerecht aufteilen.",
+          "Verspätungen können Stillstandskosten verursachen, die den Preisvorteil übersteigen."
+        ]
+      },
+      "korrektheit": {
+        "score": 5,
+        "status": "strukturell_korrekt",
+        "fehler": [],
+        "hinweise": [],
+        "quelle": {
+          "status": "nicht_erforderlich",
+          "questionCoverage": null,
+          "answerCoverage": null
+        }
+      },
+      "schwierigkeit": {
+        "score": 4,
+        "label": "schwer"
+      },
+      "lerneffekt": {
+        "score": 4.5,
+        "label": "hoch",
+        "reasons": [
+          "aktive Anwendung statt reiner Wiedererkennung",
+          "erklärende Rückmeldung vorhanden"
+        ]
+      },
+      "urteil": "bestanden"
+    },
+    {
       "id": "pr2022_finanzwirtschaft_1_5_choice_stufe3",
       "fach": "SCM",
       "thema_id": "beschaffung_lieferanten",
@@ -32061,6 +32518,82 @@
           "aktive Anwendung statt reiner Wiedererkennung",
           "erklärende Rückmeldung vorhanden",
           "nahezu identische Frage kommt im selben Thema mehrfach vor"
+        ]
+      },
+      "urteil": "bestanden"
+    },
+    {
+      "id": "lvl_scm_lager_durchschnitt_zahleneingabe_1",
+      "fach": "SCM",
+      "thema_id": "lager_lagerkennzahlen",
+      "thema": "Lager / Lagerkennzahlen",
+      "stufe": 3,
+      "typ": "zahlen_eingabe",
+      "frage": "Der Lageranfangsbestand beträgt CHF 80’000, der Lagerendbestand CHF 120’000. Wie hoch ist der einfache durchschnittliche Lagerbestand?",
+      "selbstloesung": {
+        "indices": [],
+        "values": [
+          "100000 CHF"
+        ]
+      },
+      "korrektheit": {
+        "score": 5,
+        "status": "strukturell_korrekt",
+        "fehler": [],
+        "hinweise": [],
+        "quelle": {
+          "status": "nicht_erforderlich",
+          "questionCoverage": null,
+          "answerCoverage": null
+        }
+      },
+      "schwierigkeit": {
+        "score": 4,
+        "label": "schwer"
+      },
+      "lerneffekt": {
+        "score": 4,
+        "label": "hoch",
+        "reasons": [
+          "aktive Anwendung statt reiner Wiedererkennung"
+        ]
+      },
+      "urteil": "bestanden"
+    },
+    {
+      "id": "lvl_scm_lagerumschlag_zahleneingabe_2",
+      "fach": "SCM",
+      "thema_id": "lager_lagerkennzahlen",
+      "thema": "Lager / Lagerkennzahlen",
+      "stufe": 3,
+      "typ": "zahlen_eingabe",
+      "frage": "Der jährliche Warenaufwand beträgt CHF 600’000, der durchschnittliche Lagerbestand CHF 100’000. Wie hoch ist der Lagerumschlag?",
+      "selbstloesung": {
+        "indices": [],
+        "values": [
+          "6 ×"
+        ]
+      },
+      "korrektheit": {
+        "score": 5,
+        "status": "strukturell_korrekt",
+        "fehler": [],
+        "hinweise": [],
+        "quelle": {
+          "status": "nicht_erforderlich",
+          "questionCoverage": null,
+          "answerCoverage": null
+        }
+      },
+      "schwierigkeit": {
+        "score": 4,
+        "label": "schwer"
+      },
+      "lerneffekt": {
+        "score": 4,
+        "label": "hoch",
+        "reasons": [
+          "aktive Anwendung statt reiner Wiedererkennung"
         ]
       },
       "urteil": "bestanden"

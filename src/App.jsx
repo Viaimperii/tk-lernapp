@@ -701,6 +701,11 @@ function LearningCard({ eyebrow, topic, card, progress, result, answer, setAnswe
           <StageBadge stage={currentStage} />
           <span className="rounded-full bg-slate-100 px-2 py-1 text-xs font-black text-slate-700">{stageLabel(currentStage, topic)}</span>
           <TypeBadge type={card.typ} />
+          {card.ab_lvl > 0 && (
+            <span className="rounded-full border border-amber-300 bg-amber-50 px-2 py-1 text-xs font-black text-amber-900">
+              Ab LVL {card.ab_lvl}
+            </span>
+          )}
           {card.jahr && <span className="rounded-full bg-slate-100 px-2 py-1 text-xs font-black text-slate-700">Prüfung {card.jahr}</span>}
           {progress.solvedOnce && (
             <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2 py-1 text-xs font-black text-emerald-800">
@@ -764,6 +769,9 @@ function TypeBadge({ type }) {
     multiple_choice: 'Mehrfachauswahl',
     formel_luecke_mc: 'Formelwahl',
     formel_builder: 'Formel bauen',
+    zahlen_eingabe: 'Selbst berechnen',
+    buchungssatz_builder: 'Buchungssatz',
+    fallentscheidung: 'Fall entscheiden',
     reihenfolge: 'Reihenfolge',
     zuordnung: 'Zuordnung'
   }
@@ -788,6 +796,15 @@ function AnswerInput({ card, value, onChange, disabled }) {
   }
   if (card.typ === 'formel_builder') {
     return <FormulaBuilderInput data={card.antwort_daten} value={value} onChange={onChange} disabled={disabled} />
+  }
+  if (card.typ === 'zahlen_eingabe') {
+    return <NumberInput data={card.antwort_daten} value={value} onChange={onChange} disabled={disabled} />
+  }
+  if (card.typ === 'buchungssatz_builder') {
+    return <BookingEntryInput data={card.antwort_daten} value={value} onChange={onChange} disabled={disabled} />
+  }
+  if (card.typ === 'fallentscheidung') {
+    return <CaseDecisionInput data={card.antwort_daten} value={value} onChange={onChange} disabled={disabled} />
   }
   if (card.typ === 'reihenfolge') {
     return <OrderInput data={card.antwort_daten} value={value} onChange={onChange} disabled={disabled} />
@@ -821,6 +838,119 @@ function ChoiceInput({ data, value, onChange, disabled, multiple }) {
           </button>
         )
       })}
+    </div>
+  )
+}
+
+function NumberInput({ data, value, onChange, disabled }) {
+  return (
+    <label className="block overflow-hidden rounded-xl border-2 border-slate-900 bg-white shadow-sm">
+      <span className="flex items-center justify-between border-b-2 border-slate-900 bg-slate-50 px-3 py-2">
+        <span className="text-xs font-black uppercase tracking-[0.12em] text-slate-600">Dein Resultat</span>
+        {data.rundung && <span className="text-xs font-bold text-slate-500">{data.rundung}</span>}
+      </span>
+      <span className="flex items-center gap-3 p-3">
+        <input
+          aria-label="Berechnetes Resultat"
+          className="min-h-[54px] min-w-0 flex-1 border-0 bg-transparent px-1 text-3xl font-black tabular-nums text-slate-950 outline-none placeholder:text-slate-300"
+          inputMode="decimal"
+          placeholder="0,00"
+          value={value}
+          disabled={disabled}
+          onChange={(event) => onChange(event.target.value)}
+        />
+        <span className="rounded-lg bg-slate-950 px-3 py-2 text-base font-black text-white">{data.einheit ?? ''}</span>
+      </span>
+    </label>
+  )
+}
+
+function BookingEntryInput({ data, value, onChange, disabled }) {
+  const accountOptions = data.konten ?? []
+  const selectClass = 'min-h-[50px] w-full rounded-lg border border-slate-300 bg-white px-3 text-base font-black text-slate-900 outline-none focus:border-sky-600'
+
+  return (
+    <section className="overflow-hidden rounded-xl border-2 border-slate-900 bg-white shadow-sm">
+      <div className="border-b-2 border-slate-900 bg-slate-950 px-3 py-2 text-xs font-black uppercase tracking-[0.14em] text-white">
+        Buchungsjournal
+      </div>
+      <div className="grid gap-3 p-3 sm:grid-cols-2">
+        <label className="grid gap-1.5">
+          <span className="text-xs font-black uppercase tracking-wider text-slate-500">Soll</span>
+          <select className={selectClass} value={value.soll} disabled={disabled} onChange={(event) => onChange({ ...value, soll: event.target.value })}>
+            <option value="">Konto wählen</option>
+            {accountOptions.map((account) => <option key={account.id} value={account.id}>{account.label}</option>)}
+          </select>
+        </label>
+        <label className="grid gap-1.5">
+          <span className="text-xs font-black uppercase tracking-wider text-slate-500">Haben</span>
+          <select className={selectClass} value={value.haben} disabled={disabled} onChange={(event) => onChange({ ...value, haben: event.target.value })}>
+            <option value="">Konto wählen</option>
+            {accountOptions.map((account) => <option key={account.id} value={account.id}>{account.label}</option>)}
+          </select>
+        </label>
+      </div>
+      {data.richtig?.betrag != null && (
+        <label className="flex items-center gap-3 border-t border-slate-200 bg-slate-50 p-3">
+          <span className="text-xs font-black uppercase tracking-wider text-slate-500">Betrag</span>
+          <input
+            aria-label="Buchungsbetrag"
+            className="min-h-[48px] min-w-0 flex-1 rounded-lg border border-slate-300 bg-white px-3 text-right text-xl font-black tabular-nums outline-none focus:border-sky-600"
+            inputMode="decimal"
+            placeholder="0,00"
+            value={value.betrag}
+            disabled={disabled}
+            onChange={(event) => onChange({ ...value, betrag: event.target.value })}
+          />
+          <span className="font-black">CHF</span>
+        </label>
+      )}
+    </section>
+  )
+}
+
+function CaseDecisionInput({ data, value, onChange, disabled }) {
+  return (
+    <div className="space-y-4">
+      <section className="rounded-xl border border-slate-200 bg-slate-50 p-3">
+        <h2 className="mb-2 text-xs font-black uppercase tracking-[0.14em] text-slate-500">1 · Entscheidung</h2>
+        <div className="space-y-2">
+          {data.entscheidungen.map((item, index) => (
+            <button
+              key={`${item}-${index}`}
+              className={[
+                'min-h-[48px] w-full rounded-lg border px-3 py-3 text-left text-sm font-bold transition',
+                value.entscheidung === index ? 'border-slate-950 bg-slate-950 text-white' : 'border-slate-200 bg-white text-slate-800'
+              ].join(' ')}
+              disabled={disabled}
+              onClick={() => onChange({ ...value, entscheidung: index })}
+            >
+              {item}
+            </button>
+          ))}
+        </div>
+      </section>
+      <section className={['rounded-xl border p-3 transition', Number.isInteger(value.entscheidung) ? 'border-sky-200 bg-sky-50' : 'border-slate-200 bg-slate-50 opacity-60'].join(' ')}>
+        <h2 className="mb-2 text-xs font-black uppercase tracking-[0.14em] text-slate-500">2 · Begründung</h2>
+        {!Number.isInteger(value.entscheidung) && <p className="text-sm font-bold text-slate-500">Wähle zuerst eine Entscheidung.</p>}
+        {Number.isInteger(value.entscheidung) && (
+          <div className="space-y-2">
+            {data.begruendungen.map((item, index) => (
+              <button
+                key={`${item}-${index}`}
+                className={[
+                  'min-h-[48px] w-full rounded-lg border px-3 py-3 text-left text-sm font-bold transition',
+                  value.begruendung === index ? 'border-sky-800 bg-sky-800 text-white' : 'border-sky-200 bg-white text-slate-800'
+                ].join(' ')}
+                disabled={disabled}
+                onClick={() => onChange({ ...value, begruendung: index })}
+              >
+                {item}
+              </button>
+            ))}
+          </div>
+        )}
+      </section>
     </div>
   )
 }
@@ -1230,6 +1360,23 @@ function CorrectAnswerPanel({ card }) {
     const items = [formula]
     if (data.ergebnis) items.push(`${data.ergebnis.richtiger_wert} ${data.ergebnis.einheit ?? ''}`.trim())
     return <SolutionBox items={items} />
+  }
+
+  if (card.typ === 'zahlen_eingabe') {
+    return <SolutionBox items={[`${data.richtiger_wert} ${data.einheit ?? ''}`.trim()]} />
+  }
+
+  if (card.typ === 'buchungssatz_builder') {
+    const labels = Object.fromEntries(data.konten.map((account) => [account.id, account.label]))
+    const entry = `${labels[data.richtig.soll]} an ${labels[data.richtig.haben]}`
+    return <SolutionBox items={[data.richtig.betrag == null ? entry : `${entry}, CHF ${data.richtig.betrag}`]} />
+  }
+
+  if (card.typ === 'fallentscheidung') {
+    return <SolutionBox items={[
+      data.entscheidungen[data.richtig.entscheidung],
+      data.begruendungen[data.richtig.begruendung]
+    ]} />
   }
 
   if (card.typ === 'reihenfolge') {

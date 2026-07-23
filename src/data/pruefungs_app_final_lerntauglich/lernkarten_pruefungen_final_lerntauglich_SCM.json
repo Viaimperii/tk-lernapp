@@ -6,22 +6,24 @@
     "hinweis_2021": "2021.zip war leer und konnte nicht ausgewertet werden.",
     "quelle": "auf Basis von pruefungs_app_import/lernkarten_pruefungen_Alle_Faecher.json plus automatischer Struktur-/Logik-Kontrolle",
     "schema_version": "2.0-final-learning",
-    "anzahl_karten": 157,
+    "anzahl_karten": 160,
     "anzahl_themen_gruppiert": 39,
     "kartentypen": {
       "single_choice": 77,
       "multiple_choice": 69,
       "reihenfolge": 4,
       "formel_luecke_mc": 3,
+      "fallentscheidung": 1,
+      "zahlen_eingabe": 2,
       "zuordnung": 4
     },
     "stufen": {
       "1": 50,
       "2": 1,
-      "3": 106
+      "3": 109
     },
     "karten_pro_fach": {
-      "SCM": 157
+      "SCM": 160
     },
     "validierungsfehler": 0,
     "erlaubte_typen": [
@@ -964,6 +966,54 @@
         "letzte_antwort": null
       },
       "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+    },
+    {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Preis, Qualität und Versorgungsrisiko gemeinsam beurteilen.",
+      "begriff_erklaerung": {
+        "kurz": "Der tiefste Einstandspreis ist nicht automatisch die beste Wahl, wenn Termin- oder Qualitätsrisiken hohe Folgekosten verursachen.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Wähle zuerst die Massnahme und danach die dazu passende Begründung.",
+      "erklaerung": "Bei hohem Stillstandsrisiko müssen Zuverlässigkeit und Folgekosten stark gewichtet werden. Der nominell tiefste Preis kann insgesamt teurer sein.",
+      "abschlusserklaerung": "Bei hohem Stillstandsrisiko müssen Zuverlässigkeit und Folgekosten stark gewichtet werden. Der nominell tiefste Preis kann insgesamt teurer sein.",
+      "loesungsvorschlag": {
+        "kurz": "Bei hohem Stillstandsrisiko müssen Zuverlässigkeit und Folgekosten stark gewichtet werden. Der nominell tiefste Preis kann insgesamt teurer sein.",
+        "warum": "Bei hohem Stillstandsrisiko müssen Zuverlässigkeit und Folgekosten stark gewichtet werden. Der nominell tiefste Preis kann insgesamt teurer sein."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Bei hohem Stillstandsrisiko müssen Zuverlässigkeit und Folgekosten stark gewichtet werden. Der nominell tiefste Preis kann insgesamt teurer sein.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_1"
+      ],
+      "id": "lvl_scm_lieferantenauswahl_fallentscheidung_2",
+      "fach": "SCM",
+      "thema_id": "beschaffung_lieferanten",
+      "thema": "Beschaffung / Lieferanten",
+      "stufe": 3,
+      "ab_lvl": 1,
+      "typ": "fallentscheidung",
+      "frage": "Lieferant A ist 4 % günstiger, hat aber wiederholt verspätet geliefert. Lieferant B ist termintreu und qualitätsstabil. Ein Produktionsstillstand wäre sehr teuer. Wie entscheidest du?",
+      "antwort_daten": {
+        "entscheidungen": [
+          "Den gesamten Auftrag ohne weitere Prüfung an Lieferant A vergeben.",
+          "Gesamtkosten und Risiken gewichten; Lieferant B bevorzugen oder die Menge risikogerecht aufteilen.",
+          "Beide Lieferanten ausschliessen, weil ihre Preise nicht identisch sind."
+        ],
+        "begruendungen": [
+          "Der Stückpreis ist immer das einzige zulässige Beschaffungskriterium.",
+          "Verspätungen können Stillstandskosten verursachen, die den Preisvorteil übersteigen.",
+          "Termintreue spielt nur bei Dienstleistungen eine Rolle."
+        ],
+        "richtig": {
+          "entscheidung": 1,
+          "begruendung": 1
+        }
+      }
     },
     {
       "id": "pr2022_finanzwirtschaft_1_5_choice_stufe3",
@@ -5422,6 +5472,84 @@
         "letzte_antwort": null
       },
       "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+    },
+    {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Den durchschnittlichen Lagerbestand selbst berechnen.",
+      "begriff_erklaerung": {
+        "kurz": "Bei zwei Stichtagswerten wird der einfache durchschnittliche Lagerbestand aus Anfangs- und Endbestand gebildet.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Gib den durchschnittlichen Bestand in CHF ein.",
+      "erklaerung": "Der einfache durchschnittliche Lagerbestand beträgt CHF 100’000.",
+      "abschlusserklaerung": "Der einfache durchschnittliche Lagerbestand beträgt CHF 100’000.",
+      "loesungsvorschlag": {
+        "kurz": "Der einfache durchschnittliche Lagerbestand beträgt CHF 100’000.",
+        "warum": "Der einfache durchschnittliche Lagerbestand beträgt CHF 100’000.",
+        "rechenweg": "(CHF 80’000 + CHF 120’000) ÷ 2 = CHF 100’000."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Der einfache durchschnittliche Lagerbestand beträgt CHF 100’000.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_1"
+      ],
+      "id": "lvl_scm_lager_durchschnitt_zahleneingabe_1",
+      "fach": "SCM",
+      "thema_id": "lager_lagerkennzahlen",
+      "thema": "Lager / Lagerkennzahlen",
+      "stufe": 3,
+      "ab_lvl": 1,
+      "typ": "zahlen_eingabe",
+      "frage": "Der Lageranfangsbestand beträgt CHF 80’000, der Lagerendbestand CHF 120’000. Wie hoch ist der einfache durchschnittliche Lagerbestand?",
+      "antwort_daten": {
+        "richtiger_wert": 100000,
+        "toleranz": 0,
+        "einheit": "CHF",
+        "rundung": "Ganze Franken"
+      }
+    },
+    {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Den Lagerumschlag aus Warenaufwand und Durchschnittsbestand berechnen.",
+      "begriff_erklaerung": {
+        "kurz": "Der Lagerumschlag zeigt, wie oft der durchschnittliche Lagerbestand während der Periode umgesetzt wird.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Gib die Anzahl Umschläge ein.",
+      "erklaerung": "Der durchschnittliche Bestand wird sechsmal pro Jahr umgesetzt.",
+      "abschlusserklaerung": "Der durchschnittliche Bestand wird sechsmal pro Jahr umgesetzt.",
+      "loesungsvorschlag": {
+        "kurz": "Der durchschnittliche Bestand wird sechsmal pro Jahr umgesetzt.",
+        "warum": "Der durchschnittliche Bestand wird sechsmal pro Jahr umgesetzt.",
+        "rechenweg": "CHF 600’000 ÷ CHF 100’000 = 6."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Der durchschnittliche Bestand wird sechsmal pro Jahr umgesetzt.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_2"
+      ],
+      "id": "lvl_scm_lagerumschlag_zahleneingabe_2",
+      "fach": "SCM",
+      "thema_id": "lager_lagerkennzahlen",
+      "thema": "Lager / Lagerkennzahlen",
+      "stufe": 3,
+      "ab_lvl": 2,
+      "typ": "zahlen_eingabe",
+      "frage": "Der jährliche Warenaufwand beträgt CHF 600’000, der durchschnittliche Lagerbestand CHF 100’000. Wie hoch ist der Lagerumschlag?",
+      "antwort_daten": {
+        "richtiger_wert": 6,
+        "toleranz": 0.01,
+        "einheit": "×",
+        "rundung": "Auf 2 Dezimalstellen"
+      }
     },
     {
       "id": "pr2022_scm_1_11_choice_stufe3",

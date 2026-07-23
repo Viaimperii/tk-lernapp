@@ -6,18 +6,20 @@
     "hinweis_2021": "2021.zip war leer und konnte nicht ausgewertet werden.",
     "quelle": "auf Basis von pruefungs_app_import/lernkarten_pruefungen_Alle_Faecher.json plus automatischer Struktur-/Logik-Kontrolle",
     "schema_version": "2.0-final-learning",
-    "anzahl_karten": 55,
+    "anzahl_karten": 57,
     "anzahl_themen_gruppiert": 20,
     "kartentypen": {
       "single_choice": 22,
-      "multiple_choice": 33
+      "multiple_choice": 33,
+      "reihenfolge": 1,
+      "fallentscheidung": 1
     },
     "stufen": {
       "1": 22,
-      "3": 33
+      "3": 35
     },
     "karten_pro_fach": {
-      "Problemloesung_Entscheidung": 55
+      "Problemloesung_Entscheidung": 57
     },
     "validierungsfehler": 0,
     "erlaubte_typen": [
@@ -2298,6 +2300,52 @@
       "abschlusserklaerung": "Beide Aufgaben sind wichtig, aber die Lohnzahlung hat die frühere Frist und gravierendere Folgen."
     },
     {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Mehrere Postkorbfälle anhand von Frist und Folgen priorisieren.",
+      "begriff_erklaerung": {
+        "kurz": "Priorität entsteht aus Dringlichkeit, Wichtigkeit, Folgen und Zuständigkeit.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Tippe die Vorgänge von zuerst bis zuletzt an.",
+      "erklaerung": "Akute Personengefährdung kommt zuerst, danach die unmittelbar fällige Lohnzahlung, dann die spätere Tagesfrist und zuletzt die langfristige unverbindliche Information.",
+      "abschlusserklaerung": "Akute Personengefährdung kommt zuerst, danach die unmittelbar fällige Lohnzahlung, dann die spätere Tagesfrist und zuletzt die langfristige unverbindliche Information.",
+      "loesungsvorschlag": {
+        "kurz": "Akute Personengefährdung kommt zuerst, danach die unmittelbar fällige Lohnzahlung, dann die spätere Tagesfrist und zuletzt die langfristige unverbindliche Information.",
+        "warum": "Akute Personengefährdung kommt zuerst, danach die unmittelbar fällige Lohnzahlung, dann die spätere Tagesfrist und zuletzt die langfristige unverbindliche Information."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Akute Personengefährdung kommt zuerst, danach die unmittelbar fällige Lohnzahlung, dann die spätere Tagesfrist und zuletzt die langfristige unverbindliche Information.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_1"
+      ],
+      "id": "lvl_problemloesung_postkorb_reihenfolge_1",
+      "fach": "Problemloesung_Entscheidung",
+      "thema_id": "postkorb_priorisierung",
+      "thema": "Postkorb / Priorisierung",
+      "stufe": 3,
+      "ab_lvl": 1,
+      "typ": "reihenfolge",
+      "frage": "Ordne die vier Vorgänge in eine sinnvolle Bearbeitungsreihenfolge.",
+      "antwort_daten": {
+        "items": [
+          "Lohnzahlung ist blockiert; Bankfreigabe endet um 08:30 Uhr.",
+          "Sicherheitsvorfall mit möglicher Personengefährdung ist soeben gemeldet worden.",
+          "Zeiterfassung muss bis 14:00 Uhr freigegeben werden.",
+          "Unverbindliche Einladung zu einer Messe in drei Monaten."
+        ],
+        "richtige_reihenfolge": [
+          1,
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
       "id": "pr2024_problemloesung_entscheidung_20_08_thema_stufe3_3",
       "jahr": 2024,
       "fach": "Problemloesung_Entscheidung",
@@ -3643,6 +3691,54 @@
       "merksatz": "Das Ziel nennt ein klares Ergebnis, eine messbare Grösse, einen Verantwortungsbereich und einen Termin.",
       "erklaerung": "Das Ziel nennt ein klares Ergebnis, eine messbare Grösse, einen Verantwortungsbereich und einen Termin.",
       "abschlusserklaerung": "Das Ziel nennt ein klares Ergebnis, eine messbare Grösse, einen Verantwortungsbereich und einen Termin."
+    },
+    {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Ein unpräzises Ziel in eine messbare Steuerungsgrösse überführen.",
+      "begriff_erklaerung": {
+        "kurz": "SMART-Ziele nennen ein konkretes Ergebnis, Messgrösse, Verantwortlichkeit und Termin.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Wähle die beste Zielformulierung und ihre Begründung.",
+      "erklaerung": "Die zweite Formulierung ist konkret, messbar, zugeordnet und terminiert. Damit kann die Zielerreichung kontrolliert werden.",
+      "abschlusserklaerung": "Die zweite Formulierung ist konkret, messbar, zugeordnet und terminiert. Damit kann die Zielerreichung kontrolliert werden.",
+      "loesungsvorschlag": {
+        "kurz": "Die zweite Formulierung ist konkret, messbar, zugeordnet und terminiert. Damit kann die Zielerreichung kontrolliert werden.",
+        "warum": "Die zweite Formulierung ist konkret, messbar, zugeordnet und terminiert. Damit kann die Zielerreichung kontrolliert werden."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Die zweite Formulierung ist konkret, messbar, zugeordnet und terminiert. Damit kann die Zielerreichung kontrolliert werden.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_1"
+      ],
+      "id": "lvl_problemloesung_smart_fallentscheidung_2",
+      "fach": "Problemloesung_Entscheidung",
+      "thema_id": "ziele_smart",
+      "thema": "Ziele / SMART",
+      "stufe": 3,
+      "ab_lvl": 1,
+      "typ": "fallentscheidung",
+      "frage": "Die Vorgabe lautet: «Wir verbessern bald die Lieferqualität.» Welche Überarbeitung eignet sich zur Steuerung?",
+      "antwort_daten": {
+        "entscheidungen": [
+          "Wir bemühen uns weiterhin um gute Lieferungen.",
+          "SCM senkt die Quote verspäteter Lieferungen bis 30. September von 8 % auf höchstens 3 %.",
+          "Alle Lieferungen müssen ab sofort perfekt sein."
+        ],
+        "begruendungen": [
+          "Das Ziel nennt Ausgangswert, Zielwert, Verantwortung und Termin.",
+          "Je allgemeiner ein Ziel formuliert ist, desto leichter lässt es sich kontrollieren.",
+          "Ein Ziel braucht keine Messgrösse, wenn es positiv klingt."
+        ],
+        "richtig": {
+          "entscheidung": 1,
+          "begruendung": 0
+        }
+      }
     },
     {
       "id": "pr2023_problemloesung_entscheidung_3_1_loesungspunkte_stufe3",

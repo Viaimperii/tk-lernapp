@@ -64,8 +64,12 @@ export function getPreviousTopicStage(topic, currentStage) {
 
 export function pickTopicCard(topic, topicProgress) {
   const stage = normalizeStage(topic, topicProgress.stage)
-  const stageCards = topic.cards
+  const unlockedCards = topic.cards
     .filter((card) => (card.stufe ?? 1) === stage)
+    .filter((card) => (card.ab_lvl ?? 0) <= (topicProgress.lvl ?? 0))
+  const highestUnlockedLevel = Math.max(0, ...unlockedCards.map((card) => card.ab_lvl ?? 0))
+  const stageCards = unlockedCards
+    .filter((card) => (card.ab_lvl ?? 0) === highestUnlockedLevel)
     .slice(0, MAX_VARIANTS_PER_STAGE)
   const attempts = topicProgress.attemptsByStage?.[stage] ?? 0
   return stageCards[attempts % stageCards.length] ?? topic.cards[0]
@@ -76,6 +80,9 @@ export function initialAnswer(card) {
   if (card.typ === 'multiple_choice' || card.typ === 'reihenfolge') return []
   if (card.typ === 'formel_luecke_mc' || card.typ === 'zuordnung') return {}
   if (card.typ === 'formel_builder') return { sequence: [], result: '' }
+  if (card.typ === 'zahlen_eingabe') return ''
+  if (card.typ === 'buchungssatz_builder') return { soll: '', haben: '', betrag: '' }
+  if (card.typ === 'fallentscheidung') return { entscheidung: null, begruendung: null }
   return null
 }
 
@@ -92,12 +99,22 @@ export function hasAnswer(card, answer) {
       || String(answer?.result ?? '').trim() !== ''
     return formulaComplete && resultComplete
   }
+  if (card.typ === 'zahlen_eingabe') return Number.isFinite(normalizeNumber(answer))
+  if (card.typ === 'buchungssatz_builder') {
+    const amountRequired = card.antwort_daten.richtig?.betrag != null
+    return Boolean(answer?.soll && answer?.haben)
+      && (!amountRequired || Number.isFinite(normalizeNumber(answer?.betrag)))
+  }
+  if (card.typ === 'fallentscheidung') {
+    return Number.isInteger(answer?.entscheidung) && Number.isInteger(answer?.begruendung)
+  }
   return false
 }
 
 function normalizeNumber(value) {
   if (typeof value === 'number') return value
-  return Number(String(value ?? '').trim().replace(/'/g, '').replace(',', '.'))
+  const normalized = String(value ?? '').trim().replace(/'/g, '').replace(',', '.')
+  return normalized === '' ? Number.NaN : Number(normalized)
 }
 
 export function checkAnswer(card, answer) {
@@ -119,6 +136,24 @@ export function checkAnswer(card, answer) {
     const expected = normalizeNumber(data.ergebnis.richtiger_wert)
     return Number.isFinite(submitted)
       && Math.abs(submitted - expected) <= (data.ergebnis.toleranz ?? 0)
+  }
+  if (card.typ === 'zahlen_eingabe') {
+    const submitted = normalizeNumber(answer)
+    const expected = normalizeNumber(data.richtiger_wert)
+    return Number.isFinite(submitted)
+      && Math.abs(submitted - expected) <= (data.toleranz ?? 0)
+  }
+  if (card.typ === 'buchungssatz_builder') {
+    const accountsCorrect = answer.soll === data.richtig.soll && answer.haben === data.richtig.haben
+    if (!accountsCorrect) return false
+    if (data.richtig.betrag == null) return true
+    const submitted = normalizeNumber(answer.betrag)
+    return Number.isFinite(submitted)
+      && Math.abs(submitted - data.richtig.betrag) <= (data.toleranz ?? 0)
+  }
+  if (card.typ === 'fallentscheidung') {
+    return answer.entscheidung === data.richtig.entscheidung
+      && answer.begruendung === data.richtig.begruendung
   }
   if (card.typ === 'reihenfolge') {
     return answer.join(',') === data.richtige_reihenfolge.join(',')

@@ -6,20 +6,21 @@
     "hinweis_2021": "2021.zip war leer und konnte nicht ausgewertet werden.",
     "quelle": "auf Basis von pruefungs_app_import/lernkarten_pruefungen_Alle_Faecher.json plus automatischer Struktur-/Logik-Kontrolle",
     "schema_version": "2.0-final-learning",
-    "anzahl_karten": 123,
+    "anzahl_karten": 124,
     "anzahl_themen_gruppiert": 18,
     "kartentypen": {
       "single_choice": 55,
       "multiple_choice": 64,
+      "fallentscheidung": 1,
       "reihenfolge": 1,
       "zuordnung": 3
     },
     "stufen": {
       "1": 24,
-      "3": 99
+      "3": 100
     },
     "karten_pro_fach": {
-      "Recht_VWL": 123
+      "Recht_VWL": 124
     },
     "validierungsfehler": 0,
     "erlaubte_typen": [
@@ -2432,6 +2433,68 @@
         "plausible_distraktoren"
       ],
       "merksatz": "Wer führt, haftet auch - Organpflichten sind keine Formsache."
+    },
+    {
+      "quelle": {
+        "typ": "eigene_lernkarte",
+        "zweck": "lvl_vertiefung"
+      },
+      "lernziel": "Bei einem entdeckten Kaufmangel rechtzeitig und beweisbar handeln.",
+      "begriff_erklaerung": {
+        "kurz": "Die gekaufte Sache ist nach Erhalt zu prüfen; entdeckte Mängel sind dem Verkäufer grundsätzlich sofort anzuzeigen.",
+        "pruefungsrelevant": "Diese Vertiefung wird erst nach dem ersten vollständigen Lösen des Themas freigeschaltet."
+      },
+      "aufgaben_hinweis": "Wähle die rechtlich zweckmässige Handlung und die passende Begründung.",
+      "erklaerung": "Der Mangel muss nach der Prüfung unverzüglich und beweisbar gerügt werden. Anschliessend werden die passenden Gewährleistungsrechte beurteilt.",
+      "abschlusserklaerung": "Der Mangel muss nach der Prüfung unverzüglich und beweisbar gerügt werden. Anschliessend werden die passenden Gewährleistungsrechte beurteilt.",
+      "loesungsvorschlag": {
+        "kurz": "Der Mangel muss nach der Prüfung unverzüglich und beweisbar gerügt werden. Anschliessend werden die passenden Gewährleistungsrechte beurteilt.",
+        "warum": "Der Mangel muss nach der Prüfung unverzüglich und beweisbar gerügt werden. Anschliessend werden die passenden Gewährleistungsrechte beurteilt."
+      },
+      "fehlerfallen": [],
+      "merksatz": "Der Mangel muss nach der Prüfung unverzüglich und beweisbar gerügt werden. Anschliessend werden die passenden Gewährleistungsrechte beurteilt.",
+      "tags": [
+        "lvl_vertiefung",
+        "ab_lvl_1"
+      ],
+      "id": "lvl_recht_maengelruege_fallentscheidung_2",
+      "fach": "Recht_VWL",
+      "thema_id": "rechtliche_grundlagen",
+      "thema": "Rechtliche Grundlagen",
+      "stufe": 3,
+      "ab_lvl": 1,
+      "typ": "fallentscheidung",
+      "frage": "Ein Unternehmen entdeckt bei der Eingangskontrolle einen erheblichen Mangel an einer gelieferten Maschine. Was ist zu tun?",
+      "antwort_daten": {
+        "entscheidungen": [
+          "Den Mangel dokumentieren und dem Verkäufer unverzüglich und nachweisbar rügen.",
+          "Die Maschine monatelang unverändert benutzen und erst später reklamieren.",
+          "Die Rechnung kommentarlos vernichten."
+        ],
+        "begruendungen": [
+          "Nur der Rechnungsbetrag entscheidet über die Gewährleistung.",
+          "Die Prüfungs- und Rügepflicht verlangt rechtzeitiges Handeln; Dokumentation sichert den Nachweis.",
+          "Mängel müssen nur bei privaten Käufen gemeldet werden."
+        ],
+        "richtig": {
+          "entscheidung": 0,
+          "begruendung": 1
+        }
+      },
+      "rechtsgrundlage": [
+        {
+          "gesetz": "OR",
+          "artikel": "201",
+          "absatz": "1",
+          "hinweis": "Prüfungs- und Rügepflicht"
+        },
+        {
+          "gesetz": "OR",
+          "artikel": "205",
+          "absatz": "1",
+          "hinweis": "Wandelung oder Minderung"
+        }
+      ]
     },
     {
       "id": "pr2022_recht_vwl_1_1_choice_stufe3",
