@@ -9,7 +9,8 @@
     "anzahl_karten": 42,
     "anzahl_themen_gruppiert": 14,
     "kartentypen": {
-      "single_choice": 42
+      "single_choice": 16,
+      "multiple_choice": 26
     },
     "stufen": {
       "1": 16,
@@ -55,278 +56,14 @@
     "fach": "Integrierte_Fallstudie",
     "entfernte_fehlerfragen": 22,
     "bereinigung_fehlerfragen_am": "2026-07-17",
-    "aktualisiert_am": "2026-07-18"
+    "aktualisiert_am": "2026-07-23"
   },
   "karten": [
     {
-      "id": "integrierte_fallstudie_1_der_geschaeftsbericht_ist_gedruckt_und_wurde_an_alle_empfaenger_stufe1_begriff",
-      "fach": "Integrierte_Fallstudie",
-      "thema_id": "1_der_geschaeftsbericht_ist_gedruckt_und_wurde_an_alle_empfaenger",
-      "thema": "1. Der Geschäftsbericht ist gedruckt und wurde an alle Empfänger",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
-            "aufgabe": "2025:Integrierte_Fallstudie:1.2"
-          }
-        ]
-      },
-      "stufe": 1,
-      "typ": "single_choice",
-      "lernziel": "Grundidee zu 1. Der Geschäftsbericht ist gedruckt und wurde an alle Empfänger verstehen",
-      "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "frage": "Welche Aussage beschreibt das Thema „1. Der Geschäftsbericht ist gedruckt und wurde an alle Empfänger“ fachlich am besten?",
-      "antwort_daten": {
-        "optionen": [
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung."
-        ],
-        "richtig_index": 3
-      },
-      "loesungsvorschlag": {
-        "kurz": "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_1",
-        "grundlage",
-        "Integrierte_Fallstudie",
-        "1. Der Geschäftsbericht ist gedruckt und wurde an alle Empfänger",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
-    },
-    {
-      "id": "pr2025_integrierte_fallstudie_1_2_thema_stufe3",
-      "jahr": 2025,
-      "fach": "Integrierte_Fallstudie",
-      "quelle_id": "2025:Integrierte_Fallstudie:1.2",
-      "quelle_pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
-      "lernziel": "Thema erkennen 2025 Integrierte_Fallstudie: 1. Der Geschäftsbericht ist gedruckt und wurde an alle Empfänger",
-      "typ": "single_choice",
-      "frage": "1. Der Geschäftsbericht ist gedruckt und wurde an alle Empfänger\nverschickt. Dummerweise hatten sich zwei Druckfehler einge-\nschlichen, welche erst nach dem Versand festgestellt wurden. \nSie betreffen die Bilanz mit den beiden Fonds «Artenerhal-\ntungsprogramme» und «Tieranlagen allgemein». Der erste Fonds \nenthält korrekterweise CHF 5'493.00 und nicht CHF 54’930.00 \nwie fälschlicherweise gedruckt, der zweite Fonds enthält CHF \n918'458.00 und nicht CHF 18'458.00.\n\nWelches Thema wird hier primär geprüft?",
-      "antwort_daten": {
-        "optionen": [
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken",
-          "1. Der Geschäftsbericht ist gedruckt und wurde an alle Empfänger",
-          "Rechnung ohne Einheiten/Rundung darstellen",
-          "Fallangaben ignorieren und Standardantwort geben"
-        ],
-        "richtig_index": 1
-      },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
-      "stufe": 3,
-      "tags": [
-        "prüfung",
-        "thema",
-        "fallback",
-        "Integrierte_Fallstudie",
-        "stufe_3",
-        "prüfungsnah",
-        "1. Der Geschäftsbericht ist gedruckt und wurde an alle Empfänger",
-        "stufe3",
-        "lerntauglich"
-      ],
-      "thema_id": "1_der_geschaeftsbericht_ist_gedruckt_und_wurde_an_alle_empfaenger",
-      "thema": "1. Der Geschäftsbericht ist gedruckt und wurde an alle Empfänger",
-      "quelle": {
-        "typ": "pruefung",
-        "jahr": 2025,
-        "pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
-        "aufgabe": "2025:Integrierte_Fallstudie:1.2"
-      },
-      "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig ist: 1. Der Geschäftsbericht ist gedruckt und wurde an alle Empfänger",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
-    },
-    {
-      "id": "integrierte_fallstudie_2025_mit_seinen_abteilungsleitenden_und_rolf_stern_vom_stab_problemloesung_vor_a_stufe1_begriff",
-      "fach": "Integrierte_Fallstudie",
-      "thema_id": "2025_mit_seinen_abteilungsleitenden_und_rolf_stern_vom_stab_problemloesung_vor_a",
-      "thema": "2025 mit seinen Abteilungsleitenden und Rolf Stern vom Stab Problemlösung vor. A",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
-            "aufgabe": "2025:Integrierte_Fallstudie:11.08"
-          }
-        ]
-      },
-      "stufe": 1,
-      "typ": "single_choice",
-      "lernziel": "Grundidee zu 2025 mit seinen Abteilungsleitenden und Rolf Stern vom Stab Problemlösung vor. A verstehen",
-      "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
-      },
-      "frage": "Welche Aussage beschreibt das Thema „2025 mit seinen Abteilungsleitenden und Rolf Stern vom Stab Problemlösung vor. A“ fachlich am besten?",
-      "antwort_daten": {
-        "optionen": [
-          "Risiken werden erst nach Projektabschluss beurteilt.",
-          "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-          "Die erstbeste Lösung ist meist besser als eine Variantenprüfung.",
-          "Gewichtungen in der Nutzwertanalyse können ignoriert werden."
-        ],
-        "richtig_index": 1
-      },
-      "loesungsvorschlag": {
-        "kurz": "Entscheidungen sollen auf klaren Kriterien, nachvollziehbarer Bewertung und kontrollierbarer Umsetzung beruhen.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
-      },
-      "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_1",
-        "grundlage",
-        "Integrierte_Fallstudie",
-        "2025 mit seinen Abteilungsleitenden und Rolf Stern vom Stab Problemlösung vor. A",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
-    },
-    {
-      "id": "pr2025_integrierte_fallstudie_11_08_thema_stufe3",
-      "jahr": 2025,
-      "fach": "Integrierte_Fallstudie",
-      "quelle_id": "2025:Integrierte_Fallstudie:11.08",
-      "quelle_pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
-      "lernziel": "Thema erkennen 2025 Integrierte_Fallstudie: 2025 mit seinen Abteilungsleitenden und Rolf Stern vom Stab Problemlösung vor. Als",
-      "typ": "single_choice",
-      "frage": "2025 mit seinen Abteilungsleitenden und Rolf Stern vom Stab Problemlösung vor. Als\nGrundlage verwendet er das Protokoll Nummer 34 der letzten Sitzung vom 04.08.2025 (Beilage 1). \n \n \n \n\n \nIntegrierte Fallstudie \n \n5 /19 \nBeilage 1) Protokoll Nr. 34 vom 04.08.2025 \n \n \n \nProtokoll Nr. 34 der Direktionssitzung vom 04.08.2025, 08.00 bis 10.30 Uhr \n \nTeilnehmende: \nMelzer Jan (MeJ, Vorsitz) \n \n \n \nMüller Lia (MüL) \n \n \n \nReisp Julia (ReJ) \n \n \n \nReute Lars (ReL) \n \n \n \nSchwager Renata (ScR) …\n\nWelches Thema wird hier primär geprüft?",
-      "antwort_daten": {
-        "optionen": [
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken",
-          "Rechnung ohne Einheiten/Rundung darstellen",
-          "2025 mit seinen Abteilungsleitenden und Rolf Stern vom Stab Problemlösung vor. Als",
-          "Fallangaben ignorieren und Standardantwort geben"
-        ],
-        "richtig_index": 2
-      },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
-      "stufe": 3,
-      "tags": [
-        "prüfung",
-        "thema",
-        "fallback",
-        "Integrierte_Fallstudie",
-        "stufe_3",
-        "prüfungsnah",
-        "2025 mit seinen Abteilungsleitenden und Rolf Stern vom Stab Problemlösung vor. A",
-        "stufe3",
-        "lerntauglich"
-      ],
-      "thema_id": "2025_mit_seinen_abteilungsleitenden_und_rolf_stern_vom_stab_problemloesung_vor_a",
-      "thema": "2025 mit seinen Abteilungsleitenden und Rolf Stern vom Stab Problemlösung vor. A",
-      "quelle": {
-        "typ": "pruefung",
-        "jahr": 2025,
-        "pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
-        "aufgabe": "2025:Integrierte_Fallstudie:11.08"
-      },
-      "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig ist: 2025 mit seinen Abteilungsleitenden und Rolf Stern vom Stab Problemlösung vor. Als",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
-      },
-      "fehlerfallen": [
-        "Ursachenanalyse überspringen.",
-        "Kriterien/Gewichtungen falsch anwenden.",
-        "Massnahmen ohne Verantwortlichkeit und Termin formulieren."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "merksatz": "Erst Problem verstehen, dann Varianten bewerten, dann umsetzen und kontrollieren."
-    },
-    {
       "id": "integrierte_fallstudie_3_die_abfallentsorgung_der_besucherinnen_und_besucher_bereitet_stufe1_begriff",
       "fach": "Integrierte_Fallstudie",
-      "thema_id": "3_die_abfallentsorgung_der_besucherinnen_und_besucher_bereitet",
-      "thema": "3. Die Abfallentsorgung der Besucherinnen und Besucher bereitet",
+      "thema_id": "abfallentsorgung_besucherbetrieb",
+      "thema": "Abfallentsorgung im Besucherbetrieb",
       "quelle": {
         "typ": "abgeleitet_aus_pruefungen",
         "jahre": [
@@ -348,26 +85,21 @@
         "kurz": "Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
         "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „3. Die Abfallentsorgung der Besucherinnen und Besucher bereitet“ fachlich am besten?",
+      "frage": "Bei einem Besucherbetrieb liegen Abfälle neben überfüllten Sammelstellen. Welche Massnahme ist zuerst fachlich sinnvoll?",
       "antwort_daten": {
         "optionen": [
-          "Eine gute Massnahme passt zur Analyse, ist umsetzbar und berücksichtigt Anspruchsgruppen, Kosten, Nutzen und Risiken.",
-          "Anspruchsgruppen sind für Entscheidungen unwichtig, wenn die Geschäftsleitung entschieden hat.",
-          "Prozesse werden optimiert, indem man nur mehr Kontrollstellen einbaut.",
-          "Eine Strategie ist schon gut, wenn sie möglichst allgemein formuliert ist."
+          "Alle Sammelstellen entfernen, damit keine Überfüllung sichtbar ist.",
+          "Nur häufiger reinigen, ohne Ursache und Abfallmenge zu untersuchen.",
+          "Abfallmengen und Spitzenzeiten erfassen und darauf Behälter, Leerungsrhythmus und Beschilderung abstimmen.",
+          "Abfall vollständig den Besucherinnen und Besuchern privat mitgeben. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt."
         ],
-        "richtig_index": 0
+        "richtig_index": 2
       },
       "loesungsvorschlag": {
-        "kurz": "Eine gute Massnahme passt zur Analyse, ist umsetzbar und berücksichtigt Anspruchsgruppen, Kosten, Nutzen und Risiken.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Eine tragfähige Lösung verbindet Ursachenanalyse mit Kapazität, Leerungsprozess, verständlicher Trennung und verantwortlichen Stellen.",
+        "warum": "Eine tragfähige Lösung verbindet Ursachenanalyse mit Kapazität, Leerungsprozess, verständlicher Trennung und verantwortlichen Stellen."
       },
-      "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
-      ],
+      "fehlerfallen": [],
       "review": {
         "box": 1,
         "richtig_in_folge": 0,
@@ -385,9 +117,12 @@
         "Integrierte_Fallstudie",
         "3. Die Abfallentsorgung der Besucherinnen und Besucher bereitet",
         "lerntauglich",
-        "plausible_distraktoren"
+        "plausible_distraktoren",
+        "vollpruefung_2026_07_23"
       ],
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Eine tragfähige Lösung verbindet Ursachenanalyse mit Kapazität, Leerungsprozess, verständlicher Trennung und verantwortlichen Stellen.",
+      "erklaerung": "Eine tragfähige Lösung verbindet Ursachenanalyse mit Kapazität, Leerungsprozess, verständlicher Trennung und verantwortlichen Stellen.",
+      "abschlusserklaerung": "Eine tragfähige Lösung verbindet Ursachenanalyse mit Kapazität, Leerungsprozess, verständlicher Trennung und verantwortlichen Stellen."
     },
     {
       "id": "pr2025_integrierte_fallstudie_1_3_thema_stufe3_3",
@@ -395,19 +130,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2025:Integrierte_Fallstudie:1.3",
       "quelle_pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
-      "lernziel": "Thema erkennen 2025 Integrierte_Fallstudie: 3. Die Abfallentsorgung der Besucherinnen und Besucher bereitet",
-      "typ": "single_choice",
-      "frage": "3. Die Abfallentsorgung der Besucherinnen und Besucher bereitet\nuns zunehmend Probleme. Ich bitte euch bis zur nächsten \nSitzung zu überlegen, wie wir hier vorgehen können. \n \n \nalle\n\nWelches Thema wird hier primär geprüft?",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Abfallentsorgung im Besucherbetrieb lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche zwei Kennzahlen helfen zu prüfen, ob das neue Entsorgungskonzept wirkt?",
       "antwort_daten": {
         "optionen": [
-          "3. Die Abfallentsorgung der Besucherinnen und Besucher bereitet",
-          "Rechnung ohne Einheiten/Rundung darstellen",
-          "Fallangaben ignorieren und Standardantwort geben",
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken"
+          "Menge der Fehlwürfe je Abfallfraktion.",
+          "Anzahl Überfüllungen oder Zusatzleerungen pro Zeitraum.",
+          "Farbe der Arbeitskleidung des Reinigungsteams.",
+          "Anzahl verkaufter Eintrittskarten ohne Bezug zur Abfallmenge."
         ],
-        "richtig_index": 0
+        "richtige_indices": [
+          0,
+          1
+        ]
       },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
+      "erklaerung": "Fehlwürfe messen die Trennqualität, Überfüllungen die Kapazitäts- und Prozessqualität. Beide Kennzahlen zeigen konkrete Verbesserungen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -418,10 +156,12 @@
         "prüfungsnah",
         "3. Die Abfallentsorgung der Besucherinnen und Besucher bereitet",
         "stufe3",
-        "lerntauglich"
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage",
+        "vollpruefung_2026_07_23"
       ],
-      "thema_id": "3_die_abfallentsorgung_der_besucherinnen_und_besucher_bereitet",
-      "thema": "3. Die Abfallentsorgung der Besucherinnen und Besucher bereitet",
+      "thema_id": "abfallentsorgung_besucherbetrieb",
+      "thema": "Abfallentsorgung im Besucherbetrieb",
       "quelle": {
         "typ": "pruefung",
         "jahr": 2025,
@@ -433,15 +173,10 @@
         "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig ist: 3. Die Abfallentsorgung der Besucherinnen und Besucher bereitet",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Fehlwürfe messen die Trennqualität, Überfüllungen die Kapazitäts- und Prozessqualität. Beide Kennzahlen zeigen konkrete Verbesserungen.",
+        "warum": "Fehlwürfe messen die Trennqualität, Überfüllungen die Kapazitäts- und Prozessqualität. Beide Kennzahlen zeigen konkrete Verbesserungen."
       },
-      "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
-      ],
+      "fehlerfallen": [],
       "review": {
         "box": 1,
         "richtig_in_folge": 0,
@@ -452,139 +187,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
-    },
-    {
-      "id": "integrierte_fallstudie_4_der_tierarzt_raet_dringend_alle_unseren_beherbergten_europaei_stufe1_begriff",
-      "fach": "Integrierte_Fallstudie",
-      "thema_id": "4_der_tierarzt_raet_dringend_alle_unseren_beherbergten_europaei",
-      "thema": "4. Der Tierarzt rät dringend, alle unseren beherbergten Europäi-",
-      "quelle": {
-        "typ": "abgeleitet_aus_pruefungen",
-        "jahre": [
-          2025
-        ],
-        "beispiele": [
-          {
-            "typ": "pruefung",
-            "jahr": 2025,
-            "pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
-            "aufgabe": "2025:Integrierte_Fallstudie:1.3"
-          }
-        ]
-      },
-      "stufe": 1,
-      "typ": "single_choice",
-      "lernziel": "Grundidee zu 4. Der Tierarzt rät dringend, alle unseren beherbergten Europäi- verstehen",
-      "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "frage": "Welche Aussage beschreibt das Thema „4. Der Tierarzt rät dringend, alle unseren beherbergten Europäi-“ fachlich am besten?",
-      "antwort_daten": {
-        "optionen": [
-          "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-          "Die Fallangaben können ignoriert werden, wenn die Antwortoption vertraut wirkt.",
-          "Es genügt, ein Schlagwort zu nennen; Begründung ist nicht nötig.",
-          "Eine Antwort ist richtig, wenn sie allgemein gut klingt, auch ohne Fallbezug."
-        ],
-        "richtig_index": 0
-      },
-      "loesungsvorschlag": {
-        "kurz": "Die fachlich passende Antwort verbindet Begriff, Fallangabe und nachvollziehbare Begründung.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "tags": [
-        "prüfung",
-        "stufe_1",
-        "grundlage",
-        "Integrierte_Fallstudie",
-        "4. Der Tierarzt rät dringend, alle unseren beherbergten Europäi-",
-        "lerntauglich",
-        "plausible_distraktoren"
-      ],
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
-    },
-    {
-      "id": "pr2025_integrierte_fallstudie_1_3_thema_stufe3_4",
-      "jahr": 2025,
-      "fach": "Integrierte_Fallstudie",
-      "quelle_id": "2025:Integrierte_Fallstudie:1.3",
-      "quelle_pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
-      "lernziel": "Thema erkennen 2025 Integrierte_Fallstudie: 4. Der Tierarzt rät dringend, alle unseren beherbergten Europäi-",
-      "typ": "single_choice",
-      "frage": "4. Der Tierarzt rät dringend, alle unseren beherbergten Europäi-\nschen Wildkatzen zur Verhinderung der Ausbreitung von Krank-\nheiten vorsorglich zu impfen. Der Impfstoff kann aus Indien \nbeschafft werden und ist sehr teuer. Pro Kilogramm Körper- \ngewicht und Tier müssen während einer definierten Zeitperiode \n100 mg pro Tag verabreicht werden. Ich habe bereits eine Offerte \nangefordert, welche diese Woche noch eintreffen sollte. \n➔ Entscheid MeJ \n \n \n \n \n \n \n \n \nMeJ\n\nWelches Thema wird hier primär geprüft?",
-      "antwort_daten": {
-        "optionen": [
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken",
-          "4. Der Tierarzt rät dringend, alle unseren beherbergten Europäi-",
-          "Fallangaben ignorieren und Standardantwort geben",
-          "Rechnung ohne Einheiten/Rundung darstellen"
-        ],
-        "richtig_index": 1
-      },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
-      "stufe": 3,
-      "tags": [
-        "prüfung",
-        "thema",
-        "fallback",
-        "Integrierte_Fallstudie",
-        "stufe_3",
-        "prüfungsnah",
-        "4. Der Tierarzt rät dringend, alle unseren beherbergten Europäi-",
-        "stufe3",
-        "lerntauglich"
-      ],
-      "thema_id": "4_der_tierarzt_raet_dringend_alle_unseren_beherbergten_europaei",
-      "thema": "4. Der Tierarzt rät dringend, alle unseren beherbergten Europäi-",
-      "quelle": {
-        "typ": "pruefung",
-        "jahr": 2025,
-        "pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
-        "aufgabe": "2025:Integrierte_Fallstudie:1.3"
-      },
-      "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "loesungsvorschlag": {
-        "kurz": "Richtig ist: 4. Der Tierarzt rät dringend, alle unseren beherbergten Europäi-",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
-      },
-      "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
-      ],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Fehlwürfe messen die Trennqualität, Überfüllungen die Kapazitäts- und Prozessqualität. Beide Kennzahlen zeigen konkrete Verbesserungen.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "Fehlwürfe messen die Trennqualität, Überfüllungen die Kapazitäts- und Prozessqualität. Beide Kennzahlen zeigen konkrete Verbesserungen."
     },
     {
       "id": "integrierte_fallstudie_beschaffung_lieferanten_stufe1_begriff",
@@ -629,7 +234,7 @@
       "antwort_daten": {
         "optionen": [
           "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall?",
-          "Nur auf das Auswendiglernen der Beschaffungstheorie, unabhängig vom Fall.",
+          "Nur auf das Auswendiglernen der Beschaffungstheorie, unabhängig vom Fall. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt.",
           "Auf den tiefsten Preis, unabhängig von den Fallangaben zu Qualität oder Terminen.",
           "Beschaffung ist in der Fallstudie nie prüfungsrelevant."
         ],
@@ -672,19 +277,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2023:Integrierte_Fallstudie:01.01",
       "quelle_pdf": "2023/Aufgaben/DE_2023_Aufgaben_IntegrierteFallstudie.pdf",
-      "lernziel": "Thema erkennen 2023 Integrierte_Fallstudie: 2024",
-      "typ": "single_choice",
-      "frage": "2024\nGarantierte Lieferfrist \n(hohe Pönale resp. Vertragsstrafe bei Nichteinhaltung) \n10 Arbeitstage \nLagerhaltungskostensatz \n8% \nFixe interne Kosten zur Bestellabwicklung \nCHF 200 \n \n \n \n\nIntegrierte Fallstudie \n \n7/16 \nSitzungsunterlagen 3 \n \nBilanz – Beutler AG Luzern \n \n \n \nWerte in CHF 1'000\n\nWelches Thema wird hier primär geprüft?",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Beschaffung / Lieferanten lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche zwei Aussagen erklären „Beschaffung / Lieferanten“ fachlich richtig?",
       "antwort_daten": {
         "optionen": [
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken",
-          "Rechnung ohne Einheiten/Rundung darstellen",
-          "2024",
-          "Fallangaben ignorieren und Standardantwort geben"
+          "Auf den tiefsten Preis, unabhängig von den Fallangaben zu Qualität oder Terminen.",
+          "Beschaffung ist in der Fallstudie nie prüfungsrelevant.",
+          "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall?",
+          "Prüfungsnah ist, Lieferantenkriterien (Preis, Qualität, Lieferfähigkeit, Risiko) direkt mit den im Fall genannten Fakten zu verknüpfen."
         ],
-        "richtig_index": 2
+        "richtige_indices": [
+          2,
+          3
+        ]
       },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
+      "erklaerung": "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall? Prüfungsnah ist, Lieferantenkriterien (Preis, Qualität, Lieferfähigkeit, Risiko) direkt mit den im Fall genannten Fakten zu verknüpfen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -695,7 +303,8 @@
         "prüfungsnah",
         "Beschaffung / Lieferanten",
         "stufe3",
-        "lerntauglich"
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage"
       ],
       "thema_id": "beschaffung_lieferanten",
       "thema": "Beschaffung / Lieferanten",
@@ -710,15 +319,10 @@
         "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig ist: 2024",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall? Prüfungsnah ist, Lieferantenkriterien (Preis, Qualität, Lieferfähigkeit, Risiko) direkt mit den im Fall genannten Fakten zu verknüpfen.",
+        "warum": "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall? Prüfungsnah ist, Lieferantenkriterien (Preis, Qualität, Lieferfähigkeit, Risiko) direkt mit den im Fall genannten Fakten zu verknüpfen."
       },
-      "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
-      ],
+      "fehlerfallen": [],
       "review": {
         "box": 1,
         "richtig_in_folge": 0,
@@ -729,7 +333,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "In der Fallstudie zählt nicht die allgemeine Regel, sondern ihre Anwendung auf die konkreten Fakten.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall? Prüfungsnah ist, Lieferantenkriterien (Preis, Qualität, Lieferfähigkeit, Risiko) direkt mit den im Fall genannten Fakten zu verknüpfen."
     },
     {
       "id": "pr2025_integrierte_fallstudie_1_3_thema_stufe3",
@@ -737,19 +343,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2025:Integrierte_Fallstudie:1.3",
       "quelle_pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
-      "lernziel": "Thema erkennen 2025 Integrierte_Fallstudie: 1. Aufgrund des ungünstigen Wetters 2024 und 2025 und der",
-      "typ": "single_choice",
-      "frage": "1. Aufgrund des ungünstigen Wetters 2024 und 2025 und der\nunsicheren heimischen Futtermittelversorgung musste die Be-\nschaffungsbreite ausgebaut werden. Vor allem Heu und Stroh \nmussten neu auch aus dem Ausland zugekauft werden. Ich \nmöchte die Situation dieser neuen Beschaffungsstrategie an der \nnächsten Direktionssitzung mit euch besprechen. Bitte bereitet \neuch mit der Beilage 4 «Zusammenstellung Beschaffung Heu \nund Stroh» auf die Besprechung der neuen und auch zukünfti- …\n\nWelches Thema wird hier primär geprüft?",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Beschaffung / Lieferanten lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche zwei Aussagen erklären „Beschaffung / Lieferanten“ fachlich richtig?",
       "antwort_daten": {
         "optionen": [
-          "Fallangaben ignorieren und Standardantwort geben",
-          "1. Aufgrund des ungünstigen Wetters 2024 und 2025 und der",
-          "Rechnung ohne Einheiten/Rundung darstellen",
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken"
+          "Nur auf das Auswendiglernen der Beschaffungstheorie, unabhängig vom Fall. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt.",
+          "Auf den tiefsten Preis, unabhängig von den Fallangaben zu Qualität oder Terminen.",
+          "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall?",
+          "Prüfungsnah ist, Lieferantenkriterien (Preis, Qualität, Lieferfähigkeit, Risiko) direkt mit den im Fall genannten Fakten zu verknüpfen."
         ],
-        "richtig_index": 1
+        "richtige_indices": [
+          2,
+          3
+        ]
       },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
+      "erklaerung": "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall? Prüfungsnah ist, Lieferantenkriterien (Preis, Qualität, Lieferfähigkeit, Risiko) direkt mit den im Fall genannten Fakten zu verknüpfen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -760,7 +369,8 @@
         "prüfungsnah",
         "Beschaffung / Lieferanten",
         "stufe3",
-        "lerntauglich"
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage"
       ],
       "thema_id": "beschaffung_lieferanten",
       "thema": "Beschaffung / Lieferanten",
@@ -775,15 +385,10 @@
         "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig ist: 1. Aufgrund des ungünstigen Wetters 2024 und 2025 und der",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall? Prüfungsnah ist, Lieferantenkriterien (Preis, Qualität, Lieferfähigkeit, Risiko) direkt mit den im Fall genannten Fakten zu verknüpfen.",
+        "warum": "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall? Prüfungsnah ist, Lieferantenkriterien (Preis, Qualität, Lieferfähigkeit, Risiko) direkt mit den im Fall genannten Fakten zu verknüpfen."
       },
-      "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
-      ],
+      "fehlerfallen": [],
       "review": {
         "box": 1,
         "richtig_in_folge": 0,
@@ -794,7 +399,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "In der Fallstudie zählt nicht die allgemeine Regel, sondern ihre Anwendung auf die konkreten Fakten.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall? Prüfungsnah ist, Lieferantenkriterien (Preis, Qualität, Lieferfähigkeit, Risiko) direkt mit den im Fall genannten Fakten zu verknüpfen."
     },
     {
       "id": "pr2025_integrierte_fallstudie_1_3_thema_stufe3_2",
@@ -802,19 +409,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2025:Integrierte_Fallstudie:1.3",
       "quelle_pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
-      "lernziel": "Thema erkennen 2025 Integrierte_Fallstudie: 2. Zur Risikominimierung aufgrund der unsicheren Beschaffung",
-      "typ": "single_choice",
-      "frage": "2. Zur Risikominimierung aufgrund der unsicheren Beschaffung\nmussten die Lagerbestände ausgebaut werden. Dies stellte uns \naufgrund der verschiedenen Lagerbedingungen teilweise vor \ngrössere Probleme. Eine zukünftige Lagererweiterung scheint \nunumgänglich. Der Leiter Lagerlogistik, Peter Meister, wird für \ndie nächste Sitzung zugeladen und erläutert uns seinen uns \nbereits im Mail vom 03.08.2025 zugesandten Vorschlag zum \nProjektumfang (Beilage 5). …\n\nWelches Thema wird hier primär geprüft?",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Beschaffung / Lieferanten lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche beiden Aussagen müssen bei „Beschaffung / Lieferanten“ beachtet werden?",
       "antwort_daten": {
         "optionen": [
-          "Fallangaben ignorieren und Standardantwort geben",
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken",
-          "2. Zur Risikominimierung aufgrund der unsicheren Beschaffung",
-          "Rechnung ohne Einheiten/Rundung darstellen"
+          "Beschaffung ist in der Fallstudie nie prüfungsrelevant.",
+          "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall?",
+          "In der Fallstudie zählt nicht die allgemeine Regel, sondern ihre Anwendung auf die konkreten Fakten.",
+          "Auf den tiefsten Preis, unabhängig von den Fallangaben zu Qualität oder Terminen."
         ],
-        "richtig_index": 2
+        "richtige_indices": [
+          1,
+          2
+        ]
       },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
+      "erklaerung": "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall? In der Fallstudie zählt nicht die allgemeine Regel, sondern ihre Anwendung auf die konkreten Fakten.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -825,7 +435,8 @@
         "prüfungsnah",
         "Beschaffung / Lieferanten",
         "stufe3",
-        "lerntauglich"
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage"
       ],
       "thema_id": "beschaffung_lieferanten",
       "thema": "Beschaffung / Lieferanten",
@@ -840,15 +451,10 @@
         "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig ist: 2. Zur Risikominimierung aufgrund der unsicheren Beschaffung",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
+        "kurz": "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall? In der Fallstudie zählt nicht die allgemeine Regel, sondern ihre Anwendung auf die konkreten Fakten.",
+        "warum": "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall? In der Fallstudie zählt nicht die allgemeine Regel, sondern ihre Anwendung auf die konkreten Fakten."
       },
-      "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
-      ],
+      "fehlerfallen": [],
       "review": {
         "box": 1,
         "richtig_in_folge": 0,
@@ -859,7 +465,273 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "In der Fallstudie zählt nicht die allgemeine Regel, sondern ihre Anwendung auf die konkreten Fakten.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall? In der Fallstudie zählt nicht die allgemeine Regel, sondern ihre Anwendung auf die konkreten Fakten."
+    },
+    {
+      "id": "integrierte_fallstudie_2025_mit_seinen_abteilungsleitenden_und_rolf_stern_vom_stab_problemloesung_vor_a_stufe1_begriff",
+      "fach": "Integrierte_Fallstudie",
+      "thema_id": "entscheidungsprozess_im_fall",
+      "thema": "Entscheidungsprozess im Fall",
+      "quelle": {
+        "typ": "abgeleitet_aus_pruefungen",
+        "jahre": [
+          2025
+        ],
+        "beispiele": [
+          {
+            "typ": "pruefung",
+            "jahr": 2025,
+            "pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
+            "aufgabe": "2025:Integrierte_Fallstudie:11.08"
+          }
+        ]
+      },
+      "stufe": 1,
+      "typ": "single_choice",
+      "lernziel": "Grundidee zu 2025 mit seinen Abteilungsleitenden und Rolf Stern vom Stab Problemlösung vor. A verstehen",
+      "begriff_erklaerung": {
+        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
+        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+      },
+      "frage": "Die Abteilungsleitenden schlagen unterschiedliche Lösungen vor. Was macht den anschliessenden Entscheid nachvollziehbar?",
+      "antwort_daten": {
+        "optionen": [
+          "Die spontane Wahl der ranghöchsten Person ohne Kriterien.",
+          "Gemeinsame Kriterien, transparente Gewichtungen und dokumentierte Bewertungen der Varianten.",
+          "Eine Abstimmung, bevor das Problem beschrieben wurde. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt.",
+          "Die ausschliessliche Betrachtung der billigsten Variante ohne Risiken."
+        ],
+        "richtig_index": 1
+      },
+      "loesungsvorschlag": {
+        "kurz": "Ein nachvollziehbarer Entscheid trennt Problem, Kriterien, Gewichtung und Variantenbewertung und hält Annahmen sowie Risiken fest.",
+        "warum": "Ein nachvollziehbarer Entscheid trennt Problem, Kriterien, Gewichtung und Variantenbewertung und hält Annahmen sowie Risiken fest."
+      },
+      "fehlerfallen": [],
+      "review": {
+        "box": 1,
+        "richtig_in_folge": 0,
+        "falsch_in_folge": 0,
+        "gesamt_richtig": 0,
+        "gesamt_falsch": 0,
+        "letzte_wiederholung": null,
+        "naechste_wiederholung": null,
+        "letzte_antwort": null
+      },
+      "tags": [
+        "prüfung",
+        "stufe_1",
+        "grundlage",
+        "Integrierte_Fallstudie",
+        "2025 mit seinen Abteilungsleitenden und Rolf Stern vom Stab Problemlösung vor. A",
+        "lerntauglich",
+        "plausible_distraktoren",
+        "vollpruefung_2026_07_23"
+      ],
+      "merksatz": "Ein nachvollziehbarer Entscheid trennt Problem, Kriterien, Gewichtung und Variantenbewertung und hält Annahmen sowie Risiken fest.",
+      "erklaerung": "Ein nachvollziehbarer Entscheid trennt Problem, Kriterien, Gewichtung und Variantenbewertung und hält Annahmen sowie Risiken fest.",
+      "abschlusserklaerung": "Ein nachvollziehbarer Entscheid trennt Problem, Kriterien, Gewichtung und Variantenbewertung und hält Annahmen sowie Risiken fest."
+    },
+    {
+      "id": "pr2025_integrierte_fallstudie_11_08_thema_stufe3",
+      "jahr": 2025,
+      "fach": "Integrierte_Fallstudie",
+      "quelle_id": "2025:Integrierte_Fallstudie:11.08",
+      "quelle_pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Entscheidungsprozess im Fall lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche zwei Schritte erhöhen die Qualität einer Nutzwertanalyse im Führungsteam?",
+      "antwort_daten": {
+        "optionen": [
+          "Kriterien vor der Bewertung definieren und begründet gewichten.",
+          "Bewertungen mit Fakten oder transparenten Annahmen begründen.",
+          "Gewichtungen nachträglich an die gewünschte Variante anpassen.",
+          "Nur Kriterien aufnehmen, bei denen alle Varianten gleich abschneiden."
+        ],
+        "richtige_indices": [
+          0,
+          1
+        ]
+      },
+      "erklaerung": "Kriterien und Gewichtungen müssen vor der Bewertung nachvollziehbar feststehen. Transparente Begründungen machen das Resultat prüfbar.",
+      "stufe": 3,
+      "tags": [
+        "prüfung",
+        "thema",
+        "fallback",
+        "Integrierte_Fallstudie",
+        "stufe_3",
+        "prüfungsnah",
+        "2025 mit seinen Abteilungsleitenden und Rolf Stern vom Stab Problemlösung vor. A",
+        "stufe3",
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage",
+        "vollpruefung_2026_07_23"
+      ],
+      "thema_id": "entscheidungsprozess_im_fall",
+      "thema": "Entscheidungsprozess im Fall",
+      "quelle": {
+        "typ": "pruefung",
+        "jahr": 2025,
+        "pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
+        "aufgabe": "2025:Integrierte_Fallstudie:11.08"
+      },
+      "begriff_erklaerung": {
+        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
+        "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
+      },
+      "loesungsvorschlag": {
+        "kurz": "Kriterien und Gewichtungen müssen vor der Bewertung nachvollziehbar feststehen. Transparente Begründungen machen das Resultat prüfbar.",
+        "warum": "Kriterien und Gewichtungen müssen vor der Bewertung nachvollziehbar feststehen. Transparente Begründungen machen das Resultat prüfbar."
+      },
+      "fehlerfallen": [],
+      "review": {
+        "box": 1,
+        "richtig_in_folge": 0,
+        "falsch_in_folge": 0,
+        "gesamt_richtig": 0,
+        "gesamt_falsch": 0,
+        "letzte_wiederholung": null,
+        "naechste_wiederholung": null,
+        "letzte_antwort": null
+      },
+      "merksatz": "Kriterien und Gewichtungen müssen vor der Bewertung nachvollziehbar feststehen. Transparente Begründungen machen das Resultat prüfbar.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "Kriterien und Gewichtungen müssen vor der Bewertung nachvollziehbar feststehen. Transparente Begründungen machen das Resultat prüfbar."
+    },
+    {
+      "id": "integrierte_fallstudie_1_der_geschaeftsbericht_ist_gedruckt_und_wurde_an_alle_empfaenger_stufe1_begriff",
+      "fach": "Integrierte_Fallstudie",
+      "thema_id": "fehler_im_geschaeftsbericht",
+      "thema": "Fehler im Geschäftsbericht",
+      "quelle": {
+        "typ": "abgeleitet_aus_pruefungen",
+        "jahre": [
+          2025
+        ],
+        "beispiele": [
+          {
+            "typ": "pruefung",
+            "jahr": 2025,
+            "pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
+            "aufgabe": "2025:Integrierte_Fallstudie:1.2"
+          }
+        ]
+      },
+      "stufe": 1,
+      "typ": "single_choice",
+      "lernziel": "Grundidee zu 1. Der Geschäftsbericht ist gedruckt und wurde an alle Empfänger verstehen",
+      "begriff_erklaerung": {
+        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+      },
+      "frage": "Nach dem Versand des Geschäftsberichts wird ein wesentlicher Zahlenfehler entdeckt. Was ist zuerst zu tun?",
+      "antwort_daten": {
+        "optionen": [
+          "Fehler und Auswirkung verifizieren, zuständige Stellen informieren und das Korrekturvorgehen festlegen.",
+          "Den Fehler stillschweigend in der nächsten Ausgabe ändern. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt.",
+          "Alle Empfänger ohne geprüfte Fakten telefonisch alarmieren.",
+          "Die zugrunde liegenden Buchungen löschen, damit der Bericht wieder stimmt."
+        ],
+        "richtig_index": 0
+      },
+      "loesungsvorschlag": {
+        "kurz": "Zuerst müssen Sachverhalt und Wesentlichkeit geklärt werden. Danach folgen abgestimmte Korrektur, transparente Information und saubere Dokumentation.",
+        "warum": "Zuerst müssen Sachverhalt und Wesentlichkeit geklärt werden. Danach folgen abgestimmte Korrektur, transparente Information und saubere Dokumentation."
+      },
+      "fehlerfallen": [],
+      "review": {
+        "box": 1,
+        "richtig_in_folge": 0,
+        "falsch_in_folge": 0,
+        "gesamt_richtig": 0,
+        "gesamt_falsch": 0,
+        "letzte_wiederholung": null,
+        "naechste_wiederholung": null,
+        "letzte_antwort": null
+      },
+      "tags": [
+        "prüfung",
+        "stufe_1",
+        "grundlage",
+        "Integrierte_Fallstudie",
+        "1. Der Geschäftsbericht ist gedruckt und wurde an alle Empfänger",
+        "lerntauglich",
+        "plausible_distraktoren",
+        "vollpruefung_2026_07_23"
+      ],
+      "merksatz": "Zuerst müssen Sachverhalt und Wesentlichkeit geklärt werden. Danach folgen abgestimmte Korrektur, transparente Information und saubere Dokumentation.",
+      "erklaerung": "Zuerst müssen Sachverhalt und Wesentlichkeit geklärt werden. Danach folgen abgestimmte Korrektur, transparente Information und saubere Dokumentation.",
+      "abschlusserklaerung": "Zuerst müssen Sachverhalt und Wesentlichkeit geklärt werden. Danach folgen abgestimmte Korrektur, transparente Information und saubere Dokumentation."
+    },
+    {
+      "id": "pr2025_integrierte_fallstudie_1_2_thema_stufe3",
+      "jahr": 2025,
+      "fach": "Integrierte_Fallstudie",
+      "quelle_id": "2025:Integrierte_Fallstudie:1.2",
+      "quelle_pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Fehler im Geschäftsbericht lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche Massnahmen sind nach einem bestätigten wesentlichen Fehler im bereits versandten Geschäftsbericht sachgerecht?",
+      "antwort_daten": {
+        "optionen": [
+          "Korrektur und Auswirkungen nachvollziehbar dokumentieren.",
+          "Adressaten abgestimmt und transparent über die Berichtigung informieren.",
+          "Den gedruckten Bericht ohne Hinweis unverändert als richtig behandeln.",
+          "Belege nachträglich anpassen, damit sie zur veröffentlichten Zahl passen."
+        ],
+        "richtige_indices": [
+          0,
+          1
+        ]
+      },
+      "erklaerung": "Eine Berichtigung braucht eine dokumentierte fachliche Grundlage und eine abgestimmte Information der betroffenen Adressaten. Belege dürfen nicht manipuliert werden.",
+      "stufe": 3,
+      "tags": [
+        "prüfung",
+        "thema",
+        "fallback",
+        "Integrierte_Fallstudie",
+        "stufe_3",
+        "prüfungsnah",
+        "1. Der Geschäftsbericht ist gedruckt und wurde an alle Empfänger",
+        "stufe3",
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage",
+        "vollpruefung_2026_07_23"
+      ],
+      "thema_id": "fehler_im_geschaeftsbericht",
+      "thema": "Fehler im Geschäftsbericht",
+      "quelle": {
+        "typ": "pruefung",
+        "jahr": 2025,
+        "pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
+        "aufgabe": "2025:Integrierte_Fallstudie:1.2"
+      },
+      "begriff_erklaerung": {
+        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+      },
+      "loesungsvorschlag": {
+        "kurz": "Eine Berichtigung braucht eine dokumentierte fachliche Grundlage und eine abgestimmte Information der betroffenen Adressaten. Belege dürfen nicht manipuliert werden.",
+        "warum": "Eine Berichtigung braucht eine dokumentierte fachliche Grundlage und eine abgestimmte Information der betroffenen Adressaten. Belege dürfen nicht manipuliert werden."
+      },
+      "fehlerfallen": [],
+      "review": {
+        "box": 1,
+        "richtig_in_folge": 0,
+        "falsch_in_folge": 0,
+        "gesamt_richtig": 0,
+        "gesamt_falsch": 0,
+        "letzte_wiederholung": null,
+        "naechste_wiederholung": null,
+        "letzte_antwort": null
+      },
+      "merksatz": "Eine Berichtigung braucht eine dokumentierte fachliche Grundlage und eine abgestimmte Information der betroffenen Adressaten. Belege dürfen nicht manipuliert werden.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "Eine Berichtigung braucht eine dokumentierte fachliche Grundlage und eine abgestimmte Information der betroffenen Adressaten. Belege dürfen nicht manipuliert werden."
     },
     {
       "id": "integrierte_fallstudie_fuehrung_personal_stufe1_begriff",
@@ -915,12 +787,12 @@
       "frage": "Wie wird eine Führungs-/Personalfrage in der Integrierten Fallstudie sinnvoll beantwortet?",
       "antwort_daten": {
         "optionen": [
-          "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen.",
           "Indem man ein beliebiges Führungsmodell nennt, unabhängig von der Fallsituation.",
-          "Indem man nur die Meinung der Geschäftsleitung wiedergibt.",
+          "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen.",
+          "Indem man nur die Meinung der Geschäftsleitung wiedergibt. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt.",
           "Indem man das Thema Führung grundsätzlich auslässt, da es zu allgemein sei."
         ],
-        "richtig_index": 0
+        "richtig_index": 1
       },
       "loesungsvorschlag": {
         "kurz": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen.",
@@ -959,19 +831,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2022:Integrierte_Fallstudie:Teilaufgabe 1.1",
       "quelle_pdf": "2022/Aufgaben/DE_2022_Aufgaben_Integrierte_Fallstudie.pdf",
-      "lernziel": "Thema erkennen 2022 Integrierte_Fallstudie: 9 Punkte",
-      "typ": "single_choice",
-      "frage": "9 Punkte\n \n \nTeilaufgabe 1.1. \n \n9 Punkte \n \n \na) Berechnen Sie die Selbstkosten für das billigste Fahrrad in CHF. \n \n \nb) Berechnen Sie die Selbstkosten für das teuerste Fahrrad in CHF. \n \nBeurteilung \n \n \nIhre Leistung wird nach den folgenden Leitfragen bewertet: \n \n \n● \nSind die richtigen Positionen vollständig aufgeführt und korrekt aufaddiert? \n \n \n● \nSind die Fremdwährungen korrekt umgerechnet?\n\nWelches Thema wird hier primär geprüft?",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Führung / Personal lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche beiden Aussagen müssen bei „Führung / Personal“ beachtet werden?",
       "antwort_daten": {
         "optionen": [
-          "Rechnung ohne Einheiten/Rundung darstellen",
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken",
-          "Fallangaben ignorieren und Standardantwort geben",
-          "9 Punkte"
+          "Indem man nur die Meinung der Geschäftsleitung wiedergibt. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt.",
+          "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen.",
+          "Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste.",
+          "Indem man ein beliebiges Führungsmodell nennt, unabhängig von der Fallsituation."
         ],
-        "richtig_index": 3
+        "richtige_indices": [
+          1,
+          2
+        ]
       },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
+      "erklaerung": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen. Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -982,7 +857,8 @@
         "prüfungsnah",
         "Führung / Personal",
         "stufe3",
-        "lerntauglich"
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage"
       ],
       "thema_id": "fuehrung_personal",
       "thema": "Führung / Personal",
@@ -997,15 +873,10 @@
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig ist: 9 Punkte",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen. Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste.",
+        "warum": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen. Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste."
       },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
+      "fehlerfallen": [],
       "review": {
         "box": 1,
         "richtig_in_folge": 0,
@@ -1016,7 +887,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen. Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste."
     },
     {
       "id": "pr2022_integrierte_fallstudie_t5_1_thema_stufe3",
@@ -1024,19 +897,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2022:Integrierte_Fallstudie:Teilaufgabe 5.1",
       "quelle_pdf": "2022/Aufgaben/DE_2022_Aufgaben_Integrierte_Fallstudie.pdf",
-      "lernziel": "Thema erkennen 2022 Integrierte_Fallstudie: 9 Punkte",
-      "typ": "single_choice",
-      "frage": "9 Punkte\n \n \nTeilaufgabe 5.1. \n \n9 Punkte \n \nDie Suche nach Fach- und Führungskräften ist u.a. verknüpft mit einer längerfristigen Per-\nsonalplanungs- und -entwicklungsstrategie. \n \n \n \nZeigen Sie 3 Massnahmen auf, mit denen die Firma SPEED AG sich den Zugang zu jungen \nFachkräften verschaffen kann und begründen Sie diese. \n \nBeurteilung \n \n \nIhre Leistung wird nach den folgenden Leitfragen bewertet: \n \n \n● Handelt es sich um nachvollziehbar längerfristig ausgerichtete Massnahmen? …\n\nWelches Thema wird hier primär geprüft?",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Führung / Personal lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche beiden Aussagen müssen bei „Führung / Personal“ beachtet werden?",
       "antwort_daten": {
         "optionen": [
-          "Rechnung ohne Einheiten/Rundung darstellen",
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken",
-          "Fallangaben ignorieren und Standardantwort geben",
-          "9 Punkte"
+          "Indem man ein beliebiges Führungsmodell nennt, unabhängig von der Fallsituation.",
+          "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen.",
+          "Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste.",
+          "Indem man das Thema Führung grundsätzlich auslässt, da es zu allgemein sei."
         ],
-        "richtig_index": 3
+        "richtige_indices": [
+          1,
+          2
+        ]
       },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
+      "erklaerung": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen. Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -1047,7 +923,8 @@
         "prüfungsnah",
         "Führung / Personal",
         "stufe3",
-        "lerntauglich"
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage"
       ],
       "thema_id": "fuehrung_personal",
       "thema": "Führung / Personal",
@@ -1062,15 +939,10 @@
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig ist: 9 Punkte",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen. Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste.",
+        "warum": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen. Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste."
       },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
+      "fehlerfallen": [],
       "review": {
         "box": 1,
         "richtig_in_folge": 0,
@@ -1081,7 +953,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen. Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste."
     },
     {
       "id": "pr2025_integrierte_fallstudie_1_1_thema_stufe3_2",
@@ -1089,19 +963,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2025:Integrierte_Fallstudie:1.1",
       "quelle_pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
-      "lernziel": "Thema erkennen 2025 Integrierte_Fallstudie: 2. Unsere neue Organisation mit den schlankeren Strukturen gegen-",
-      "typ": "single_choice",
-      "frage": "2. Unsere neue Organisation mit den schlankeren Strukturen gegen-\nüber 2019 und davor funktioniert. Bis anhin waren keine merk-\nlichen organisatorischen Probleme sichtbar. Die Umfragen bei \nPersonal und Besuchern haben dieses Ergebnis bestätigt.\n\nWelches Thema wird hier primär geprüft?",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Führung / Personal lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche beiden Aussagen beschreiben „Führung / Personal“ fachlich korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken",
-          "Fallangaben ignorieren und Standardantwort geben",
-          "Rechnung ohne Einheiten/Rundung darstellen",
-          "2. Unsere neue Organisation mit den schlankeren Strukturen gegen-"
+          "Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste.",
+          "Indem man das Thema Führung grundsätzlich auslässt, da es zu allgemein sei.",
+          "Indem man ein beliebiges Führungsmodell nennt, unabhängig von der Fallsituation.",
+          "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen."
         ],
-        "richtig_index": 3
+        "richtige_indices": [
+          0,
+          3
+        ]
       },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
+      "erklaerung": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen. Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -1112,7 +989,8 @@
         "prüfungsnah",
         "Führung / Personal",
         "stufe3",
-        "lerntauglich"
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage"
       ],
       "thema_id": "fuehrung_personal",
       "thema": "Führung / Personal",
@@ -1127,15 +1005,10 @@
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig ist: 2. Unsere neue Organisation mit den schlankeren Strukturen gegen-",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen. Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste.",
+        "warum": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen. Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste."
       },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
+      "fehlerfallen": [],
       "review": {
         "box": 1,
         "richtig_in_folge": 0,
@@ -1146,7 +1019,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen. Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste."
     },
     {
       "id": "pr2025_integrierte_fallstudie_1_4_thema_stufe3",
@@ -1154,19 +1029,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2025:Integrierte_Fallstudie:1.4",
       "quelle_pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
-      "lernziel": "Thema erkennen 2025 Integrierte_Fallstudie: Personal",
-      "typ": "single_choice",
-      "frage": "Personal\n \nDie hohe Fluktuation wie auch die schwierigen Arbeitsbedingun-\ngen und damit die fehlende Motivation gewisser Mitarbeitender \nmachen uns als Arbeitgeber zu schaffen. Zu prüfen ist die Einfüh-\nrung eines motivationsfördernden Bonussystems. \n➔ Diskussion Vorteile und Grobkonzept \n \n \n \n \n \nalle\n\nWelches Thema wird hier primär geprüft?",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Führung / Personal lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche beiden Aussagen beschreiben „Führung / Personal“ fachlich korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Rechnung ohne Einheiten/Rundung darstellen",
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken",
-          "Fallangaben ignorieren und Standardantwort geben",
-          "Personal"
+          "Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste.",
+          "Indem man nur die Meinung der Geschäftsleitung wiedergibt. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt.",
+          "Indem man das Thema Führung grundsätzlich auslässt, da es zu allgemein sei.",
+          "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen."
         ],
-        "richtig_index": 3
+        "richtige_indices": [
+          0,
+          3
+        ]
       },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
+      "erklaerung": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen. Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -1177,7 +1055,8 @@
         "prüfungsnah",
         "Führung / Personal",
         "stufe3",
-        "lerntauglich"
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage"
       ],
       "thema_id": "fuehrung_personal",
       "thema": "Führung / Personal",
@@ -1192,15 +1071,10 @@
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig ist: Personal",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen. Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste.",
+        "warum": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen. Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste."
       },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
+      "fehlerfallen": [],
       "review": {
         "box": 1,
         "richtig_in_folge": 0,
@@ -1211,7 +1085,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen. Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste."
     },
     {
       "id": "pr2025_integrierte_fallstudie_1_5_thema_stufe3",
@@ -1219,19 +1095,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2025:Integrierte_Fallstudie:1.5",
       "quelle_pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
-      "lernziel": "Thema erkennen 2025 Integrierte_Fallstudie: 1. Regelmässig wird an mich herangetragen, dass die Wartung",
-      "typ": "single_choice",
-      "frage": "1. Regelmässig wird an mich herangetragen, dass die Wartung\nunorganisiert und teuer sei. Willkürliche Wartungsverträge \nmachen die Situation auch nicht einfacher. Reparaturen müs-\nsen im Eilverfahren durchgeführt werden, wenn Defekte an die \nWartungsabteilung gemeldet werden. Die Mitarbeitenden der \nWartungsabteilung machen auch den Eindruck, als ob sie \nmanchmal überlastet und dann wieder unterlastet sind. Ich sehe \neinen Grund vor allem im schnellen Wachstum und teilweise in \nden seit 01. …\n\nWelches Thema wird hier primär geprüft?",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Führung / Personal lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche zwei Grundsätze zu „Führung / Personal“ sind richtig?",
       "antwort_daten": {
         "optionen": [
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken",
-          "Fallangaben ignorieren und Standardantwort geben",
-          "Rechnung ohne Einheiten/Rundung darstellen",
-          "1. Regelmässig wird an mich herangetragen, dass die Wartung"
+          "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen.",
+          "Prüfungsnah ist, aus der Fallsituation (z.B. Konflikt, Überlastung, Fachkräftemangel) das passende Führungsinstrument abzuleiten und zu begründen.",
+          "Indem man ein beliebiges Führungsmodell nennt, unabhängig von der Fallsituation.",
+          "Indem man nur die Meinung der Geschäftsleitung wiedergibt. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt."
         ],
-        "richtig_index": 3
+        "richtige_indices": [
+          0,
+          1
+        ]
       },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
+      "erklaerung": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen. Prüfungsnah ist, aus der Fallsituation (z.B. Konflikt, Überlastung, Fachkräftemangel) das passende Führungsinstrument abzuleiten und zu begründen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -1242,7 +1121,8 @@
         "prüfungsnah",
         "Führung / Personal",
         "stufe3",
-        "lerntauglich"
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage"
       ],
       "thema_id": "fuehrung_personal",
       "thema": "Führung / Personal",
@@ -1257,15 +1137,10 @@
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig ist: 1. Regelmässig wird an mich herangetragen, dass die Wartung",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen. Prüfungsnah ist, aus der Fallsituation (z.B. Konflikt, Überlastung, Fachkräftemangel) das passende Führungsinstrument abzuleiten und zu begründen.",
+        "warum": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen. Prüfungsnah ist, aus der Fallsituation (z.B. Konflikt, Überlastung, Fachkräftemangel) das passende Führungsinstrument abzuleiten und zu begründen."
       },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
+      "fehlerfallen": [],
       "review": {
         "box": 1,
         "richtig_in_folge": 0,
@@ -1276,7 +1151,141 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen. Prüfungsnah ist, aus der Fallsituation (z.B. Konflikt, Überlastung, Fachkräftemangel) das passende Führungsinstrument abzuleiten und zu begründen."
+    },
+    {
+      "id": "integrierte_fallstudie_4_der_tierarzt_raet_dringend_alle_unseren_beherbergten_europaei_stufe1_begriff",
+      "fach": "Integrierte_Fallstudie",
+      "thema_id": "impfstoffbeschaffung_wildtiere",
+      "thema": "Impfstoffbeschaffung für Wildtiere",
+      "quelle": {
+        "typ": "abgeleitet_aus_pruefungen",
+        "jahre": [
+          2025
+        ],
+        "beispiele": [
+          {
+            "typ": "pruefung",
+            "jahr": 2025,
+            "pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
+            "aufgabe": "2025:Integrierte_Fallstudie:1.3"
+          }
+        ]
+      },
+      "stufe": 1,
+      "typ": "single_choice",
+      "lernziel": "Grundidee zu 4. Der Tierarzt rät dringend, alle unseren beherbergten Europäi- verstehen",
+      "begriff_erklaerung": {
+        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+      },
+      "frage": "Ein Tierarzt empfiehlt dringend einen nur im Ausland verfügbaren Impfstoff. Was ist vor der Bestellung zuerst abzuklären?",
+      "antwort_daten": {
+        "optionen": [
+          "Nur die Farbe der Verpackung. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt.",
+          "Ausschliesslich der Listenpreis ohne Transport- und Ausfallrisiko.",
+          "Die Bestellung ohne Mengenberechnung und ohne tierärztliche Vorgaben.",
+          "Bedarf und Dosierung sowie Zulassung, Lieferzeit, Kühlkette und Bezugsrisiken."
+        ],
+        "richtig_index": 3
+      },
+      "loesungsvorschlag": {
+        "kurz": "Bei kritischen Tierarzneimitteln müssen medizinischer Bedarf, rechtliche Zulässigkeit und sichere Beschaffung gemeinsam geprüft werden.",
+        "warum": "Bei kritischen Tierarzneimitteln müssen medizinischer Bedarf, rechtliche Zulässigkeit und sichere Beschaffung gemeinsam geprüft werden."
+      },
+      "fehlerfallen": [],
+      "review": {
+        "box": 1,
+        "richtig_in_folge": 0,
+        "falsch_in_folge": 0,
+        "gesamt_richtig": 0,
+        "gesamt_falsch": 0,
+        "letzte_wiederholung": null,
+        "naechste_wiederholung": null,
+        "letzte_antwort": null
+      },
+      "tags": [
+        "prüfung",
+        "stufe_1",
+        "grundlage",
+        "Integrierte_Fallstudie",
+        "4. Der Tierarzt rät dringend, alle unseren beherbergten Europäi-",
+        "lerntauglich",
+        "plausible_distraktoren",
+        "vollpruefung_2026_07_23"
+      ],
+      "merksatz": "Bei kritischen Tierarzneimitteln müssen medizinischer Bedarf, rechtliche Zulässigkeit und sichere Beschaffung gemeinsam geprüft werden.",
+      "erklaerung": "Bei kritischen Tierarzneimitteln müssen medizinischer Bedarf, rechtliche Zulässigkeit und sichere Beschaffung gemeinsam geprüft werden.",
+      "abschlusserklaerung": "Bei kritischen Tierarzneimitteln müssen medizinischer Bedarf, rechtliche Zulässigkeit und sichere Beschaffung gemeinsam geprüft werden."
+    },
+    {
+      "id": "pr2025_integrierte_fallstudie_1_3_thema_stufe3_4",
+      "jahr": 2025,
+      "fach": "Integrierte_Fallstudie",
+      "quelle_id": "2025:Integrierte_Fallstudie:1.3",
+      "quelle_pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Impfstoffbeschaffung für Wildtiere lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche zwei Risiken sind bei der internationalen Beschaffung eines temperaturempfindlichen Impfstoffs besonders zu steuern?",
+      "antwort_daten": {
+        "optionen": [
+          "Unterbruch der Kühlkette während Transport oder Lagerung.",
+          "Lieferverzug bei knappem Behandlungszeitfenster.",
+          "Zu viele frei wählbare Schriftarten auf der Rechnung.",
+          "Eine längere interne Artikelnummer ohne Einfluss auf das Produkt."
+        ],
+        "richtige_indices": [
+          0,
+          1
+        ]
+      },
+      "erklaerung": "Temperaturabweichungen können die Wirksamkeit gefährden; Verzögerungen können die rechtzeitige Behandlung verhindern.",
+      "stufe": 3,
+      "tags": [
+        "prüfung",
+        "thema",
+        "fallback",
+        "Integrierte_Fallstudie",
+        "stufe_3",
+        "prüfungsnah",
+        "4. Der Tierarzt rät dringend, alle unseren beherbergten Europäi-",
+        "stufe3",
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage",
+        "vollpruefung_2026_07_23"
+      ],
+      "thema_id": "impfstoffbeschaffung_wildtiere",
+      "thema": "Impfstoffbeschaffung für Wildtiere",
+      "quelle": {
+        "typ": "pruefung",
+        "jahr": 2025,
+        "pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
+        "aufgabe": "2025:Integrierte_Fallstudie:1.3"
+      },
+      "begriff_erklaerung": {
+        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+      },
+      "loesungsvorschlag": {
+        "kurz": "Temperaturabweichungen können die Wirksamkeit gefährden; Verzögerungen können die rechtzeitige Behandlung verhindern.",
+        "warum": "Temperaturabweichungen können die Wirksamkeit gefährden; Verzögerungen können die rechtzeitige Behandlung verhindern."
+      },
+      "fehlerfallen": [],
+      "review": {
+        "box": 1,
+        "richtig_in_folge": 0,
+        "falsch_in_folge": 0,
+        "gesamt_richtig": 0,
+        "gesamt_falsch": 0,
+        "letzte_wiederholung": null,
+        "naechste_wiederholung": null,
+        "letzte_antwort": null
+      },
+      "merksatz": "Temperaturabweichungen können die Wirksamkeit gefährden; Verzögerungen können die rechtzeitige Behandlung verhindern.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "Temperaturabweichungen können die Wirksamkeit gefährden; Verzögerungen können die rechtzeitige Behandlung verhindern."
     },
     {
       "id": "integrierte_fallstudie_lager_lagerkennzahlen_stufe1_begriff",
@@ -1314,12 +1323,12 @@
       "frage": "Was zeigt der Lagerumschlag als Kennzahl in der Fallstudie an?",
       "antwort_daten": {
         "optionen": [
-          "Der Lagerumschlag zeigt, wie oft der Lagerbestand pro Periode umgesetzt wird: Lagerumschlag = Verbrauch (Periode) / Durchschnittlicher Lagerbestand.",
           "Ausschliesslich die Anzahl der Lagermitarbeitenden.",
           "Den Lagerumschlag gibt es nur für Handelsunternehmen, nie für Dienstleister.",
-          "Der Lagerumschlag ist unabhängig vom Verbrauch und vom Bestand."
+          "Der Lagerumschlag zeigt, wie oft der Lagerbestand pro Periode umgesetzt wird: Lagerumschlag = Verbrauch (Periode) / Durchschnittlicher Lagerbestand.",
+          "Der Lagerumschlag ist unabhängig vom Verbrauch und vom Bestand. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt."
         ],
-        "richtig_index": 0
+        "richtig_index": 2
       },
       "loesungsvorschlag": {
         "kurz": "Der Lagerumschlag zeigt, wie oft der Lagerbestand pro Periode umgesetzt wird: Lagerumschlag = Verbrauch (Periode) / Durchschnittlicher Lagerbestand.",
@@ -1388,12 +1397,12 @@
       "frage": "Wie berechnet sich der Lagerumschlag?",
       "antwort_daten": {
         "optionen": [
-          "Lagerumschlag = Verbrauch (Periode) / durchschnittlicher Lagerbestand.",
-          "Lagerumschlag = durchschnittlicher Lagerbestand / Verbrauch (Periode).",
+          "Lagerumschlag = durchschnittlicher Lagerbestand / Verbrauch (Periode). Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt.",
           "Lagerumschlag = Lagerbestand × 360 Tage.",
-          "Lagerumschlag = Einkaufspreis / Verkaufspreis."
+          "Lagerumschlag = Einkaufspreis / Verkaufspreis.",
+          "Lagerumschlag = Verbrauch (Periode) / durchschnittlicher Lagerbestand."
         ],
-        "richtig_index": 0
+        "richtig_index": 3
       },
       "loesungsvorschlag": {
         "kurz": "Lagerumschlag = Verbrauch (Periode) / durchschnittlicher Lagerbestand.",
@@ -1508,19 +1517,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2023:Integrierte_Fallstudie:Teilaufgabe 1.1",
       "quelle_pdf": "2023/Aufgaben/DE_2023_Aufgaben_IntegrierteFallstudie.pdf",
-      "lernziel": "Thema erkennen 2023 Integrierte_Fallstudie: 6 Punkte",
-      "typ": "single_choice",
-      "frage": "6 Punkte\n \n \nTeilaufgabe 1.1. \n \n6 Punkte \n \n \na) Berechnen Sie nachvollziehbar mittels der geeigneten Formel die Lagerreichweite des \nneuen Reinigungsmittels in Tagen bei vollem Lager von 5 Paletten (Pufferplatz nicht \nberücksichtigt). \n \n \nb) Wie viele Tage reicht der Sicherheitsbestand des neuen Reinigungsmittels? Berechnen \nSie nachvollziehbar mittels der geeigneten Formel. \n \n \nBeurteilung \n \n \nIhre Leistung wird nach den folgenden Leitfragen bewertet: …\n\nWelches Thema wird hier primär geprüft?",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Lager / Lagerkennzahlen lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche zwei Aussagen erklären „Lager / Lagerkennzahlen“ fachlich richtig?",
       "antwort_daten": {
         "optionen": [
-          "Fallangaben ignorieren und Standardantwort geben",
-          "Rechnung ohne Einheiten/Rundung darstellen",
-          "6 Punkte",
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken"
+          "Den Lagerumschlag gibt es nur für Handelsunternehmen, nie für Dienstleister.",
+          "Der Lagerumschlag ist unabhängig vom Verbrauch und vom Bestand. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt.",
+          "Der Lagerumschlag zeigt, wie oft der Lagerbestand pro Periode umgesetzt wird: Lagerumschlag = Verbrauch (Periode) / Durchschnittlicher Lagerbestand.",
+          "Prüfungsnah ist, aus im Fall gegebenen Zahlen (Verbrauch, Bestand) den Lagerumschlag oder die Lagerdauer korrekt zu berechnen und zu interpretieren."
         ],
-        "richtig_index": 2
+        "richtige_indices": [
+          2,
+          3
+        ]
       },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
+      "erklaerung": "Der Lagerumschlag zeigt, wie oft der Lagerbestand pro Periode umgesetzt wird: Lagerumschlag = Verbrauch (Periode) / Durchschnittlicher Lagerbestand. Prüfungsnah ist, aus im Fall gegebenen Zahlen (Verbrauch, Bestand) den Lagerumschlag oder die Lagerdauer korrekt zu berechnen und zu interpretieren.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -1531,7 +1543,8 @@
         "prüfungsnah",
         "Lager / Lagerkennzahlen",
         "stufe3",
-        "lerntauglich"
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage"
       ],
       "thema_id": "lager_lagerkennzahlen",
       "thema": "Lager / Lagerkennzahlen",
@@ -1546,15 +1559,10 @@
         "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig ist: 6 Punkte",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Achte auf Bezugsgrössen: Eigenkapital, Gesamtkapital, Umsatz, Gewinn, Aufwand/Ertrag und Zahlung sind nicht austauschbar."
+        "kurz": "Der Lagerumschlag zeigt, wie oft der Lagerbestand pro Periode umgesetzt wird: Lagerumschlag = Verbrauch (Periode) / Durchschnittlicher Lagerbestand. Prüfungsnah ist, aus im Fall gegebenen Zahlen (Verbrauch, Bestand) den Lagerumschlag oder die Lagerdauer korrekt zu berechnen und zu interpretieren.",
+        "warum": "Der Lagerumschlag zeigt, wie oft der Lagerbestand pro Periode umgesetzt wird: Lagerumschlag = Verbrauch (Periode) / Durchschnittlicher Lagerbestand. Prüfungsnah ist, aus im Fall gegebenen Zahlen (Verbrauch, Bestand) den Lagerumschlag oder die Lagerdauer korrekt zu berechnen und zu interpretieren."
       },
-      "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
-      ],
+      "fehlerfallen": [],
       "review": {
         "box": 1,
         "richtig_in_folge": 0,
@@ -1565,7 +1573,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Ein hoher Lagerumschlag bedeutet wenig gebundenes Kapital - aber nur, wenn die Lieferfähigkeit im Fall nicht leidet.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "Der Lagerumschlag zeigt, wie oft der Lagerbestand pro Periode umgesetzt wird: Lagerumschlag = Verbrauch (Periode) / Durchschnittlicher Lagerbestand. Prüfungsnah ist, aus im Fall gegebenen Zahlen (Verbrauch, Bestand) den Lagerumschlag oder die Lagerdauer korrekt zu berechnen und zu interpretieren."
     },
     {
       "id": "pr2025_integrierte_fallstudie_2_5_thema_stufe3",
@@ -1573,19 +1583,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2025:Integrierte_Fallstudie:2.5",
       "quelle_pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
-      "lernziel": "Thema erkennen 2025 Integrierte_Fallstudie: Projekt Lagererweiterung (siehe 1.3.2.)",
-      "typ": "single_choice",
-      "frage": "Projekt Lagererweiterung (siehe 1.3.2.)\n \n \n \n \n \n \n \n \n \n \n \n \n \n\n \nIntegrierte Fallstudie \n \n8 /19 \n \n \n \n \n3. \nVaria\n\nWelches Thema wird hier primär geprüft?",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Lager / Lagerkennzahlen lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche beiden Aussagen müssen bei „Lager / Lagerkennzahlen“ beachtet werden?",
       "antwort_daten": {
         "optionen": [
-          "Projekt Lagererweiterung (siehe 1.3.2.)",
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken",
-          "Fallangaben ignorieren und Standardantwort geben",
-          "Rechnung ohne Einheiten/Rundung darstellen"
+          "Ausschliesslich die Anzahl der Lagermitarbeitenden.",
+          "Der Lagerumschlag zeigt, wie oft der Lagerbestand pro Periode umgesetzt wird: Lagerumschlag = Verbrauch (Periode) / Durchschnittlicher Lagerbestand.",
+          "Ein hoher Lagerumschlag bedeutet wenig gebundenes Kapital - aber nur, wenn die Lieferfähigkeit im Fall nicht leidet.",
+          "Der Lagerumschlag ist unabhängig vom Verbrauch und vom Bestand. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt."
         ],
-        "richtig_index": 0
+        "richtige_indices": [
+          1,
+          2
+        ]
       },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
+      "erklaerung": "Der Lagerumschlag zeigt, wie oft der Lagerbestand pro Periode umgesetzt wird: Lagerumschlag = Verbrauch (Periode) / Durchschnittlicher Lagerbestand. Ein hoher Lagerumschlag bedeutet wenig gebundenes Kapital - aber nur, wenn die Lieferfähigkeit im Fall nicht leidet.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -1596,7 +1609,8 @@
         "prüfungsnah",
         "Lager / Lagerkennzahlen",
         "stufe3",
-        "lerntauglich"
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage"
       ],
       "thema_id": "lager_lagerkennzahlen",
       "thema": "Lager / Lagerkennzahlen",
@@ -1611,15 +1625,10 @@
         "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig ist: Projekt Lagererweiterung (siehe 1.3.2.)",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Achte auf Bezugsgrössen: Eigenkapital, Gesamtkapital, Umsatz, Gewinn, Aufwand/Ertrag und Zahlung sind nicht austauschbar."
+        "kurz": "Der Lagerumschlag zeigt, wie oft der Lagerbestand pro Periode umgesetzt wird: Lagerumschlag = Verbrauch (Periode) / Durchschnittlicher Lagerbestand. Ein hoher Lagerumschlag bedeutet wenig gebundenes Kapital - aber nur, wenn die Lieferfähigkeit im Fall nicht leidet.",
+        "warum": "Der Lagerumschlag zeigt, wie oft der Lagerbestand pro Periode umgesetzt wird: Lagerumschlag = Verbrauch (Periode) / Durchschnittlicher Lagerbestand. Ein hoher Lagerumschlag bedeutet wenig gebundenes Kapital - aber nur, wenn die Lieferfähigkeit im Fall nicht leidet."
       },
-      "fehlerfallen": [
-        "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
-        "Lieferfähigkeit, Qualität und Risiko ausblenden.",
-        "Lagerkosten und Kapitalbindung unterschätzen."
-      ],
+      "fehlerfallen": [],
       "review": {
         "box": 1,
         "richtig_in_folge": 0,
@@ -1630,7 +1639,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Beschaffung ist nicht billig kaufen, sondern sicher und wirtschaftlich versorgen."
+      "merksatz": "Ein hoher Lagerumschlag bedeutet wenig gebundenes Kapital - aber nur, wenn die Lieferfähigkeit im Fall nicht leidet.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "Der Lagerumschlag zeigt, wie oft der Lagerbestand pro Periode umgesetzt wird: Lagerumschlag = Verbrauch (Periode) / Durchschnittlicher Lagerbestand. Ein hoher Lagerumschlag bedeutet wenig gebundenes Kapital - aber nur, wenn die Lieferfähigkeit im Fall nicht leidet."
     },
     {
       "id": "integrierte_fallstudie_liquiditaet_mittelfluss_stufe1_begriff",
@@ -1665,26 +1676,21 @@
         "kurz": "Liquidität zeigt, ob kurzfristige Zahlungsverpflichtungen rechtzeitig bezahlt werden können.",
         "pruefungsrelevant": "Wichtig ist die Trennung von liquiditätswirksamen Zahlungen und rein buchhalterischen Erfolgswirkungen."
       },
-      "frage": "Welche Aussage beschreibt das Thema „Liquidität / Mittelfluss“ fachlich am besten?",
+      "frage": "Eine Unternehmung erzielt Buchgewinn, kann aber eine heute fällige Lieferantenrechnung nicht bezahlen. Welche Aussage trifft zu?",
       "antwort_daten": {
         "optionen": [
-          "Kauf gegen Rechnung ist sofort eine Auszahlung.",
-          "Abschreibungen sind immer ein direkter Mittelabfluss.",
-          "Gewinn und Liquidität sind dasselbe.",
-          "Liquiditätswirksam sind Vorgänge mit Ein- oder Auszahlung; Abschreibungen verändern den Geldbestand nicht direkt."
+          "Ein ausgewiesener Gewinn garantiert jederzeit genügend Zahlungsmittel.",
+          "Sie ist trotz Gewinn nicht ausreichend liquide.",
+          "Die offene Rechnung ist bereits bezahlt, weil sie als Aufwand verbucht wurde.",
+          "Liquidität und Gewinn bezeichnen immer denselben Wert."
         ],
-        "richtig_index": 3
+        "richtig_index": 1
       },
       "loesungsvorschlag": {
-        "kurz": "Liquiditätswirksam sind Vorgänge mit Ein- oder Auszahlung; Abschreibungen verändern den Geldbestand nicht direkt.",
-        "rechenweg": "Die richtige Antwort enthält den zentralen Fachgedanken. Die falschen Optionen sind typische, aber fachlich falsche Vereinfachungen oder Verwechslungen.",
-        "warum": "Wichtig ist die Trennung von liquiditätswirksamen Zahlungen und rein buchhalterischen Erfolgswirkungen."
+        "kurz": "Gewinn misst den periodischen Erfolg, Liquidität die Zahlungsfähigkeit. Nicht zahlungswirksame Erträge oder gebundene Mittel können zu Gewinn bei fehlendem Geld führen.",
+        "warum": "Gewinn misst den periodischen Erfolg, Liquidität die Zahlungsfähigkeit. Nicht zahlungswirksame Erträge oder gebundene Mittel können zu Gewinn bei fehlendem Geld führen."
       },
-      "fehlerfallen": [
-        "Erfolg und Geldfluss verwechseln.",
-        "Zahlungszeitpunkt überlesen.",
-        "Forderungen/Vorräte beim falschen Liquiditätsgrad einrechnen."
-      ],
+      "fehlerfallen": [],
       "review": {
         "box": 1,
         "richtig_in_folge": 0,
@@ -1702,9 +1708,12 @@
         "Integrierte_Fallstudie",
         "Liquidität / Mittelfluss",
         "lerntauglich",
-        "plausible_distraktoren"
+        "plausible_distraktoren",
+        "vollpruefung_2026_07_23"
       ],
-      "merksatz": "Gewinn ist Buchhaltung; Liquidität ist Geldbewegung."
+      "merksatz": "Gewinn misst den periodischen Erfolg, Liquidität die Zahlungsfähigkeit. Nicht zahlungswirksame Erträge oder gebundene Mittel können zu Gewinn bei fehlendem Geld führen.",
+      "erklaerung": "Gewinn misst den periodischen Erfolg, Liquidität die Zahlungsfähigkeit. Nicht zahlungswirksame Erträge oder gebundene Mittel können zu Gewinn bei fehlendem Geld führen.",
+      "abschlusserklaerung": "Gewinn misst den periodischen Erfolg, Liquidität die Zahlungsfähigkeit. Nicht zahlungswirksame Erträge oder gebundene Mittel können zu Gewinn bei fehlendem Geld führen."
     },
     {
       "id": "pr2022_integrierte_fallstudie_t6_1_thema_stufe3",
@@ -1712,19 +1721,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2022:Integrierte_Fallstudie:Teilaufgabe 6.1",
       "quelle_pdf": "2022/Aufgaben/DE_2022_Aufgaben_Integrierte_Fallstudie.pdf",
-      "lernziel": "Thema erkennen 2022 Integrierte_Fallstudie: 12 Punkte",
-      "typ": "single_choice",
-      "frage": "12 Punkte\n \n \nTeilaufgabe 6.1. \n \n12 Punkte \n \nErstellen Sie die Liquiditätsplanung ab Gründung im März 2022 bis Dezember 2022 und \nzeigen Sie auf, ab welchem Monat zusätzliche liquide Mittel benötigt wurden/werden. \n \nBeurteilung \n \n \nIhre Leistung wird nach den folgenden Leitfragen bewertet: \n \n \n● Sind die Erträge und Aufwände korrekt berechnet? \n \n \n● Ist die Liquiditätsplanung korrekt? \n \n \n● Ist der korrekte Monat benannt, ab wann zusätzliche liquide Mittel benötigt wurden/werden?\n\nWelches Thema wird hier primär geprüft?",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Liquidität / Mittelfluss lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche zwei Grundsätze zu „Liquidität / Mittelfluss“ sind richtig?",
       "antwort_daten": {
         "optionen": [
-          "12 Punkte",
-          "Fallangaben ignorieren und Standardantwort geben",
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken",
-          "Rechnung ohne Einheiten/Rundung darstellen"
+          "Sie ist trotz Gewinn nicht ausreichend liquide.",
+          "Wichtig ist die Trennung von liquiditätswirksamen Zahlungen und rein buchhalterischen Erfolgswirkungen.",
+          "Liquidität und Gewinn bezeichnen immer denselben Wert.",
+          "Ein ausgewiesener Gewinn garantiert jederzeit genügend Zahlungsmittel."
         ],
-        "richtig_index": 0
+        "richtige_indices": [
+          0,
+          1
+        ]
       },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
+      "erklaerung": "Sie ist trotz Gewinn nicht ausreichend liquide. Wichtig ist die Trennung von liquiditätswirksamen Zahlungen und rein buchhalterischen Erfolgswirkungen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -1735,7 +1747,8 @@
         "prüfungsnah",
         "Liquidität / Mittelfluss",
         "stufe3",
-        "lerntauglich"
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage"
       ],
       "thema_id": "liquiditaet_mittelfluss",
       "thema": "Liquidität / Mittelfluss",
@@ -1750,15 +1763,10 @@
         "pruefungsrelevant": "Wichtig ist die Trennung von liquiditätswirksamen Zahlungen und rein buchhalterischen Erfolgswirkungen."
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig ist: 12 Punkte",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Prüfungsnah ist die Unterscheidung zwischen liquiditätswirksamem Geldfluss und rein erfolgswirksamer Buchung."
+        "kurz": "Sie ist trotz Gewinn nicht ausreichend liquide. Wichtig ist die Trennung von liquiditätswirksamen Zahlungen und rein buchhalterischen Erfolgswirkungen.",
+        "warum": "Sie ist trotz Gewinn nicht ausreichend liquide. Wichtig ist die Trennung von liquiditätswirksamen Zahlungen und rein buchhalterischen Erfolgswirkungen."
       },
-      "fehlerfallen": [
-        "Erfolg und Geldfluss verwechseln.",
-        "Zahlungszeitpunkt überlesen.",
-        "Forderungen/Vorräte beim falschen Liquiditätsgrad einrechnen."
-      ],
+      "fehlerfallen": [],
       "review": {
         "box": 1,
         "richtig_in_folge": 0,
@@ -1769,7 +1777,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Gewinn ist Buchhaltung; Liquidität ist Geldbewegung."
+      "merksatz": "Gewinn misst den periodischen Erfolg, Liquidität die Zahlungsfähigkeit. Nicht zahlungswirksame Erträge oder gebundene Mittel können zu Gewinn bei fehlendem Geld führen.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "Sie ist trotz Gewinn nicht ausreichend liquide. Wichtig ist die Trennung von liquiditätswirksamen Zahlungen und rein buchhalterischen Erfolgswirkungen."
     },
     {
       "id": "pr2025_integrierte_fallstudie_2_4_thema_stufe3",
@@ -1777,19 +1787,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2025:Integrierte_Fallstudie:2.4",
       "quelle_pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
-      "lernziel": "Thema erkennen 2025 Integrierte_Fallstudie: Projekt Sponsoring",
-      "typ": "single_choice",
-      "frage": "Projekt Sponsoring\nDie Einnahmen (siehe Beilage 6 – Auflistung der Websites der \nPartner und Gönner) mit Sponsoring haben sich bis dato durch \nGönner und Partner des Zoos rein zufällig ergeben. Wenn mit \nPartnern und Gönnern ein Sponsoring vereinbart wurde, er-\nfolgte lediglich eine Erwähnung auf der Website und der Spon-\nsoringnehmer bezahlte den abgemachten Sponsoringbetrag \nmit dem Einzahlungsschein ein. \nDie Herausforderung in den letzten Jahren lag darin, dass die …\n\nWelches Thema wird hier primär geprüft?",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Liquidität / Mittelfluss lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche zwei Aussagen erklären „Liquidität / Mittelfluss“ fachlich richtig?",
       "antwort_daten": {
         "optionen": [
-          "Fallangaben ignorieren und Standardantwort geben",
-          "Projekt Sponsoring",
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken",
-          "Rechnung ohne Einheiten/Rundung darstellen"
+          "Die offene Rechnung ist bereits bezahlt, weil sie als Aufwand verbucht wurde.",
+          "Liquidität und Gewinn bezeichnen immer denselben Wert.",
+          "Sie ist trotz Gewinn nicht ausreichend liquide.",
+          "Wichtig ist die Trennung von liquiditätswirksamen Zahlungen und rein buchhalterischen Erfolgswirkungen."
         ],
-        "richtig_index": 1
+        "richtige_indices": [
+          2,
+          3
+        ]
       },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
+      "erklaerung": "Sie ist trotz Gewinn nicht ausreichend liquide. Wichtig ist die Trennung von liquiditätswirksamen Zahlungen und rein buchhalterischen Erfolgswirkungen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -1800,7 +1813,8 @@
         "prüfungsnah",
         "Liquidität / Mittelfluss",
         "stufe3",
-        "lerntauglich"
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage"
       ],
       "thema_id": "liquiditaet_mittelfluss",
       "thema": "Liquidität / Mittelfluss",
@@ -1815,15 +1829,10 @@
         "pruefungsrelevant": "Wichtig ist die Trennung von liquiditätswirksamen Zahlungen und rein buchhalterischen Erfolgswirkungen."
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig ist: Projekt Sponsoring",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Prüfungsnah ist die Unterscheidung zwischen liquiditätswirksamem Geldfluss und rein erfolgswirksamer Buchung."
+        "kurz": "Sie ist trotz Gewinn nicht ausreichend liquide. Wichtig ist die Trennung von liquiditätswirksamen Zahlungen und rein buchhalterischen Erfolgswirkungen.",
+        "warum": "Sie ist trotz Gewinn nicht ausreichend liquide. Wichtig ist die Trennung von liquiditätswirksamen Zahlungen und rein buchhalterischen Erfolgswirkungen."
       },
-      "fehlerfallen": [
-        "Erfolg und Geldfluss verwechseln.",
-        "Zahlungszeitpunkt überlesen.",
-        "Forderungen/Vorräte beim falschen Liquiditätsgrad einrechnen."
-      ],
+      "fehlerfallen": [],
       "review": {
         "box": 1,
         "richtig_in_folge": 0,
@@ -1834,7 +1843,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Gewinn ist Buchhaltung; Liquidität ist Geldbewegung."
+      "merksatz": "Gewinn misst den periodischen Erfolg, Liquidität die Zahlungsfähigkeit. Nicht zahlungswirksame Erträge oder gebundene Mittel können zu Gewinn bei fehlendem Geld führen.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "Sie ist trotz Gewinn nicht ausreichend liquide. Wichtig ist die Trennung von liquiditätswirksamen Zahlungen und rein buchhalterischen Erfolgswirkungen."
     },
     {
       "id": "integrierte_fallstudie_marketing_verkauf_stufe1_begriff",
@@ -1878,12 +1889,12 @@
       "frage": "Wie wird eine Marketing-/Verkaufsfrage in der Integrierten Fallstudie fachlich korrekt gelöst?",
       "antwort_daten": {
         "optionen": [
-          "Marketingfragen in der Fallstudie verlangen, ein Marketinginstrument (Produkt, Preis, Kommunikation, Distribution) auf die im Fall genannte Zielgruppe und Situation anzuwenden.",
           "Indem man alle Marketinginstrumente auswendig aufzählt, ohne Fallbezug.",
           "Indem man nur den Preis senkt, unabhängig von den Fallangaben.",
-          "Indem man die Zielgruppe aus dem Fall ignoriert und allgemein antwortet."
+          "Marketingfragen in der Fallstudie verlangen, ein Marketinginstrument (Produkt, Preis, Kommunikation, Distribution) auf die im Fall genannte Zielgruppe und Situation anzuwenden.",
+          "Indem man die Zielgruppe aus dem Fall ignoriert und allgemein antwortet. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt."
         ],
-        "richtig_index": 0
+        "richtig_index": 2
       },
       "loesungsvorschlag": {
         "kurz": "Marketingfragen in der Fallstudie verlangen, ein Marketinginstrument (Produkt, Preis, Kommunikation, Distribution) auf die im Fall genannte Zielgruppe und Situation anzuwenden.",
@@ -1922,19 +1933,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2022:Integrierte_Fallstudie:Teilaufgabe 2.1",
       "quelle_pdf": "2022/Aufgaben/DE_2022_Aufgaben_Integrierte_Fallstudie.pdf",
-      "lernziel": "Thema erkennen 2022 Integrierte_Fallstudie: 9 Punkte",
-      "typ": "single_choice",
-      "frage": "9 Punkte\n \nTeilaufgabe 2.1. \n \n9 Punkte \n \nZeichnen Sie mittels eines Blockschemas den Materialfluss der verschiedenen Komponenten \naus dem Baukastenprogramm des teuersten Fahrrades (über alle Stufen der Supply Chain \ngemäss Fallstudie) bis hin zu den Kunden auf. Zeichnen Sie dieses Schema im Querformat. \nLinks sollen dabei als erster Schritt die einzelnen Komponenten des Fahrrades dargestellt \nwerden. Markieren Sie mit Pfeilen die Materialflüsse. \n \nBeurteilung …\n\nWelches Thema wird hier primär geprüft?",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Marketing / Verkauf lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche zwei Grundsätze zu „Marketing / Verkauf“ sind richtig?",
       "antwort_daten": {
         "optionen": [
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken",
-          "Rechnung ohne Einheiten/Rundung darstellen",
-          "Fallangaben ignorieren und Standardantwort geben",
-          "9 Punkte"
+          "Marketingfragen in der Fallstudie verlangen, ein Marketinginstrument (Produkt, Preis, Kommunikation, Distribution) auf die im Fall genannte Zielgruppe und Situation anzuwenden.",
+          "Prüfungsnah ist, aus Fallangaben zu Kundschaft, Konkurrenz oder Absatzproblemen die passende Marketingmassnahme abzuleiten und zu begründen.",
+          "Indem man nur den Preis senkt, unabhängig von den Fallangaben.",
+          "Indem man die Zielgruppe aus dem Fall ignoriert und allgemein antwortet. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt."
         ],
-        "richtig_index": 3
+        "richtige_indices": [
+          0,
+          1
+        ]
       },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
+      "erklaerung": "Marketingfragen in der Fallstudie verlangen, ein Marketinginstrument (Produkt, Preis, Kommunikation, Distribution) auf die im Fall genannte Zielgruppe und Situation anzuwenden. Prüfungsnah ist, aus Fallangaben zu Kundschaft, Konkurrenz oder Absatzproblemen die passende Marketingmassnahme abzuleiten und zu begründen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -1945,7 +1959,8 @@
         "prüfungsnah",
         "Marketing / Verkauf",
         "stufe3",
-        "lerntauglich"
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage"
       ],
       "thema_id": "marketing_verkauf",
       "thema": "Marketing / Verkauf",
@@ -1960,15 +1975,10 @@
         "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig ist: 9 Punkte",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Marketingfragen in der Fallstudie verlangen, ein Marketinginstrument (Produkt, Preis, Kommunikation, Distribution) auf die im Fall genannte Zielgruppe und Situation anzuwenden. Prüfungsnah ist, aus Fallangaben zu Kundschaft, Konkurrenz oder Absatzproblemen die passende Marketingmassnahme abzuleiten und zu begründen.",
+        "warum": "Marketingfragen in der Fallstudie verlangen, ein Marketinginstrument (Produkt, Preis, Kommunikation, Distribution) auf die im Fall genannte Zielgruppe und Situation anzuwenden. Prüfungsnah ist, aus Fallangaben zu Kundschaft, Konkurrenz oder Absatzproblemen die passende Marketingmassnahme abzuleiten und zu begründen."
       },
-      "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
-      ],
+      "fehlerfallen": [],
       "review": {
         "box": 1,
         "richtig_in_folge": 0,
@@ -1979,7 +1989,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Ein Marketingmix ist nur so gut wie sein Bezug zur konkreten Fallsituation.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "Marketingfragen in der Fallstudie verlangen, ein Marketinginstrument (Produkt, Preis, Kommunikation, Distribution) auf die im Fall genannte Zielgruppe und Situation anzuwenden. Prüfungsnah ist, aus Fallangaben zu Kundschaft, Konkurrenz oder Absatzproblemen die passende Marketingmassnahme abzuleiten und zu begründen."
     },
     {
       "id": "pr2025_integrierte_fallstudie_1_2_thema_stufe3_3",
@@ -1987,19 +1999,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2025:Integrierte_Fallstudie:1.2",
       "quelle_pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
-      "lernziel": "Thema erkennen 2025 Integrierte_Fallstudie: 3.",
-      "typ": "single_choice",
-      "frage": "3.\nFactsheet in Beilage 3 zeigt die Entwicklung der Preisstrukturen \nwie in der letzten Sitzung informiert. \n➔ Zur Information \n \n \nalle \n \n \n \n \n \n \n \n\n \nIntegrierte Fallstudie \n \n6 /19\n\nWelches Thema wird hier primär geprüft?",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Marketing / Verkauf lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche beiden Aussagen beschreiben „Marketing / Verkauf“ fachlich korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Fallangaben ignorieren und Standardantwort geben",
-          "Rechnung ohne Einheiten/Rundung darstellen",
-          "3.",
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken"
+          "Ein Marketingmix ist nur so gut wie sein Bezug zur konkreten Fallsituation.",
+          "Indem man die Zielgruppe aus dem Fall ignoriert und allgemein antwortet. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt.",
+          "Indem man alle Marketinginstrumente auswendig aufzählt, ohne Fallbezug.",
+          "Marketingfragen in der Fallstudie verlangen, ein Marketinginstrument (Produkt, Preis, Kommunikation, Distribution) auf die im Fall genannte Zielgruppe und Situation anzuwenden."
         ],
-        "richtig_index": 2
+        "richtige_indices": [
+          0,
+          3
+        ]
       },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
+      "erklaerung": "Marketingfragen in der Fallstudie verlangen, ein Marketinginstrument (Produkt, Preis, Kommunikation, Distribution) auf die im Fall genannte Zielgruppe und Situation anzuwenden. Ein Marketingmix ist nur so gut wie sein Bezug zur konkreten Fallsituation.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -2010,7 +2025,8 @@
         "prüfungsnah",
         "Marketing / Verkauf",
         "stufe3",
-        "lerntauglich"
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage"
       ],
       "thema_id": "marketing_verkauf",
       "thema": "Marketing / Verkauf",
@@ -2025,15 +2041,10 @@
         "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig ist: 3.",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Marketingfragen in der Fallstudie verlangen, ein Marketinginstrument (Produkt, Preis, Kommunikation, Distribution) auf die im Fall genannte Zielgruppe und Situation anzuwenden. Ein Marketingmix ist nur so gut wie sein Bezug zur konkreten Fallsituation.",
+        "warum": "Marketingfragen in der Fallstudie verlangen, ein Marketinginstrument (Produkt, Preis, Kommunikation, Distribution) auf die im Fall genannte Zielgruppe und Situation anzuwenden. Ein Marketingmix ist nur so gut wie sein Bezug zur konkreten Fallsituation."
       },
-      "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
-      ],
+      "fehlerfallen": [],
       "review": {
         "box": 1,
         "richtig_in_folge": 0,
@@ -2044,7 +2055,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Ein Marketingmix ist nur so gut wie sein Bezug zur konkreten Fallsituation.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "Marketingfragen in der Fallstudie verlangen, ein Marketinginstrument (Produkt, Preis, Kommunikation, Distribution) auf die im Fall genannte Zielgruppe und Situation anzuwenden. Ein Marketingmix ist nur so gut wie sein Bezug zur konkreten Fallsituation."
     },
     {
       "id": "pr2025_integrierte_fallstudie_2_3_thema_stufe3",
@@ -2052,19 +2065,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2025:Integrierte_Fallstudie:2.3",
       "quelle_pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
-      "lernziel": "Thema erkennen 2025 Integrierte_Fallstudie: Marketing und Kommunikation",
-      "typ": "single_choice",
-      "frage": "Marketing und Kommunikation\nIm Bereich Marketing und Kommunikation werden die Kom-\nmunikationsmittel wie Pressemitteilungen, Plakate, Inserate, \nDirect Mailings, Flyer und die sozialen Medien systematischer \nund vermehrt eingesetzt. Die Website wurde einem modernen \nRebranding unterzogen und entspricht den modernsten On-\nline-Marketing-Anforderungen. Der Eventbereich lancierte erste \nEventgefässe wie zum Beispiel Tierfütterungen, Workshops oder \nJubiläumsveranstaltungen. …\n\nWelches Thema wird hier primär geprüft?",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Marketing / Verkauf lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche beiden Aussagen beschreiben „Marketing / Verkauf“ fachlich korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Fallangaben ignorieren und Standardantwort geben",
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken",
-          "Rechnung ohne Einheiten/Rundung darstellen",
-          "Marketing und Kommunikation"
+          "Ein Marketingmix ist nur so gut wie sein Bezug zur konkreten Fallsituation.",
+          "Indem man nur den Preis senkt, unabhängig von den Fallangaben.",
+          "Indem man die Zielgruppe aus dem Fall ignoriert und allgemein antwortet. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt.",
+          "Marketingfragen in der Fallstudie verlangen, ein Marketinginstrument (Produkt, Preis, Kommunikation, Distribution) auf die im Fall genannte Zielgruppe und Situation anzuwenden."
         ],
-        "richtig_index": 3
+        "richtige_indices": [
+          0,
+          3
+        ]
       },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
+      "erklaerung": "Marketingfragen in der Fallstudie verlangen, ein Marketinginstrument (Produkt, Preis, Kommunikation, Distribution) auf die im Fall genannte Zielgruppe und Situation anzuwenden. Ein Marketingmix ist nur so gut wie sein Bezug zur konkreten Fallsituation.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -2075,7 +2091,8 @@
         "prüfungsnah",
         "Marketing / Verkauf",
         "stufe3",
-        "lerntauglich"
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage"
       ],
       "thema_id": "marketing_verkauf",
       "thema": "Marketing / Verkauf",
@@ -2090,15 +2107,10 @@
         "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig ist: Marketing und Kommunikation",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
+        "kurz": "Marketingfragen in der Fallstudie verlangen, ein Marketinginstrument (Produkt, Preis, Kommunikation, Distribution) auf die im Fall genannte Zielgruppe und Situation anzuwenden. Ein Marketingmix ist nur so gut wie sein Bezug zur konkreten Fallsituation.",
+        "warum": "Marketingfragen in der Fallstudie verlangen, ein Marketinginstrument (Produkt, Preis, Kommunikation, Distribution) auf die im Fall genannte Zielgruppe und Situation anzuwenden. Ein Marketingmix ist nur so gut wie sein Bezug zur konkreten Fallsituation."
       },
-      "fehlerfallen": [
-        "Marketing-Mix-Instrumente verwechseln.",
-        "Zielgruppe und Positionierung vermischen.",
-        "Beschwerden nicht systematisch aufnehmen und nachverfolgen."
-      ],
+      "fehlerfallen": [],
       "review": {
         "box": 1,
         "richtig_in_folge": 0,
@@ -2109,7 +2121,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Marketing fragt: Was passt zum Kunden und Markt – nicht was intern bequem ist."
+      "merksatz": "Ein Marketingmix ist nur so gut wie sein Bezug zur konkreten Fallsituation.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "Marketingfragen in der Fallstudie verlangen, ein Marketinginstrument (Produkt, Preis, Kommunikation, Distribution) auf die im Fall genannte Zielgruppe und Situation anzuwenden. Ein Marketingmix ist nur so gut wie sein Bezug zur konkreten Fallsituation."
     },
     {
       "id": "integrierte_fallstudie_organisation_prozesse_stufe1_begriff",
@@ -2140,12 +2154,12 @@
       "frage": "Worauf zielt eine Organisations-/Prozessfrage in der Integrierten Fallstudie ab?",
       "antwort_daten": {
         "optionen": [
-          "Organisationsfragen in der Fallstudie verlangen, ein im Fall beschriebenes Problem (z.B. unklare Zuständigkeit, Doppelspurigkeit) einer Organisations- oder Prozessmassnahme zuzuordnen.",
-          "Auf das reine Aufsagen der Definition von Aufbau- und Ablauforganisation.",
+          "Auf das reine Aufsagen der Definition von Aufbau- und Ablauforganisation. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt. Diese pauschale Annahme gilt unabhängig vom konkreten Fall und führt deshalb zu einer falschen Beurteilung.",
           "Auf die Anzahl Hierarchiestufen, unabhängig vom Fallproblem.",
-          "Organisation ist in der Fallstudie nie mit einer konkreten Massnahme verbunden."
+          "Organisation ist in der Fallstudie nie mit einer konkreten Massnahme verbunden.",
+          "Organisationsfragen in der Fallstudie verlangen, ein im Fall beschriebenes Problem (z.B. unklare Zuständigkeit, Doppelspurigkeit) einer Organisations- oder Prozessmassnahme zuzuordnen."
         ],
-        "richtig_index": 0
+        "richtig_index": 3
       },
       "loesungsvorschlag": {
         "kurz": "Organisationsfragen in der Fallstudie verlangen, ein im Fall beschriebenes Problem (z.B. unklare Zuständigkeit, Doppelspurigkeit) einer Organisations- oder Prozessmassnahme zuzuordnen.",
@@ -2184,19 +2198,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2022:Integrierte_Fallstudie:Teilaufgabe 2.3",
       "quelle_pdf": "2022/Aufgaben/DE_2022_Aufgaben_Integrierte_Fallstudie.pdf",
-      "lernziel": "Thema erkennen 2022 Integrierte_Fallstudie: 3 Punkte",
-      "typ": "single_choice",
-      "frage": "3 Punkte\n \n \nTeilaufgabe 2.3. \n \n3 Punkte \n \nDefinieren Sie den Begriff der veredelnden Tätigkeiten in wenigen Sätzen und markieren Sie \nim Blockschema in Aufgabe 2.1. diejenigen Prozesse, in welchen diese veredelnden Tätig-\nkeiten stattfinden. Schreiben Sie neben die entsprechenden Prozesse jeweils den Begriff \n«VEREDELND» klar und deutlich ein. \n \nBeurteilung \n \n \nIhre Leistung wird nach den folgenden Leitfragen bewertet: \n \n \n● Ist der Begriff der veredelnden Tätigkeiten richtig beschrieben? …\n\nWelches Thema wird hier primär geprüft?",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Organisation / Prozesse lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche zwei Aussagen erklären „Organisation / Prozesse“ fachlich richtig?",
       "antwort_daten": {
         "optionen": [
-          "Rechnung ohne Einheiten/Rundung darstellen",
-          "3 Punkte",
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken",
-          "Fallangaben ignorieren und Standardantwort geben"
+          "Organisation ist in der Fallstudie nie mit einer konkreten Massnahme verbunden.",
+          "Auf das reine Aufsagen der Definition von Aufbau- und Ablauforganisation. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt. Diese pauschale Annahme gilt unabhängig vom konkreten Fall und führt deshalb zu einer falschen Beurteilung.",
+          "Organisationsfragen in der Fallstudie verlangen, ein im Fall beschriebenes Problem (z.B. unklare Zuständigkeit, Doppelspurigkeit) einer Organisations- oder Prozessmassnahme zuzuordnen.",
+          "Prüfungsnah ist, Schwachstellen aus dem Fall (Schnittstellen, Verantwortlichkeiten) zu erkennen und mit einer konkreten Massnahme zu beheben."
         ],
-        "richtig_index": 1
+        "richtige_indices": [
+          2,
+          3
+        ]
       },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
+      "erklaerung": "Organisationsfragen in der Fallstudie verlangen, ein im Fall beschriebenes Problem (z.B. unklare Zuständigkeit, Doppelspurigkeit) einer Organisations- oder Prozessmassnahme zuzuordnen. Prüfungsnah ist, Schwachstellen aus dem Fall (Schnittstellen, Verantwortlichkeiten) zu erkennen und mit einer konkreten Massnahme zu beheben.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -2207,7 +2224,8 @@
         "prüfungsnah",
         "Organisation / Prozesse",
         "stufe3",
-        "lerntauglich"
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage"
       ],
       "thema_id": "organisation_prozesse",
       "thema": "Organisation / Prozesse",
@@ -2222,15 +2240,10 @@
         "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig ist: 3 Punkte",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Organisationsfragen in der Fallstudie verlangen, ein im Fall beschriebenes Problem (z.B. unklare Zuständigkeit, Doppelspurigkeit) einer Organisations- oder Prozessmassnahme zuzuordnen. Prüfungsnah ist, Schwachstellen aus dem Fall (Schnittstellen, Verantwortlichkeiten) zu erkennen und mit einer konkreten Massnahme zu beheben.",
+        "warum": "Organisationsfragen in der Fallstudie verlangen, ein im Fall beschriebenes Problem (z.B. unklare Zuständigkeit, Doppelspurigkeit) einer Organisations- oder Prozessmassnahme zuzuordnen. Prüfungsnah ist, Schwachstellen aus dem Fall (Schnittstellen, Verantwortlichkeiten) zu erkennen und mit einer konkreten Massnahme zu beheben."
       },
-      "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
-      ],
+      "fehlerfallen": [],
       "review": {
         "box": 1,
         "richtig_in_folge": 0,
@@ -2241,7 +2254,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Organisation in der Fallstudie heisst: die konkrete Schwachstelle im Fall finden, nicht die Theorie referieren.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "Organisationsfragen in der Fallstudie verlangen, ein im Fall beschriebenes Problem (z.B. unklare Zuständigkeit, Doppelspurigkeit) einer Organisations- oder Prozessmassnahme zuzuordnen. Prüfungsnah ist, Schwachstellen aus dem Fall (Schnittstellen, Verantwortlichkeiten) zu erkennen und mit einer konkreten Massnahme zu beheben."
     },
     {
       "id": "integrierte_fallstudie_projekt_europaeische_wildkatze_stufe1_begriff",
@@ -2273,7 +2288,7 @@
       "antwort_daten": {
         "optionen": [
           "Beim Projekt «Europäische Wildkatze» werden Ziele, Massnahmen, Anspruchsgruppen, Kosten/Nutzen und Risiken anhand der konkreten Projektangaben im Fall beurteilt.",
-          "Auf das reine Aufsagen allgemeiner Projektmanagement-Theorie ohne Fallbezug.",
+          "Auf das reine Aufsagen allgemeiner Projektmanagement-Theorie ohne Fallbezug. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt.",
           "Auf die Meinung einer einzelnen Anspruchsgruppe, unabhängig vom Gesamtprojekt.",
           "Projektrisiken sind bei dieser Aufgabe nicht relevant."
         ],
@@ -2316,19 +2331,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2025:Integrierte_Fallstudie:2.1",
       "quelle_pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
-      "lernziel": "Thema erkennen 2025 Integrierte_Fallstudie: Projekt «Europäische Wildkatze»",
-      "typ": "single_choice",
-      "frage": "Projekt «Europäische Wildkatze»\n➔ Vorstellung Stand der Arbeiten \n \n \nProjekt-\nleiter\n\nWelches Thema wird hier primär geprüft?",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Projekt «Europäische Wildkatze» lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche beiden Aussagen müssen bei „Projekt «Europäische Wildkatze»“ beachtet werden?",
       "antwort_daten": {
         "optionen": [
-          "Fallangaben ignorieren und Standardantwort geben",
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken",
-          "Projekt «Europäische Wildkatze»",
-          "Rechnung ohne Einheiten/Rundung darstellen"
+          "Projektrisiken sind bei dieser Aufgabe nicht relevant.",
+          "Beim Projekt «Europäische Wildkatze» werden Ziele, Massnahmen, Anspruchsgruppen, Kosten/Nutzen und Risiken anhand der konkreten Projektangaben im Fall beurteilt.",
+          "Ein Projekt wird nicht durch die Methode allein gut, sondern durch ihre Anwendung auf die konkreten Projektfakten.",
+          "Auf die Meinung einer einzelnen Anspruchsgruppe, unabhängig vom Gesamtprojekt."
         ],
-        "richtig_index": 2
+        "richtige_indices": [
+          1,
+          2
+        ]
       },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
+      "erklaerung": "Beim Projekt «Europäische Wildkatze» werden Ziele, Massnahmen, Anspruchsgruppen, Kosten/Nutzen und Risiken anhand der konkreten Projektangaben im Fall beurteilt. Ein Projekt wird nicht durch die Methode allein gut, sondern durch ihre Anwendung auf die konkreten Projektfakten.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -2339,7 +2357,8 @@
         "prüfungsnah",
         "Projekt «Europäische Wildkatze»",
         "stufe3",
-        "lerntauglich"
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage"
       ],
       "thema_id": "projekt_europaeische_wildkatze",
       "thema": "Projekt «Europäische Wildkatze»",
@@ -2354,15 +2373,10 @@
         "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig ist: Projekt «Europäische Wildkatze»",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Beim Projekt «Europäische Wildkatze» werden Ziele, Massnahmen, Anspruchsgruppen, Kosten/Nutzen und Risiken anhand der konkreten Projektangaben im Fall beurteilt. Ein Projekt wird nicht durch die Methode allein gut, sondern durch ihre Anwendung auf die konkreten Projektfakten.",
+        "warum": "Beim Projekt «Europäische Wildkatze» werden Ziele, Massnahmen, Anspruchsgruppen, Kosten/Nutzen und Risiken anhand der konkreten Projektangaben im Fall beurteilt. Ein Projekt wird nicht durch die Methode allein gut, sondern durch ihre Anwendung auf die konkreten Projektfakten."
       },
-      "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
-      ],
+      "fehlerfallen": [],
       "review": {
         "box": 1,
         "richtig_in_folge": 0,
@@ -2373,7 +2387,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Ein Projekt wird nicht durch die Methode allein gut, sondern durch ihre Anwendung auf die konkreten Projektfakten.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "Beim Projekt «Europäische Wildkatze» werden Ziele, Massnahmen, Anspruchsgruppen, Kosten/Nutzen und Risiken anhand der konkreten Projektangaben im Fall beurteilt. Ein Projekt wird nicht durch die Methode allein gut, sondern durch ihre Anwendung auf die konkreten Projektfakten."
     },
     {
       "id": "integrierte_fallstudie_rechnung_rechnungspruefung_stufe1_begriff",
@@ -2417,12 +2433,12 @@
       "frage": "Wie wird eine Rechnungsprüfungsfrage in der Integrierten Fallstudie korrekt gelöst?",
       "antwort_daten": {
         "optionen": [
-          "Bei Rechnungsprüfungsfragen im Fall wird eine konkrete, im Fall abgebildete Rechnung auf Übereinstimmung mit Bestellung/Lieferschein und gesetzliche Pflichtangaben geprüft.",
           "Indem die Rechnung ungeprüft als korrekt angenommen wird.",
-          "Indem nur die Höflichkeitsfloskeln der Rechnung beurteilt werden.",
+          "Bei Rechnungsprüfungsfragen im Fall wird eine konkrete, im Fall abgebildete Rechnung auf Übereinstimmung mit Bestellung/Lieferschein und gesetzliche Pflichtangaben geprüft.",
+          "Indem nur die Höflichkeitsfloskeln der Rechnung beurteilt werden. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt. Diese pauschale Annahme gilt unabhängig vom konkreten Fall und führt deshalb zu einer falschen Beurteilung.",
           "Indem die Mehrwertsteuer bei der Prüfung ausgeklammert wird."
         ],
-        "richtig_index": 0
+        "richtig_index": 1
       },
       "loesungsvorschlag": {
         "kurz": "Bei Rechnungsprüfungsfragen im Fall wird eine konkrete, im Fall abgebildete Rechnung auf Übereinstimmung mit Bestellung/Lieferschein und gesetzliche Pflichtangaben geprüft.",
@@ -2461,19 +2477,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2022:Integrierte_Fallstudie:Teilaufgabe 1.2",
       "quelle_pdf": "2022/Aufgaben/DE_2022_Aufgaben_Integrierte_Fallstudie.pdf",
-      "lernziel": "Thema erkennen 2022 Integrierte_Fallstudie: 6 Punkte",
-      "typ": "single_choice",
-      "frage": "6 Punkte\n \n \nTeilaufgabe 1.2. \n \n6 Punkte \n \n \na) Berechnen Sie den Verkaufspreis für das billigste Fahrrad in CHF. \n \n \nb) Berechnen Sie den Verkaufspreis für das teuerste Fahrrad in CHF. \n \nBeurteilung \n \n \nIhre Leistung wird nach den folgenden Leitfragen bewertet: \n \n \n● \nIst der jeweilige Verkaufspreis für das billigste und das teuerste Fahrrad auf Basis der \nrichtigen Grunddaten ausgerechnet? \n \n \n● \nIst die Berechnung korrekt durchgeführt worden? \n \n \n\nIntegrierte Fallstudie \n \n8/13 …\n\nWelches Thema wird hier primär geprüft?",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Rechnung / Rechnungsprüfung lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche zwei Grundsätze zu „Rechnung / Rechnungsprüfung“ sind richtig?",
       "antwort_daten": {
         "optionen": [
-          "Rechnung ohne Einheiten/Rundung darstellen",
-          "Fallangaben ignorieren und Standardantwort geben",
-          "6 Punkte",
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken"
+          "Bei Rechnungsprüfungsfragen im Fall wird eine konkrete, im Fall abgebildete Rechnung auf Übereinstimmung mit Bestellung/Lieferschein und gesetzliche Pflichtangaben geprüft.",
+          "Prüfungsnah ist, die im Fall gegebenen Zahlen (Menge, Preis, MwSt.) nachzurechnen und Abweichungen konkret zu benennen.",
+          "Indem nur die Höflichkeitsfloskeln der Rechnung beurteilt werden. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt. Diese pauschale Annahme gilt unabhängig vom konkreten Fall und führt deshalb zu einer falschen Beurteilung.",
+          "Indem die Mehrwertsteuer bei der Prüfung ausgeklammert wird."
         ],
-        "richtig_index": 2
+        "richtige_indices": [
+          0,
+          1
+        ]
       },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
+      "erklaerung": "Bei Rechnungsprüfungsfragen im Fall wird eine konkrete, im Fall abgebildete Rechnung auf Übereinstimmung mit Bestellung/Lieferschein und gesetzliche Pflichtangaben geprüft. Prüfungsnah ist, die im Fall gegebenen Zahlen (Menge, Preis, MwSt.) nachzurechnen und Abweichungen konkret zu benennen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -2484,7 +2503,8 @@
         "prüfungsnah",
         "Rechnung / Rechnungsprüfung",
         "stufe3",
-        "lerntauglich"
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage"
       ],
       "thema_id": "rechnung_rechnungspruefung",
       "thema": "Rechnung / Rechnungsprüfung",
@@ -2499,15 +2519,10 @@
         "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig ist: 6 Punkte",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Achte auf Bezugsgrössen: Eigenkapital, Gesamtkapital, Umsatz, Gewinn, Aufwand/Ertrag und Zahlung sind nicht austauschbar."
+        "kurz": "Bei Rechnungsprüfungsfragen im Fall wird eine konkrete, im Fall abgebildete Rechnung auf Übereinstimmung mit Bestellung/Lieferschein und gesetzliche Pflichtangaben geprüft. Prüfungsnah ist, die im Fall gegebenen Zahlen (Menge, Preis, MwSt.) nachzurechnen und Abweichungen konkret zu benennen.",
+        "warum": "Bei Rechnungsprüfungsfragen im Fall wird eine konkrete, im Fall abgebildete Rechnung auf Übereinstimmung mit Bestellung/Lieferschein und gesetzliche Pflichtangaben geprüft. Prüfungsnah ist, die im Fall gegebenen Zahlen (Menge, Preis, MwSt.) nachzurechnen und Abweichungen konkret zu benennen."
       },
-      "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
-      ],
+      "fehlerfallen": [],
       "review": {
         "box": 1,
         "richtig_in_folge": 0,
@@ -2518,7 +2533,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Eine Rechnungsprüfung in der Fallstudie verlangt Nachrechnen, nicht nur Behaupten.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "Bei Rechnungsprüfungsfragen im Fall wird eine konkrete, im Fall abgebildete Rechnung auf Übereinstimmung mit Bestellung/Lieferschein und gesetzliche Pflichtangaben geprüft. Prüfungsnah ist, die im Fall gegebenen Zahlen (Menge, Preis, MwSt.) nachzurechnen und Abweichungen konkret zu benennen."
     },
     {
       "id": "pr2025_integrierte_fallstudie_1_2_thema_stufe3_2",
@@ -2526,19 +2543,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2025:Integrierte_Fallstudie:1.2",
       "quelle_pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
-      "lernziel": "Thema erkennen 2025 Integrierte_Fallstudie: 2. Der im neuen Eingangsgebäude neu eingerichtete Souvenir-",
-      "typ": "single_choice",
-      "frage": "2. Der im neuen Eingangsgebäude neu eingerichtete Souvenir-\nshop lief sehr gut an. Infolge längerer Öffnungszeiten und des \nteureren Gebäudes zeigt die Kostenrechnung jedoch einen \nnegativen Deckungsbeitrag 2, siehe dazu die Beilage 2. Der Sou-\nvenirshop liegt in der Verantwortung des Bereichs Finanzen. Er \nmuss finanziell selbsttragend sein und darf nicht querfinanziert \nwerden. MüL wird an der nächsten Direktionssitzung Lösungs-\nvorschläge bringen. \n \n \n \n \n \n \n \nMüL\n\nWelches Thema wird hier primär geprüft?",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Rechnung / Rechnungsprüfung lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche zwei Aussagen erklären „Rechnung / Rechnungsprüfung“ fachlich richtig?",
       "antwort_daten": {
         "optionen": [
-          "Fallangaben ignorieren und Standardantwort geben",
-          "Rechnung ohne Einheiten/Rundung darstellen",
-          "2. Der im neuen Eingangsgebäude neu eingerichtete Souvenir-",
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken"
+          "Indem nur die Höflichkeitsfloskeln der Rechnung beurteilt werden. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt. Diese pauschale Annahme gilt unabhängig vom konkreten Fall und führt deshalb zu einer falschen Beurteilung.",
+          "Indem die Mehrwertsteuer bei der Prüfung ausgeklammert wird.",
+          "Bei Rechnungsprüfungsfragen im Fall wird eine konkrete, im Fall abgebildete Rechnung auf Übereinstimmung mit Bestellung/Lieferschein und gesetzliche Pflichtangaben geprüft.",
+          "Prüfungsnah ist, die im Fall gegebenen Zahlen (Menge, Preis, MwSt.) nachzurechnen und Abweichungen konkret zu benennen."
         ],
-        "richtig_index": 2
+        "richtige_indices": [
+          2,
+          3
+        ]
       },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
+      "erklaerung": "Bei Rechnungsprüfungsfragen im Fall wird eine konkrete, im Fall abgebildete Rechnung auf Übereinstimmung mit Bestellung/Lieferschein und gesetzliche Pflichtangaben geprüft. Prüfungsnah ist, die im Fall gegebenen Zahlen (Menge, Preis, MwSt.) nachzurechnen und Abweichungen konkret zu benennen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -2549,7 +2569,8 @@
         "prüfungsnah",
         "Rechnung / Rechnungsprüfung",
         "stufe3",
-        "lerntauglich"
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage"
       ],
       "thema_id": "rechnung_rechnungspruefung",
       "thema": "Rechnung / Rechnungsprüfung",
@@ -2564,15 +2585,10 @@
         "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig ist: 2. Der im neuen Eingangsgebäude neu eingerichtete Souvenir-",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Achte auf Bezugsgrössen: Eigenkapital, Gesamtkapital, Umsatz, Gewinn, Aufwand/Ertrag und Zahlung sind nicht austauschbar."
+        "kurz": "Bei Rechnungsprüfungsfragen im Fall wird eine konkrete, im Fall abgebildete Rechnung auf Übereinstimmung mit Bestellung/Lieferschein und gesetzliche Pflichtangaben geprüft. Prüfungsnah ist, die im Fall gegebenen Zahlen (Menge, Preis, MwSt.) nachzurechnen und Abweichungen konkret zu benennen.",
+        "warum": "Bei Rechnungsprüfungsfragen im Fall wird eine konkrete, im Fall abgebildete Rechnung auf Übereinstimmung mit Bestellung/Lieferschein und gesetzliche Pflichtangaben geprüft. Prüfungsnah ist, die im Fall gegebenen Zahlen (Menge, Preis, MwSt.) nachzurechnen und Abweichungen konkret zu benennen."
       },
-      "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
-      ],
+      "fehlerfallen": [],
       "review": {
         "box": 1,
         "richtig_in_folge": 0,
@@ -2583,7 +2599,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Eine Rechnungsprüfung in der Fallstudie verlangt Nachrechnen, nicht nur Behaupten.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "Bei Rechnungsprüfungsfragen im Fall wird eine konkrete, im Fall abgebildete Rechnung auf Übereinstimmung mit Bestellung/Lieferschein und gesetzliche Pflichtangaben geprüft. Prüfungsnah ist, die im Fall gegebenen Zahlen (Menge, Preis, MwSt.) nachzurechnen und Abweichungen konkret zu benennen."
     },
     {
       "id": "pr2025_integrierte_fallstudie_25_08_thema_stufe3",
@@ -2591,19 +2609,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2025:Integrierte_Fallstudie:25.08",
       "quelle_pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
-      "lernziel": "Thema erkennen 2025 Integrierte_Fallstudie: 2025",
-      "typ": "single_choice",
-      "frage": "2025\n \n \n \n \n \n \n \n \n \nFür das Protokoll: \n \n Rolf Stern \n \nRolf Stern \n \n \n \n \n\n \nIntegrierte Fallstudie \n \n9 /19 \nBeilage 2: Deckungsbeitragsrechnung Souvenirshop \n \n \nKostenträger: \n 615 Souvenirshop \n \n 2024/2025 \n Ist \n 2024/2025 \nBudget \n Vorjahr \nIst \nErtrag Souvenirs \n337'208.69 \n260'000.00 \n197'306.15 \n– Kosten für Souvenirs \n-115'987.36 \n-67'600.00 \n-50'935.10 \nBruttogewinn \n221'221.33 \n192'400.00 \n146'371.05 \n Bruttogewinnmarge \n65.6% \n74.0% \n74.2% \n– Übrige variable Kosten …\n\nWelches Thema wird hier primär geprüft?",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Rechnung / Rechnungsprüfung lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche beiden Aussagen müssen bei „Rechnung / Rechnungsprüfung“ beachtet werden?",
       "antwort_daten": {
         "optionen": [
-          "Fallangaben ignorieren und Standardantwort geben",
-          "2025",
-          "Rechnung ohne Einheiten/Rundung darstellen",
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken"
+          "Indem die Rechnung ungeprüft als korrekt angenommen wird.",
+          "Bei Rechnungsprüfungsfragen im Fall wird eine konkrete, im Fall abgebildete Rechnung auf Übereinstimmung mit Bestellung/Lieferschein und gesetzliche Pflichtangaben geprüft.",
+          "Eine Rechnungsprüfung in der Fallstudie verlangt Nachrechnen, nicht nur Behaupten.",
+          "Indem die Mehrwertsteuer bei der Prüfung ausgeklammert wird."
         ],
-        "richtig_index": 1
+        "richtige_indices": [
+          1,
+          2
+        ]
       },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
+      "erklaerung": "Bei Rechnungsprüfungsfragen im Fall wird eine konkrete, im Fall abgebildete Rechnung auf Übereinstimmung mit Bestellung/Lieferschein und gesetzliche Pflichtangaben geprüft. Eine Rechnungsprüfung in der Fallstudie verlangt Nachrechnen, nicht nur Behaupten.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -2614,7 +2635,8 @@
         "prüfungsnah",
         "Rechnung / Rechnungsprüfung",
         "stufe3",
-        "lerntauglich"
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage"
       ],
       "thema_id": "rechnung_rechnungspruefung",
       "thema": "Rechnung / Rechnungsprüfung",
@@ -2629,15 +2651,10 @@
         "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig ist: 2025",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Achte auf Bezugsgrössen: Eigenkapital, Gesamtkapital, Umsatz, Gewinn, Aufwand/Ertrag und Zahlung sind nicht austauschbar."
+        "kurz": "Bei Rechnungsprüfungsfragen im Fall wird eine konkrete, im Fall abgebildete Rechnung auf Übereinstimmung mit Bestellung/Lieferschein und gesetzliche Pflichtangaben geprüft. Eine Rechnungsprüfung in der Fallstudie verlangt Nachrechnen, nicht nur Behaupten.",
+        "warum": "Bei Rechnungsprüfungsfragen im Fall wird eine konkrete, im Fall abgebildete Rechnung auf Übereinstimmung mit Bestellung/Lieferschein und gesetzliche Pflichtangaben geprüft. Eine Rechnungsprüfung in der Fallstudie verlangt Nachrechnen, nicht nur Behaupten."
       },
-      "fehlerfallen": [
-        "Fallbezug fehlt.",
-        "Begriff wird nur auswendig genannt, aber nicht angewendet.",
-        "Antwort klingt plausibel, passt aber nicht zur konkreten Ausgangslage."
-      ],
+      "fehlerfallen": [],
       "review": {
         "box": 1,
         "richtig_in_folge": 0,
@@ -2648,7 +2665,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Prüfung heisst: Begriff kennen, Fall lesen, sauber begründen."
+      "merksatz": "Eine Rechnungsprüfung in der Fallstudie verlangt Nachrechnen, nicht nur Behaupten.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "Bei Rechnungsprüfungsfragen im Fall wird eine konkrete, im Fall abgebildete Rechnung auf Übereinstimmung mit Bestellung/Lieferschein und gesetzliche Pflichtangaben geprüft. Eine Rechnungsprüfung in der Fallstudie verlangt Nachrechnen, nicht nur Behaupten."
     },
     {
       "id": "integrierte_fallstudie_strategie_analyseinstrumente_stufe1_begriff",
@@ -2679,12 +2698,12 @@
       "frage": "Wie wird ein Analyseinstrument wie die SWOT-Analyse in der Integrierten Fallstudie korrekt eingesetzt?",
       "antwort_daten": {
         "optionen": [
-          "Strategiefragen in der Fallstudie verlangen, ein Analyseinstrument (z.B. SWOT, Portfolio) mit den im Fall genannten Fakten zu füllen statt es nur zu beschreiben.",
           "Indem die vier Felder nur mit allgemeinem Lehrbuchwissen statt mit Fallfakten gefüllt werden.",
           "Indem nur die Chancen genannt werden, Risiken bleiben aussen vor.",
-          "Indem SWOT und Portfolio-Analyse als austauschbar behandelt werden."
+          "Strategiefragen in der Fallstudie verlangen, ein Analyseinstrument (z.B. SWOT, Portfolio) mit den im Fall genannten Fakten zu füllen statt es nur zu beschreiben.",
+          "Indem SWOT und Portfolio-Analyse als austauschbar behandelt werden. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt."
         ],
-        "richtig_index": 0
+        "richtig_index": 2
       },
       "loesungsvorschlag": {
         "kurz": "Strategiefragen in der Fallstudie verlangen, ein Analyseinstrument (z.B. SWOT, Portfolio) mit den im Fall genannten Fakten zu füllen statt es nur zu beschreiben.",
@@ -2723,19 +2742,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2025:Integrierte_Fallstudie:2.2",
       "quelle_pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
-      "lernziel": "Thema erkennen 2025 Integrierte_Fallstudie: Projekt «Erstellung neues Leitbild»",
-      "typ": "single_choice",
-      "frage": "Projekt «Erstellung neues Leitbild»\n➔ Vorstellung Stand der Arbeiten \n \n \nProjekt-\nleiter\n\nWelches Thema wird hier primär geprüft?",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Strategie / Analyseinstrumente lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche zwei Grundsätze zu „Strategie / Analyseinstrumente“ sind richtig?",
       "antwort_daten": {
         "optionen": [
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken",
-          "Rechnung ohne Einheiten/Rundung darstellen",
-          "Projekt «Erstellung neues Leitbild»",
-          "Fallangaben ignorieren und Standardantwort geben"
+          "Strategiefragen in der Fallstudie verlangen, ein Analyseinstrument (z.B. SWOT, Portfolio) mit den im Fall genannten Fakten zu füllen statt es nur zu beschreiben.",
+          "Prüfungsnah ist, Stärken/Schwächen/Chancen/Risiken direkt aus dem Falltext zu entnehmen und im Instrument korrekt zuzuordnen.",
+          "Indem nur die Chancen genannt werden, Risiken bleiben aussen vor.",
+          "Indem SWOT und Portfolio-Analyse als austauschbar behandelt werden. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt."
         ],
-        "richtig_index": 2
+        "richtige_indices": [
+          0,
+          1
+        ]
       },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
+      "erklaerung": "Strategiefragen in der Fallstudie verlangen, ein Analyseinstrument (z.B. SWOT, Portfolio) mit den im Fall genannten Fakten zu füllen statt es nur zu beschreiben. Prüfungsnah ist, Stärken/Schwächen/Chancen/Risiken direkt aus dem Falltext zu entnehmen und im Instrument korrekt zuzuordnen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -2746,7 +2768,8 @@
         "prüfungsnah",
         "Strategie / Analyseinstrumente",
         "stufe3",
-        "lerntauglich"
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage"
       ],
       "thema_id": "strategie_analyseinstrumente",
       "thema": "Strategie / Analyseinstrumente",
@@ -2761,15 +2784,10 @@
         "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig ist: Projekt «Erstellung neues Leitbild»",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
+        "kurz": "Strategiefragen in der Fallstudie verlangen, ein Analyseinstrument (z.B. SWOT, Portfolio) mit den im Fall genannten Fakten zu füllen statt es nur zu beschreiben. Prüfungsnah ist, Stärken/Schwächen/Chancen/Risiken direkt aus dem Falltext zu entnehmen und im Instrument korrekt zuzuordnen.",
+        "warum": "Strategiefragen in der Fallstudie verlangen, ein Analyseinstrument (z.B. SWOT, Portfolio) mit den im Fall genannten Fakten zu füllen statt es nur zu beschreiben. Prüfungsnah ist, Stärken/Schwächen/Chancen/Risiken direkt aus dem Falltext zu entnehmen und im Instrument korrekt zuzuordnen."
       },
-      "fehlerfallen": [
-        "Analyse und Massnahme nicht verknüpfen.",
-        "Aufbau- und Ablauforganisation verwechseln.",
-        "Risiken, Ressourcen und Verantwortlichkeiten nicht nennen."
-      ],
+      "fehlerfallen": [],
       "review": {
         "box": 1,
         "richtig_in_folge": 0,
@@ -2780,7 +2798,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Analyse ohne Massnahme ist Deko; Massnahme ohne Analyse ist Bauchgefühl."
+      "merksatz": "Ein Analyseinstrument ohne Fallfakten ist eine leere Tabelle.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "Strategiefragen in der Fallstudie verlangen, ein Analyseinstrument (z.B. SWOT, Portfolio) mit den im Fall genannten Fakten zu füllen statt es nur zu beschreiben. Prüfungsnah ist, Stärken/Schwächen/Chancen/Risiken direkt aus dem Falltext zu entnehmen und im Instrument korrekt zuzuordnen."
     },
     {
       "id": "integrierte_fallstudie_ziele_smart_stufe1_begriff",
@@ -2811,12 +2831,12 @@
       "frage": "Wie wird ein Ziel aus der Integrierten Fallstudie korrekt SMART formuliert?",
       "antwort_daten": {
         "optionen": [
-          "In der Fallstudie werden Ziele SMART formuliert und direkt aus den im Fall genannten Ausgangswerten (Ist-Zustand) abgeleitet.",
-          "Indem das Ziel möglichst allgemein bleibt, damit es zu jedem Fall passt.",
+          "Indem das Ziel möglichst allgemein bleibt, damit es zu jedem Fall passt. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt.",
           "Indem Termin und Messgrösse weggelassen werden, um flexibel zu bleiben.",
-          "Indem das Ziel unabhängig von den im Fall genannten Ressourcen gesetzt wird."
+          "Indem das Ziel unabhängig von den im Fall genannten Ressourcen gesetzt wird.",
+          "In der Fallstudie werden Ziele SMART formuliert und direkt aus den im Fall genannten Ausgangswerten (Ist-Zustand) abgeleitet."
         ],
-        "richtig_index": 0
+        "richtig_index": 3
       },
       "loesungsvorschlag": {
         "kurz": "In der Fallstudie werden Ziele SMART formuliert und direkt aus den im Fall genannten Ausgangswerten (Ist-Zustand) abgeleitet.",
@@ -2855,19 +2875,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2022:Integrierte_Fallstudie:Teilaufgabe 4.1",
       "quelle_pdf": "2022/Aufgaben/DE_2022_Aufgaben_Integrierte_Fallstudie.pdf",
-      "lernziel": "Thema erkennen 2022 Integrierte_Fallstudie: 15 Punkte",
-      "typ": "single_choice",
-      "frage": "15 Punkte\n \n \nTeilaufgabe 4.1. \n \n15 Punkte \n \nInsbesondere im Sinne des prioritären Ziels in ihrem Marketingkonzept – der konsumenten-\ngerichteten Verkaufsförderung – beschliessen Jan und Marc ein Farbinserat im Umfang einer \nA4-Seite im Magazin «mountainBIKE» zu schalten. \n \n \nSie erhalten den Auftrag, dieses Inserat zu erstellen. Beachten Sie dabei Folgendes: \n \n \n● Alle grundsätzlich notwendigen Elemente eines Inserats müssen in Ihrem Entwurf vor- …\n\nWelches Thema wird hier primär geprüft?",
+      "lernziel": "Eine fachlich konkrete Aufgabe zu Ziele / SMART lösen.",
+      "typ": "multiple_choice",
+      "frage": "Welche zwei Aussagen erklären „Ziele / SMART“ fachlich richtig?",
       "antwort_daten": {
         "optionen": [
-          "Fallangaben ignorieren und Standardantwort geben",
-          "Rechnung ohne Einheiten/Rundung darstellen",
-          "15 Punkte",
-          "Nur eine Fachsicht betrachten statt vernetzt zu denken"
+          "Indem das Ziel unabhängig von den im Fall genannten Ressourcen gesetzt wird.",
+          "Indem das Ziel möglichst allgemein bleibt, damit es zu jedem Fall passt. Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt.",
+          "In der Fallstudie werden Ziele SMART formuliert und direkt aus den im Fall genannten Ausgangswerten (Ist-Zustand) abgeleitet.",
+          "Prüfungsnah ist, ein im Fall vages Ziel in ein spezifisches, messbares, terminiertes Ziel mit Bezug zu den Fallzahlen umzuformulieren."
         ],
-        "richtig_index": 2
+        "richtige_indices": [
+          2,
+          3
+        ]
       },
-      "erklaerung": "Automatisch aus der Prüfungsüberschrift erzeugt; im Protokoll als schwächerer Kartentyp markiert.",
+      "erklaerung": "In der Fallstudie werden Ziele SMART formuliert und direkt aus den im Fall genannten Ausgangswerten (Ist-Zustand) abgeleitet. Prüfungsnah ist, ein im Fall vages Ziel in ein spezifisches, messbares, terminiertes Ziel mit Bezug zu den Fallzahlen umzuformulieren.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -2878,7 +2901,8 @@
         "prüfungsnah",
         "Ziele / SMART",
         "stufe3",
-        "lerntauglich"
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage"
       ],
       "thema_id": "ziele_smart",
       "thema": "Ziele / SMART",
@@ -2893,15 +2917,10 @@
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Richtig ist: 15 Punkte",
-        "rechenweg": "Lies zuerst die Ausgangslage, markiere die entscheidenden Angaben und prüfe dann jede Option gegen diese Angaben. Bei Zahlenaufgaben zusätzlich die Bezugsgrösse kontrollieren.",
-        "warum": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
+        "kurz": "In der Fallstudie werden Ziele SMART formuliert und direkt aus den im Fall genannten Ausgangswerten (Ist-Zustand) abgeleitet. Prüfungsnah ist, ein im Fall vages Ziel in ein spezifisches, messbares, terminiertes Ziel mit Bezug zu den Fallzahlen umzuformulieren.",
+        "warum": "In der Fallstudie werden Ziele SMART formuliert und direkt aus den im Fall genannten Ausgangswerten (Ist-Zustand) abgeleitet. Prüfungsnah ist, ein im Fall vages Ziel in ein spezifisches, messbares, terminiertes Ziel mit Bezug zu den Fallzahlen umzuformulieren."
       },
-      "fehlerfallen": [
-        "Ziele zu unklar oder nicht messbar formulieren.",
-        "Feedback ohne beobachtbare Beispiele geben.",
-        "Rechtliche Rahmenbedingungen im Arbeitsverhältnis übersehen."
-      ],
+      "fehlerfallen": [],
       "review": {
         "box": 1,
         "richtig_in_folge": 0,
@@ -2912,7 +2931,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Gute HR-Antworten sind konkret, fair, belegbar und rechtlich sauber."
+      "merksatz": "Ein SMART-Ziel in der Fallstudie steht und fällt mit dem Bezug zu den Fallzahlen.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "In der Fallstudie werden Ziele SMART formuliert und direkt aus den im Fall genannten Ausgangswerten (Ist-Zustand) abgeleitet. Prüfungsnah ist, ein im Fall vages Ziel in ein spezifisches, messbares, terminiertes Ziel mit Bezug zu den Fallzahlen umzuformulieren."
     }
   ]
 }

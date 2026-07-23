@@ -12,6 +12,12 @@ const errors = []
 const topicWarnings = []
 const groups = new Map()
 const ids = new Set()
+const stageOneAnswerPositions = new Map()
+const metaQuestionPattern = /Welche Punkte passen zur Musterlösung dieser Prüfungsaufgabe\?/i
+const weakTopicQuestionPattern = /Welches Thema wird hier primär geprüft\?/i
+const genericTopicDescriptionPattern = /Welche Aussage beschreibt das Thema .* fachlich am besten\?/i
+const genericExplanationPattern = /Antwort gemäss offiziellem|Aus den offiziellen Lösungshinweisen verdichtet|Automatisch aus der Prüfungsüberschrift/i
+const incompleteAnswerPattern = /\b(?:und|oder|der|die|das|den|dem|des|ein|eine|einer|einem|einen|zu|zur|zum|von|vom|für|mit|bei|im|in|auf|an|als|um)\s*$|[,:;–-]\s*$/i
 const coherentUmbrellaTopics = new Set([
   'Finanzwirtschaft::mehrwertsteuer',
   'Marketing_Verkauf::strategie_analyseinstrumente',
@@ -28,18 +34,87 @@ for (const card of cards) {
   if (!groups.has(key)) groups.set(key, [])
   groups.get(key).push(card)
 
+  if (metaQuestionPattern.test(card.frage ?? '')) {
+    errors.push(`${card.id}: unzulässige Musterlösungs-Metafrage`)
+  }
+  if (weakTopicQuestionPattern.test(card.frage ?? '')) {
+    errors.push(`${card.id}: unzulässige reine Themen-Erkennungsfrage`)
+  }
+  if (genericTopicDescriptionPattern.test(card.frage ?? '')) {
+    errors.push(`${card.id}: unzulässige allgemeine Themenbeschreibung statt Fachaufgabe`)
+  }
+  if (genericExplanationPattern.test(card.erklaerung ?? '')) {
+    errors.push(`${card.id}: Lösung besitzt keine fachliche Erklärung`)
+  }
+  if (card.thema_id === 'break_even_deckungsbeitrag' && card.fach !== 'Finanzwirtschaft') {
+    errors.push(`${card.id}: Break-even / Deckungsbeitrag liegt im falschen Fach ${card.fach}`)
+  }
+  if (card.fach === 'Marketing_Verkauf' && ['lager_lagerkennzahlen', 'liquiditaet_mittelfluss'].includes(card.thema_id)) {
+    errors.push(`${card.id}: Lager- oder Liquiditätsthema liegt weiterhin in Marketing / Verkauf`)
+  }
+  if (card.fach === 'Personalmanagement' && ['rechnung_rechnungspruefung', 'organisation_prozesse'].includes(card.thema_id)) {
+    errors.push(`${card.id}: Personalthema besitzt weiterhin eine fachfremde Sammelzuordnung`)
+  }
+
+  if (card.typ === 'single_choice') {
+    const { optionen = [], richtig_index: correctIndex } = card.antwort_daten ?? {}
+    if (!optionen[correctIndex]) errors.push(`${card.id}: ungültiger Single-Choice-Lösungsindex`)
+    if (optionen.length > 1 && optionen[correctIndex]) {
+      const correctLength = String(optionen[correctIndex]).length
+      const longestIncorrect = Math.max(...optionen.map((option, index) => index === correctIndex ? 0 : String(option).length))
+      if (correctLength >= longestIncorrect) {
+        errors.push(`${card.id}: richtige Single-Choice-Antwort ist die längste Option`)
+      }
+    }
+    if (card.stufe === 1 && optionen.length > 1 && optionen[correctIndex]) {
+      const distributionKey = String(optionen.length)
+      const positions = stageOneAnswerPositions.get(distributionKey) ?? Array(optionen.length).fill(0)
+      positions[correctIndex] += 1
+      stageOneAnswerPositions.set(distributionKey, positions)
+    }
+  }
+
+  if (card.typ === 'multiple_choice') {
+    const { optionen = [], richtige_indices: correct = [] } = card.antwort_daten ?? {}
+    if (optionen.length > 1 && correct.length === optionen.length) {
+      errors.push(`${card.id}: Mehrfachauswahl besitzt keine falsche Aussage`)
+    }
+    optionen.forEach((option, index) => {
+      if (incompleteAnswerPattern.test(String(option).trim())) {
+        errors.push(`${card.id}: Antwort ${index + 1} endet mutmasslich mitten im Satz`)
+      }
+    })
+  }
+
   if (card.typ === 'zuordnung') {
     const { links = [], rechts = [], richtige_paare: pairs = [] } = card.antwort_daten ?? {}
     if (pairs.length !== links.length) errors.push(`${card.id}: Nicht jede linke Aussage ist zugeordnet`)
     for (const [left, right] of pairs) {
       if (!links[left] || !rechts[right]) errors.push(`${card.id}: Ungültiges Zuordnungspaar ${left}/${right}`)
     }
+    if (new Set(pairs.map(([, right]) => right)).size < pairs.length && !card.antwort_daten?.mehrfachverwendung) {
+      errors.push(`${card.id}: notwendige Mehrfachverwendung ist nicht freigegeben`)
+    }
   }
+}
+
+for (const [optionCount, positions] of stageOneAnswerPositions) {
+  const usedPositions = positions.filter((count) => count > 0)
+  if (usedPositions.length !== Number(optionCount) || Math.max(...positions) - Math.min(...positions) > 1) {
+    errors.push(`Stufe-1-Single-Choice mit ${optionCount} Optionen: unausgewogene Lösungspositionen ${positions.join('/')}`)
+  }
+}
+
+const pensionCards = cards.filter((card) => card.fach === 'Personalmanagement' && card.thema_id === '3_saeulen_prinzip')
+const pensionStages = new Set(pensionCards.map((card) => card.stufe))
+if (![1, 2, 3, 4].every((stage) => pensionStages.has(stage))) {
+  errors.push('Personalmanagement::3_saeulen_prinzip: anspruchsvolle Lernfolge Stufe 1–4 fehlt')
 }
 
 for (const [key, topicCards] of groups) {
   const stages = new Set(topicCards.map((card) => card.stufe))
   if (!stages.has(1)) errors.push(`${key}: keine Einführungsstufe`)
+  if (![...stages].some((stage) => stage > 1)) errors.push(`${key}: keine weiterführende, lösbare Lernstufe`)
   if (topicCards.some((card) => `${card.fach}::${card.thema_id}` !== key)) errors.push(`${key}: gemischte Themenzuordnung`)
 
   const titleWords = significantWords(topicCards[0]?.thema)
@@ -55,6 +130,25 @@ for (const [key, topicCards] of groups) {
       topic: key,
       cards: unrelated.slice(0, 20).map(({ card, lead }) => ({ id: card.id, heading: lead }))
     })
+  }
+}
+
+const subjectFiles = {
+  Finanzwirtschaft: 'lernkarten_pruefungen_final_lerntauglich_Finanzwirtschaft.json',
+  Integrierte_Fallstudie: 'lernkarten_pruefungen_final_lerntauglich_Integrierte_Fallstudie.json',
+  Marketing_Verkauf: 'lernkarten_pruefungen_final_lerntauglich_Marketing_Verkauf.json',
+  Personalmanagement: 'lernkarten_pruefungen_final_lerntauglich_Personalmanagement.json',
+  Problemloesung_Entscheidung: 'lernkarten_pruefungen_final_lerntauglich_Problemloesung_Entscheidung.json',
+  Recht_VWL: 'lernkarten_pruefungen_final_lerntauglich_Recht_VWL.json',
+  SCM: 'lernkarten_pruefungen_final_lerntauglich_SCM.json',
+  Unternehmensfuehrung: 'lernkarten_pruefungen_final_lerntauglich_Unternehmensfuehrung.json'
+}
+for (const [subject, filename] of Object.entries(subjectFiles)) {
+  const subjectPath = path.join(path.dirname(dataFile), filename)
+  const subjectCards = JSON.parse(fs.readFileSync(subjectPath, 'utf8')).karten ?? []
+  const aggregateCards = cards.filter((card) => card.fach === subject)
+  if (JSON.stringify(subjectCards) !== JSON.stringify(aggregateCards)) {
+    errors.push(`${subject}: Fachdatei stimmt nicht mit dem Gesamtbestand überein`)
   }
 }
 

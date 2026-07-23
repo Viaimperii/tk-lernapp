@@ -13,6 +13,15 @@ let cards = dataset.karten ?? []
 const topic = (card, fach, themaId, thema) => Object.assign(card, { fach, thema_id: themaId, thema })
 const byId = new Map(cards.map((card) => [card.id, card]))
 
+function hashString(value) {
+  let hash = 2166136261
+  for (const character of String(value)) {
+    hash ^= character.codePointAt(0)
+    hash = Math.imul(hash, 16777619)
+  }
+  return hash >>> 0
+}
+
 // Klare Fehlzuordnungen aus dem vollständigen Themenaudit.
 for (const id of [
   'pr2022_finanzwirtschaft_1_5_choice_stufe3',
@@ -151,6 +160,60 @@ moveMatching('Unternehmensfuehrung', 'rechtliche_grundlagen', /Businessplan/i, '
 moveMatching('Unternehmensfuehrung', 'rechtliche_grundlagen', /Umwelt|Personenwagen/i, 'umwelt', 'Umwelt')
 moveMatching('Unternehmensfuehrung', 'rechtliche_grundlagen', /Technologiemanagement/i, 'technologiemanagement', 'Technologiemanagement')
 moveMatching('Unternehmensfuehrung', 'rechtliche_grundlagen', /Betriebswirtschaftliche Probleme/i, 'strategie_analyseinstrumente', 'Strategie / Analyseinstrumente')
+
+// Fachgrenzen nach Lerninhalt statt nach fehlerhafter Importüberschrift korrigieren.
+for (const card of cards) {
+  if (card.fach === 'Unternehmensfuehrung' && card.thema_id === 'break_even_deckungsbeitrag' && /Aufbauorganisation/i.test(card.frage ?? '')) {
+    topic(card, 'Unternehmensfuehrung', 'organisation_prozesse', 'Organisation / Prozesse')
+    continue
+  }
+  if (card.thema_id === 'break_even_deckungsbeitrag' && ['Marketing_Verkauf', 'Personalmanagement', 'Recht_VWL', 'Unternehmensfuehrung'].includes(card.fach)) {
+    topic(card, 'Finanzwirtschaft', 'break_even_deckungsbeitrag', 'Break-even / Deckungsbeitrag')
+    continue
+  }
+  if (card.fach === 'Marketing_Verkauf' && card.thema_id === 'lager_lagerkennzahlen') {
+    if (/Verpackung/i.test(card.frage ?? '')) topic(card, 'Marketing_Verkauf', 'verpackung', 'Verpackung')
+    else topic(card, 'SCM', 'lager_lagerkennzahlen', 'Lager / Lagerkennzahlen')
+    continue
+  }
+  if (card.fach === 'Marketing_Verkauf' && card.thema_id === 'liquiditaet_mittelfluss') {
+    if (/Offerten|Zahlungskonditionen/i.test(card.frage ?? '')) topic(card, 'Marketing_Verkauf', 'offerterstellung', 'Offerterstellung')
+    else topic(card, 'Finanzwirtschaft', 'liquiditaet_mittelfluss', 'Liquidität / Mittelfluss')
+    continue
+  }
+  if (card.fach === 'Finanzwirtschaft' && card.thema_id === 'lager_lagerkennzahlen') {
+    if (/Einzel- und Gemeinkosten/i.test(card.frage ?? '')) topic(card, 'Finanzwirtschaft', 'betriebsbuchhaltung', 'Betriebsbuchhaltung')
+    else topic(card, 'SCM', 'lager_lagerkennzahlen', 'Lager / Lagerkennzahlen')
+    continue
+  }
+  if (card.fach === 'Personalmanagement' && card.thema_id === 'organisation_prozesse') {
+    topic(card, 'Personalmanagement', 'personalbeschaffung', 'Personalbeschaffung')
+    continue
+  }
+  if (card.fach === 'Personalmanagement' && card.thema_id === 'rechnung_rechnungspruefung') {
+    topic(card, 'Personalmanagement', 'lohnabrechnung', 'Lohnabrechnung')
+  }
+}
+
+const crossSubjectIntroMoves = {
+  finanzwirtschaft_fuehrung_personal_stufe1_begriff: ['Finanzwirtschaft', 'grundlagen_controlling', 'Grundlagen Controlling'],
+  finanzwirtschaft_marketing_verkauf_stufe1_begriff: ['Finanzwirtschaft', 'kalkulation', 'Kalkulation'],
+  finanzwirtschaft_rechtliche_grundlagen_stufe1_begriff: ['Recht_VWL', 'rechtliche_grundlagen', 'Rechtliche Grundlagen'],
+  marketing_verkauf_fuehrung_personal_stufe1_begriff: ['Personalmanagement', 'fuehrung_personal', 'Führung / Personal'],
+  recht_vwl_fuehrung_personal_stufe1_begriff: ['Recht_VWL', 'rechtliche_grundlagen', 'Rechtliche Grundlagen'],
+  recht_vwl_marketing_verkauf_stufe1_begriff: ['Recht_VWL', 'rechtliche_grundlagen', 'Rechtliche Grundlagen'],
+  recht_vwl_rechnung_rechnungspruefung_stufe1_begriff: ['Recht_VWL', 'rechtliche_grundlagen', 'Rechtliche Grundlagen'],
+  recht_vwl_ziele_smart_stufe1_begriff: ['Recht_VWL', 'rechtliche_grundlagen', 'Rechtliche Grundlagen'],
+  scm_fuehrung_personal_stufe1_begriff: ['Personalmanagement', 'fuehrung_personal', 'Führung / Personal'],
+  scm_marketing_verkauf_stufe1_begriff: ['SCM', 'organisation_prozesse', 'Organisation / Prozesse'],
+  scm_rechnung_rechnungspruefung_stufe1_begriff: ['SCM', 'beschaffung_lieferanten', 'Beschaffung / Lieferanten'],
+  scm_ziele_smart_stufe1_begriff: ['SCM', 'organisation_prozesse', 'Organisation / Prozesse'],
+  unternehmensfuehrung_liquiditaet_mittelfluss_stufe1_begriff: ['Finanzwirtschaft', 'liquiditaet_mittelfluss', 'Liquidität / Mittelfluss'],
+  unternehmensfuehrung_rechtliche_grundlagen_stufe1_begriff: ['Recht_VWL', 'rechtliche_grundlagen', 'Rechtliche Grundlagen']
+}
+for (const [id, [subject, topicId, title]] of Object.entries(crossSubjectIntroMoves)) {
+  topic(byId.get(id), subject, topicId, title)
+}
 
 // Punktzahl-Sammelkarten der Fallstudie enthalten ohne Ausgangslage keine lösbare Lernfrage.
 cards = cards.filter((card) => !(
@@ -321,6 +384,506 @@ for (const { id, title, formula, sequence, result, unit = '%', meaning, benchmar
   cards.push(stage1, stage2, stage3, stage4)
 }
 
+// Das doppelte und zu einfache Vorsorgethema wird durch eine anspruchsvollere Lernfolge ersetzt.
+cards = cards.filter((card) => !(
+  card.fach === 'Personalmanagement'
+  && ['3_saeulen_prinzip', 'schweizerisches_vorsorgesystem'].includes(card.thema_id)
+))
+
+const pensionIntro = 'Das Schweizer Vorsorgesystem verteilt die Absicherung bei Alter, Invalidität und Tod auf staatliche, berufliche und private Vorsorge. Die Säulen unterscheiden sich nach Zweck, Finanzierung und Verbindlichkeit.'
+const pensionBase = {
+  fach: 'Personalmanagement',
+  thema_id: '3_saeulen_prinzip',
+  thema: 'Schweizerisches 3-Säulen-System',
+  quelle: { typ: 'fachlich_ueberarbeitete_lernkarte' },
+  lernziel: 'Zweck, Finanzierung und Zusammenspiel der drei Säulen in anspruchsvollen Fällen unterscheiden.',
+  begriff_erklaerung: {
+    kurz: pensionIntro,
+    pruefungsrelevant: 'In Prüfungsfällen müssen Vorsorgeinstrumente der richtigen Säule zugeordnet und Versorgungslücken sachgerecht beurteilt werden.'
+  },
+  fehlerfallen: [],
+  review: {},
+  tags: ['vorsorge', '3_saeulen', 'personalmanagement']
+}
+cards.push(
+  {
+    ...pensionBase,
+    id: 'personalmanagement_3_saeulen_system_stufe1',
+    stufe: 1,
+    typ: 'single_choice',
+    frage: 'Welche Beschreibung grenzt die drei Säulen fachlich korrekt voneinander ab?',
+    antwort_daten: {
+      optionen: [
+        'Die AHV/IV sichert als 1. Säule die Existenz; die berufliche Vorsorge ergänzt als 2. Säule den bisherigen Lebensstandard; die private Vorsorge schliesst als 3. Säule individuelle Lücken.',
+        'Die 1. Säule besteht aus freiwilligem Banksparen, während AHV und Pensionskasse gemeinsam zur 3. Säule gehören.',
+        'Die berufliche Vorsorge ersetzt die AHV vollständig und ist deshalb für jede Person ohne Ausnahme die einzige obligatorische Säule.',
+        'Die Säulen unterscheiden sich nur durch ihre Anbieter; Zweck, Finanzierung und gesetzliche Grundlage sind identisch.'
+      ],
+      richtig_index: 0
+    },
+    erklaerung: 'Die drei Säulen ergänzen einander: Existenzsicherung, Fortsetzung der gewohnten Lebenshaltung und individuelle Zusatzvorsorge.',
+    merksatz: '1. Säule: Existenz sichern; 2. Säule: Lebensstandard ergänzen; 3. Säule: persönliche Lücken schliessen.'
+  },
+  {
+    ...pensionBase,
+    id: 'personalmanagement_3_saeulen_system_stufe2',
+    stufe: 2,
+    typ: 'multiple_choice',
+    frage: 'Welche Aussagen zu Finanzierung und Ausgestaltung des 3-Säulen-Systems sind richtig?',
+    antwort_daten: {
+      optionen: [
+        'Die AHV wird im Umlageverfahren finanziert: Laufende Einnahmen finanzieren grundsätzlich laufende Renten.',
+        'Die berufliche Vorsorge arbeitet grundsätzlich im Kapitaldeckungsverfahren und baut persönliches Altersguthaben auf.',
+        'Zur gebundenen Selbstvorsorge 3a gehören freiwillige Einzahlungen mit gesetzlichen Verfügungsbeschränkungen und möglichen Steuervergünstigungen.',
+        'Die freie Vorsorge 3b ist für sämtliche Erwerbstätigen obligatorisch und darf ausschliesslich bei Pensionierung bezogen werden.',
+        'Alle Leistungen der drei Säulen werden vollständig vom Staat finanziert.'
+      ],
+      richtige_indices: [0, 1, 2]
+    },
+    erklaerung: 'Die Finanzierungsverfahren und die Verfügbarkeit unterscheiden sich wesentlich. AHV, Pensionskasse sowie Säule 3a/3b dürfen nicht gleichgesetzt werden.',
+    merksatz: 'Umlage bei der AHV, Kapitaldeckung bei der Pensionskasse, individuelle Vorsorge in der 3. Säule.'
+  },
+  {
+    ...pensionBase,
+    id: 'personalmanagement_3_saeulen_system_stufe3',
+    stufe: 3,
+    typ: 'zuordnung',
+    frage: 'Ordne jedes konkrete Vorsorgeinstrument der passenden Säule zu.',
+    antwort_daten: {
+      links: ['AHV und IV', 'Pensionskasse nach BVG', 'Gebundene Vorsorge 3a', 'Freie Vorsorge 3b'],
+      rechts: ['1. Säule – staatliche Vorsorge', '2. Säule – berufliche Vorsorge', '3. Säule – steuerlich gebundene private Vorsorge', '3. Säule – freie private Vorsorge'],
+      richtige_paare: [[0, 0], [1, 1], [2, 2], [3, 3]],
+      mehrfachverwendung: false
+    },
+    erklaerung: 'AHV/IV gehören zur staatlichen, die Pensionskasse zur beruflichen und 3a sowie 3b zur privaten Vorsorge.',
+    merksatz: '3a ist gebunden, 3b ist frei – beide gehören zur privaten 3. Säule.'
+  },
+  {
+    ...pensionBase,
+    id: 'personalmanagement_3_saeulen_system_stufe4',
+    stufe: 4,
+    typ: 'single_choice',
+    frage: 'Eine angestellte Person erwartet trotz AHV und Pensionskasse eine Vorsorgelücke und möchte freiwillig steuerbegünstigt sparen. Welche Beurteilung ist richtig?',
+    antwort_daten: {
+      optionen: [
+        'Eine Einzahlung in die Säule 3a kann die individuelle Vorsorgelücke ergänzen; Verfügbarkeit und Abzugsmöglichkeiten richten sich nach den gesetzlichen Bedingungen.',
+        'Zusätzliche Einzahlungen gehören zwingend zur 1. Säule, weil jede private Vorsorge Bestandteil der AHV ist.',
+        'Die Person muss in die freie Säule 3b einzahlen, da nur diese gesetzlich gebunden und steuerlich privilegiert ist.',
+        'Eine Vorsorgelücke kann nicht privat ergänzt werden, sobald bereits Beiträge an AHV und Pensionskasse geleistet werden.'
+      ],
+      richtig_index: 0
+    },
+    erklaerung: 'Die Säule 3a dient der freiwilligen, gebundenen Selbstvorsorge. Sie ergänzt AHV und berufliche Vorsorge, ersetzt sie aber nicht.',
+    merksatz: 'Erst Leistungen aus Säule 1 und 2 beurteilen, dann eine persönliche Lücke gezielt mit Säule 3 ergänzen.'
+  }
+)
+
+// Metafragen und reine Themen-Erkennungsfragen werden durch fachlich konkrete Fragen ersetzt.
+const metaQuestionPattern = /Welche Punkte passen zur Musterlösung dieser Prüfungsaufgabe\?/i
+const weakTopicQuestionPattern = /Welches Thema wird hier primär geprüft\?/i
+const isImportedWeakCard = (card) => (
+  metaQuestionPattern.test(card.frage ?? '')
+  || (card.tags ?? []).includes('fachfrage_statt_metafrage')
+  || weakTopicQuestionPattern.test(card.frage ?? '')
+  || (card.tags ?? []).includes('fachfrage_statt_themenabfrage')
+)
+const candidatesByTopic = new Map()
+for (const card of cards) {
+  if (isImportedWeakCard(card)) continue
+  if (!['single_choice', 'multiple_choice', 'zuordnung', 'reihenfolge', 'formel_luecke_mc', 'formel_builder'].includes(card.typ)) continue
+  const key = `${card.fach}::${card.thema_id}`
+  if (!candidatesByTopic.has(key)) candidatesByTopic.set(key, [])
+  candidatesByTopic.get(key).push(card)
+}
+
+const unresolvedWeakCards = []
+for (const card of cards) {
+  if (!isImportedWeakCard(card)) continue
+  const replacementTag = metaQuestionPattern.test(card.frage ?? '') || (card.tags ?? []).includes('fachfrage_statt_metafrage')
+    ? 'fachfrage_statt_metafrage'
+    : 'fachfrage_statt_themenabfrage'
+  const key = `${card.fach}::${card.thema_id}`
+  const candidates = (candidatesByTopic.get(key) ?? [])
+    .filter((candidate) => candidate.id !== card.id)
+    .sort((a, b) => (b.stufe ?? 1) - (a.stufe ?? 1) || a.id.localeCompare(b.id))
+  const introSources = candidates.filter((candidate) => candidate.stufe === 1 && candidate.typ === 'single_choice')
+  const introSource = introSources[hashString(card.id) % Math.max(introSources.length, 1)]
+  const source = introSource ?? candidates[hashString(card.id) % Math.max(candidates.length, 1)]
+  if (!source) {
+    unresolvedWeakCards.push(card.id)
+    continue
+  }
+
+  const sourceOptions = source.antwort_daten?.optionen
+  const sourceCorrectIndex = source.antwort_daten?.richtig_index
+  const correctStatement = sourceOptions?.[sourceCorrectIndex]
+  const supportingCandidates = [
+    source.erklaerung,
+    source.abschlusserklaerung,
+    source.merksatz,
+    source.begriff_erklaerung?.kurz,
+    source.begriff_erklaerung?.pruefungsrelevant
+  ].filter((value) => value && value !== correctStatement)
+  const supportingStatement = supportingCandidates[hashString(`${card.id}:support`) % Math.max(supportingCandidates.length, 1)]
+  const incorrectStatements = sourceOptions?.filter((_, index) => index !== sourceCorrectIndex) ?? []
+
+  if (source.typ === 'single_choice' && correctStatement && supportingStatement && incorrectStatements.length >= 2) {
+    const incorrectShift = hashString(`${card.id}:incorrect`) % incorrectStatements.length
+    const rotatedIncorrect = [...incorrectStatements.slice(incorrectShift), ...incorrectStatements.slice(0, incorrectShift)]
+    const replacementOptions = [correctStatement, supportingStatement, ...rotatedIncorrect.slice(0, 2)]
+    const shift = hashString(card.id) % replacementOptions.length
+    const questionVariants = [
+      `Welche zwei Aussagen erklären „${card.thema}“ fachlich richtig?`,
+      `Welche beiden Aussagen beschreiben „${card.thema}“ fachlich korrekt?`,
+      `Welche zwei Grundsätze zu „${card.thema}“ sind richtig?`,
+      `Welche beiden Aussagen müssen bei „${card.thema}“ beachtet werden?`
+    ]
+    card.typ = 'multiple_choice'
+    card.frage = questionVariants[hashString(`${card.id}:question`) % questionVariants.length]
+    card.antwort_daten = {
+      optionen: [...replacementOptions.slice(shift), ...replacementOptions.slice(0, shift)],
+      richtige_indices: [((0 - shift) % 4 + 4) % 4, ((1 - shift) % 4 + 4) % 4].sort((a, b) => a - b)
+    }
+    card.aufgaben_hinweis = 'Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.'
+    card.erklaerung = `${correctStatement} ${supportingStatement}`
+  } else {
+    card.typ = source.typ
+    card.frage = source.frage
+    card.antwort_daten = JSON.parse(JSON.stringify(source.antwort_daten))
+    card.aufgaben_hinweis = source.aufgaben_hinweis
+    card.erklaerung = source.erklaerung
+      ?? source.abschlusserklaerung
+      ?? 'Die fachlich richtige Lösung ergibt sich aus den Grundsätzen dieses Themas.'
+  }
+  card.abschlusserklaerung = card.erklaerung
+  card.loesungsvorschlag = { kurz: card.erklaerung, warum: card.erklaerung }
+  card.fehlerfallen = []
+  card.merksatz = source.merksatz ?? card.erklaerung
+  card.lernziel = `Eine fachlich konkrete Aufgabe zu ${card.thema} lösen.`
+  card.tags = [...new Set([...(card.tags ?? []), replacementTag])]
+}
+if (unresolvedWeakCards.length) {
+  throw new Error(`Keine fachliche Ersatzfrage gefunden für: ${unresolvedWeakCards.join(', ')}`)
+}
+
+function setSingleChoice(id, {
+  fach,
+  themaId,
+  thema,
+  frage,
+  richtig,
+  falsch,
+  erklaerung
+}) {
+  const card = byId.get(id)
+  if (!card) throw new Error(`Karte für Qualitätskorrektur fehlt: ${id}`)
+  if (fach && themaId && thema) topic(card, fach, themaId, thema)
+  card.typ = 'single_choice'
+  card.frage = frage
+  card.antwort_daten = { optionen: [richtig, ...falsch], richtig_index: 0 }
+  card.erklaerung = erklaerung
+  card.abschlusserklaerung = erklaerung
+  card.loesungsvorschlag = { kurz: erklaerung, warum: erklaerung }
+  card.merksatz = erklaerung
+  card.fehlerfallen = []
+  card.tags = [...new Set([...(card.tags ?? []), 'vollpruefung_2026_07_23'])]
+}
+
+function setMultipleChoice(id, {
+  fach,
+  themaId,
+  thema,
+  frage,
+  richtig,
+  falsch,
+  erklaerung
+}) {
+  const card = byId.get(id)
+  if (!card) throw new Error(`Karte für Qualitätskorrektur fehlt: ${id}`)
+  if (fach && themaId && thema) topic(card, fach, themaId, thema)
+  card.typ = 'multiple_choice'
+  card.frage = frage
+  card.antwort_daten = {
+    optionen: [...richtig, ...falsch],
+    richtige_indices: richtig.map((_, index) => index)
+  }
+  card.aufgaben_hinweis = 'Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.'
+  card.erklaerung = erklaerung
+  card.abschlusserklaerung = erklaerung
+  card.loesungsvorschlag = { kurz: erklaerung, warum: erklaerung }
+  card.merksatz = erklaerung
+  card.fehlerfallen = []
+  card.tags = [...new Set([...(card.tags ?? []), 'vollpruefung_2026_07_23'])]
+}
+
+// Abgeschnittene PDF-Überschriften und reine Themenabfragen werden zu
+// konkreten, lösbaren Lernaufgaben mit einem eindeutigen Lernziel.
+setSingleChoice('finanzwirtschaft_break_even_deckungsbeitrag_stufe1_begriff', {
+  frage: 'Ein Betrieb möchte wissen, ab welcher Absatzmenge weder Gewinn noch Verlust entsteht. Welche Kennzahl wird gesucht?',
+  richtig: 'Die Break-even-Menge.',
+  falsch: ['Der Liquiditätsgrad 2.', 'Die durchschnittliche Lagerdauer.', 'Der Personalaufwand pro Stelle.'],
+  erklaerung: 'Die Break-even-Menge bezeichnet die Absatzmenge, bei der der gesamte Deckungsbeitrag genau die Fixkosten deckt.'
+})
+setSingleChoice('marketing_verkauf_break_even_deckungsbeitrag_stufe1_begriff', {
+  frage: 'Der Verkaufspreis bleibt gleich, die variablen Kosten pro Stück steigen. Was geschieht mit dem Deckungsbeitrag pro Stück?',
+  richtig: 'Er sinkt, weil vom Verkaufspreis höhere variable Kosten abgezogen werden.',
+  falsch: ['Er steigt im gleichen Umfang wie die variablen Kosten.', 'Er bleibt unverändert, weil nur Fixkosten den Deckungsbeitrag beeinflussen.', 'Er wird automatisch zum Reingewinn.'],
+  erklaerung: 'Der Deckungsbeitrag pro Stück ist Verkaufspreis minus variable Stückkosten. Höhere variable Kosten senken ihn bei unverändertem Preis.'
+})
+setSingleChoice('recht_vwl_break_even_deckungsbeitrag_stufe1_formel_2', {
+  frage: 'Ein Produkt wird für CHF 80 verkauft und verursacht CHF 50 variable Kosten pro Stück. Wie hoch ist sein Deckungsbeitrag pro Stück?',
+  richtig: 'CHF 30.',
+  falsch: ['CHF 130.', 'CHF 50.', '37,5 % ohne weitere Berechnung.'],
+  erklaerung: 'CHF 80 Verkaufspreis minus CHF 50 variable Stückkosten ergibt CHF 30 Deckungsbeitrag pro Stück.'
+})
+setSingleChoice('unternehmensfuehrung_break_even_deckungsbeitrag_stufe1_formel_2', {
+  frage: 'Weshalb ist der Deckungsbeitrag pro Stück noch nicht der Gewinn pro Stück?',
+  richtig: 'Weil aus der Summe der Deckungsbeiträge zuerst die Fixkosten gedeckt werden müssen.',
+  falsch: ['Weil der Deckungsbeitrag die variablen Kosten nie berücksichtigt.', 'Weil Gewinn ausschliesslich aus der Bilanzsumme berechnet wird.', 'Weil Fixkosten bei der Gewinnermittlung grundsätzlich keine Rolle spielen.'],
+  erklaerung: 'Erst wenn die gesamten Deckungsbeiträge die Fixkosten übersteigen, entsteht ein Gewinn.'
+})
+setSingleChoice('marketing_verkauf_liquiditaet_mittelfluss_stufe1_begriff', {
+  frage: 'Ein Unternehmen schreibt eine Maschine ab, ohne in diesem Moment Geld zu bezahlen. Wie ist dieser Vorgang einzuordnen?',
+  richtig: 'Als Aufwand ohne unmittelbaren Geldabfluss.',
+  falsch: ['Als Einzahlung ohne Ertrag.', 'Als Auszahlung ohne Aufwand.', 'Als Umsatz mit unmittelbarem Geldzufluss.'],
+  erklaerung: 'Abschreibungen mindern den Erfolg, lösen im Buchungszeitpunkt aber keinen Geldabfluss aus. Erfolg und Mittelfluss sind deshalb zu unterscheiden.'
+})
+setSingleChoice('integrierte_fallstudie_liquiditaet_mittelfluss_stufe1_begriff', {
+  frage: 'Eine Unternehmung erzielt Buchgewinn, kann aber eine heute fällige Lieferantenrechnung nicht bezahlen. Welche Aussage trifft zu?',
+  richtig: 'Sie ist trotz Gewinn nicht ausreichend liquide.',
+  falsch: ['Ein ausgewiesener Gewinn garantiert jederzeit genügend Zahlungsmittel.', 'Die offene Rechnung ist bereits bezahlt, weil sie als Aufwand verbucht wurde.', 'Liquidität und Gewinn bezeichnen immer denselben Wert.'],
+  erklaerung: 'Gewinn misst den periodischen Erfolg, Liquidität die Zahlungsfähigkeit. Nicht zahlungswirksame Erträge oder gebundene Mittel können zu Gewinn bei fehlendem Geld führen.'
+})
+setSingleChoice('finanzwirtschaft_mehrwertsteuer_stufe1_begriff', {
+  frage: 'Ein mehrwertsteuerpflichtiges Unternehmen stellt Kundinnen und Kunden MWST in Rechnung. Welche Aussage ist richtig?',
+  richtig: 'Die vereinnahmte Umsatzsteuer wird mit der abzugsfähigen Vorsteuer verrechnet.',
+  falsch: ['Die gesamte vereinnahmte MWST ist eigener Unternehmensertrag.', 'Vorsteuer darf nur von privaten Endverbrauchern abgezogen werden.', 'MWST verändert immer direkt den Reingewinn um den vollen Steuerbetrag.'],
+  erklaerung: 'Geschuldet ist grundsätzlich die Differenz zwischen Umsatzsteuer und abzugsfähiger Vorsteuer; die MWST ist für das Unternehmen ein Durchlaufposten.'
+})
+setSingleChoice('finanzwirtschaft_mehrwertsteuer_stufe1_formel_1', {
+  frage: 'Eine Rechnung weist Nettobetrag und MWST-Satz aus. Wie wird der Bruttobetrag berechnet?',
+  richtig: 'Nettobetrag × (1 + MWST-Satz als Dezimalzahl).',
+  falsch: ['Nettobetrag ÷ MWST-Satz.', 'Nettobetrag − MWST-Betrag.', 'Nettobetrag × MWST-Satz ohne Addition des Nettobetrags.'],
+  erklaerung: 'Der Bruttobetrag besteht aus Nettobetrag plus MWST. Bei 8,1 % wird der Nettobetrag deshalb mit 1,081 multipliziert.'
+})
+setSingleChoice('marketing_verkauf_kosten_absatzmittler_stufe1_begriff', {
+  frage: 'Ein Hersteller verkauft neu über einen Absatzmittler. Welche Auswirkung muss er in der Kalkulation besonders berücksichtigen?',
+  richtig: 'Die Marge oder Provision des Absatzmittlers vermindert den beim Hersteller verbleibenden Erlös.',
+  falsch: ['Absatzmittler verursachen grundsätzlich keine Vertriebskosten.', 'Der Listenpreis wird automatisch vollständig zum Reingewinn.', 'Die Produktionskosten entfallen, sobald ein Händler eingeschaltet wird.'],
+  erklaerung: 'Absatzmittler übernehmen Vertriebsleistungen, verlangen dafür aber eine Marge oder Provision. Diese muss in Preis- und Deckungsbeitragsrechnung einfliessen.'
+})
+setSingleChoice('problemloesung_entscheidung_fuehrung_personal_stufe1_begriff', {
+  frage: 'Mehrere Mitarbeitende melden gleichzeitig dringende Anliegen. Was ist der erste sinnvolle Schritt?',
+  richtig: 'Die Anliegen nach Dringlichkeit, Wichtigkeit, Frist und möglichen Folgen priorisieren.',
+  falsch: ['Alle Anliegen strikt in Eingangsreihenfolge bearbeiten.', 'Nur das kürzeste Anliegen sofort erledigen.', 'Sämtliche Entscheide bis zum Tagesende aufschieben.'],
+  erklaerung: 'Eine belastbare Priorisierung berücksichtigt Fristen und Folgen. Erst danach werden Aufgaben erledigt, delegiert, terminiert oder verworfen.'
+})
+setSingleChoice('problemloesung_entscheidung_rechtliche_grundlagen_stufe1_begriff', {
+  frage: 'Eine Handlungsoption wäre organisatorisch bequem, könnte aber gegen eine gesetzliche Pflicht verstossen. Wie ist vorzugehen?',
+  richtig: 'Die Rechtsgrundlage und den Sachverhalt prüfen, bevor die Option bewertet oder umgesetzt wird.',
+  falsch: ['Die bequemste Option umsetzen und erst bei einer Beschwerde prüfen.', 'Rechtliche Vorgaben ignorieren, wenn die Massnahme wirtschaftlich attraktiv ist.', 'Nur die persönliche Einschätzung der zuständigen Person dokumentieren.'],
+  erklaerung: 'Rechtliche Muss-Kriterien begrenzen den Entscheidungsraum. Unzulässige Varianten dürfen nicht durch eine gute wirtschaftliche Bewertung legitimiert werden.'
+})
+setSingleChoice('problemloesung_entscheidung_ziele_smart_stufe1_begriff', {
+  frage: 'Welches Ziel ist am ehesten SMART formuliert?',
+  richtig: 'Das Verkaufsteam gewinnt bis 30. September zehn neue aktive Geschäftskunden.',
+  falsch: ['Wir verbessern den Verkauf bald deutlich.', 'Alle Mitarbeitenden sollen motivierter sein.', 'Das Unternehmen wird irgendwann Marktführer.'],
+  erklaerung: 'Das Ziel nennt ein klares Ergebnis, eine messbare Grösse, einen Verantwortungsbereich und einen Termin.'
+})
+setSingleChoice('recht_vwl_sozialpolitik_entwicklung_der_ahv_renten_stufe1_begriff', {
+  frage: 'Weshalb belastet eine alternde Bevölkerung die Finanzierung der AHV im Umlageverfahren?',
+  richtig: 'Weil tendenziell weniger Beitragszahlende mehr oder länger laufende Renten finanzieren müssen.',
+  falsch: ['Weil jede AHV-Rente vollständig aus einem persönlichen Sparkonto stammt.', 'Weil ältere Personen grundsätzlich keine AHV-Rente beziehen dürfen.', 'Weil die AHV ausschliesslich durch Kapitalerträge finanziert wird.'],
+  erklaerung: 'Im Umlageverfahren finanzieren laufende Beiträge grundsätzlich die laufenden Renten. Das Verhältnis von Beitragszahlenden zu Rentenbeziehenden ist deshalb zentral.'
+})
+setSingleChoice('scm_beschaffung_lieferanten_stufe1_begriff', {
+  frage: 'Zwei Lieferanten unterscheiden sich bei Preis, Qualität, Liefertermin und Ausfallrisiko. Wie sollte die Auswahl erfolgen?',
+  richtig: 'Mit gewichteten, nachvollziehbaren Kriterien und einer Beurteilung der Gesamtkosten und Risiken.',
+  falsch: ['Ausschliesslich nach dem tiefsten Stückpreis.', 'Zufällig, sofern beide eine Offerte eingereicht haben.', 'Nur nach der räumlichen Distanz zum eigenen Betrieb.'],
+  erklaerung: 'Eine Lieferantenwahl berücksichtigt neben dem Preis auch Qualität, Termin, Versorgungssicherheit, Konditionen und Folgekosten.'
+})
+
+// Aus abgeschnittenen Fallüberschriften entstehen prüfungsnahe Fallaufgaben.
+setSingleChoice('integrierte_fallstudie_1_der_geschaeftsbericht_ist_gedruckt_und_wurde_an_alle_empfaenger_stufe1_begriff', {
+  fach: 'Integrierte_Fallstudie',
+  themaId: 'fehler_im_geschaeftsbericht',
+  thema: 'Fehler im Geschäftsbericht',
+  frage: 'Nach dem Versand des Geschäftsberichts wird ein wesentlicher Zahlenfehler entdeckt. Was ist zuerst zu tun?',
+  richtig: 'Fehler und Auswirkung verifizieren, zuständige Stellen informieren und das Korrekturvorgehen festlegen.',
+  falsch: ['Den Fehler stillschweigend in der nächsten Ausgabe ändern.', 'Alle Empfänger ohne geprüfte Fakten telefonisch alarmieren.', 'Die zugrunde liegenden Buchungen löschen, damit der Bericht wieder stimmt.'],
+  erklaerung: 'Zuerst müssen Sachverhalt und Wesentlichkeit geklärt werden. Danach folgen abgestimmte Korrektur, transparente Information und saubere Dokumentation.'
+})
+setMultipleChoice('pr2025_integrierte_fallstudie_1_2_thema_stufe3', {
+  fach: 'Integrierte_Fallstudie',
+  themaId: 'fehler_im_geschaeftsbericht',
+  thema: 'Fehler im Geschäftsbericht',
+  frage: 'Welche Massnahmen sind nach einem bestätigten wesentlichen Fehler im bereits versandten Geschäftsbericht sachgerecht?',
+  richtig: ['Korrektur und Auswirkungen nachvollziehbar dokumentieren.', 'Adressaten abgestimmt und transparent über die Berichtigung informieren.'],
+  falsch: ['Den gedruckten Bericht ohne Hinweis unverändert als richtig behandeln.', 'Belege nachträglich anpassen, damit sie zur veröffentlichten Zahl passen.'],
+  erklaerung: 'Eine Berichtigung braucht eine dokumentierte fachliche Grundlage und eine abgestimmte Information der betroffenen Adressaten. Belege dürfen nicht manipuliert werden.'
+})
+setSingleChoice('integrierte_fallstudie_2025_mit_seinen_abteilungsleitenden_und_rolf_stern_vom_stab_problemloesung_vor_a_stufe1_begriff', {
+  fach: 'Integrierte_Fallstudie',
+  themaId: 'entscheidungsprozess_im_fall',
+  thema: 'Entscheidungsprozess im Fall',
+  frage: 'Die Abteilungsleitenden schlagen unterschiedliche Lösungen vor. Was macht den anschliessenden Entscheid nachvollziehbar?',
+  richtig: 'Gemeinsame Kriterien, transparente Gewichtungen und dokumentierte Bewertungen der Varianten.',
+  falsch: ['Die spontane Wahl der ranghöchsten Person ohne Kriterien.', 'Eine Abstimmung, bevor das Problem beschrieben wurde.', 'Die ausschliessliche Betrachtung der billigsten Variante ohne Risiken.'],
+  erklaerung: 'Ein nachvollziehbarer Entscheid trennt Problem, Kriterien, Gewichtung und Variantenbewertung und hält Annahmen sowie Risiken fest.'
+})
+setMultipleChoice('pr2025_integrierte_fallstudie_11_08_thema_stufe3', {
+  fach: 'Integrierte_Fallstudie',
+  themaId: 'entscheidungsprozess_im_fall',
+  thema: 'Entscheidungsprozess im Fall',
+  frage: 'Welche zwei Schritte erhöhen die Qualität einer Nutzwertanalyse im Führungsteam?',
+  richtig: ['Kriterien vor der Bewertung definieren und begründet gewichten.', 'Bewertungen mit Fakten oder transparenten Annahmen begründen.'],
+  falsch: ['Gewichtungen nachträglich an die gewünschte Variante anpassen.', 'Nur Kriterien aufnehmen, bei denen alle Varianten gleich abschneiden.'],
+  erklaerung: 'Kriterien und Gewichtungen müssen vor der Bewertung nachvollziehbar feststehen. Transparente Begründungen machen das Resultat prüfbar.'
+})
+setSingleChoice('integrierte_fallstudie_3_die_abfallentsorgung_der_besucherinnen_und_besucher_bereitet_stufe1_begriff', {
+  fach: 'Integrierte_Fallstudie',
+  themaId: 'abfallentsorgung_besucherbetrieb',
+  thema: 'Abfallentsorgung im Besucherbetrieb',
+  frage: 'Bei einem Besucherbetrieb liegen Abfälle neben überfüllten Sammelstellen. Welche Massnahme ist zuerst fachlich sinnvoll?',
+  richtig: 'Abfallmengen und Spitzenzeiten erfassen und darauf Behälter, Leerungsrhythmus und Beschilderung abstimmen.',
+  falsch: ['Alle Sammelstellen entfernen, damit keine Überfüllung sichtbar ist.', 'Nur häufiger reinigen, ohne Ursache und Abfallmenge zu untersuchen.', 'Abfall vollständig den Besucherinnen und Besuchern privat mitgeben.'],
+  erklaerung: 'Eine tragfähige Lösung verbindet Ursachenanalyse mit Kapazität, Leerungsprozess, verständlicher Trennung und verantwortlichen Stellen.'
+})
+setMultipleChoice('pr2025_integrierte_fallstudie_1_3_thema_stufe3_3', {
+  fach: 'Integrierte_Fallstudie',
+  themaId: 'abfallentsorgung_besucherbetrieb',
+  thema: 'Abfallentsorgung im Besucherbetrieb',
+  frage: 'Welche zwei Kennzahlen helfen zu prüfen, ob das neue Entsorgungskonzept wirkt?',
+  richtig: ['Menge der Fehlwürfe je Abfallfraktion.', 'Anzahl Überfüllungen oder Zusatzleerungen pro Zeitraum.'],
+  falsch: ['Farbe der Arbeitskleidung des Reinigungsteams.', 'Anzahl verkaufter Eintrittskarten ohne Bezug zur Abfallmenge.'],
+  erklaerung: 'Fehlwürfe messen die Trennqualität, Überfüllungen die Kapazitäts- und Prozessqualität. Beide Kennzahlen zeigen konkrete Verbesserungen.'
+})
+setSingleChoice('integrierte_fallstudie_4_der_tierarzt_raet_dringend_alle_unseren_beherbergten_europaei_stufe1_begriff', {
+  fach: 'Integrierte_Fallstudie',
+  themaId: 'impfstoffbeschaffung_wildtiere',
+  thema: 'Impfstoffbeschaffung für Wildtiere',
+  frage: 'Ein Tierarzt empfiehlt dringend einen nur im Ausland verfügbaren Impfstoff. Was ist vor der Bestellung zuerst abzuklären?',
+  richtig: 'Bedarf und Dosierung sowie Zulassung, Lieferzeit, Kühlkette und Bezugsrisiken.',
+  falsch: ['Nur die Farbe der Verpackung.', 'Ausschliesslich der Listenpreis ohne Transport- und Ausfallrisiko.', 'Die Bestellung ohne Mengenberechnung und ohne tierärztliche Vorgaben.'],
+  erklaerung: 'Bei kritischen Tierarzneimitteln müssen medizinischer Bedarf, rechtliche Zulässigkeit und sichere Beschaffung gemeinsam geprüft werden.'
+})
+setMultipleChoice('pr2025_integrierte_fallstudie_1_3_thema_stufe3_4', {
+  fach: 'Integrierte_Fallstudie',
+  themaId: 'impfstoffbeschaffung_wildtiere',
+  thema: 'Impfstoffbeschaffung für Wildtiere',
+  frage: 'Welche zwei Risiken sind bei der internationalen Beschaffung eines temperaturempfindlichen Impfstoffs besonders zu steuern?',
+  richtig: ['Unterbruch der Kühlkette während Transport oder Lagerung.', 'Lieferverzug bei knappem Behandlungszeitfenster.'],
+  falsch: ['Zu viele frei wählbare Schriftarten auf der Rechnung.', 'Eine längere interne Artikelnummer ohne Einfluss auf das Produkt.'],
+  erklaerung: 'Temperaturabweichungen können die Wirksamkeit gefährden; Verzögerungen können die rechtzeitige Behandlung verhindern.'
+})
+
+for (const [id, values] of Object.entries({
+  problemloesung_entscheidung_2024_um_12_05_uhr_stufe1_begriff: {
+    frage: 'Um 12:05 Uhr trifft eine Meldung über lange Wartezeiten an der Flughafensicherheit ein. Wie wird sie im Postkorb richtig behandelt?',
+    richtig: 'Relevanz für geplante Reisen und Zeitreserve prüfen; nur bei konkreter Betroffenheit eine Massnahme terminieren.',
+    falsch: ['Unabhängig vom eigenen Kalender sofort alle Arbeiten abbrechen.', 'Die Meldung ungeprüft als höchste betriebliche Eskalation behandeln.', 'Die Information löschen, auch wenn heute eine Flugreise geplant ist.'],
+    erklaerung: 'Eine reine Information wird erst durch konkrete Betroffenheit, Frist und Folgen zur Aufgabe.'
+  },
+  problemloesung_entscheidung_2025_um_06_44_uhr_stufe1_begriff: {
+    frage: 'Um 06:44 Uhr wird gemeldet, dass die heutige Lohnzahlung gestoppt ist und vor 08:30 Uhr freigegeben werden muss. Wie ist zu priorisieren?',
+    richtig: 'Sofort als dringend und wichtig bearbeiten oder an eine entscheidungsbefugte Person eskalieren.',
+    falsch: ['Bis zum nächsten regulären Teamsitzungstermin warten.', 'Zuerst alle Aufgaben ohne Frist erledigen.', 'Nur ablegen, weil die Meldung vor Arbeitsbeginn einging.'],
+    erklaerung: 'Nahe Frist und erhebliche Folgen für Mitarbeitende machen den Vorgang dringend und wichtig.'
+  },
+  problemloesung_entscheidung_2025_um_07_00_uhr_stufe1_begriff: {
+    frage: 'Um 07:00 Uhr erinnert das System an die Freigabe der Zeiterfassung bis 14:00 Uhr. Eine gestoppte Lohnzahlung muss bis 08:30 Uhr gelöst werden. Was ist richtig?',
+    richtig: 'Zuerst die Lohnzahlung sichern und die Zeiterfassung danach verbindlich vor 14:00 Uhr einplanen.',
+    falsch: ['Die Zeiterfassung sofort erledigen und die Lohnzahlung bis morgen verschieben.', 'Beide Aufgaben ignorieren, weil es Systemmeldungen sind.', 'Nur die Aufgabe mit dem längeren Text bearbeiten.'],
+    erklaerung: 'Beide Aufgaben sind wichtig, aber die Lohnzahlung hat die frühere Frist und gravierendere Folgen.'
+  }
+})) {
+  setSingleChoice(id, {
+    fach: 'Problemloesung_Entscheidung',
+    themaId: 'postkorb_priorisierung',
+    thema: 'Postkorb / Priorisierung',
+    ...values
+  })
+}
+setMultipleChoice('pr2024_problemloesung_entscheidung_20_08_thema_stufe3_3', {
+  fach: 'Problemloesung_Entscheidung',
+  themaId: 'postkorb_priorisierung',
+  thema: 'Postkorb / Priorisierung',
+  frage: 'Welche Kriterien entscheiden, ob eine eingehende Information im Postkorb sofortiges Handeln verlangt?',
+  richtig: ['Konkrete Frist und Folgen einer Verzögerung.', 'Eigene Zuständigkeit oder notwendige Eskalation.'],
+  falsch: ['Die Uhrzeit allein, ohne Inhalt und Betroffenheit.', 'Die Länge der Nachricht als einziges Kriterium.'],
+  erklaerung: 'Priorität ergibt sich aus Wichtigkeit, Dringlichkeit, Folgen und Zuständigkeit – nicht aus Uhrzeit oder Textlänge allein.'
+})
+setMultipleChoice('pr2025_problemloesung_entscheidung_19_08_thema_stufe3', {
+  fach: 'Problemloesung_Entscheidung',
+  themaId: 'postkorb_priorisierung',
+  thema: 'Postkorb / Priorisierung',
+  frage: 'Welche zwei Handlungen sind bei einer blockierten Lohnzahlung mit naher Bankfrist angemessen?',
+  richtig: ['Zahlungsstatus und Ursache sofort klären.', 'Bei fehlender eigener Kompetenz unverzüglich entscheidungsbefugt eskalieren.'],
+  falsch: ['Den Vorgang bis nach Fristablauf ablegen.', 'Zuerst eine langfristige Prozessanalyse abschliessen, bevor akut gehandelt wird.'],
+  erklaerung: 'Zuerst wird der akute Schaden verhindert; Ursachenanalyse und Prozessverbesserung folgen anschliessend.'
+})
+setMultipleChoice('pr2025_problemloesung_entscheidung_19_08_thema_stufe3_2', {
+  fach: 'Problemloesung_Entscheidung',
+  themaId: 'postkorb_priorisierung',
+  thema: 'Postkorb / Priorisierung',
+  frage: 'Welche zwei Schritte sichern die fristgerechte Zeiterfassungsfreigabe, wenn gleichzeitig dringendere Aufgaben bestehen?',
+  richtig: ['Einen realistischen Bearbeitungszeitpunkt vor 14:00 Uhr reservieren.', 'Falls nötig rechtzeitig delegieren und die Erledigung kontrollieren.'],
+  falsch: ['Die Frist ignorieren, solange eine dringendere Aufgabe existiert.', 'Ohne Prüfung alle anderen Aufgaben abbrechen.'],
+  erklaerung: 'Eine wichtige, aber später fällige Aufgabe wird verbindlich terminiert oder delegiert und anschliessend kontrolliert.'
+})
+
+// Gleiche Formeln werden in unterschiedlichen Anwendungssituationen geprüft.
+setSingleChoice('finanzwirtschaft_lager_lagerkennzahlen_stufe1_formel_1', {
+  frage: 'Der Warenaufwand bleibt gleich, der durchschnittliche Lagerbestand sinkt. Was geschieht mit dem Lagerumschlag?',
+  richtig: 'Er steigt.',
+  falsch: ['Er sinkt.', 'Er bleibt zwingend gleich.', 'Er wird automatisch null.'],
+  erklaerung: 'Lagerumschlag = Warenaufwand ÷ durchschnittlicher Lagerbestand. Bei kleinerem Nenner steigt die Kennzahl.'
+})
+setSingleChoice('marketing_verkauf_lager_lagerkennzahlen_stufe1_formel_1', {
+  frage: 'Ein Lagerumschlag von 8 bedeutet vereinfacht, dass der durchschnittliche Lagerbestand im betrachteten Zeitraum wie oft umgesetzt wurde?',
+  richtig: 'Achtmal.',
+  falsch: ['Einmal.', 'Achtzigmal.', 'Gar nicht.'],
+  erklaerung: 'Der Lagerumschlag zeigt, wie oft der durchschnittliche Bestand durch den Warenverbrauch beziehungsweise -aufwand umgesetzt wurde.'
+})
+setSingleChoice('finanzwirtschaft_lager_lagerkennzahlen_stufe1_formel_2', {
+  frage: 'Der Lagerumschlag steigt bei gleicher Jahresbasis. Was geschieht mit der durchschnittlichen Lagerdauer?',
+  richtig: 'Sie sinkt.',
+  falsch: ['Sie steigt immer gleich stark.', 'Sie bleibt unverändert.', 'Sie entspricht danach dem Warenaufwand.'],
+  erklaerung: 'Lagerdauer = 360 Tage ÷ Lagerumschlag. Ein höherer Umschlag verkürzt deshalb die durchschnittliche Lagerdauer.'
+})
+setSingleChoice('marketing_verkauf_lager_lagerkennzahlen_stufe1_formel_2', {
+  frage: 'Ein Artikel hat einen Lagerumschlag von 6. Welche durchschnittliche Lagerdauer ergibt sich bei einer 360-Tage-Basis?',
+  richtig: '60 Tage.',
+  falsch: ['6 Tage.', '360 Tage.', '2 160 Tage.'],
+  erklaerung: '360 Tage geteilt durch den Lagerumschlag 6 ergibt eine durchschnittliche Lagerdauer von 60 Tagen.'
+})
+
+// Mehrfachauswahlen brauchen mindestens eine plausible falsche Aussage; sonst
+// kann die Aufgabe ohne fachliche Unterscheidung durch „alles auswählen“ gelöst werden.
+const multipleChoiceDistractors = {
+  pr2022_finanzwirtschaft_1_10_choice_stufe3: 'Die private Mobiltelefonnummer der zuständigen Sachbearbeitung.',
+  pr2023_personalmanagement_1_12_choice_stufe3: 'Planen Sie in den nächsten zwei Jahren eine Schwangerschaft?',
+  pr2024_personalmanagement_1_12_choice_stufe3: 'Nach der Einladung braucht es weder Lernziele noch eine Erfolgskontrolle.',
+  pr2025_personalmanagement_1_10_choice_stufe3: 'Entscheid über die eigene Lohnerhöhung der Teamleiterin.',
+  pr2022_recht_vwl_1_10_choice_stufe3: 'Eigentum an einem Grundstück.',
+  pr2023_scm_1_10_choice_stufe3: 'Verpflichtung, bei jeder Bestellung ausschliesslich den billigsten Anbieter zu wählen.',
+  pr2024_scm_1_11_choice_stufe3: 'Der Lieferant darf Verstösse verschweigen, solange noch keine Behörde davon erfahren hat.',
+  pr2022_scm_1_7_choice_stufe3: 'Eine Inventur macht die laufende Lagerbuchführung vollständig überflüssig.',
+  pr2022_scm_1_9_choice_stufe3: 'Eine sinkende Marktnachfrage erhöht automatisch die physische Tragfähigkeit der Lagerregale.',
+  pr2023_scm_1_7_choice_stufe3: 'Die Fortschrittskontrolle wird erst nach Produktionsabschluss durchgeführt und benötigt keine Zielgrössen.',
+  pr2024_scm_1_10_choice_stufe3: 'Werbeslogan.',
+  pr2024_scm_1_9_choice_stufe3: 'Private Ferienplanung der Geschäftsleitung.',
+  pr2024_scm_1_7_choice_stufe3: 'Zufällige Reihenfolge der Arbeitsgänge ohne Kapazitätsprüfung.',
+  pr2023_unternehmensfuehrung_1_9_choice_stufe3: 'Private Freizeitpläne der Mitarbeitenden ohne Bezug zum Investitionsprojekt.',
+  pr2025_unternehmensfuehrung_1_12_choice_stufe3: 'Farbe der Büroeinrichtung unabhängig vom KI-Einsatz.',
+  pr2024_unternehmensfuehrung_1_9_choice_stufe3: '«R» – Rechtskräftig.'
+}
+for (const [id, distractor] of Object.entries(multipleChoiceDistractors)) {
+  const card = byId.get(id)
+  if (!card || card.typ !== 'multiple_choice') throw new Error(`Mehrfachauswahl für Distraktor fehlt: ${id}`)
+  if (!card.antwort_daten.optionen.includes(distractor)) card.antwort_daten.optionen.push(distractor)
+}
+
 // Amtlich geprüfte Rechtsnachweise; Fragen selbst bleiben ohne Artikelnummern.
 const legalRules = [
   [/Mängelrüge|Kaufsache|erhebliche Mängel/i, [{ gesetz: 'OR', artikel: '201', absatz: '1', hinweis: 'Prüfungs- und Rügepflicht' }, { gesetz: 'OR', artikel: '205', absatz: '1', hinweis: 'Wandelung oder Minderung' }]],
@@ -332,13 +895,79 @@ const legalRules = [
   [/Entstehungsgründe einer Obligation|ungerechtfertigte Bereicherung/i, [{ gesetz: 'OR', artikel: '1', absatz: '1', hinweis: 'Vertrag' }, { gesetz: 'OR', artikel: '41', absatz: '1', hinweis: 'Unerlaubte Handlung' }, { gesetz: 'OR', artikel: '62', absatz: '1', hinweis: 'Ungerechtfertigte Bereicherung' }]]
 ]
 
+function buildLearningExplanation(card) {
+  const data = card.antwort_daten ?? {}
+  const intro = String(card.begriff_erklaerung?.kurz ?? '').trim()
+  let solution = ''
+  if (card.typ === 'single_choice') solution = `Fachlich richtig ist: ${data.optionen?.[data.richtig_index] ?? ''}`
+  else if (card.typ === 'multiple_choice') solution = `Fachlich richtig sind: ${(data.richtige_indices ?? []).map((index) => data.optionen?.[index]).filter(Boolean).join('; ')}`
+  else if (card.typ === 'reihenfolge') solution = `Die richtige Reihenfolge lautet: ${(data.richtige_reihenfolge ?? []).map((index) => data.items?.[index]).filter(Boolean).join(' → ')}`
+  else if (card.typ === 'zuordnung') solution = `Die korrekten Zuordnungen sind: ${(data.richtige_paare ?? []).map(([left, right]) => `${data.links?.[left]} → ${data.rechts?.[right]}`).join('; ')}`
+  else if (card.typ === 'formel_luecke_mc') solution = `Die Formel wird ergänzt mit: ${(data.luecken_mc ?? []).map((gap) => gap.richtig ?? gap.optionen?.[gap.richtig_index]).filter(Boolean).join('; ')}`
+  else if (card.typ === 'formel_builder') solution = `Die fachlich richtige Formel lautet: ${data.formel ?? ''}`
+  const context = intro && !solution.includes(intro) ? ` ${intro}` : ''
+  return `${solution}.${context}`.replace(/\.\./g, '.').trim()
+}
+
 for (const card of cards) {
   const text = `${card.frage ?? ''} ${card.thema ?? ''}`
   const references = legalRules.find(([pattern]) => pattern.test(text))?.[1]
   if (references) card.rechtsgrundlage = references
+  if (card.typ === 'zuordnung') {
+    const rightIndices = (card.antwort_daten?.richtige_paare ?? []).map(([, right]) => right)
+    if (new Set(rightIndices).size < rightIndices.length) card.antwort_daten.mehrfachverwendung = true
+  }
+  if (/Antwort gemäss offiziellem|Aus den offiziellen Lösungshinweisen verdichtet|Automatisch aus der Prüfungsüberschrift/i.test(card.erklaerung ?? '')) {
+    const explanation = buildLearningExplanation(card)
+    card.erklaerung = explanation
+    card.abschlusserklaerung = explanation
+    card.loesungsvorschlag = { kurz: explanation, warum: explanation }
+    card.merksatz = explanation
+  }
   card.frage = String(card.frage)
     .replace(/\b(OR|ZGB|ArG|UVG|MWSTG)\s*(?:Art\.?|Artikel)\s*\d+[a-z]?(?:\s*(?:Abs\.?|Absatz)\s*\d+)?/gi, '$1')
     .replace(/(?:Art\.?|Artikel)\s*\d+[a-z]?(?:\s*(?:Abs\.?|Absatz)\s*\d+)?\s*(OR|ZGB|ArG|UVG|MWSTG)\b/gi, '$1')
+}
+
+// Antwortpositionen werden reproduzierbar verteilt; bei Stufe 1 darf die richtige Antwort
+// nicht zusätzlich durch die längste Formulierung verraten werden.
+const misconceptionTails = {
+  Finanzwirtschaft: 'Dabei werden Zahlungszeitpunkt, Kostenstruktur und Kapitalbindung fälschlich als gleichbedeutend behandelt.',
+  Marketing_Verkauf: 'Dabei werden Markt, Zielgruppe und Kundenbedürfnisse fälschlich als unveränderlich behandelt.',
+  Personalmanagement: 'Dabei werden rechtliche Rahmenbedingungen, die individuelle Situation und betriebliche Folgen fälschlich gleichgesetzt.',
+  Problemloesung_Entscheidung: 'Dabei wird die Methode fälschlich unabhängig von Ziel, Datenlage und möglichen Risiken gewählt.',
+  Recht_VWL: 'Dabei werden gesetzliche Voraussetzungen, Fristen und der konkrete Sachverhalt fälschlich nicht unterschieden.',
+  SCM: 'Dabei werden Bestände, Lieferzeit, Qualität und Gesamtkosten fälschlich unabhängig von der Beschaffungssituation gleichgesetzt.',
+  Unternehmensfuehrung: 'Dabei werden Anspruchsgruppen, Ressourcen und langfristige Auswirkungen fälschlich als nicht entscheidungsrelevant behandelt.',
+  Integrierte_Fallstudie: 'Dabei werden Ausgangslage, Wechselwirkungen und langfristige Folgen fälschlich nicht gemeinsam beurteilt.'
+}
+const answerPositionCounters = new Map()
+for (const card of [...cards].sort((a, b) => a.id.localeCompare(b.id))) {
+  if (card.typ !== 'single_choice' || !Array.isArray(card.antwort_daten?.optionen)) continue
+  const data = card.antwort_daten
+  const optionCount = data.optionen.length
+  const counterKey = `${optionCount}:${card.stufe === 1 ? 'stufe1' : 'weitere'}`
+  const counter = answerPositionCounters.get(counterKey) ?? 0
+  const targetIndex = counter % optionCount
+  answerPositionCounters.set(counterKey, counter + 1)
+
+  const correct = data.optionen[data.richtig_index]
+  const incorrect = data.optionen.filter((_, index) => index !== data.richtig_index)
+  const reordered = [...incorrect]
+  reordered.splice(targetIndex, 0, correct)
+  data.optionen = reordered
+  data.richtig_index = targetIndex
+
+  if (optionCount < 2) continue
+  const correctLength = String(data.optionen[targetIndex]).length
+  const longestIncorrect = Math.max(...data.optionen.map((option, index) => index === targetIndex ? 0 : String(option).length))
+  if (correctLength < longestIncorrect) continue
+  const distractorIndex = (targetIndex + 1) % optionCount
+  const tail = misconceptionTails[card.fach] ?? misconceptionTails.Integrierte_Fallstudie
+  data.optionen[distractorIndex] = `${String(data.optionen[distractorIndex]).replace(/[.!?]\s*$/, '')}. ${tail}`
+  if (String(data.optionen[distractorIndex]).length <= correctLength) {
+    data.optionen[distractorIndex] += ' Diese pauschale Annahme gilt unabhängig vom konkreten Fall und führt deshalb zu einer falschen Beurteilung.'
+  }
 }
 
 function counts(items, key) {
@@ -352,7 +981,7 @@ function counts(items, key) {
 function metaFor(items, originalMeta) {
   return {
     ...originalMeta,
-    aktualisiert_am: '2026-07-18',
+    aktualisiert_am: '2026-07-23',
     anzahl_karten: items.length,
     anzahl_themen_gruppiert: new Set(items.map((card) => `${card.fach}::${card.thema_id}`)).size,
     kartentypen: counts(items, 'typ'),
