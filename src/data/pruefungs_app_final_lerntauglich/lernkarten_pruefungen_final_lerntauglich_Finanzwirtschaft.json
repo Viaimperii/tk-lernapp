@@ -10,12 +10,12 @@
     "anzahl_themen_gruppiert": 39,
     "kartentypen": {
       "single_choice": 107,
-      "multiple_choice": 73,
+      "multiple_choice": 72,
       "formel_builder": 15,
       "buchungssatz_builder": 1,
+      "zahlen_eingabe": 5,
       "zuordnung": 1,
       "formel_luecke_mc": 4,
-      "zahlen_eingabe": 4,
       "reihenfolge": 7
     },
     "stufen": {
@@ -1352,22 +1352,16 @@
       "fach": "Finanzwirtschaft",
       "quelle_id": "2025:Finanzwirtschaft:3.3",
       "quelle_pdf": "2025/Aufgaben/Finanzen_Aufgaben_2025.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Betriebsbuchhaltung lösen.",
-      "typ": "multiple_choice",
-      "frage": "Welche beiden Aussagen müssen bei „Betriebsbuchhaltung“ beachtet werden?",
+      "lernziel": "Aus einem vollständigen BAB-Ausschnitt Selbstkosten und Gewinn eines Kostenträgers berechnen.",
+      "typ": "zahlen_eingabe",
+      "frage": "BAB der Häberli AG, Beträge in CHF 1’000: Herstellkosten Mäher 1’045, Verwaltungs- und Vertriebsgemeinkosten Mäher 209, Nettoerlös Mäher 1’881. Berechne den Gewinn der Mäher.",
       "antwort_daten": {
-        "optionen": [
-          "Sie erfasst nur die Löhne der Belegschaft. Dabei werden Zahlungszeitpunkt, Kostenstruktur und Kapitalbindung fälschlich als gleichbedeutend behandelt.",
-          "Sie berechnet über Kostenstellen- und Kostenträgerrechnung die Selbstkosten von Produkten und Aufträgen für interne Entscheidungen.",
-          "Die Betriebsbuchhaltung berechnet über Kostenstellen- und Kostenträgerrechnung die Selbstkosten für interne Entscheidungen.",
-          "Sie ist ausschliesslich für die Mehrwertsteuerabrechnung zuständig."
-        ],
-        "richtige_indices": [
-          1,
-          2
-        ]
+        "richtiger_wert": 627,
+        "toleranz": 0,
+        "einheit": "TCHF",
+        "rundung": "Ohne Dezimalstellen"
       },
-      "erklaerung": "Sie berechnet über Kostenstellen- und Kostenträgerrechnung die Selbstkosten von Produkten und Aufträgen für interne Entscheidungen. Die Betriebsbuchhaltung berechnet über Kostenstellen- und Kostenträgerrechnung die Selbstkosten für interne Entscheidungen.",
+      "erklaerung": "Selbstkosten Mäher: 1’045 + 209 = 1’254 TCHF. Gewinn: 1’881 − 1’254 = 627 TCHF.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -1379,7 +1373,9 @@
         "Betriebsbuchhaltung",
         "stufe3",
         "lerntauglich",
-        "fachfrage_statt_metafrage"
+        "fachfrage_statt_metafrage",
+        "vollstaendige_ausgangslage",
+        "bab_berechnung"
       ],
       "thema_id": "betriebsbuchhaltung",
       "thema": "Betriebsbuchhaltung",
@@ -1390,8 +1386,8 @@
         "aufgabe": "2025:Finanzwirtschaft:3.3"
       },
       "begriff_erklaerung": {
-        "kurz": "Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
+        "kurz": "Im Betriebsabrechnungsbogen werden Kostenstellen entlastet und die Gemeinkosten den Kostenträgern zugerechnet.",
+        "pruefungsrelevant": "Für den Kostenträger gilt: Selbstkosten = Herstellkosten + Verwaltungs- und Vertriebsgemeinkosten; Gewinn = Nettoerlös − Selbstkosten."
       },
       "loesungsvorschlag": {
         "kurz": "Sie berechnet über Kostenstellen- und Kostenträgerrechnung die Selbstkosten von Produkten und Aufträgen für interne Entscheidungen. Die Betriebsbuchhaltung berechnet über Kostenstellen- und Kostenträgerrechnung die Selbstkosten für interne Entscheidungen.",
@@ -1408,9 +1404,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Finanzbuchhaltung schaut nach aussen, Betriebsbuchhaltung schaut nach innen.",
-      "abschlusserklaerung": "Sie berechnet über Kostenstellen- und Kostenträgerrechnung die Selbstkosten von Produkten und Aufträgen für interne Entscheidungen. Die Betriebsbuchhaltung berechnet über Kostenstellen- und Kostenträgerrechnung die Selbstkosten für interne Entscheidungen.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit."
+      "merksatz": "Nettoerlös minus Selbstkosten ergibt den Gewinn.",
+      "abschlusserklaerung": "Der positive Gewinn von 627 TCHF zeigt, dass der Nettoerlös die vollständigen Selbstkosten dieses Kostenträgers deckt.",
+      "aufgaben_hinweis": "Berechne zuerst die Selbstkosten und ziehe sie danach vom Nettoerlös ab."
     },
     {
       "id": "finanzwirtschaft_bilanzanalyse_stufe1_begriff",
@@ -3159,7 +3155,7 @@
         ],
         "richtig_index": 2
       },
-      "erklaerung": "Fachlich richtig ist: Das ist korrekt. Es gibt jedoch verschiedene Deckungsbeitragsstufen. In der zweiten \nStufe werden üblicherweise auch die fixen, produktespezifischen Kosten abgezogen. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
+      "erklaerung": "Fachlich richtig ist: Das ist korrekt. Es gibt jedoch verschiedene Deckungsbeitragsstufen. In der zweiten Stufe werden üblicherweise auch die fixen, produktespezifischen Kosten abgezogen. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -3185,8 +3181,8 @@
         "pruefungsrelevant": "Beim Break-even wird geprüft, ab welcher Menge oder welchem Umsatz die Fixkosten gedeckt sind."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Das ist korrekt. Es gibt jedoch verschiedene Deckungsbeitragsstufen. In der zweiten \nStufe werden üblicherweise auch die fixen, produktespezifischen Kosten abgezogen. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
-        "warum": "Fachlich richtig ist: Das ist korrekt. Es gibt jedoch verschiedene Deckungsbeitragsstufen. In der zweiten \nStufe werden üblicherweise auch die fixen, produktespezifischen Kosten abgezogen. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt."
+        "kurz": "Fachlich richtig ist: Das ist korrekt. Es gibt jedoch verschiedene Deckungsbeitragsstufen. In der zweiten Stufe werden üblicherweise auch die fixen, produktespezifischen Kosten abgezogen. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
+        "warum": "Fachlich richtig ist: Das ist korrekt. Es gibt jedoch verschiedene Deckungsbeitragsstufen. In der zweiten Stufe werden üblicherweise auch die fixen, produktespezifischen Kosten abgezogen. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt."
       },
       "fehlerfallen": [
         "Fixkosten statt variable Kosten vom Preis abziehen.",
@@ -3203,8 +3199,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Das ist korrekt. Es gibt jedoch verschiedene Deckungsbeitragsstufen. In der zweiten \nStufe werden üblicherweise auch die fixen, produktespezifischen Kosten abgezogen. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
-      "abschlusserklaerung": "Fachlich richtig ist: Das ist korrekt. Es gibt jedoch verschiedene Deckungsbeitragsstufen. In der zweiten \nStufe werden üblicherweise auch die fixen, produktespezifischen Kosten abgezogen. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt."
+      "merksatz": "Fachlich richtig ist: Das ist korrekt. Es gibt jedoch verschiedene Deckungsbeitragsstufen. In der zweiten Stufe werden üblicherweise auch die fixen, produktespezifischen Kosten abgezogen. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
+      "abschlusserklaerung": "Fachlich richtig ist: Das ist korrekt. Es gibt jedoch verschiedene Deckungsbeitragsstufen. In der zweiten Stufe werden üblicherweise auch die fixen, produktespezifischen Kosten abgezogen. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt."
     },
     {
       "id": "pr2023_finanzwirtschaft_3_1_loesungspunkte_stufe3",
@@ -3751,7 +3747,7 @@
         ],
         "richtig_index": 3
       },
-      "erklaerung": "Fachlich richtig ist: Ich weise den Controller auf diesen Umstand hin und schlage eine Koordinationssitzung \nmit den verantwortlichen Personen vor. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden.",
+      "erklaerung": "Fachlich richtig ist: Ich weise den Controller auf diesen Umstand hin und schlage eine Koordinationssitzung mit den verantwortlichen Personen vor. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -3777,8 +3773,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Ich weise den Controller auf diesen Umstand hin und schlage eine Koordinationssitzung \nmit den verantwortlichen Personen vor. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden.",
-        "warum": "Fachlich richtig ist: Ich weise den Controller auf diesen Umstand hin und schlage eine Koordinationssitzung \nmit den verantwortlichen Personen vor. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden."
+        "kurz": "Fachlich richtig ist: Ich weise den Controller auf diesen Umstand hin und schlage eine Koordinationssitzung mit den verantwortlichen Personen vor. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden.",
+        "warum": "Fachlich richtig ist: Ich weise den Controller auf diesen Umstand hin und schlage eine Koordinationssitzung mit den verantwortlichen Personen vor. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden."
       },
       "fehlerfallen": [
         "Vertragsarten verwechseln.",
@@ -3795,8 +3791,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Ich weise den Controller auf diesen Umstand hin und schlage eine Koordinationssitzung \nmit den verantwortlichen Personen vor. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden.",
-      "abschlusserklaerung": "Fachlich richtig ist: Ich weise den Controller auf diesen Umstand hin und schlage eine Koordinationssitzung \nmit den verantwortlichen Personen vor. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden."
+      "merksatz": "Fachlich richtig ist: Ich weise den Controller auf diesen Umstand hin und schlage eine Koordinationssitzung mit den verantwortlichen Personen vor. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden.",
+      "abschlusserklaerung": "Fachlich richtig ist: Ich weise den Controller auf diesen Umstand hin und schlage eine Koordinationssitzung mit den verantwortlichen Personen vor. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden."
     },
     {
       "id": "formel_ebit_marge_stufe1",
@@ -4693,7 +4689,7 @@
         ],
         "richtig_index": 2
       },
-      "erklaerung": "Fachlich richtig ist: Anlässlich der regelmässigen Kundenbesuche wird der Bedarf im Budgetjahr abge-\nschätzt. Auf der Grundlage der bisherigen Absatz- und Umsatzauswertungen sowie der \nGespräche wird für jeden Kunden ein Quartalsbudget erstellt. Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
+      "erklaerung": "Fachlich richtig ist: Anlässlich der regelmässigen Kundenbesuche wird der Bedarf im Budgetjahr abge-\nschätzt. Auf der Grundlage der bisherigen Absatz- und Umsatzauswertungen sowie der Gespräche wird für jeden Kunden ein Quartalsbudget erstellt. Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -4719,8 +4715,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Anlässlich der regelmässigen Kundenbesuche wird der Bedarf im Budgetjahr abge-\nschätzt. Auf der Grundlage der bisherigen Absatz- und Umsatzauswertungen sowie der \nGespräche wird für jeden Kunden ein Quartalsbudget erstellt. Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
-        "warum": "Fachlich richtig ist: Anlässlich der regelmässigen Kundenbesuche wird der Bedarf im Budgetjahr abge-\nschätzt. Auf der Grundlage der bisherigen Absatz- und Umsatzauswertungen sowie der \nGespräche wird für jeden Kunden ein Quartalsbudget erstellt. Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST."
+        "kurz": "Fachlich richtig ist: Anlässlich der regelmässigen Kundenbesuche wird der Bedarf im Budgetjahr abge-\nschätzt. Auf der Grundlage der bisherigen Absatz- und Umsatzauswertungen sowie der Gespräche wird für jeden Kunden ein Quartalsbudget erstellt. Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
+        "warum": "Fachlich richtig ist: Anlässlich der regelmässigen Kundenbesuche wird der Bedarf im Budgetjahr abge-\nschätzt. Auf der Grundlage der bisherigen Absatz- und Umsatzauswertungen sowie der Gespräche wird für jeden Kunden ein Quartalsbudget erstellt. Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST."
       },
       "fehlerfallen": [
         "Falsche Zuschlagsbasis verwenden.",
@@ -4737,8 +4733,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Anlässlich der regelmässigen Kundenbesuche wird der Bedarf im Budgetjahr abge-\nschätzt. Auf der Grundlage der bisherigen Absatz- und Umsatzauswertungen sowie der \nGespräche wird für jeden Kunden ein Quartalsbudget erstellt. Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
-      "abschlusserklaerung": "Fachlich richtig ist: Anlässlich der regelmässigen Kundenbesuche wird der Bedarf im Budgetjahr abge-\nschätzt. Auf der Grundlage der bisherigen Absatz- und Umsatzauswertungen sowie der \nGespräche wird für jeden Kunden ein Quartalsbudget erstellt. Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST."
+      "merksatz": "Fachlich richtig ist: Anlässlich der regelmässigen Kundenbesuche wird der Bedarf im Budgetjahr abge-\nschätzt. Auf der Grundlage der bisherigen Absatz- und Umsatzauswertungen sowie der Gespräche wird für jeden Kunden ein Quartalsbudget erstellt. Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
+      "abschlusserklaerung": "Fachlich richtig ist: Anlässlich der regelmässigen Kundenbesuche wird der Bedarf im Budgetjahr abge-\nschätzt. Auf der Grundlage der bisherigen Absatz- und Umsatzauswertungen sowie der Gespräche wird für jeden Kunden ein Quartalsbudget erstellt. Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST."
     },
     {
       "id": "pr2025_finanzwirtschaft_2_3_loesungspunkte_stufe3",
@@ -4969,7 +4965,7 @@
           2
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Die Fremdfinanzierung führt zu regelmässigen Zins- und Rückzahlungsverpflichtungen, \nwodurch die Liquidität des Unternehmens belastet werden kann.; Die Eigenfinanzierung erhöht die Eigenkapitalquote und stärkt die finanzielle Stabilität \neines Unternehmens.; Die Innenfinanzierung ist unabhängig von externen Kapitalgebern und mindert damit das \nRisiko der Fremdbestimmung. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+      "erklaerung": "Fachlich richtig sind: Die Fremdfinanzierung führt zu regelmässigen Zins- und Rückzahlungsverpflichtungen, wodurch die Liquidität des Unternehmens belastet werden kann.; Die Eigenfinanzierung erhöht die Eigenkapitalquote und stärkt die finanzielle Stabilität eines Unternehmens.; Die Innenfinanzierung ist unabhängig von externen Kapitalgebern und mindert damit das Risiko der Fremdbestimmung. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -4995,8 +4991,8 @@
         "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Die Fremdfinanzierung führt zu regelmässigen Zins- und Rückzahlungsverpflichtungen, \nwodurch die Liquidität des Unternehmens belastet werden kann.; Die Eigenfinanzierung erhöht die Eigenkapitalquote und stärkt die finanzielle Stabilität \neines Unternehmens.; Die Innenfinanzierung ist unabhängig von externen Kapitalgebern und mindert damit das \nRisiko der Fremdbestimmung. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "warum": "Fachlich richtig sind: Die Fremdfinanzierung führt zu regelmässigen Zins- und Rückzahlungsverpflichtungen, \nwodurch die Liquidität des Unternehmens belastet werden kann.; Die Eigenfinanzierung erhöht die Eigenkapitalquote und stärkt die finanzielle Stabilität \neines Unternehmens.; Die Innenfinanzierung ist unabhängig von externen Kapitalgebern und mindert damit das \nRisiko der Fremdbestimmung. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
+        "kurz": "Fachlich richtig sind: Die Fremdfinanzierung führt zu regelmässigen Zins- und Rückzahlungsverpflichtungen, wodurch die Liquidität des Unternehmens belastet werden kann.; Die Eigenfinanzierung erhöht die Eigenkapitalquote und stärkt die finanzielle Stabilität eines Unternehmens.; Die Innenfinanzierung ist unabhängig von externen Kapitalgebern und mindert damit das Risiko der Fremdbestimmung. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+        "warum": "Fachlich richtig sind: Die Fremdfinanzierung führt zu regelmässigen Zins- und Rückzahlungsverpflichtungen, wodurch die Liquidität des Unternehmens belastet werden kann.; Die Eigenfinanzierung erhöht die Eigenkapitalquote und stärkt die finanzielle Stabilität eines Unternehmens.; Die Innenfinanzierung ist unabhängig von externen Kapitalgebern und mindert damit das Risiko der Fremdbestimmung. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
       },
       "fehlerfallen": [
         "Fallbezug fehlt.",
@@ -5013,8 +5009,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Die Fremdfinanzierung führt zu regelmässigen Zins- und Rückzahlungsverpflichtungen, \nwodurch die Liquidität des Unternehmens belastet werden kann.; Die Eigenfinanzierung erhöht die Eigenkapitalquote und stärkt die finanzielle Stabilität \neines Unternehmens.; Die Innenfinanzierung ist unabhängig von externen Kapitalgebern und mindert damit das \nRisiko der Fremdbestimmung. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-      "abschlusserklaerung": "Fachlich richtig sind: Die Fremdfinanzierung führt zu regelmässigen Zins- und Rückzahlungsverpflichtungen, \nwodurch die Liquidität des Unternehmens belastet werden kann.; Die Eigenfinanzierung erhöht die Eigenkapitalquote und stärkt die finanzielle Stabilität \neines Unternehmens.; Die Innenfinanzierung ist unabhängig von externen Kapitalgebern und mindert damit das \nRisiko der Fremdbestimmung. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
+      "merksatz": "Fachlich richtig sind: Die Fremdfinanzierung führt zu regelmässigen Zins- und Rückzahlungsverpflichtungen, wodurch die Liquidität des Unternehmens belastet werden kann.; Die Eigenfinanzierung erhöht die Eigenkapitalquote und stärkt die finanzielle Stabilität eines Unternehmens.; Die Innenfinanzierung ist unabhängig von externen Kapitalgebern und mindert damit das Risiko der Fremdbestimmung. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+      "abschlusserklaerung": "Fachlich richtig sind: Die Fremdfinanzierung führt zu regelmässigen Zins- und Rückzahlungsverpflichtungen, wodurch die Liquidität des Unternehmens belastet werden kann.; Die Eigenfinanzierung erhöht die Eigenkapitalquote und stärkt die finanzielle Stabilität eines Unternehmens.; Die Innenfinanzierung ist unabhängig von externen Kapitalgebern und mindert damit das Risiko der Fremdbestimmung. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
     },
     {
       "id": "finanzwirtschaft_finanzplanung_stufe1_begriff",
@@ -5624,7 +5620,7 @@
           3
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Der Controller unterstützt die verantwortlichen Personen bei der finanziellen Führung \nihrer Bereiche.; Zu den Aufgaben des Controllings gehört beispielsweise die Zusammenführung der \nverschiedenen Teilbudgets zu einem Gesamtbudget.; Das Controlling liefert Grundlagen für finanzielle Entscheide, wie z. B. für die Kalkulation \nvon Offerten. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+      "erklaerung": "Fachlich richtig sind: Der Controller unterstützt die verantwortlichen Personen bei der finanziellen Führung ihrer Bereiche.; Zu den Aufgaben des Controllings gehört beispielsweise die Zusammenführung der verschiedenen Teilbudgets zu einem Gesamtbudget.; Das Controlling liefert Grundlagen für finanzielle Entscheide, wie z. B. für die Kalkulation von Offerten. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -5650,8 +5646,8 @@
         "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Der Controller unterstützt die verantwortlichen Personen bei der finanziellen Führung \nihrer Bereiche.; Zu den Aufgaben des Controllings gehört beispielsweise die Zusammenführung der \nverschiedenen Teilbudgets zu einem Gesamtbudget.; Das Controlling liefert Grundlagen für finanzielle Entscheide, wie z. B. für die Kalkulation \nvon Offerten. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "warum": "Fachlich richtig sind: Der Controller unterstützt die verantwortlichen Personen bei der finanziellen Führung \nihrer Bereiche.; Zu den Aufgaben des Controllings gehört beispielsweise die Zusammenführung der \nverschiedenen Teilbudgets zu einem Gesamtbudget.; Das Controlling liefert Grundlagen für finanzielle Entscheide, wie z. B. für die Kalkulation \nvon Offerten. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
+        "kurz": "Fachlich richtig sind: Der Controller unterstützt die verantwortlichen Personen bei der finanziellen Führung ihrer Bereiche.; Zu den Aufgaben des Controllings gehört beispielsweise die Zusammenführung der verschiedenen Teilbudgets zu einem Gesamtbudget.; Das Controlling liefert Grundlagen für finanzielle Entscheide, wie z. B. für die Kalkulation von Offerten. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+        "warum": "Fachlich richtig sind: Der Controller unterstützt die verantwortlichen Personen bei der finanziellen Führung ihrer Bereiche.; Zu den Aufgaben des Controllings gehört beispielsweise die Zusammenführung der verschiedenen Teilbudgets zu einem Gesamtbudget.; Das Controlling liefert Grundlagen für finanzielle Entscheide, wie z. B. für die Kalkulation von Offerten. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
       },
       "fehlerfallen": [
         "Fallbezug fehlt.",
@@ -5668,8 +5664,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Der Controller unterstützt die verantwortlichen Personen bei der finanziellen Führung \nihrer Bereiche.; Zu den Aufgaben des Controllings gehört beispielsweise die Zusammenführung der \nverschiedenen Teilbudgets zu einem Gesamtbudget.; Das Controlling liefert Grundlagen für finanzielle Entscheide, wie z. B. für die Kalkulation \nvon Offerten. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-      "abschlusserklaerung": "Fachlich richtig sind: Der Controller unterstützt die verantwortlichen Personen bei der finanziellen Führung \nihrer Bereiche.; Zu den Aufgaben des Controllings gehört beispielsweise die Zusammenführung der \nverschiedenen Teilbudgets zu einem Gesamtbudget.; Das Controlling liefert Grundlagen für finanzielle Entscheide, wie z. B. für die Kalkulation \nvon Offerten. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
+      "merksatz": "Fachlich richtig sind: Der Controller unterstützt die verantwortlichen Personen bei der finanziellen Führung ihrer Bereiche.; Zu den Aufgaben des Controllings gehört beispielsweise die Zusammenführung der verschiedenen Teilbudgets zu einem Gesamtbudget.; Das Controlling liefert Grundlagen für finanzielle Entscheide, wie z. B. für die Kalkulation von Offerten. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+      "abschlusserklaerung": "Fachlich richtig sind: Der Controller unterstützt die verantwortlichen Personen bei der finanziellen Führung ihrer Bereiche.; Zu den Aufgaben des Controllings gehört beispielsweise die Zusammenführung der verschiedenen Teilbudgets zu einem Gesamtbudget.; Das Controlling liefert Grundlagen für finanzielle Entscheide, wie z. B. für die Kalkulation von Offerten. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
     },
     {
       "id": "finanzwirtschaft_investitionsentscheid_stufe1_begriff",
@@ -5841,7 +5837,7 @@
       "quelle_pdf": "2022/Aufgaben/DE_2022_Aufgaben_Finanzwirtschaft.pdf",
       "lernziel": "Prüfungsnahe Aufgabe 2022 Finanzwirtschaft: Investitionsentscheid",
       "typ": "multiple_choice",
-      "frage": "Investitionsentscheid\n \n \nAusgangslage \nDer Verwaltungsrat des in Aufgabe 1.12. beschriebenen Kleinwasserkraftwerkes hatte vor \nüber 30 Jahren im Leitbild festgelegt, nur sogenannte Pelton-Turbinen für die Stromerzeugung \neinzusetzen. Die Gründe dafür sind heute nicht mehr nachvollziehbar. Nach anerkanntem \nStand der Technik sind sogenannte Kaplan-Turbinen bei wenig Wassergefälle effizienter. Sie \nerzeugen bei geringerem Wasserdruck einen höheren Wirkungsgrad. \n \nFrage \nWelche Antworten wären aus betriebswirtschaftlicher Sicht sinnvoll?",
+      "frage": "Der Verwaltungsrat eines Kleinwasserkraftwerks legte vor über 30 Jahren fest, nur Pelton-Turbinen einzusetzen. Die damaligen Gründe sind nicht mehr nachvollziehbar. Heute erreichen Kaplan-Turbinen bei geringem Wassergefälle einen höheren Wirkungsgrad. Welche Antworten sind aus betriebswirtschaftlicher Sicht sinnvoll?",
       "antwort_daten": {
         "optionen": [
           "Ich plane den Ersatz mit einer Pelton-Turbine, entsprechend dem Leitbild.",
@@ -5854,7 +5850,7 @@
           2
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Die Investitionsrechnung erstelle ich in zwei verschiedenen Varianten: Eine mit der \nPelton-, die andere mit der Kaplan-Turbine.; Ich wirke darauf hin, das Leitbild vor dem Investitionsentscheid anzupassen. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+      "erklaerung": "Fachlich richtig sind: Die Investitionsrechnung erstelle ich in zwei verschiedenen Varianten: Eine mit der Pelton-, die andere mit der Kaplan-Turbine.; Ich wirke darauf hin, das Leitbild vor dem Investitionsentscheid anzupassen. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -5880,8 +5876,8 @@
         "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Die Investitionsrechnung erstelle ich in zwei verschiedenen Varianten: Eine mit der \nPelton-, die andere mit der Kaplan-Turbine.; Ich wirke darauf hin, das Leitbild vor dem Investitionsentscheid anzupassen. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "warum": "Fachlich richtig sind: Die Investitionsrechnung erstelle ich in zwei verschiedenen Varianten: Eine mit der \nPelton-, die andere mit der Kaplan-Turbine.; Ich wirke darauf hin, das Leitbild vor dem Investitionsentscheid anzupassen. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
+        "kurz": "Fachlich richtig sind: Die Investitionsrechnung erstelle ich in zwei verschiedenen Varianten: Eine mit der Pelton-, die andere mit der Kaplan-Turbine.; Ich wirke darauf hin, das Leitbild vor dem Investitionsentscheid anzupassen. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+        "warum": "Fachlich richtig sind: Die Investitionsrechnung erstelle ich in zwei verschiedenen Varianten: Eine mit der Pelton-, die andere mit der Kaplan-Turbine.; Ich wirke darauf hin, das Leitbild vor dem Investitionsentscheid anzupassen. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
       },
       "fehlerfallen": [
         "Fallbezug fehlt.",
@@ -5898,8 +5894,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Die Investitionsrechnung erstelle ich in zwei verschiedenen Varianten: Eine mit der \nPelton-, die andere mit der Kaplan-Turbine.; Ich wirke darauf hin, das Leitbild vor dem Investitionsentscheid anzupassen. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-      "abschlusserklaerung": "Fachlich richtig sind: Die Investitionsrechnung erstelle ich in zwei verschiedenen Varianten: Eine mit der \nPelton-, die andere mit der Kaplan-Turbine.; Ich wirke darauf hin, das Leitbild vor dem Investitionsentscheid anzupassen. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
+      "merksatz": "Fachlich richtig sind: Die Investitionsrechnung erstelle ich in zwei verschiedenen Varianten: Eine mit der Pelton-, die andere mit der Kaplan-Turbine.; Ich wirke darauf hin, das Leitbild vor dem Investitionsentscheid anzupassen. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+      "abschlusserklaerung": "Fachlich richtig sind: Die Investitionsrechnung erstelle ich in zwei verschiedenen Varianten: Eine mit der Pelton-, die andere mit der Kaplan-Turbine.; Ich wirke darauf hin, das Leitbild vor dem Investitionsentscheid anzupassen. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+      "aufgaben_hinweis": "Beurteile, wie eine technisch überholte Vorgabe vor einem Investitionsentscheid überprüft werden sollte."
     },
     {
       "id": "pr2022_finanzwirtschaft_1_9_choice_stufe3",
@@ -5919,7 +5916,7 @@
         ],
         "richtig_index": 3
       },
-      "erklaerung": "Fachlich richtig ist: Die Abschreibungsdauern der Anlagen sind in der Finanzbuchhaltung häufig anders als \nin der Betriebsbuchhaltung. Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
+      "erklaerung": "Fachlich richtig ist: Die Abschreibungsdauern der Anlagen sind in der Finanzbuchhaltung häufig anders als in der Betriebsbuchhaltung. Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -5945,8 +5942,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Die Abschreibungsdauern der Anlagen sind in der Finanzbuchhaltung häufig anders als \nin der Betriebsbuchhaltung. Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
-        "warum": "Fachlich richtig ist: Die Abschreibungsdauern der Anlagen sind in der Finanzbuchhaltung häufig anders als \nin der Betriebsbuchhaltung. Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST."
+        "kurz": "Fachlich richtig ist: Die Abschreibungsdauern der Anlagen sind in der Finanzbuchhaltung häufig anders als in der Betriebsbuchhaltung. Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
+        "warum": "Fachlich richtig ist: Die Abschreibungsdauern der Anlagen sind in der Finanzbuchhaltung häufig anders als in der Betriebsbuchhaltung. Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST."
       },
       "fehlerfallen": [
         "Falsche Zuschlagsbasis verwenden.",
@@ -5963,8 +5960,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Die Abschreibungsdauern der Anlagen sind in der Finanzbuchhaltung häufig anders als \nin der Betriebsbuchhaltung. Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
-      "abschlusserklaerung": "Fachlich richtig ist: Die Abschreibungsdauern der Anlagen sind in der Finanzbuchhaltung häufig anders als \nin der Betriebsbuchhaltung. Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST."
+      "merksatz": "Fachlich richtig ist: Die Abschreibungsdauern der Anlagen sind in der Finanzbuchhaltung häufig anders als in der Betriebsbuchhaltung. Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST.",
+      "abschlusserklaerung": "Fachlich richtig ist: Die Abschreibungsdauern der Anlagen sind in der Finanzbuchhaltung häufig anders als in der Betriebsbuchhaltung. Kalkulationsaufgaben verlangen den korrekten Aufbau von Kostenstufen, Zuschlägen, Gewinn und MWST."
     },
     {
       "id": "pr2023_finanzwirtschaft_2_4_loesungspunkte_stufe3",
@@ -6182,7 +6179,7 @@
         ],
         "richtig_index": 1
       },
-      "erklaerung": "Fachlich richtig ist: Die Bewertung einer Investition kann mittels eines statischen oder eines dynamischen \nVerfahrens vorgenommen werden. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+      "erklaerung": "Fachlich richtig ist: Die Bewertung einer Investition kann mittels eines statischen oder eines dynamischen Verfahrens vorgenommen werden. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -6208,8 +6205,8 @@
         "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Die Bewertung einer Investition kann mittels eines statischen oder eines dynamischen \nVerfahrens vorgenommen werden. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "warum": "Fachlich richtig ist: Die Bewertung einer Investition kann mittels eines statischen oder eines dynamischen \nVerfahrens vorgenommen werden. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
+        "kurz": "Fachlich richtig ist: Die Bewertung einer Investition kann mittels eines statischen oder eines dynamischen Verfahrens vorgenommen werden. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+        "warum": "Fachlich richtig ist: Die Bewertung einer Investition kann mittels eines statischen oder eines dynamischen Verfahrens vorgenommen werden. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
       },
       "fehlerfallen": [
         "Fallbezug fehlt.",
@@ -6226,8 +6223,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Die Bewertung einer Investition kann mittels eines statischen oder eines dynamischen \nVerfahrens vorgenommen werden. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-      "abschlusserklaerung": "Fachlich richtig ist: Die Bewertung einer Investition kann mittels eines statischen oder eines dynamischen \nVerfahrens vorgenommen werden. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
+      "merksatz": "Fachlich richtig ist: Die Bewertung einer Investition kann mittels eines statischen oder eines dynamischen Verfahrens vorgenommen werden. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+      "abschlusserklaerung": "Fachlich richtig ist: Die Bewertung einer Investition kann mittels eines statischen oder eines dynamischen Verfahrens vorgenommen werden. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
     },
     {
       "id": "pr2024_finanzwirtschaft_2_3_loesungspunkte_stufe3",
@@ -6514,7 +6511,7 @@
         ],
         "richtig_index": 0
       },
-      "erklaerung": "Fachlich richtig ist: Eine solche Position nennt man Pro-Memoria-Posten oder Erinnerungsfranken. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+      "erklaerung": "Fachlich richtig ist: Eine solche Position nennt man Pro-Memoria-Posten oder Erinnerungsfranken. Finanzwirtschaft beurteilt Geschäftsfälle anhand von Erfolgs-, Bilanz-, Kosten- und Zahlungswirkungen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -6536,12 +6533,12 @@
         "aufgabe": "2022:Finanzwirtschaft:1.2"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Finanzwirtschaft beurteilt Geschäftsfälle anhand von Erfolgs-, Bilanz-, Kosten- und Zahlungswirkungen.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Eine solche Position nennt man Pro-Memoria-Posten oder Erinnerungsfranken. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "warum": "Fachlich richtig ist: Eine solche Position nennt man Pro-Memoria-Posten oder Erinnerungsfranken. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+        "kurz": "Fachlich richtig ist: Eine solche Position nennt man Pro-Memoria-Posten oder Erinnerungsfranken. Finanzwirtschaft beurteilt Geschäftsfälle anhand von Erfolgs-, Bilanz-, Kosten- und Zahlungswirkungen.",
+        "warum": "Fachlich richtig ist: Eine solche Position nennt man Pro-Memoria-Posten oder Erinnerungsfranken. Finanzwirtschaft beurteilt Geschäftsfälle anhand von Erfolgs-, Bilanz-, Kosten- und Zahlungswirkungen."
       },
       "fehlerfallen": [
         "Ziele zu unklar oder nicht messbar formulieren.",
@@ -6558,8 +6555,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Eine solche Position nennt man Pro-Memoria-Posten oder Erinnerungsfranken. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-      "abschlusserklaerung": "Fachlich richtig ist: Eine solche Position nennt man Pro-Memoria-Posten oder Erinnerungsfranken. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+      "merksatz": "Fachlich richtig ist: Eine solche Position nennt man Pro-Memoria-Posten oder Erinnerungsfranken. Finanzwirtschaft beurteilt Geschäftsfälle anhand von Erfolgs-, Bilanz-, Kosten- und Zahlungswirkungen.",
+      "abschlusserklaerung": "Fachlich richtig ist: Eine solche Position nennt man Pro-Memoria-Posten oder Erinnerungsfranken. Finanzwirtschaft beurteilt Geschäftsfälle anhand von Erfolgs-, Bilanz-, Kosten- und Zahlungswirkungen."
     },
     {
       "id": "pr2024_finanzwirtschaft_1_6_choice_stufe3",
@@ -9975,7 +9972,7 @@
           3
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Für diese beiden Geschäftsfälle müssen CHF 4'620 MWST an die Eidgenössische Steuer- \nverwaltung abgeliefert werden.; Der an den Lieferanten zu zahlende Rechnungsbetrag beläuft sich auf CHF 32'310.; Die MWST-Nummer des Lieferanten muss zwingend auf der Rechnung ausgewiesen \nsein, damit die Vorsteuer geltend gemacht werden kann. Mehrwertsteuer-Aufgaben prüfen die saubere Trennung von Brutto, Netto und Steuerbetrag.",
+      "erklaerung": "Fachlich richtig sind: Für diese beiden Geschäftsfälle müssen CHF 4'620 MWST an die Eidgenössische Steuer- verwaltung abgeliefert werden.; Der an den Lieferanten zu zahlende Rechnungsbetrag beläuft sich auf CHF 32'310.; Die MWST-Nummer des Lieferanten muss zwingend auf der Rechnung ausgewiesen sein, damit die Vorsteuer geltend gemacht werden kann. Mehrwertsteuer-Aufgaben prüfen die saubere Trennung von Brutto, Netto und Steuerbetrag.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -10001,8 +9998,8 @@
         "pruefungsrelevant": "Bei inklusiver MWST musst du zuerst Netto herausrechnen; Brutto × Steuersatz ist die typische Falle."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Für diese beiden Geschäftsfälle müssen CHF 4'620 MWST an die Eidgenössische Steuer- \nverwaltung abgeliefert werden.; Der an den Lieferanten zu zahlende Rechnungsbetrag beläuft sich auf CHF 32'310.; Die MWST-Nummer des Lieferanten muss zwingend auf der Rechnung ausgewiesen \nsein, damit die Vorsteuer geltend gemacht werden kann. Mehrwertsteuer-Aufgaben prüfen die saubere Trennung von Brutto, Netto und Steuerbetrag.",
-        "warum": "Fachlich richtig sind: Für diese beiden Geschäftsfälle müssen CHF 4'620 MWST an die Eidgenössische Steuer- \nverwaltung abgeliefert werden.; Der an den Lieferanten zu zahlende Rechnungsbetrag beläuft sich auf CHF 32'310.; Die MWST-Nummer des Lieferanten muss zwingend auf der Rechnung ausgewiesen \nsein, damit die Vorsteuer geltend gemacht werden kann. Mehrwertsteuer-Aufgaben prüfen die saubere Trennung von Brutto, Netto und Steuerbetrag."
+        "kurz": "Fachlich richtig sind: Für diese beiden Geschäftsfälle müssen CHF 4'620 MWST an die Eidgenössische Steuer- verwaltung abgeliefert werden.; Der an den Lieferanten zu zahlende Rechnungsbetrag beläuft sich auf CHF 32'310.; Die MWST-Nummer des Lieferanten muss zwingend auf der Rechnung ausgewiesen sein, damit die Vorsteuer geltend gemacht werden kann. Mehrwertsteuer-Aufgaben prüfen die saubere Trennung von Brutto, Netto und Steuerbetrag.",
+        "warum": "Fachlich richtig sind: Für diese beiden Geschäftsfälle müssen CHF 4'620 MWST an die Eidgenössische Steuer- verwaltung abgeliefert werden.; Der an den Lieferanten zu zahlende Rechnungsbetrag beläuft sich auf CHF 32'310.; Die MWST-Nummer des Lieferanten muss zwingend auf der Rechnung ausgewiesen sein, damit die Vorsteuer geltend gemacht werden kann. Mehrwertsteuer-Aufgaben prüfen die saubere Trennung von Brutto, Netto und Steuerbetrag."
       },
       "fehlerfallen": [
         "Brutto und Netto verwechseln.",
@@ -10019,8 +10016,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Für diese beiden Geschäftsfälle müssen CHF 4'620 MWST an die Eidgenössische Steuer- \nverwaltung abgeliefert werden.; Der an den Lieferanten zu zahlende Rechnungsbetrag beläuft sich auf CHF 32'310.; Die MWST-Nummer des Lieferanten muss zwingend auf der Rechnung ausgewiesen \nsein, damit die Vorsteuer geltend gemacht werden kann. Mehrwertsteuer-Aufgaben prüfen die saubere Trennung von Brutto, Netto und Steuerbetrag.",
-      "abschlusserklaerung": "Fachlich richtig sind: Für diese beiden Geschäftsfälle müssen CHF 4'620 MWST an die Eidgenössische Steuer- \nverwaltung abgeliefert werden.; Der an den Lieferanten zu zahlende Rechnungsbetrag beläuft sich auf CHF 32'310.; Die MWST-Nummer des Lieferanten muss zwingend auf der Rechnung ausgewiesen \nsein, damit die Vorsteuer geltend gemacht werden kann. Mehrwertsteuer-Aufgaben prüfen die saubere Trennung von Brutto, Netto und Steuerbetrag."
+      "merksatz": "Fachlich richtig sind: Für diese beiden Geschäftsfälle müssen CHF 4'620 MWST an die Eidgenössische Steuer- verwaltung abgeliefert werden.; Der an den Lieferanten zu zahlende Rechnungsbetrag beläuft sich auf CHF 32'310.; Die MWST-Nummer des Lieferanten muss zwingend auf der Rechnung ausgewiesen sein, damit die Vorsteuer geltend gemacht werden kann. Mehrwertsteuer-Aufgaben prüfen die saubere Trennung von Brutto, Netto und Steuerbetrag.",
+      "abschlusserklaerung": "Fachlich richtig sind: Für diese beiden Geschäftsfälle müssen CHF 4'620 MWST an die Eidgenössische Steuer- verwaltung abgeliefert werden.; Der an den Lieferanten zu zahlende Rechnungsbetrag beläuft sich auf CHF 32'310.; Die MWST-Nummer des Lieferanten muss zwingend auf der Rechnung ausgewiesen sein, damit die Vorsteuer geltend gemacht werden kann. Mehrwertsteuer-Aufgaben prüfen die saubere Trennung von Brutto, Netto und Steuerbetrag."
     },
     {
       "id": "pr2024_finanzwirtschaft_1_3_choice_stufe3",
@@ -11574,7 +11571,7 @@
         ],
         "richtig_index": 0
       },
-      "erklaerung": "Fachlich richtig ist: Sammelbuchung \n \n \n \n \n \n \nVerbindlichkeiten / Bank \nEUR 58'800 \n CHF 58'212 \n \nVerbindlichkeiten / Skonto \nEUR \n1'200 \n CHF \n1'188 \n \nVerbindlichkeiten / Kursdifferenz \nEUR \n0 \n CHF \n1'200. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "erklaerung": "Fachlich richtig ist: Sammelbuchung Verbindlichkeiten / Bank EUR 58'800 CHF 58'212 Verbindlichkeiten / Skonto EUR 1'200 CHF 1'188 Verbindlichkeiten / Kursdifferenz EUR 0 CHF 1'200. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -11600,8 +11597,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Sammelbuchung \n \n \n \n \n \n \nVerbindlichkeiten / Bank \nEUR 58'800 \n CHF 58'212 \n \nVerbindlichkeiten / Skonto \nEUR \n1'200 \n CHF \n1'188 \n \nVerbindlichkeiten / Kursdifferenz \nEUR \n0 \n CHF \n1'200. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "warum": "Fachlich richtig ist: Sammelbuchung \n \n \n \n \n \n \nVerbindlichkeiten / Bank \nEUR 58'800 \n CHF 58'212 \n \nVerbindlichkeiten / Skonto \nEUR \n1'200 \n CHF \n1'188 \n \nVerbindlichkeiten / Kursdifferenz \nEUR \n0 \n CHF \n1'200. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+        "kurz": "Fachlich richtig ist: Sammelbuchung Verbindlichkeiten / Bank EUR 58'800 CHF 58'212 Verbindlichkeiten / Skonto EUR 1'200 CHF 1'188 Verbindlichkeiten / Kursdifferenz EUR 0 CHF 1'200. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+        "warum": "Fachlich richtig ist: Sammelbuchung Verbindlichkeiten / Bank EUR 58'800 CHF 58'212 Verbindlichkeiten / Skonto EUR 1'200 CHF 1'188 Verbindlichkeiten / Kursdifferenz EUR 0 CHF 1'200. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
       },
       "fehlerfallen": [
         "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
@@ -11618,8 +11615,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Sammelbuchung \n \n \n \n \n \n \nVerbindlichkeiten / Bank \nEUR 58'800 \n CHF 58'212 \n \nVerbindlichkeiten / Skonto \nEUR \n1'200 \n CHF \n1'188 \n \nVerbindlichkeiten / Kursdifferenz \nEUR \n0 \n CHF \n1'200. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-      "abschlusserklaerung": "Fachlich richtig ist: Sammelbuchung \n \n \n \n \n \n \nVerbindlichkeiten / Bank \nEUR 58'800 \n CHF 58'212 \n \nVerbindlichkeiten / Skonto \nEUR \n1'200 \n CHF \n1'188 \n \nVerbindlichkeiten / Kursdifferenz \nEUR \n0 \n CHF \n1'200. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+      "merksatz": "Fachlich richtig ist: Sammelbuchung Verbindlichkeiten / Bank EUR 58'800 CHF 58'212 Verbindlichkeiten / Skonto EUR 1'200 CHF 1'188 Verbindlichkeiten / Kursdifferenz EUR 0 CHF 1'200. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "abschlusserklaerung": "Fachlich richtig ist: Sammelbuchung Verbindlichkeiten / Bank EUR 58'800 CHF 58'212 Verbindlichkeiten / Skonto EUR 1'200 CHF 1'188 Verbindlichkeiten / Kursdifferenz EUR 0 CHF 1'200. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
     },
     {
       "id": "pr2023_finanzwirtschaft_1_7_choice_stufe3",
@@ -11639,7 +11636,7 @@
         ],
         "richtig_index": 1
       },
-      "erklaerung": "Fachlich richtig ist: Sie sortieren die Rechnungen nach Fälligkeitsdatum, zahlen die überfälligen und erfassen \ndie später fälligen in E-Banking mit ihrem Fälligkeitsdatum. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "erklaerung": "Fachlich richtig ist: Sie sortieren die Rechnungen nach Fälligkeitsdatum, zahlen die überfälligen und erfassen die später fälligen in E-Banking mit ihrem Fälligkeitsdatum. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -11665,8 +11662,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Sie sortieren die Rechnungen nach Fälligkeitsdatum, zahlen die überfälligen und erfassen \ndie später fälligen in E-Banking mit ihrem Fälligkeitsdatum. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "warum": "Fachlich richtig ist: Sie sortieren die Rechnungen nach Fälligkeitsdatum, zahlen die überfälligen und erfassen \ndie später fälligen in E-Banking mit ihrem Fälligkeitsdatum. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+        "kurz": "Fachlich richtig ist: Sie sortieren die Rechnungen nach Fälligkeitsdatum, zahlen die überfälligen und erfassen die später fälligen in E-Banking mit ihrem Fälligkeitsdatum. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+        "warum": "Fachlich richtig ist: Sie sortieren die Rechnungen nach Fälligkeitsdatum, zahlen die überfälligen und erfassen die später fälligen in E-Banking mit ihrem Fälligkeitsdatum. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
       },
       "fehlerfallen": [
         "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
@@ -11683,8 +11680,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Sie sortieren die Rechnungen nach Fälligkeitsdatum, zahlen die überfälligen und erfassen \ndie später fälligen in E-Banking mit ihrem Fälligkeitsdatum. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-      "abschlusserklaerung": "Fachlich richtig ist: Sie sortieren die Rechnungen nach Fälligkeitsdatum, zahlen die überfälligen und erfassen \ndie später fälligen in E-Banking mit ihrem Fälligkeitsdatum. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+      "merksatz": "Fachlich richtig ist: Sie sortieren die Rechnungen nach Fälligkeitsdatum, zahlen die überfälligen und erfassen die später fälligen in E-Banking mit ihrem Fälligkeitsdatum. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "abschlusserklaerung": "Fachlich richtig ist: Sie sortieren die Rechnungen nach Fälligkeitsdatum, zahlen die überfälligen und erfassen die später fälligen in E-Banking mit ihrem Fälligkeitsdatum. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
     },
     {
       "id": "pr2023_finanzwirtschaft_2_5_loesungspunkte_stufe3",
@@ -12106,7 +12103,7 @@
         ],
         "richtig_index": 3
       },
-      "erklaerung": "Fachlich richtig ist: Der Deckungsbeitrag ist die Differenz zwischen dem Verkaufserlös und den variablen \nKosten. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
+      "erklaerung": "Fachlich richtig ist: Der Deckungsbeitrag ist die Differenz zwischen dem Verkaufserlös und den variablen Kosten. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -12132,8 +12129,8 @@
         "pruefungsrelevant": "Beim Break-even wird geprüft, ab welcher Menge oder welchem Umsatz die Fixkosten gedeckt sind."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Der Deckungsbeitrag ist die Differenz zwischen dem Verkaufserlös und den variablen \nKosten. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
-        "warum": "Fachlich richtig ist: Der Deckungsbeitrag ist die Differenz zwischen dem Verkaufserlös und den variablen \nKosten. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt."
+        "kurz": "Fachlich richtig ist: Der Deckungsbeitrag ist die Differenz zwischen dem Verkaufserlös und den variablen Kosten. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
+        "warum": "Fachlich richtig ist: Der Deckungsbeitrag ist die Differenz zwischen dem Verkaufserlös und den variablen Kosten. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt."
       },
       "fehlerfallen": [
         "Fixkosten statt variable Kosten vom Preis abziehen.",
@@ -12150,8 +12147,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Der Deckungsbeitrag ist die Differenz zwischen dem Verkaufserlös und den variablen \nKosten. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
-      "abschlusserklaerung": "Fachlich richtig ist: Der Deckungsbeitrag ist die Differenz zwischen dem Verkaufserlös und den variablen \nKosten. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt."
+      "merksatz": "Fachlich richtig ist: Der Deckungsbeitrag ist die Differenz zwischen dem Verkaufserlös und den variablen Kosten. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
+      "abschlusserklaerung": "Fachlich richtig ist: Der Deckungsbeitrag ist die Differenz zwischen dem Verkaufserlös und den variablen Kosten. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt."
     },
     {
       "id": "pr2024_finanzwirtschaft_2_4_loesungspunkte_stufe3",
@@ -12634,7 +12631,7 @@
         ],
         "richtig_index": 2
       },
-      "erklaerung": "Fachlich richtig ist: Rechnungssteller, Rechnungsempfänger, Beschreibung und Zeitpunkt der Leistung, \nBetrag, bei MWST-Pflicht des Rechnungsstellers die MWST-Nr. und einen gültigen Steuer-\nsatz. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+      "erklaerung": "Fachlich richtig ist: Rechnungssteller, Rechnungsempfänger, Beschreibung und Zeitpunkt der Leistung, Betrag, bei MWST-Pflicht des Rechnungsstellers die MWST-Nr. und einen gültigen Steuer-\nsatz. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -12660,8 +12657,8 @@
         "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Rechnungssteller, Rechnungsempfänger, Beschreibung und Zeitpunkt der Leistung, \nBetrag, bei MWST-Pflicht des Rechnungsstellers die MWST-Nr. und einen gültigen Steuer-\nsatz. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "warum": "Fachlich richtig ist: Rechnungssteller, Rechnungsempfänger, Beschreibung und Zeitpunkt der Leistung, \nBetrag, bei MWST-Pflicht des Rechnungsstellers die MWST-Nr. und einen gültigen Steuer-\nsatz. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
+        "kurz": "Fachlich richtig ist: Rechnungssteller, Rechnungsempfänger, Beschreibung und Zeitpunkt der Leistung, Betrag, bei MWST-Pflicht des Rechnungsstellers die MWST-Nr. und einen gültigen Steuer-\nsatz. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+        "warum": "Fachlich richtig ist: Rechnungssteller, Rechnungsempfänger, Beschreibung und Zeitpunkt der Leistung, Betrag, bei MWST-Pflicht des Rechnungsstellers die MWST-Nr. und einen gültigen Steuer-\nsatz. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
       },
       "fehlerfallen": [
         "Fallbezug fehlt.",
@@ -12678,8 +12675,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Rechnungssteller, Rechnungsempfänger, Beschreibung und Zeitpunkt der Leistung, \nBetrag, bei MWST-Pflicht des Rechnungsstellers die MWST-Nr. und einen gültigen Steuer-\nsatz. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-      "abschlusserklaerung": "Fachlich richtig ist: Rechnungssteller, Rechnungsempfänger, Beschreibung und Zeitpunkt der Leistung, \nBetrag, bei MWST-Pflicht des Rechnungsstellers die MWST-Nr. und einen gültigen Steuer-\nsatz. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
+      "merksatz": "Fachlich richtig ist: Rechnungssteller, Rechnungsempfänger, Beschreibung und Zeitpunkt der Leistung, Betrag, bei MWST-Pflicht des Rechnungsstellers die MWST-Nr. und einen gültigen Steuer-\nsatz. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+      "abschlusserklaerung": "Fachlich richtig ist: Rechnungssteller, Rechnungsempfänger, Beschreibung und Zeitpunkt der Leistung, Betrag, bei MWST-Pflicht des Rechnungsstellers die MWST-Nr. und einen gültigen Steuer-\nsatz. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
     },
     {
       "id": "pr2025_finanzwirtschaft_1_7_choice_stufe3",
@@ -13950,7 +13947,7 @@
         ],
         "richtig_index": 1
       },
-      "erklaerung": "Fachlich richtig ist: Ich untersuche den Grund für diese Kostenüberschreitung. Ich vermute, dass die Kosten \nfür die Grossrevision im ersten Semester einer Maschine voll belastet sind und deshalb \ndas Halbjahresbudget zu stark belasten. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+      "erklaerung": "Fachlich richtig ist: Ich untersuche den Grund für diese Kostenüberschreitung. Ich vermute, dass die Kosten für die Grossrevision im ersten Semester einer Maschine voll belastet sind und deshalb das Halbjahresbudget zu stark belasten. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -13976,8 +13973,8 @@
         "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Ich untersuche den Grund für diese Kostenüberschreitung. Ich vermute, dass die Kosten \nfür die Grossrevision im ersten Semester einer Maschine voll belastet sind und deshalb \ndas Halbjahresbudget zu stark belasten. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "warum": "Fachlich richtig ist: Ich untersuche den Grund für diese Kostenüberschreitung. Ich vermute, dass die Kosten \nfür die Grossrevision im ersten Semester einer Maschine voll belastet sind und deshalb \ndas Halbjahresbudget zu stark belasten. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
+        "kurz": "Fachlich richtig ist: Ich untersuche den Grund für diese Kostenüberschreitung. Ich vermute, dass die Kosten für die Grossrevision im ersten Semester einer Maschine voll belastet sind und deshalb das Halbjahresbudget zu stark belasten. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+        "warum": "Fachlich richtig ist: Ich untersuche den Grund für diese Kostenüberschreitung. Ich vermute, dass die Kosten für die Grossrevision im ersten Semester einer Maschine voll belastet sind und deshalb das Halbjahresbudget zu stark belasten. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
       },
       "fehlerfallen": [
         "Fallbezug fehlt.",
@@ -13994,8 +13991,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Ich untersuche den Grund für diese Kostenüberschreitung. Ich vermute, dass die Kosten \nfür die Grossrevision im ersten Semester einer Maschine voll belastet sind und deshalb \ndas Halbjahresbudget zu stark belasten. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-      "abschlusserklaerung": "Fachlich richtig ist: Ich untersuche den Grund für diese Kostenüberschreitung. Ich vermute, dass die Kosten \nfür die Grossrevision im ersten Semester einer Maschine voll belastet sind und deshalb \ndas Halbjahresbudget zu stark belasten. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
+      "merksatz": "Fachlich richtig ist: Ich untersuche den Grund für diese Kostenüberschreitung. Ich vermute, dass die Kosten für die Grossrevision im ersten Semester einer Maschine voll belastet sind und deshalb das Halbjahresbudget zu stark belasten. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+      "abschlusserklaerung": "Fachlich richtig ist: Ich untersuche den Grund für diese Kostenüberschreitung. Ich vermute, dass die Kosten für die Grossrevision im ersten Semester einer Maschine voll belastet sind und deshalb das Halbjahresbudget zu stark belasten. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
     },
     {
       "id": "finanzwirtschaft_verhalten_gegenueber_der_kundschaft_stufe1_begriff",
@@ -14674,7 +14671,7 @@
         "aufgabe": "2022:Finanzwirtschaft:1.14"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Finanzwirtschaft beurteilt Geschäftsfälle anhand von Erfolgs-, Bilanz-, Kosten- und Zahlungswirkungen.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -14743,7 +14740,7 @@
         "aufgabe": "2022:Finanzwirtschaft:2.1"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Finanzwirtschaft beurteilt Geschäftsfälle anhand von Erfolgs-, Bilanz-, Kosten- und Zahlungswirkungen.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -14809,7 +14806,7 @@
         "aufgabe": "2022:Finanzwirtschaft:2.4"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Finanzwirtschaft beurteilt Geschäftsfälle anhand von Erfolgs-, Bilanz-, Kosten- und Zahlungswirkungen.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -14875,7 +14872,7 @@
         "aufgabe": "2023:Finanzwirtschaft:3.3"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Finanzwirtschaft beurteilt Geschäftsfälle anhand von Erfolgs-, Bilanz-, Kosten- und Zahlungswirkungen.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -14941,7 +14938,7 @@
         "aufgabe": "2024:Finanzwirtschaft:3.2"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Finanzwirtschaft beurteilt Geschäftsfälle anhand von Erfolgs-, Bilanz-, Kosten- und Zahlungswirkungen.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {

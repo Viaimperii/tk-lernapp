@@ -768,6 +768,7 @@ function TypeBadge({ type }) {
     single_choice: 'Einfachauswahl',
     multiple_choice: 'Mehrfachauswahl',
     formel_luecke_mc: 'Formelwahl',
+    lueckentext_auswahl: 'Lückentext',
     formel_builder: 'Formel bauen',
     zahlen_eingabe: 'Selbst berechnen',
     buchungssatz_builder: 'Buchungssatz',
@@ -791,7 +792,7 @@ function AnswerInput({ card, value, onChange, disabled }) {
   if (card.typ === 'multiple_choice') {
     return <ChoiceInput data={card.antwort_daten} value={value} onChange={onChange} disabled={disabled} multiple />
   }
-  if (card.typ === 'formel_luecke_mc') {
+  if (card.typ === 'formel_luecke_mc' || card.typ === 'lueckentext_auswahl') {
     return <FormulaMcInput data={card.antwort_daten} value={value} onChange={onChange} disabled={disabled} />
   }
   if (card.typ === 'formel_builder') {
@@ -1350,7 +1351,7 @@ function CorrectAnswerPanel({ card }) {
     return <SolutionBox items={data.richtige_indices.map((index) => data.optionen[index])} />
   }
 
-  if (card.typ === 'formel_luecke_mc') {
+  if (card.typ === 'formel_luecke_mc' || card.typ === 'lueckentext_auswahl') {
     return <SolutionBox items={data.luecken_mc.map((gap) => `Lücke ${gap.position}: ${gap.richtig ?? gap.optionen[gap.richtig_index]}`)} />
   }
 

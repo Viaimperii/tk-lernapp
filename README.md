@@ -119,7 +119,7 @@ Prüfungsquelle oder ursprüngliche Überschrift allein bestimmen nicht das Fach
 - Auf der höchsten Themenstufe wird immer die anspruchsvollste für das aktuelle LVL freigeschaltete Kartengruppe verwendet.
 - Karten ohne `ab_lvl` bleiben die Grundlage für LVL 0.
 - Ein Fehler in einer LVL-Vertiefung senkt weiterhin nur die Aufgabenstufe und niemals das erreichte LVL.
-- Unterstützte aktive Vertiefungen sind `zahlen_eingabe`, `buchungssatz_builder` und `fallentscheidung`.
+- Unterstützte aktive Vertiefungen sind `zahlen_eingabe`, `buchungssatz_builder`, `fallentscheidung` und `lueckentext_auswahl`.
 - Neue LVL-Karten müssen auf der höchsten Stufe ihres Themas liegen und lokal eindeutig auswertbar sein.
 
 Beispiele für die neuen JSON-Strukturen stehen in

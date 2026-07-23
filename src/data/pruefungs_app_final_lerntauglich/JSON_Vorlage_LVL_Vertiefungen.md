@@ -28,6 +28,37 @@ auf der höchsten Stufe des zugehörigen Themas.
 Die Eingabe akzeptiert Dezimalpunkt, Dezimalkomma und Schweizer
 Tausendertrennzeichen.
 
+## Lückentext mit Auswahl
+
+```json
+{
+  "id": "scm_ressourcenplanung_lueckentext_1",
+  "fach": "SCM",
+  "thema_id": "ressourcenplanung",
+  "thema": "Ressourcenplanung",
+  "stufe": 3,
+  "typ": "lueckentext_auswahl",
+  "frage": "Ergänze die Definition: Ressourcenplanung umfasst [1] und [2] Einheiten.",
+  "antwort_daten": {
+    "luecken_mc": [
+      {
+        "position": 1,
+        "optionen": ["materielle", "zufällige", "abgeschlossene"],
+        "richtig_index": 0
+      },
+      {
+        "position": 2,
+        "optionen": ["private", "immaterielle", "unmessbare"],
+        "richtig_index": 1
+      }
+    ]
+  }
+}
+```
+
+Jede Lücke wird separat beantwortet. Dadurch bleibt die Aufgabe auch ohne
+Freitext- oder KI-Auswertung eindeutig prüfbar.
+
 ## Buchungssatz-Builder
 
 ```json

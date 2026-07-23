@@ -4,6 +4,7 @@ export const allowedTypes = [
   'single_choice',
   'multiple_choice',
   'formel_luecke_mc',
+  'lueckentext_auswahl',
   'formel_builder',
   'zahlen_eingabe',
   'buchungssatz_builder',
@@ -59,14 +60,15 @@ function validateCard(card) {
     }
   }
 
-  if (card?.typ === 'formel_luecke_mc') {
-    if (!isArray(data.luecken_mc)) errors.push('formel_luecke_mc.luecken_mc fehlt')
+  if (card?.typ === 'formel_luecke_mc' || card?.typ === 'lueckentext_auswahl') {
+    const type = card.typ
+    if (!isArray(data.luecken_mc)) errors.push(`${type}.luecken_mc fehlt`)
     if (isArray(data.luecken_mc)) {
       data.luecken_mc.forEach((gap, index) => {
-        if (!isArray(gap.optionen)) errors.push(`formel_luecke_mc.luecken_mc[${index}].optionen fehlt`)
-        if (!isNumber(gap.richtig_index)) errors.push(`formel_luecke_mc.luecken_mc[${index}].richtig_index fehlt`)
+        if (!isArray(gap.optionen)) errors.push(`${type}.luecken_mc[${index}].optionen fehlt`)
+        if (!isNumber(gap.richtig_index)) errors.push(`${type}.luecken_mc[${index}].richtig_index fehlt`)
         if (isArray(gap.optionen) && isNumber(gap.richtig_index) && !isValidIndex(gap.richtig_index, gap.optionen)) {
-          errors.push(`formel_luecke_mc.luecken_mc[${index}].richtig_index außerhalb der optionen`)
+          errors.push(`${type}.luecken_mc[${index}].richtig_index außerhalb der optionen`)
         }
       })
     }

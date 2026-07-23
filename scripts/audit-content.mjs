@@ -13,11 +13,24 @@ const topicWarnings = []
 const groups = new Map()
 const ids = new Set()
 const stageOneAnswerPositions = new Map()
-const metaQuestionPattern = /Welche Punkte passen zur Musterlösung dieser Prüfungsaufgabe\?/i
+const metaQuestionPattern = /Welche .*?(?:Punkte|Aussagen).*?(?:Musterlösung|Lösungsvorschlag|Lösungshinweis|Prüfungsaufgabe)/i
 const weakTopicQuestionPattern = /Welches Thema wird hier primär geprüft\?/i
 const genericTopicDescriptionPattern = /Welche Aussage beschreibt das Thema .* fachlich am besten\?/i
 const genericExplanationPattern = /Antwort gemäss offiziellem|Aus den offiziellen Lösungshinweisen verdichtet|Automatisch aus der Prüfungsüberschrift/i
 const incompleteAnswerPattern = /\b(?:und|oder|der|die|das|den|dem|des|ein|eine|einer|einem|einen|zu|zur|zum|von|vom|für|mit|bei|im|in|auf|an|als|um)\s*$|[,:;–-]\s*$/i
+const placeholderPattern = /[._…]{4,}/
+const externalTaskReferencePattern = /\b(?:in|aus|von|gemäss|bei)\s+Aufgabe\s+\d+(?:\.\d+)?/i
+const missingFragmentPattern = /\bfehlende\s+(?:Beschriftung|Beschriftungen|Angabe|Angaben|Wert|Werte|Zahl|Zahlen|Position|Positionen)\b/i
+const visualReferencePattern = /\b(?:gemäss|anhand)\b.{0,60}\b(?:Abbildung|Grafik|Tabelle|Beilage|Anhang)\b/i
+const embeddedVisualTypes = new Set(['formel_builder'])
+const subjectBoilerplates = [
+  ['Personalmanagement', /Personalmanagement verbindet/i],
+  ['Finanzwirtschaft', /Finanzwirtschaft verbindet/i],
+  ['Marketing_Verkauf', /Marketing und Verkauf verbindet/i],
+  ['SCM', /Supply Chain Management verbindet/i],
+  ['Unternehmensfuehrung', /Unternehmensführung verbindet/i],
+  ['Problemloesung_Entscheidung', /Problemlösung und Entscheidung verlangt/i]
+]
 const coherentUmbrellaTopics = new Set([
   'Finanzwirtschaft::mehrwertsteuer',
   'Marketing_Verkauf::strategie_analyseinstrumente',
@@ -50,6 +63,24 @@ for (const card of cards) {
   }
   if (genericExplanationPattern.test(card.erklaerung ?? '')) {
     errors.push(`${card.id}: Lösung besitzt keine fachliche Erklärung`)
+  }
+  const searchableText = JSON.stringify(card)
+  if (placeholderPattern.test(card.frage ?? '') && !['formel_luecke_mc', 'lueckentext_auswahl'].includes(card.typ)) {
+    errors.push(`${card.id}: unstrukturierter Platzhalter ohne auswählbare Lücken`)
+  }
+  if (externalTaskReferencePattern.test(card.frage ?? '')) {
+    errors.push(`${card.id}: verweist auf eine andere, nicht eingebettete Aufgabe`)
+  }
+  if (missingFragmentPattern.test(card.frage ?? '')) {
+    errors.push(`${card.id}: verlangt mutmasslich einen fehlenden Aufgabenbestandteil`)
+  }
+  if (visualReferencePattern.test(card.frage ?? '') && !card.darstellung && !embeddedVisualTypes.has(card.typ)) {
+    errors.push(`${card.id}: verweist auf eine nicht eingebettete Darstellung`)
+  }
+  for (const [subject, pattern] of subjectBoilerplates) {
+    if (subject !== card.fach && pattern.test(searchableText)) {
+      errors.push(`${card.id}: Erklärung enthält Standardtext des falschen Fachs ${subject}`)
+    }
   }
   if (card.thema_id === 'break_even_deckungsbeitrag' && card.fach !== 'Finanzwirtschaft') {
     errors.push(`${card.id}: Break-even / Deckungsbeitrag liegt im falschen Fach ${card.fach}`)
@@ -88,6 +119,15 @@ for (const card of cards) {
       if (incompleteAnswerPattern.test(String(option).trim())) {
         errors.push(`${card.id}: Antwort ${index + 1} endet mutmasslich mitten im Satz`)
       }
+    })
+  }
+
+  if (card.typ === 'formel_luecke_mc' || card.typ === 'lueckentext_auswahl') {
+    const gaps = card.antwort_daten?.luecken_mc ?? []
+    if (!gaps.length) errors.push(`${card.id}: Lückenaufgabe besitzt keine Lücken`)
+    gaps.forEach((gap, index) => {
+      if (!gap.optionen?.[gap.richtig_index]) errors.push(`${card.id}: Lücke ${index + 1} besitzt keine gültige Lösung`)
+      if ((gap.optionen ?? []).length < 2) errors.push(`${card.id}: Lücke ${index + 1} besitzt zu wenige Auswahlmöglichkeiten`)
     })
   }
 

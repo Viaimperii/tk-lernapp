@@ -479,7 +479,7 @@ cards.push(
 )
 
 // Metafragen und reine Themen-Erkennungsfragen werden durch fachlich konkrete Fragen ersetzt.
-const metaQuestionPattern = /Welche Punkte passen zur Musterlösung dieser Prüfungsaufgabe\?/i
+const metaQuestionPattern = /Welche .*?(?:Punkte|Aussagen).*?(?:Musterlösung|Lösungsvorschlag|Lösungshinweis|Prüfungsaufgabe)/i
 const weakTopicQuestionPattern = /Welches Thema wird hier primär geprüft\?/i
 const isImportedWeakCard = (card) => (
   metaQuestionPattern.test(card.frage ?? '')
@@ -490,7 +490,7 @@ const isImportedWeakCard = (card) => (
 const candidatesByTopic = new Map()
 for (const card of cards) {
   if (isImportedWeakCard(card)) continue
-  if (!['single_choice', 'multiple_choice', 'zuordnung', 'reihenfolge', 'formel_luecke_mc', 'formel_builder'].includes(card.typ)) continue
+  if (!['single_choice', 'multiple_choice', 'zuordnung', 'reihenfolge', 'formel_luecke_mc', 'lueckentext_auswahl', 'formel_builder'].includes(card.typ)) continue
   const key = `${card.fach}::${card.thema_id}`
   if (!candidatesByTopic.has(key)) candidatesByTopic.set(key, [])
   candidatesByTopic.get(key).push(card)
@@ -1247,6 +1247,158 @@ for (const card of cards) {
   card.frage = String(card.frage)
     .replace(/\b(OR|ZGB|ArG|UVG|MWSTG)\s*(?:Art\.?|Artikel)\s*\d+[a-z]?(?:\s*(?:Abs\.?|Absatz)\s*\d+)?/gi, '$1')
     .replace(/(?:Art\.?|Artikel)\s*\d+[a-z]?(?:\s*(?:Abs\.?|Absatz)\s*\d+)?\s*(OR|ZGB|ArG|UVG|MWSTG)\b/gi, '$1')
+}
+
+// Unvollständige Importkarten erhalten den nötigen Kontext direkt in der Karte.
+const babCard = byId.get('pr2025_finanzwirtschaft_3_3_loesungspunkte_stufe3')
+if (babCard) {
+  Object.assign(babCard, {
+    fach: 'Finanzwirtschaft',
+    thema_id: 'betriebsbuchhaltung',
+    thema: 'Betriebsbuchhaltung',
+    stufe: 3,
+    typ: 'zahlen_eingabe',
+    lernziel: 'Aus einem vollständigen BAB-Ausschnitt Selbstkosten und Gewinn eines Kostenträgers berechnen.',
+    aufgaben_hinweis: 'Berechne zuerst die Selbstkosten und ziehe sie danach vom Nettoerlös ab.',
+    frage: 'BAB der Häberli AG, Beträge in CHF 1’000: Herstellkosten Mäher 1’045, Verwaltungs- und Vertriebsgemeinkosten Mäher 209, Nettoerlös Mäher 1’881. Berechne den Gewinn der Mäher.',
+    antwort_daten: {
+      richtiger_wert: 627,
+      toleranz: 0,
+      einheit: 'TCHF',
+      rundung: 'Ohne Dezimalstellen'
+    },
+    begriff_erklaerung: {
+      kurz: 'Im Betriebsabrechnungsbogen werden Kostenstellen entlastet und die Gemeinkosten den Kostenträgern zugerechnet.',
+      pruefungsrelevant: 'Für den Kostenträger gilt: Selbstkosten = Herstellkosten + Verwaltungs- und Vertriebsgemeinkosten; Gewinn = Nettoerlös − Selbstkosten.'
+    },
+    erklaerung: 'Selbstkosten Mäher: 1’045 + 209 = 1’254 TCHF. Gewinn: 1’881 − 1’254 = 627 TCHF.',
+    abschlusserklaerung: 'Der positive Gewinn von 627 TCHF zeigt, dass der Nettoerlös die vollständigen Selbstkosten dieses Kostenträgers deckt.',
+    merksatz: 'Nettoerlös minus Selbstkosten ergibt den Gewinn.',
+    tags: [...new Set([...(babCard.tags ?? []), 'vollstaendige_ausgangslage', 'bab_berechnung'])]
+  })
+}
+
+const resourceGapCard = byId.get('pr2025_scm_1_4_choice_stufe3')
+if (resourceGapCard) {
+  Object.assign(resourceGapCard, {
+    typ: 'lueckentext_auswahl',
+    ab_lvl: 1,
+    aufgaben_hinweis: 'Wähle für jede nummerierte Lücke den fachlich passenden Begriff.',
+    frage: 'Ergänze die Definition: Ressourcenplanung ist die Planung von [1] oder [2] Einheiten, die zur Erfüllung einer Aufgabe benötigt werden.',
+    antwort_daten: {
+      luecken_mc: [
+        {
+          position: 1,
+          optionen: ['materiellen', 'zufälligen', 'abgeschlossenen', 'privaten'],
+          richtig_index: 0,
+          richtig: 'materiellen'
+        },
+        {
+          position: 2,
+          optionen: ['unmessbaren', 'privaten', 'immateriellen', 'abgeschlossenen'],
+          richtig_index: 2,
+          richtig: 'immateriellen'
+        }
+      ]
+    },
+    erklaerung: 'Ressourcenplanung umfasst materielle Einheiten wie Material oder Maschinen und immaterielle Einheiten wie Wissen, Zeit oder Nutzungsrechte.',
+    abschlusserklaerung: 'Eine vollständige Planung berücksichtigt materielle und immaterielle Ressourcen gemeinsam.',
+    merksatz: 'Ressourcen sind nicht nur Dinge: Auch Zeit, Wissen und Rechte müssen eingeplant werden.',
+    tags: [...new Set([...(resourceGapCard.tags ?? []), 'strukturierter_lueckentext'])]
+  })
+}
+
+const powerPlantCard = byId.get('pr2022_finanzwirtschaft_1_13_choice_stufe3')
+if (powerPlantCard) {
+  powerPlantCard.frage = 'Der Verwaltungsrat eines Kleinwasserkraftwerks legte vor über 30 Jahren fest, nur Pelton-Turbinen einzusetzen. Die damaligen Gründe sind nicht mehr nachvollziehbar. Heute erreichen Kaplan-Turbinen bei geringem Wassergefälle einen höheren Wirkungsgrad. Welche Antworten sind aus betriebswirtschaftlicher Sicht sinnvoll?'
+  powerPlantCard.aufgaben_hinweis = 'Beurteile, wie eine technisch überholte Vorgabe vor einem Investitionsentscheid überprüft werden sollte.'
+}
+
+for (const [id, question, options, correct] of [
+  [
+    'pr2025_problemloesung_entscheidung_18_08_thema_stufe3',
+    'Im Postkorb liegen gleichzeitig eine heute ablaufende Reklamationsfrist, eine interne Anfrage ohne Frist, eine Sicherheitsstörung und eine Einladung für nächsten Monat. Welche zwei Grundsätze sind für die Priorisierung richtig?',
+    [
+      'Frist, Auswirkung und Dringlichkeit jedes Vorgangs gemeinsam beurteilen.',
+      'Die Sicherheitsstörung und die ablaufende Frist vor der unverbindlichen Einladung bearbeiten.',
+      'Alle Vorgänge strikt nach Eingangszeit erledigen, unabhängig von ihren Folgen.',
+      'Zuerst immer den kürzesten Vorgang abschliessen, damit der Postkorb rasch kleiner wird.'
+    ],
+    [0, 1]
+  ],
+  [
+    'pr2025_problemloesung_entscheidung_19_08_thema_stufe3_3',
+    'Eine dringende Störung kann nur durch eine Fachperson behoben werden, während zwei wichtige Planungsaufgaben bis Ende Woche fällig sind. Welche zwei Massnahmen sind sinnvoll?',
+    [
+      'Die Störung sofort der verfügbaren Fachperson zuweisen und eine Rückmeldung vereinbaren.',
+      'Für die Planungsaufgaben realistische Zeitfenster festlegen und deren Fristen überwachen.',
+      'Alle Aufgaben selbst beginnen, damit keine Delegation dokumentiert werden muss.',
+      'Die Störung bis Ende Woche verschieben, weil Planungsaufgaben grundsätzlich immer wichtiger sind.'
+    ],
+    [0, 1]
+  ]
+]) {
+  const card = byId.get(id)
+  if (!card) continue
+  topic(card, 'Problemloesung_Entscheidung', 'postkorb_priorisierung', 'Postkorb / Priorisierung')
+  Object.assign(card, {
+    lernziel: 'Postkorbvorgänge nach Dringlichkeit, Wichtigkeit, Fristen und möglichen Folgen priorisieren.',
+    typ: 'multiple_choice',
+    frage: question,
+    antwort_daten: { optionen: options, richtige_indices: correct },
+    begriff_erklaerung: {
+      kurz: 'Bei der Postkorbmethode werden mehrere gleichzeitig eintreffende Vorgänge beurteilt, priorisiert, delegiert oder terminiert.',
+      pruefungsrelevant: 'Entscheidend sind Dringlichkeit, Wichtigkeit, Fristen, Risiken, Zuständigkeit und eine nachvollziehbare Kontrolle.'
+    },
+    erklaerung: 'Eine belastbare Priorisierung verbindet Frist und Dringlichkeit mit den möglichen Folgen. Aufgaben werden danach erledigt, delegiert oder verbindlich terminiert.',
+    abschlusserklaerung: 'Gute Priorisierung verhindert Fristversäumnisse und stellt sicher, dass risikoreiche Vorgänge zuerst wirksam behandelt werden.',
+    loesungsvorschlag: {
+      kurz: 'Dringliche und folgenreiche Vorgänge zuerst sichern; wichtige planbare Aufgaben terminieren und überwachen.',
+      warum: 'Die Reihenfolge richtet sich nach Wirkung und Frist, nicht nach Eingang oder Bearbeitungsdauer allein.'
+    },
+    fehlerfallen: [],
+    merksatz: 'Dringend schützt vor unmittelbaren Folgen; wichtig schützt das Ziel.',
+    tags: [...new Set([...(card.tags ?? []), 'postkorb', 'priorisierung', 'vollstaendige_ausgangslage'])]
+  })
+}
+
+// Nach Themenverschiebungen dürfen Erklärungen keine Standardtexte eines anderen Fachs behalten.
+const subjectFallbacks = {
+  Finanzwirtschaft: 'Finanzwirtschaft beurteilt Geschäftsfälle anhand von Erfolgs-, Bilanz-, Kosten- und Zahlungswirkungen.',
+  Integrierte_Fallstudie: 'In der integrierten Fallstudie werden Angaben aus mehreren Fachbereichen zu einer begründeten Lösung verbunden.',
+  Marketing_Verkauf: 'Marketing und Verkauf richtet Entscheidungen an Markt, Kundennutzen und wirtschaftlicher Wirkung aus.',
+  Personalmanagement: 'Personalmanagement verbindet faire Führung, Kommunikation, Personalprozesse und rechtliche Rahmenbedingungen.',
+  Problemloesung_Entscheidung: 'Problemlösung und Entscheidung verlangt Analyse, Variantenbewertung, Umsetzung und Kontrolle.',
+  Recht_VWL: 'Recht und VWL beurteilt den konkreten Sachverhalt anhand rechtlicher Voraussetzungen oder wirtschaftlicher Zusammenhänge.',
+  SCM: 'Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.',
+  Unternehmensfuehrung: 'Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.'
+}
+const foreignBoilerplates = [
+  ['Personalmanagement', /Personalmanagement verbindet[^.]*\./gi],
+  ['Finanzwirtschaft', /Finanzwirtschaft verbindet[^.]*\./gi],
+  ['Marketing_Verkauf', /Marketing und Verkauf verbindet[^.]*\./gi],
+  ['SCM', /Supply Chain Management verbindet[^.]*\./gi],
+  ['Unternehmensfuehrung', /Unternehmensführung verbindet[^.]*\./gi],
+  ['Problemloesung_Entscheidung', /Problemlösung und Entscheidung verlangt[^.]*\./gi]
+]
+function replaceForeignBoilerplate(value, card) {
+  if (typeof value === 'string') {
+    let result = value
+    for (const [subject, pattern] of foreignBoilerplates) {
+      if (subject !== card.fach) result = result.replace(pattern, subjectFallbacks[card.fach] ?? '')
+    }
+    return result.replace(/\s{2,}/g, ' ').trim()
+  }
+  if (Array.isArray(value)) return value.map((item) => replaceForeignBoilerplate(item, card))
+  if (value && typeof value === 'object') {
+    return Object.fromEntries(Object.entries(value).map(([key, item]) => [key, replaceForeignBoilerplate(item, card)]))
+  }
+  return value
+}
+for (const card of cards) {
+  for (const field of ['begriff_erklaerung', 'loesungsvorschlag', 'erklaerung', 'abschlusserklaerung', 'merksatz', 'fehlerfallen']) {
+    if (card[field] != null) card[field] = replaceForeignBoilerplate(card[field], card)
+  }
 }
 
 // Antwortpositionen werden reproduzierbar verteilt; bei Stufe 1 darf die richtige Antwort

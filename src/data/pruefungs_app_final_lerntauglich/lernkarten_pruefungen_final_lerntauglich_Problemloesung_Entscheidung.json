@@ -781,7 +781,7 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Führung / Personal verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Problemlösung und Entscheidung verlangt Analyse, Variantenbewertung, Umsetzung und Kontrolle.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "frage": "Mehrere Mitarbeitende melden gleichzeitig dringende Anliegen. Was ist der erste sinnvolle Schritt?",
@@ -867,7 +867,7 @@
         "aufgabe": "2023:Problemloesung_Entscheidung:1.2"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Problemlösung und Entscheidung verlangt Analyse, Variantenbewertung, Umsetzung und Kontrolle.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -933,7 +933,7 @@
         "aufgabe": "2025:Problemloesung_Entscheidung:1.2"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Problemlösung und Entscheidung verlangt Analyse, Variantenbewertung, Umsetzung und Kontrolle.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -954,138 +954,6 @@
       "merksatz": "Eine belastbare Priorisierung berücksichtigt Fristen und Folgen. Erst danach werden Aufgaben erledigt, delegiert, terminiert oder verworfen.",
       "abschlusserklaerung": "Die Anliegen nach Dringlichkeit, Wichtigkeit, Frist und möglichen Folgen priorisieren. Eine belastbare Priorisierung berücksichtigt Fristen und Folgen. Erst danach werden Aufgaben erledigt, delegiert, terminiert oder verworfen.",
       "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit."
-    },
-    {
-      "id": "pr2025_problemloesung_entscheidung_18_08_thema_stufe3",
-      "jahr": 2025,
-      "fach": "Problemloesung_Entscheidung",
-      "quelle_id": "2025:Problemloesung_Entscheidung:18.08",
-      "quelle_pdf": "2025/Aufgaben/PL-EM_Aufgaben_2025.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Führung / Personal lösen.",
-      "typ": "multiple_choice",
-      "frage": "Welche beiden Aussagen beschreiben „Führung / Personal“ fachlich korrekt?",
-      "antwort_daten": {
-        "optionen": [
-          "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-          "Sämtliche Entscheide bis zum Tagesende aufschieben.",
-          "Alle Anliegen strikt in Eingangsreihenfolge bearbeiten. Dabei wird die Methode fälschlich unabhängig von Ziel, Datenlage und möglichen Risiken gewählt.",
-          "Die Anliegen nach Dringlichkeit, Wichtigkeit, Frist und möglichen Folgen priorisieren."
-        ],
-        "richtige_indices": [
-          0,
-          3
-        ]
-      },
-      "erklaerung": "Die Anliegen nach Dringlichkeit, Wichtigkeit, Frist und möglichen Folgen priorisieren. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-      "stufe": 3,
-      "tags": [
-        "prüfung",
-        "thema",
-        "fallback",
-        "Problemloesung_Entscheidung",
-        "stufe_3",
-        "prüfungsnah",
-        "Führung / Personal",
-        "stufe3",
-        "lerntauglich",
-        "fachfrage_statt_themenabfrage"
-      ],
-      "thema_id": "fuehrung_personal",
-      "thema": "Führung / Personal",
-      "quelle": {
-        "typ": "pruefung",
-        "jahr": 2025,
-        "pdf": "2025/Aufgaben/PL-EM_Aufgaben_2025.pdf",
-        "aufgabe": "2025:Problemloesung_Entscheidung:18.08"
-      },
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "loesungsvorschlag": {
-        "kurz": "Die Anliegen nach Dringlichkeit, Wichtigkeit, Frist und möglichen Folgen priorisieren. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "warum": "Die Anliegen nach Dringlichkeit, Wichtigkeit, Frist und möglichen Folgen priorisieren. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
-      },
-      "fehlerfallen": [],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "merksatz": "Eine belastbare Priorisierung berücksichtigt Fristen und Folgen. Erst danach werden Aufgaben erledigt, delegiert, terminiert oder verworfen.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
-      "abschlusserklaerung": "Die Anliegen nach Dringlichkeit, Wichtigkeit, Frist und möglichen Folgen priorisieren. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
-    },
-    {
-      "id": "pr2025_problemloesung_entscheidung_19_08_thema_stufe3_3",
-      "jahr": 2025,
-      "fach": "Problemloesung_Entscheidung",
-      "quelle_id": "2025:Problemloesung_Entscheidung:19.08",
-      "quelle_pdf": "2025/Aufgaben/PL-EM_Aufgaben_2025.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Führung / Personal lösen.",
-      "typ": "multiple_choice",
-      "frage": "Welche zwei Grundsätze zu „Führung / Personal“ sind richtig?",
-      "antwort_daten": {
-        "optionen": [
-          "Die Anliegen nach Dringlichkeit, Wichtigkeit, Frist und möglichen Folgen priorisieren.",
-          "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-          "Nur das kürzeste Anliegen sofort erledigen.",
-          "Sämtliche Entscheide bis zum Tagesende aufschieben."
-        ],
-        "richtige_indices": [
-          0,
-          1
-        ]
-      },
-      "erklaerung": "Die Anliegen nach Dringlichkeit, Wichtigkeit, Frist und möglichen Folgen priorisieren. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-      "stufe": 3,
-      "tags": [
-        "prüfung",
-        "thema",
-        "fallback",
-        "Problemloesung_Entscheidung",
-        "stufe_3",
-        "prüfungsnah",
-        "Führung / Personal",
-        "stufe3",
-        "lerntauglich",
-        "fachfrage_statt_themenabfrage"
-      ],
-      "thema_id": "fuehrung_personal",
-      "thema": "Führung / Personal",
-      "quelle": {
-        "typ": "pruefung",
-        "jahr": 2025,
-        "pdf": "2025/Aufgaben/PL-EM_Aufgaben_2025.pdf",
-        "aufgabe": "2025:Problemloesung_Entscheidung:19.08"
-      },
-      "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
-      },
-      "loesungsvorschlag": {
-        "kurz": "Die Anliegen nach Dringlichkeit, Wichtigkeit, Frist und möglichen Folgen priorisieren. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "warum": "Die Anliegen nach Dringlichkeit, Wichtigkeit, Frist und möglichen Folgen priorisieren. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
-      },
-      "fehlerfallen": [],
-      "review": {
-        "box": 1,
-        "richtig_in_folge": 0,
-        "falsch_in_folge": 0,
-        "gesamt_richtig": 0,
-        "gesamt_falsch": 0,
-        "letzte_wiederholung": null,
-        "naechste_wiederholung": null,
-        "letzte_antwort": null
-      },
-      "merksatz": "Eine belastbare Priorisierung berücksichtigt Fristen und Folgen. Erst danach werden Aufgaben erledigt, delegiert, terminiert oder verworfen.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
-      "abschlusserklaerung": "Die Anliegen nach Dringlichkeit, Wichtigkeit, Frist und möglichen Folgen priorisieren. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
     },
     {
       "id": "problemloesung_entscheidung_ihr_zeitplan_als_handelsvertreter_handelsvertreterin_stufe1_begriff",
@@ -2413,6 +2281,75 @@
       "abschlusserklaerung": "Priorität ergibt sich aus Wichtigkeit, Dringlichkeit, Folgen und Zuständigkeit – nicht aus Uhrzeit oder Textlänge allein."
     },
     {
+      "id": "pr2025_problemloesung_entscheidung_18_08_thema_stufe3",
+      "jahr": 2025,
+      "fach": "Problemloesung_Entscheidung",
+      "quelle_id": "2025:Problemloesung_Entscheidung:18.08",
+      "quelle_pdf": "2025/Aufgaben/PL-EM_Aufgaben_2025.pdf",
+      "lernziel": "Postkorbvorgänge nach Dringlichkeit, Wichtigkeit, Fristen und möglichen Folgen priorisieren.",
+      "typ": "multiple_choice",
+      "frage": "Im Postkorb liegen gleichzeitig eine heute ablaufende Reklamationsfrist, eine interne Anfrage ohne Frist, eine Sicherheitsstörung und eine Einladung für nächsten Monat. Welche zwei Grundsätze sind für die Priorisierung richtig?",
+      "antwort_daten": {
+        "optionen": [
+          "Frist, Auswirkung und Dringlichkeit jedes Vorgangs gemeinsam beurteilen.",
+          "Die Sicherheitsstörung und die ablaufende Frist vor der unverbindlichen Einladung bearbeiten.",
+          "Alle Vorgänge strikt nach Eingangszeit erledigen, unabhängig von ihren Folgen.",
+          "Zuerst immer den kürzesten Vorgang abschliessen, damit der Postkorb rasch kleiner wird."
+        ],
+        "richtige_indices": [
+          0,
+          1
+        ]
+      },
+      "erklaerung": "Eine belastbare Priorisierung verbindet Frist und Dringlichkeit mit den möglichen Folgen. Aufgaben werden danach erledigt, delegiert oder verbindlich terminiert.",
+      "stufe": 3,
+      "tags": [
+        "prüfung",
+        "thema",
+        "fallback",
+        "Problemloesung_Entscheidung",
+        "stufe_3",
+        "prüfungsnah",
+        "Führung / Personal",
+        "stufe3",
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage",
+        "postkorb",
+        "priorisierung",
+        "vollstaendige_ausgangslage"
+      ],
+      "thema_id": "postkorb_priorisierung",
+      "thema": "Postkorb / Priorisierung",
+      "quelle": {
+        "typ": "pruefung",
+        "jahr": 2025,
+        "pdf": "2025/Aufgaben/PL-EM_Aufgaben_2025.pdf",
+        "aufgabe": "2025:Problemloesung_Entscheidung:18.08"
+      },
+      "begriff_erklaerung": {
+        "kurz": "Bei der Postkorbmethode werden mehrere gleichzeitig eintreffende Vorgänge beurteilt, priorisiert, delegiert oder terminiert.",
+        "pruefungsrelevant": "Entscheidend sind Dringlichkeit, Wichtigkeit, Fristen, Risiken, Zuständigkeit und eine nachvollziehbare Kontrolle."
+      },
+      "loesungsvorschlag": {
+        "kurz": "Dringliche und folgenreiche Vorgänge zuerst sichern; wichtige planbare Aufgaben terminieren und überwachen.",
+        "warum": "Die Reihenfolge richtet sich nach Wirkung und Frist, nicht nach Eingang oder Bearbeitungsdauer allein."
+      },
+      "fehlerfallen": [],
+      "review": {
+        "box": 1,
+        "richtig_in_folge": 0,
+        "falsch_in_folge": 0,
+        "gesamt_richtig": 0,
+        "gesamt_falsch": 0,
+        "letzte_wiederholung": null,
+        "naechste_wiederholung": null,
+        "letzte_antwort": null
+      },
+      "merksatz": "Dringend schützt vor unmittelbaren Folgen; wichtig schützt das Ziel.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "Gute Priorisierung verhindert Fristversäumnisse und stellt sicher, dass risikoreiche Vorgänge zuerst wirksam behandelt werden."
+    },
+    {
       "id": "pr2025_problemloesung_entscheidung_19_08_thema_stufe3",
       "jahr": 2025,
       "fach": "Problemloesung_Entscheidung",
@@ -2545,6 +2482,75 @@
       "merksatz": "Eine wichtige, aber später fällige Aufgabe wird verbindlich terminiert oder delegiert und anschliessend kontrolliert.",
       "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
       "abschlusserklaerung": "Eine wichtige, aber später fällige Aufgabe wird verbindlich terminiert oder delegiert und anschliessend kontrolliert."
+    },
+    {
+      "id": "pr2025_problemloesung_entscheidung_19_08_thema_stufe3_3",
+      "jahr": 2025,
+      "fach": "Problemloesung_Entscheidung",
+      "quelle_id": "2025:Problemloesung_Entscheidung:19.08",
+      "quelle_pdf": "2025/Aufgaben/PL-EM_Aufgaben_2025.pdf",
+      "lernziel": "Postkorbvorgänge nach Dringlichkeit, Wichtigkeit, Fristen und möglichen Folgen priorisieren.",
+      "typ": "multiple_choice",
+      "frage": "Eine dringende Störung kann nur durch eine Fachperson behoben werden, während zwei wichtige Planungsaufgaben bis Ende Woche fällig sind. Welche zwei Massnahmen sind sinnvoll?",
+      "antwort_daten": {
+        "optionen": [
+          "Die Störung sofort der verfügbaren Fachperson zuweisen und eine Rückmeldung vereinbaren.",
+          "Für die Planungsaufgaben realistische Zeitfenster festlegen und deren Fristen überwachen.",
+          "Alle Aufgaben selbst beginnen, damit keine Delegation dokumentiert werden muss.",
+          "Die Störung bis Ende Woche verschieben, weil Planungsaufgaben grundsätzlich immer wichtiger sind."
+        ],
+        "richtige_indices": [
+          0,
+          1
+        ]
+      },
+      "erklaerung": "Eine belastbare Priorisierung verbindet Frist und Dringlichkeit mit den möglichen Folgen. Aufgaben werden danach erledigt, delegiert oder verbindlich terminiert.",
+      "stufe": 3,
+      "tags": [
+        "prüfung",
+        "thema",
+        "fallback",
+        "Problemloesung_Entscheidung",
+        "stufe_3",
+        "prüfungsnah",
+        "Führung / Personal",
+        "stufe3",
+        "lerntauglich",
+        "fachfrage_statt_themenabfrage",
+        "postkorb",
+        "priorisierung",
+        "vollstaendige_ausgangslage"
+      ],
+      "thema_id": "postkorb_priorisierung",
+      "thema": "Postkorb / Priorisierung",
+      "quelle": {
+        "typ": "pruefung",
+        "jahr": 2025,
+        "pdf": "2025/Aufgaben/PL-EM_Aufgaben_2025.pdf",
+        "aufgabe": "2025:Problemloesung_Entscheidung:19.08"
+      },
+      "begriff_erklaerung": {
+        "kurz": "Bei der Postkorbmethode werden mehrere gleichzeitig eintreffende Vorgänge beurteilt, priorisiert, delegiert oder terminiert.",
+        "pruefungsrelevant": "Entscheidend sind Dringlichkeit, Wichtigkeit, Fristen, Risiken, Zuständigkeit und eine nachvollziehbare Kontrolle."
+      },
+      "loesungsvorschlag": {
+        "kurz": "Dringliche und folgenreiche Vorgänge zuerst sichern; wichtige planbare Aufgaben terminieren und überwachen.",
+        "warum": "Die Reihenfolge richtet sich nach Wirkung und Frist, nicht nach Eingang oder Bearbeitungsdauer allein."
+      },
+      "fehlerfallen": [],
+      "review": {
+        "box": 1,
+        "richtig_in_folge": 0,
+        "falsch_in_folge": 0,
+        "gesamt_richtig": 0,
+        "gesamt_falsch": 0,
+        "letzte_wiederholung": null,
+        "naechste_wiederholung": null,
+        "letzte_antwort": null
+      },
+      "merksatz": "Dringend schützt vor unmittelbaren Folgen; wichtig schützt das Ziel.",
+      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
+      "abschlusserklaerung": "Gute Priorisierung verhindert Fristversäumnisse und stellt sicher, dass risikoreiche Vorgänge zuerst wirksam behandelt werden."
     },
     {
       "id": "problemloesung_entscheidung_problemloesungs_und_entscheidungsmethoden_stufe1_begriff",
@@ -3650,7 +3656,7 @@
       "typ": "single_choice",
       "lernziel": "Grundidee zu Ziele / SMART verstehen",
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Problemlösung und Entscheidung verlangt Analyse, Variantenbewertung, Umsetzung und Kontrolle.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "frage": "Welches Ziel ist am ehesten SMART formuliert?",
@@ -3784,7 +3790,7 @@
         "aufgabe": "2023:Problemloesung_Entscheidung:3.1"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Problemlösung und Entscheidung verlangt Analyse, Variantenbewertung, Umsetzung und Kontrolle.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -3850,7 +3856,7 @@
         "aufgabe": "2025:Problemloesung_Entscheidung:3.1"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Problemlösung und Entscheidung verlangt Analyse, Variantenbewertung, Umsetzung und Kontrolle.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {

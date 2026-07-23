@@ -376,7 +376,7 @@
         "aufgabe": "2023:Unternehmensfuehrung:3.1"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -622,7 +622,7 @@
           3
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Angabe, wieviel Kapital von der Bank benötigt wird; Investitionsrechnung, wieso eine neue Fabrikationshalle betriebswirtschaftlich Sinn \nmacht; Information, wer für Planung und Bau der Halle verantwortlich ist; Einschätzung des Marktes heute und in den ersten Jahren nach Fertigstellung der Halle. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
+      "erklaerung": "Fachlich richtig sind: Angabe, wieviel Kapital von der Bank benötigt wird; Investitionsrechnung, wieso eine neue Fabrikationshalle betriebswirtschaftlich Sinn macht; Information, wer für Planung und Bau der Halle verantwortlich ist; Einschätzung des Marktes heute und in den ersten Jahren nach Fertigstellung der Halle. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -648,8 +648,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Angabe, wieviel Kapital von der Bank benötigt wird; Investitionsrechnung, wieso eine neue Fabrikationshalle betriebswirtschaftlich Sinn \nmacht; Information, wer für Planung und Bau der Halle verantwortlich ist; Einschätzung des Marktes heute und in den ersten Jahren nach Fertigstellung der Halle. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "warum": "Fachlich richtig sind: Angabe, wieviel Kapital von der Bank benötigt wird; Investitionsrechnung, wieso eine neue Fabrikationshalle betriebswirtschaftlich Sinn \nmacht; Information, wer für Planung und Bau der Halle verantwortlich ist; Einschätzung des Marktes heute und in den ersten Jahren nach Fertigstellung der Halle. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
+        "kurz": "Fachlich richtig sind: Angabe, wieviel Kapital von der Bank benötigt wird; Investitionsrechnung, wieso eine neue Fabrikationshalle betriebswirtschaftlich Sinn macht; Information, wer für Planung und Bau der Halle verantwortlich ist; Einschätzung des Marktes heute und in den ersten Jahren nach Fertigstellung der Halle. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
+        "warum": "Fachlich richtig sind: Angabe, wieviel Kapital von der Bank benötigt wird; Investitionsrechnung, wieso eine neue Fabrikationshalle betriebswirtschaftlich Sinn macht; Information, wer für Planung und Bau der Halle verantwortlich ist; Einschätzung des Marktes heute und in den ersten Jahren nach Fertigstellung der Halle. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
       },
       "fehlerfallen": [
         "Analyse und Massnahme nicht verknüpfen.",
@@ -666,8 +666,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Angabe, wieviel Kapital von der Bank benötigt wird; Investitionsrechnung, wieso eine neue Fabrikationshalle betriebswirtschaftlich Sinn \nmacht; Information, wer für Planung und Bau der Halle verantwortlich ist; Einschätzung des Marktes heute und in den ersten Jahren nach Fertigstellung der Halle. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-      "abschlusserklaerung": "Fachlich richtig sind: Angabe, wieviel Kapital von der Bank benötigt wird; Investitionsrechnung, wieso eine neue Fabrikationshalle betriebswirtschaftlich Sinn \nmacht; Information, wer für Planung und Bau der Halle verantwortlich ist; Einschätzung des Marktes heute und in den ersten Jahren nach Fertigstellung der Halle. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
+      "merksatz": "Fachlich richtig sind: Angabe, wieviel Kapital von der Bank benötigt wird; Investitionsrechnung, wieso eine neue Fabrikationshalle betriebswirtschaftlich Sinn macht; Information, wer für Planung und Bau der Halle verantwortlich ist; Einschätzung des Marktes heute und in den ersten Jahren nach Fertigstellung der Halle. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
+      "abschlusserklaerung": "Fachlich richtig sind: Angabe, wieviel Kapital von der Bank benötigt wird; Investitionsrechnung, wieso eine neue Fabrikationshalle betriebswirtschaftlich Sinn macht; Information, wer für Planung und Bau der Halle verantwortlich ist; Einschätzung des Marktes heute und in den ersten Jahren nach Fertigstellung der Halle. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
     },
     {
       "id": "unternehmensfuehrung_businessplan_stufe1_begriff",
@@ -871,7 +871,7 @@
         "aufgabe": "2024:Unternehmensfuehrung:1.16"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -1005,7 +1005,7 @@
         "aufgabe": "2025:Unternehmensfuehrung:1.15"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -1274,7 +1274,7 @@
         ],
         "richtig_index": 3
       },
-      "erklaerung": "Fachlich richtig ist: Es sind spezifische Mindestziele (Bsp. bezüglich Energieverbrauch) einzuhalten. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+      "erklaerung": "Fachlich richtig ist: Es sind spezifische Mindestziele (Bsp. bezüglich Energieverbrauch) einzuhalten. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -1296,12 +1296,12 @@
         "aufgabe": "2024:Unternehmensfuehrung:1.3"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Es sind spezifische Mindestziele (Bsp. bezüglich Energieverbrauch) einzuhalten. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "warum": "Fachlich richtig ist: Es sind spezifische Mindestziele (Bsp. bezüglich Energieverbrauch) einzuhalten. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+        "kurz": "Fachlich richtig ist: Es sind spezifische Mindestziele (Bsp. bezüglich Energieverbrauch) einzuhalten. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+        "warum": "Fachlich richtig ist: Es sind spezifische Mindestziele (Bsp. bezüglich Energieverbrauch) einzuhalten. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
       },
       "fehlerfallen": [
         "Ziele zu unklar oder nicht messbar formulieren.",
@@ -1318,8 +1318,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Es sind spezifische Mindestziele (Bsp. bezüglich Energieverbrauch) einzuhalten. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-      "abschlusserklaerung": "Fachlich richtig ist: Es sind spezifische Mindestziele (Bsp. bezüglich Energieverbrauch) einzuhalten. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+      "merksatz": "Fachlich richtig ist: Es sind spezifische Mindestziele (Bsp. bezüglich Energieverbrauch) einzuhalten. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+      "abschlusserklaerung": "Fachlich richtig ist: Es sind spezifische Mindestziele (Bsp. bezüglich Energieverbrauch) einzuhalten. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
     },
     {
       "id": "unternehmensfuehrung_grundlegende_empfehlungen_fuer_das_technologiemanagement_ableiten_stufe1_begriff",
@@ -1683,7 +1683,7 @@
           3
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Solche grosse Kundenprojekte können in einem Malerbetrieb durch eine reine Projekt-\norganisation abgewickelt werden.; Projektmanagement wird typischerweise für zeitlich befristete Herausforderungen gewählt.; Das Projektbudget umfasst den für das Projekt notwendigen finanziellen Rahmen. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+      "erklaerung": "Fachlich richtig sind: Solche grosse Kundenprojekte können in einem Malerbetrieb durch eine reine Projekt-\norganisation abgewickelt werden.; Projektmanagement wird typischerweise für zeitlich befristete Herausforderungen gewählt.; Das Projektbudget umfasst den für das Projekt notwendigen finanziellen Rahmen. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -1705,12 +1705,12 @@
         "aufgabe": "2023:Unternehmensfuehrung:1.11"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Solche grosse Kundenprojekte können in einem Malerbetrieb durch eine reine Projekt-\norganisation abgewickelt werden.; Projektmanagement wird typischerweise für zeitlich befristete Herausforderungen gewählt.; Das Projektbudget umfasst den für das Projekt notwendigen finanziellen Rahmen. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "warum": "Fachlich richtig sind: Solche grosse Kundenprojekte können in einem Malerbetrieb durch eine reine Projekt-\norganisation abgewickelt werden.; Projektmanagement wird typischerweise für zeitlich befristete Herausforderungen gewählt.; Das Projektbudget umfasst den für das Projekt notwendigen finanziellen Rahmen. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+        "kurz": "Fachlich richtig sind: Solche grosse Kundenprojekte können in einem Malerbetrieb durch eine reine Projekt-\norganisation abgewickelt werden.; Projektmanagement wird typischerweise für zeitlich befristete Herausforderungen gewählt.; Das Projektbudget umfasst den für das Projekt notwendigen finanziellen Rahmen. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+        "warum": "Fachlich richtig sind: Solche grosse Kundenprojekte können in einem Malerbetrieb durch eine reine Projekt-\norganisation abgewickelt werden.; Projektmanagement wird typischerweise für zeitlich befristete Herausforderungen gewählt.; Das Projektbudget umfasst den für das Projekt notwendigen finanziellen Rahmen. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
       },
       "fehlerfallen": [
         "Ziele zu unklar oder nicht messbar formulieren.",
@@ -1727,8 +1727,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Solche grosse Kundenprojekte können in einem Malerbetrieb durch eine reine Projekt-\norganisation abgewickelt werden.; Projektmanagement wird typischerweise für zeitlich befristete Herausforderungen gewählt.; Das Projektbudget umfasst den für das Projekt notwendigen finanziellen Rahmen. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-      "abschlusserklaerung": "Fachlich richtig sind: Solche grosse Kundenprojekte können in einem Malerbetrieb durch eine reine Projekt-\norganisation abgewickelt werden.; Projektmanagement wird typischerweise für zeitlich befristete Herausforderungen gewählt.; Das Projektbudget umfasst den für das Projekt notwendigen finanziellen Rahmen. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+      "merksatz": "Fachlich richtig sind: Solche grosse Kundenprojekte können in einem Malerbetrieb durch eine reine Projekt-\norganisation abgewickelt werden.; Projektmanagement wird typischerweise für zeitlich befristete Herausforderungen gewählt.; Das Projektbudget umfasst den für das Projekt notwendigen finanziellen Rahmen. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+      "abschlusserklaerung": "Fachlich richtig sind: Solche grosse Kundenprojekte können in einem Malerbetrieb durch eine reine Projekt-\norganisation abgewickelt werden.; Projektmanagement wird typischerweise für zeitlich befristete Herausforderungen gewählt.; Das Projektbudget umfasst den für das Projekt notwendigen finanziellen Rahmen. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
     },
     {
       "id": "pr2023_unternehmensfuehrung_1_4_choice_stufe3",
@@ -1748,7 +1748,7 @@
         ],
         "richtig_index": 0
       },
-      "erklaerung": "Fachlich richtig ist: Scheiterndes Projekt frühzeitig abschliessen und Anschlussoptionen für die \n \n \nProjektmitarbeitenden finden. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+      "erklaerung": "Fachlich richtig ist: Scheiterndes Projekt frühzeitig abschliessen und Anschlussoptionen für die Projektmitarbeitenden finden. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -1770,12 +1770,12 @@
         "aufgabe": "2023:Unternehmensfuehrung:1.4"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Scheiterndes Projekt frühzeitig abschliessen und Anschlussoptionen für die \n \n \nProjektmitarbeitenden finden. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "warum": "Fachlich richtig ist: Scheiterndes Projekt frühzeitig abschliessen und Anschlussoptionen für die \n \n \nProjektmitarbeitenden finden. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+        "kurz": "Fachlich richtig ist: Scheiterndes Projekt frühzeitig abschliessen und Anschlussoptionen für die Projektmitarbeitenden finden. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+        "warum": "Fachlich richtig ist: Scheiterndes Projekt frühzeitig abschliessen und Anschlussoptionen für die Projektmitarbeitenden finden. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
       },
       "fehlerfallen": [
         "Ziele zu unklar oder nicht messbar formulieren.",
@@ -1792,8 +1792,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Scheiterndes Projekt frühzeitig abschliessen und Anschlussoptionen für die \n \n \nProjektmitarbeitenden finden. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-      "abschlusserklaerung": "Fachlich richtig ist: Scheiterndes Projekt frühzeitig abschliessen und Anschlussoptionen für die \n \n \nProjektmitarbeitenden finden. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+      "merksatz": "Fachlich richtig ist: Scheiterndes Projekt frühzeitig abschliessen und Anschlussoptionen für die Projektmitarbeitenden finden. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+      "abschlusserklaerung": "Fachlich richtig ist: Scheiterndes Projekt frühzeitig abschliessen und Anschlussoptionen für die Projektmitarbeitenden finden. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
     },
     {
       "id": "pr2023_unternehmensfuehrung_2_2_loesungspunkte_stufe3",
@@ -1839,7 +1839,7 @@
         "aufgabe": "2023:Unternehmensfuehrung:2.2"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -1905,7 +1905,7 @@
         "aufgabe": "2024:Unternehmensfuehrung:2.2"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -1940,12 +1940,12 @@
         "optionen": [
           "Das Projektteam ist stärker zu motivieren.",
           "Der Lohn der Projektmitarbeitenden ist zu kürzen.",
-          "Das Projektteam ist finanziell und personell zu verstärken.",
-          "Das Projekt ist abzubrechen."
+          "Das Projekt ist abzubrechen.",
+          "Das Projektteam ist finanziell und personell zu verstärken."
         ],
-        "richtig_index": 3
+        "richtig_index": 2
       },
-      "erklaerung": "Fachlich richtig ist: Das Projekt ist abzubrechen. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+      "erklaerung": "Fachlich richtig ist: Das Projekt ist abzubrechen. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -1967,12 +1967,12 @@
         "aufgabe": "2025:Unternehmensfuehrung:1.5"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Das Projekt ist abzubrechen. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "warum": "Fachlich richtig ist: Das Projekt ist abzubrechen. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+        "kurz": "Fachlich richtig ist: Das Projekt ist abzubrechen. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+        "warum": "Fachlich richtig ist: Das Projekt ist abzubrechen. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
       },
       "fehlerfallen": [
         "Ziele zu unklar oder nicht messbar formulieren.",
@@ -1989,8 +1989,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Das Projekt ist abzubrechen. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-      "abschlusserklaerung": "Fachlich richtig ist: Das Projekt ist abzubrechen. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+      "merksatz": "Fachlich richtig ist: Das Projekt ist abzubrechen. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+      "abschlusserklaerung": "Fachlich richtig ist: Das Projekt ist abzubrechen. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
     },
     {
       "id": "pr2025_unternehmensfuehrung_2_2_loesungspunkte_stufe3",
@@ -2036,7 +2036,7 @@
         "aufgabe": "2025:Unternehmensfuehrung:2.2"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -2272,13 +2272,13 @@
       "antwort_daten": {
         "optionen": [
           "Aktives Zuhören der Projektverantwortlichen",
-          "Regelmässige Videokonferenzen",
           "Individuelle, für andere nicht einsehbare Projekttagebücher",
+          "Regelmässige Videokonferenzen",
           "Schriftliche Protokollierung von Entscheidungen. Dabei werden Anspruchsgruppen, Ressourcen und langfristige Auswirkungen fälschlich als nicht entscheidungsrelevant behandelt."
         ],
-        "richtig_index": 2
+        "richtig_index": 1
       },
-      "erklaerung": "Fachlich richtig ist: Individuelle, für andere nicht einsehbare Projekttagebücher. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+      "erklaerung": "Fachlich richtig ist: Individuelle, für andere nicht einsehbare Projekttagebücher. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -2300,12 +2300,12 @@
         "aufgabe": "2025:Unternehmensfuehrung:1.4"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Individuelle, für andere nicht einsehbare Projekttagebücher. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "warum": "Fachlich richtig ist: Individuelle, für andere nicht einsehbare Projekttagebücher. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+        "kurz": "Fachlich richtig ist: Individuelle, für andere nicht einsehbare Projekttagebücher. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+        "warum": "Fachlich richtig ist: Individuelle, für andere nicht einsehbare Projekttagebücher. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
       },
       "fehlerfallen": [
         "Ziele zu unklar oder nicht messbar formulieren.",
@@ -2322,8 +2322,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Individuelle, für andere nicht einsehbare Projekttagebücher. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-      "abschlusserklaerung": "Fachlich richtig ist: Individuelle, für andere nicht einsehbare Projekttagebücher. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+      "merksatz": "Fachlich richtig ist: Individuelle, für andere nicht einsehbare Projekttagebücher. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+      "abschlusserklaerung": "Fachlich richtig ist: Individuelle, für andere nicht einsehbare Projekttagebücher. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
     },
     {
       "id": "unternehmensfuehrung_marketing_verkauf_stufe1_begriff",
@@ -2720,7 +2720,7 @@
         "aufgabe": "2022:Unternehmensfuehrung:1.17"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -3059,7 +3059,7 @@
           3
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Eine Stelle stellt ein Bündel von Aufgaben dar, die von den Inhabern der Stelle zu \nerfüllen sind.; Üblicherweise wird zuerst eine Aufgabenanalyse erstellt, welche Grundlage für die \nStellenbildung ist. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
+      "erklaerung": "Fachlich richtig sind: Eine Stelle stellt ein Bündel von Aufgaben dar, die von den Inhabern der Stelle zu erfüllen sind.; Üblicherweise wird zuerst eine Aufgabenanalyse erstellt, welche Grundlage für die Stellenbildung ist. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -3085,8 +3085,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Eine Stelle stellt ein Bündel von Aufgaben dar, die von den Inhabern der Stelle zu \nerfüllen sind.; Üblicherweise wird zuerst eine Aufgabenanalyse erstellt, welche Grundlage für die \nStellenbildung ist. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "warum": "Fachlich richtig sind: Eine Stelle stellt ein Bündel von Aufgaben dar, die von den Inhabern der Stelle zu \nerfüllen sind.; Üblicherweise wird zuerst eine Aufgabenanalyse erstellt, welche Grundlage für die \nStellenbildung ist. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
+        "kurz": "Fachlich richtig sind: Eine Stelle stellt ein Bündel von Aufgaben dar, die von den Inhabern der Stelle zu erfüllen sind.; Üblicherweise wird zuerst eine Aufgabenanalyse erstellt, welche Grundlage für die Stellenbildung ist. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
+        "warum": "Fachlich richtig sind: Eine Stelle stellt ein Bündel von Aufgaben dar, die von den Inhabern der Stelle zu erfüllen sind.; Üblicherweise wird zuerst eine Aufgabenanalyse erstellt, welche Grundlage für die Stellenbildung ist. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
       },
       "fehlerfallen": [
         "Analyse und Massnahme nicht verknüpfen.",
@@ -3103,8 +3103,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Eine Stelle stellt ein Bündel von Aufgaben dar, die von den Inhabern der Stelle zu \nerfüllen sind.; Üblicherweise wird zuerst eine Aufgabenanalyse erstellt, welche Grundlage für die \nStellenbildung ist. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-      "abschlusserklaerung": "Fachlich richtig sind: Eine Stelle stellt ein Bündel von Aufgaben dar, die von den Inhabern der Stelle zu \nerfüllen sind.; Üblicherweise wird zuerst eine Aufgabenanalyse erstellt, welche Grundlage für die \nStellenbildung ist. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
+      "merksatz": "Fachlich richtig sind: Eine Stelle stellt ein Bündel von Aufgaben dar, die von den Inhabern der Stelle zu erfüllen sind.; Üblicherweise wird zuerst eine Aufgabenanalyse erstellt, welche Grundlage für die Stellenbildung ist. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
+      "abschlusserklaerung": "Fachlich richtig sind: Eine Stelle stellt ein Bündel von Aufgaben dar, die von den Inhabern der Stelle zu erfüllen sind.; Üblicherweise wird zuerst eine Aufgabenanalyse erstellt, welche Grundlage für die Stellenbildung ist. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
     },
     {
       "id": "pr2022_unternehmensfuehrung_1_11_choice_stufe3",
@@ -3128,7 +3128,7 @@
           3
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Die Prozesslandkarte Ihres Unternehmens gibt einen Überblick über alle wichtigen \n \nProzesse in Ihrem Unternehmen.; Die Abwicklung von Maleraufträgen ist ein typischer Kernprozess.; Prozesse werden mit einer Spitze am Ende dargestellt, weil sie immer auf die \n \n \nAnforderungen interner oder externer Kunden ausgerichtet sein sollten. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
+      "erklaerung": "Fachlich richtig sind: Die Prozesslandkarte Ihres Unternehmens gibt einen Überblick über alle wichtigen Prozesse in Ihrem Unternehmen.; Die Abwicklung von Maleraufträgen ist ein typischer Kernprozess.; Prozesse werden mit einer Spitze am Ende dargestellt, weil sie immer auf die Anforderungen interner oder externer Kunden ausgerichtet sein sollten. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -3154,8 +3154,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Die Prozesslandkarte Ihres Unternehmens gibt einen Überblick über alle wichtigen \n \nProzesse in Ihrem Unternehmen.; Die Abwicklung von Maleraufträgen ist ein typischer Kernprozess.; Prozesse werden mit einer Spitze am Ende dargestellt, weil sie immer auf die \n \n \nAnforderungen interner oder externer Kunden ausgerichtet sein sollten. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "warum": "Fachlich richtig sind: Die Prozesslandkarte Ihres Unternehmens gibt einen Überblick über alle wichtigen \n \nProzesse in Ihrem Unternehmen.; Die Abwicklung von Maleraufträgen ist ein typischer Kernprozess.; Prozesse werden mit einer Spitze am Ende dargestellt, weil sie immer auf die \n \n \nAnforderungen interner oder externer Kunden ausgerichtet sein sollten. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
+        "kurz": "Fachlich richtig sind: Die Prozesslandkarte Ihres Unternehmens gibt einen Überblick über alle wichtigen Prozesse in Ihrem Unternehmen.; Die Abwicklung von Maleraufträgen ist ein typischer Kernprozess.; Prozesse werden mit einer Spitze am Ende dargestellt, weil sie immer auf die Anforderungen interner oder externer Kunden ausgerichtet sein sollten. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
+        "warum": "Fachlich richtig sind: Die Prozesslandkarte Ihres Unternehmens gibt einen Überblick über alle wichtigen Prozesse in Ihrem Unternehmen.; Die Abwicklung von Maleraufträgen ist ein typischer Kernprozess.; Prozesse werden mit einer Spitze am Ende dargestellt, weil sie immer auf die Anforderungen interner oder externer Kunden ausgerichtet sein sollten. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
       },
       "fehlerfallen": [
         "Analyse und Massnahme nicht verknüpfen.",
@@ -3172,8 +3172,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Die Prozesslandkarte Ihres Unternehmens gibt einen Überblick über alle wichtigen \n \nProzesse in Ihrem Unternehmen.; Die Abwicklung von Maleraufträgen ist ein typischer Kernprozess.; Prozesse werden mit einer Spitze am Ende dargestellt, weil sie immer auf die \n \n \nAnforderungen interner oder externer Kunden ausgerichtet sein sollten. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-      "abschlusserklaerung": "Fachlich richtig sind: Die Prozesslandkarte Ihres Unternehmens gibt einen Überblick über alle wichtigen \n \nProzesse in Ihrem Unternehmen.; Die Abwicklung von Maleraufträgen ist ein typischer Kernprozess.; Prozesse werden mit einer Spitze am Ende dargestellt, weil sie immer auf die \n \n \nAnforderungen interner oder externer Kunden ausgerichtet sein sollten. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
+      "merksatz": "Fachlich richtig sind: Die Prozesslandkarte Ihres Unternehmens gibt einen Überblick über alle wichtigen Prozesse in Ihrem Unternehmen.; Die Abwicklung von Maleraufträgen ist ein typischer Kernprozess.; Prozesse werden mit einer Spitze am Ende dargestellt, weil sie immer auf die Anforderungen interner oder externer Kunden ausgerichtet sein sollten. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
+      "abschlusserklaerung": "Fachlich richtig sind: Die Prozesslandkarte Ihres Unternehmens gibt einen Überblick über alle wichtigen Prozesse in Ihrem Unternehmen.; Die Abwicklung von Maleraufträgen ist ein typischer Kernprozess.; Prozesse werden mit einer Spitze am Ende dargestellt, weil sie immer auf die Anforderungen interner oder externer Kunden ausgerichtet sein sollten. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
     },
     {
       "id": "pr2022_unternehmensfuehrung_1_12_choice_stufe3",
@@ -3197,7 +3197,7 @@
           2
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Das Symbol für ein Ereignis ist sechseckig.; Das Symbol für eine Tätigkeit oder einen Prozessschritt ist ein allenfalls abgerundetes; Das Symbol für eine Entscheidung oder Entscheidungssituation ist \n \n \neine Raute / ein Rhombus. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
+      "erklaerung": "Fachlich richtig sind: Das Symbol für ein Ereignis ist sechseckig.; Das Symbol für eine Tätigkeit oder einen Prozessschritt ist ein allenfalls abgerundetes; Das Symbol für eine Entscheidung oder Entscheidungssituation ist eine Raute / ein Rhombus. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -3223,8 +3223,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Das Symbol für ein Ereignis ist sechseckig.; Das Symbol für eine Tätigkeit oder einen Prozessschritt ist ein allenfalls abgerundetes; Das Symbol für eine Entscheidung oder Entscheidungssituation ist \n \n \neine Raute / ein Rhombus. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "warum": "Fachlich richtig sind: Das Symbol für ein Ereignis ist sechseckig.; Das Symbol für eine Tätigkeit oder einen Prozessschritt ist ein allenfalls abgerundetes; Das Symbol für eine Entscheidung oder Entscheidungssituation ist \n \n \neine Raute / ein Rhombus. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
+        "kurz": "Fachlich richtig sind: Das Symbol für ein Ereignis ist sechseckig.; Das Symbol für eine Tätigkeit oder einen Prozessschritt ist ein allenfalls abgerundetes; Das Symbol für eine Entscheidung oder Entscheidungssituation ist eine Raute / ein Rhombus. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
+        "warum": "Fachlich richtig sind: Das Symbol für ein Ereignis ist sechseckig.; Das Symbol für eine Tätigkeit oder einen Prozessschritt ist ein allenfalls abgerundetes; Das Symbol für eine Entscheidung oder Entscheidungssituation ist eine Raute / ein Rhombus. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
       },
       "fehlerfallen": [
         "Analyse und Massnahme nicht verknüpfen.",
@@ -3241,8 +3241,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Das Symbol für ein Ereignis ist sechseckig.; Das Symbol für eine Tätigkeit oder einen Prozessschritt ist ein allenfalls abgerundetes; Das Symbol für eine Entscheidung oder Entscheidungssituation ist \n \n \neine Raute / ein Rhombus. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-      "abschlusserklaerung": "Fachlich richtig sind: Das Symbol für ein Ereignis ist sechseckig.; Das Symbol für eine Tätigkeit oder einen Prozessschritt ist ein allenfalls abgerundetes; Das Symbol für eine Entscheidung oder Entscheidungssituation ist \n \n \neine Raute / ein Rhombus. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
+      "merksatz": "Fachlich richtig sind: Das Symbol für ein Ereignis ist sechseckig.; Das Symbol für eine Tätigkeit oder einen Prozessschritt ist ein allenfalls abgerundetes; Das Symbol für eine Entscheidung oder Entscheidungssituation ist eine Raute / ein Rhombus. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
+      "abschlusserklaerung": "Fachlich richtig sind: Das Symbol für ein Ereignis ist sechseckig.; Das Symbol für eine Tätigkeit oder einen Prozessschritt ist ein allenfalls abgerundetes; Das Symbol für eine Entscheidung oder Entscheidungssituation ist eine Raute / ein Rhombus. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
     },
     {
       "id": "pr2022_unternehmensfuehrung_2_2_thema_stufe3",
@@ -3354,7 +3354,7 @@
         "aufgabe": "2022:Unternehmensfuehrung:2.3"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -3398,7 +3398,7 @@
           3
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Organisationales Lernen bezeichnet den Veränderungsprozess von Wissen, Kompe-\ntenzen, Werten, Normen, eingespielten Routinen, Strukturen, Abläufen etc., damit Unter-\nnehmen und deren Mitarbeitende Herausforderungen, Probleme laufend besser lösen \nkönnen.; Viele Veränderungsprozesse können in die drei Phasen «Auftauen», «Bewegen» und \n«Einfrieren» eingeteilt werden.; Business Reengineering entspricht mehr einer Revolution als einer Evolution in der \nOrganisation. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
+      "erklaerung": "Fachlich richtig sind: Organisationales Lernen bezeichnet den Veränderungsprozess von Wissen, Kompe-\ntenzen, Werten, Normen, eingespielten Routinen, Strukturen, Abläufen etc., damit Unter-\nnehmen und deren Mitarbeitende Herausforderungen, Probleme laufend besser lösen können.; Viele Veränderungsprozesse können in die drei Phasen «Auftauen», «Bewegen» und «Einfrieren» eingeteilt werden.; Business Reengineering entspricht mehr einer Revolution als einer Evolution in der Organisation. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -3424,8 +3424,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Organisationales Lernen bezeichnet den Veränderungsprozess von Wissen, Kompe-\ntenzen, Werten, Normen, eingespielten Routinen, Strukturen, Abläufen etc., damit Unter-\nnehmen und deren Mitarbeitende Herausforderungen, Probleme laufend besser lösen \nkönnen.; Viele Veränderungsprozesse können in die drei Phasen «Auftauen», «Bewegen» und \n«Einfrieren» eingeteilt werden.; Business Reengineering entspricht mehr einer Revolution als einer Evolution in der \nOrganisation. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "warum": "Fachlich richtig sind: Organisationales Lernen bezeichnet den Veränderungsprozess von Wissen, Kompe-\ntenzen, Werten, Normen, eingespielten Routinen, Strukturen, Abläufen etc., damit Unter-\nnehmen und deren Mitarbeitende Herausforderungen, Probleme laufend besser lösen \nkönnen.; Viele Veränderungsprozesse können in die drei Phasen «Auftauen», «Bewegen» und \n«Einfrieren» eingeteilt werden.; Business Reengineering entspricht mehr einer Revolution als einer Evolution in der \nOrganisation. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
+        "kurz": "Fachlich richtig sind: Organisationales Lernen bezeichnet den Veränderungsprozess von Wissen, Kompe-\ntenzen, Werten, Normen, eingespielten Routinen, Strukturen, Abläufen etc., damit Unter-\nnehmen und deren Mitarbeitende Herausforderungen, Probleme laufend besser lösen können.; Viele Veränderungsprozesse können in die drei Phasen «Auftauen», «Bewegen» und «Einfrieren» eingeteilt werden.; Business Reengineering entspricht mehr einer Revolution als einer Evolution in der Organisation. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
+        "warum": "Fachlich richtig sind: Organisationales Lernen bezeichnet den Veränderungsprozess von Wissen, Kompe-\ntenzen, Werten, Normen, eingespielten Routinen, Strukturen, Abläufen etc., damit Unter-\nnehmen und deren Mitarbeitende Herausforderungen, Probleme laufend besser lösen können.; Viele Veränderungsprozesse können in die drei Phasen «Auftauen», «Bewegen» und «Einfrieren» eingeteilt werden.; Business Reengineering entspricht mehr einer Revolution als einer Evolution in der Organisation. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
       },
       "fehlerfallen": [
         "Analyse und Massnahme nicht verknüpfen.",
@@ -3442,8 +3442,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Organisationales Lernen bezeichnet den Veränderungsprozess von Wissen, Kompe-\ntenzen, Werten, Normen, eingespielten Routinen, Strukturen, Abläufen etc., damit Unter-\nnehmen und deren Mitarbeitende Herausforderungen, Probleme laufend besser lösen \nkönnen.; Viele Veränderungsprozesse können in die drei Phasen «Auftauen», «Bewegen» und \n«Einfrieren» eingeteilt werden.; Business Reengineering entspricht mehr einer Revolution als einer Evolution in der \nOrganisation. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-      "abschlusserklaerung": "Fachlich richtig sind: Organisationales Lernen bezeichnet den Veränderungsprozess von Wissen, Kompe-\ntenzen, Werten, Normen, eingespielten Routinen, Strukturen, Abläufen etc., damit Unter-\nnehmen und deren Mitarbeitende Herausforderungen, Probleme laufend besser lösen \nkönnen.; Viele Veränderungsprozesse können in die drei Phasen «Auftauen», «Bewegen» und \n«Einfrieren» eingeteilt werden.; Business Reengineering entspricht mehr einer Revolution als einer Evolution in der \nOrganisation. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
+      "merksatz": "Fachlich richtig sind: Organisationales Lernen bezeichnet den Veränderungsprozess von Wissen, Kompe-\ntenzen, Werten, Normen, eingespielten Routinen, Strukturen, Abläufen etc., damit Unter-\nnehmen und deren Mitarbeitende Herausforderungen, Probleme laufend besser lösen können.; Viele Veränderungsprozesse können in die drei Phasen «Auftauen», «Bewegen» und «Einfrieren» eingeteilt werden.; Business Reengineering entspricht mehr einer Revolution als einer Evolution in der Organisation. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
+      "abschlusserklaerung": "Fachlich richtig sind: Organisationales Lernen bezeichnet den Veränderungsprozess von Wissen, Kompe-\ntenzen, Werten, Normen, eingespielten Routinen, Strukturen, Abläufen etc., damit Unter-\nnehmen und deren Mitarbeitende Herausforderungen, Probleme laufend besser lösen können.; Viele Veränderungsprozesse können in die drei Phasen «Auftauen», «Bewegen» und «Einfrieren» eingeteilt werden.; Business Reengineering entspricht mehr einer Revolution als einer Evolution in der Organisation. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
     },
     {
       "id": "pr2023_unternehmensfuehrung_1_12_choice_stufe3",
@@ -3575,7 +3575,7 @@
         "aufgabe": "2023:Unternehmensfuehrung:1.16"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -3618,7 +3618,7 @@
         ],
         "richtig_index": 0
       },
-      "erklaerung": "Fachlich richtig ist: Werden mehrere Stellen organisatorisch zusammengeführt und einer Leitung unterstellt, \nspricht man von einer Abteilung. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
+      "erklaerung": "Fachlich richtig ist: Werden mehrere Stellen organisatorisch zusammengeführt und einer Leitung unterstellt, spricht man von einer Abteilung. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -3644,8 +3644,8 @@
         "pruefungsrelevant": "Beim Break-even wird geprüft, ab welcher Menge oder welchem Umsatz die Fixkosten gedeckt sind."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Werden mehrere Stellen organisatorisch zusammengeführt und einer Leitung unterstellt, \nspricht man von einer Abteilung. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
-        "warum": "Fachlich richtig ist: Werden mehrere Stellen organisatorisch zusammengeführt und einer Leitung unterstellt, \nspricht man von einer Abteilung. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt."
+        "kurz": "Fachlich richtig ist: Werden mehrere Stellen organisatorisch zusammengeführt und einer Leitung unterstellt, spricht man von einer Abteilung. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
+        "warum": "Fachlich richtig ist: Werden mehrere Stellen organisatorisch zusammengeführt und einer Leitung unterstellt, spricht man von einer Abteilung. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt."
       },
       "fehlerfallen": [
         "Fixkosten statt variable Kosten vom Preis abziehen.",
@@ -3662,8 +3662,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Werden mehrere Stellen organisatorisch zusammengeführt und einer Leitung unterstellt, \nspricht man von einer Abteilung. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
-      "abschlusserklaerung": "Fachlich richtig ist: Werden mehrere Stellen organisatorisch zusammengeführt und einer Leitung unterstellt, \nspricht man von einer Abteilung. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt."
+      "merksatz": "Fachlich richtig ist: Werden mehrere Stellen organisatorisch zusammengeführt und einer Leitung unterstellt, spricht man von einer Abteilung. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt.",
+      "abschlusserklaerung": "Fachlich richtig ist: Werden mehrere Stellen organisatorisch zusammengeführt und einer Leitung unterstellt, spricht man von einer Abteilung. Der Deckungsbeitrag zeigt, was nach variablen Kosten zur Deckung der Fixkosten und für Gewinn übrig bleibt."
     },
     {
       "id": "pr2023_unternehmensfuehrung_2_4_loesungspunkte_stufe3",
@@ -3775,7 +3775,7 @@
         "aufgabe": "2023:Unternehmensfuehrung:3.2"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -4170,7 +4170,7 @@
         "aufgabe": "2024:Unternehmensfuehrung:3.2"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -4254,7 +4254,7 @@
         "aufgabe": "2025:Unternehmensfuehrung:1.16"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -4290,12 +4290,12 @@
       "frage": "Moderationsmethoden bei Veränderungsprozessen\nAusgangslage \nIn einem Unternehmen stehen grosse strategische Veränderungen an. \nFrage \nWelche der folgenden Methoden ist für eine Moderation nicht geeignet?",
       "antwort_daten": {
         "optionen": [
-          "SWOT-Analyse",
           "Blitzlicht",
           "Abfrage mittels Kärtchen",
-          "Umfragetools (z. B. Mentimeter)"
+          "Umfragetools (z. B. Mentimeter)",
+          "SWOT-Analyse"
         ],
-        "richtig_index": 0
+        "richtig_index": 3
       },
       "erklaerung": "Fachlich richtig ist: SWOT-Analyse. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
       "stufe": 3,
@@ -4355,12 +4355,12 @@
       "frage": "Aufbauorganisation\nAusgangslage \nSie arbeiten bei der Gestaltung der Aufbauorganisation mit. \nFrage \nWelche der folgenden Definitionen zur Aufbauorganisation ist korrekt?",
       "antwort_daten": {
         "optionen": [
-          "beschreibt die zentralen Prozesse.",
           "legt Struktur und Hierarchie fest.",
+          "beschreibt die zentralen Prozesse.",
           "legt die einzugehenden Risiken fest.",
           "beschreibt optimale Abläufe."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "erklaerung": "Fachlich richtig ist: legt Struktur und Hierarchie fest. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
       "stufe": 3,
@@ -4519,7 +4519,7 @@
         "aufgabe": "2025:Unternehmensfuehrung:2.3"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -4651,7 +4651,7 @@
         "aufgabe": "2025:Unternehmensfuehrung:3.3"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -4785,7 +4785,7 @@
         ],
         "richtig_index": 0
       },
-      "erklaerung": "Fachlich richtig ist: Das Stärken-Schwächen-Profil ist ein typisches Ergebnis der Unternehmensanalyse. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+      "erklaerung": "Fachlich richtig ist: Das Stärken-Schwächen-Profil ist ein typisches Ergebnis der Unternehmensanalyse. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -4807,12 +4807,12 @@
         "aufgabe": "2022:Unternehmensfuehrung:1.1"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Das Stärken-Schwächen-Profil ist ein typisches Ergebnis der Unternehmensanalyse. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "warum": "Fachlich richtig ist: Das Stärken-Schwächen-Profil ist ein typisches Ergebnis der Unternehmensanalyse. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+        "kurz": "Fachlich richtig ist: Das Stärken-Schwächen-Profil ist ein typisches Ergebnis der Unternehmensanalyse. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+        "warum": "Fachlich richtig ist: Das Stärken-Schwächen-Profil ist ein typisches Ergebnis der Unternehmensanalyse. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
       },
       "fehlerfallen": [
         "Ziele zu unklar oder nicht messbar formulieren.",
@@ -4829,8 +4829,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Das Stärken-Schwächen-Profil ist ein typisches Ergebnis der Unternehmensanalyse. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-      "abschlusserklaerung": "Fachlich richtig ist: Das Stärken-Schwächen-Profil ist ein typisches Ergebnis der Unternehmensanalyse. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+      "merksatz": "Fachlich richtig ist: Das Stärken-Schwächen-Profil ist ein typisches Ergebnis der Unternehmensanalyse. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+      "abschlusserklaerung": "Fachlich richtig ist: Das Stärken-Schwächen-Profil ist ein typisches Ergebnis der Unternehmensanalyse. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
     },
     {
       "id": "pr2022_unternehmensfuehrung_1_14_reihenfolge_stufe3",
@@ -4876,7 +4876,7 @@
         "aufgabe": "2022:Unternehmensfuehrung:1.14"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -5205,7 +5205,7 @@
           3
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Analyse der eigenen Kompetenzen (Bsp.: Welche Torten können wir selber herstellen?); Analyse der stillen Reserven in unserer Bilanz. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+      "erklaerung": "Fachlich richtig sind: Analyse der eigenen Kompetenzen (Bsp.: Welche Torten können wir selber herstellen?); Analyse der stillen Reserven in unserer Bilanz. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -5227,12 +5227,12 @@
         "aufgabe": "2023:Unternehmensfuehrung:1.13"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Analyse der eigenen Kompetenzen (Bsp.: Welche Torten können wir selber herstellen?); Analyse der stillen Reserven in unserer Bilanz. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "warum": "Fachlich richtig sind: Analyse der eigenen Kompetenzen (Bsp.: Welche Torten können wir selber herstellen?); Analyse der stillen Reserven in unserer Bilanz. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+        "kurz": "Fachlich richtig sind: Analyse der eigenen Kompetenzen (Bsp.: Welche Torten können wir selber herstellen?); Analyse der stillen Reserven in unserer Bilanz. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+        "warum": "Fachlich richtig sind: Analyse der eigenen Kompetenzen (Bsp.: Welche Torten können wir selber herstellen?); Analyse der stillen Reserven in unserer Bilanz. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
       },
       "fehlerfallen": [
         "Ziele zu unklar oder nicht messbar formulieren.",
@@ -5249,8 +5249,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Analyse der eigenen Kompetenzen (Bsp.: Welche Torten können wir selber herstellen?); Analyse der stillen Reserven in unserer Bilanz. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-      "abschlusserklaerung": "Fachlich richtig sind: Analyse der eigenen Kompetenzen (Bsp.: Welche Torten können wir selber herstellen?); Analyse der stillen Reserven in unserer Bilanz. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+      "merksatz": "Fachlich richtig sind: Analyse der eigenen Kompetenzen (Bsp.: Welche Torten können wir selber herstellen?); Analyse der stillen Reserven in unserer Bilanz. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+      "abschlusserklaerung": "Fachlich richtig sind: Analyse der eigenen Kompetenzen (Bsp.: Welche Torten können wir selber herstellen?); Analyse der stillen Reserven in unserer Bilanz. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
     },
     {
       "id": "pr2023_unternehmensfuehrung_1_15_reihenfolge_stufe3",
@@ -5296,7 +5296,7 @@
         "aufgabe": "2023:Unternehmensfuehrung:1.15"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -5538,7 +5538,7 @@
           2
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Analyse der eigenen Kostenstruktur.; Analyse der Leistungen der eigenen Maschinen. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+      "erklaerung": "Fachlich richtig sind: Analyse der eigenen Kostenstruktur.; Analyse der Leistungen der eigenen Maschinen. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -5560,12 +5560,12 @@
         "aufgabe": "2024:Unternehmensfuehrung:1.11"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Analyse der eigenen Kostenstruktur.; Analyse der Leistungen der eigenen Maschinen. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "warum": "Fachlich richtig sind: Analyse der eigenen Kostenstruktur.; Analyse der Leistungen der eigenen Maschinen. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+        "kurz": "Fachlich richtig sind: Analyse der eigenen Kostenstruktur.; Analyse der Leistungen der eigenen Maschinen. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+        "warum": "Fachlich richtig sind: Analyse der eigenen Kostenstruktur.; Analyse der Leistungen der eigenen Maschinen. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
       },
       "fehlerfallen": [
         "Ziele zu unklar oder nicht messbar formulieren.",
@@ -5582,8 +5582,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Analyse der eigenen Kostenstruktur.; Analyse der Leistungen der eigenen Maschinen. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-      "abschlusserklaerung": "Fachlich richtig sind: Analyse der eigenen Kostenstruktur.; Analyse der Leistungen der eigenen Maschinen. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+      "merksatz": "Fachlich richtig sind: Analyse der eigenen Kostenstruktur.; Analyse der Leistungen der eigenen Maschinen. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+      "abschlusserklaerung": "Fachlich richtig sind: Analyse der eigenen Kostenstruktur.; Analyse der Leistungen der eigenen Maschinen. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
     },
     {
       "id": "pr2024_unternehmensfuehrung_1_5_choice_stufe3",
@@ -5891,7 +5891,7 @@
         "aufgabe": "2025:Unternehmensfuehrung:1.14"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -5978,7 +5978,7 @@
         "aufgabe": "2025:Unternehmensfuehrung:1.17"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -6186,7 +6186,7 @@
         "aufgabe": "2022:Unternehmensfuehrung:2.5"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -6252,7 +6252,7 @@
         "aufgabe": "2024:Unternehmensfuehrung:1.15"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -6596,7 +6596,7 @@
         "aufgabe": "2022:Unternehmensfuehrung:2.4"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -6680,7 +6680,7 @@
         "aufgabe": "2024:Unternehmensfuehrung:1.17"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -6848,11 +6848,11 @@
       "antwort_daten": {
         "optionen": [
           "Lagerbestand an Heizöl per 31.12., bewertet nach dem Niedrigstwertprinzip",
-          "Buchwert unserer Fahrzeuge nach Abschreibungen",
           "Gesamtenergiebedarf unserer Produkte über den ganzen Lebenszyklus",
+          "Buchwert unserer Fahrzeuge nach Abschreibungen",
           "Per 31.12. nach Marktwerten bewertetes Rohmateriallager"
         ],
-        "richtig_index": 2
+        "richtig_index": 1
       },
       "erklaerung": "Fachlich richtig ist: Gesamtenergiebedarf unserer Produkte über den ganzen Lebenszyklus. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
       "stufe": 3,
@@ -7030,7 +7030,7 @@
         "aufgabe": "2023:Unternehmensfuehrung:1.17"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -7068,10 +7068,10 @@
         "optionen": [
           "Maximierung des Gewinns",
           "Einhalten aller gesetzlichen Vorschriften im jeweiligen Land",
-          "Dasselbe wie Umweltschutz im Unternehmen",
-          "Wertvorstellungen konkretisieren und nach diesen handeln"
+          "Wertvorstellungen konkretisieren und nach diesen handeln",
+          "Dasselbe wie Umweltschutz im Unternehmen"
         ],
-        "richtig_index": 3
+        "richtig_index": 2
       },
       "erklaerung": "Fachlich richtig ist: Wertvorstellungen konkretisieren und nach diesen handeln. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
       "stufe": 3,
@@ -7818,7 +7818,7 @@
         ],
         "richtig_index": 2
       },
-      "erklaerung": "Fachlich richtig ist: Buchhaltungsunterlagen wie Hauptbuch und Buchungsjournal sind während 10 Jahren \n \n \naufzubewahren. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden.",
+      "erklaerung": "Fachlich richtig ist: Buchhaltungsunterlagen wie Hauptbuch und Buchungsjournal sind während 10 Jahren aufzubewahren. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -7844,8 +7844,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Buchhaltungsunterlagen wie Hauptbuch und Buchungsjournal sind während 10 Jahren \n \n \naufzubewahren. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden.",
-        "warum": "Fachlich richtig ist: Buchhaltungsunterlagen wie Hauptbuch und Buchungsjournal sind während 10 Jahren \n \n \naufzubewahren. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden."
+        "kurz": "Fachlich richtig ist: Buchhaltungsunterlagen wie Hauptbuch und Buchungsjournal sind während 10 Jahren aufzubewahren. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden.",
+        "warum": "Fachlich richtig ist: Buchhaltungsunterlagen wie Hauptbuch und Buchungsjournal sind während 10 Jahren aufzubewahren. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden."
       },
       "fehlerfallen": [
         "Vertragsarten verwechseln.",
@@ -7862,8 +7862,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Buchhaltungsunterlagen wie Hauptbuch und Buchungsjournal sind während 10 Jahren \n \n \naufzubewahren. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden.",
-      "abschlusserklaerung": "Fachlich richtig ist: Buchhaltungsunterlagen wie Hauptbuch und Buchungsjournal sind während 10 Jahren \n \n \naufzubewahren. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden."
+      "merksatz": "Fachlich richtig ist: Buchhaltungsunterlagen wie Hauptbuch und Buchungsjournal sind während 10 Jahren aufzubewahren. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden.",
+      "abschlusserklaerung": "Fachlich richtig ist: Buchhaltungsunterlagen wie Hauptbuch und Buchungsjournal sind während 10 Jahren aufzubewahren. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden."
     },
     {
       "id": "pr2025_unternehmensfuehrung_1_6_choice_stufe3",
@@ -7876,12 +7876,12 @@
       "frage": "Wissensmanagement\nAusgangslage \nIn Ihrem Unternehmen ist Wissen oft vorhanden, kommt aber nicht an den entsprechenden \nStellen an. \nFrage \nWelches der folgenden Hilfsmittel ist nicht geeignet, Wissen zu verbreiten?",
       "antwort_daten": {
         "optionen": [
-          "ABC-Analyse",
           "Intranet",
           "Vorträge",
-          "Übergabesitzungen"
+          "Übergabesitzungen",
+          "ABC-Analyse"
         ],
-        "richtig_index": 0
+        "richtig_index": 3
       },
       "erklaerung": "Fachlich richtig ist: ABC-Analyse. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
       "stufe": 3,
@@ -8045,7 +8045,7 @@
           3
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Im Fall eines Zielkonflikts kann man im konkreten Fall einen Kompromiss machen: \n \n \nz.B. Zielerfüllungsgrad bei wirtschaftlichen und ökologischen Zielen von je 80% anstreben.; Im Fall eines Zielkonflikts kann man durch intelligente Lösungen (z.B. Fokussierung \nauf eine umweltbewusste Kundschaft) auch versuchen, beide an sich gegenläufige Ziele \ngleichzeitig zu erreichen. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+      "erklaerung": "Fachlich richtig sind: Im Fall eines Zielkonflikts kann man im konkreten Fall einen Kompromiss machen: z.B. Zielerfüllungsgrad bei wirtschaftlichen und ökologischen Zielen von je 80% anstreben.; Im Fall eines Zielkonflikts kann man durch intelligente Lösungen (z.B. Fokussierung auf eine umweltbewusste Kundschaft) auch versuchen, beide an sich gegenläufige Ziele gleichzeitig zu erreichen. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -8067,12 +8067,12 @@
         "aufgabe": "2022:Unternehmensfuehrung:1.13"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Im Fall eines Zielkonflikts kann man im konkreten Fall einen Kompromiss machen: \n \n \nz.B. Zielerfüllungsgrad bei wirtschaftlichen und ökologischen Zielen von je 80% anstreben.; Im Fall eines Zielkonflikts kann man durch intelligente Lösungen (z.B. Fokussierung \nauf eine umweltbewusste Kundschaft) auch versuchen, beide an sich gegenläufige Ziele \ngleichzeitig zu erreichen. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "warum": "Fachlich richtig sind: Im Fall eines Zielkonflikts kann man im konkreten Fall einen Kompromiss machen: \n \n \nz.B. Zielerfüllungsgrad bei wirtschaftlichen und ökologischen Zielen von je 80% anstreben.; Im Fall eines Zielkonflikts kann man durch intelligente Lösungen (z.B. Fokussierung \nauf eine umweltbewusste Kundschaft) auch versuchen, beide an sich gegenläufige Ziele \ngleichzeitig zu erreichen. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+        "kurz": "Fachlich richtig sind: Im Fall eines Zielkonflikts kann man im konkreten Fall einen Kompromiss machen: z.B. Zielerfüllungsgrad bei wirtschaftlichen und ökologischen Zielen von je 80% anstreben.; Im Fall eines Zielkonflikts kann man durch intelligente Lösungen (z.B. Fokussierung auf eine umweltbewusste Kundschaft) auch versuchen, beide an sich gegenläufige Ziele gleichzeitig zu erreichen. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+        "warum": "Fachlich richtig sind: Im Fall eines Zielkonflikts kann man im konkreten Fall einen Kompromiss machen: z.B. Zielerfüllungsgrad bei wirtschaftlichen und ökologischen Zielen von je 80% anstreben.; Im Fall eines Zielkonflikts kann man durch intelligente Lösungen (z.B. Fokussierung auf eine umweltbewusste Kundschaft) auch versuchen, beide an sich gegenläufige Ziele gleichzeitig zu erreichen. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
       },
       "fehlerfallen": [
         "Ziele zu unklar oder nicht messbar formulieren.",
@@ -8089,8 +8089,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Im Fall eines Zielkonflikts kann man im konkreten Fall einen Kompromiss machen: \n \n \nz.B. Zielerfüllungsgrad bei wirtschaftlichen und ökologischen Zielen von je 80% anstreben.; Im Fall eines Zielkonflikts kann man durch intelligente Lösungen (z.B. Fokussierung \nauf eine umweltbewusste Kundschaft) auch versuchen, beide an sich gegenläufige Ziele \ngleichzeitig zu erreichen. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-      "abschlusserklaerung": "Fachlich richtig sind: Im Fall eines Zielkonflikts kann man im konkreten Fall einen Kompromiss machen: \n \n \nz.B. Zielerfüllungsgrad bei wirtschaftlichen und ökologischen Zielen von je 80% anstreben.; Im Fall eines Zielkonflikts kann man durch intelligente Lösungen (z.B. Fokussierung \nauf eine umweltbewusste Kundschaft) auch versuchen, beide an sich gegenläufige Ziele \ngleichzeitig zu erreichen. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+      "merksatz": "Fachlich richtig sind: Im Fall eines Zielkonflikts kann man im konkreten Fall einen Kompromiss machen: z.B. Zielerfüllungsgrad bei wirtschaftlichen und ökologischen Zielen von je 80% anstreben.; Im Fall eines Zielkonflikts kann man durch intelligente Lösungen (z.B. Fokussierung auf eine umweltbewusste Kundschaft) auch versuchen, beide an sich gegenläufige Ziele gleichzeitig zu erreichen. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+      "abschlusserklaerung": "Fachlich richtig sind: Im Fall eines Zielkonflikts kann man im konkreten Fall einen Kompromiss machen: z.B. Zielerfüllungsgrad bei wirtschaftlichen und ökologischen Zielen von je 80% anstreben.; Im Fall eines Zielkonflikts kann man durch intelligente Lösungen (z.B. Fokussierung auf eine umweltbewusste Kundschaft) auch versuchen, beide an sich gegenläufige Ziele gleichzeitig zu erreichen. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
     },
     {
       "id": "pr2022_unternehmensfuehrung_1_15_reihenfolge_stufe3",
@@ -8136,7 +8136,7 @@
         "aufgabe": "2022:Unternehmensfuehrung:1.15"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -8179,7 +8179,7 @@
         ],
         "richtig_index": 3
       },
-      "erklaerung": "Fachlich richtig ist: Netzplantechnik. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+      "erklaerung": "Fachlich richtig ist: Netzplantechnik. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -8201,12 +8201,12 @@
         "aufgabe": "2022:Unternehmensfuehrung:1.4"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Netzplantechnik. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "warum": "Fachlich richtig ist: Netzplantechnik. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+        "kurz": "Fachlich richtig ist: Netzplantechnik. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+        "warum": "Fachlich richtig ist: Netzplantechnik. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
       },
       "fehlerfallen": [
         "Ziele zu unklar oder nicht messbar formulieren.",
@@ -8223,8 +8223,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Netzplantechnik. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-      "abschlusserklaerung": "Fachlich richtig ist: Netzplantechnik. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+      "merksatz": "Fachlich richtig ist: Netzplantechnik. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+      "abschlusserklaerung": "Fachlich richtig ist: Netzplantechnik. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
     },
     {
       "id": "pr2022_unternehmensfuehrung_1_7_choice_stufe3",
@@ -8244,7 +8244,7 @@
         ],
         "richtig_index": 1
       },
-      "erklaerung": "Fachlich richtig ist: Im ersten Quartal 2023 sollen 14 Stück des Produkts A von Kunden zu den intern \n \n \nvorgegebenen Mindestpreisen oder mehr bestellt und bezahlt worden sein. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+      "erklaerung": "Fachlich richtig ist: Im ersten Quartal 2023 sollen 14 Stück des Produkts A von Kunden zu den intern vorgegebenen Mindestpreisen oder mehr bestellt und bezahlt worden sein. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -8266,12 +8266,12 @@
         "aufgabe": "2022:Unternehmensfuehrung:1.7"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Im ersten Quartal 2023 sollen 14 Stück des Produkts A von Kunden zu den intern \n \n \nvorgegebenen Mindestpreisen oder mehr bestellt und bezahlt worden sein. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "warum": "Fachlich richtig ist: Im ersten Quartal 2023 sollen 14 Stück des Produkts A von Kunden zu den intern \n \n \nvorgegebenen Mindestpreisen oder mehr bestellt und bezahlt worden sein. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+        "kurz": "Fachlich richtig ist: Im ersten Quartal 2023 sollen 14 Stück des Produkts A von Kunden zu den intern vorgegebenen Mindestpreisen oder mehr bestellt und bezahlt worden sein. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+        "warum": "Fachlich richtig ist: Im ersten Quartal 2023 sollen 14 Stück des Produkts A von Kunden zu den intern vorgegebenen Mindestpreisen oder mehr bestellt und bezahlt worden sein. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
       },
       "fehlerfallen": [
         "Ziele zu unklar oder nicht messbar formulieren.",
@@ -8288,8 +8288,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Im ersten Quartal 2023 sollen 14 Stück des Produkts A von Kunden zu den intern \n \n \nvorgegebenen Mindestpreisen oder mehr bestellt und bezahlt worden sein. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-      "abschlusserklaerung": "Fachlich richtig ist: Im ersten Quartal 2023 sollen 14 Stück des Produkts A von Kunden zu den intern \n \n \nvorgegebenen Mindestpreisen oder mehr bestellt und bezahlt worden sein. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+      "merksatz": "Fachlich richtig ist: Im ersten Quartal 2023 sollen 14 Stück des Produkts A von Kunden zu den intern vorgegebenen Mindestpreisen oder mehr bestellt und bezahlt worden sein. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+      "abschlusserklaerung": "Fachlich richtig ist: Im ersten Quartal 2023 sollen 14 Stück des Produkts A von Kunden zu den intern vorgegebenen Mindestpreisen oder mehr bestellt und bezahlt worden sein. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
     },
     {
       "id": "pr2022_unternehmensfuehrung_1_9_choice_stufe3",
@@ -8313,7 +8313,7 @@
           3
         ]
       },
-      "erklaerung": "Fachlich richtig sind: ist zeitlich befristet (hat einen Anfang und ein Ende).; hat klare Zielvorgaben.; ist gegenüber anderen unternehmerischen Vorhaben abgrenzbar. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+      "erklaerung": "Fachlich richtig sind: ist zeitlich befristet (hat einen Anfang und ein Ende).; hat klare Zielvorgaben.; ist gegenüber anderen unternehmerischen Vorhaben abgrenzbar. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -8335,12 +8335,12 @@
         "aufgabe": "2022:Unternehmensfuehrung:1.9"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: ist zeitlich befristet (hat einen Anfang und ein Ende).; hat klare Zielvorgaben.; ist gegenüber anderen unternehmerischen Vorhaben abgrenzbar. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "warum": "Fachlich richtig sind: ist zeitlich befristet (hat einen Anfang und ein Ende).; hat klare Zielvorgaben.; ist gegenüber anderen unternehmerischen Vorhaben abgrenzbar. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+        "kurz": "Fachlich richtig sind: ist zeitlich befristet (hat einen Anfang und ein Ende).; hat klare Zielvorgaben.; ist gegenüber anderen unternehmerischen Vorhaben abgrenzbar. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+        "warum": "Fachlich richtig sind: ist zeitlich befristet (hat einen Anfang und ein Ende).; hat klare Zielvorgaben.; ist gegenüber anderen unternehmerischen Vorhaben abgrenzbar. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
       },
       "fehlerfallen": [
         "Ziele zu unklar oder nicht messbar formulieren.",
@@ -8357,8 +8357,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: ist zeitlich befristet (hat einen Anfang und ein Ende).; hat klare Zielvorgaben.; ist gegenüber anderen unternehmerischen Vorhaben abgrenzbar. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-      "abschlusserklaerung": "Fachlich richtig sind: ist zeitlich befristet (hat einen Anfang und ein Ende).; hat klare Zielvorgaben.; ist gegenüber anderen unternehmerischen Vorhaben abgrenzbar. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+      "merksatz": "Fachlich richtig sind: ist zeitlich befristet (hat einen Anfang und ein Ende).; hat klare Zielvorgaben.; ist gegenüber anderen unternehmerischen Vorhaben abgrenzbar. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+      "abschlusserklaerung": "Fachlich richtig sind: ist zeitlich befristet (hat einen Anfang und ein Ende).; hat klare Zielvorgaben.; ist gegenüber anderen unternehmerischen Vorhaben abgrenzbar. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
     },
     {
       "id": "pr2022_unternehmensfuehrung_2_1_thema_stufe3",
@@ -8404,7 +8404,7 @@
         "aufgabe": "2022:Unternehmensfuehrung:2.1"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -8470,7 +8470,7 @@
         "aufgabe": "2023:Unternehmensfuehrung:1.14"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -8513,7 +8513,7 @@
         ],
         "richtig_index": 2
       },
-      "erklaerung": "Fachlich richtig ist: Ertrag / Aufwand. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+      "erklaerung": "Fachlich richtig ist: Ertrag / Aufwand. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -8535,12 +8535,12 @@
         "aufgabe": "2023:Unternehmensfuehrung:1.6"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Ertrag / Aufwand. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "warum": "Fachlich richtig ist: Ertrag / Aufwand. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+        "kurz": "Fachlich richtig ist: Ertrag / Aufwand. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+        "warum": "Fachlich richtig ist: Ertrag / Aufwand. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
       },
       "fehlerfallen": [
         "Ziele zu unklar oder nicht messbar formulieren.",
@@ -8557,8 +8557,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Ertrag / Aufwand. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-      "abschlusserklaerung": "Fachlich richtig ist: Ertrag / Aufwand. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+      "merksatz": "Fachlich richtig ist: Ertrag / Aufwand. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+      "abschlusserklaerung": "Fachlich richtig ist: Ertrag / Aufwand. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
     },
     {
       "id": "pr2023_unternehmensfuehrung_1_7_choice_stufe3",
@@ -8578,7 +8578,7 @@
         ],
         "richtig_index": 3
       },
-      "erklaerung": "Fachlich richtig ist: Liquiditätsziel. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+      "erklaerung": "Fachlich richtig ist: Liquiditätsziel. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -8600,12 +8600,12 @@
         "aufgabe": "2023:Unternehmensfuehrung:1.7"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Liquiditätsziel. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "warum": "Fachlich richtig ist: Liquiditätsziel. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+        "kurz": "Fachlich richtig ist: Liquiditätsziel. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+        "warum": "Fachlich richtig ist: Liquiditätsziel. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
       },
       "fehlerfallen": [
         "Ziele zu unklar oder nicht messbar formulieren.",
@@ -8622,8 +8622,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Liquiditätsziel. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-      "abschlusserklaerung": "Fachlich richtig ist: Liquiditätsziel. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+      "merksatz": "Fachlich richtig ist: Liquiditätsziel. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+      "abschlusserklaerung": "Fachlich richtig ist: Liquiditätsziel. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
     },
     {
       "id": "pr2024_unternehmensfuehrung_1_13_choice_stufe3",
@@ -8647,7 +8647,7 @@
           3
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Geplante Wachstumsziele; Antrag an die Bank; Kurzporträt des Unternehmens. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+      "erklaerung": "Fachlich richtig sind: Geplante Wachstumsziele; Antrag an die Bank; Kurzporträt des Unternehmens. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -8669,12 +8669,12 @@
         "aufgabe": "2024:Unternehmensfuehrung:1.13"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Geplante Wachstumsziele; Antrag an die Bank; Kurzporträt des Unternehmens. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "warum": "Fachlich richtig sind: Geplante Wachstumsziele; Antrag an die Bank; Kurzporträt des Unternehmens. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+        "kurz": "Fachlich richtig sind: Geplante Wachstumsziele; Antrag an die Bank; Kurzporträt des Unternehmens. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+        "warum": "Fachlich richtig sind: Geplante Wachstumsziele; Antrag an die Bank; Kurzporträt des Unternehmens. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
       },
       "fehlerfallen": [
         "Ziele zu unklar oder nicht messbar formulieren.",
@@ -8691,8 +8691,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Geplante Wachstumsziele; Antrag an die Bank; Kurzporträt des Unternehmens. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-      "abschlusserklaerung": "Fachlich richtig sind: Geplante Wachstumsziele; Antrag an die Bank; Kurzporträt des Unternehmens. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+      "merksatz": "Fachlich richtig sind: Geplante Wachstumsziele; Antrag an die Bank; Kurzporträt des Unternehmens. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+      "abschlusserklaerung": "Fachlich richtig sind: Geplante Wachstumsziele; Antrag an die Bank; Kurzporträt des Unternehmens. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
     },
     {
       "id": "pr2024_unternehmensfuehrung_1_9_choice_stufe3",
@@ -8718,7 +8718,7 @@
           3
         ]
       },
-      "erklaerung": "Fachlich richtig sind: «S» - Spezifisch; «M» - Messbar; «A» - Zuweisbar, organisatorischer Bezug klar; «T» - Zeitlicher Bezug klar. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+      "erklaerung": "Fachlich richtig sind: «S» - Spezifisch; «M» - Messbar; «A» - Zuweisbar, organisatorischer Bezug klar; «T» - Zeitlicher Bezug klar. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -8740,12 +8740,12 @@
         "aufgabe": "2024:Unternehmensfuehrung:1.9"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: «S» - Spezifisch; «M» - Messbar; «A» - Zuweisbar, organisatorischer Bezug klar; «T» - Zeitlicher Bezug klar. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "warum": "Fachlich richtig sind: «S» - Spezifisch; «M» - Messbar; «A» - Zuweisbar, organisatorischer Bezug klar; «T» - Zeitlicher Bezug klar. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+        "kurz": "Fachlich richtig sind: «S» - Spezifisch; «M» - Messbar; «A» - Zuweisbar, organisatorischer Bezug klar; «T» - Zeitlicher Bezug klar. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+        "warum": "Fachlich richtig sind: «S» - Spezifisch; «M» - Messbar; «A» - Zuweisbar, organisatorischer Bezug klar; «T» - Zeitlicher Bezug klar. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
       },
       "fehlerfallen": [
         "Ziele zu unklar oder nicht messbar formulieren.",
@@ -8762,8 +8762,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: «S» - Spezifisch; «M» - Messbar; «A» - Zuweisbar, organisatorischer Bezug klar; «T» - Zeitlicher Bezug klar. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-      "abschlusserklaerung": "Fachlich richtig sind: «S» - Spezifisch; «M» - Messbar; «A» - Zuweisbar, organisatorischer Bezug klar; «T» - Zeitlicher Bezug klar. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+      "merksatz": "Fachlich richtig sind: «S» - Spezifisch; «M» - Messbar; «A» - Zuweisbar, organisatorischer Bezug klar; «T» - Zeitlicher Bezug klar. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+      "abschlusserklaerung": "Fachlich richtig sind: «S» - Spezifisch; «M» - Messbar; «A» - Zuweisbar, organisatorischer Bezug klar; «T» - Zeitlicher Bezug klar. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
     },
     {
       "id": "pr2025_unternehmensfuehrung_1_3_choice_stufe3",
@@ -8776,14 +8776,14 @@
       "frage": "Magisches Dreieck bei Veränderungsprojekten\nAusgangslage \nEin Unternehmen setzt sich Ziele für ein wichtiges Projekt. \nFrage \nWelche Elemente enthält das magische Dreieck?",
       "antwort_daten": {
         "optionen": [
-          "Ziel – Verfahren – Kosten",
           "Kosten – Zeit – Qualität",
+          "Ziel – Verfahren – Kosten",
           "Kosten – Preis – Umsatz",
           "Ziel – Preis – Qualität"
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
-      "erklaerung": "Fachlich richtig ist: Kosten – Zeit – Qualität. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+      "erklaerung": "Fachlich richtig ist: Kosten – Zeit – Qualität. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -8805,12 +8805,12 @@
         "aufgabe": "2025:Unternehmensfuehrung:1.3"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Kosten – Zeit – Qualität. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "warum": "Fachlich richtig ist: Kosten – Zeit – Qualität. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+        "kurz": "Fachlich richtig ist: Kosten – Zeit – Qualität. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+        "warum": "Fachlich richtig ist: Kosten – Zeit – Qualität. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
       },
       "fehlerfallen": [
         "Ziele zu unklar oder nicht messbar formulieren.",
@@ -8827,8 +8827,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Kosten – Zeit – Qualität. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-      "abschlusserklaerung": "Fachlich richtig ist: Kosten – Zeit – Qualität. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+      "merksatz": "Fachlich richtig ist: Kosten – Zeit – Qualität. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus.",
+      "abschlusserklaerung": "Fachlich richtig ist: Kosten – Zeit – Qualität. Unternehmensführung richtet Strukturen und Entscheide an Strategie, Anspruchsgruppen und langfristiger Wirkung aus."
     }
   ]
 }

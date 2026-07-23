@@ -64,7 +64,7 @@ function expectedAnswer(card) {
     indices: data.richtige_paare ?? [],
     values: (data.richtige_paare ?? []).map(([left, right]) => `${data.links?.[left]} → ${data.rechts?.[right]}`)
   }
-  if (card.typ === 'formel_luecke_mc') return {
+  if (card.typ === 'formel_luecke_mc' || card.typ === 'lueckentext_auswahl') return {
     indices: (data.luecken_mc ?? []).map((gap) => gap.richtig_index),
     values: (data.luecken_mc ?? []).map((gap) => gap.richtig ?? gap.optionen?.[gap.richtig_index]).filter(Boolean)
   }
@@ -131,10 +131,11 @@ function structuralReview(card) {
     if (!data.mehrfachverwendung && new Set(pairs.map(([, rightIndex]) => rightIndex)).size !== pairs.length) errors.push('Unzulässige Mehrfachverwendung')
   }
 
-  if (card.typ === 'formel_luecke_mc') {
+  if (card.typ === 'formel_luecke_mc' || card.typ === 'lueckentext_auswahl') {
     for (const [index, gap] of (data.luecken_mc ?? []).entries()) {
-      if (!gap.optionen?.[gap.richtig_index]) errors.push(`Formellücke ${index + 1}: ungültiger Lösungsindex`)
-      if (gap.richtig && gap.optionen?.[gap.richtig_index] !== gap.richtig) errors.push(`Formellücke ${index + 1}: Text und Lösungsindex widersprechen sich`)
+      const label = card.typ === 'formel_luecke_mc' ? 'Formellücke' : 'Textlücke'
+      if (!gap.optionen?.[gap.richtig_index]) errors.push(`${label} ${index + 1}: ungültiger Lösungsindex`)
+      if (gap.richtig && gap.optionen?.[gap.richtig_index] !== gap.richtig) errors.push(`${label} ${index + 1}: Text und Lösungsindex widersprechen sich`)
     }
   }
 
@@ -208,7 +209,7 @@ function sourceReview(card, expected) {
 function difficultyReview(card) {
   let score = Number(card.stufe ?? 1)
   if (['multiple_choice', 'reihenfolge', 'zuordnung'].includes(card.typ)) score += 0.5
-  if (['formel_luecke_mc', 'formel_builder'].includes(card.typ)) score += 1
+  if (['formel_luecke_mc', 'lueckentext_auswahl', 'formel_builder'].includes(card.typ)) score += 1
   if (['zahlen_eingabe', 'buchungssatz_builder', 'fallentscheidung'].includes(card.typ)) score += 1
   if (String(card.frage).length > 350) score += 0.5
   if ((card.antwort_daten?.optionen?.length ?? 0) >= 5) score += 0.25
@@ -223,7 +224,7 @@ function learningReview(card, duplicateQuestionCount) {
   const question = String(card.frage ?? '')
   const explanation = String(card.erklaerung ?? card.abschlusserklaerung ?? '')
 
-  if (['reihenfolge', 'zuordnung', 'formel_luecke_mc', 'formel_builder', 'zahlen_eingabe', 'buchungssatz_builder', 'fallentscheidung'].includes(card.typ)) {
+  if (['reihenfolge', 'zuordnung', 'formel_luecke_mc', 'lueckentext_auswahl', 'formel_builder', 'zahlen_eingabe', 'buchungssatz_builder', 'fallentscheidung'].includes(card.typ)) {
     score += 1
     reasons.push('aktive Anwendung statt reiner Wiedererkennung')
   }

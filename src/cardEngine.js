@@ -78,7 +78,7 @@ export function pickTopicCard(topic, topicProgress) {
 export function initialAnswer(card) {
   if (!card) return null
   if (card.typ === 'multiple_choice' || card.typ === 'reihenfolge') return []
-  if (card.typ === 'formel_luecke_mc' || card.typ === 'zuordnung') return {}
+  if (card.typ === 'formel_luecke_mc' || card.typ === 'lueckentext_auswahl' || card.typ === 'zuordnung') return {}
   if (card.typ === 'formel_builder') return { sequence: [], result: '' }
   if (card.typ === 'zahlen_eingabe') return ''
   if (card.typ === 'buchungssatz_builder') return { soll: '', haben: '', betrag: '' }
@@ -89,7 +89,9 @@ export function initialAnswer(card) {
 export function hasAnswer(card, answer) {
   if (card.typ === 'single_choice') return Number.isInteger(answer)
   if (card.typ === 'multiple_choice') return Array.isArray(answer) && answer.length > 0
-  if (card.typ === 'formel_luecke_mc') return Object.keys(answer ?? {}).length === card.antwort_daten.luecken_mc.length
+  if (card.typ === 'formel_luecke_mc' || card.typ === 'lueckentext_auswahl') {
+    return Object.keys(answer ?? {}).length === card.antwort_daten.luecken_mc.length
+  }
   if (card.typ === 'reihenfolge') return Array.isArray(answer) && answer.length === card.antwort_daten.items.length
   if (card.typ === 'zuordnung') return Object.keys(answer ?? {}).length === card.antwort_daten.links.length
   if (card.typ === 'formel_builder') {
@@ -125,7 +127,7 @@ export function checkAnswer(card, answer) {
     const correct = [...data.richtige_indices].sort((a, b) => a - b).join(',')
     return selected === correct
   }
-  if (card.typ === 'formel_luecke_mc') {
+  if (card.typ === 'formel_luecke_mc' || card.typ === 'lueckentext_auswahl') {
     return data.luecken_mc.every((gap, index) => answer[index] === gap.richtig_index)
   }
   if (card.typ === 'formel_builder') {

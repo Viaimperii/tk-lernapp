@@ -9,13 +9,14 @@
     "anzahl_karten": 160,
     "anzahl_themen_gruppiert": 39,
     "kartentypen": {
-      "single_choice": 77,
+      "single_choice": 76,
       "multiple_choice": 69,
       "reihenfolge": 4,
       "formel_luecke_mc": 3,
       "fallentscheidung": 1,
       "zahlen_eingabe": 2,
-      "zuordnung": 4
+      "zuordnung": 4,
+      "lueckentext_auswahl": 1
     },
     "stufen": {
       "1": 50,
@@ -1033,7 +1034,7 @@
         ],
         "richtig_index": 3
       },
-      "erklaerung": "Fachlich richtig ist: Der Lieferant gewährt Ihnen auf Ihren privaten Treibstoffbezügen zukünftig einen Spezial- \n \nrabatt von 80 Rappen pro Liter. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "erklaerung": "Fachlich richtig ist: Der Lieferant gewährt Ihnen auf Ihren privaten Treibstoffbezügen zukünftig einen Spezial- rabatt von 80 Rappen pro Liter. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -1059,8 +1060,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Der Lieferant gewährt Ihnen auf Ihren privaten Treibstoffbezügen zukünftig einen Spezial- \n \nrabatt von 80 Rappen pro Liter. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "warum": "Fachlich richtig ist: Der Lieferant gewährt Ihnen auf Ihren privaten Treibstoffbezügen zukünftig einen Spezial- \n \nrabatt von 80 Rappen pro Liter. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+        "kurz": "Fachlich richtig ist: Der Lieferant gewährt Ihnen auf Ihren privaten Treibstoffbezügen zukünftig einen Spezial- rabatt von 80 Rappen pro Liter. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+        "warum": "Fachlich richtig ist: Der Lieferant gewährt Ihnen auf Ihren privaten Treibstoffbezügen zukünftig einen Spezial- rabatt von 80 Rappen pro Liter. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
       },
       "fehlerfallen": [
         "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
@@ -1077,8 +1078,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Der Lieferant gewährt Ihnen auf Ihren privaten Treibstoffbezügen zukünftig einen Spezial- \n \nrabatt von 80 Rappen pro Liter. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-      "abschlusserklaerung": "Fachlich richtig ist: Der Lieferant gewährt Ihnen auf Ihren privaten Treibstoffbezügen zukünftig einen Spezial- \n \nrabatt von 80 Rappen pro Liter. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+      "merksatz": "Fachlich richtig ist: Der Lieferant gewährt Ihnen auf Ihren privaten Treibstoffbezügen zukünftig einen Spezial- rabatt von 80 Rappen pro Liter. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "abschlusserklaerung": "Fachlich richtig ist: Der Lieferant gewährt Ihnen auf Ihren privaten Treibstoffbezügen zukünftig einen Spezial- rabatt von 80 Rappen pro Liter. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
     },
     {
       "id": "pr2022_scm_1_1_choice_stufe3",
@@ -1228,7 +1229,7 @@
         ],
         "richtig_index": 0
       },
-      "erklaerung": "Fachlich richtig ist: Die INCOTERMS müssen explizit im Vertrag aufgenommen werden, um Gültigkeit zu \nerlangen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "erklaerung": "Fachlich richtig ist: Die INCOTERMS müssen explizit im Vertrag aufgenommen werden, um Gültigkeit zu erlangen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -1254,8 +1255,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Die INCOTERMS müssen explizit im Vertrag aufgenommen werden, um Gültigkeit zu \nerlangen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "warum": "Fachlich richtig ist: Die INCOTERMS müssen explizit im Vertrag aufgenommen werden, um Gültigkeit zu \nerlangen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+        "kurz": "Fachlich richtig ist: Die INCOTERMS müssen explizit im Vertrag aufgenommen werden, um Gültigkeit zu erlangen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+        "warum": "Fachlich richtig ist: Die INCOTERMS müssen explizit im Vertrag aufgenommen werden, um Gültigkeit zu erlangen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
       },
       "fehlerfallen": [
         "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
@@ -1272,8 +1273,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Die INCOTERMS müssen explizit im Vertrag aufgenommen werden, um Gültigkeit zu \nerlangen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-      "abschlusserklaerung": "Fachlich richtig ist: Die INCOTERMS müssen explizit im Vertrag aufgenommen werden, um Gültigkeit zu \nerlangen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+      "merksatz": "Fachlich richtig ist: Die INCOTERMS müssen explizit im Vertrag aufgenommen werden, um Gültigkeit zu erlangen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "abschlusserklaerung": "Fachlich richtig ist: Die INCOTERMS müssen explizit im Vertrag aufgenommen werden, um Gültigkeit zu erlangen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
     },
     {
       "id": "pr2022_scm_2_1_loesungspunkte_stufe3",
@@ -1431,7 +1432,7 @@
           3
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Die Entwicklung von Beschaffungslösungen, die mit Kunden, Regulierungen und \nweiteren Anforderungen und Erwartungen der Interessengruppen im Einklang stehen.; Der Einsatz von effektiven Managementsystemen, um die Ziele in den Bereichen \nUmwelt, Soziales und Unternehmensführung zu erreichen.; Die Anwendung eines effizienten Lieferablaufs, der die Corporate-Responsibility- \nRichtlinien unterstützt.; Die Erwartung der Zusammenarbeit der Lieferanten untereinander, um die Performance \nmit Hinblick auf das Programm zur verantwortungsvollen Beschaffung kontinuierlich zu \nverbessern. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "erklaerung": "Fachlich richtig sind: Die Entwicklung von Beschaffungslösungen, die mit Kunden, Regulierungen und weiteren Anforderungen und Erwartungen der Interessengruppen im Einklang stehen.; Der Einsatz von effektiven Managementsystemen, um die Ziele in den Bereichen Umwelt, Soziales und Unternehmensführung zu erreichen.; Die Anwendung eines effizienten Lieferablaufs, der die Corporate-Responsibility- Richtlinien unterstützt.; Die Erwartung der Zusammenarbeit der Lieferanten untereinander, um die Performance mit Hinblick auf das Programm zur verantwortungsvollen Beschaffung kontinuierlich zu verbessern. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -1457,8 +1458,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Die Entwicklung von Beschaffungslösungen, die mit Kunden, Regulierungen und \nweiteren Anforderungen und Erwartungen der Interessengruppen im Einklang stehen.; Der Einsatz von effektiven Managementsystemen, um die Ziele in den Bereichen \nUmwelt, Soziales und Unternehmensführung zu erreichen.; Die Anwendung eines effizienten Lieferablaufs, der die Corporate-Responsibility- \nRichtlinien unterstützt.; Die Erwartung der Zusammenarbeit der Lieferanten untereinander, um die Performance \nmit Hinblick auf das Programm zur verantwortungsvollen Beschaffung kontinuierlich zu \nverbessern. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "warum": "Fachlich richtig sind: Die Entwicklung von Beschaffungslösungen, die mit Kunden, Regulierungen und \nweiteren Anforderungen und Erwartungen der Interessengruppen im Einklang stehen.; Der Einsatz von effektiven Managementsystemen, um die Ziele in den Bereichen \nUmwelt, Soziales und Unternehmensführung zu erreichen.; Die Anwendung eines effizienten Lieferablaufs, der die Corporate-Responsibility- \nRichtlinien unterstützt.; Die Erwartung der Zusammenarbeit der Lieferanten untereinander, um die Performance \nmit Hinblick auf das Programm zur verantwortungsvollen Beschaffung kontinuierlich zu \nverbessern. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+        "kurz": "Fachlich richtig sind: Die Entwicklung von Beschaffungslösungen, die mit Kunden, Regulierungen und weiteren Anforderungen und Erwartungen der Interessengruppen im Einklang stehen.; Der Einsatz von effektiven Managementsystemen, um die Ziele in den Bereichen Umwelt, Soziales und Unternehmensführung zu erreichen.; Die Anwendung eines effizienten Lieferablaufs, der die Corporate-Responsibility- Richtlinien unterstützt.; Die Erwartung der Zusammenarbeit der Lieferanten untereinander, um die Performance mit Hinblick auf das Programm zur verantwortungsvollen Beschaffung kontinuierlich zu verbessern. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+        "warum": "Fachlich richtig sind: Die Entwicklung von Beschaffungslösungen, die mit Kunden, Regulierungen und weiteren Anforderungen und Erwartungen der Interessengruppen im Einklang stehen.; Der Einsatz von effektiven Managementsystemen, um die Ziele in den Bereichen Umwelt, Soziales und Unternehmensführung zu erreichen.; Die Anwendung eines effizienten Lieferablaufs, der die Corporate-Responsibility- Richtlinien unterstützt.; Die Erwartung der Zusammenarbeit der Lieferanten untereinander, um die Performance mit Hinblick auf das Programm zur verantwortungsvollen Beschaffung kontinuierlich zu verbessern. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
       },
       "fehlerfallen": [
         "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
@@ -1475,8 +1476,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Die Entwicklung von Beschaffungslösungen, die mit Kunden, Regulierungen und \nweiteren Anforderungen und Erwartungen der Interessengruppen im Einklang stehen.; Der Einsatz von effektiven Managementsystemen, um die Ziele in den Bereichen \nUmwelt, Soziales und Unternehmensführung zu erreichen.; Die Anwendung eines effizienten Lieferablaufs, der die Corporate-Responsibility- \nRichtlinien unterstützt.; Die Erwartung der Zusammenarbeit der Lieferanten untereinander, um die Performance \nmit Hinblick auf das Programm zur verantwortungsvollen Beschaffung kontinuierlich zu \nverbessern. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-      "abschlusserklaerung": "Fachlich richtig sind: Die Entwicklung von Beschaffungslösungen, die mit Kunden, Regulierungen und \nweiteren Anforderungen und Erwartungen der Interessengruppen im Einklang stehen.; Der Einsatz von effektiven Managementsystemen, um die Ziele in den Bereichen \nUmwelt, Soziales und Unternehmensführung zu erreichen.; Die Anwendung eines effizienten Lieferablaufs, der die Corporate-Responsibility- \nRichtlinien unterstützt.; Die Erwartung der Zusammenarbeit der Lieferanten untereinander, um die Performance \nmit Hinblick auf das Programm zur verantwortungsvollen Beschaffung kontinuierlich zu \nverbessern. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+      "merksatz": "Fachlich richtig sind: Die Entwicklung von Beschaffungslösungen, die mit Kunden, Regulierungen und weiteren Anforderungen und Erwartungen der Interessengruppen im Einklang stehen.; Der Einsatz von effektiven Managementsystemen, um die Ziele in den Bereichen Umwelt, Soziales und Unternehmensführung zu erreichen.; Die Anwendung eines effizienten Lieferablaufs, der die Corporate-Responsibility- Richtlinien unterstützt.; Die Erwartung der Zusammenarbeit der Lieferanten untereinander, um die Performance mit Hinblick auf das Programm zur verantwortungsvollen Beschaffung kontinuierlich zu verbessern. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "abschlusserklaerung": "Fachlich richtig sind: Die Entwicklung von Beschaffungslösungen, die mit Kunden, Regulierungen und weiteren Anforderungen und Erwartungen der Interessengruppen im Einklang stehen.; Der Einsatz von effektiven Managementsystemen, um die Ziele in den Bereichen Umwelt, Soziales und Unternehmensführung zu erreichen.; Die Anwendung eines effizienten Lieferablaufs, der die Corporate-Responsibility- Richtlinien unterstützt.; Die Erwartung der Zusammenarbeit der Lieferanten untereinander, um die Performance mit Hinblick auf das Programm zur verantwortungsvollen Beschaffung kontinuierlich zu verbessern. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
     },
     {
       "id": "pr2023_scm_2_1_loesungspunkte_stufe3",
@@ -1562,7 +1563,7 @@
         ],
         "richtig_index": 2
       },
-      "erklaerung": "Fachlich richtig ist: Wir überprüfen die Korrektheit dieses Berichts vom Schweizer Fernsehen, besprechen \ndie Situation mit unserem Lieferanten und überlegen uns das weitere Vorgehen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "erklaerung": "Fachlich richtig ist: Wir überprüfen die Korrektheit dieses Berichts vom Schweizer Fernsehen, besprechen die Situation mit unserem Lieferanten und überlegen uns das weitere Vorgehen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -1588,8 +1589,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Wir überprüfen die Korrektheit dieses Berichts vom Schweizer Fernsehen, besprechen \ndie Situation mit unserem Lieferanten und überlegen uns das weitere Vorgehen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "warum": "Fachlich richtig ist: Wir überprüfen die Korrektheit dieses Berichts vom Schweizer Fernsehen, besprechen \ndie Situation mit unserem Lieferanten und überlegen uns das weitere Vorgehen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+        "kurz": "Fachlich richtig ist: Wir überprüfen die Korrektheit dieses Berichts vom Schweizer Fernsehen, besprechen die Situation mit unserem Lieferanten und überlegen uns das weitere Vorgehen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+        "warum": "Fachlich richtig ist: Wir überprüfen die Korrektheit dieses Berichts vom Schweizer Fernsehen, besprechen die Situation mit unserem Lieferanten und überlegen uns das weitere Vorgehen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
       },
       "fehlerfallen": [
         "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
@@ -1606,8 +1607,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Wir überprüfen die Korrektheit dieses Berichts vom Schweizer Fernsehen, besprechen \ndie Situation mit unserem Lieferanten und überlegen uns das weitere Vorgehen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-      "abschlusserklaerung": "Fachlich richtig ist: Wir überprüfen die Korrektheit dieses Berichts vom Schweizer Fernsehen, besprechen \ndie Situation mit unserem Lieferanten und überlegen uns das weitere Vorgehen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+      "merksatz": "Fachlich richtig ist: Wir überprüfen die Korrektheit dieses Berichts vom Schweizer Fernsehen, besprechen die Situation mit unserem Lieferanten und überlegen uns das weitere Vorgehen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "abschlusserklaerung": "Fachlich richtig ist: Wir überprüfen die Korrektheit dieses Berichts vom Schweizer Fernsehen, besprechen die Situation mit unserem Lieferanten und überlegen uns das weitere Vorgehen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
     },
     {
       "id": "pr2024_finanzwirtschaft_1_8_choice_stufe3",
@@ -1627,7 +1628,7 @@
         ],
         "richtig_index": 0
       },
-      "erklaerung": "Fachlich richtig ist: Das Unternehmen begegnet seinen Lieferanten auf Augenhöhe und tauscht wichtige \nInformationen mit den Lieferanten aus. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "erklaerung": "Fachlich richtig ist: Das Unternehmen begegnet seinen Lieferanten auf Augenhöhe und tauscht wichtige Informationen mit den Lieferanten aus. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -1653,8 +1654,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Das Unternehmen begegnet seinen Lieferanten auf Augenhöhe und tauscht wichtige \nInformationen mit den Lieferanten aus. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "warum": "Fachlich richtig ist: Das Unternehmen begegnet seinen Lieferanten auf Augenhöhe und tauscht wichtige \nInformationen mit den Lieferanten aus. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+        "kurz": "Fachlich richtig ist: Das Unternehmen begegnet seinen Lieferanten auf Augenhöhe und tauscht wichtige Informationen mit den Lieferanten aus. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+        "warum": "Fachlich richtig ist: Das Unternehmen begegnet seinen Lieferanten auf Augenhöhe und tauscht wichtige Informationen mit den Lieferanten aus. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
       },
       "fehlerfallen": [
         "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
@@ -1671,8 +1672,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Das Unternehmen begegnet seinen Lieferanten auf Augenhöhe und tauscht wichtige \nInformationen mit den Lieferanten aus. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-      "abschlusserklaerung": "Fachlich richtig ist: Das Unternehmen begegnet seinen Lieferanten auf Augenhöhe und tauscht wichtige \nInformationen mit den Lieferanten aus. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+      "merksatz": "Fachlich richtig ist: Das Unternehmen begegnet seinen Lieferanten auf Augenhöhe und tauscht wichtige Informationen mit den Lieferanten aus. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "abschlusserklaerung": "Fachlich richtig ist: Das Unternehmen begegnet seinen Lieferanten auf Augenhöhe und tauscht wichtige Informationen mit den Lieferanten aus. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
     },
     {
       "id": "pr2024_scm_1_11_choice_stufe3",
@@ -1698,7 +1699,7 @@
           3
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Die Kundin kann jederzeit Audits beim Lieferanten durchführen oder durchführen lassen.; Die Kosten für ein Audit sind von beiden Parteien zu tragen.; Hat der Lieferant einen Verdacht oder die Kenntnis von Verstössen gegen Vorschriften, \nist der Lieferant verpflichtet, dies unverzüglich zu melden.; Wird der Beschaffungscodex nicht eingehalten, kann sich die Auftraggeberin das Recht \nvorbehalten, einen erteilten Zuschlag zu widerrufen oder Verträge vorzeitig zu kündigen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "erklaerung": "Fachlich richtig sind: Die Kundin kann jederzeit Audits beim Lieferanten durchführen oder durchführen lassen.; Die Kosten für ein Audit sind von beiden Parteien zu tragen.; Hat der Lieferant einen Verdacht oder die Kenntnis von Verstössen gegen Vorschriften, ist der Lieferant verpflichtet, dies unverzüglich zu melden.; Wird der Beschaffungscodex nicht eingehalten, kann sich die Auftraggeberin das Recht vorbehalten, einen erteilten Zuschlag zu widerrufen oder Verträge vorzeitig zu kündigen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -1724,8 +1725,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Die Kundin kann jederzeit Audits beim Lieferanten durchführen oder durchführen lassen.; Die Kosten für ein Audit sind von beiden Parteien zu tragen.; Hat der Lieferant einen Verdacht oder die Kenntnis von Verstössen gegen Vorschriften, \nist der Lieferant verpflichtet, dies unverzüglich zu melden.; Wird der Beschaffungscodex nicht eingehalten, kann sich die Auftraggeberin das Recht \nvorbehalten, einen erteilten Zuschlag zu widerrufen oder Verträge vorzeitig zu kündigen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "warum": "Fachlich richtig sind: Die Kundin kann jederzeit Audits beim Lieferanten durchführen oder durchführen lassen.; Die Kosten für ein Audit sind von beiden Parteien zu tragen.; Hat der Lieferant einen Verdacht oder die Kenntnis von Verstössen gegen Vorschriften, \nist der Lieferant verpflichtet, dies unverzüglich zu melden.; Wird der Beschaffungscodex nicht eingehalten, kann sich die Auftraggeberin das Recht \nvorbehalten, einen erteilten Zuschlag zu widerrufen oder Verträge vorzeitig zu kündigen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+        "kurz": "Fachlich richtig sind: Die Kundin kann jederzeit Audits beim Lieferanten durchführen oder durchführen lassen.; Die Kosten für ein Audit sind von beiden Parteien zu tragen.; Hat der Lieferant einen Verdacht oder die Kenntnis von Verstössen gegen Vorschriften, ist der Lieferant verpflichtet, dies unverzüglich zu melden.; Wird der Beschaffungscodex nicht eingehalten, kann sich die Auftraggeberin das Recht vorbehalten, einen erteilten Zuschlag zu widerrufen oder Verträge vorzeitig zu kündigen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+        "warum": "Fachlich richtig sind: Die Kundin kann jederzeit Audits beim Lieferanten durchführen oder durchführen lassen.; Die Kosten für ein Audit sind von beiden Parteien zu tragen.; Hat der Lieferant einen Verdacht oder die Kenntnis von Verstössen gegen Vorschriften, ist der Lieferant verpflichtet, dies unverzüglich zu melden.; Wird der Beschaffungscodex nicht eingehalten, kann sich die Auftraggeberin das Recht vorbehalten, einen erteilten Zuschlag zu widerrufen oder Verträge vorzeitig zu kündigen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
       },
       "fehlerfallen": [
         "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
@@ -1742,8 +1743,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Die Kundin kann jederzeit Audits beim Lieferanten durchführen oder durchführen lassen.; Die Kosten für ein Audit sind von beiden Parteien zu tragen.; Hat der Lieferant einen Verdacht oder die Kenntnis von Verstössen gegen Vorschriften, \nist der Lieferant verpflichtet, dies unverzüglich zu melden.; Wird der Beschaffungscodex nicht eingehalten, kann sich die Auftraggeberin das Recht \nvorbehalten, einen erteilten Zuschlag zu widerrufen oder Verträge vorzeitig zu kündigen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-      "abschlusserklaerung": "Fachlich richtig sind: Die Kundin kann jederzeit Audits beim Lieferanten durchführen oder durchführen lassen.; Die Kosten für ein Audit sind von beiden Parteien zu tragen.; Hat der Lieferant einen Verdacht oder die Kenntnis von Verstössen gegen Vorschriften, \nist der Lieferant verpflichtet, dies unverzüglich zu melden.; Wird der Beschaffungscodex nicht eingehalten, kann sich die Auftraggeberin das Recht \nvorbehalten, einen erteilten Zuschlag zu widerrufen oder Verträge vorzeitig zu kündigen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+      "merksatz": "Fachlich richtig sind: Die Kundin kann jederzeit Audits beim Lieferanten durchführen oder durchführen lassen.; Die Kosten für ein Audit sind von beiden Parteien zu tragen.; Hat der Lieferant einen Verdacht oder die Kenntnis von Verstössen gegen Vorschriften, ist der Lieferant verpflichtet, dies unverzüglich zu melden.; Wird der Beschaffungscodex nicht eingehalten, kann sich die Auftraggeberin das Recht vorbehalten, einen erteilten Zuschlag zu widerrufen oder Verträge vorzeitig zu kündigen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "abschlusserklaerung": "Fachlich richtig sind: Die Kundin kann jederzeit Audits beim Lieferanten durchführen oder durchführen lassen.; Die Kosten für ein Audit sind von beiden Parteien zu tragen.; Hat der Lieferant einen Verdacht oder die Kenntnis von Verstössen gegen Vorschriften, ist der Lieferant verpflichtet, dies unverzüglich zu melden.; Wird der Beschaffungscodex nicht eingehalten, kann sich die Auftraggeberin das Recht vorbehalten, einen erteilten Zuschlag zu widerrufen oder Verträge vorzeitig zu kündigen. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
     },
     {
       "id": "pr2024_scm_1_14_choice_stufe3",
@@ -1767,7 +1768,7 @@
           3
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Der Lieferant kommt bei verspäteter Lieferung stets unverzüglich in Lieferverzug.; Die Brenner AG kann nach Ablauf einer festgelegten Frist zur Nacherfüllung entweder \nauf Erfüllung und Schadenersatz bestehen, oder sie erklärt unverzüglich, dass sie auf \ndie nachträgliche Erfüllung verzichtet.; Kann der Lieferant sein Nichtverschulden an der Lieferverzögerung belegen, kann er \nsich von der Schadenersatzpflicht befreien. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "erklaerung": "Fachlich richtig sind: Der Lieferant kommt bei verspäteter Lieferung stets unverzüglich in Lieferverzug.; Die Brenner AG kann nach Ablauf einer festgelegten Frist zur Nacherfüllung entweder auf Erfüllung und Schadenersatz bestehen, oder sie erklärt unverzüglich, dass sie auf die nachträgliche Erfüllung verzichtet.; Kann der Lieferant sein Nichtverschulden an der Lieferverzögerung belegen, kann er sich von der Schadenersatzpflicht befreien. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -1793,8 +1794,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Der Lieferant kommt bei verspäteter Lieferung stets unverzüglich in Lieferverzug.; Die Brenner AG kann nach Ablauf einer festgelegten Frist zur Nacherfüllung entweder \nauf Erfüllung und Schadenersatz bestehen, oder sie erklärt unverzüglich, dass sie auf \ndie nachträgliche Erfüllung verzichtet.; Kann der Lieferant sein Nichtverschulden an der Lieferverzögerung belegen, kann er \nsich von der Schadenersatzpflicht befreien. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "warum": "Fachlich richtig sind: Der Lieferant kommt bei verspäteter Lieferung stets unverzüglich in Lieferverzug.; Die Brenner AG kann nach Ablauf einer festgelegten Frist zur Nacherfüllung entweder \nauf Erfüllung und Schadenersatz bestehen, oder sie erklärt unverzüglich, dass sie auf \ndie nachträgliche Erfüllung verzichtet.; Kann der Lieferant sein Nichtverschulden an der Lieferverzögerung belegen, kann er \nsich von der Schadenersatzpflicht befreien. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+        "kurz": "Fachlich richtig sind: Der Lieferant kommt bei verspäteter Lieferung stets unverzüglich in Lieferverzug.; Die Brenner AG kann nach Ablauf einer festgelegten Frist zur Nacherfüllung entweder auf Erfüllung und Schadenersatz bestehen, oder sie erklärt unverzüglich, dass sie auf die nachträgliche Erfüllung verzichtet.; Kann der Lieferant sein Nichtverschulden an der Lieferverzögerung belegen, kann er sich von der Schadenersatzpflicht befreien. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+        "warum": "Fachlich richtig sind: Der Lieferant kommt bei verspäteter Lieferung stets unverzüglich in Lieferverzug.; Die Brenner AG kann nach Ablauf einer festgelegten Frist zur Nacherfüllung entweder auf Erfüllung und Schadenersatz bestehen, oder sie erklärt unverzüglich, dass sie auf die nachträgliche Erfüllung verzichtet.; Kann der Lieferant sein Nichtverschulden an der Lieferverzögerung belegen, kann er sich von der Schadenersatzpflicht befreien. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
       },
       "fehlerfallen": [
         "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
@@ -1811,8 +1812,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Der Lieferant kommt bei verspäteter Lieferung stets unverzüglich in Lieferverzug.; Die Brenner AG kann nach Ablauf einer festgelegten Frist zur Nacherfüllung entweder \nauf Erfüllung und Schadenersatz bestehen, oder sie erklärt unverzüglich, dass sie auf \ndie nachträgliche Erfüllung verzichtet.; Kann der Lieferant sein Nichtverschulden an der Lieferverzögerung belegen, kann er \nsich von der Schadenersatzpflicht befreien. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-      "abschlusserklaerung": "Fachlich richtig sind: Der Lieferant kommt bei verspäteter Lieferung stets unverzüglich in Lieferverzug.; Die Brenner AG kann nach Ablauf einer festgelegten Frist zur Nacherfüllung entweder \nauf Erfüllung und Schadenersatz bestehen, oder sie erklärt unverzüglich, dass sie auf \ndie nachträgliche Erfüllung verzichtet.; Kann der Lieferant sein Nichtverschulden an der Lieferverzögerung belegen, kann er \nsich von der Schadenersatzpflicht befreien. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+      "merksatz": "Fachlich richtig sind: Der Lieferant kommt bei verspäteter Lieferung stets unverzüglich in Lieferverzug.; Die Brenner AG kann nach Ablauf einer festgelegten Frist zur Nacherfüllung entweder auf Erfüllung und Schadenersatz bestehen, oder sie erklärt unverzüglich, dass sie auf die nachträgliche Erfüllung verzichtet.; Kann der Lieferant sein Nichtverschulden an der Lieferverzögerung belegen, kann er sich von der Schadenersatzpflicht befreien. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "abschlusserklaerung": "Fachlich richtig sind: Der Lieferant kommt bei verspäteter Lieferung stets unverzüglich in Lieferverzug.; Die Brenner AG kann nach Ablauf einer festgelegten Frist zur Nacherfüllung entweder auf Erfüllung und Schadenersatz bestehen, oder sie erklärt unverzüglich, dass sie auf die nachträgliche Erfüllung verzichtet.; Kann der Lieferant sein Nichtverschulden an der Lieferverzögerung belegen, kann er sich von der Schadenersatzpflicht befreien. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
     },
     {
       "id": "pr2024_scm_1_3_choice_stufe3",
@@ -2100,7 +2101,7 @@
           3
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Streik; Maschinenausfall; Wetter. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+      "erklaerung": "Fachlich richtig sind: Streik; Maschinenausfall; Wetter. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -2122,12 +2123,12 @@
         "aufgabe": "2025:SCM:1.14"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Streik; Maschinenausfall; Wetter. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "warum": "Fachlich richtig sind: Streik; Maschinenausfall; Wetter. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+        "kurz": "Fachlich richtig sind: Streik; Maschinenausfall; Wetter. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
+        "warum": "Fachlich richtig sind: Streik; Maschinenausfall; Wetter. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko."
       },
       "fehlerfallen": [
         "Ziele zu unklar oder nicht messbar formulieren.",
@@ -2144,8 +2145,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Streik; Maschinenausfall; Wetter. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-      "abschlusserklaerung": "Fachlich richtig sind: Streik; Maschinenausfall; Wetter. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+      "merksatz": "Fachlich richtig sind: Streik; Maschinenausfall; Wetter. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
+      "abschlusserklaerung": "Fachlich richtig sind: Streik; Maschinenausfall; Wetter. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko."
     },
     {
       "id": "pr2025_scm_3_3_loesungspunkte_stufe3",
@@ -2500,7 +2501,7 @@
           3
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Er verspricht Antwortzeiten innerhalb einer klar definierten Zeit und hält diese ein.; Er schafft eine neue Support-Funktion, welche die Fragen der Stakeholder ernst \nnimmt und sich der Anliegen professionell annimmt.; Er befähigt seine Mitarbeitenden Qualitäts- und Leistungslücken zu erkennen und diese \nmessbar zu beheben. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+      "erklaerung": "Fachlich richtig sind: Er verspricht Antwortzeiten innerhalb einer klar definierten Zeit und hält diese ein.; Er schafft eine neue Support-Funktion, welche die Fragen der Stakeholder ernst nimmt und sich der Anliegen professionell annimmt.; Er befähigt seine Mitarbeitenden Qualitäts- und Leistungslücken zu erkennen und diese messbar zu beheben. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -2526,8 +2527,8 @@
         "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Er verspricht Antwortzeiten innerhalb einer klar definierten Zeit und hält diese ein.; Er schafft eine neue Support-Funktion, welche die Fragen der Stakeholder ernst \nnimmt und sich der Anliegen professionell annimmt.; Er befähigt seine Mitarbeitenden Qualitäts- und Leistungslücken zu erkennen und diese \nmessbar zu beheben. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "warum": "Fachlich richtig sind: Er verspricht Antwortzeiten innerhalb einer klar definierten Zeit und hält diese ein.; Er schafft eine neue Support-Funktion, welche die Fragen der Stakeholder ernst \nnimmt und sich der Anliegen professionell annimmt.; Er befähigt seine Mitarbeitenden Qualitäts- und Leistungslücken zu erkennen und diese \nmessbar zu beheben. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
+        "kurz": "Fachlich richtig sind: Er verspricht Antwortzeiten innerhalb einer klar definierten Zeit und hält diese ein.; Er schafft eine neue Support-Funktion, welche die Fragen der Stakeholder ernst nimmt und sich der Anliegen professionell annimmt.; Er befähigt seine Mitarbeitenden Qualitäts- und Leistungslücken zu erkennen und diese messbar zu beheben. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+        "warum": "Fachlich richtig sind: Er verspricht Antwortzeiten innerhalb einer klar definierten Zeit und hält diese ein.; Er schafft eine neue Support-Funktion, welche die Fragen der Stakeholder ernst nimmt und sich der Anliegen professionell annimmt.; Er befähigt seine Mitarbeitenden Qualitäts- und Leistungslücken zu erkennen und diese messbar zu beheben. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
       },
       "fehlerfallen": [
         "Fallbezug fehlt.",
@@ -2544,8 +2545,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Er verspricht Antwortzeiten innerhalb einer klar definierten Zeit und hält diese ein.; Er schafft eine neue Support-Funktion, welche die Fragen der Stakeholder ernst \nnimmt und sich der Anliegen professionell annimmt.; Er befähigt seine Mitarbeitenden Qualitäts- und Leistungslücken zu erkennen und diese \nmessbar zu beheben. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-      "abschlusserklaerung": "Fachlich richtig sind: Er verspricht Antwortzeiten innerhalb einer klar definierten Zeit und hält diese ein.; Er schafft eine neue Support-Funktion, welche die Fragen der Stakeholder ernst \nnimmt und sich der Anliegen professionell annimmt.; Er befähigt seine Mitarbeitenden Qualitäts- und Leistungslücken zu erkennen und diese \nmessbar zu beheben. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
+      "merksatz": "Fachlich richtig sind: Er verspricht Antwortzeiten innerhalb einer klar definierten Zeit und hält diese ein.; Er schafft eine neue Support-Funktion, welche die Fragen der Stakeholder ernst nimmt und sich der Anliegen professionell annimmt.; Er befähigt seine Mitarbeitenden Qualitäts- und Leistungslücken zu erkennen und diese messbar zu beheben. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+      "abschlusserklaerung": "Fachlich richtig sind: Er verspricht Antwortzeiten innerhalb einer klar definierten Zeit und hält diese ein.; Er schafft eine neue Support-Funktion, welche die Fragen der Stakeholder ernst nimmt und sich der Anliegen professionell annimmt.; Er befähigt seine Mitarbeitenden Qualitäts- und Leistungslücken zu erkennen und diese messbar zu beheben. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
     },
     {
       "id": "scm_distribution_stufe1_begriff",
@@ -2632,7 +2633,7 @@
         ],
         "richtig_index": 3
       },
-      "erklaerung": "Fachlich richtig ist: Die Distributionslogistik folgt in jedem Fall strikt dem Ansatz der Kostenminimierung. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+      "erklaerung": "Fachlich richtig ist: Die Distributionslogistik folgt in jedem Fall strikt dem Ansatz der Kostenminimierung. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -2654,12 +2655,12 @@
         "aufgabe": "2022:SCM:1.6"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Die Distributionslogistik folgt in jedem Fall strikt dem Ansatz der Kostenminimierung. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "warum": "Fachlich richtig ist: Die Distributionslogistik folgt in jedem Fall strikt dem Ansatz der Kostenminimierung. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+        "kurz": "Fachlich richtig ist: Die Distributionslogistik folgt in jedem Fall strikt dem Ansatz der Kostenminimierung. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
+        "warum": "Fachlich richtig ist: Die Distributionslogistik folgt in jedem Fall strikt dem Ansatz der Kostenminimierung. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko."
       },
       "fehlerfallen": [
         "Ziele zu unklar oder nicht messbar formulieren.",
@@ -2676,8 +2677,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Die Distributionslogistik folgt in jedem Fall strikt dem Ansatz der Kostenminimierung. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-      "abschlusserklaerung": "Fachlich richtig ist: Die Distributionslogistik folgt in jedem Fall strikt dem Ansatz der Kostenminimierung. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+      "merksatz": "Fachlich richtig ist: Die Distributionslogistik folgt in jedem Fall strikt dem Ansatz der Kostenminimierung. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
+      "abschlusserklaerung": "Fachlich richtig ist: Die Distributionslogistik folgt in jedem Fall strikt dem Ansatz der Kostenminimierung. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko."
     },
     {
       "id": "pr2024_scm_1_2_choice_stufe3",
@@ -3302,7 +3303,7 @@
           2
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Abstimmung mit der Beschaffung, um die Bestellmengen zu reduzieren, damit sich die \nMenge der Entsorgung aufgrund des Verfalldatums reduziert.; Abstimmung mit ihrem Vorgesetzten, damit er die Reparatur der Lagerhalle vorantreibt, \nso dass es zu keinen irreparablen Schäden der gelagerten Ware mehr kommt. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+      "erklaerung": "Fachlich richtig sind: Abstimmung mit der Beschaffung, um die Bestellmengen zu reduzieren, damit sich die Menge der Entsorgung aufgrund des Verfalldatums reduziert.; Abstimmung mit ihrem Vorgesetzten, damit er die Reparatur der Lagerhalle vorantreibt, so dass es zu keinen irreparablen Schäden der gelagerten Ware mehr kommt. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -3324,12 +3325,12 @@
         "aufgabe": "2022:SCM:1.14"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Abstimmung mit der Beschaffung, um die Bestellmengen zu reduzieren, damit sich die \nMenge der Entsorgung aufgrund des Verfalldatums reduziert.; Abstimmung mit ihrem Vorgesetzten, damit er die Reparatur der Lagerhalle vorantreibt, \nso dass es zu keinen irreparablen Schäden der gelagerten Ware mehr kommt. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "warum": "Fachlich richtig sind: Abstimmung mit der Beschaffung, um die Bestellmengen zu reduzieren, damit sich die \nMenge der Entsorgung aufgrund des Verfalldatums reduziert.; Abstimmung mit ihrem Vorgesetzten, damit er die Reparatur der Lagerhalle vorantreibt, \nso dass es zu keinen irreparablen Schäden der gelagerten Ware mehr kommt. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+        "kurz": "Fachlich richtig sind: Abstimmung mit der Beschaffung, um die Bestellmengen zu reduzieren, damit sich die Menge der Entsorgung aufgrund des Verfalldatums reduziert.; Abstimmung mit ihrem Vorgesetzten, damit er die Reparatur der Lagerhalle vorantreibt, so dass es zu keinen irreparablen Schäden der gelagerten Ware mehr kommt. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
+        "warum": "Fachlich richtig sind: Abstimmung mit der Beschaffung, um die Bestellmengen zu reduzieren, damit sich die Menge der Entsorgung aufgrund des Verfalldatums reduziert.; Abstimmung mit ihrem Vorgesetzten, damit er die Reparatur der Lagerhalle vorantreibt, so dass es zu keinen irreparablen Schäden der gelagerten Ware mehr kommt. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko."
       },
       "fehlerfallen": [
         "Ziele zu unklar oder nicht messbar formulieren.",
@@ -3346,8 +3347,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Abstimmung mit der Beschaffung, um die Bestellmengen zu reduzieren, damit sich die \nMenge der Entsorgung aufgrund des Verfalldatums reduziert.; Abstimmung mit ihrem Vorgesetzten, damit er die Reparatur der Lagerhalle vorantreibt, \nso dass es zu keinen irreparablen Schäden der gelagerten Ware mehr kommt. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-      "abschlusserklaerung": "Fachlich richtig sind: Abstimmung mit der Beschaffung, um die Bestellmengen zu reduzieren, damit sich die \nMenge der Entsorgung aufgrund des Verfalldatums reduziert.; Abstimmung mit ihrem Vorgesetzten, damit er die Reparatur der Lagerhalle vorantreibt, \nso dass es zu keinen irreparablen Schäden der gelagerten Ware mehr kommt. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+      "merksatz": "Fachlich richtig sind: Abstimmung mit der Beschaffung, um die Bestellmengen zu reduzieren, damit sich die Menge der Entsorgung aufgrund des Verfalldatums reduziert.; Abstimmung mit ihrem Vorgesetzten, damit er die Reparatur der Lagerhalle vorantreibt, so dass es zu keinen irreparablen Schäden der gelagerten Ware mehr kommt. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
+      "abschlusserklaerung": "Fachlich richtig sind: Abstimmung mit der Beschaffung, um die Bestellmengen zu reduzieren, damit sich die Menge der Entsorgung aufgrund des Verfalldatums reduziert.; Abstimmung mit ihrem Vorgesetzten, damit er die Reparatur der Lagerhalle vorantreibt, so dass es zu keinen irreparablen Schäden der gelagerten Ware mehr kommt. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko."
     },
     {
       "id": "pr2023_scm_1_12_thema_stufe3",
@@ -3393,7 +3394,7 @@
         "aufgabe": "2023:SCM:1.12"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -3772,7 +3773,7 @@
         ],
         "richtig_index": 3
       },
-      "erklaerung": "Fachlich richtig ist: Ein unnötig hoher Verschleiss von Produktionsmitteln wirkt sich nur auf den Gewinn, nie \naber auf den Umsatz aus. Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
+      "erklaerung": "Fachlich richtig ist: Ein unnötig hoher Verschleiss von Produktionsmitteln wirkt sich nur auf den Gewinn, nie aber auf den Umsatz aus. Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -3798,8 +3799,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Ein unnötig hoher Verschleiss von Produktionsmitteln wirkt sich nur auf den Gewinn, nie \naber auf den Umsatz aus. Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-        "warum": "Fachlich richtig ist: Ein unnötig hoher Verschleiss von Produktionsmitteln wirkt sich nur auf den Gewinn, nie \naber auf den Umsatz aus. Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus."
+        "kurz": "Fachlich richtig ist: Ein unnötig hoher Verschleiss von Produktionsmitteln wirkt sich nur auf den Gewinn, nie aber auf den Umsatz aus. Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
+        "warum": "Fachlich richtig ist: Ein unnötig hoher Verschleiss von Produktionsmitteln wirkt sich nur auf den Gewinn, nie aber auf den Umsatz aus. Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus."
       },
       "fehlerfallen": [
         "Marketing-Mix-Instrumente verwechseln.",
@@ -3816,8 +3817,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Ein unnötig hoher Verschleiss von Produktionsmitteln wirkt sich nur auf den Gewinn, nie \naber auf den Umsatz aus. Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-      "abschlusserklaerung": "Fachlich richtig ist: Ein unnötig hoher Verschleiss von Produktionsmitteln wirkt sich nur auf den Gewinn, nie \naber auf den Umsatz aus. Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus."
+      "merksatz": "Fachlich richtig ist: Ein unnötig hoher Verschleiss von Produktionsmitteln wirkt sich nur auf den Gewinn, nie aber auf den Umsatz aus. Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
+      "abschlusserklaerung": "Fachlich richtig ist: Ein unnötig hoher Verschleiss von Produktionsmitteln wirkt sich nur auf den Gewinn, nie aber auf den Umsatz aus. Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus."
     },
     {
       "id": "pr2025_scm_3_1_loesungspunkte_stufe3",
@@ -4439,7 +4440,7 @@
           3
         ]
       },
-      "erklaerung": "Fachlich richtig sind: In der Planung muss ein Anforderungskatalog erstellt werden.; Mittels ERP können Redundanzen bei den Daten vermieden werden.; Ziel ist es, mit dem neuen ERP-System die Gesamtheit der Geschäftsprozesse \n \n \nabzubilden. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
+      "erklaerung": "Fachlich richtig sind: In der Planung muss ein Anforderungskatalog erstellt werden.; Mittels ERP können Redundanzen bei den Daten vermieden werden.; Ziel ist es, mit dem neuen ERP-System die Gesamtheit der Geschäftsprozesse abzubilden. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -4465,8 +4466,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: In der Planung muss ein Anforderungskatalog erstellt werden.; Mittels ERP können Redundanzen bei den Daten vermieden werden.; Ziel ist es, mit dem neuen ERP-System die Gesamtheit der Geschäftsprozesse \n \n \nabzubilden. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "warum": "Fachlich richtig sind: In der Planung muss ein Anforderungskatalog erstellt werden.; Mittels ERP können Redundanzen bei den Daten vermieden werden.; Ziel ist es, mit dem neuen ERP-System die Gesamtheit der Geschäftsprozesse \n \n \nabzubilden. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
+        "kurz": "Fachlich richtig sind: In der Planung muss ein Anforderungskatalog erstellt werden.; Mittels ERP können Redundanzen bei den Daten vermieden werden.; Ziel ist es, mit dem neuen ERP-System die Gesamtheit der Geschäftsprozesse abzubilden. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
+        "warum": "Fachlich richtig sind: In der Planung muss ein Anforderungskatalog erstellt werden.; Mittels ERP können Redundanzen bei den Daten vermieden werden.; Ziel ist es, mit dem neuen ERP-System die Gesamtheit der Geschäftsprozesse abzubilden. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
       },
       "fehlerfallen": [
         "Analyse und Massnahme nicht verknüpfen.",
@@ -4483,8 +4484,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: In der Planung muss ein Anforderungskatalog erstellt werden.; Mittels ERP können Redundanzen bei den Daten vermieden werden.; Ziel ist es, mit dem neuen ERP-System die Gesamtheit der Geschäftsprozesse \n \n \nabzubilden. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-      "abschlusserklaerung": "Fachlich richtig sind: In der Planung muss ein Anforderungskatalog erstellt werden.; Mittels ERP können Redundanzen bei den Daten vermieden werden.; Ziel ist es, mit dem neuen ERP-System die Gesamtheit der Geschäftsprozesse \n \n \nabzubilden. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
+      "merksatz": "Fachlich richtig sind: In der Planung muss ein Anforderungskatalog erstellt werden.; Mittels ERP können Redundanzen bei den Daten vermieden werden.; Ziel ist es, mit dem neuen ERP-System die Gesamtheit der Geschäftsprozesse abzubilden. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
+      "abschlusserklaerung": "Fachlich richtig sind: In der Planung muss ein Anforderungskatalog erstellt werden.; Mittels ERP können Redundanzen bei den Daten vermieden werden.; Ziel ist es, mit dem neuen ERP-System die Gesamtheit der Geschäftsprozesse abzubilden. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
     },
     {
       "id": "scm_kuenstliche_intelligenz_ki_stufe1_begriff",
@@ -5712,7 +5713,7 @@
           3
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Mittels der Inventur kann ein Lagerschwund erkannt werden.; Fehler im Ergebnis der Inventur können einen Produktionsengpass auslösen.; Fehler im Ergebnis der Inventur verfälschen bei bilanzierenden Unternehmen \nden Jahresabschluss.; Die Inventur kann auf verschiedene Arten durchgeführt werden, beispielsweise \nals Stichtaginventur oder als rollende Inventur. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "erklaerung": "Fachlich richtig sind: Mittels der Inventur kann ein Lagerschwund erkannt werden.; Fehler im Ergebnis der Inventur können einen Produktionsengpass auslösen.; Fehler im Ergebnis der Inventur verfälschen bei bilanzierenden Unternehmen den Jahresabschluss.; Die Inventur kann auf verschiedene Arten durchgeführt werden, beispielsweise als Stichtaginventur oder als rollende Inventur. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -5738,8 +5739,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Mittels der Inventur kann ein Lagerschwund erkannt werden.; Fehler im Ergebnis der Inventur können einen Produktionsengpass auslösen.; Fehler im Ergebnis der Inventur verfälschen bei bilanzierenden Unternehmen \nden Jahresabschluss.; Die Inventur kann auf verschiedene Arten durchgeführt werden, beispielsweise \nals Stichtaginventur oder als rollende Inventur. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "warum": "Fachlich richtig sind: Mittels der Inventur kann ein Lagerschwund erkannt werden.; Fehler im Ergebnis der Inventur können einen Produktionsengpass auslösen.; Fehler im Ergebnis der Inventur verfälschen bei bilanzierenden Unternehmen \nden Jahresabschluss.; Die Inventur kann auf verschiedene Arten durchgeführt werden, beispielsweise \nals Stichtaginventur oder als rollende Inventur. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+        "kurz": "Fachlich richtig sind: Mittels der Inventur kann ein Lagerschwund erkannt werden.; Fehler im Ergebnis der Inventur können einen Produktionsengpass auslösen.; Fehler im Ergebnis der Inventur verfälschen bei bilanzierenden Unternehmen den Jahresabschluss.; Die Inventur kann auf verschiedene Arten durchgeführt werden, beispielsweise als Stichtaginventur oder als rollende Inventur. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+        "warum": "Fachlich richtig sind: Mittels der Inventur kann ein Lagerschwund erkannt werden.; Fehler im Ergebnis der Inventur können einen Produktionsengpass auslösen.; Fehler im Ergebnis der Inventur verfälschen bei bilanzierenden Unternehmen den Jahresabschluss.; Die Inventur kann auf verschiedene Arten durchgeführt werden, beispielsweise als Stichtaginventur oder als rollende Inventur. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
       },
       "fehlerfallen": [
         "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
@@ -5756,8 +5757,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Mittels der Inventur kann ein Lagerschwund erkannt werden.; Fehler im Ergebnis der Inventur können einen Produktionsengpass auslösen.; Fehler im Ergebnis der Inventur verfälschen bei bilanzierenden Unternehmen \nden Jahresabschluss.; Die Inventur kann auf verschiedene Arten durchgeführt werden, beispielsweise \nals Stichtaginventur oder als rollende Inventur. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-      "abschlusserklaerung": "Fachlich richtig sind: Mittels der Inventur kann ein Lagerschwund erkannt werden.; Fehler im Ergebnis der Inventur können einen Produktionsengpass auslösen.; Fehler im Ergebnis der Inventur verfälschen bei bilanzierenden Unternehmen \nden Jahresabschluss.; Die Inventur kann auf verschiedene Arten durchgeführt werden, beispielsweise \nals Stichtaginventur oder als rollende Inventur. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+      "merksatz": "Fachlich richtig sind: Mittels der Inventur kann ein Lagerschwund erkannt werden.; Fehler im Ergebnis der Inventur können einen Produktionsengpass auslösen.; Fehler im Ergebnis der Inventur verfälschen bei bilanzierenden Unternehmen den Jahresabschluss.; Die Inventur kann auf verschiedene Arten durchgeführt werden, beispielsweise als Stichtaginventur oder als rollende Inventur. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "abschlusserklaerung": "Fachlich richtig sind: Mittels der Inventur kann ein Lagerschwund erkannt werden.; Fehler im Ergebnis der Inventur können einen Produktionsengpass auslösen.; Fehler im Ergebnis der Inventur verfälschen bei bilanzierenden Unternehmen den Jahresabschluss.; Die Inventur kann auf verschiedene Arten durchgeführt werden, beispielsweise als Stichtaginventur oder als rollende Inventur. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
     },
     {
       "id": "pr2022_scm_1_9_choice_stufe3",
@@ -5783,7 +5784,7 @@
           3
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Unsachgemässe Auslagerung durch ungeeignete Flurförderzeuge.; Brandgefahr durch unsachgemässe Lagerung und mangelnden Brandschutz.; Falsche Einlagerung (z. B. durch falsche Anordnung, Stapelung oder Lagerhöhe wegen \nungeeigneten Regalen).; Verderb durch Stromausfall bei Kühllagerung und mangelnde Black-out-Vorsorge. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "erklaerung": "Fachlich richtig sind: Unsachgemässe Auslagerung durch ungeeignete Flurförderzeuge.; Brandgefahr durch unsachgemässe Lagerung und mangelnden Brandschutz.; Falsche Einlagerung (z. B. durch falsche Anordnung, Stapelung oder Lagerhöhe wegen ungeeigneten Regalen).; Verderb durch Stromausfall bei Kühllagerung und mangelnde Black-out-Vorsorge. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -5809,8 +5810,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Unsachgemässe Auslagerung durch ungeeignete Flurförderzeuge.; Brandgefahr durch unsachgemässe Lagerung und mangelnden Brandschutz.; Falsche Einlagerung (z. B. durch falsche Anordnung, Stapelung oder Lagerhöhe wegen \nungeeigneten Regalen).; Verderb durch Stromausfall bei Kühllagerung und mangelnde Black-out-Vorsorge. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "warum": "Fachlich richtig sind: Unsachgemässe Auslagerung durch ungeeignete Flurförderzeuge.; Brandgefahr durch unsachgemässe Lagerung und mangelnden Brandschutz.; Falsche Einlagerung (z. B. durch falsche Anordnung, Stapelung oder Lagerhöhe wegen \nungeeigneten Regalen).; Verderb durch Stromausfall bei Kühllagerung und mangelnde Black-out-Vorsorge. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+        "kurz": "Fachlich richtig sind: Unsachgemässe Auslagerung durch ungeeignete Flurförderzeuge.; Brandgefahr durch unsachgemässe Lagerung und mangelnden Brandschutz.; Falsche Einlagerung (z. B. durch falsche Anordnung, Stapelung oder Lagerhöhe wegen ungeeigneten Regalen).; Verderb durch Stromausfall bei Kühllagerung und mangelnde Black-out-Vorsorge. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+        "warum": "Fachlich richtig sind: Unsachgemässe Auslagerung durch ungeeignete Flurförderzeuge.; Brandgefahr durch unsachgemässe Lagerung und mangelnden Brandschutz.; Falsche Einlagerung (z. B. durch falsche Anordnung, Stapelung oder Lagerhöhe wegen ungeeigneten Regalen).; Verderb durch Stromausfall bei Kühllagerung und mangelnde Black-out-Vorsorge. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
       },
       "fehlerfallen": [
         "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
@@ -5827,8 +5828,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Unsachgemässe Auslagerung durch ungeeignete Flurförderzeuge.; Brandgefahr durch unsachgemässe Lagerung und mangelnden Brandschutz.; Falsche Einlagerung (z. B. durch falsche Anordnung, Stapelung oder Lagerhöhe wegen \nungeeigneten Regalen).; Verderb durch Stromausfall bei Kühllagerung und mangelnde Black-out-Vorsorge. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-      "abschlusserklaerung": "Fachlich richtig sind: Unsachgemässe Auslagerung durch ungeeignete Flurförderzeuge.; Brandgefahr durch unsachgemässe Lagerung und mangelnden Brandschutz.; Falsche Einlagerung (z. B. durch falsche Anordnung, Stapelung oder Lagerhöhe wegen \nungeeigneten Regalen).; Verderb durch Stromausfall bei Kühllagerung und mangelnde Black-out-Vorsorge. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+      "merksatz": "Fachlich richtig sind: Unsachgemässe Auslagerung durch ungeeignete Flurförderzeuge.; Brandgefahr durch unsachgemässe Lagerung und mangelnden Brandschutz.; Falsche Einlagerung (z. B. durch falsche Anordnung, Stapelung oder Lagerhöhe wegen ungeeigneten Regalen).; Verderb durch Stromausfall bei Kühllagerung und mangelnde Black-out-Vorsorge. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "abschlusserklaerung": "Fachlich richtig sind: Unsachgemässe Auslagerung durch ungeeignete Flurförderzeuge.; Brandgefahr durch unsachgemässe Lagerung und mangelnden Brandschutz.; Falsche Einlagerung (z. B. durch falsche Anordnung, Stapelung oder Lagerhöhe wegen ungeeigneten Regalen).; Verderb durch Stromausfall bei Kühllagerung und mangelnde Black-out-Vorsorge. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
     },
     {
       "id": "pr2022_scm_2_3_thema_stufe3",
@@ -6067,7 +6068,7 @@
         ],
         "richtig_index": 2
       },
-      "erklaerung": "Fachlich richtig ist: Die Ausgleichsfunktion federt Schwankungen zwischen Angebot und Nachfrage ab und \nbeseitigt Differenzen zwischen Materialbedarf und Materialzufluss. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "erklaerung": "Fachlich richtig ist: Die Ausgleichsfunktion federt Schwankungen zwischen Angebot und Nachfrage ab und beseitigt Differenzen zwischen Materialbedarf und Materialzufluss. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -6093,8 +6094,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Die Ausgleichsfunktion federt Schwankungen zwischen Angebot und Nachfrage ab und \nbeseitigt Differenzen zwischen Materialbedarf und Materialzufluss. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "warum": "Fachlich richtig ist: Die Ausgleichsfunktion federt Schwankungen zwischen Angebot und Nachfrage ab und \nbeseitigt Differenzen zwischen Materialbedarf und Materialzufluss. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+        "kurz": "Fachlich richtig ist: Die Ausgleichsfunktion federt Schwankungen zwischen Angebot und Nachfrage ab und beseitigt Differenzen zwischen Materialbedarf und Materialzufluss. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+        "warum": "Fachlich richtig ist: Die Ausgleichsfunktion federt Schwankungen zwischen Angebot und Nachfrage ab und beseitigt Differenzen zwischen Materialbedarf und Materialzufluss. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
       },
       "fehlerfallen": [
         "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
@@ -6111,8 +6112,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Die Ausgleichsfunktion federt Schwankungen zwischen Angebot und Nachfrage ab und \nbeseitigt Differenzen zwischen Materialbedarf und Materialzufluss. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-      "abschlusserklaerung": "Fachlich richtig ist: Die Ausgleichsfunktion federt Schwankungen zwischen Angebot und Nachfrage ab und \nbeseitigt Differenzen zwischen Materialbedarf und Materialzufluss. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+      "merksatz": "Fachlich richtig ist: Die Ausgleichsfunktion federt Schwankungen zwischen Angebot und Nachfrage ab und beseitigt Differenzen zwischen Materialbedarf und Materialzufluss. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "abschlusserklaerung": "Fachlich richtig ist: Die Ausgleichsfunktion federt Schwankungen zwischen Angebot und Nachfrage ab und beseitigt Differenzen zwischen Materialbedarf und Materialzufluss. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
     },
     {
       "id": "pr2023_scm_3_3_loesungspunkte_stufe3",
@@ -6268,7 +6269,7 @@
           3
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Schüttgüter können vielfach mittels Vibration verdichtet werden.; Schüttgüter können ihre Dichte beim Transport und Lagern verändern.; Stückgüter sind zählbar. \n. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "erklaerung": "Fachlich richtig sind: Schüttgüter können vielfach mittels Vibration verdichtet werden.; Schüttgüter können ihre Dichte beim Transport und Lagern verändern.; Stückgüter sind zählbar. . Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -6294,8 +6295,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Schüttgüter können vielfach mittels Vibration verdichtet werden.; Schüttgüter können ihre Dichte beim Transport und Lagern verändern.; Stückgüter sind zählbar. \n. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-        "warum": "Fachlich richtig sind: Schüttgüter können vielfach mittels Vibration verdichtet werden.; Schüttgüter können ihre Dichte beim Transport und Lagern verändern.; Stückgüter sind zählbar. \n. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+        "kurz": "Fachlich richtig sind: Schüttgüter können vielfach mittels Vibration verdichtet werden.; Schüttgüter können ihre Dichte beim Transport und Lagern verändern.; Stückgüter sind zählbar. . Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+        "warum": "Fachlich richtig sind: Schüttgüter können vielfach mittels Vibration verdichtet werden.; Schüttgüter können ihre Dichte beim Transport und Lagern verändern.; Stückgüter sind zählbar. . Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
       },
       "fehlerfallen": [
         "Nur Preis statt Gesamtkosten/Gesamtnutzen bewerten.",
@@ -6312,8 +6313,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Schüttgüter können vielfach mittels Vibration verdichtet werden.; Schüttgüter können ihre Dichte beim Transport und Lagern verändern.; Stückgüter sind zählbar. \n. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
-      "abschlusserklaerung": "Fachlich richtig sind: Schüttgüter können vielfach mittels Vibration verdichtet werden.; Schüttgüter können ihre Dichte beim Transport und Lagern verändern.; Stückgüter sind zählbar. \n. Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
+      "merksatz": "Fachlich richtig sind: Schüttgüter können vielfach mittels Vibration verdichtet werden.; Schüttgüter können ihre Dichte beim Transport und Lagern verändern.; Stückgüter sind zählbar. . Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten.",
+      "abschlusserklaerung": "Fachlich richtig sind: Schüttgüter können vielfach mittels Vibration verdichtet werden.; Schüttgüter können ihre Dichte beim Transport und Lagern verändern.; Stückgüter sind zählbar. . Beschaffung und SCM sichern Material, Leistungen und Informationen in richtiger Qualität, Menge, Zeit und zu wirtschaftlichen Gesamtkosten."
     },
     {
       "id": "pr2025_scm_1_11_choice_stufe3",
@@ -7358,7 +7359,7 @@
           3
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Der Wechselkurs beläuft sich zufällig wieder auf CHF 0.9581. Die Tradefix AG hat weder \neinen Kursgewinn noch einen -verlust erzielt.; Die Finanzchefin sichert den Kurs bei CHF 0.97 ab. Der Zahlungsbetrag in CHF ist fix. \nHierbei entsteht ein Kursverlust gegenüber dem Kurs am Tag der Angebotsbewertung. Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
+      "erklaerung": "Fachlich richtig sind: Der Wechselkurs beläuft sich zufällig wieder auf CHF 0.9581. Die Tradefix AG hat weder einen Kursgewinn noch einen -verlust erzielt.; Die Finanzchefin sichert den Kurs bei CHF 0.97 ab. Der Zahlungsbetrag in CHF ist fix. Hierbei entsteht ein Kursverlust gegenüber dem Kurs am Tag der Angebotsbewertung. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -7380,12 +7381,12 @@
         "aufgabe": "2023:SCM:1.14"
       },
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
+        "kurz": "Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
         "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Der Wechselkurs beläuft sich zufällig wieder auf CHF 0.9581. Die Tradefix AG hat weder \neinen Kursgewinn noch einen -verlust erzielt.; Die Finanzchefin sichert den Kurs bei CHF 0.97 ab. Der Zahlungsbetrag in CHF ist fix. \nHierbei entsteht ein Kursverlust gegenüber dem Kurs am Tag der Angebotsbewertung. Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "warum": "Fachlich richtig sind: Der Wechselkurs beläuft sich zufällig wieder auf CHF 0.9581. Die Tradefix AG hat weder \neinen Kursgewinn noch einen -verlust erzielt.; Die Finanzchefin sichert den Kurs bei CHF 0.97 ab. Der Zahlungsbetrag in CHF ist fix. \nHierbei entsteht ein Kursverlust gegenüber dem Kurs am Tag der Angebotsbewertung. Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle."
+        "kurz": "Fachlich richtig sind: Der Wechselkurs beläuft sich zufällig wieder auf CHF 0.9581. Die Tradefix AG hat weder einen Kursgewinn noch einen -verlust erzielt.; Die Finanzchefin sichert den Kurs bei CHF 0.97 ab. Der Zahlungsbetrag in CHF ist fix. Hierbei entsteht ein Kursverlust gegenüber dem Kurs am Tag der Angebotsbewertung. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
+        "warum": "Fachlich richtig sind: Der Wechselkurs beläuft sich zufällig wieder auf CHF 0.9581. Die Tradefix AG hat weder einen Kursgewinn noch einen -verlust erzielt.; Die Finanzchefin sichert den Kurs bei CHF 0.97 ab. Der Zahlungsbetrag in CHF ist fix. Hierbei entsteht ein Kursverlust gegenüber dem Kurs am Tag der Angebotsbewertung. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko."
       },
       "fehlerfallen": [
         "Ursachenanalyse überspringen.",
@@ -7402,8 +7403,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Der Wechselkurs beläuft sich zufällig wieder auf CHF 0.9581. Die Tradefix AG hat weder \neinen Kursgewinn noch einen -verlust erzielt.; Die Finanzchefin sichert den Kurs bei CHF 0.97 ab. Der Zahlungsbetrag in CHF ist fix. \nHierbei entsteht ein Kursverlust gegenüber dem Kurs am Tag der Angebotsbewertung. Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-      "abschlusserklaerung": "Fachlich richtig sind: Der Wechselkurs beläuft sich zufällig wieder auf CHF 0.9581. Die Tradefix AG hat weder \neinen Kursgewinn noch einen -verlust erzielt.; Die Finanzchefin sichert den Kurs bei CHF 0.97 ab. Der Zahlungsbetrag in CHF ist fix. \nHierbei entsteht ein Kursverlust gegenüber dem Kurs am Tag der Angebotsbewertung. Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle."
+      "merksatz": "Fachlich richtig sind: Der Wechselkurs beläuft sich zufällig wieder auf CHF 0.9581. Die Tradefix AG hat weder einen Kursgewinn noch einen -verlust erzielt.; Die Finanzchefin sichert den Kurs bei CHF 0.97 ab. Der Zahlungsbetrag in CHF ist fix. Hierbei entsteht ein Kursverlust gegenüber dem Kurs am Tag der Angebotsbewertung. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
+      "abschlusserklaerung": "Fachlich richtig sind: Der Wechselkurs beläuft sich zufällig wieder auf CHF 0.9581. Die Tradefix AG hat weder einen Kursgewinn noch einen -verlust erzielt.; Die Finanzchefin sichert den Kurs bei CHF 0.97 ab. Der Zahlungsbetrag in CHF ist fix. Hierbei entsteht ein Kursverlust gegenüber dem Kurs am Tag der Angebotsbewertung. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko."
     },
     {
       "id": "pr2023_scm_3_1_loesungspunkte_stufe3",
@@ -7600,7 +7601,7 @@
         "aufgabe": "2022:SCM:1.17"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
@@ -7701,12 +7702,12 @@
       "frage": "Ökologischer Fussabdruck\nAusgangslage \nFür ein Unternehmen sind Nachhaltigkeit sowie ökologisches Denken und Handeln zentrale \nstrategische Stützpfeiler. Die Stromkonsumation im Bereich der Produktion ist schon tief. Im \nkommenden Geschäftsjahr soll der ökologische Fussabdruck signifikant gesenkt werden. \nFrage \nWelcher der folgenden Ansätze trägt am effektivsten zur Reduzierung des ökologischen \nFussabdrucks über die gesamte Supply Chain bei.",
       "antwort_daten": {
         "optionen": [
-          "Die Reduzierung der Liefereinheiten einzelner Produkte, ohne die Lieferkette\nanzupassen.",
           "Die Optimierung der Transportwege und die Nutzung umweltfreundlicher\nTransportmittel.",
+          "Die Reduzierung der Liefereinheiten einzelner Produkte, ohne die Lieferkette\nanzupassen.",
           "Die Erhöhung der Produktionsmenge, um Skaleneffekte zu nutzen.",
           "Ausschliessliche Nutzung von Ökostrom am Produktionsstandort."
         ],
-        "richtig_index": 1
+        "richtig_index": 0
       },
       "erklaerung": "Fachlich richtig ist: Die Optimierung der Transportwege und die Nutzung umweltfreundlicher\nTransportmittel. Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
       "stufe": 3,
@@ -8264,7 +8265,7 @@
           3
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Die Fortschrittskontrolle bei Produktionsprozessen ist ein Frühwarnsystem, welches \nAbweichungen aufzeigt.; Die Fortschrittskontrolle bei Produktionsprozessen kann mittels Soll-Ist-Vergleich durch-\ngeführt werden.; Aufgrund der Ergebnisse der Fortschrittskontrolle bei Produktionsprozessen können \nsteuernde und korrigierende Massnahmen eingeleitet werden.; Zur Durchführung der Fortschrittskontrolle bei Produktionsprozessen braucht es immer \neine oder mehrere Zielgrössen. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
+      "erklaerung": "Fachlich richtig sind: Die Fortschrittskontrolle bei Produktionsprozessen ist ein Frühwarnsystem, welches Abweichungen aufzeigt.; Die Fortschrittskontrolle bei Produktionsprozessen kann mittels Soll-Ist-Vergleich durch-\ngeführt werden.; Aufgrund der Ergebnisse der Fortschrittskontrolle bei Produktionsprozessen können steuernde und korrigierende Massnahmen eingeleitet werden.; Zur Durchführung der Fortschrittskontrolle bei Produktionsprozessen braucht es immer eine oder mehrere Zielgrössen. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -8290,8 +8291,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Die Fortschrittskontrolle bei Produktionsprozessen ist ein Frühwarnsystem, welches \nAbweichungen aufzeigt.; Die Fortschrittskontrolle bei Produktionsprozessen kann mittels Soll-Ist-Vergleich durch-\ngeführt werden.; Aufgrund der Ergebnisse der Fortschrittskontrolle bei Produktionsprozessen können \nsteuernde und korrigierende Massnahmen eingeleitet werden.; Zur Durchführung der Fortschrittskontrolle bei Produktionsprozessen braucht es immer \neine oder mehrere Zielgrössen. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "warum": "Fachlich richtig sind: Die Fortschrittskontrolle bei Produktionsprozessen ist ein Frühwarnsystem, welches \nAbweichungen aufzeigt.; Die Fortschrittskontrolle bei Produktionsprozessen kann mittels Soll-Ist-Vergleich durch-\ngeführt werden.; Aufgrund der Ergebnisse der Fortschrittskontrolle bei Produktionsprozessen können \nsteuernde und korrigierende Massnahmen eingeleitet werden.; Zur Durchführung der Fortschrittskontrolle bei Produktionsprozessen braucht es immer \neine oder mehrere Zielgrössen. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
+        "kurz": "Fachlich richtig sind: Die Fortschrittskontrolle bei Produktionsprozessen ist ein Frühwarnsystem, welches Abweichungen aufzeigt.; Die Fortschrittskontrolle bei Produktionsprozessen kann mittels Soll-Ist-Vergleich durch-\ngeführt werden.; Aufgrund der Ergebnisse der Fortschrittskontrolle bei Produktionsprozessen können steuernde und korrigierende Massnahmen eingeleitet werden.; Zur Durchführung der Fortschrittskontrolle bei Produktionsprozessen braucht es immer eine oder mehrere Zielgrössen. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
+        "warum": "Fachlich richtig sind: Die Fortschrittskontrolle bei Produktionsprozessen ist ein Frühwarnsystem, welches Abweichungen aufzeigt.; Die Fortschrittskontrolle bei Produktionsprozessen kann mittels Soll-Ist-Vergleich durch-\ngeführt werden.; Aufgrund der Ergebnisse der Fortschrittskontrolle bei Produktionsprozessen können steuernde und korrigierende Massnahmen eingeleitet werden.; Zur Durchführung der Fortschrittskontrolle bei Produktionsprozessen braucht es immer eine oder mehrere Zielgrössen. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
       },
       "fehlerfallen": [
         "Analyse und Massnahme nicht verknüpfen.",
@@ -8308,8 +8309,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Die Fortschrittskontrolle bei Produktionsprozessen ist ein Frühwarnsystem, welches \nAbweichungen aufzeigt.; Die Fortschrittskontrolle bei Produktionsprozessen kann mittels Soll-Ist-Vergleich durch-\ngeführt werden.; Aufgrund der Ergebnisse der Fortschrittskontrolle bei Produktionsprozessen können \nsteuernde und korrigierende Massnahmen eingeleitet werden.; Zur Durchführung der Fortschrittskontrolle bei Produktionsprozessen braucht es immer \neine oder mehrere Zielgrössen. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-      "abschlusserklaerung": "Fachlich richtig sind: Die Fortschrittskontrolle bei Produktionsprozessen ist ein Frühwarnsystem, welches \nAbweichungen aufzeigt.; Die Fortschrittskontrolle bei Produktionsprozessen kann mittels Soll-Ist-Vergleich durch-\ngeführt werden.; Aufgrund der Ergebnisse der Fortschrittskontrolle bei Produktionsprozessen können \nsteuernde und korrigierende Massnahmen eingeleitet werden.; Zur Durchführung der Fortschrittskontrolle bei Produktionsprozessen braucht es immer \neine oder mehrere Zielgrössen. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
+      "merksatz": "Fachlich richtig sind: Die Fortschrittskontrolle bei Produktionsprozessen ist ein Frühwarnsystem, welches Abweichungen aufzeigt.; Die Fortschrittskontrolle bei Produktionsprozessen kann mittels Soll-Ist-Vergleich durch-\ngeführt werden.; Aufgrund der Ergebnisse der Fortschrittskontrolle bei Produktionsprozessen können steuernde und korrigierende Massnahmen eingeleitet werden.; Zur Durchführung der Fortschrittskontrolle bei Produktionsprozessen braucht es immer eine oder mehrere Zielgrössen. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
+      "abschlusserklaerung": "Fachlich richtig sind: Die Fortschrittskontrolle bei Produktionsprozessen ist ein Frühwarnsystem, welches Abweichungen aufzeigt.; Die Fortschrittskontrolle bei Produktionsprozessen kann mittels Soll-Ist-Vergleich durch-\ngeführt werden.; Aufgrund der Ergebnisse der Fortschrittskontrolle bei Produktionsprozessen können steuernde und korrigierende Massnahmen eingeleitet werden.; Zur Durchführung der Fortschrittskontrolle bei Produktionsprozessen braucht es immer eine oder mehrere Zielgrössen. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
     },
     {
       "id": "pr2023_scm_3_2_loesungspunkte_stufe3",
@@ -8657,18 +8658,35 @@
       "quelle_id": "2025:SCM:1.4",
       "quelle_pdf": "2025/Aufgaben/SCM_Aufgaben_2025.pdf",
       "lernziel": "Prüfungsnahe Aufgabe 2025 SCM: Ressourcenplanung",
-      "typ": "single_choice",
-      "frage": "Ressourcenplanung\nAusgangslage \nDie Ressourcenplanung wird unter anderem in der Produktionsplanung eingesetzt. \nFrage \nErgänzen Sie den folgenden Lückentext: Die Ressourcenplanung ist die Planung von \n1) ___________ oder 2) _____________ Einheiten, die zur Erfüllung einer Aufgabe benötigt werden.",
+      "typ": "lueckentext_auswahl",
+      "frage": "Ergänze die Definition: Ressourcenplanung ist die Planung von [1] oder [2] Einheiten, die zur Erfüllung einer Aufgabe benötigt werden.",
       "antwort_daten": {
-        "optionen": [
-          "1) = materiellen, 2) = immateriellen",
-          "1) = grossen, 2) = kleinen. Dabei werden Bestände, Lieferzeit, Qualität und Gesamtkosten fälschlich unabhängig von der Beschaffungssituation gleichgesetzt.",
-          "1) = wichtigen, 2) = unwichtigen",
-          "1) = billigen, 2) = teuren"
-        ],
-        "richtig_index": 0
+        "luecken_mc": [
+          {
+            "position": 1,
+            "optionen": [
+              "materiellen",
+              "zufälligen",
+              "abgeschlossenen",
+              "privaten"
+            ],
+            "richtig_index": 0,
+            "richtig": "materiellen"
+          },
+          {
+            "position": 2,
+            "optionen": [
+              "unmessbaren",
+              "privaten",
+              "immateriellen",
+              "abgeschlossenen"
+            ],
+            "richtig_index": 2,
+            "richtig": "immateriellen"
+          }
+        ]
       },
-      "erklaerung": "Fachlich richtig ist: 1) = materiellen, 2) = immateriellen. Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
+      "erklaerung": "Ressourcenplanung umfasst materielle Einheiten wie Material oder Maschinen und immaterielle Einheiten wie Wissen, Zeit oder Nutzungsrechte.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -8679,7 +8697,8 @@
         "prüfungsnah",
         "Marketing / Verkauf",
         "stufe3",
-        "lerntauglich"
+        "lerntauglich",
+        "strukturierter_lueckentext"
       ],
       "thema_id": "organisation_prozesse",
       "thema": "Organisation / Prozesse",
@@ -8712,8 +8731,10 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: 1) = materiellen, 2) = immateriellen. Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
-      "abschlusserklaerung": "Fachlich richtig ist: 1) = materiellen, 2) = immateriellen. Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus."
+      "merksatz": "Ressourcen sind nicht nur Dinge: Auch Zeit, Wissen und Rechte müssen eingeplant werden.",
+      "abschlusserklaerung": "Eine vollständige Planung berücksichtigt materielle und immaterielle Ressourcen gemeinsam.",
+      "aufgaben_hinweis": "Wähle für jede nummerierte Lücke den fachlich passenden Begriff.",
+      "ab_lvl": 1
     },
     {
       "id": "pr2025_scm_1_6_choice_stufe3",
@@ -8727,11 +8748,11 @@
       "antwort_daten": {
         "optionen": [
           "9 Stunden",
-          "12 Stunden",
           "16 Stunden",
+          "12 Stunden",
           "14 Stunden. Dabei werden Bestände, Lieferzeit, Qualität und Gesamtkosten fälschlich unabhängig von der Beschaffungssituation gleichgesetzt."
         ],
-        "richtig_index": 2
+        "richtig_index": 1
       },
       "erklaerung": "Fachlich richtig ist: 16 Stunden. Marketing und Verkauf richten Angebot, Preis, Kommunikation, Vertrieb und Kundenbeziehung auf den Markt aus.",
       "stufe": 3,
@@ -9265,7 +9286,7 @@
         ],
         "richtig_index": 0
       },
-      "erklaerung": "Fachlich richtig ist: Die Norm ISO 9001-2015 ist ein statisches System, d.h. einmal zertifiziert dürfen sich die \ndefinierten Prozesse nicht ändern. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
+      "erklaerung": "Fachlich richtig ist: Die Norm ISO 9001-2015 ist ein statisches System, d.h. einmal zertifiziert dürfen sich die definierten Prozesse nicht ändern. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -9291,8 +9312,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: Die Norm ISO 9001-2015 ist ein statisches System, d.h. einmal zertifiziert dürfen sich die \ndefinierten Prozesse nicht ändern. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-        "warum": "Fachlich richtig ist: Die Norm ISO 9001-2015 ist ein statisches System, d.h. einmal zertifiziert dürfen sich die \ndefinierten Prozesse nicht ändern. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
+        "kurz": "Fachlich richtig ist: Die Norm ISO 9001-2015 ist ein statisches System, d.h. einmal zertifiziert dürfen sich die definierten Prozesse nicht ändern. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
+        "warum": "Fachlich richtig ist: Die Norm ISO 9001-2015 ist ein statisches System, d.h. einmal zertifiziert dürfen sich die definierten Prozesse nicht ändern. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
       },
       "fehlerfallen": [
         "Analyse und Massnahme nicht verknüpfen.",
@@ -9309,8 +9330,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: Die Norm ISO 9001-2015 ist ein statisches System, d.h. einmal zertifiziert dürfen sich die \ndefinierten Prozesse nicht ändern. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
-      "abschlusserklaerung": "Fachlich richtig ist: Die Norm ISO 9001-2015 ist ein statisches System, d.h. einmal zertifiziert dürfen sich die \ndefinierten Prozesse nicht ändern. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
+      "merksatz": "Fachlich richtig ist: Die Norm ISO 9001-2015 ist ein statisches System, d.h. einmal zertifiziert dürfen sich die definierten Prozesse nicht ändern. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen.",
+      "abschlusserklaerung": "Fachlich richtig ist: Die Norm ISO 9001-2015 ist ein statisches System, d.h. einmal zertifiziert dürfen sich die definierten Prozesse nicht ändern. Unternehmensführung/Organisation prüft Ziele, Strategie, Strukturen, Prozesse, Projekte und Anspruchsgruppen."
     },
     {
       "id": "pr2023_scm_1_9_choice_stufe3",
@@ -9334,7 +9355,7 @@
           3
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Aushang am Anschlagbrett; Mitarbeiterschulung; Rundschreiben. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+      "erklaerung": "Fachlich richtig sind: Aushang am Anschlagbrett; Mitarbeiterschulung; Rundschreiben. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -9356,12 +9377,12 @@
         "aufgabe": "2023:SCM:1.9"
       },
       "begriff_erklaerung": {
-        "kurz": "Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
+        "kurz": "Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Aushang am Anschlagbrett; Mitarbeiterschulung; Rundschreiben. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-        "warum": "Fachlich richtig sind: Aushang am Anschlagbrett; Mitarbeiterschulung; Rundschreiben. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+        "kurz": "Fachlich richtig sind: Aushang am Anschlagbrett; Mitarbeiterschulung; Rundschreiben. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
+        "warum": "Fachlich richtig sind: Aushang am Anschlagbrett; Mitarbeiterschulung; Rundschreiben. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko."
       },
       "fehlerfallen": [
         "Ziele zu unklar oder nicht messbar formulieren.",
@@ -9378,8 +9399,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Aushang am Anschlagbrett; Mitarbeiterschulung; Rundschreiben. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse.",
-      "abschlusserklaerung": "Fachlich richtig sind: Aushang am Anschlagbrett; Mitarbeiterschulung; Rundschreiben. Personalmanagement verbindet Führung, Kommunikation, Arbeitsrecht, Motivation und Personalprozesse."
+      "merksatz": "Fachlich richtig sind: Aushang am Anschlagbrett; Mitarbeiterschulung; Rundschreiben. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
+      "abschlusserklaerung": "Fachlich richtig sind: Aushang am Anschlagbrett; Mitarbeiterschulung; Rundschreiben. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko."
     },
     {
       "id": "scm_qualitaetsmanagement_stufe1_begriff",
@@ -9622,7 +9643,7 @@
           3
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Max Müller hat eine beratende und unterstützende Funktion.; Die EKAS-Richtlinie regelt die Aufgaben in Bezug auf die Früherkennung von Unfall- \nund Gesundheitsgefahren sowie von Berufskrankheiten. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden.",
+      "erklaerung": "Fachlich richtig sind: Max Müller hat eine beratende und unterstützende Funktion.; Die EKAS-Richtlinie regelt die Aufgaben in Bezug auf die Früherkennung von Unfall- und Gesundheitsgefahren sowie von Berufskrankheiten. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -9648,8 +9669,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Max Müller hat eine beratende und unterstützende Funktion.; Die EKAS-Richtlinie regelt die Aufgaben in Bezug auf die Früherkennung von Unfall- \nund Gesundheitsgefahren sowie von Berufskrankheiten. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden.",
-        "warum": "Fachlich richtig sind: Max Müller hat eine beratende und unterstützende Funktion.; Die EKAS-Richtlinie regelt die Aufgaben in Bezug auf die Früherkennung von Unfall- \nund Gesundheitsgefahren sowie von Berufskrankheiten. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden."
+        "kurz": "Fachlich richtig sind: Max Müller hat eine beratende und unterstützende Funktion.; Die EKAS-Richtlinie regelt die Aufgaben in Bezug auf die Früherkennung von Unfall- und Gesundheitsgefahren sowie von Berufskrankheiten. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden.",
+        "warum": "Fachlich richtig sind: Max Müller hat eine beratende und unterstützende Funktion.; Die EKAS-Richtlinie regelt die Aufgaben in Bezug auf die Früherkennung von Unfall- und Gesundheitsgefahren sowie von Berufskrankheiten. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden."
       },
       "fehlerfallen": [
         "Vertragsarten verwechseln.",
@@ -9666,8 +9687,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Max Müller hat eine beratende und unterstützende Funktion.; Die EKAS-Richtlinie regelt die Aufgaben in Bezug auf die Früherkennung von Unfall- \nund Gesundheitsgefahren sowie von Berufskrankheiten. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden.",
-      "abschlusserklaerung": "Fachlich richtig sind: Max Müller hat eine beratende und unterstützende Funktion.; Die EKAS-Richtlinie regelt die Aufgaben in Bezug auf die Früherkennung von Unfall- \nund Gesundheitsgefahren sowie von Berufskrankheiten. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden."
+      "merksatz": "Fachlich richtig sind: Max Müller hat eine beratende und unterstützende Funktion.; Die EKAS-Richtlinie regelt die Aufgaben in Bezug auf die Früherkennung von Unfall- und Gesundheitsgefahren sowie von Berufskrankheiten. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden.",
+      "abschlusserklaerung": "Fachlich richtig sind: Max Müller hat eine beratende und unterstützende Funktion.; Die EKAS-Richtlinie regelt die Aufgaben in Bezug auf die Früherkennung von Unfall- und Gesundheitsgefahren sowie von Berufskrankheiten. Recht/VWL verlangt, gesetzliche Regeln oder wirtschaftliche Zusammenhänge auf konkrete Fälle anzuwenden."
     },
     {
       "id": "pr2023_scm_2_3_loesungspunkte_stufe3",
@@ -10428,7 +10449,7 @@
         ],
         "richtig_index": 1
       },
-      "erklaerung": "Fachlich richtig ist: 27. Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
+      "erklaerung": "Fachlich richtig ist: 27. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -10450,12 +10471,12 @@
         "aufgabe": "2025:SCM:1.1"
       },
       "begriff_erklaerung": {
-        "kurz": "Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
+        "kurz": "Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
         "pruefungsrelevant": "Prüfungsnah sind Methodenwahl, Kriterien, Gewichtungen, Prioritäten, Risiken und konkrete Massnahmenplanung."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig ist: 27. Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-        "warum": "Fachlich richtig ist: 27. Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle."
+        "kurz": "Fachlich richtig ist: 27. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
+        "warum": "Fachlich richtig ist: 27. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko."
       },
       "fehlerfallen": [
         "Ursachenanalyse überspringen.",
@@ -10472,8 +10493,8 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig ist: 27. Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle.",
-      "abschlusserklaerung": "Fachlich richtig ist: 27. Problemlösung und Entscheidung verlangt strukturiertes Vorgehen von Analyse über Varianten bis Umsetzung und Kontrolle."
+      "merksatz": "Fachlich richtig ist: 27. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko.",
+      "abschlusserklaerung": "Fachlich richtig ist: 27. Supply Chain Management steuert Material-, Informations- und Warenflüsse nach Kosten, Qualität, Zeit und Risiko."
     },
     {
       "id": "scm_versorgungssicherheit_stufe1_begriff",
@@ -10696,7 +10717,7 @@
           2
         ]
       },
-      "erklaerung": "Fachlich richtig sind: Ein Sachmangel liegt vor, wenn die Sache vom vertraglich geschuldeten Zustand \nabweicht, eine für den Gebrauch vorausgesetzte Eigenschaft fehlt oder eine zuge-\nsicherte Eigenschaft fehlt.; Bei Eintritt eines Mangels stehen folgen Optionen offen: Den Kauf rückgängig machen \n(Vertragsauflösung), eine Herabsetzung des Kaufpreises verlangen (Minderung) oder \nbei einem Gegenstand, den es in vielfacher Ausführung gibt, eine mängelfreie Nach-\nlieferung verlangen. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+      "erklaerung": "Fachlich richtig sind: Ein Sachmangel liegt vor, wenn die Sache vom vertraglich geschuldeten Zustand abweicht, eine für den Gebrauch vorausgesetzte Eigenschaft fehlt oder eine zuge-\nsicherte Eigenschaft fehlt.; Bei Eintritt eines Mangels stehen folgen Optionen offen: Den Kauf rückgängig machen (Vertragsauflösung), eine Herabsetzung des Kaufpreises verlangen (Minderung) oder bei einem Gegenstand, den es in vielfacher Ausführung gibt, eine mängelfreie Nach-\nlieferung verlangen. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -10722,8 +10743,8 @@
         "pruefungsrelevant": "Entscheidend ist, die Ausgangslage genau zu lesen und Antwort/Lösung mit dem Fall zu begründen."
       },
       "loesungsvorschlag": {
-        "kurz": "Fachlich richtig sind: Ein Sachmangel liegt vor, wenn die Sache vom vertraglich geschuldeten Zustand \nabweicht, eine für den Gebrauch vorausgesetzte Eigenschaft fehlt oder eine zuge-\nsicherte Eigenschaft fehlt.; Bei Eintritt eines Mangels stehen folgen Optionen offen: Den Kauf rückgängig machen \n(Vertragsauflösung), eine Herabsetzung des Kaufpreises verlangen (Minderung) oder \nbei einem Gegenstand, den es in vielfacher Ausführung gibt, eine mängelfreie Nach-\nlieferung verlangen. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
-        "warum": "Fachlich richtig sind: Ein Sachmangel liegt vor, wenn die Sache vom vertraglich geschuldeten Zustand \nabweicht, eine für den Gebrauch vorausgesetzte Eigenschaft fehlt oder eine zuge-\nsicherte Eigenschaft fehlt.; Bei Eintritt eines Mangels stehen folgen Optionen offen: Den Kauf rückgängig machen \n(Vertragsauflösung), eine Herabsetzung des Kaufpreises verlangen (Minderung) oder \nbei einem Gegenstand, den es in vielfacher Ausführung gibt, eine mängelfreie Nach-\nlieferung verlangen. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
+        "kurz": "Fachlich richtig sind: Ein Sachmangel liegt vor, wenn die Sache vom vertraglich geschuldeten Zustand abweicht, eine für den Gebrauch vorausgesetzte Eigenschaft fehlt oder eine zuge-\nsicherte Eigenschaft fehlt.; Bei Eintritt eines Mangels stehen folgen Optionen offen: Den Kauf rückgängig machen (Vertragsauflösung), eine Herabsetzung des Kaufpreises verlangen (Minderung) oder bei einem Gegenstand, den es in vielfacher Ausführung gibt, eine mängelfreie Nach-\nlieferung verlangen. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+        "warum": "Fachlich richtig sind: Ein Sachmangel liegt vor, wenn die Sache vom vertraglich geschuldeten Zustand abweicht, eine für den Gebrauch vorausgesetzte Eigenschaft fehlt oder eine zuge-\nsicherte Eigenschaft fehlt.; Bei Eintritt eines Mangels stehen folgen Optionen offen: Den Kauf rückgängig machen (Vertragsauflösung), eine Herabsetzung des Kaufpreises verlangen (Minderung) oder bei einem Gegenstand, den es in vielfacher Ausführung gibt, eine mängelfreie Nach-\nlieferung verlangen. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
       },
       "fehlerfallen": [
         "Fallbezug fehlt.",
@@ -10740,7 +10761,7 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Fachlich richtig sind: Ein Sachmangel liegt vor, wenn die Sache vom vertraglich geschuldeten Zustand \nabweicht, eine für den Gebrauch vorausgesetzte Eigenschaft fehlt oder eine zuge-\nsicherte Eigenschaft fehlt.; Bei Eintritt eines Mangels stehen folgen Optionen offen: Den Kauf rückgängig machen \n(Vertragsauflösung), eine Herabsetzung des Kaufpreises verlangen (Minderung) oder \nbei einem Gegenstand, den es in vielfacher Ausführung gibt, eine mängelfreie Nach-\nlieferung verlangen. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
+      "merksatz": "Fachlich richtig sind: Ein Sachmangel liegt vor, wenn die Sache vom vertraglich geschuldeten Zustand abweicht, eine für den Gebrauch vorausgesetzte Eigenschaft fehlt oder eine zuge-\nsicherte Eigenschaft fehlt.; Bei Eintritt eines Mangels stehen folgen Optionen offen: Den Kauf rückgängig machen (Vertragsauflösung), eine Herabsetzung des Kaufpreises verlangen (Minderung) oder bei einem Gegenstand, den es in vielfacher Ausführung gibt, eine mängelfreie Nach-\nlieferung verlangen. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft.",
       "rechtsgrundlage": [
         {
           "gesetz": "OR",
@@ -10755,7 +10776,7 @@
           "hinweis": "Wandelung oder Minderung"
         }
       ],
-      "abschlusserklaerung": "Fachlich richtig sind: Ein Sachmangel liegt vor, wenn die Sache vom vertraglich geschuldeten Zustand \nabweicht, eine für den Gebrauch vorausgesetzte Eigenschaft fehlt oder eine zuge-\nsicherte Eigenschaft fehlt.; Bei Eintritt eines Mangels stehen folgen Optionen offen: Den Kauf rückgängig machen \n(Vertragsauflösung), eine Herabsetzung des Kaufpreises verlangen (Minderung) oder \nbei einem Gegenstand, den es in vielfacher Ausführung gibt, eine mängelfreie Nach-\nlieferung verlangen. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
+      "abschlusserklaerung": "Fachlich richtig sind: Ein Sachmangel liegt vor, wenn die Sache vom vertraglich geschuldeten Zustand abweicht, eine für den Gebrauch vorausgesetzte Eigenschaft fehlt oder eine zuge-\nsicherte Eigenschaft fehlt.; Bei Eintritt eines Mangels stehen folgen Optionen offen: Den Kauf rückgängig machen (Vertragsauflösung), eine Herabsetzung des Kaufpreises verlangen (Minderung) oder bei einem Gegenstand, den es in vielfacher Ausführung gibt, eine mängelfreie Nach-\nlieferung verlangen. Das Thema wird prüfungsnah über Fallverständnis, korrekte Begriffe und passende Massnahmen geprüft."
     },
     {
       "id": "pr2024_scm_3_3_loesungspunkte_stufe3",

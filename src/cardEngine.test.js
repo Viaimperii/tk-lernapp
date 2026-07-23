@@ -175,6 +175,23 @@ test('zahlen_eingabe akzeptiert Dezimalkomma innerhalb der Toleranz', () => {
   assert.equal(checkAnswer(card, '38'), false)
 })
 
+test('lueckentext_auswahl verlangt und prüft jede Lücke', () => {
+  const card = {
+    typ: 'lueckentext_auswahl',
+    antwort_daten: {
+      luecken_mc: [
+        { optionen: ['materiellen', 'zufälligen'], richtig_index: 0 },
+        { optionen: ['privaten', 'immateriellen'], richtig_index: 1 }
+      ]
+    }
+  }
+
+  assert.equal(hasAnswer(card, { 0: 0 }), false)
+  assert.equal(hasAnswer(card, { 0: 0, 1: 1 }), true)
+  assert.equal(checkAnswer(card, { 0: 0, 1: 1 }), true)
+  assert.equal(checkAnswer(card, { 0: 0, 1: 0 }), false)
+})
+
 test('buchungssatz_builder prüft Soll, Haben und Betrag gemeinsam', () => {
   const card = {
     typ: 'buchungssatz_builder',
