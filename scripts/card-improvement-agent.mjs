@@ -107,7 +107,9 @@ export function parseAgentResponse(response) {
   const raw = typeof response === 'string' ? response : extractOutputText(response)
   const normalized = raw.trim().replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '')
   const parsed = JSON.parse(normalized)
-  if (!Array.isArray(parsed.reviews)) throw new Error('Die Agentenantwort enthält kein reviews-Array.')
+  if (!Array.isArray(parsed.reviews)) {
+    throw new Error(`Die Agentenantwort enthält kein reviews-Array: ${normalized.slice(0, 1000)}`)
+  }
   return parsed
 }
 
