@@ -1401,6 +1401,19 @@ for (const card of cards) {
   }
 }
 
+// Vom Cloud-Qualitätsagenten geprüfte Patches werden reproduzierbar vor der
+// deterministischen Antwortrotation angewendet. Identität und Themenstruktur
+// bleiben außerhalb des erlaubten Patch-Schemas.
+const agentOverridesPath = path.join(dataDir, 'agent-card-overrides.json')
+if (fs.existsSync(agentOverridesPath)) {
+  const agentOverrides = JSON.parse(fs.readFileSync(agentOverridesPath, 'utf8'))
+  for (const [id, entry] of Object.entries(agentOverrides.cards ?? {})) {
+    const card = byId.get(id)
+    if (!card) throw new Error(`Agenten-Override verweist auf unbekannte Karte: ${id}`)
+    Object.assign(card, entry.patch ?? {})
+  }
+}
+
 // Antwortpositionen werden reproduzierbar verteilt; bei Stufe 1 darf die richtige Antwort
 // nicht zusätzlich durch die längste Formulierung verraten werden.
 const misconceptionTails = {

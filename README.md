@@ -120,6 +120,34 @@ Prüfungsquelle oder ursprüngliche Überschrift allein bestimmen nicht das Fach
 - Karten ohne `ab_lvl` bleiben die Grundlage für LVL 0.
 - Ein Fehler in einer LVL-Vertiefung senkt weiterhin nur die Aufgabenstufe und niemals das erreichte LVL.
 - Unterstützte aktive Vertiefungen sind `zahlen_eingabe`, `buchungssatz_builder`, `fallentscheidung` und `lueckentext_auswahl`.
+
+## Automatischer Karten-Qualitätsagent
+
+Der Workflow `.github/workflows/card-improvement-agent.yml` läuft täglich um
+03:00 Uhr in der Zeitzone `Europe/Zurich` und kann zusätzlich manuell gestartet
+werden. Er verwendet GitHub Models mit `openai/gpt-4.1`; ein eigener
+API-Schlüssel, Server oder eine Datenbank sind dafür nicht erforderlich.
+
+Pro Lauf werden höchstens zwölf Karten aus möglichst unterschiedlichen Fächern
+geprüft. Wegen der kostenlosen GitHub-Models-Tokenlimits werden sie in Gruppen
+von drei Karten ausgewertet. Der Fortschritt liegt in
+`reports/agent-card-loop-state.json`. Verbesserungen werden als reproduzierbare
+Patches in
+`src/data/pruefungs_app_final_lerntauglich/agent-card-overrides.json`
+gespeichert. Der Datengenerator wendet diese Patches an, bevor er die
+deterministische Antwortrotation ausführt.
+
+Der Agent darf nicht direkt nach `main` schreiben. Erfolgreiche Batches werden
+auf dem dauerhaften Branch `automation/card-quality-loop` committed und in
+einem fortlaufenden Pull Request gesammelt. Vor jedem Commit müssen
+Inhaltsaudit, vollständiger Kartenreview, Unit-Tests, Lint und
+Produktions-Build erfolgreich sein.
+
+Lokale Auswahl ohne Modellaufruf:
+
+```bash
+npm run agent:cards:dry
+```
 - Neue LVL-Karten müssen auf der höchsten Stufe ihres Themas liegen und lokal eindeutig auswertbar sein.
 
 Beispiele für die neuen JSON-Strukturen stehen in

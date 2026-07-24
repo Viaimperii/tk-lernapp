@@ -1,0 +1,118 @@
+name: Improve learning cards
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+      timezone: Europe/Zurich
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: Number of cards to review (maximum 12)
+        required: false
+        default: '12'
+        type: choice
+        options:
+          - '4'
+          - '8'
+          - '12'
+
+permissions:
+  contents: write
+  pull-requests: write
+  models: read
+
+concurrency:
+  group: card-improvement-agent
+  cancel-in-progress: false
+
+jobs:
+  improve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      AGENT_BRANCH: automation/card-quality-loop
+      CARD_AGENT_BATCH_SIZE: ${{ github.event.inputs.batch_size || '12' }}
+      GITHUB_MODEL: openai/gpt-4.1
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Continue persistent agent branch
+        shell: bash
+        run: |
+          git fetch origin main
+          if git ls-remote --exit-code --heads origin "$AGENT_BRANCH" >/dev/null 2>&1; then
+            git fetch origin "$AGENT_BRANCH"
+            git checkout -B "$AGENT_BRANCH" "origin/$AGENT_BRANCH"
+            git rebase origin/main
+          else
+            git checkout -b "$AGENT_BRANCH" origin/main
+          fi
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Review next card batch
+        run: node scripts/card-improvement-agent.mjs
+
+      - name: Regenerate learning data twice
+        shell: bash
+        run: |
+          node scripts/update-learning-content.mjs
+          git diff -- src/data > /tmp/first-generation.diff
+          node scripts/update-learning-content.mjs
+          git diff -- src/data > /tmp/second-generation.diff
+          diff -u /tmp/first-generation.diff /tmp/second-generation.diff
+
+      - name: Run quality gates
+        shell: bash
+        run: |
+          npm run audit:content
+          npm run review:cards
+          npm test
+          npm run lint
+          npm run build
+
+      - name: Commit verified batch
+        id: commit
+        shell: bash
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          BATCH=$(node -e "const s=require('./reports/agent-card-loop-state.json'); process.stdout.write(String(s.batch))")
+          git config user.name "tk-card-quality-agent[bot]"
+          git config user.email "tk-card-quality-agent[bot]@users.noreply.github.com"
+          git add CHANGELOG_lernformen.md reports scripts src package.json package-lock.json
+          git commit -m "Improve learning cards batch $BATCH"
+          git push --force-with-lease origin "$AGENT_BRANCH"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          echo "batch=$BATCH" >> "$GITHUB_OUTPUT"
+
+      - name: Create or update pull request
+        if: steps.commit.outputs.changed == 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PR_NUMBER=$(gh pr list --head "$AGENT_BRANCH" --base main --state open --json number --jq '.[0].number')
+          if [ -z "$PR_NUMBER" ]; then
+            gh pr create \
+              --base main \
+              --head "$AGENT_BRANCH" \
+              --title "Kontinuierliche Verbesserung der Lernkarten" \
+              --body "Dieser Pull Request wird vom Karten-Qualitätsagenten fortlaufend ergänzt. Jeder Batch umfasst höchstens zwölf Karten und wird nur nach erfolgreichem Inhaltsaudit, Kartentest, Unit-Test, Lint und Produktions-Build committed. Bitte die Änderungen vor dem Merge prüfen."
+          else
+            gh pr comment "$PR_NUMBER" --body "Batch ${{ steps.commit.outputs.batch }} wurde ergänzt und hat alle Qualitätsprüfungen bestanden."
+          fi

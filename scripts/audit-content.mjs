@@ -7,6 +7,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const dataFile = path.join(root, 'src', 'data', 'pruefungs_app_final_lerntauglich', 'lernkarten_pruefungen_final_lerntauglich_Alle_Faecher.json')
 const dataset = JSON.parse(fs.readFileSync(dataFile, 'utf8'))
 const cards = dataset.karten ?? []
+const overridesPath = path.join(path.dirname(dataFile), 'agent-card-overrides.json')
 
 const errors = []
 const topicWarnings = []
@@ -164,6 +165,16 @@ for (const card of cards) {
     if (!begruendungen[richtig.begruendung]) errors.push(`${card.id}: Fallentscheidung besitzt keine gültige Begründung`)
     if (entscheidungen.length < 3 || begruendungen.length < 3) {
       errors.push(`${card.id}: Fallentscheidung benötigt jeweils mindestens drei Optionen`)
+    }
+  }
+}
+
+if (fs.existsSync(overridesPath)) {
+  const overrides = JSON.parse(fs.readFileSync(overridesPath, 'utf8'))
+  for (const [id, entry] of Object.entries(overrides.cards ?? {})) {
+    if (!ids.has(id)) errors.push(`Agenten-Override verweist auf unbekannte Karte: ${id}`)
+    if (!entry.patch || typeof entry.patch !== 'object' || Array.isArray(entry.patch)) {
+      errors.push(`${id}: Agenten-Override besitzt keinen gültigen Patch`)
     }
   }
 }
