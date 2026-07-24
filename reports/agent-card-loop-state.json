@@ -1,8 +1,27 @@
 {
   "schema_version": 1,
   "cycle": 1,
-  "batch": 0,
-  "subject_cursor": 0,
-  "reviewed_ids": [],
-  "history": []
+  "batch": 1,
+  "subject_cursor": 1,
+  "reviewed_ids": [
+    "pr2022_finanzwirtschaft_3_1_thema_stufe3",
+    "pr2022_integrierte_fallstudie_t1_1_thema_stufe3",
+    "pr2023_marketing_verkauf_2_1_loesungspunkte_stufe3",
+    "pr2022_personalmanagement_2_3_thema_stufe3"
+  ],
+  "history": [
+    {
+      "batch": 1,
+      "cycle": 1,
+      "reviewed_at": "2026-07-24T23:57:35.642Z",
+      "reviewed_ids": [
+        "pr2022_finanzwirtschaft_3_1_thema_stufe3",
+        "pr2022_integrierte_fallstudie_t1_1_thema_stufe3",
+        "pr2023_marketing_verkauf_2_1_loesungspunkte_stufe3",
+        "pr2022_personalmanagement_2_3_thema_stufe3"
+      ],
+      "changed_ids": [],
+      "model": "openai/gpt-4.1"
+    }
+  ]
 }
