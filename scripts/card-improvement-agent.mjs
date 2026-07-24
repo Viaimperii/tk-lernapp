@@ -36,6 +36,29 @@ const allowedPatchFields = new Set([
   'fehlerfallen',
   'tags'
 ])
+const cardImprovementsSchema = {
+  type: 'object',
+  additionalProperties: false,
+  properties: {
+    reviews: {
+      type: 'array',
+      items: {
+        type: 'object',
+        additionalProperties: false,
+        properties: {
+          id: { type: 'string' },
+          changed: { type: 'boolean' },
+          reason: { type: 'string' },
+          quality_before: { type: 'integer', minimum: 1, maximum: 5 },
+          quality_after: { type: 'integer', minimum: 1, maximum: 5 },
+          patch_json: { type: 'string' }
+        },
+        required: ['id', 'changed', 'reason', 'quality_before', 'quality_after', 'patch_json']
+      }
+    }
+  },
+  required: ['reviews']
+}
 
 function readJson(filePath, fallback) {
   return fs.existsSync(filePath) ? JSON.parse(fs.readFileSync(filePath, 'utf8')) : fallback
@@ -256,29 +279,7 @@ async function requestReviews(prompt) {
           type: 'json_schema',
           name: 'card_improvements',
           strict: true,
-          schema: {
-            type: 'object',
-            additionalProperties: false,
-            properties: {
-              reviews: {
-                type: 'array',
-                items: {
-                  type: 'object',
-                  additionalProperties: false,
-                  properties: {
-                    id: { type: 'string' },
-                    changed: { type: 'boolean' },
-                    reason: { type: 'string' },
-                    quality_before: { type: 'integer', minimum: 1, maximum: 5 },
-                    quality_after: { type: 'integer', minimum: 1, maximum: 5 },
-                    patch_json: { type: 'string' }
-                  },
-                  required: ['id', 'changed', 'reason', 'quality_before', 'quality_after', 'patch_json']
-                }
-              }
-            },
-            required: ['reviews']
-          }
+          schema: cardImprovementsSchema
         }
       }
     })
@@ -313,7 +314,14 @@ async function requestGitHubModel(prompt, githubToken) {
           content: prompt
         }
       ],
-      response_format: { type: 'json_object' },
+      response_format: {
+        type: 'json_schema',
+        json_schema: {
+          name: 'card_improvements',
+          strict: true,
+          schema: cardImprovementsSchema
+        }
+      },
       max_tokens: 4000
     })
   })
