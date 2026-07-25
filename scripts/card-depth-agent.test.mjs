@@ -76,6 +76,7 @@ test('Kartenfamilie erweitert zwei Themen und übernimmt Identität deterministi
         frage: 'Variante A ist im Einkauf günstiger, verursacht aber höhere Folgekosten. Welche Beurteilung ist fachlich richtig?',
         aufgaben_hinweis: 'Wähle Entscheidung und Begründung.',
         antwort_daten: {
+          entscheidungskriterium: 'Gesamtkosten aus Preis und Folgekosten',
           entscheidungen: ['A sofort wählen', 'Gesamtkosten vergleichen', 'Keine Variante prüfen'],
           begruendungen: ['Nur Preis zählt', 'Preis und Folgekosten wirken gemeinsam', 'Kosten sind irrelevant'],
           richtig: { entscheidung: 1, begruendung: 1 }
@@ -94,6 +95,7 @@ test('Kartenfamilie erweitert zwei Themen und übernimmt Identität deterministi
         frage: 'Ein günstiger Lieferant ist unzuverlässig. Welche Beurteilung berücksichtigt den Beschaffungserfolg?',
         aufgaben_hinweis: 'Wähle Entscheidung und Begründung.',
         antwort_daten: {
+          entscheidungskriterium: 'Kosten und Lieferrisiko gemeinsam berücksichtigen',
           entscheidungen: ['Nur Preis wählen', 'Kosten und Risiko gewichten', 'Zufällig wählen'],
           begruendungen: ['Qualität zählt nie', 'Folgekosten und Termine beeinflussen den Entscheid', 'Logo entscheidet'],
           richtig: { entscheidung: 1, begruendung: 1 }
@@ -167,6 +169,7 @@ test('Eindeutige visuelle Antwortdaten normalisieren einen falsch bezeichneten K
         lernziel: 'Lieferanten beurteilen.',
         frage: 'Welche Entscheidung berücksichtigt Kosten und Risiko?',
         antwort_daten: {
+          entscheidungskriterium: 'Kosten und Lieferrisiko gemeinsam berücksichtigen',
           entscheidungen: ['Nur Preis', 'Kosten und Risiko', 'Zufall'],
           begruendungen: ['Risiko zählt nie', 'Beide beeinflussen den Entscheid', 'Logo entscheidet'],
           richtig: { entscheidung: 1, begruendung: 1 }
