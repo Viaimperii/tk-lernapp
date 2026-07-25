@@ -2,7 +2,7 @@ name: Improve learning cards
 
 on:
   schedule:
-    - cron: '40 21 * * *'
+    - cron: '15 2 * * *'
       timezone: Europe/Zurich
   workflow_dispatch:
     inputs:

@@ -2,7 +2,7 @@ name: Deepen related learning topics
 
 on:
   schedule:
-    - cron: '55 21 * * *'
+    - cron: '30 2 * * *'
       timezone: Europe/Zurich
   workflow_dispatch:
 
