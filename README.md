@@ -139,9 +139,11 @@ deterministische Antwortrotation ausführt.
 
 Der Agent darf nicht direkt nach `main` schreiben. Erfolgreiche Batches werden
 auf dem dauerhaften Branch `automation/card-quality-loop` committed und in
-einem fortlaufenden Pull Request gesammelt. Vor jedem Commit müssen
-Inhaltsaudit, vollständiger Kartenreview, Unit-Tests, Lint und
-Produktions-Build erfolgreich sein.
+einem fortlaufenden Pull Request gesammelt. Besteht noch kein Pull Request,
+zeigt die Workflow-Zusammenfassung den Link zum manuellen Öffnen an. Vor jedem
+Commit müssen Inhaltsaudit, vollständiger Kartenreview, Unit-Tests, Lint und
+Produktions-Build erfolgreich sein. Die lokal mit den Prüfungs-PDFs erstellten
+Quellenberichte werden im Cloud-Lauf geprüft, aber nicht überschrieben.
 
 Lokale Auswahl ohne Modellaufruf:
 
