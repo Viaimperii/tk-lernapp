@@ -1,8 +1,25 @@
 {
   "schema_version": 1,
   "cycle": 1,
-  "batch": 0,
-  "topic_cursor": 0,
-  "reviewed_topics": [],
-  "history": []
+  "batch": 1,
+  "topic_cursor": 1,
+  "reviewed_topics": [
+    "Finanzwirtschaft::anlagedeckungsgrad_1",
+    "Finanzwirtschaft::anlagedeckungsgrad_2"
+  ],
+  "history": [
+    {
+      "batch": 1,
+      "cycle": 1,
+      "reviewed_at": "2026-07-25T01:07:02.257Z",
+      "primary_topic": "Finanzwirtschaft::anlagedeckungsgrad_1",
+      "target_topics": [
+        "Finanzwirtschaft::anlagedeckungsgrad_1",
+        "Finanzwirtschaft::anlagedeckungsgrad_2"
+      ],
+      "status": "accepted",
+      "reason": "Die Kartenfamilie erfüllt alle Kriterien: Jede Lösung ist fachlich korrekt, vollständig und direkt aus den Schweizer Quellenkarten belegbar. Keine Zahlen, Fristen oder Regeln wurden erfunden. Die Karten passen eindeutig zu ihren Zielthemen und gehen gegenüber den Quellen in die Tiefe, indem sie konkrete Fallentscheidungen mit nachvollziehbarer Begründung und Simulation aller Antwortmöglichkeiten bieten. Die Familie erweitert zwei sinnvoll verbundene Themen (Anlagedeckungsgrad I und II) mit unterschiedlichen Blickwinkeln (Eigenkapital vs. langfristiges Kapital, goldene Bilanzregel). Frage und Antwortdaten sind vollständig, eindeutig und lokal auswertbar. Die Visualisierung ist effizient: Es wird keine unnötige Visualisierung verwendet, und die Karten bieten einen echten Lernvorteil durch die strukturierte Entscheidungsdarstellung. Es gibt keine Musterlösungs-, Fehlerlisten- oder Themenerkennungsfragen. Die Fallentscheidungen sind eindeutig, da jeweils nur eine Alternative fachlich vertretbar ist und das Entscheidungskriterium explizit genannt wird. Reihenfolgen werden nicht verlangt. Daher sind alle Kernpunkte erfüllt und keine Issues vorhanden.",
+      "model": "openai/gpt-4.1"
+    }
+  ]
 }

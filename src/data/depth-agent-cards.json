@@ -1,5 +1,180 @@
 {
   "schema_version": 1,
-  "families": [],
-  "cards": []
+  "families": [
+    {
+      "id": "depth_0001_anlagedeckungsgrad_1_anlagedeckungsgrad_2",
+      "batch": 1,
+      "bridge": "Beide Anlagedeckungsgrade beurteilen die Finanzierung des Anlagevermögens, unterscheiden sich aber darin, ob nur Eigenkapital (I) oder auch langfristiges Fremdkapital (II) berücksichtigt wird.",
+      "topic_keys": [
+        "Finanzwirtschaft::anlagedeckungsgrad_1",
+        "Finanzwirtschaft::anlagedeckungsgrad_2"
+      ],
+      "card_ids": [
+        "depth_0001_anlagedeckungsgrad_1_anlagedeckungsgrad_2_1",
+        "depth_0001_anlagedeckungsgrad_1_anlagedeckungsgrad_2_2"
+      ],
+      "created_at": "2026-07-25T01:07:02.256Z",
+      "model": "openai/gpt-4.1"
+    }
+  ],
+  "cards": [
+    {
+      "id": "depth_0001_anlagedeckungsgrad_1_anlagedeckungsgrad_2_1",
+      "familie_id": "depth_0001_anlagedeckungsgrad_1_anlagedeckungsgrad_2",
+      "fach": "Finanzwirtschaft",
+      "thema_id": "anlagedeckungsgrad_1",
+      "thema": "Anlagedeckungsgrad I",
+      "stufe": 4,
+      "ab_lvl": 1,
+      "typ": "fallentscheidung",
+      "lernziel": "Anlagedeckungsgrad I auswählen, aus Jahresabschlusspositionen aufbauen und interpretieren.",
+      "frage": "Ein Unternehmen weist folgende Bilanzpositionen aus: Anlagevermögen CHF 700'000, Eigenkapital CHF 630'000, langfristiges Fremdkapital CHF 120'000. Ziel: Wählen Sie die Finanzierungslösung, bei der das Anlagevermögen am stärksten durch Eigenkapital gedeckt ist.",
+      "aufgaben_hinweis": "Vergleichen Sie die Deckung des Anlagevermögens durch Eigenkapital in den drei Alternativen.",
+      "antwort_daten": {
+        "entscheidungskriterium": "Maximale Deckung des Anlagevermögens durch Eigenkapital",
+        "entscheidungen": [
+          "Eigenkapital CHF 630'000, Anlagevermögen CHF 700'000",
+          "Eigenkapital CHF 500'000, Anlagevermögen CHF 700'000",
+          "Eigenkapital CHF 400'000, Anlagevermögen CHF 700'000"
+        ],
+        "begruendungen": [
+          "630'000 ÷ 700'000 × 100 = 90 %: Höchster Deckungsgrad.",
+          "500'000 ÷ 700'000 × 100 = 71.4 %: Niedriger als Alternative 1.",
+          "400'000 ÷ 700'000 × 100 = 57.1 %: Niedrigster Deckungsgrad."
+        ],
+        "richtig": {
+          "entscheidung": 0,
+          "begruendung": 0
+        }
+      },
+      "erklaerung": "Nur Alternative 1 erreicht mit 90 % den höchsten Anlagedeckungsgrad I, da der Anteil des Eigenkapitals am Anlagevermögen maximal ist.",
+      "abschlusserklaerung": "Nur Alternative 1 erreicht mit 90 % den höchsten Anlagedeckungsgrad I, da der Anteil des Eigenkapitals am Anlagevermögen maximal ist.",
+      "merksatz": "Je höher der Anlagedeckungsgrad I, desto stärker ist das Anlagevermögen durch Eigenkapital finanziert.",
+      "quellenkarten": [
+        "formel_anlagedeckungsgrad_1_stufe4",
+        "formel_anlagedeckungsgrad_1_stufe3",
+        "formel_anlagedeckungsgrad_1_stufe2"
+      ],
+      "fachliche_belege": [
+        {
+          "claim": "Anlagedeckungsgrad I = Eigenkapital ÷ Anlagevermögen × 100",
+          "source_card_id": "formel_anlagedeckungsgrad_1_stufe3"
+        },
+        {
+          "claim": "Je näher bei 100 %, desto stärker ist das Anlagevermögen durch Eigenkapital gedeckt.",
+          "source_card_id": "formel_anlagedeckungsgrad_1_stufe2"
+        }
+      ],
+      "verwandte_themen": [
+        {
+          "fach": "Finanzwirtschaft",
+          "thema_id": "anlagedeckungsgrad_2",
+          "begruendung": "Beide Anlagedeckungsgrade beurteilen die Finanzierung des Anlagevermögens, unterscheiden sich aber darin, ob nur Eigenkapital (I) oder auch langfristiges Fremdkapital (II) berücksichtigt wird."
+        }
+      ],
+      "ch_kontext": "Schweizer Prüfung Technische Kaufleute",
+      "ch_fachlich_geprueft": true,
+      "quelle": {
+        "typ": "agenten_vertiefung",
+        "quellenkarten": [
+          "formel_anlagedeckungsgrad_1_stufe4",
+          "formel_anlagedeckungsgrad_1_stufe3",
+          "formel_anlagedeckungsgrad_1_stufe2"
+        ]
+      },
+      "tags": [
+        "tiefenkarte",
+        "ab_lvl_1",
+        "familie_depth_0001_anlagedeckungsgrad_1_anlagedeckungsgrad_2"
+      ],
+      "agenten_review": {
+        "reviewed_at": "2026-07-25T01:07:02.256Z",
+        "model": "openai/gpt-4.1",
+        "reason": "Die Kartenfamilie erfüllt alle Kriterien: Jede Lösung ist fachlich korrekt, vollständig und direkt aus den Schweizer Quellenkarten belegbar. Keine Zahlen, Fristen oder Regeln wurden erfunden. Die Karten passen eindeutig zu ihren Zielthemen und gehen gegenüber den Quellen in die Tiefe, indem sie konkrete Fallentscheidungen mit nachvollziehbarer Begründung und Simulation aller Antwortmöglichkeiten bieten. Die Familie erweitert zwei sinnvoll verbundene Themen (Anlagedeckungsgrad I und II) mit unterschiedlichen Blickwinkeln (Eigenkapital vs. langfristiges Kapital, goldene Bilanzregel). Frage und Antwortdaten sind vollständig, eindeutig und lokal auswertbar. Die Visualisierung ist effizient: Es wird keine unnötige Visualisierung verwendet, und die Karten bieten einen echten Lernvorteil durch die strukturierte Entscheidungsdarstellung. Es gibt keine Musterlösungs-, Fehlerlisten- oder Themenerkennungsfragen. Die Fallentscheidungen sind eindeutig, da jeweils nur eine Alternative fachlich vertretbar ist und das Entscheidungskriterium explizit genannt wird. Reihenfolgen werden nicht verlangt. Daher sind alle Kernpunkte erfüllt und keine Issues vorhanden.",
+        "ch_fachlich_korrekt": true,
+        "theme_fit": true,
+        "depth_gain": true,
+        "visual_efficiency": true
+      }
+    },
+    {
+      "id": "depth_0001_anlagedeckungsgrad_1_anlagedeckungsgrad_2_2",
+      "familie_id": "depth_0001_anlagedeckungsgrad_1_anlagedeckungsgrad_2",
+      "fach": "Finanzwirtschaft",
+      "thema_id": "anlagedeckungsgrad_2",
+      "thema": "Anlagedeckungsgrad II",
+      "stufe": 4,
+      "ab_lvl": 1,
+      "typ": "fallentscheidung",
+      "lernziel": "Anlagedeckungsgrad II auswählen, aus Jahresabschlusspositionen aufbauen und interpretieren.",
+      "frage": "Ein Unternehmen weist folgende Bilanzpositionen aus: Anlagevermögen CHF 700'000, Eigenkapital CHF 630'000, langfristiges Fremdkapital CHF 120'000, Umlaufvermögen CHF 500'000. Ziel: Wählen Sie die Finanzierungslösung, bei der die goldene Bilanzregel am klarsten erfüllt ist.",
+      "aufgaben_hinweis": "Vergleichen Sie den Anlagedeckungsgrad II in den drei Alternativen.",
+      "antwort_daten": {
+        "entscheidungskriterium": "Goldene Bilanzregel: Anlagevermögen vollständig mit langfristigem Kapital gedeckt und Überschuss für Umlaufvermögen",
+        "entscheidungen": [
+          "Eigenkapital CHF 630'000, langfristiges Fremdkapital CHF 120'000, Anlagevermögen CHF 700'000",
+          "Eigenkapital CHF 500'000, langfristiges Fremdkapital CHF 200'000, Anlagevermögen CHF 700'000",
+          "Eigenkapital CHF 400'000, langfristiges Fremdkapital CHF 300'000, Anlagevermögen CHF 700'000"
+        ],
+        "begruendungen": [
+          "(630'000 + 120'000) ÷ 700'000 × 100 = 107.1 %: Anlagevermögen vollständig gedeckt, Überschuss für Umlaufvermögen.",
+          "(500'000 + 200'000) ÷ 700'000 × 100 = 100 %: Anlagevermögen exakt gedeckt, kein Überschuss.",
+          "(400'000 + 300'000) ÷ 700'000 × 100 = 100 %: Anlagevermögen exakt gedeckt, kein Überschuss."
+        ],
+        "richtig": {
+          "entscheidung": 0,
+          "begruendung": 0
+        }
+      },
+      "erklaerung": "Nur Alternative 1 erfüllt die goldene Bilanzregel mit einem Überschuss: Das langfristige Kapital deckt das Anlagevermögen vollständig und zusätzlich einen Teil des Umlaufvermögens.",
+      "abschlusserklaerung": "Nur Alternative 1 erfüllt die goldene Bilanzregel mit einem Überschuss: Das langfristige Kapital deckt das Anlagevermögen vollständig und zusätzlich einen Teil des Umlaufvermögens.",
+      "merksatz": "Anlagedeckungsgrad II über 100 %: Die goldene Bilanzregel ist erfüllt und langfristiges Kapital deckt zusätzlich Umlaufvermögen.",
+      "quellenkarten": [
+        "formel_anlagedeckungsgrad_2_stufe4",
+        "formel_anlagedeckungsgrad_2_stufe3",
+        "formel_anlagedeckungsgrad_2_stufe2"
+      ],
+      "fachliche_belege": [
+        {
+          "claim": "Anlagedeckungsgrad II = (Eigenkapital + langfristiges Fremdkapital) ÷ Anlagevermögen × 100",
+          "source_card_id": "formel_anlagedeckungsgrad_2_stufe3"
+        },
+        {
+          "claim": "Mindestens 100 % erfüllen die goldene Bilanzregel; der langfristige Kapitalüberschuss finanziert dann zusätzlich einen Teil des Umlaufvermögens.",
+          "source_card_id": "formel_anlagedeckungsgrad_2_stufe2"
+        }
+      ],
+      "verwandte_themen": [
+        {
+          "fach": "Finanzwirtschaft",
+          "thema_id": "anlagedeckungsgrad_1",
+          "begruendung": "Beide Anlagedeckungsgrade beurteilen die Finanzierung des Anlagevermögens, unterscheiden sich aber darin, ob nur Eigenkapital (I) oder auch langfristiges Fremdkapital (II) berücksichtigt wird."
+        }
+      ],
+      "ch_kontext": "Schweizer Prüfung Technische Kaufleute",
+      "ch_fachlich_geprueft": true,
+      "quelle": {
+        "typ": "agenten_vertiefung",
+        "quellenkarten": [
+          "formel_anlagedeckungsgrad_2_stufe4",
+          "formel_anlagedeckungsgrad_2_stufe3",
+          "formel_anlagedeckungsgrad_2_stufe2"
+        ]
+      },
+      "tags": [
+        "tiefenkarte",
+        "ab_lvl_1",
+        "familie_depth_0001_anlagedeckungsgrad_1_anlagedeckungsgrad_2"
+      ],
+      "agenten_review": {
+        "reviewed_at": "2026-07-25T01:07:02.256Z",
+        "model": "openai/gpt-4.1",
+        "reason": "Die Kartenfamilie erfüllt alle Kriterien: Jede Lösung ist fachlich korrekt, vollständig und direkt aus den Schweizer Quellenkarten belegbar. Keine Zahlen, Fristen oder Regeln wurden erfunden. Die Karten passen eindeutig zu ihren Zielthemen und gehen gegenüber den Quellen in die Tiefe, indem sie konkrete Fallentscheidungen mit nachvollziehbarer Begründung und Simulation aller Antwortmöglichkeiten bieten. Die Familie erweitert zwei sinnvoll verbundene Themen (Anlagedeckungsgrad I und II) mit unterschiedlichen Blickwinkeln (Eigenkapital vs. langfristiges Kapital, goldene Bilanzregel). Frage und Antwortdaten sind vollständig, eindeutig und lokal auswertbar. Die Visualisierung ist effizient: Es wird keine unnötige Visualisierung verwendet, und die Karten bieten einen echten Lernvorteil durch die strukturierte Entscheidungsdarstellung. Es gibt keine Musterlösungs-, Fehlerlisten- oder Themenerkennungsfragen. Die Fallentscheidungen sind eindeutig, da jeweils nur eine Alternative fachlich vertretbar ist und das Entscheidungskriterium explizit genannt wird. Reihenfolgen werden nicht verlangt. Daher sind alle Kernpunkte erfüllt und keine Issues vorhanden.",
+        "ch_fachlich_korrekt": true,
+        "theme_fit": true,
+        "depth_gain": true,
+        "visual_efficiency": true
+      }
+    }
+  ]
 }
