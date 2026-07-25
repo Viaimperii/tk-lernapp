@@ -319,7 +319,10 @@ const subjectFiles = {
 for (const [subject, filename] of Object.entries(subjectFiles)) {
   const subjectPath = path.join(path.dirname(dataFile), filename)
   const subjectCards = JSON.parse(fs.readFileSync(subjectPath, 'utf8')).karten ?? []
-  const aggregateCards = cards.filter((card) => card.fach === subject)
+  // Die Fachdateien spiegeln nur den statischen, aggregierten Prüfungsbestand.
+  // Agentenkarten werden zur Laufzeit ergänzt und bleiben bewusst in ihrer
+  // separaten, reviewbaren Datei.
+  const aggregateCards = (dataset.karten ?? []).filter((card) => card.fach === subject)
   if (JSON.stringify(subjectCards) !== JSON.stringify(aggregateCards)) {
     errors.push(`${subject}: Fachdatei stimmt nicht mit dem Gesamtbestand überein`)
   }
