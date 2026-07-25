@@ -124,7 +124,7 @@ Prüfungsquelle oder ursprüngliche Überschrift allein bestimmen nicht das Fach
 ## Automatischer Karten-Qualitätsagent
 
 Der Workflow `.github/workflows/card-improvement-agent.yml` läuft täglich um
-03:00 Uhr in der Zeitzone `Europe/Zurich` und kann zusätzlich manuell gestartet
+21:40 Uhr in der Zeitzone `Europe/Zurich` und kann zusätzlich manuell gestartet
 werden. Er verwendet GitHub Models mit `openai/gpt-4.1`; ein eigener
 API-Schlüssel, Server oder eine Datenbank sind dafür nicht erforderlich.
 
@@ -154,7 +154,7 @@ npm run agent:cards:dry
 ## Agent für fachübergreifende Tiefenkarten
 
 Der zweite Workflow `.github/workflows/card-depth-agent.yml` läuft täglich um
-03:30 Uhr in der Zeitzone `Europe/Zurich`. Er arbeitet unabhängig vom
+21:55 Uhr in der Zeitzone `Europe/Zurich`. Er arbeitet unabhängig vom
 Qualitätsagenten auf dem Branch `automation/card-depth-loop` und verwendet mit
 `openai/gpt-4.1` über GitHub Models zwei Modellaufrufe pro Runde:
 
@@ -176,6 +176,22 @@ Agent `visuelle_zuordnung` verwenden. Darstellungsvarianten stehen als reine,
 geprüfte Konfiguration in `src/data/learning-visual-templates.json`. Unterstützt
 werden Lernzonen, Prozessbänder und 2×2-Entscheidungsmatrizen. Neue Templates
 enthalten keinen ausführbaren KI-Code.
+
+### Hybrider Modellbetrieb
+
+Wenn der PC eingeschaltet ist und die ChatGPT/Codex-Desktop-App läuft, starten
+lokale geplante Aufgaben ab 21:00 Uhr mit `gpt-5.6-sol`. Diese Läufe verwenden
+die angemeldete ChatGPT-/Codex-Nutzung und schreiben bestandene Änderungen nur
+auf die beiden Review-Branches. Ihre Commit-Nachrichten beginnen mit
+`Local Codex quality batch` beziehungsweise `Local Codex depth batch`.
+
+GitHub Actions dient danach als unabhängiger Fallback. Vor einem Modellaufruf
+prüft jeder Workflow den eigenen Review-Branch. Wurde dort innerhalb der
+letzten sechs Stunden ein erfolgreicher lokaler Commit gefunden, beendet sich
+der GitHub-Lauf ohne Modellverbrauch. Ist der PC ausgeschaltet, die App
+geschlossen oder der lokale Lauf fehlgeschlagen, übernimmt GitHub Models um
+21:40 Uhr beziehungsweise 21:55 Uhr. Persönliche Codex-Anmeldetokens werden
+nie in GitHub Secrets gespeichert.
 
 Lokale Vorschau der nächsten Themenauswahl ohne Modellaufruf:
 

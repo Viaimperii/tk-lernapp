@@ -2,7 +2,7 @@ name: Improve learning cards
 
 on:
   schedule:
-    - cron: '0 3 * * *'
+    - cron: '40 21 * * *'
       timezone: Europe/Zurich
   workflow_dispatch:
     inputs:
@@ -53,19 +53,44 @@ jobs:
             git checkout -b "$AGENT_BRANCH" origin/main
           fi
 
+      - name: Prefer successful local Codex run
+        id: hybrid
+        shell: bash
+        run: |
+          if [ "$GITHUB_EVENT_NAME" != "schedule" ]; then
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "Manueller Lauf erzwingt GitHub Models." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          LOCAL_COMMIT=$(git log \
+            --since='6 hours ago' \
+            --grep='^Local Codex quality batch ' \
+            --format='%H' \
+            -1)
+          if [ -n "$LOCAL_COMMIT" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Lokaler Abo-Lauf bereits erfolgreich: $LOCAL_COMMIT" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Setup Node
+        if: steps.hybrid.outputs.skip != 'true'
         uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: npm
 
       - name: Install dependencies
+        if: steps.hybrid.outputs.skip != 'true'
         run: npm ci
 
       - name: Review next card batch
+        if: steps.hybrid.outputs.skip != 'true'
         run: node scripts/card-improvement-agent.mjs
 
       - name: Regenerate learning data twice
+        if: steps.hybrid.outputs.skip != 'true'
         shell: bash
         run: |
           node scripts/update-learning-content.mjs
@@ -75,6 +100,7 @@ jobs:
           diff -u /tmp/first-generation.diff /tmp/second-generation.diff
 
       - name: Run quality gates
+        if: steps.hybrid.outputs.skip != 'true'
         shell: bash
         run: |
           npm run audit:content
@@ -84,6 +110,7 @@ jobs:
           npm run build
 
       - name: Preserve source-backed review reports
+        if: steps.hybrid.outputs.skip != 'true'
         shell: bash
         run: |
           git restore --source=origin/main -- \
@@ -91,6 +118,7 @@ jobs:
             reports/kartenqualitaet_2026-07-23.md
 
       - name: Commit verified batch
+        if: steps.hybrid.outputs.skip != 'true'
         id: commit
         shell: bash
         run: |
@@ -110,7 +138,7 @@ jobs:
           echo "batch=$BATCH" >> "$GITHUB_OUTPUT"
 
       - name: Create or update pull request
-        if: steps.commit.outputs.changed == 'true'
+        if: steps.hybrid.outputs.skip != 'true' && steps.commit.outputs.changed == 'true'
         shell: bash
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
