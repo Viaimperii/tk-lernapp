@@ -1,0 +1,111 @@
+name: Deepen related learning topics
+
+on:
+  schedule:
+    - cron: '30 3 * * *'
+      timezone: Europe/Zurich
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  models: read
+
+concurrency:
+  group: card-depth-agent
+  cancel-in-progress: false
+
+jobs:
+  deepen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      AGENT_BRANCH: automation/card-depth-loop
+      GITHUB_DEPTH_MODEL: openai/gpt-4.1
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Continue persistent depth branch
+        shell: bash
+        run: |
+          git fetch origin main
+          if git ls-remote --exit-code --heads origin "$AGENT_BRANCH" >/dev/null 2>&1; then
+            git fetch origin "$AGENT_BRANCH"
+            git checkout -B "$AGENT_BRANCH" "origin/$AGENT_BRANCH"
+            git rebase origin/main
+          else
+            git checkout -b "$AGENT_BRANCH" origin/main
+          fi
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build next depth family
+        run: node scripts/card-depth-agent.mjs
+
+      - name: Run quality gates
+        shell: bash
+        run: |
+          npm run audit:content
+          npm run review:cards
+          npm test
+          npm run lint
+          npm run build
+
+      - name: Preserve source-backed review reports
+        shell: bash
+        run: |
+          git restore --source=origin/main -- \
+            reports/kartenqualitaet_2026-07-23.json \
+            reports/kartenqualitaet_2026-07-23.md
+
+      - name: Commit verified depth batch
+        id: commit
+        shell: bash
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          BATCH=$(node -e "const s=require('./reports/depth-agent-loop-state.json'); process.stdout.write(String(s.batch))")
+          git config user.name "tk-card-depth-agent[bot]"
+          git config user.email "tk-card-depth-agent[bot]@users.noreply.github.com"
+          git add \
+            reports/depth-agent-loop-state.json \
+            src/data/depth-agent-cards.json \
+            src/data/learning-visual-templates.json
+          git commit -m "Deepen related learning topics batch $BATCH"
+          git push --force-with-lease origin "$AGENT_BRANCH"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          echo "batch=$BATCH" >> "$GITHUB_OUTPUT"
+
+      - name: Update review pull request
+        if: steps.commit.outputs.changed == 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PR_NUMBER=$(gh pr list --head "$AGENT_BRANCH" --base main --state open --json number --jq '.[0].number')
+          if [ -n "$PR_NUMBER" ]; then
+            gh pr comment "$PR_NUMBER" --body "Tiefen-Batch ${{ steps.commit.outputs.batch }} wurde ergänzt und hat die CH-Fachprüfung sowie alle technischen Qualitätsprüfungen bestanden."
+          else
+            COMPARE_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/compare/main...${AGENT_BRANCH}?expand=1"
+            echo "::notice title=Tiefen-Agent bereit::Öffne den Review-Pull-Request unter ${COMPARE_URL}"
+            {
+              echo "## Tiefen-Agent"
+              echo
+              echo "Der geprüfte Batch liegt auf \`${AGENT_BRANCH}\`."
+              echo "[Pull Request zum Prüfen öffnen](${COMPARE_URL})"
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi

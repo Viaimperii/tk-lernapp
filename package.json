@@ -1,18 +1,20 @@
 {
   "name": "tk-lernapp",
   "private": true,
-  "version": "0.3.0",
+  "version": "0.4.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint .",
-    "test": "node --test src/cardEngine.test.js scripts/card-improvement-agent.test.mjs",
+    "test": "node --test src/cardEngine.test.js scripts/card-improvement-agent.test.mjs scripts/card-depth-agent.test.mjs",
     "audit:content": "node scripts/audit-content.mjs",
     "review:cards": "node scripts/review-all-cards.mjs",
     "agent:cards": "node scripts/card-improvement-agent.mjs",
-    "agent:cards:dry": "node scripts/card-improvement-agent.mjs --dry-run"
+    "agent:cards:dry": "node scripts/card-improvement-agent.mjs --dry-run",
+    "agent:depth": "node scripts/card-depth-agent.mjs",
+    "agent:depth:dry": "node scripts/card-depth-agent.mjs --dry-run"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.4",

@@ -150,6 +150,42 @@ Lokale Auswahl ohne Modellaufruf:
 ```bash
 npm run agent:cards:dry
 ```
+
+## Agent für fachübergreifende Tiefenkarten
+
+Der zweite Workflow `.github/workflows/card-depth-agent.yml` läuft täglich um
+03:30 Uhr in der Zeitzone `Europe/Zurich`. Er arbeitet unabhängig vom
+Qualitätsagenten auf dem Branch `automation/card-depth-loop` und verwendet mit
+`openai/gpt-4.1` über GitHub Models zwei Modellaufrufe pro Runde:
+
+1. Entwurf einer Familie aus genau zwei neuen Tiefenkarten für zwei verwandte
+   Themen.
+2. Kritische Gegenprüfung auf Schweizer Fachlichkeit, Themenpassung,
+   tatsächlichen Tiefengewinn und visuellen Lernnutzen.
+
+Neue Karten werden erst nach beiden Prüfungen in
+`src/data/depth-agent-cards.json` gespeichert. Jede Aussage muss auf eine
+vorhandene Quellenkarte zeigen. Rechtsgrundlagen dürfen nur wortgleich aus
+diesen Quellen übernommen werden. Der Loop speichert Cursor, Zyklus und
+Entscheide in `reports/depth-agent-loop-state.json` und steigert `ab_lvl`
+schrittweise bis LVL 5. Pro Stufe und LVL bleiben höchstens drei Varianten
+zulässig.
+
+Wenn räumliches Ordnen effizienter lernt als eine gewöhnliche Auswahl, darf der
+Agent `visuelle_zuordnung` verwenden. Darstellungsvarianten stehen als reine,
+geprüfte Konfiguration in `src/data/learning-visual-templates.json`. Unterstützt
+werden Lernzonen, Prozessbänder und 2×2-Entscheidungsmatrizen. Neue Templates
+enthalten keinen ausführbaren KI-Code.
+
+Lokale Vorschau der nächsten Themenauswahl ohne Modellaufruf:
+
+```bash
+npm run agent:depth:dry
+```
+
+Das vollständige JSON-Schema und die Freigaberegeln stehen in
+`docs/TIEFENKARTEN_UND_TEMPLATES.md`.
+
 - Neue LVL-Karten müssen auf der höchsten Stufe ihres Themas liegen und lokal eindeutig auswertbar sein.
 
 Beispiele für die neuen JSON-Strukturen stehen in
