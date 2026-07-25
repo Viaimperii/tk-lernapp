@@ -237,6 +237,28 @@ Ziel:
 Erlaubte Typen: ${[...supportedTypes].join(', ')}.
 Bevorzuge fallentscheidung, reihenfolge, zahlen_eingabe, buchungssatz_builder oder visuelle_zuordnung gegenüber Auswahlfragen.
 
+Verbindliche Antwortdaten-Verträge:
+- multiple_choice:
+  {"optionen":["mindestens vier vollständige Aussagen"],"richtige_indices":[0,2]}
+- lueckentext_auswahl:
+  {"luecken_mc":[{"position":1,"optionen":["A","B","C"],"richtig_index":1}]}
+- zahlen_eingabe:
+  {"richtiger_wert":125,"toleranz":0.1,"einheit":"%","rundung":"Auf 1 Dezimalstelle"}
+- reihenfolge:
+  {"items":["mindestens drei Schritte"],"richtige_reihenfolge":[1,0,2]}
+- zuordnung:
+  {"links":["mindestens drei Aussagen"],"rechts":["passende Ziele"],"richtige_paare":[[0,1],[1,0],[2,2]]}
+- fallentscheidung:
+  {"entscheidungen":["mindestens drei Maßnahmen"],"begruendungen":["mindestens drei Begründungen"],"richtig":{"entscheidung":1,"begruendung":0}}
+- buchungssatz_builder:
+  {"konten":[{"id":"bank","label":"Bank"},{"id":"kreditoren","label":"Kreditoren"},{"id":"warenaufwand","label":"Warenaufwand"},{"id":"warenbestand","label":"Warenbestand"}],"richtig":{"soll":"warenaufwand","haben":"kreditoren","betrag":1000},"toleranz":0}
+- formel_builder:
+  {"bausteine":[{"id":"ek","label":"Eigenkapital CHF 600000"},{"id":"geteilt","label":"÷"},{"id":"gk","label":"Gesamtkapital CHF 1000000"},{"id":"mal","label":"× 100"}],"richtige_reihenfolge":["ek","geteilt","gk","mal"],"formel":"Eigenkapital ÷ Gesamtkapital × 100"}
+- visuelle_zuordnung verwendet den unten beschriebenen eigenen Vertrag.
+
+Nutze ausschließlich diese Feldnamen und Lösungsformate. Erfinde kein alternatives
+optionen-Objekt. Kannst du einen Vertrag nicht vollständig füllen, setze decision=skip.
+
 Visuelle Methode:
 - Nutze visuelle_zuordnung nur, wenn räumliches Ordnen fachlich mehr lehrt als eine normale Auswahl.
 - Verwende wenn möglich ein bestehendes Template.
