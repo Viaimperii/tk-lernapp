@@ -276,6 +276,8 @@ family_json muss ein JSON-kodierter String dieses Inhalts sein:
 }
 
 cards[0] muss das Primärthema und cards[1] das gewählte verwandte Thema verwenden.
+Das Feld typ muss exakt zur Struktur von antwort_daten passen; visuelle Strukturen mit elemente,
+bereiche und richtige_zuordnung verwenden immer typ="visuelle_zuordnung".
 
 Bei visuelle_zuordnung enthält antwort_daten:
 {"template_id":"...", "elemente":[{"id":"...", "label":"...", "detail":"..."}],
@@ -427,6 +429,20 @@ function legalReferenceSet(topic) {
   return new Set(topic.baseCards.flatMap((card) => card.rechtsgrundlage ?? []).map((reference) => JSON.stringify(reference)))
 }
 
+function inferCardType(proposal) {
+  const data = proposal.antwort_daten ?? {}
+  if (Array.isArray(data.elemente) && Array.isArray(data.bereiche) && data.richtige_zuordnung) return 'visuelle_zuordnung'
+  if (Array.isArray(data.entscheidungen) && Array.isArray(data.begruendungen) && data.richtig) return 'fallentscheidung'
+  if (Array.isArray(data.konten) && data.richtig?.soll && data.richtig?.haben) return 'buchungssatz_builder'
+  if (Array.isArray(data.bausteine) && Array.isArray(data.richtige_reihenfolge)) return 'formel_builder'
+  if (Array.isArray(data.items) && Array.isArray(data.richtige_reihenfolge)) return 'reihenfolge'
+  if (Array.isArray(data.links) && Array.isArray(data.rechts) && Array.isArray(data.richtige_paare)) return 'zuordnung'
+  if (Array.isArray(data.luecken_mc)) return 'lueckentext_auswahl'
+  if (Number.isFinite(data.richtiger_wert)) return 'zahlen_eingabe'
+  if (Array.isArray(data.optionen) && Array.isArray(data.richtige_indices)) return 'multiple_choice'
+  return proposal.typ
+}
+
 export function materializeFamily(rawFamily, selection, existingCards, existingTemplates, batchNumber) {
   if (!rawFamily || !Array.isArray(rawFamily.cards) || rawFamily.cards.length !== 2) {
     throw new Error('Eine Tiefenfamilie muss exakt zwei Karten enthalten.')
@@ -474,7 +490,7 @@ export function materializeFamily(rawFamily, selection, existingCards, existingT
       thema: target.thema,
       stufe: target.maxStage,
       ab_lvl: target.nextDepth,
-      typ: proposal.typ,
+      typ: inferCardType(proposal),
       lernziel: proposal.lernziel,
       frage: proposal.frage,
       aufgaben_hinweis: proposal.aufgaben_hinweis,

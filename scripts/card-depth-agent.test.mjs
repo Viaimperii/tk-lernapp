@@ -117,6 +117,74 @@ test('Kartenfamilie erweitert zwei Themen und übernimmt Identität deterministi
   assert.equal(familyFingerprint(materialized).length, 64)
 })
 
+test('Eindeutige visuelle Antwortdaten normalisieren einen falsch bezeichneten Kartentyp', () => {
+  const selection = selectTopicBundle(sourceCards, [], {
+    cycle: 1,
+    topic_cursor: 0,
+    reviewed_topics: []
+  })
+  const visualTemplate = {
+    id: 'lernwerkbank_zonen',
+    name: 'Lernwerkbank',
+    layout: 'zonen',
+    instruction: 'Ordne die Bausteine zu.',
+    lernprinzip: 'Räumliches Ordnen zeigt Kategorien.',
+    accent: '#0369a1',
+    surface: '#e0f2fe'
+  }
+  const visualData = {
+    template_id: 'lernwerkbank_zonen',
+    elemente: [
+      { id: 'a', label: 'Preis' },
+      { id: 'b', label: 'Folgekosten' },
+      { id: 'c', label: 'Risiko' }
+    ],
+    bereiche: [
+      { id: 'direkt', label: 'Direkte Kosten' },
+      { id: 'indirekt', label: 'Weitere Wirkung' }
+    ],
+    richtige_zuordnung: { a: 'direkt', b: 'indirekt', c: 'indirekt' }
+  }
+  const rawFamily = {
+    bridge: 'Gesamtkosten verbinden die Themen.',
+    template: { ...visualTemplate },
+    cards: [
+      {
+        target_topic_key: 'Finanzwirtschaft::kosten',
+        typ: 'fallentscheidung',
+        lernziel: 'Kostenwirkungen ordnen.',
+        frage: 'Ordne die Kostenwirkungen ein.',
+        antwort_daten: visualData,
+        erklaerung: 'Direkte und weitere Wirkungen werden getrennt.',
+        merksatz: 'Gesamtkosten haben mehrere Ebenen.',
+        quellenkarten: ['fin_1', 'fin_2'],
+        fachliche_belege: [{ claim: 'Folgekosten gehören zur Beurteilung.', source_card_id: 'fin_2' }],
+        rechtsgrundlage: []
+      },
+      {
+        target_topic_key: 'SCM::lieferanten',
+        typ: 'fallentscheidung',
+        lernziel: 'Lieferanten beurteilen.',
+        frage: 'Welche Entscheidung berücksichtigt Kosten und Risiko?',
+        antwort_daten: {
+          entscheidungen: ['Nur Preis', 'Kosten und Risiko', 'Zufall'],
+          begruendungen: ['Risiko zählt nie', 'Beide beeinflussen den Entscheid', 'Logo entscheidet'],
+          richtig: { entscheidung: 1, begruendung: 1 }
+        },
+        erklaerung: 'Kosten und Risiko gehören zusammen.',
+        merksatz: 'Gesamtwirkung vor Einzelpreis.',
+        quellenkarten: ['scm_1', 'scm_2'],
+        fachliche_belege: [{ claim: 'Risiko ist relevant.', source_card_id: 'scm_1' }],
+        rechtsgrundlage: []
+      }
+    ]
+  }
+
+  const materialized = materializeFamily(rawFamily, selection, sourceCards, [visualTemplate], 8)
+  assert.equal(materialized.cards[0].typ, 'visuelle_zuordnung')
+  assert.equal(materialized.template, null)
+})
+
 test('Nicht belegte Schweizer Rechtsgrundlagen werden verworfen', () => {
   const selection = selectTopicBundle(sourceCards, [], {
     cycle: 1,
