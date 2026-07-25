@@ -240,6 +240,7 @@ Bevorzuge fallentscheidung, reihenfolge, zahlen_eingabe, buchungssatz_builder od
 Visuelle Methode:
 - Nutze visuelle_zuordnung nur, wenn räumliches Ordnen fachlich mehr lehrt als eine normale Auswahl.
 - Verwende wenn möglich ein bestehendes Template.
+- Wenn du ein bestehendes Template verwendest, setze "template": null und trage dessen ID nur in antwort_daten.template_id ein.
 - Ein neues Template ist nur zulässig, wenn keines der bestehenden Lernprinzipien passt.
 - Neue Templates sind reine JSON-Konfiguration mit layout zonen, prozessband oder matrix, zwei sicheren Hex-Farben und einer konkreten Lernbegründung.
 
@@ -360,7 +361,7 @@ function sanitizeId(value) {
 function validateTemplate(template, existingTemplates) {
   if (!template) return null
   if (!sanitizeId(template.id) || sanitizeId(template.id) !== template.id) throw new Error('Neues Template besitzt eine ungültige ID.')
-  if (existingTemplates.some((item) => item.id === template.id)) throw new Error(`Template-ID bereits vorhanden: ${template.id}`)
+  if (existingTemplates.some((item) => item.id === template.id)) return null
   if (!supportedLayouts.has(template.layout)) throw new Error(`Nicht unterstütztes Template-Layout: ${template.layout}`)
   if (!colorPattern.test(template.accent ?? '') || !colorPattern.test(template.surface ?? '')) {
     throw new Error('Templatefarben müssen vollständige Hex-Werte sein.')
