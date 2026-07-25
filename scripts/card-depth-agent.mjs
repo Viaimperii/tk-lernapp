@@ -402,7 +402,7 @@ function validateCardType(card, templates) {
   if (card.typ === 'fallentscheidung') {
     if ((data.entscheidungen?.length ?? 0) < 3 || (data.begruendungen?.length ?? 0) < 3
       || !data.entscheidungen[data.richtig?.entscheidung] || !data.begruendungen[data.richtig?.begruendung]) {
-      throw new Error('Ungültige Fallentscheidung.')
+      throw new Error(`Ungültige Fallentscheidung: ${JSON.stringify(data).slice(0, 1500)}`)
     }
   }
   if (card.typ === 'formel_builder') {
