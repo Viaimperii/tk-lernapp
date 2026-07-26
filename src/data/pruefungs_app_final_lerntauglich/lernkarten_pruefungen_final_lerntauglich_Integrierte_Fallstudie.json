@@ -278,22 +278,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2023:Integrierte_Fallstudie:01.01",
       "quelle_pdf": "2023/Aufgaben/DE_2023_Aufgaben_IntegrierteFallstudie.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Beschaffung / Lieferanten lösen.",
+      "lernziel": "Lieferantenkriterien anhand einer konkreten, terminkritischen Beschaffungssituation gewichten.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Aussagen erklären „Beschaffung / Lieferanten“ fachlich richtig?",
+      "frage": "Ein Produktionsausfall wäre sehr teuer. Lieferant A verlangt CHF 104 pro Stück, erfüllt die Qualitätsanforderungen und lieferte bisher zuverlässig. Lieferant B verlangt CHF 96, verursachte laut Fall aber wiederholt Lieferverzögerungen. Welche zwei Schlussfolgerungen sind sachgerecht?",
       "antwort_daten": {
         "optionen": [
-          "Auf den tiefsten Preis, unabhängig von den Fallangaben zu Qualität oder Terminen.",
-          "Beschaffung ist in der Fallstudie nie prüfungsrelevant.",
-          "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall?",
-          "Prüfungsnah ist, Lieferantenkriterien (Preis, Qualität, Lieferfähigkeit, Risiko) direkt mit den im Fall genannten Fakten zu verknüpfen."
+          "Lieferant A kann trotz des höheren Preises den grösseren Gesamtnutzen für die terminkritische Situation bieten.",
+          "Lieferant B ist zwingend zu wählen, weil der Einstandspreis das einzige objektiv messbare und deshalb ausschlaggebende Kriterium darstellt.",
+          "Alle Kriterien sind ohne Bezug zur Ausgangslage gleich zu gewichten, damit die Bewertung neutral bleibt.",
+          "Die Gewichtung von Preis, Qualität und Lieferzuverlässigkeit ist zu dokumentieren und mit den Fallangaben zu begründen."
         ],
         "richtige_indices": [
-          2,
+          0,
           3
         ]
       },
-      "erklaerung": "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall? Prüfungsnah ist, Lieferantenkriterien (Preis, Qualität, Lieferfähigkeit, Risiko) direkt mit den im Fall genannten Fakten zu verknüpfen.",
+      "erklaerung": "Bei hohen Ausfallkosten ist Lieferzuverlässigkeit besonders relevant. Eine nachvollziehbare Lieferantenwahl verbindet die Kriterien und ihre Gewichtung direkt mit der konkreten Ausgangslage.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -320,8 +320,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
       },
       "loesungsvorschlag": {
-        "kurz": "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall? Prüfungsnah ist, Lieferantenkriterien (Preis, Qualität, Lieferfähigkeit, Risiko) direkt mit den im Fall genannten Fakten zu verknüpfen.",
-        "warum": "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall? Prüfungsnah ist, Lieferantenkriterien (Preis, Qualität, Lieferfähigkeit, Risiko) direkt mit den im Fall genannten Fakten zu verknüpfen."
+        "kurz": "Lieferant A ist trotz Mehrpreis plausibel; die Gewichtung muss den hohen Folgekosten einer Verspätung Rechnung tragen.",
+        "warum": "Der tiefste Stückpreis ist nicht automatisch der tiefste Gesamtkostenbeitrag, wenn wiederholte Verzögerungen einen teuren Produktionsausfall verursachen können."
       },
       "fehlerfallen": [],
       "review": {
@@ -334,9 +334,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "In der Fallstudie zählt nicht die allgemeine Regel, sondern ihre Anwendung auf die konkreten Fakten.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
-      "abschlusserklaerung": "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall? Prüfungsnah ist, Lieferantenkriterien (Preis, Qualität, Lieferfähigkeit, Risiko) direkt mit den im Fall genannten Fakten zu verknüpfen."
+      "merksatz": "Lieferanten nach fallbezogenem Gesamtnutzen beurteilen, nicht nur nach Stückpreis.",
+      "aufgaben_hinweis": "Leite die Gewichtung aus dem Risiko des Produktionsausfalls ab.",
+      "abschlusserklaerung": "Die terminkritische Situation spricht für eine starke Gewichtung der Lieferzuverlässigkeit und damit plausibel für Lieferant A."
     },
     {
       "id": "pr2025_integrierte_fallstudie_1_3_thema_stufe3",

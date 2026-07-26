@@ -3035,22 +3035,22 @@
       "fach": "Problemloesung_Entscheidung",
       "quelle_id": "2022:Problemloesung_Entscheidung:3.1",
       "quelle_pdf": "2022/Aufgaben/DE_2022_Aufgaben_Problemloesung.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Rechtliche Grundlagen lösen.",
+      "lernziel": "Rechtliche Muss-Kriterien vor der wirtschaftlichen Bewertung von Entscheidungsvarianten anwenden.",
       "typ": "multiple_choice",
-      "frage": "Welche beiden Aussagen müssen bei „Rechtliche Grundlagen“ beachtet werden?",
+      "frage": "Ein Projektteam bewertet drei Automationslösungen. Bei der günstigsten Variante ist gemäss Falldokumentation eine zwingende Sicherheitsanforderung nicht erfüllt. Welche zwei Vorgehensweisen sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Die bequemste Option umsetzen und erst bei einer Beschwerde prüfen.",
-          "Die Rechtsgrundlage und den Sachverhalt prüfen, bevor die Option bewertet oder umgesetzt wird.",
-          "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten.",
-          "Nur die persönliche Einschätzung der zuständigen Person dokumentieren. Dabei wird die Methode fälschlich unabhängig von Ziel, Datenlage und möglichen Risiken gewählt."
+          "Die Variante erhält beim Kriterium Sicherheit eine tiefe Punktzahl und kann durch den günstigsten Preis trotzdem gewinnen.",
+          "Die nicht erfüllte Sicherheitsanforderung ist vor der Nutzwertbewertung als Ausschlusskriterium zu behandeln.",
+          "Das Team dokumentiert das rechtliche Muss-Kriterium und bewertet nur die zulässigen Varianten nach den übrigen Zielen.",
+          "Die günstigste Variante wird umgesetzt, sofern die erwartete Einsparung höher als das geschätzte Rechtsrisiko ist."
         ],
         "richtige_indices": [
           1,
           2
         ]
       },
-      "erklaerung": "Die Rechtsgrundlage und den Sachverhalt prüfen, bevor die Option bewertet oder umgesetzt wird. Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten.",
+      "erklaerung": "Eine zwingende rechtliche Anforderung ist kein frei gewichtbares Wunschkriterium. Nicht zulässige Varianten werden ausgeschlossen; erst danach werden die verbleibenden Optionen wirtschaftlich verglichen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -3077,8 +3077,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
       },
       "loesungsvorschlag": {
-        "kurz": "Die Rechtsgrundlage und den Sachverhalt prüfen, bevor die Option bewertet oder umgesetzt wird. Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten.",
-        "warum": "Die Rechtsgrundlage und den Sachverhalt prüfen, bevor die Option bewertet oder umgesetzt wird. Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
+        "kurz": "Die unzulässige Variante ausschliessen, das Muss-Kriterium dokumentieren und nur die zulässigen Varianten bewerten.",
+        "warum": "Ein hoher wirtschaftlicher Nutzen kann die Nichterfüllung einer zwingenden Sicherheitsanforderung nicht kompensieren."
       },
       "fehlerfallen": [],
       "review": {
@@ -3091,9 +3091,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Rechtliche Muss-Kriterien begrenzen den Entscheidungsraum. Unzulässige Varianten dürfen nicht durch eine gute wirtschaftliche Bewertung legitimiert werden.",
-      "abschlusserklaerung": "Die Rechtsgrundlage und den Sachverhalt prüfen, bevor die Option bewertet oder umgesetzt wird. Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit."
+      "merksatz": "Muss-Kriterien zuerst prüfen, zulässige Varianten danach bewerten.",
+      "abschlusserklaerung": "Die Sicherheitsanforderung begrenzt den Entscheidungsraum. Nur rechtlich zulässige Lösungen dürfen in die weitere Bewertung gelangen.",
+      "aufgaben_hinweis": "Unterscheide Ausschlusskriterien von gewichtbaren Bewertungskriterien."
     },
     {
       "id": "pr2024_problemloesung_entscheidung_20_08_thema_stufe3",
@@ -3101,22 +3101,22 @@
       "fach": "Problemloesung_Entscheidung",
       "quelle_id": "2024:Problemloesung_Entscheidung:20.08",
       "quelle_pdf": "2024/Aufgaben/07_Problem-Entscheidung_2024_Aufgaben.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Rechtliche Grundlagen lösen.",
+      "lernziel": "Bei einem Standortentscheid die rechtliche Zulässigkeit vor der Nutzwertanalyse prüfen.",
       "typ": "multiple_choice",
-      "frage": "Welche beiden Aussagen müssen bei „Rechtliche Grundlagen“ beachtet werden?",
+      "frage": "Für einen neuen Betriebsstandort stehen drei Varianten zur Wahl. Laut Fall kann an Standort X die erforderliche Bewilligung für den vorgesehenen Betrieb nicht erteilt werden. Welche zwei Aussagen zum Entscheidungsprozess sind richtig?",
       "antwort_daten": {
         "optionen": [
-          "Nur die persönliche Einschätzung der zuständigen Person dokumentieren. Dabei wird die Methode fälschlich unabhängig von Ziel, Datenlage und möglichen Risiken gewählt.",
-          "Die Rechtsgrundlage und den Sachverhalt prüfen, bevor die Option bewertet oder umgesetzt wird.",
-          "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten.",
-          "Rechtliche Vorgaben ignorieren, wenn die Massnahme wirtschaftlich attraktiv ist."
+          "Standort X kann mit hoher Rentabilität genügend Zusatzpunkte erhalten, um die fehlende Bewilligung auszugleichen, sofern der erwartete Gewinn ausreichend hoch ist.",
+          "Die Bewilligungsfähigkeit ist vor der Gewichtung wirtschaftlicher Kriterien als rechtliches Muss-Kriterium zu prüfen.",
+          "Nur bewilligungsfähige Standorte sind anschliessend anhand von Kosten, Nutzen und Risiken vergleichbar zu bewerten.",
+          "Die Bewilligung ist wie eine Standortpräferenz zu gewichten, damit jedes Kriterium einen Zahlenwert erhält."
         ],
         "richtige_indices": [
           1,
           2
         ]
       },
-      "erklaerung": "Die Rechtsgrundlage und den Sachverhalt prüfen, bevor die Option bewertet oder umgesetzt wird. Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten.",
+      "erklaerung": "Ohne erforderliche Bewilligung ist die Variante nicht umsetzbar. Rechtliche Zulässigkeit wird deshalb vor der Nutzwertanalyse geprüft; wirtschaftliche Kriterien vergleichen erst die verbleibenden realisierbaren Standorte.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -3143,8 +3143,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
       },
       "loesungsvorschlag": {
-        "kurz": "Die Rechtsgrundlage und den Sachverhalt prüfen, bevor die Option bewertet oder umgesetzt wird. Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten.",
-        "warum": "Die Rechtsgrundlage und den Sachverhalt prüfen, bevor die Option bewertet oder umgesetzt wird. Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
+        "kurz": "Standort X ausschliessen und nur die bewilligungsfähigen Varianten wirtschaftlich bewerten.",
+        "warum": "Eine fehlende rechtliche Umsetzbarkeit kann nicht durch Rentabilität oder andere Präferenzkriterien kompensiert werden."
       },
       "fehlerfallen": [],
       "review": {
@@ -3157,9 +3157,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Rechtliche Muss-Kriterien begrenzen den Entscheidungsraum. Unzulässige Varianten dürfen nicht durch eine gute wirtschaftliche Bewertung legitimiert werden.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
-      "abschlusserklaerung": "Die Rechtsgrundlage und den Sachverhalt prüfen, bevor die Option bewertet oder umgesetzt wird. Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
+      "merksatz": "Zulässigkeit vor Vorteilhaftigkeit.",
+      "aufgaben_hinweis": "Ordne die Bewilligung entweder als Muss- oder als Wunschkriterium ein.",
+      "abschlusserklaerung": "Die Bewilligungsfähigkeit begrenzt die Auswahl; erst danach folgt der wirtschaftliche Vergleich der zulässigen Standorte."
     },
     {
       "id": "pr2024_problemloesung_entscheidung_3_1_loesungspunkte_stufe3",

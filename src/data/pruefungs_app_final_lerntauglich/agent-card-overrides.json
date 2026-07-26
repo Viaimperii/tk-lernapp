@@ -1,4 +1,377 @@
 {
   "schema_version": 1,
-  "cards": {}
+  "cards": {
+    "pr2025_marketing_verkauf_2_3_loesungspunkte_stufe3": {
+      "batch": 3,
+      "updated_at": "2026-07-26T12:17:57.287Z",
+      "reason": "Die generische Themenfrage wurde durch einen eindeutigen Verkaufsfall ersetzt; irreführende Preisangaben und die Behandlung eines Mangels werden getrennt angewendet.",
+      "quality_before": 3,
+      "quality_after": 5,
+      "patch": {
+        "lernziel": "Rechtliche Anforderungen an Preisangaben und die Behandlung eines Mangels in einem Onlineverkauf anwenden.",
+        "frage": "Ein Schweizer Onlineshop wirbt mit «CHF 80 inklusive Lieferung». Erst in der Bestellbestätigung erscheint eine zwingende Bearbeitungsgebühr. Zudem meldet die Kundin einen bei Erhalt dokumentierten Defekt. Welche zwei Beurteilungen sind fachlich richtig?",
+        "antwort_daten": {
+          "optionen": [
+            "Die zusätzliche Gebühr ist unproblematisch, wenn sie spätestens auf der Rechnung erscheint und für alle Bestellungen gleich hoch ist.",
+            "Unvermeidbare Preisbestandteile müssen vor dem Vertragsabschluss transparent in der Preisangabe erkennbar sein.",
+            "Bei einem Onlinekauf darf der Verkäufer jede Mängelprüfung mit Verweis auf den Versandweg ablehnen.",
+            "Der dokumentierte Defekt ist nach den Regeln des Kaufvertrags und der Gewährleistung sachlich zu prüfen."
+          ],
+          "richtige_indices": [
+            1,
+            3
+          ]
+        },
+        "erklaerung": "Zwingende Preisbestandteile dürfen nicht erst nach dem Bestellentscheid erscheinen. Ein gemeldeter Defekt ist anhand des Kaufvertrags und der Gewährleistung zu prüfen; der Onlinevertrieb beseitigt diese Prüfung nicht.",
+        "loesungsvorschlag": {
+          "kurz": "Preisbestandteile vor Vertragsabschluss offenlegen und den dokumentierten Defekt nach Kaufvertrags- und Gewährleistungsregeln prüfen.",
+          "warum": "Transparente Werbung ermöglicht einen informierten Kaufentscheid. Bei einem Mangel sind Sachverhalt und vertragliche Ansprüche zu klären, statt die Reklamation pauschal abzulehnen."
+        },
+        "merksatz": "Im Onlineverkauf zählen transparente Preise und eine sachliche Prüfung von Mängeln.",
+        "aufgaben_hinweis": "Beurteile Preisangabe und Mängelmeldung unabhängig voneinander.",
+        "abschlusserklaerung": "Der Shop muss zwingende Preisbestandteile rechtzeitig transparent machen und den dokumentierten Defekt nach den Regeln des Kaufvertrags und der Gewährleistung prüfen."
+      }
+    },
+    "pr2022_personalmanagement_2_2_thema_stufe3": {
+      "batch": 3,
+      "updated_at": "2026-07-26T12:17:57.287Z",
+      "reason": "Die abstrakte Grundsatzfrage wurde in eine realistische Führungssituation mit Sicherheits- und Übergabeverantwortung überführt.",
+      "quality_before": 3,
+      "quality_after": 5,
+      "patch": {
+        "lernziel": "Nach einem Beinaheunfall geeignete Führungsmassnahmen für Sicherheit und Schichtübergabe auswählen.",
+        "frage": "Nach einem Beinaheunfall zeigt sich, dass bei der Schichtübergabe weder offene Sicherheitsmeldungen noch Verantwortlichkeiten festgehalten werden. Welche zwei Führungsmassnahmen sind angemessen?",
+        "antwort_daten": {
+          "optionen": [
+            "Eine verbindliche Übergabe mit klar zugeteilten Verantwortlichkeiten und offenen Sicherheitsmeldungen einführen.",
+            "Sicherheitsvorgaben nur kurz vor angekündigten Kontrollen besonders konsequent durchsetzen.",
+            "Den Vorfall zeitnah besprechen, Erwartungen klären und die Umsetzung der Massnahmen nachkontrollieren.",
+            "Das Thema bis zum jährlichen Mitarbeitendengespräch zurückstellen, um den Betriebsablauf nicht zu stören."
+          ],
+          "richtige_indices": [
+            0,
+            2
+          ]
+        },
+        "erklaerung": "Gute Führung schafft klare Verantwortung und setzt Sicherheitsvorgaben kontinuierlich durch. Zeitnahes, sachliches Feedback und eine Nachkontrolle unterstützen die nachhaltige Umsetzung.",
+        "loesungsvorschlag": {
+          "kurz": "Übergabe und Zuständigkeiten verbindlich regeln sowie den Vorfall zeitnah mit anschliessender Wirkungskontrolle bearbeiten.",
+          "warum": "Unklare Übergaben erhöhen das Risiko wiederholter Fehler. Klare Erwartungen, Verantwortlichkeiten und Kontrollen machen die Verbesserung im Alltag wirksam."
+        },
+        "merksatz": "Sicherheit braucht klare Verantwortung, zeitnahes Feedback und konsequente Nachkontrolle.",
+        "aufgaben_hinweis": "Wähle Massnahmen, die das Risiko sofort und dauerhaft senken.",
+        "abschlusserklaerung": "Eine verbindliche Schichtübergabe und ein zeitnah geführtes Gespräch mit Nachkontrolle beseitigen die erkannten Führungslücken."
+      }
+    },
+    "pr2022_problemloesung_entscheidung_3_1_loesungspunkte_stufe3": {
+      "batch": 3,
+      "updated_at": "2026-07-26T12:17:57.287Z",
+      "reason": "Die Karte prüft nun die Anwendung eines rechtlichen Muss-Kriteriums in einem konkreten Entscheid statt allgemeiner Prüfungsmetasprache.",
+      "quality_before": 3,
+      "quality_after": 5,
+      "patch": {
+        "lernziel": "Rechtliche Muss-Kriterien vor der wirtschaftlichen Bewertung von Entscheidungsvarianten anwenden.",
+        "frage": "Ein Projektteam bewertet drei Automationslösungen. Bei der günstigsten Variante ist gemäss Falldokumentation eine zwingende Sicherheitsanforderung nicht erfüllt. Welche zwei Vorgehensweisen sind korrekt?",
+        "antwort_daten": {
+          "optionen": [
+            "Die Variante erhält beim Kriterium Sicherheit eine tiefe Punktzahl und kann durch den günstigsten Preis trotzdem gewinnen.",
+            "Die nicht erfüllte Sicherheitsanforderung ist vor der Nutzwertbewertung als Ausschlusskriterium zu behandeln.",
+            "Das Team dokumentiert das rechtliche Muss-Kriterium und bewertet nur die zulässigen Varianten nach den übrigen Zielen.",
+            "Die günstigste Variante wird umgesetzt, sofern die erwartete Einsparung höher als das geschätzte Rechtsrisiko ist."
+          ],
+          "richtige_indices": [
+            1,
+            2
+          ]
+        },
+        "erklaerung": "Eine zwingende rechtliche Anforderung ist kein frei gewichtbares Wunschkriterium. Nicht zulässige Varianten werden ausgeschlossen; erst danach werden die verbleibenden Optionen wirtschaftlich verglichen.",
+        "loesungsvorschlag": {
+          "kurz": "Die unzulässige Variante ausschliessen, das Muss-Kriterium dokumentieren und nur die zulässigen Varianten bewerten.",
+          "warum": "Ein hoher wirtschaftlicher Nutzen kann die Nichterfüllung einer zwingenden Sicherheitsanforderung nicht kompensieren."
+        },
+        "merksatz": "Muss-Kriterien zuerst prüfen, zulässige Varianten danach bewerten.",
+        "aufgaben_hinweis": "Unterscheide Ausschlusskriterien von gewichtbaren Bewertungskriterien.",
+        "abschlusserklaerung": "Die Sicherheitsanforderung begrenzt den Entscheidungsraum. Nur rechtlich zulässige Lösungen dürfen in die weitere Bewertung gelangen."
+      }
+    },
+    "pr2022_recht_vwl_2_3_thema_stufe3": {
+      "batch": 3,
+      "updated_at": "2026-07-26T12:17:57.287Z",
+      "reason": "Die bisherige Methodikfrage wurde als vollständige Subsumtionsaufgabe mit unklarem Sachverhalt konkretisiert.",
+      "quality_before": 3,
+      "quality_after": 5,
+      "patch": {
+        "lernziel": "Einen Rechtsfall durch Sachverhaltsklärung und Subsumtion strukturiert beurteilen.",
+        "frage": "Eine Rechtsnorm gewährt einen Anspruch, wenn eine gelieferte Sache eine zugesicherte Eigenschaft nicht besitzt. Im Fall ist noch unklar, was zugesichert wurde und welchen Zustand die Sache bei der Lieferung hatte. Welche zwei Schritte sind methodisch richtig?",
+        "antwort_daten": {
+          "optionen": [
+            "Vertragsunterlagen, Kommunikation und Zustand bei der Lieferung klären, bevor der Anspruch beurteilt wird.",
+            "Nach der üblichen Geschäftspraxis entscheiden und die konkrete Rechtsnorm erst bei einem Einwand prüfen.",
+            "Die Rechtsfolge sofort anwenden, weil bereits die Behauptung eines Mangels den Tatbestand erfüllt.",
+            "Die festgestellten Tatsachen den Voraussetzungen der Norm zuordnen und daraus die Rechtsfolge ableiten."
+          ],
+          "richtige_indices": [
+            0,
+            3
+          ]
+        },
+        "erklaerung": "Zuerst wird der rechtserhebliche Sachverhalt geklärt. Danach werden die festgestellten Tatsachen unter die Voraussetzungen der Norm eingeordnet; nur wenn diese erfüllt sind, folgt die vorgesehene Rechtsfolge.",
+        "loesungsvorschlag": {
+          "kurz": "Zusage und Lieferzustand belegen, anschliessend die Tatsachen unter die Norm subsumieren.",
+          "warum": "Ohne geklärten Sachverhalt lässt sich weder der Tatbestand noch die daraus folgende Rechtsfolge zuverlässig beurteilen."
+        },
+        "merksatz": "Sachverhalt klären, Tatbestand prüfen, Rechtsfolge ableiten.",
+        "aufgaben_hinweis": "Achte auf die Reihenfolge von Tatsachenklärung und Rechtsanwendung.",
+        "abschlusserklaerung": "Die Anspruchsprüfung beginnt mit den rechtserheblichen Tatsachen und endet mit der Subsumtion unter die passende Norm."
+      }
+    },
+    "pr2024_scm_1_12_thema_stufe3": {
+      "batch": 3,
+      "updated_at": "2026-07-26T12:17:57.287Z",
+      "reason": "Statt zwei Formeln wiederzuerkennen, müssen Lernende Lagerumschlag und Lagerdauer aus einem vollständigen Zahlenfall berechnen.",
+      "quality_before": 3,
+      "quality_after": 5,
+      "patch": {
+        "lernziel": "Lagerumschlag und durchschnittliche Lagerdauer aus Wareneinsatz und Lagerbestand berechnen.",
+        "frage": "Ein Betrieb weist einen jährlichen Wareneinsatz von CHF 960'000 und einen durchschnittlichen Lagerbestand von CHF 120'000 aus. Für die Lagerdauer wird mit 360 Tagen gerechnet. Welche zwei Berechnungen sind korrekt?",
+        "antwort_daten": {
+          "optionen": [
+            "Der Lagerumschlag beträgt 0,125, weil CHF 120'000 durch CHF 960'000 geteilt werden.",
+            "Der Lagerumschlag beträgt 8, weil CHF 960'000 durch CHF 120'000 geteilt werden.",
+            "Die durchschnittliche Lagerdauer beträgt 120 Tage, weil 960 durch 8 geteilt werden.",
+            "Die durchschnittliche Lagerdauer beträgt 45 Tage, weil 360 durch 8 geteilt werden."
+          ],
+          "richtige_indices": [
+            1,
+            3
+          ]
+        },
+        "erklaerung": "Lagerumschlag = Wareneinsatz ÷ durchschnittlicher Lagerbestand = 960'000 ÷ 120'000 = 8. Lagerdauer = 360 ÷ Lagerumschlag = 360 ÷ 8 = 45 Tage.",
+        "loesungsvorschlag": {
+          "kurz": "Lagerumschlag 8; durchschnittliche Lagerdauer 45 Tage.",
+          "warum": "Der Bestand wird rechnerisch achtmal pro Jahr umgesetzt. Bei einem 360-Tage-Jahr verbleiben die Waren damit durchschnittlich 45 Tage im Lager."
+        },
+        "merksatz": "Erst den Umschlag berechnen, dann 360 durch den Umschlag teilen.",
+        "aufgaben_hinweis": "Prüfe bei beiden Kennzahlen Zähler und Nenner.",
+        "abschlusserklaerung": "Aus CHF 960'000 Wareneinsatz und CHF 120'000 Durchschnittsbestand folgen ein Lagerumschlag von 8 und eine Lagerdauer von 45 Tagen."
+      }
+    },
+    "pr2022_unternehmensfuehrung_2_3_thema_stufe3": {
+      "batch": 3,
+      "updated_at": "2026-07-26T12:17:57.287Z",
+      "reason": "Die abstrakte Organisationsfrage wurde durch einen Reorganisationsfall mit erkennbarer Schnittstellenstörung ersetzt.",
+      "quality_before": 3,
+      "quality_after": 5,
+      "patch": {
+        "lernziel": "Bei einer Reorganisation Aufbau- und Ablauforganisation aufeinander abstimmen.",
+        "frage": "Nach der Zusammenlegung von Verkauf und Kundendienst ist das neue Organigramm publiziert. Reklamationen werden jedoch weiterhin über die alten Schnittstellen weitergereicht und bleiben liegen. Welche zwei Massnahmen sind folgerichtig?",
+        "antwort_daten": {
+          "optionen": [
+            "Den Reklamationsprozess an die neue Struktur anpassen und die Übergaben zwischen den Funktionen festlegen.",
+            "Keine Prozessänderung vornehmen, weil das Organigramm die Zusammenarbeit bereits vollständig regelt.",
+            "Prozessverantwortung, Zuständigkeiten und Informationswege für Reklamationen eindeutig zuweisen.",
+            "Die Mitarbeitenden ihre eigenen Übergaberegeln wählen lassen, damit keine zentrale Abstimmung nötig ist."
+          ],
+          "richtige_indices": [
+            0,
+            2
+          ]
+        },
+        "erklaerung": "Die Aufbauorganisation legt die Struktur fest, die Ablauforganisation gestaltet den Arbeitsfluss. Nach einer Strukturänderung müssen deshalb Prozesse, Schnittstellen und Verantwortlichkeiten passend nachgeführt werden.",
+        "loesungsvorschlag": {
+          "kurz": "Reklamationsprozess und Schnittstellen anpassen sowie Verantwortung und Informationswege klar zuweisen.",
+          "warum": "Ein neues Organigramm verhindert keine Prozesslücken. Erst abgestimmte Abläufe machen die neue Struktur im Tagesgeschäft wirksam."
+        },
+        "merksatz": "Neue Struktur und neue Abläufe müssen zusammenpassen.",
+        "aufgaben_hinweis": "Trenne die Wirkung des Organigramms von der Gestaltung des Arbeitsablaufs.",
+        "abschlusserklaerung": "Die Reorganisation ist erst umgesetzt, wenn Reklamationsprozess, Schnittstellen und Verantwortlichkeiten der neuen Struktur entsprechen."
+      }
+    },
+    "pr2023_finanzwirtschaft_2_5_loesungspunkte_stufe3": {
+      "batch": 3,
+      "updated_at": "2026-07-26T12:17:57.287Z",
+      "reason": "Die Karte verlangt nun eine materielle Rechnungsprüfung anhand konkreter Mengen- und Preisabweichungen.",
+      "quality_before": 3,
+      "quality_after": 5,
+      "patch": {
+        "lernziel": "Eine Rechnung formell und materiell mit Bestellung und Lieferung abgleichen.",
+        "frage": "Bestellt wurden 100 Stück zu CHF 20. Der Lieferschein weist 96 Stück aus, die Rechnung 100 Stück zu CHF 22. Welche zwei Schritte gehören zu einer korrekten Rechnungsprüfung?",
+        "antwort_daten": {
+          "optionen": [
+            "Die Rechnung freigeben, sobald Rechnungsnummer und Zahlungsfrist vorhanden sind.",
+            "Rechnung, Bestellung und Lieferschein abgleichen und Mengen- sowie Preisabweichung festhalten.",
+            "Die Abweichungen vor der Freigabe klären und danach Zahlungs- und Skontofristen kontrollieren.",
+            "Die Rechnungsmenge übernehmen, weil allein der Lieferant für die Mengenangabe verantwortlich ist."
+          ],
+          "richtige_indices": [
+            1,
+            2
+          ]
+        },
+        "erklaerung": "Die formelle Vollständigkeit genügt nicht. Materiell müssen Menge und Preis mit Bestellung und Lieferung übereinstimmen; Abweichungen sind vor der Zahlungsfreigabe zu klären.",
+        "loesungsvorschlag": {
+          "kurz": "Die drei Belege abgleichen, Abweichungen klären und erst die korrigierte Rechnung fristgerecht freigeben.",
+          "warum": "Nur der Belegabgleich zeigt, dass statt 100 lediglich 96 Stück geliefert und statt CHF 20 CHF 22 verrechnet wurden."
+        },
+        "merksatz": "Bestellung, Lieferung und Rechnung müssen vor der Zahlung zusammenpassen.",
+        "aufgaben_hinweis": "Unterscheide formelle Angaben von der materiellen Prüfung von Menge und Preis.",
+        "abschlusserklaerung": "Die Rechnung darf erst nach dem Abgleich und der Klärung der Mengen- und Preisabweichung freigegeben werden."
+      }
+    },
+    "pr2023_integrierte_fallstudie_01_01_thema_stufe3": {
+      "batch": 3,
+      "updated_at": "2026-07-26T12:17:57.287Z",
+      "reason": "Die Lieferantenbewertung ist nun an konkrete, entscheidungsrelevante Fallangaben gebunden.",
+      "quality_before": 3,
+      "quality_after": 5,
+      "patch": {
+        "lernziel": "Lieferantenkriterien anhand einer konkreten, terminkritischen Beschaffungssituation gewichten.",
+        "frage": "Ein Produktionsausfall wäre sehr teuer. Lieferant A verlangt CHF 104 pro Stück, erfüllt die Qualitätsanforderungen und lieferte bisher zuverlässig. Lieferant B verlangt CHF 96, verursachte laut Fall aber wiederholt Lieferverzögerungen. Welche zwei Schlussfolgerungen sind sachgerecht?",
+        "antwort_daten": {
+          "optionen": [
+            "Lieferant A kann trotz des höheren Preises den grösseren Gesamtnutzen für die terminkritische Situation bieten.",
+            "Lieferant B ist zwingend zu wählen, weil der Einstandspreis das einzige objektiv messbare und deshalb ausschlaggebende Kriterium darstellt.",
+            "Alle Kriterien sind ohne Bezug zur Ausgangslage gleich zu gewichten, damit die Bewertung neutral bleibt.",
+            "Die Gewichtung von Preis, Qualität und Lieferzuverlässigkeit ist zu dokumentieren und mit den Fallangaben zu begründen."
+          ],
+          "richtige_indices": [
+            0,
+            3
+          ]
+        },
+        "erklaerung": "Bei hohen Ausfallkosten ist Lieferzuverlässigkeit besonders relevant. Eine nachvollziehbare Lieferantenwahl verbindet die Kriterien und ihre Gewichtung direkt mit der konkreten Ausgangslage.",
+        "loesungsvorschlag": {
+          "kurz": "Lieferant A ist trotz Mehrpreis plausibel; die Gewichtung muss den hohen Folgekosten einer Verspätung Rechnung tragen.",
+          "warum": "Der tiefste Stückpreis ist nicht automatisch der tiefste Gesamtkostenbeitrag, wenn wiederholte Verzögerungen einen teuren Produktionsausfall verursachen können."
+        },
+        "merksatz": "Lieferanten nach fallbezogenem Gesamtnutzen beurteilen, nicht nur nach Stückpreis.",
+        "aufgaben_hinweis": "Leite die Gewichtung aus dem Risiko des Produktionsausfalls ab.",
+        "abschlusserklaerung": "Die terminkritische Situation spricht für eine starke Gewichtung der Lieferzuverlässigkeit und damit plausibel für Lieferant A."
+      }
+    },
+    "pr2025_marketing_verkauf_2_5_loesungspunkte_stufe3": {
+      "batch": 3,
+      "updated_at": "2026-07-26T12:17:57.287Z",
+      "reason": "Die zweite Marketingkarte prüft einen anderen Rechtsfall zu Lieferzusage und belegbarer Werbeaussage statt dieselben Grundsätze zu wiederholen.",
+      "quality_before": 3,
+      "quality_after": 5,
+      "patch": {
+        "lernziel": "Eine bestätigte Lieferzusage und eine unbelegte Produkteigenschaft im Verkauf rechtlich sauber behandeln.",
+        "frage": "Ein Verkäufer bestätigt der Kundin schriftlich die Lieferung bis Freitag. Später will der Shop ohne Rücksprache erst in der Folgewoche liefern. Gleichzeitig wirbt er mit einer Produkteigenschaft, für die intern kein Nachweis vorliegt. Welche zwei Massnahmen sind richtig?",
+        "antwort_daten": {
+          "optionen": [
+            "Die bestätigte Lieferzusage ist unbeachtlich, weil ein Kaufvertrag nur die Zahlungspflicht der Kundin festlegt und Liefertermine unverbindliche Planungswerte sind.",
+            "Die Lieferabweichung ist anhand der Vereinbarung zu klären und der Kundin ist eine nachvollziehbare Lösung anzubieten.",
+            "Die unbelegte Produkteigenschaft ist vor weiterer Verwendung zu prüfen und die Werbung nötigenfalls zu korrigieren.",
+            "Eine Produkteigenschaft darf ohne Nachweis beworben werden, solange der Verkaufspreis korrekt angegeben ist."
+          ],
+          "richtige_indices": [
+            1,
+            2
+          ]
+        },
+        "erklaerung": "Eine bestätigte Lieferzusage gehört zur vertraglichen Leistung und darf nicht einfach ignoriert werden. Werbeaussagen müssen sachlich vertretbar sein; eine unbelegte Eigenschaft ist zu prüfen und gegebenenfalls zu korrigieren.",
+        "loesungsvorschlag": {
+          "kurz": "Lieferabweichung vertragsbezogen klären und die unbelegte Werbeaussage vor weiterer Nutzung prüfen.",
+          "warum": "Verlässliche Lieferzusagen und belegbare Produktinformationen schützen den informierten Kaufentscheid und eine korrekte Vertragserfüllung."
+        },
+        "merksatz": "Lieferzusagen einhalten und Produkteigenschaften nur belegbar bewerben.",
+        "aufgaben_hinweis": "Prüfe Vertragsleistung und Werbung als zwei getrennte Rechtsfragen.",
+        "abschlusserklaerung": "Der Shop muss die bestätigte Lieferzusage sachgerecht behandeln und darf die unbelegte Produkteigenschaft nicht ungeprüft weiterverwenden."
+      }
+    },
+    "pr2022_personalmanagement_3_1_thema_stufe3": {
+      "batch": 3,
+      "updated_at": "2026-07-26T12:17:57.287Z",
+      "reason": "Die zweite Führungskarte behandelt nun konkrete, faire Interventionen bei wiederholten Sicherheitsverstössen.",
+      "quality_before": 3,
+      "quality_after": 5,
+      "patch": {
+        "lernziel": "Bei wiederholten Sicherheitsverstössen sachlich führen und organisatorische Ursachen beseitigen.",
+        "frage": "Ein Mitarbeitender umgeht wiederholt eine Sicherheitskontrolle. Gleichzeitig ist im Prozess nicht eindeutig geregelt, wer die Kontrolle freigibt. Welche zwei Reaktionen der Führungskraft sind angemessen?",
+        "antwort_daten": {
+          "optionen": [
+            "Den konkreten Vorfall zeitnah besprechen, die Erwartung verbindlich klären und eine Nachkontrolle vereinbaren.",
+            "Das ganze Team in der nächsten Sitzung öffentlich rügen, ohne zwischen individuellem Verhalten und dem organisatorischen Prozessmangel zu unterscheiden.",
+            "Bis zum Jahresgespräch abwarten, weil unmittelbares Feedback die Arbeitsbeziehung belasten könnte.",
+            "Die Freigabeverantwortung im Prozess eindeutig regeln und die betroffenen Mitarbeitenden darüber informieren."
+          ],
+          "richtige_indices": [
+            0,
+            3
+          ]
+        },
+        "erklaerung": "Die Führungskraft muss sowohl das konkrete Verhalten als auch die organisatorische Unklarheit bearbeiten. Zeitnahes, sachliches Feedback und eine klare Prozessverantwortung verhindern Wiederholungen besser als pauschale oder verspätete Reaktionen.",
+        "loesungsvorschlag": {
+          "kurz": "Verhalten sofort und fair klären sowie die unklare Freigabeverantwortung im Prozess beseitigen.",
+          "warum": "Sicherheitsabweichungen können personenbezogene und organisatorische Ursachen haben. Beide Ebenen brauchen eine überprüfbare Massnahme."
+        },
+        "merksatz": "Gute Führung klärt Verhalten und Prozess, nicht nur eines von beidem.",
+        "aufgaben_hinweis": "Berücksichtige individuelle Verantwortung und organisatorische Ursache.",
+        "abschlusserklaerung": "Ein zeitnahes Führungsgespräch und eine eindeutige Freigaberegelung adressieren beide Ursachen des Sicherheitsproblems."
+      }
+    },
+    "pr2024_problemloesung_entscheidung_20_08_thema_stufe3": {
+      "batch": 3,
+      "updated_at": "2026-07-26T12:17:57.287Z",
+      "reason": "Die Karte wendet rechtliche Zulässigkeit auf einen Standortentscheid an und grenzt Muss-Kriterien von Präferenzen ab.",
+      "quality_before": 3,
+      "quality_after": 5,
+      "patch": {
+        "lernziel": "Bei einem Standortentscheid die rechtliche Zulässigkeit vor der Nutzwertanalyse prüfen.",
+        "frage": "Für einen neuen Betriebsstandort stehen drei Varianten zur Wahl. Laut Fall kann an Standort X die erforderliche Bewilligung für den vorgesehenen Betrieb nicht erteilt werden. Welche zwei Aussagen zum Entscheidungsprozess sind richtig?",
+        "antwort_daten": {
+          "optionen": [
+            "Standort X kann mit hoher Rentabilität genügend Zusatzpunkte erhalten, um die fehlende Bewilligung auszugleichen, sofern der erwartete Gewinn ausreichend hoch ist.",
+            "Die Bewilligungsfähigkeit ist vor der Gewichtung wirtschaftlicher Kriterien als rechtliches Muss-Kriterium zu prüfen.",
+            "Nur bewilligungsfähige Standorte sind anschliessend anhand von Kosten, Nutzen und Risiken vergleichbar zu bewerten.",
+            "Die Bewilligung ist wie eine Standortpräferenz zu gewichten, damit jedes Kriterium einen Zahlenwert erhält."
+          ],
+          "richtige_indices": [
+            1,
+            2
+          ]
+        },
+        "erklaerung": "Ohne erforderliche Bewilligung ist die Variante nicht umsetzbar. Rechtliche Zulässigkeit wird deshalb vor der Nutzwertanalyse geprüft; wirtschaftliche Kriterien vergleichen erst die verbleibenden realisierbaren Standorte.",
+        "loesungsvorschlag": {
+          "kurz": "Standort X ausschliessen und nur die bewilligungsfähigen Varianten wirtschaftlich bewerten.",
+          "warum": "Eine fehlende rechtliche Umsetzbarkeit kann nicht durch Rentabilität oder andere Präferenzkriterien kompensiert werden."
+        },
+        "merksatz": "Zulässigkeit vor Vorteilhaftigkeit.",
+        "aufgaben_hinweis": "Ordne die Bewilligung entweder als Muss- oder als Wunschkriterium ein.",
+        "abschlusserklaerung": "Die Bewilligungsfähigkeit begrenzt die Auswahl; erst danach folgt der wirtschaftliche Vergleich der zulässigen Standorte."
+      }
+    },
+    "pr2023_recht_vwl_3_1_loesungspunkte_stufe3": {
+      "batch": 3,
+      "updated_at": "2026-07-26T12:17:57.287Z",
+      "reason": "Die Karte verbindet Arbeitsmarktlage und arbeitsrechtliche Prüfung nun in einem konkreten Personalentscheid.",
+      "quality_before": 3,
+      "quality_after": 5,
+      "patch": {
+        "lernziel": "Bei einem Personalabbau wirtschaftliche Ausgangslage und arbeitsrechtliche Anforderungen getrennt prüfen.",
+        "frage": "Wegen eines deutlichen Nachfragerückgangs prüft ein Betrieb einen Personalabbau. Welche zwei Vorgehensweisen verbinden volkswirtschaftliche und rechtliche Aspekte sachgerecht?",
+        "antwort_daten": {
+          "optionen": [
+            "Nachfrage- und Arbeitsmarktlage analysieren und parallel die arbeitsrechtlichen Anforderungen prüfen.",
+            "Den Nachfragerückgang als ausreichenden Grund behandeln, sämtliche arbeitsrechtlichen Vorgaben ausser Acht zu lassen.",
+            "Wirtschaftliche Begründung und rechtliche Zulässigkeit getrennt dokumentieren, bevor konkrete Personalentscheide umgesetzt werden.",
+            "Auf Wirtschaftsdaten vollständig verzichten, weil die arbeitsrechtliche Prüfung bereits alle betrieblichen und volkswirtschaftlichen Entscheidungsgrundlagen ersetzt."
+          ],
+          "richtige_indices": [
+            0,
+            2
+          ]
+        },
+        "erklaerung": "Die wirtschaftliche Lage kann den Handlungsbedarf erklären, ersetzt aber nicht die arbeitsrechtliche Prüfung. Umgekehrt macht die Rechtsprüfung eine Analyse von Nachfrage, Arbeitsmarkt und betrieblichen Folgen nicht überflüssig.",
+        "loesungsvorschlag": {
+          "kurz": "Wirtschaftliche Lage analysieren, rechtliche Anforderungen prüfen und beide Begründungsebenen vor der Umsetzung dokumentieren.",
+          "warum": "Ein tragfähiger Personalentscheid muss wirtschaftlich nachvollziehbar und rechtlich zulässig sein."
+        },
+        "merksatz": "Wirtschaftlicher Grund und rechtliche Zulässigkeit sind zwei notwendige Prüfungen.",
+        "aufgaben_hinweis": "Verwechsle die wirtschaftliche Begründung nicht mit der rechtlichen Zulässigkeit.",
+        "abschlusserklaerung": "Der Nachfragerückgang begründet die wirtschaftliche Prüfung; arbeitsrechtliche Anforderungen bleiben für die konkrete Umsetzung verbindlich."
+      }
+    }
+  }
 }

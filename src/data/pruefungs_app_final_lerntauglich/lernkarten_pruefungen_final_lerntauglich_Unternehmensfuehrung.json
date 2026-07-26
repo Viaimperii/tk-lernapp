@@ -3316,22 +3316,22 @@
       "fach": "Unternehmensfuehrung",
       "quelle_id": "2022:Unternehmensfuehrung:2.3",
       "quelle_pdf": "2022/Aufgaben/DE_2022_Aufgaben_Unternehmensfuehrung.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Organisation / Prozesse lösen.",
+      "lernziel": "Bei einer Reorganisation Aufbau- und Ablauforganisation aufeinander abstimmen.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Aussagen erklären „Organisation / Prozesse“ fachlich richtig?",
+      "frage": "Nach der Zusammenlegung von Verkauf und Kundendienst ist das neue Organigramm publiziert. Reklamationen werden jedoch weiterhin über die alten Schnittstellen weitergereicht und bleiben liegen. Welche zwei Massnahmen sind folgerichtig?",
       "antwort_daten": {
         "optionen": [
-          "Zuständigkeiten regeln sich nach einer Reorganisation automatisch.",
-          "Prozesse müssen nach einer Reorganisation nicht angepasst werden.",
-          "Auf Unternehmensführungsebene legt die Aufbauorganisation die Gesamtstruktur fest, die Ablauforganisation regelt unternehmensweite Kernprozesse.",
-          "Prüfungsnah ist, strategische Reorganisationsentscheide (z.B. neue Abteilungsstruktur) von der operativen Prozessgestaltung zu unterscheiden."
+          "Den Reklamationsprozess an die neue Struktur anpassen und die Übergaben zwischen den Funktionen festlegen.",
+          "Keine Prozessänderung vornehmen, weil das Organigramm die Zusammenarbeit bereits vollständig regelt.",
+          "Prozessverantwortung, Zuständigkeiten und Informationswege für Reklamationen eindeutig zuweisen.",
+          "Die Mitarbeitenden ihre eigenen Übergaberegeln wählen lassen, damit keine zentrale Abstimmung nötig ist."
         ],
         "richtige_indices": [
-          2,
-          3
+          0,
+          2
         ]
       },
-      "erklaerung": "Auf Unternehmensführungsebene legt die Aufbauorganisation die Gesamtstruktur fest, die Ablauforganisation regelt unternehmensweite Kernprozesse. Prüfungsnah ist, strategische Reorganisationsentscheide (z.B. neue Abteilungsstruktur) von der operativen Prozessgestaltung zu unterscheiden.",
+      "erklaerung": "Die Aufbauorganisation legt die Struktur fest, die Ablauforganisation gestaltet den Arbeitsfluss. Nach einer Strukturänderung müssen deshalb Prozesse, Schnittstellen und Verantwortlichkeiten passend nachgeführt werden.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -3358,8 +3358,8 @@
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Auf Unternehmensführungsebene legt die Aufbauorganisation die Gesamtstruktur fest, die Ablauforganisation regelt unternehmensweite Kernprozesse. Prüfungsnah ist, strategische Reorganisationsentscheide (z.B. neue Abteilungsstruktur) von der operativen Prozessgestaltung zu unterscheiden.",
-        "warum": "Auf Unternehmensführungsebene legt die Aufbauorganisation die Gesamtstruktur fest, die Ablauforganisation regelt unternehmensweite Kernprozesse. Prüfungsnah ist, strategische Reorganisationsentscheide (z.B. neue Abteilungsstruktur) von der operativen Prozessgestaltung zu unterscheiden."
+        "kurz": "Reklamationsprozess und Schnittstellen anpassen sowie Verantwortung und Informationswege klar zuweisen.",
+        "warum": "Ein neues Organigramm verhindert keine Prozesslücken. Erst abgestimmte Abläufe machen die neue Struktur im Tagesgeschäft wirksam."
       },
       "fehlerfallen": [],
       "review": {
@@ -3372,9 +3372,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Eine neue Struktur ohne angepasste Prozesse bleibt nur ein Organigramm.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
-      "abschlusserklaerung": "Auf Unternehmensführungsebene legt die Aufbauorganisation die Gesamtstruktur fest, die Ablauforganisation regelt unternehmensweite Kernprozesse. Prüfungsnah ist, strategische Reorganisationsentscheide (z.B. neue Abteilungsstruktur) von der operativen Prozessgestaltung zu unterscheiden."
+      "merksatz": "Neue Struktur und neue Abläufe müssen zusammenpassen.",
+      "aufgaben_hinweis": "Trenne die Wirkung des Organigramms von der Gestaltung des Arbeitsablaufs.",
+      "abschlusserklaerung": "Die Reorganisation ist erst umgesetzt, wenn Reklamationsprozess, Schnittstellen und Verantwortlichkeiten der neuen Struktur entsprechen."
     },
     {
       "id": "pr2023_unternehmensfuehrung_1_10_choice_stufe3",

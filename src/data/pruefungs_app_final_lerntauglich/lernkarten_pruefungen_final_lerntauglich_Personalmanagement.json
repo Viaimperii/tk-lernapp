@@ -2567,22 +2567,22 @@
       "fach": "Personalmanagement",
       "quelle_id": "2022:Personalmanagement:2.2",
       "quelle_pdf": "2022/Aufgaben/DE_2022_Aufgaben_Personalmanagement.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Führung / Personal lösen.",
+      "lernziel": "Nach einem Beinaheunfall geeignete Führungsmassnahmen für Sicherheit und Schichtübergabe auswählen.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Grundsätze zu „Führung / Personal“ sind richtig?",
+      "frage": "Nach einem Beinaheunfall zeigt sich, dass bei der Schichtübergabe weder offene Sicherheitsmeldungen noch Verantwortlichkeiten festgehalten werden. Welche zwei Führungsmassnahmen sind angemessen?",
       "antwort_daten": {
         "optionen": [
-          "Führung im Lager-/Logistikbereich muss Sicherheits- und Prozessvorgaben konsequent durchsetzen und klare Verantwortlichkeiten schaffen.",
-          "Prüfungsnah ist, typische Führungslücken (unklare Verantwortlichkeiten, inkonsequente Durchsetzung von Vorgaben) zu erkennen.",
-          "Sicherheitsvorgaben nur bei Kontrollen durch Vorgesetzte zu beachten. Dabei werden Bestände, Lieferzeit, Qualität und Gesamtkosten fälschlich unabhängig von der Beschaffungssituation gleichgesetzt.",
-          "Verantwortlichkeiten zwischen Schichten bewusst offen zu lassen."
+          "Eine verbindliche Übergabe mit klar zugeteilten Verantwortlichkeiten und offenen Sicherheitsmeldungen einführen.",
+          "Sicherheitsvorgaben nur kurz vor angekündigten Kontrollen besonders konsequent durchsetzen.",
+          "Den Vorfall zeitnah besprechen, Erwartungen klären und die Umsetzung der Massnahmen nachkontrollieren.",
+          "Das Thema bis zum jährlichen Mitarbeitendengespräch zurückstellen, um den Betriebsablauf nicht zu stören."
         ],
         "richtige_indices": [
           0,
-          1
+          2
         ]
       },
-      "erklaerung": "Führung im Lager-/Logistikbereich muss Sicherheits- und Prozessvorgaben konsequent durchsetzen und klare Verantwortlichkeiten schaffen. Prüfungsnah ist, typische Führungslücken (unklare Verantwortlichkeiten, inkonsequente Durchsetzung von Vorgaben) zu erkennen.",
+      "erklaerung": "Gute Führung schafft klare Verantwortung und setzt Sicherheitsvorgaben kontinuierlich durch. Zeitnahes, sachliches Feedback und eine Nachkontrolle unterstützen die nachhaltige Umsetzung.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -2609,8 +2609,8 @@
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Führung im Lager-/Logistikbereich muss Sicherheits- und Prozessvorgaben konsequent durchsetzen und klare Verantwortlichkeiten schaffen. Prüfungsnah ist, typische Führungslücken (unklare Verantwortlichkeiten, inkonsequente Durchsetzung von Vorgaben) zu erkennen.",
-        "warum": "Führung im Lager-/Logistikbereich muss Sicherheits- und Prozessvorgaben konsequent durchsetzen und klare Verantwortlichkeiten schaffen. Prüfungsnah ist, typische Führungslücken (unklare Verantwortlichkeiten, inkonsequente Durchsetzung von Vorgaben) zu erkennen."
+        "kurz": "Übergabe und Zuständigkeiten verbindlich regeln sowie den Vorfall zeitnah mit anschliessender Wirkungskontrolle bearbeiten.",
+        "warum": "Unklare Übergaben erhöhen das Risiko wiederholter Fehler. Klare Erwartungen, Verantwortlichkeiten und Kontrollen machen die Verbesserung im Alltag wirksam."
       },
       "fehlerfallen": [],
       "review": {
@@ -2623,9 +2623,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Klare Verantwortung und konsequente Vorgaben verhindern Unfälle und Doppelspurigkeiten.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
-      "abschlusserklaerung": "Führung im Lager-/Logistikbereich muss Sicherheits- und Prozessvorgaben konsequent durchsetzen und klare Verantwortlichkeiten schaffen. Prüfungsnah ist, typische Führungslücken (unklare Verantwortlichkeiten, inkonsequente Durchsetzung von Vorgaben) zu erkennen."
+      "merksatz": "Sicherheit braucht klare Verantwortung, zeitnahes Feedback und konsequente Nachkontrolle.",
+      "aufgaben_hinweis": "Wähle Massnahmen, die das Risiko sofort und dauerhaft senken.",
+      "abschlusserklaerung": "Eine verbindliche Schichtübergabe und ein zeitnah geführtes Gespräch mit Nachkontrolle beseitigen die erkannten Führungslücken."
     },
     {
       "id": "pr2022_personalmanagement_2_3_thema_stufe3",
@@ -2699,22 +2699,22 @@
       "fach": "Personalmanagement",
       "quelle_id": "2022:Personalmanagement:3.1",
       "quelle_pdf": "2022/Aufgaben/DE_2022_Aufgaben_Personalmanagement.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Führung / Personal lösen.",
+      "lernziel": "Bei wiederholten Sicherheitsverstössen sachlich führen und organisatorische Ursachen beseitigen.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Aussagen erklären „Führung / Personal“ fachlich richtig?",
+      "frage": "Ein Mitarbeitender umgeht wiederholt eine Sicherheitskontrolle. Gleichzeitig ist im Prozess nicht eindeutig geregelt, wer die Kontrolle freigibt. Welche zwei Reaktionen der Führungskraft sind angemessen?",
       "antwort_daten": {
         "optionen": [
-          "Verantwortlichkeiten zwischen Schichten bewusst offen zu lassen.",
-          "Feedback zu Fehlern erst am Ende des Jahres zu geben.",
-          "Führung im Lager-/Logistikbereich muss Sicherheits- und Prozessvorgaben konsequent durchsetzen und klare Verantwortlichkeiten schaffen.",
-          "Prüfungsnah ist, typische Führungslücken (unklare Verantwortlichkeiten, inkonsequente Durchsetzung von Vorgaben) zu erkennen."
+          "Den konkreten Vorfall zeitnah besprechen, die Erwartung verbindlich klären und eine Nachkontrolle vereinbaren.",
+          "Das ganze Team in der nächsten Sitzung öffentlich rügen, ohne zwischen individuellem Verhalten und dem organisatorischen Prozessmangel zu unterscheiden.",
+          "Bis zum Jahresgespräch abwarten, weil unmittelbares Feedback die Arbeitsbeziehung belasten könnte.",
+          "Die Freigabeverantwortung im Prozess eindeutig regeln und die betroffenen Mitarbeitenden darüber informieren."
         ],
         "richtige_indices": [
-          2,
+          0,
           3
         ]
       },
-      "erklaerung": "Führung im Lager-/Logistikbereich muss Sicherheits- und Prozessvorgaben konsequent durchsetzen und klare Verantwortlichkeiten schaffen. Prüfungsnah ist, typische Führungslücken (unklare Verantwortlichkeiten, inkonsequente Durchsetzung von Vorgaben) zu erkennen.",
+      "erklaerung": "Die Führungskraft muss sowohl das konkrete Verhalten als auch die organisatorische Unklarheit bearbeiten. Zeitnahes, sachliches Feedback und eine klare Prozessverantwortung verhindern Wiederholungen besser als pauschale oder verspätete Reaktionen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -2741,8 +2741,8 @@
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Führung im Lager-/Logistikbereich muss Sicherheits- und Prozessvorgaben konsequent durchsetzen und klare Verantwortlichkeiten schaffen. Prüfungsnah ist, typische Führungslücken (unklare Verantwortlichkeiten, inkonsequente Durchsetzung von Vorgaben) zu erkennen.",
-        "warum": "Führung im Lager-/Logistikbereich muss Sicherheits- und Prozessvorgaben konsequent durchsetzen und klare Verantwortlichkeiten schaffen. Prüfungsnah ist, typische Führungslücken (unklare Verantwortlichkeiten, inkonsequente Durchsetzung von Vorgaben) zu erkennen."
+        "kurz": "Verhalten sofort und fair klären sowie die unklare Freigabeverantwortung im Prozess beseitigen.",
+        "warum": "Sicherheitsabweichungen können personenbezogene und organisatorische Ursachen haben. Beide Ebenen brauchen eine überprüfbare Massnahme."
       },
       "fehlerfallen": [],
       "review": {
@@ -2755,9 +2755,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Klare Verantwortung und konsequente Vorgaben verhindern Unfälle und Doppelspurigkeiten.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
-      "abschlusserklaerung": "Führung im Lager-/Logistikbereich muss Sicherheits- und Prozessvorgaben konsequent durchsetzen und klare Verantwortlichkeiten schaffen. Prüfungsnah ist, typische Führungslücken (unklare Verantwortlichkeiten, inkonsequente Durchsetzung von Vorgaben) zu erkennen."
+      "merksatz": "Gute Führung klärt Verhalten und Prozess, nicht nur eines von beidem.",
+      "aufgaben_hinweis": "Berücksichtige individuelle Verantwortung und organisatorische Ursache.",
+      "abschlusserklaerung": "Ein zeitnahes Führungsgespräch und eine eindeutige Freigaberegelung adressieren beide Ursachen des Sicherheitsproblems."
     },
     {
       "id": "pr2022_personalmanagement_3_2_thema_stufe3",
