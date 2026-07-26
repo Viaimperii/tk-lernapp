@@ -1,6 +1,29 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { parseAgentResponse, selectBatch, validateImprovedCard } from './card-improvement-agent.mjs'
+import {
+  DEFAULT_CARD_AGENT_BATCH_SIZE,
+  parseAgentResponse,
+  selectBatch,
+  validateImprovedCard
+} from './card-improvement-agent.mjs'
+
+test('Qualitätsagent prüft standardmässig 24 Karten pro Lauf', () => {
+  assert.equal(DEFAULT_CARD_AGENT_BATCH_SIZE, 24)
+  const cards = Array.from({ length: 30 }, (_, index) => ({
+    id: `card-${index}`,
+    fach: `Fach ${index % 3}`,
+    stufe: 1,
+    lerneffekt: { score: 2 },
+    korrektheit: { score: 5 }
+  }))
+  const selection = selectBatch(cards, {
+    reviewed_ids: [],
+    subject_cursor: 0,
+    cycle: 1
+  })
+
+  assert.equal(selection.cards.length, 24)
+})
 
 test('Batch-Auswahl verteilt Karten über die Fächer und respektiert die Obergrenze', () => {
   const cards = [

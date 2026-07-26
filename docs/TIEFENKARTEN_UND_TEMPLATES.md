@@ -6,7 +6,7 @@ Tiefenkarten werden nach der ersten vollständigen Themenlösung über `ab_lvl`
 freigeschaltet. Sie wiederholen nicht bloss dieselbe Frage, sondern verlangen
 Transfer, Beurteilung, Berechnung oder das Verknüpfen mehrerer fachlicher
 Schritte. Eine Agentenfamilie erweitert immer zwei verschiedene, sinnvoll
-verwandte Themen.
+verwandte Themen mit je zwei unterschiedlichen Tiefenkarten.
 
 ## Autoritative Dateien
 
@@ -54,8 +54,9 @@ Prüfungskarten.
 ```
 
 `stufe` entspricht der höchsten vorhandenen Kartenstufe des Zielthemas.
-`ab_lvl` wird schrittweise von 1 bis 5 erhöht. Jede Familie besitzt genau zwei
-oder höchstens drei Karten und deckt mindestens zwei Themen ab.
+`ab_lvl` wird schrittweise von 1 bis 5 erhöht. Jede Familie besitzt genau vier
+Karten und deckt genau zwei Themen mit je zwei Karten ab. Die beiden Karten
+desselben Themas prüfen unterschiedliche transferorientierte Blickwinkel.
 
 ## Visuelle Lernwerkbank
 
