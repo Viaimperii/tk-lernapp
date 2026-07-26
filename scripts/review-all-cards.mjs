@@ -9,7 +9,11 @@ const sourceRoot = path.join(root, 'tmp', 'source-review', 'text')
 const reportDir = path.join(root, 'reports')
 const jsonReportPath = path.join(reportDir, 'kartenqualitaet_2026-07-23.json')
 const markdownReportPath = path.join(reportDir, 'kartenqualitaet_2026-07-23.md')
-const cards = JSON.parse(fs.readFileSync(dataPath, 'utf8')).karten ?? []
+const depthPath = path.join(root, 'src', 'data', 'depth-agent-cards.json')
+const cards = [
+  ...(JSON.parse(fs.readFileSync(dataPath, 'utf8')).karten ?? []),
+  ...(JSON.parse(fs.readFileSync(depthPath, 'utf8')).cards ?? [])
+]
 
 const normalize = (value) => String(value ?? '')
   .toLocaleLowerCase('de-CH')
@@ -90,6 +94,13 @@ function expectedAnswer(card) {
       data.begruendungen?.[data.richtig?.begruendung]
     ].filter(Boolean)
   }
+  if (card.typ === 'visuelle_zuordnung') {
+    const areaById = Object.fromEntries((data.bereiche ?? []).map((area) => [area.id, area.label]))
+    return {
+      indices: [],
+      values: (data.elemente ?? []).map((item) => `${item.label} → ${areaById[data.richtige_zuordnung?.[item.id]]}`)
+    }
+  }
   return { indices: [], values: [] }
 }
 
@@ -164,6 +175,15 @@ function structuralReview(card) {
     if (!data.begruendungen?.[data.richtig?.begruendung]) errors.push('Ungültige Fallbegründung')
   }
 
+  if (card.typ === 'visuelle_zuordnung') {
+    const elementIds = new Set((data.elemente ?? []).map((item) => item.id))
+    const areaIds = new Set((data.bereiche ?? []).map((area) => area.id))
+    if (elementIds.size < 3 || areaIds.size < 2) errors.push('Visuelle Zuordnung ist zu klein')
+    if ((data.elemente ?? []).some((item) => !areaIds.has(data.richtige_zuordnung?.[item.id]))) {
+      errors.push('Visuelle Zuordnung besitzt ein ungültiges Ziel')
+    }
+  }
+
   return { errors, warnings }
 }
 
@@ -210,7 +230,7 @@ function difficultyReview(card) {
   let score = Number(card.stufe ?? 1)
   if (['multiple_choice', 'reihenfolge', 'zuordnung'].includes(card.typ)) score += 0.5
   if (['formel_luecke_mc', 'lueckentext_auswahl', 'formel_builder'].includes(card.typ)) score += 1
-  if (['zahlen_eingabe', 'buchungssatz_builder', 'fallentscheidung'].includes(card.typ)) score += 1
+  if (['zahlen_eingabe', 'buchungssatz_builder', 'fallentscheidung', 'visuelle_zuordnung'].includes(card.typ)) score += 1
   if (String(card.frage).length > 350) score += 0.5
   if ((card.antwort_daten?.optionen?.length ?? 0) >= 5) score += 0.25
   score = Math.max(1, Math.min(5, Math.round(score * 2) / 2))
@@ -224,7 +244,7 @@ function learningReview(card, duplicateQuestionCount) {
   const question = String(card.frage ?? '')
   const explanation = String(card.erklaerung ?? card.abschlusserklaerung ?? '')
 
-  if (['reihenfolge', 'zuordnung', 'formel_luecke_mc', 'lueckentext_auswahl', 'formel_builder', 'zahlen_eingabe', 'buchungssatz_builder', 'fallentscheidung'].includes(card.typ)) {
+  if (['reihenfolge', 'zuordnung', 'formel_luecke_mc', 'lueckentext_auswahl', 'formel_builder', 'zahlen_eingabe', 'buchungssatz_builder', 'fallentscheidung', 'visuelle_zuordnung'].includes(card.typ)) {
     score += 1
     reasons.push('aktive Anwendung statt reiner Wiedererkennung')
   }

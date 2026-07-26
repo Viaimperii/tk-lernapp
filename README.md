@@ -124,7 +124,7 @@ Prüfungsquelle oder ursprüngliche Überschrift allein bestimmen nicht das Fach
 ## Automatischer Karten-Qualitätsagent
 
 Der Workflow `.github/workflows/card-improvement-agent.yml` läuft täglich um
-03:00 Uhr in der Zeitzone `Europe/Zurich` und kann zusätzlich manuell gestartet
+02:15 Uhr in der Zeitzone `Europe/Zurich` und kann zusätzlich manuell gestartet
 werden. Er verwendet GitHub Models mit `openai/gpt-4.1`; ein eigener
 API-Schlüssel, Server oder eine Datenbank sind dafür nicht erforderlich.
 
@@ -150,6 +150,61 @@ Lokale Auswahl ohne Modellaufruf:
 ```bash
 npm run agent:cards:dry
 ```
+
+## Agent für fachübergreifende Tiefenkarten
+
+Der zweite Workflow `.github/workflows/card-depth-agent.yml` läuft täglich um
+02:30 Uhr in der Zeitzone `Europe/Zurich`. Er arbeitet unabhängig vom
+Qualitätsagenten auf dem Branch `automation/card-depth-loop` und verwendet mit
+`openai/gpt-4.1` über GitHub Models zwei Modellaufrufe pro Runde:
+
+1. Entwurf einer Familie aus genau zwei neuen Tiefenkarten für zwei verwandte
+   Themen.
+2. Kritische Gegenprüfung auf Schweizer Fachlichkeit, Themenpassung,
+   tatsächlichen Tiefengewinn und visuellen Lernnutzen.
+
+Neue Karten werden erst nach beiden Prüfungen in
+`src/data/depth-agent-cards.json` gespeichert. Jede Aussage muss auf eine
+vorhandene Quellenkarte zeigen. Rechtsgrundlagen dürfen nur wortgleich aus
+diesen Quellen übernommen werden. Der Loop speichert Cursor, Zyklus und
+Entscheide in `reports/depth-agent-loop-state.json` und steigert `ab_lvl`
+schrittweise bis LVL 5. Pro Stufe und LVL bleiben höchstens drei Varianten
+zulässig.
+
+Wenn räumliches Ordnen effizienter lernt als eine gewöhnliche Auswahl, darf der
+Agent `visuelle_zuordnung` verwenden. Darstellungsvarianten stehen als reine,
+geprüfte Konfiguration in `src/data/learning-visual-templates.json`. Unterstützt
+werden Lernzonen, Prozessbänder und 2×2-Entscheidungsmatrizen. Neue Templates
+enthalten keinen ausführbaren KI-Code.
+
+### Hybrider Modellbetrieb
+
+Wenn der PC eingeschaltet ist und die ChatGPT/Codex-Desktop-App läuft, versuchen
+lokale geplante Aufgaben zwischen 21:00 und 01:20 Uhr stündlich einen Lauf mit
+`gpt-5.6-sol`. Nach dem ersten erfolgreichen Batch erkennen alle weiteren
+Versuche den Erfolgscommit und beenden sich ohne zusätzlichen Modellverbrauch.
+Diese Läufe verwenden die angemeldete ChatGPT-/Codex-Nutzung und schreiben
+bestandene Änderungen nur auf die beiden Review-Branches. Ihre
+Commit-Nachrichten beginnen mit
+`Local Codex quality batch` beziehungsweise `Local Codex depth batch`.
+
+GitHub Actions dient danach als unabhängiger Fallback. Vor einem Modellaufruf
+prüft jeder Workflow den eigenen Review-Branch. Wurde dort innerhalb der
+letzten sechs Stunden ein erfolgreicher lokaler Commit gefunden, beendet sich
+der GitHub-Lauf ohne Modellverbrauch. Ist der PC ausgeschaltet, die App
+geschlossen oder jeder lokale Versuch fehlgeschlagen, übernimmt GitHub Models
+am Ende des Nachtfensters um 02:15 Uhr beziehungsweise 02:30 Uhr. Persönliche
+Codex-Anmeldetokens werden nie in GitHub Secrets gespeichert.
+
+Lokale Vorschau der nächsten Themenauswahl ohne Modellaufruf:
+
+```bash
+npm run agent:depth:dry
+```
+
+Das vollständige JSON-Schema und die Freigaberegeln stehen in
+`docs/TIEFENKARTEN_UND_TEMPLATES.md`.
+
 - Neue LVL-Karten müssen auf der höchsten Stufe ihres Themas liegen und lokal eindeutig auswertbar sein.
 
 Beispiele für die neuen JSON-Strukturen stehen in

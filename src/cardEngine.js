@@ -83,6 +83,7 @@ export function initialAnswer(card) {
   if (card.typ === 'zahlen_eingabe') return ''
   if (card.typ === 'buchungssatz_builder') return { soll: '', haben: '', betrag: '' }
   if (card.typ === 'fallentscheidung') return { entscheidung: null, begruendung: null }
+  if (card.typ === 'visuelle_zuordnung') return { selected: null, placements: {} }
   return null
 }
 
@@ -109,6 +110,9 @@ export function hasAnswer(card, answer) {
   }
   if (card.typ === 'fallentscheidung') {
     return Number.isInteger(answer?.entscheidung) && Number.isInteger(answer?.begruendung)
+  }
+  if (card.typ === 'visuelle_zuordnung') {
+    return Object.keys(answer?.placements ?? {}).length === card.antwort_daten.elemente.length
   }
   return false
 }
@@ -156,6 +160,9 @@ export function checkAnswer(card, answer) {
   if (card.typ === 'fallentscheidung') {
     return answer.entscheidung === data.richtig.entscheidung
       && answer.begruendung === data.richtig.begruendung
+  }
+  if (card.typ === 'visuelle_zuordnung') {
+    return data.elemente.every((item) => answer?.placements?.[item.id] === data.richtige_zuordnung[item.id])
   }
   if (card.typ === 'reihenfolge') {
     return answer.join(',') === data.richtige_reihenfolge.join(',')

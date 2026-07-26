@@ -1,4 +1,6 @@
 import dataset from './pruefungs_app_final_lerntauglich/lernkarten_pruefungen_final_lerntauglich_Alle_Faecher.json'
+import depthDataset from './depth-agent-cards.json'
+import visualTemplateDataset from './learning-visual-templates.json'
 
 export const allowedTypes = [
   'single_choice',
@@ -9,9 +11,23 @@ export const allowedTypes = [
   'zahlen_eingabe',
   'buchungssatz_builder',
   'fallentscheidung',
+  'visuelle_zuordnung',
   'reihenfolge',
   'zuordnung'
 ]
+
+const colorPattern = /^#[0-9a-f]{6}$/i
+const allowedVisualLayouts = new Set(['zonen', 'prozessband', 'matrix'])
+
+export const visualTemplates = (visualTemplateDataset.templates ?? []).filter((template) => (
+  template?.id
+  && template?.name
+  && allowedVisualLayouts.has(template.layout)
+  && colorPattern.test(template.accent ?? '')
+  && colorPattern.test(template.surface ?? '')
+))
+const visualTemplateIds = new Set(visualTemplates.map((template) => template.id))
+const visualTemplateById = new Map(visualTemplates.map((template) => [template.id, template]))
 
 function isArray(value) {
   return Array.isArray(value) && value.length > 0
@@ -123,6 +139,28 @@ function validateCard(card) {
     if (!isValidIndex(data.richtig?.begruendung, data.begruendungen)) errors.push('fallentscheidung.richtig.begruendung ist ungültig')
   }
 
+  if (card?.typ === 'visuelle_zuordnung') {
+    if (!visualTemplateIds.has(data.template_id)) errors.push('visuelle_zuordnung.template_id ist unbekannt')
+    if (!isArray(data.elemente)) errors.push('visuelle_zuordnung.elemente fehlt')
+    if (!isArray(data.bereiche)) errors.push('visuelle_zuordnung.bereiche fehlt')
+    if (!data.richtige_zuordnung || typeof data.richtige_zuordnung !== 'object') {
+      errors.push('visuelle_zuordnung.richtige_zuordnung fehlt')
+    }
+    const elementIds = new Set((data.elemente ?? []).map((item) => item.id))
+    const areaIds = new Set((data.bereiche ?? []).map((item) => item.id))
+    if (elementIds.size !== (data.elemente ?? []).length) errors.push('visuelle_zuordnung.elemente enthält doppelte IDs')
+    if (areaIds.size !== (data.bereiche ?? []).length) errors.push('visuelle_zuordnung.bereiche enthält doppelte IDs')
+    for (const item of data.elemente ?? []) {
+      if (!item?.id || !item?.label) errors.push('visuelle_zuordnung.element ist unvollständig')
+      if (!areaIds.has(data.richtige_zuordnung?.[item.id])) {
+        errors.push(`visuelle_zuordnung ohne gültiges Ziel: ${item?.id ?? 'unbekannt'}`)
+      }
+    }
+    if (visualTemplateById.get(data.template_id)?.layout === 'matrix' && (data.bereiche?.length ?? 0) !== 4) {
+      errors.push('entscheidungsmatrix benötigt genau vier Bereiche')
+    }
+  }
+
   if (card?.typ === 'reihenfolge') {
     if (!isArray(data.items)) errors.push('reihenfolge.items fehlt')
     if (!isArray(data.richtige_reihenfolge)) errors.push('reihenfolge.richtige_reihenfolge fehlt')
@@ -150,10 +188,20 @@ function validateCard(card) {
     }
   }
 
+  if (card?.familie_id) {
+    if (!Number.isInteger(card.ab_lvl) || card.ab_lvl < 1 || card.ab_lvl > 5) {
+      errors.push('Tiefenkarte benötigt ab_lvl zwischen 1 und 5')
+    }
+    if (!isArray(card.quellenkarten)) errors.push('Tiefenkarte benötigt quellenkarten')
+    if (!isArray(card.verwandte_themen)) errors.push('Tiefenkarte benötigt verwandte_themen')
+    if (card.ch_fachlich_geprueft !== true) errors.push('Tiefenkarte ist nicht CH-fachlich geprüft')
+  }
+
   return errors
 }
 
-const checkedCards = (dataset.karten ?? []).map((card) => {
+const sourceCards = [...(dataset.karten ?? []), ...(depthDataset.cards ?? [])]
+const checkedCards = sourceCards.map((card) => {
   const errors = validateCard(card)
   return {
     card: {
@@ -176,7 +224,11 @@ export const invalidCards = checkedCards
     errors: entry.errors
   }))
 
-export const contentMeta = dataset.meta ?? {}
+export const contentMeta = {
+  ...(dataset.meta ?? {}),
+  anzahl_tiefenkarten: depthDataset.cards?.length ?? 0,
+  anzahl_karten: sourceCards.length
+}
 export const schemaVersion = dataset.meta?.schema_version ?? dataset.schema_version ?? '2.0-final-learning'
 
 invalidCards.forEach(({ id, errors }) => {

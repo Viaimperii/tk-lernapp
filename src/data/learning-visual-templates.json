@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "templates": [
+    {
+      "id": "lernwerkbank_zonen",
+      "name": "Lernwerkbank",
+      "layout": "zonen",
+      "instruction": "Wähle einen Baustein und lege ihn danach in den passenden Bereich.",
+      "lernprinzip": "Aktives Ordnen macht fachliche Kategorien und Abgrenzungen sichtbar.",
+      "accent": "#0369a1",
+      "surface": "#e0f2fe"
+    },
+    {
+      "id": "prozessband",
+      "name": "Prozessband",
+      "layout": "prozessband",
+      "instruction": "Ordne jeden Baustein dem fachlich passenden Prozessabschnitt zu.",
+      "lernprinzip": "Die räumliche Abfolge verbindet Handlung, Zeitpunkt und Wirkung.",
+      "accent": "#0f766e",
+      "surface": "#ccfbf1"
+    },
+    {
+      "id": "entscheidungsmatrix",
+      "name": "Entscheidungsmatrix",
+      "layout": "matrix",
+      "instruction": "Ordne die Hinweise den vier Feldern der Matrix zu.",
+      "lernprinzip": "Die Matrix trainiert das gleichzeitige Beurteilen zweier Kriterien.",
+      "accent": "#7c3aed",
+      "surface": "#ede9fe"
+    }
+  ]
+}

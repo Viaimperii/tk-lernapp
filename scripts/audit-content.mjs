@@ -6,7 +6,11 @@ import { fileURLToPath } from 'node:url'
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const dataFile = path.join(root, 'src', 'data', 'pruefungs_app_final_lerntauglich', 'lernkarten_pruefungen_final_lerntauglich_Alle_Faecher.json')
 const dataset = JSON.parse(fs.readFileSync(dataFile, 'utf8'))
-const cards = dataset.karten ?? []
+const depthFile = path.join(root, 'src', 'data', 'depth-agent-cards.json')
+const templateFile = path.join(root, 'src', 'data', 'learning-visual-templates.json')
+const depthDataset = JSON.parse(fs.readFileSync(depthFile, 'utf8'))
+const templateDataset = JSON.parse(fs.readFileSync(templateFile, 'utf8'))
+const cards = [...(dataset.karten ?? []), ...(depthDataset.cards ?? [])]
 const overridesPath = path.join(path.dirname(dataFile), 'agent-card-overrides.json')
 
 const errors = []
@@ -23,7 +27,20 @@ const placeholderPattern = /[._…]{4,}/
 const externalTaskReferencePattern = /\b(?:in|aus|von|gemäss|bei)\s+Aufgabe\s+\d+(?:\.\d+)?/i
 const missingFragmentPattern = /\bfehlende\s+(?:Beschriftung|Beschriftungen|Angabe|Angaben|Wert|Werte|Zahl|Zahlen|Position|Positionen)\b/i
 const visualReferencePattern = /\b(?:gemäss|anhand)\b.{0,60}\b(?:Abbildung|Grafik|Tabelle|Beilage|Anhang)\b/i
-const embeddedVisualTypes = new Set(['formel_builder'])
+const embeddedVisualTypes = new Set(['formel_builder', 'visuelle_zuordnung'])
+const allowedVisualLayouts = new Set(['zonen', 'prozessband', 'matrix'])
+const colorPattern = /^#[0-9a-f]{6}$/i
+const templateIds = new Set()
+const templateById = new Map()
+for (const template of templateDataset.templates ?? []) {
+  if (!template.id || templateIds.has(template.id)) errors.push(`Ungültige oder doppelte visuelle Template-ID: ${template.id ?? 'fehlt'}`)
+  templateIds.add(template.id)
+  templateById.set(template.id, template)
+  if (!allowedVisualLayouts.has(template.layout)) errors.push(`${template.id}: nicht unterstütztes visuelles Layout`)
+  if (!colorPattern.test(template.accent ?? '') || !colorPattern.test(template.surface ?? '')) {
+    errors.push(`${template.id}: Templatefarben müssen sichere Hex-Werte sein`)
+  }
+}
 const subjectBoilerplates = [
   ['Personalmanagement', /Personalmanagement verbindet/i],
   ['Finanzwirtschaft', /Finanzwirtschaft verbindet/i],
@@ -167,6 +184,35 @@ for (const card of cards) {
       errors.push(`${card.id}: Fallentscheidung benötigt jeweils mindestens drei Optionen`)
     }
   }
+
+  if (card.typ === 'visuelle_zuordnung') {
+    const { template_id: templateId, elemente = [], bereiche = [], richtige_zuordnung: correct = {} } = card.antwort_daten ?? {}
+    const elementIds = new Set(elemente.map((item) => item.id))
+    const areaIds = new Set(bereiche.map((item) => item.id))
+    if (!templateIds.has(templateId)) errors.push(`${card.id}: unbekanntes visuelles Template ${templateId}`)
+    if (elemente.length < 3 || elemente.length > 8 || elementIds.size !== elemente.length) {
+      errors.push(`${card.id}: visuelle Lernwerkbank benötigt 3–8 eindeutige Bausteine`)
+    }
+    if (bereiche.length < 2 || bereiche.length > 4 || areaIds.size !== bereiche.length) {
+      errors.push(`${card.id}: visuelle Lernwerkbank benötigt 2–4 eindeutige Bereiche`)
+    }
+    for (const item of elemente) {
+      if (!item.label || !areaIds.has(correct[item.id])) errors.push(`${card.id}: Baustein ${item.id} besitzt kein gültiges Ziel`)
+    }
+    if (templateById.get(templateId)?.layout === 'matrix' && bereiche.length !== 4) {
+      errors.push(`${card.id}: Entscheidungsmatrix benötigt vier Bereiche`)
+    }
+  }
+
+  if (card.familie_id) {
+    if (!Array.isArray(card.quellenkarten) || !card.quellenkarten.length) errors.push(`${card.id}: Tiefenkarte ohne Quellenkarten`)
+    if (!Array.isArray(card.fachliche_belege) || !card.fachliche_belege.length) errors.push(`${card.id}: Tiefenkarte ohne fachliche Belege`)
+    if (!Array.isArray(card.verwandte_themen) || !card.verwandte_themen.length) errors.push(`${card.id}: Tiefenkarte ohne verwandte Themen`)
+    if (card.ch_fachlich_geprueft !== true) errors.push(`${card.id}: Tiefenkarte nicht CH-fachlich gegengeprüft`)
+    if (/welche(?:n|r|s)?\s+(?:möglichen\s+)?fehler|fehler,\s*(?:die|welche)\s+man/i.test(card.frage ?? '')) {
+      errors.push(`${card.id}: Tiefenkarte fragt nach möglichen Fehlern statt fachlichem Handeln`)
+    }
+  }
 }
 
 if (fs.existsSync(overridesPath)) {
@@ -183,6 +229,48 @@ for (const [optionCount, positions] of stageOneAnswerPositions) {
   const usedPositions = positions.filter((count) => count > 0)
   if (usedPositions.length !== Number(optionCount) || Math.max(...positions) - Math.min(...positions) > 1) {
     errors.push(`Stufe-1-Single-Choice mit ${optionCount} Optionen: unausgewogene Lösungspositionen ${positions.join('/')}`)
+  }
+}
+
+const familyGroups = new Map()
+for (const card of cards.filter((item) => item.familie_id)) {
+  if (!familyGroups.has(card.familie_id)) familyGroups.set(card.familie_id, [])
+  familyGroups.get(card.familie_id).push(card)
+}
+for (const [familyId, familyCards] of familyGroups) {
+  const representedTopics = new Set(familyCards.map((card) => `${card.fach}::${card.thema_id}`))
+  if (familyCards.length < 2 || representedTopics.size < 2) {
+    errors.push(`${familyId}: Kartenfamilie erweitert nicht mindestens zwei verschiedene Themen`)
+  }
+  if (familyCards.length > 3) errors.push(`${familyId}: Kartenfamilie umfasst mehr als drei Karten`)
+  for (const card of familyCards) {
+    for (const sourceId of card.quellenkarten ?? []) {
+      if (!ids.has(sourceId) || familyCards.some((candidate) => candidate.id === sourceId)) {
+        errors.push(`${card.id}: ungültige Quellenkarte ${sourceId}`)
+      }
+    }
+    for (const evidence of card.fachliche_belege ?? []) {
+      if (!card.quellenkarten?.includes(evidence.source_card_id) || !String(evidence.claim ?? '').trim()) {
+        errors.push(`${card.id}: fachlicher Beleg ist nicht an eine Quellenkarte gebunden`)
+      }
+    }
+    for (const related of card.verwandte_themen ?? []) {
+      if (!representedTopics.has(`${related.fach}::${related.thema_id}`)) {
+        errors.push(`${card.id}: verwandtes Thema ${related.fach}::${related.thema_id} wird von der Familie nicht erweitert`)
+      }
+    }
+  }
+}
+
+for (const [topicKey, topicCards] of groups) {
+  const variants = new Map()
+  for (const card of topicCards) {
+    if ((card.ab_lvl ?? 0) === 0) continue
+    const key = `${card.stufe ?? 1}::${card.ab_lvl ?? 0}`
+    variants.set(key, (variants.get(key) ?? 0) + 1)
+  }
+  for (const [stageLevel, count] of variants) {
+    if (count > 3) errors.push(`${topicKey}: ${count} Varianten auf Stufe/LVL ${stageLevel}; maximal drei erlaubt`)
   }
 }
 
@@ -231,7 +319,10 @@ const subjectFiles = {
 for (const [subject, filename] of Object.entries(subjectFiles)) {
   const subjectPath = path.join(path.dirname(dataFile), filename)
   const subjectCards = JSON.parse(fs.readFileSync(subjectPath, 'utf8')).karten ?? []
-  const aggregateCards = cards.filter((card) => card.fach === subject)
+  // Die Fachdateien spiegeln nur den statischen, aggregierten Prüfungsbestand.
+  // Agentenkarten werden zur Laufzeit ergänzt und bleiben bewusst in ihrer
+  // separaten, reviewbaren Datei.
+  const aggregateCards = (dataset.karten ?? []).filter((card) => card.fach === subject)
   if (JSON.stringify(subjectCards) !== JSON.stringify(aggregateCards)) {
     errors.push(`${subject}: Fachdatei stimmt nicht mit dem Gesamtbestand überein`)
   }

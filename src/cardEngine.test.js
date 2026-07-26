@@ -7,6 +7,7 @@ import {
   defaultProgress,
   getLevelDueAt,
   hasAnswer,
+  initialAnswer,
   pickTopicCard
 } from './cardEngine.js'
 
@@ -213,4 +214,31 @@ test('fallentscheidung verlangt passende Massnahme und Begründung', () => {
 
   assert.equal(checkAnswer(card, { entscheidung: 1, begruendung: 2 }), true)
   assert.equal(checkAnswer(card, { entscheidung: 1, begruendung: 0 }), false)
+})
+
+test('visuelle_zuordnung verlangt alle Bausteine im fachlich richtigen Bereich', () => {
+  const card = {
+    typ: 'visuelle_zuordnung',
+    antwort_daten: {
+      elemente: [
+        { id: 'bedarf', label: 'Bedarf klären' },
+        { id: 'kontrolle', label: 'Lieferung prüfen' }
+      ],
+      bereiche: [
+        { id: 'vorher', label: 'Vor Bestellung' },
+        { id: 'nachher', label: 'Nach Lieferung' }
+      ],
+      richtige_zuordnung: {
+        bedarf: 'vorher',
+        kontrolle: 'nachher'
+      }
+    }
+  }
+
+  const answer = initialAnswer(card)
+  assert.deepEqual(answer, { selected: null, placements: {} })
+  assert.equal(hasAnswer(card, answer), false)
+  assert.equal(hasAnswer(card, { selected: null, placements: { bedarf: 'vorher', kontrolle: 'nachher' } }), true)
+  assert.equal(checkAnswer(card, { placements: { bedarf: 'vorher', kontrolle: 'nachher' } }), true)
+  assert.equal(checkAnswer(card, { placements: { bedarf: 'nachher', kontrolle: 'vorher' } }), false)
 })

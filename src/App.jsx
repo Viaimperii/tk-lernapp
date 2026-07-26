@@ -21,7 +21,7 @@ import {
   Undo2,
   X
 } from 'lucide-react'
-import { cards, contentMeta, invalidCards, schemaVersion } from './data'
+import { cards, contentMeta, invalidCards, schemaVersion, visualTemplates } from './data'
 import {
   applyTopicAnswer,
   checkAnswer,
@@ -51,6 +51,7 @@ const subjects = [
 ]
 
 const subjectById = Object.fromEntries(subjects.map((subject) => [subject.id, subject]))
+const visualTemplateById = Object.fromEntries(visualTemplates.map((template) => [template.id, template]))
 const topics = buildTopics(cards)
 
 function readStorage(key, fallback) {
@@ -773,6 +774,7 @@ function TypeBadge({ type }) {
     zahlen_eingabe: 'Selbst berechnen',
     buchungssatz_builder: 'Buchungssatz',
     fallentscheidung: 'Fall entscheiden',
+    visuelle_zuordnung: 'Visuelle Lernwerkbank',
     reihenfolge: 'Reihenfolge',
     zuordnung: 'Zuordnung'
   }
@@ -806,6 +808,9 @@ function AnswerInput({ card, value, onChange, disabled }) {
   }
   if (card.typ === 'fallentscheidung') {
     return <CaseDecisionInput data={card.antwort_daten} value={value} onChange={onChange} disabled={disabled} />
+  }
+  if (card.typ === 'visuelle_zuordnung') {
+    return <VisualMappingInput data={card.antwort_daten} value={value} onChange={onChange} disabled={disabled} />
   }
   if (card.typ === 'reihenfolge') {
     return <OrderInput data={card.antwort_daten} value={value} onChange={onChange} disabled={disabled} />
@@ -952,6 +957,117 @@ function CaseDecisionInput({ data, value, onChange, disabled }) {
           </div>
         )}
       </section>
+    </div>
+  )
+}
+
+function VisualMappingInput({ data, value, onChange, disabled }) {
+  const template = visualTemplateById[data.template_id] ?? visualTemplates[0]
+  const placements = value?.placements ?? {}
+  const selected = value?.selected ?? null
+  const elementById = Object.fromEntries(data.elemente.map((item) => [item.id, item]))
+  const areaClass = template.layout === 'matrix'
+    ? 'grid grid-cols-2 gap-2'
+    : template.layout === 'prozessband'
+      ? 'grid gap-2'
+      : 'grid gap-2 sm:grid-cols-2'
+
+  function selectElement(id) {
+    if (disabled) return
+    onChange({ placements, selected: selected === id ? null : id })
+  }
+
+  function placeIn(areaId) {
+    if (disabled || !selected) return
+    onChange({
+      selected: null,
+      placements: { ...placements, [selected]: areaId }
+    })
+  }
+
+  return (
+    <div className="space-y-4">
+      <section
+        className="overflow-hidden rounded-2xl border-2 bg-white shadow-sm"
+        style={{ borderColor: template.accent }}
+      >
+        <div className="px-4 py-3" style={{ backgroundColor: template.surface }}>
+          <div className="flex items-center justify-between gap-3">
+            <h2 className="text-sm font-black" style={{ color: template.accent }}>{template.name}</h2>
+            <span className="rounded-full bg-white/80 px-2 py-1 text-xs font-black text-slate-700">
+              {Object.keys(placements).length}/{data.elemente.length}
+            </span>
+          </div>
+          <p className="mt-1 text-xs font-bold leading-relaxed text-slate-600">{template.instruction}</p>
+        </div>
+
+        <div className="border-t border-slate-200 p-3">
+          <p className="mb-2 text-[11px] font-black uppercase tracking-[0.14em] text-slate-500">Bausteine</p>
+          <div className="grid gap-2">
+            {data.elemente.map((item) => {
+              const isSelected = selected === item.id
+              const assignedArea = data.bereiche.find((area) => area.id === placements[item.id])
+              return (
+                <button
+                  key={item.id}
+                  className={[
+                    'min-h-[48px] rounded-xl border-2 px-3 py-2 text-left transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2',
+                    isSelected ? 'border-slate-950 bg-slate-950 text-white' : 'border-slate-200 bg-white text-slate-900'
+                  ].join(' ')}
+                  disabled={disabled}
+                  onClick={() => selectElement(item.id)}
+                >
+                  <span className="block text-sm font-black">{item.label}</span>
+                  <span className={['mt-0.5 block text-xs font-semibold', isSelected ? 'text-slate-300' : 'text-slate-500'].join(' ')}>
+                    {assignedArea ? `Liegt in: ${assignedArea.label}` : item.detail ?? 'Noch nicht eingeordnet'}
+                  </span>
+                </button>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      <section className={areaClass}>
+        {data.bereiche.map((area, index) => {
+          const assigned = Object.entries(placements)
+            .filter(([, areaId]) => areaId === area.id)
+            .map(([elementId]) => elementById[elementId])
+            .filter(Boolean)
+          return (
+            <button
+              key={area.id}
+              className={[
+                'relative min-h-[112px] overflow-hidden rounded-2xl border-2 p-3 text-left transition',
+                selected ? 'border-dashed bg-white active:scale-[0.99]' : 'border-slate-200 bg-slate-50'
+              ].join(' ')}
+              style={selected ? { borderColor: template.accent } : undefined}
+              disabled={disabled || !selected}
+              onClick={() => placeIn(area.id)}
+            >
+              {template.layout === 'prozessband' && (
+                <span className="absolute right-3 top-3 grid h-7 w-7 place-items-center rounded-full text-xs font-black text-white" style={{ backgroundColor: template.accent }}>
+                  {index + 1}
+                </span>
+              )}
+              <span className="block pr-8 text-sm font-black text-slate-950">{area.label}</span>
+              {area.hinweis && <span className="mt-1 block text-xs font-semibold leading-relaxed text-slate-500">{area.hinweis}</span>}
+              <span className="mt-3 flex flex-wrap gap-1.5">
+                {assigned.length === 0 && <span className="text-xs font-bold text-slate-400">{selected ? 'Hier ablegen' : 'Noch leer'}</span>}
+                {assigned.map((item) => (
+                  <span key={item.id} className="rounded-lg px-2 py-1 text-xs font-black" style={{ backgroundColor: template.surface, color: template.accent }}>
+                    {item.label}
+                  </span>
+                ))}
+              </span>
+            </button>
+          )
+        })}
+      </section>
+
+      <p className="rounded-xl bg-slate-100 px-3 py-2 text-xs font-bold leading-relaxed text-slate-600">
+        {selected ? 'Wähle jetzt den passenden Bereich.' : template.lernprinzip}
+      </p>
     </div>
   )
 }
@@ -1378,6 +1494,11 @@ function CorrectAnswerPanel({ card }) {
       data.entscheidungen[data.richtig.entscheidung],
       data.begruendungen[data.richtig.begruendung]
     ]} />
+  }
+
+  if (card.typ === 'visuelle_zuordnung') {
+    const areaById = Object.fromEntries(data.bereiche.map((area) => [area.id, area.label]))
+    return <SolutionBox items={data.elemente.map((item) => `${item.label} → ${areaById[data.richtige_zuordnung[item.id]]}`)} />
   }
 
   if (card.typ === 'reihenfolge') {

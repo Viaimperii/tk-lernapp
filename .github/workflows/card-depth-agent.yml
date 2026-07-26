@@ -1,20 +1,10 @@
-name: Improve learning cards
+name: Deepen related learning topics
 
 on:
   schedule:
-    - cron: '15 2 * * *'
+    - cron: '30 2 * * *'
       timezone: Europe/Zurich
   workflow_dispatch:
-    inputs:
-      batch_size:
-        description: Number of cards to review (maximum 12)
-        required: false
-        default: '12'
-        type: choice
-        options:
-          - '4'
-          - '8'
-          - '12'
 
 permissions:
   contents: write
@@ -22,17 +12,16 @@ permissions:
   models: read
 
 concurrency:
-  group: card-improvement-agent
+  group: card-depth-agent
   cancel-in-progress: false
 
 jobs:
-  improve:
+  deepen:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
-      AGENT_BRANCH: automation/card-quality-loop
-      CARD_AGENT_BATCH_SIZE: ${{ github.event.inputs.batch_size || '12' }}
-      GITHUB_MODEL: openai/gpt-4.1
+      AGENT_BRANCH: automation/card-depth-loop
+      GITHUB_DEPTH_MODEL: openai/gpt-4.1
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
@@ -41,7 +30,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Continue persistent agent branch
+      - name: Continue persistent depth branch
         shell: bash
         run: |
           git fetch origin main
@@ -64,7 +53,7 @@ jobs:
           fi
           LOCAL_COMMIT=$(git log \
             --since='6 hours ago' \
-            --grep='^Local Codex quality batch ' \
+            --grep='^Local Codex depth batch ' \
             --format='%H' \
             -1)
           if [ -n "$LOCAL_COMMIT" ]; then
@@ -85,19 +74,9 @@ jobs:
         if: steps.hybrid.outputs.skip != 'true'
         run: npm ci
 
-      - name: Review next card batch
+      - name: Build next depth family
         if: steps.hybrid.outputs.skip != 'true'
-        run: node scripts/card-improvement-agent.mjs
-
-      - name: Regenerate learning data twice
-        if: steps.hybrid.outputs.skip != 'true'
-        shell: bash
-        run: |
-          node scripts/update-learning-content.mjs
-          git diff -- src/data > /tmp/first-generation.diff
-          node scripts/update-learning-content.mjs
-          git diff -- src/data > /tmp/second-generation.diff
-          diff -u /tmp/first-generation.diff /tmp/second-generation.diff
+        run: node scripts/card-depth-agent.mjs
 
       - name: Run quality gates
         if: steps.hybrid.outputs.skip != 'true'
@@ -117,7 +96,7 @@ jobs:
             reports/kartenqualitaet_2026-07-23.json \
             reports/kartenqualitaet_2026-07-23.md
 
-      - name: Commit verified batch
+      - name: Commit verified depth batch
         if: steps.hybrid.outputs.skip != 'true'
         id: commit
         shell: bash
@@ -126,18 +105,19 @@ jobs:
             echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          BATCH=$(node -e "const s=require('./reports/agent-card-loop-state.json'); process.stdout.write(String(s.batch))")
-          git config user.name "tk-card-quality-agent[bot]"
-          git config user.email "tk-card-quality-agent[bot]@users.noreply.github.com"
+          BATCH=$(node -e "const s=require('./reports/depth-agent-loop-state.json'); process.stdout.write(String(s.batch))")
+          git config user.name "tk-card-depth-agent[bot]"
+          git config user.email "tk-card-depth-agent[bot]@users.noreply.github.com"
           git add \
-            reports/agent-card-loop-state.json \
-            src/data/pruefungs_app_final_lerntauglich
-          git commit -m "Improve learning cards batch $BATCH"
+            reports/depth-agent-loop-state.json \
+            src/data/depth-agent-cards.json \
+            src/data/learning-visual-templates.json
+          git commit -m "Deepen related learning topics batch $BATCH"
           git push --force-with-lease origin "$AGENT_BRANCH"
           echo "changed=true" >> "$GITHUB_OUTPUT"
           echo "batch=$BATCH" >> "$GITHUB_OUTPUT"
 
-      - name: Create or update pull request
+      - name: Update review pull request
         if: steps.hybrid.outputs.skip != 'true' && steps.commit.outputs.changed == 'true'
         shell: bash
         env:
@@ -145,12 +125,12 @@ jobs:
         run: |
           PR_NUMBER=$(gh pr list --head "$AGENT_BRANCH" --base main --state open --json number --jq '.[0].number')
           if [ -n "$PR_NUMBER" ]; then
-            gh pr comment "$PR_NUMBER" --body "Batch ${{ steps.commit.outputs.batch }} wurde ergänzt und hat alle Qualitätsprüfungen bestanden."
+            gh pr comment "$PR_NUMBER" --body "Tiefen-Batch ${{ steps.commit.outputs.batch }} wurde ergänzt und hat die CH-Fachprüfung sowie alle technischen Qualitätsprüfungen bestanden."
           else
             COMPARE_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/compare/main...${AGENT_BRANCH}?expand=1"
-            echo "::notice title=Agent-Branch bereit::Öffne den Review-Pull-Request unter ${COMPARE_URL}"
+            echo "::notice title=Tiefen-Agent bereit::Öffne den Review-Pull-Request unter ${COMPARE_URL}"
             {
-              echo "## Karten-Qualitätsagent"
+              echo "## Tiefen-Agent"
               echo
               echo "Der geprüfte Batch liegt auf \`${AGENT_BRANCH}\`."
               echo "[Pull Request zum Prüfen öffnen](${COMPARE_URL})"
