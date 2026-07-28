@@ -15,6 +15,21 @@
       ],
       "created_at": "2026-07-25T01:07:02.256Z",
       "model": "openai/gpt-4.1"
+    },
+    {
+      "id": "depth_0002_aufgaben_der_finanzbuchhaltung_technologiemanagement",
+      "batch": 2,
+      "bridge": "Bei der Einführung einer neuen Buchhaltungssoftware definiert die Finanzbuchhaltung die fachlichen Muss-Ergebnisse, während das Technologiemanagement die Technologieinvestition nach strategischem Nutzen beurteilt, plant und steuert.",
+      "topic_keys": [
+        "Finanzwirtschaft::aufgaben_der_finanzbuchhaltung",
+        "Unternehmensfuehrung::technologiemanagement"
+      ],
+      "card_ids": [
+        "depth_0002_aufgaben_der_finanzbuchhaltung_technologiemanagement_1",
+        "depth_0002_aufgaben_der_finanzbuchhaltung_technologiemanagement_2"
+      ],
+      "created_at": "2026-07-28T16:32:20.238Z",
+      "model": "codex-app/gpt-5.6-sol"
     }
   ],
   "cards": [
@@ -175,6 +190,177 @@
         "depth_gain": true,
         "visual_efficiency": true
       }
+    },
+    {
+      "id": "depth_0002_aufgaben_der_finanzbuchhaltung_technologiemanagement_1",
+      "familie_id": "depth_0002_aufgaben_der_finanzbuchhaltung_technologiemanagement",
+      "fach": "Finanzwirtschaft",
+      "thema_id": "aufgaben_der_finanzbuchhaltung",
+      "thema": "Aufgaben der Finanzbuchhaltung",
+      "stufe": 3,
+      "ab_lvl": 2,
+      "typ": "lueckentext_auswahl",
+      "lernziel": "Fachliche Muss-Anforderungen an ein neues Finanzbuchhaltungssystem aus den Aufgaben der Finanzbuchhaltung ableiten.",
+      "frage": "Ein KMU ersetzt seine Buchhaltungssoftware. Ergänzen Sie die fachliche Muss-Anforderung: Das System muss [1], daraus [2] erstellen und die Ergebnisse für [3] bereitstellen.",
+      "aufgaben_hinweis": "Wählen Sie für jede nummerierte Lücke die fachlich passende Formulierung.",
+      "antwort_daten": {
+        "luecken_mc": [
+          {
+            "position": 1,
+            "optionen": [
+              "ausschliesslich die Löhne berechnen und auszahlen",
+              "nur das Budget des nächsten Geschäftsjahres planen",
+              "sämtliche Geschäftsfälle lückenlos erfassen"
+            ],
+            "richtig_index": 2,
+            "richtig": "sämtliche Geschäftsfälle lückenlos erfassen"
+          },
+          {
+            "position": 2,
+            "optionen": [
+              "Bilanz und Erfolgsrechnung",
+              "eine Kalkulation über sämtliche Produkte",
+              "eine Unter- oder Überdeckung pro Kostenstelle"
+            ],
+            "richtig_index": 0,
+            "richtig": "Bilanz und Erfolgsrechnung"
+          },
+          {
+            "position": 3,
+            "optionen": [
+              "interne Kostenstellen",
+              "aussenstehende Adressaten",
+              "einzelne Produkte"
+            ],
+            "richtig_index": 1,
+            "richtig": "aussenstehende Adressaten"
+          }
+        ]
+      },
+      "erklaerung": "Die Finanzbuchhaltung erfasst sämtliche Geschäftsfälle lückenlos und erstellt daraus Bilanz und Erfolgsrechnung für aussenstehende Adressaten. Damit stellt sie insbesondere Vermögen und Schulden dar.",
+      "abschlusserklaerung": "Die Finanzbuchhaltung erfasst sämtliche Geschäftsfälle lückenlos und erstellt daraus Bilanz und Erfolgsrechnung für aussenstehende Adressaten. Damit stellt sie insbesondere Vermögen und Schulden dar.",
+      "merksatz": "Ein Finanzbuchhaltungssystem muss Geschäftsfälle vollständig erfassen und daraus die externe Rechnungslegung ermöglichen.",
+      "quellenkarten": [
+        "pr2025_finanzwirtschaft_1_16_thema_stufe3",
+        "pr2022_finanzwirtschaft_1_3_choice_stufe3"
+      ],
+      "fachliche_belege": [
+        {
+          "claim": "Die Finanzbuchhaltung erfasst sämtliche Geschäftsfälle lückenlos und erstellt daraus Bilanz und Erfolgsrechnung für aussenstehende Adressaten.",
+          "source_card_id": "pr2025_finanzwirtschaft_1_16_thema_stufe3"
+        },
+        {
+          "claim": "Eine Hauptaufgabe der Finanzbuchhaltung ist die Darstellung des Vermögens und der Schulden.",
+          "source_card_id": "pr2022_finanzwirtschaft_1_3_choice_stufe3"
+        }
+      ],
+      "verwandte_themen": [
+        {
+          "fach": "Unternehmensfuehrung",
+          "thema_id": "technologiemanagement",
+          "begruendung": "Bei der Einführung einer neuen Buchhaltungssoftware definiert die Finanzbuchhaltung die fachlichen Muss-Ergebnisse, während das Technologiemanagement die Technologieinvestition nach strategischem Nutzen beurteilt, plant und steuert."
+        }
+      ],
+      "ch_kontext": "Schweizer Prüfung Technische Kaufleute",
+      "ch_fachlich_geprueft": true,
+      "agenten_review": {
+        "reviewed_at": "2026-07-28T16:32:20.238Z",
+        "model": "codex-app/gpt-5.6-sol",
+        "reason": "Unabhängige Fachprüfung bestanden: Alle neun Lückenoptionen wurden simuliert. Die drei Lösungen entsprechen den Zielquellen; die sechs Distraktoren werden durch die dort geprüfte Abgrenzung zu Budgetierung, Lohnzahlung, Produktkalkulation und Kostenstellenrechnung ausgeschlossen. Die Karte bleibt auf der höchsten Themenstufe, steigert ab_lvl von 1 auf 2 und ist ohne Beilage eindeutig lösbar. Es wurden keine Zahlen, Fristen oder Rechtsgrundlagen ergänzt; eine Visualisierung bietet keinen zusätzlichen räumlichen Lernnutzen.",
+        "ch_fachlich_korrekt": true,
+        "theme_fit": true,
+        "depth_gain": true,
+        "visual_efficiency": true
+      },
+      "quelle": {
+        "typ": "agenten_vertiefung",
+        "quellenkarten": [
+          "pr2025_finanzwirtschaft_1_16_thema_stufe3",
+          "pr2022_finanzwirtschaft_1_3_choice_stufe3"
+        ]
+      },
+      "tags": [
+        "tiefenkarte",
+        "ab_lvl_2",
+        "familie_depth_0002_aufgaben_der_finanzbuchhaltung_technologiemanagement"
+      ]
+    },
+    {
+      "id": "depth_0002_aufgaben_der_finanzbuchhaltung_technologiemanagement_2",
+      "familie_id": "depth_0002_aufgaben_der_finanzbuchhaltung_technologiemanagement",
+      "fach": "Unternehmensfuehrung",
+      "thema_id": "technologiemanagement",
+      "thema": "Technologiemanagement",
+      "stufe": 3,
+      "ab_lvl": 1,
+      "typ": "fallentscheidung",
+      "lernziel": "Eine Technologieinvestition mit einem strategischen Instrument beurteilen und auf langfristige Wettbewerbsfähigkeit ausrichten.",
+      "frage": "Ein KMU will eine neue Buchhaltungssoftware einführen. Ziel ist, die Investitionsentscheidung strategisch abzustützen und den Technologieeinsatz auf langfristige Wettbewerbsfähigkeit auszurichten. Welche Vorgehensweise erfüllt dieses Entscheidungskriterium?",
+      "aufgaben_hinweis": "Wählen Sie die Vorgehensweise und die dazu passende fachliche Begründung.",
+      "antwort_daten": {
+        "entscheidungskriterium": "Die Investitionsentscheidung strategisch abstützen und den Technologieeinsatz auf langfristige Wettbewerbsfähigkeit ausrichten",
+        "entscheidungen": [
+          "Die neueste Software allein wegen ihres Neuheitsgrads kaufen und unabhängig von der Unternehmensstrategie einsetzen.",
+          "Die Optionen mit einem Technologieportfolio nach ihrem strategischen Nutzen vergleichen und den Einsatz der gewählten Software planen und steuern.",
+          "Das Technologieportfolio ausschliesslich zur Beurteilung der technischen Kompetenzen der Mitarbeitenden verwenden."
+        ],
+        "begruendungen": [
+          "Der Neuheitsgrad allein belegt keinen strategischen Nutzen und richtet den Technologieentscheid nicht auf die Unternehmensstrategie aus.",
+          "Das Technologieportfolio ist ein strategisches Instrument, unterstützt Investitionsentscheidungen und die Planung und Steuerung von Technologien dient der langfristigen Wettbewerbsfähigkeit.",
+          "Die ausschliessliche Beurteilung von Mitarbeitendenkompetenzen ist nicht die Aufgabe des Technologieportfolios und beurteilt die Technologieinvestition nicht."
+        ],
+        "richtig": {
+          "entscheidung": 1,
+          "begruendung": 1
+        }
+      },
+      "erklaerung": "Nur die zweite Vorgehensweise verbindet die strategische Investitionsbeurteilung mit der Planung und Steuerung des Technologieeinsatzes. Ein Technologieportfolio unterstützt Investitionsentscheidungen; Technologiemanagement richtet den Einsatz auf langfristige Wettbewerbsfähigkeit aus.",
+      "abschlusserklaerung": "Nur die zweite Vorgehensweise verbindet die strategische Investitionsbeurteilung mit der Planung und Steuerung des Technologieeinsatzes. Ein Technologieportfolio unterstützt Investitionsentscheidungen; Technologiemanagement richtet den Einsatz auf langfristige Wettbewerbsfähigkeit aus.",
+      "merksatz": "Technologieinvestitionen werden nach strategischem Nutzen beurteilt und anschliessend zielgerichtet geplant und gesteuert.",
+      "quellenkarten": [
+        "pr2025_unternehmensfuehrung_1_11_choice_stufe3",
+        "pr2022_unternehmensfuehrung_2_5_thema_stufe3"
+      ],
+      "fachliche_belege": [
+        {
+          "claim": "Das Technologieportfolio ist ein strategisches Instrument und unterstützt Investitionsentscheidungen.",
+          "source_card_id": "pr2025_unternehmensfuehrung_1_11_choice_stufe3"
+        },
+        {
+          "claim": "Technologiemanagement plant und steuert den Einsatz von Technologien, um die Wettbewerbsfähigkeit langfristig zu sichern, und wägt Investitionen gegen ihren strategischen Nutzen ab.",
+          "source_card_id": "pr2022_unternehmensfuehrung_2_5_thema_stufe3"
+        }
+      ],
+      "verwandte_themen": [
+        {
+          "fach": "Finanzwirtschaft",
+          "thema_id": "aufgaben_der_finanzbuchhaltung",
+          "begruendung": "Bei der Einführung einer neuen Buchhaltungssoftware definiert die Finanzbuchhaltung die fachlichen Muss-Ergebnisse, während das Technologiemanagement die Technologieinvestition nach strategischem Nutzen beurteilt, plant und steuert."
+        }
+      ],
+      "ch_kontext": "Schweizer Prüfung Technische Kaufleute",
+      "ch_fachlich_geprueft": true,
+      "agenten_review": {
+        "reviewed_at": "2026-07-28T16:32:20.238Z",
+        "model": "codex-app/gpt-5.6-sol",
+        "reason": "Unabhängige Fachprüfung bestanden: Alle drei Vorgehensweisen und alle drei Begründungen wurden gegen die Zielquellen und das ausdrücklich genannte Entscheidungskriterium simuliert. Nur die mittlere Vorgehensweise nutzt das Technologieportfolio als strategisches Instrument für die Investitionsentscheidung und verbindet dies mit Planung und Steuerung für langfristige Wettbewerbsfähigkeit. Die beiden Alternativen sind durch die Quellen eindeutig ausgeschlossen. Die Karte bleibt auf der höchsten Themenstufe und ist ohne Beilage lokal lösbar; eine Visualisierung bietet keinen zusätzlichen räumlichen Lernnutzen.",
+        "ch_fachlich_korrekt": true,
+        "theme_fit": true,
+        "depth_gain": true,
+        "visual_efficiency": true
+      },
+      "quelle": {
+        "typ": "agenten_vertiefung",
+        "quellenkarten": [
+          "pr2025_unternehmensfuehrung_1_11_choice_stufe3",
+          "pr2022_unternehmensfuehrung_2_5_thema_stufe3"
+        ]
+      },
+      "tags": [
+        "tiefenkarte",
+        "ab_lvl_1",
+        "familie_depth_0002_aufgaben_der_finanzbuchhaltung_technologiemanagement"
+      ]
     }
   ]
 }
