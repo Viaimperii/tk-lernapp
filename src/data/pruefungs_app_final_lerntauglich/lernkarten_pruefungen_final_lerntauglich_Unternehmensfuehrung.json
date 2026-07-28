@@ -3671,22 +3671,22 @@
       "fach": "Unternehmensfuehrung",
       "quelle_id": "2023:Unternehmensfuehrung:2.4",
       "quelle_pdf": "2023/Aufgaben/DE_2023_Aufgaben_Unternehmensfuehrung.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Organisation / Prozesse lösen.",
+      "lernziel": "Bei einer Reorganisation Struktur, Verantwortlichkeiten und Prozessschnittstellen aufeinander abstimmen.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Grundsätze zu „Organisation / Prozesse“ sind richtig?",
+      "frage": "Ein Unternehmen bündelt Verkauf und Kundendienst in einem neuen Bereich. Danach entstehen Doppelspurigkeiten, weil Zuständigkeiten und Übergaben unklar sind. Welche zwei Massnahmen sind sachgerecht?",
       "antwort_daten": {
         "optionen": [
-          "Auf Unternehmensführungsebene legt die Aufbauorganisation die Gesamtstruktur fest, die Ablauforganisation regelt unternehmensweite Kernprozesse.",
-          "Prüfungsnah ist, strategische Reorganisationsentscheide (z.B. neue Abteilungsstruktur) von der operativen Prozessgestaltung zu unterscheiden.",
-          "Prozesse müssen nach einer Reorganisation nicht angepasst werden.",
-          "Die Aufbauorganisation hat keinen Einfluss auf die Ablauforganisation. Dabei werden Anspruchsgruppen, Ressourcen und langfristige Auswirkungen fälschlich als nicht entscheidungsrelevant behandelt."
+          "Die bestehenden Abläufe unverändert lassen, weil das neue Organigramm die Zusammenarbeit automatisch eindeutig regelt.",
+          "Rollen, Entscheidungsbefugnisse und Verantwortlichkeiten des neuen Bereichs verbindlich festlegen.",
+          "Zuerst eine Workflow-Software beschaffen und die Prozesse erst nach deren Einführung analysieren.",
+          "Den End-to-End-Prozess mit Übergaben, Informationen und Kontrollen an die neue Struktur anpassen."
         ],
         "richtige_indices": [
-          0,
-          1
+          1,
+          3
         ]
       },
-      "erklaerung": "Auf Unternehmensführungsebene legt die Aufbauorganisation die Gesamtstruktur fest, die Ablauforganisation regelt unternehmensweite Kernprozesse. Prüfungsnah ist, strategische Reorganisationsentscheide (z.B. neue Abteilungsstruktur) von der operativen Prozessgestaltung zu unterscheiden.",
+      "erklaerung": "Eine neue Aufbauorganisation verändert Zuständigkeiten, löst aber Schnittstellenprobleme nicht automatisch. Rollen und Abläufe müssen gemeinsam gestaltet werden.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -3713,8 +3713,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
       },
       "loesungsvorschlag": {
-        "kurz": "Auf Unternehmensführungsebene legt die Aufbauorganisation die Gesamtstruktur fest, die Ablauforganisation regelt unternehmensweite Kernprozesse. Prüfungsnah ist, strategische Reorganisationsentscheide (z.B. neue Abteilungsstruktur) von der operativen Prozessgestaltung zu unterscheiden.",
-        "warum": "Auf Unternehmensführungsebene legt die Aufbauorganisation die Gesamtstruktur fest, die Ablauforganisation regelt unternehmensweite Kernprozesse. Prüfungsnah ist, strategische Reorganisationsentscheide (z.B. neue Abteilungsstruktur) von der operativen Prozessgestaltung zu unterscheiden."
+        "kurz": "Verantwortlichkeiten in der Struktur klären und den betroffenen Gesamtprozess samt Übergaben neu gestalten.",
+        "warum": "Nur die abgestimmte Gestaltung von Aufbau- und Ablauforganisation beseitigt Doppelarbeit und Lücken."
       },
       "fehlerfallen": [],
       "review": {
@@ -3727,9 +3727,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Eine neue Struktur ohne angepasste Prozesse bleibt nur ein Organigramm.",
-      "abschlusserklaerung": "Auf Unternehmensführungsebene legt die Aufbauorganisation die Gesamtstruktur fest, die Ablauforganisation regelt unternehmensweite Kernprozesse. Prüfungsnah ist, strategische Reorganisationsentscheide (z.B. neue Abteilungsstruktur) von der operativen Prozessgestaltung zu unterscheiden.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit."
+      "merksatz": "Neue Struktur und neue Abläufe müssen zusammenpassen.",
+      "abschlusserklaerung": "Klare Rollen beseitigen Zuständigkeitskonflikte; angepasste Übergaben machen die Reorganisation im Tagesgeschäft wirksam.",
+      "aufgaben_hinweis": "Unterscheide organisatorische Zuständigkeit von zeitlichem und sachlichem Prozessablauf."
     },
     {
       "id": "pr2023_unternehmensfuehrung_3_2_loesungspunkte_stufe3",

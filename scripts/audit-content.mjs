@@ -116,8 +116,8 @@ for (const card of cards) {
     if (optionen.length > 1 && optionen[correctIndex]) {
       const correctLength = String(optionen[correctIndex]).length
       const longestIncorrect = Math.max(...optionen.map((option, index) => index === correctIndex ? 0 : String(option).length))
-      if (correctLength >= longestIncorrect) {
-        errors.push(`${card.id}: richtige Single-Choice-Antwort ist die längste Option`)
+      if (correctLength > longestIncorrect) {
+        errors.push(`${card.id}: richtige Single-Choice-Antwort ist die eindeutig längste Option`)
       }
     }
     if (card.stufe === 1 && optionen.length > 1 && optionen[correctIndex]) {

@@ -5253,22 +5253,22 @@
       "fach": "Marketing_Verkauf",
       "quelle_id": "2025:Marketing_Verkauf:3.2",
       "quelle_pdf": "2025/Aufgaben/Marketing_Aufgaben_2025.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Rechtliche Grundlagen lösen.",
+      "lernziel": "Werbeaussagen und behauptete Rückgaberechte anhand der konkreten rechtlichen und vertraglichen Grundlage prüfen.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Aussagen erklären „Rechtliche Grundlagen“ fachlich richtig?",
+      "frage": "Ein Schweizer Onlineshop wirbt mit «40 % günstiger», kann den verwendeten Vergleichspreis aber nicht belegen. Eine Kundin verlangt zudem eine Rückgabe ohne Mangel; die AGB enthalten dazu keine klare Regel. Welche zwei Prüfungen sind sachgerecht?",
       "antwort_daten": {
         "optionen": [
-          "Nur interne Verkaufsrichtlinien ohne gesetzliche Basis.",
-          "Ausschliesslich das Arbeitsrecht der Verkaufsmitarbeitenden. Dabei werden Markt, Zielgruppe und Kundenbedürfnisse fälschlich als unveränderlich behandelt.",
-          "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant.",
-          "Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden."
+          "Vergleichspreis und Werbeaussage auf Nachweisbarkeit prüfen und die Aussage nötigenfalls anpassen.",
+          "Die Werbung ohne weitere Prüfung freigeben, weil kurzfristige Onlineaktionen von Lauterkeitsregeln ausgenommen sind.",
+          "Vertrag, AGB und anwendbare Rechtsgrundlage prüfen, statt ein allgemeines Rückgaberecht vorauszusetzen.",
+          "Die Rückgabe automatisch ablehnen, ohne zugesicherte Bedingungen oder eine besondere Rechtsgrundlage zu prüfen."
         ],
         "richtige_indices": [
-          2,
-          3
+          0,
+          2
         ]
       },
-      "erklaerung": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden.",
+      "erklaerung": "Werbeaussagen müssen sachlich überprüfbar und rechtlich zulässig sein. Ein Rückgabe- oder Widerrufsrecht darf im Schweizer Onlinehandel nicht pauschal angenommen oder verneint werden, sondern ist anhand von Vertrag, AGB und anwendbarer Rechtsgrundlage zu prüfen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -5295,8 +5295,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
       },
       "loesungsvorschlag": {
-        "kurz": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden.",
-        "warum": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden."
+        "kurz": "Die Preiswerbung belegen und den Rückgabewunsch anhand der konkret geltenden vertraglichen und rechtlichen Grundlage beurteilen.",
+        "warum": "Pauschale Annahmen über Werbung oder Rückgaberechte können zu falschen Verkaufsentscheiden und irreführender Kundenkommunikation führen."
       },
       "fehlerfallen": [],
       "review": {
@@ -5309,9 +5309,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Verkaufen mit Recht heisst: Vertrag, Gewährleistung und faire Werbung zusammen denken.",
-      "abschlusserklaerung": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit."
+      "merksatz": "Werbung belegen, Rückgaberechte konkret prüfen.",
+      "abschlusserklaerung": "Der Shop muss die Rabattbehauptung nachvollziehbar prüfen und den Rückgabewunsch auf eine konkrete Grundlage abstützen.",
+      "aufgaben_hinweis": "Trenne die lauterkeitsrechtliche Werbeprüfung von der vertraglichen Rückgabefrage."
     },
     {
       "id": "pr2025_marketing_verkauf_3_3_loesungspunkte_stufe3",

@@ -372,6 +372,344 @@
         "aufgaben_hinweis": "Verwechsle die wirtschaftliche Begründung nicht mit der rechtlichen Zulässigkeit.",
         "abschlusserklaerung": "Der Nachfragerückgang begründet die wirtschaftliche Prüfung; arbeitsrechtliche Anforderungen bleiben für die konkrete Umsetzung verbindlich."
       }
+    },
+    "pr2022_personalmanagement_3_3_thema_stufe3": {
+      "batch": 4,
+      "updated_at": "2026-07-28T16:33:02.528Z",
+      "reason": "Die generische Grundsatzfrage wurde durch zwei unterschiedlich anspruchsvolle Führungssituationen ersetzt, in denen der Führungsstil passend zu Aufgabe und Erfahrung gewählt werden muss.",
+      "quality_before": 3,
+      "quality_after": 5,
+      "patch": {
+        "lernziel": "Den Führungsstil an Erfahrung, Aufgabe und Unterstützungsbedarf von Mitarbeitenden anpassen.",
+        "frage": "Eine neue Mitarbeiterin bearbeitet erstmals kritische Kundenreklamationen; ein erfahrener Mitarbeiter erstellt seit Jahren selbstständig den Monatsreport. Welche zwei Führungsreaktionen sind angemessen?",
+        "antwort_daten": {
+          "optionen": [
+            "Beiden werden sämtliche Arbeitsschritte dauerhaft vorgeschrieben, damit die Führungskraft jederzeit die volle Kontrolle behält.",
+            "Die neue Mitarbeiterin erhält klare Schritte, Entscheidungslimiten und zeitnahes Feedback zu den ersten Fällen.",
+            "Die neue Mitarbeiterin übernimmt die Reklamationen sofort ohne Rückfragen, damit sie möglichst rasch Selbstständigkeit beweist.",
+            "Der erfahrene Mitarbeiter erhält Ergebnisrahmen und Entscheidungsspielraum; vereinbarte Kontrollpunkte sichern die Abstimmung."
+          ],
+          "richtige_indices": [
+            1,
+            3
+          ]
+        },
+        "erklaerung": "Situatives Führen richtet Unterstützung und Delegation nach Aufgabe und Erfahrung aus. Bei einer neuen, risikoreichen Aufgabe braucht es mehr Anleitung; bei einer beherrschten Routineaufgabe sind Ergebnisorientierung und angemessener Spielraum sinnvoll.",
+        "loesungsvorschlag": {
+          "kurz": "Die neue Mitarbeiterin eng anleiten und dem erfahrenen Mitarbeiter innerhalb eines klaren Rahmens Handlungsspielraum geben.",
+          "warum": "Gleiche Führung für unterschiedliche Ausgangslagen führt entweder zu Überforderung oder unnötiger Kontrolle."
+        },
+        "merksatz": "So viel Führung wie nötig, so viel Selbstständigkeit wie möglich.",
+        "aufgaben_hinweis": "Vergleiche Erfahrung, Aufgabenrisiko und benötigte Unterstützung.",
+        "abschlusserklaerung": "Die neue Mitarbeiterin braucht Orientierung und Feedback; der erfahrene Mitarbeiter kann mit klaren Zielen und Kontrollpunkten selbstständig arbeiten."
+      }
+    },
+    "pr2025_problemloesung_entscheidung_1_3_thema_stufe3": {
+      "batch": 4,
+      "updated_at": "2026-07-28T16:33:02.528Z",
+      "reason": "Statt zwei abstrakte Regeln abzufragen, verlangt die Karte nun eine nachvollziehbare Ursachenanalyse vor einem Marketingentscheid.",
+      "quality_before": 3,
+      "quality_after": 5,
+      "patch": {
+        "lernziel": "Bei einem Verkaufsproblem Ursachen anhand geeigneter Daten prüfen, bevor eine Massnahme entschieden wird.",
+        "frage": "Die Zahl der Websitebesuche bleibt stabil, aber Wiederkäufe gehen deutlich zurück. Das Team möchte sofort einen allgemeinen Rabatt starten. Welche zwei Schritte sind vor dem Entscheid sinnvoll?",
+        "antwort_daten": {
+          "optionen": [
+            "Den Rabatt sofort ausrollen, weil sinkende Wiederkäufe bereits beweisen, dass der Preis die einzige Ursache ist.",
+            "Kaufabbrüche, Reklamationen und Wiederkaufraten nach Kundengruppe und Produkt vergleichen.",
+            "Eine einzelne negative Kundenmeldung als Hauptursache festlegen und die übrigen Daten nicht weiter auswerten.",
+            "Mehrere plausible Ursachen formulieren und mit den verfügbaren Daten prüfen, bevor eine Massnahme gewählt wird."
+          ],
+          "richtige_indices": [
+            1,
+            3
+          ]
+        },
+        "erklaerung": "Stabile Besuche bei sinkenden Wiederkäufen können verschiedene Ursachen haben. Segmentierte Daten und überprüfbare Ursachen verhindern, dass eine teure Massnahme auf einer blossen Vermutung basiert.",
+        "loesungsvorschlag": {
+          "kurz": "Relevante Verkaufs- und Rückmeldedaten segmentieren, Ursachenhypothesen prüfen und erst danach eine passende Massnahme wählen.",
+          "warum": "Ein Rabatt behandelt nur die Preisursache und kann wirkungslos bleiben, wenn beispielsweise Produktqualität oder Service den Rückgang auslösen."
+        },
+        "merksatz": "Erst Ursache belegen, dann Massnahme entscheiden.",
+        "aufgaben_hinweis": "Trenne beobachtetes Symptom, mögliche Ursache und gewählte Massnahme.",
+        "abschlusserklaerung": "Die Entscheidung wird belastbar, wenn das Team Daten vergleicht und mehrere Ursachen prüft, bevor es den Rabatt freigibt."
+      }
+    },
+    "pr2024_recht_vwl_1_17_thema_stufe3": {
+      "batch": 4,
+      "updated_at": "2026-07-28T16:33:02.528Z",
+      "reason": "Die Methodenfrage wurde in einen vollständigen Rechtsfall überführt, der Sachverhaltsklärung und Subsumtion statt Prüfungsmetasprache verlangt.",
+      "quality_before": 3,
+      "quality_after": 5,
+      "patch": {
+        "lernziel": "Bei einer behaupteten verspäteten Lieferung Sachverhalt, Rechtsnorm und Rechtsfolge methodisch verbinden.",
+        "frage": "Eine Käuferin verlangt Schadenersatz wegen verspäteter Lieferung. Aus den Unterlagen ist noch unklar, welcher Liefertermin vereinbart wurde und welche Mitteilungen danach erfolgten. Welche zwei Schritte sind methodisch richtig?",
+        "antwort_daten": {
+          "optionen": [
+            "Vertrag, Bestellbestätigung und spätere Kommunikation auswerten, um Termin und Ablauf festzustellen.",
+            "Den Anspruch nach allgemeiner Plausibilität beurteilen, ohne die Voraussetzungen der einschlägigen Norm einzeln zu prüfen.",
+            "Die verlangte Rechtsfolge sofort zusprechen, weil eine verspätete Lieferung behauptet wurde.",
+            "Die belegten Tatsachen den Voraussetzungen der passenden Norm zuordnen und daraus die Rechtsfolge ableiten."
+          ],
+          "richtige_indices": [
+            0,
+            3
+          ]
+        },
+        "erklaerung": "Eine Rechtsfolge setzt einen geklärten rechtserheblichen Sachverhalt voraus. Erst danach werden die Tatsachen unter die Voraussetzungen der einschlägigen Norm eingeordnet.",
+        "loesungsvorschlag": {
+          "kurz": "Liefervereinbarung und Kommunikation belegen, anschliessend die festgestellten Tatsachen unter die passende Norm subsumieren.",
+          "warum": "Ohne geklärten Termin und Ablauf lässt sich nicht zuverlässig beurteilen, ob die gesetzlichen Voraussetzungen der verlangten Rechtsfolge erfüllt sind."
+        },
+        "merksatz": "Sachverhalt klären, Norm prüfen, Rechtsfolge ableiten.",
+        "aufgaben_hinweis": "Entscheide nicht über die Rechtsfolge, bevor die rechtserheblichen Tatsachen feststehen.",
+        "abschlusserklaerung": "Die Unterlagen liefern den massgeblichen Sachverhalt; die Subsumtion zeigt danach, ob der geltend gemachte Anspruch besteht."
+      }
+    },
+    "pr2022_scm_2_1_loesungspunkte_stufe3": {
+      "batch": 4,
+      "updated_at": "2026-07-28T16:33:02.528Z",
+      "reason": "Die losen Aussagen zur Rechnungsprüfung wurden durch einen konkreten Drei-Belege-Abgleich mit Mengen- und Preisabweichung ersetzt.",
+      "quality_before": 3,
+      "quality_after": 5,
+      "patch": {
+        "lernziel": "Abweichungen zwischen Bestellung, Wareneingang und Rechnung erkennen und vor der Zahlung klären.",
+        "frage": "Bestellt wurden 500 Stück zu CHF 12.00. Der Wareneingang bestätigt 480 Stück, die Rechnung nennt 500 Stück zu CHF 12.50. Welche zwei Vorgehensweisen sind richtig?",
+        "antwort_daten": {
+          "optionen": [
+            "Die Rechnung freigeben, weil die bestellte Menge aufgeführt ist und Preisabweichungen erst nach der Zahlung geprüft werden.",
+            "Menge und Preis mit Bestellung und Wareneingang abgleichen und die Rechnung bis zur Klärung sperren.",
+            "Nur die rechnerische Multiplikation auf der Rechnung kontrollieren; Bestellung und Wareneingang sind dafür nicht relevant.",
+            "Die beiden Abweichungen dokumentieren und vom Lieferanten eine nachvollziehbare Korrektur verlangen."
+          ],
+          "richtige_indices": [
+            1,
+            3
+          ]
+        },
+        "erklaerung": "Die Rechnung weicht sowohl bei der gelieferten Menge als auch beim vereinbarten Preis von den Belegen ab. Der Drei-Belege-Abgleich verhindert eine sachlich unbegründete Zahlung.",
+        "loesungsvorschlag": {
+          "kurz": "Rechnung sperren, Mengen- und Preisabweichung belegen und vor der Zahlung korrigieren lassen.",
+          "warum": "Eine formal richtige Rechnung kann dennoch sachlich falsch sein, wenn sie nicht mit Bestellung und tatsächlichem Wareneingang übereinstimmt."
+        },
+        "merksatz": "Bestellung, Wareneingang und Rechnung müssen zusammenpassen.",
+        "aufgaben_hinweis": "Prüfe Menge und Preis getrennt anhand der vorhandenen Belege.",
+        "abschlusserklaerung": "Erst der Abgleich und die dokumentierte Korrektur schaffen eine verlässliche Grundlage für die Zahlung."
+      }
+    },
+    "pr2023_unternehmensfuehrung_2_4_loesungspunkte_stufe3": {
+      "batch": 4,
+      "updated_at": "2026-07-28T16:33:02.528Z",
+      "reason": "Die abstrakte Abgrenzung von Aufbau- und Ablauforganisation wird nun auf eine Reorganisation mit unklaren Schnittstellen angewendet.",
+      "quality_before": 3,
+      "quality_after": 5,
+      "patch": {
+        "lernziel": "Bei einer Reorganisation Struktur, Verantwortlichkeiten und Prozessschnittstellen aufeinander abstimmen.",
+        "frage": "Ein Unternehmen bündelt Verkauf und Kundendienst in einem neuen Bereich. Danach entstehen Doppelspurigkeiten, weil Zuständigkeiten und Übergaben unklar sind. Welche zwei Massnahmen sind sachgerecht?",
+        "antwort_daten": {
+          "optionen": [
+            "Die bestehenden Abläufe unverändert lassen, weil das neue Organigramm die Zusammenarbeit automatisch eindeutig regelt.",
+            "Rollen, Entscheidungsbefugnisse und Verantwortlichkeiten des neuen Bereichs verbindlich festlegen.",
+            "Zuerst eine Workflow-Software beschaffen und die Prozesse erst nach deren Einführung analysieren.",
+            "Den End-to-End-Prozess mit Übergaben, Informationen und Kontrollen an die neue Struktur anpassen."
+          ],
+          "richtige_indices": [
+            1,
+            3
+          ]
+        },
+        "erklaerung": "Eine neue Aufbauorganisation verändert Zuständigkeiten, löst aber Schnittstellenprobleme nicht automatisch. Rollen und Abläufe müssen gemeinsam gestaltet werden.",
+        "loesungsvorschlag": {
+          "kurz": "Verantwortlichkeiten in der Struktur klären und den betroffenen Gesamtprozess samt Übergaben neu gestalten.",
+          "warum": "Nur die abgestimmte Gestaltung von Aufbau- und Ablauforganisation beseitigt Doppelarbeit und Lücken."
+        },
+        "merksatz": "Neue Struktur und neue Abläufe müssen zusammenpassen.",
+        "aufgaben_hinweis": "Unterscheide organisatorische Zuständigkeit von zeitlichem und sachlichem Prozessablauf.",
+        "abschlusserklaerung": "Klare Rollen beseitigen Zuständigkeitskonflikte; angepasste Übergaben machen die Reorganisation im Tagesgeschäft wirksam."
+      }
+    },
+    "pr2024_finanzwirtschaft_2_1_loesungspunkte_stufe3": {
+      "batch": 4,
+      "updated_at": "2026-07-28T16:33:02.528Z",
+      "reason": "Der Rechenweg war korrekt, aber ein überlanger, themenfremder Distraktor verriet die Lösung; die Optionen bilden nun plausible Rechenfehler in gleicher Form ab.",
+      "quality_before": 3,
+      "quality_after": 5,
+      "preserve_balanced_option_lengths": true,
+      "patch": {
+        "antwort_daten": {
+          "optionen": [
+            "CHF 1'140'000",
+            "CHF 1'137'120",
+            "CHF 1'104'000",
+            "CHF 1'236'000"
+          ],
+          "richtig_index": 1
+        },
+        "erklaerung": "Mengen- und Preiseffekt wirken nacheinander: CHF 1'200'000 × 0.92 × 1.03 = CHF 1'137'120.",
+        "loesungsvorschlag": {
+          "kurz": "CHF 1'137'120",
+          "rechenweg": "CHF 1'200'000 × 92 % × 103 % = CHF 1'137'120",
+          "warum": "Der Mengenrückgang und die Preiserhöhung werden multiplikativ auf den Vorjahresumsatz angewendet."
+        },
+        "merksatz": "Umsatzänderungen bei Menge und Preis werden nacheinander multipliziert.",
+        "abschlusserklaerung": "Nach 8 % Mengenrückgang verbleiben CHF 1'104'000; die anschliessende Preiserhöhung von 3 % führt zu CHF 1'137'120."
+      }
+    },
+    "pr2025_integrierte_fallstudie_1_1_thema_stufe3_2": {
+      "batch": 4,
+      "updated_at": "2026-07-28T16:33:02.528Z",
+      "reason": "Die Metaaussagen über Fallstudien wurden durch eine konkrete Führungssituation mit Konflikt, Rollenklärung und überprüfbaren Vereinbarungen ersetzt.",
+      "quality_before": 3,
+      "quality_after": 5,
+      "patch": {
+        "lernziel": "Einen Teamkonflikt durch Sachverhaltsklärung, Rollenklärung und überprüfbare Vereinbarungen bearbeiten.",
+        "frage": "In einem bereichsübergreifenden Projekt beschuldigen sich Verkauf und Logistik gegenseitig; Zuständigkeiten sind unklar und ein Meilenstein ist gefährdet. Welche zwei Führungsmassnahmen sind angemessen?",
+        "antwort_daten": {
+          "optionen": [
+            "Im Gesamtteam sofort eine schuldige Person benennen, damit die Diskussion möglichst rasch beendet wird.",
+            "Sachverhalt und Schnittstellen mit den Beteiligten klären und die Verantwortlichkeiten für den Meilenstein festlegen.",
+            "Den Konflikt bis zum Projektabschluss vertagen, weil eine Klärung den aktuellen Terminplan zusätzlich belastet.",
+            "Konkrete Beiträge, Termine und Kontrollpunkte vereinbaren und deren Umsetzung zeitnah nachverfolgen."
+          ],
+          "richtige_indices": [
+            1,
+            3
+          ]
+        },
+        "erklaerung": "Die Führungskraft muss sowohl den Konflikt als auch die organisatorische Unklarheit bearbeiten. Klare Verantwortlichkeiten und nachprüfbare Vereinbarungen schaffen Handlungsfähigkeit.",
+        "loesungsvorschlag": {
+          "kurz": "Fakten und Schnittstellen klären, Verantwortlichkeiten zuweisen und konkrete Termine mit Nachkontrolle vereinbaren.",
+          "warum": "Schuldzuweisung oder Aufschub lösen weder den Beziehungskonflikt noch die unklaren Arbeitsübergaben."
+        },
+        "merksatz": "Konflikte klären, Verantwortung ordnen, Umsetzung nachhalten.",
+        "aufgaben_hinweis": "Berücksichtige Beziehungsebene und organisatorische Ursache gemeinsam.",
+        "abschlusserklaerung": "Die geklärten Schnittstellen und überprüfbaren Vereinbarungen stabilisieren Zusammenarbeit und Meilenstein."
+      }
+    },
+    "pr2025_marketing_verkauf_3_2_loesungspunkte_stufe3": {
+      "batch": 4,
+      "updated_at": "2026-07-28T16:33:02.528Z",
+      "reason": "Die pauschale und für die Schweiz missverständliche Nennung eines Widerrufsrechts wurde durch eine konkrete Prüfung von Werbeaussage und vertraglicher Rückgaberegel ersetzt.",
+      "quality_before": 3,
+      "quality_after": 5,
+      "patch": {
+        "lernziel": "Werbeaussagen und behauptete Rückgaberechte anhand der konkreten rechtlichen und vertraglichen Grundlage prüfen.",
+        "frage": "Ein Schweizer Onlineshop wirbt mit «40 % günstiger», kann den verwendeten Vergleichspreis aber nicht belegen. Eine Kundin verlangt zudem eine Rückgabe ohne Mangel; die AGB enthalten dazu keine klare Regel. Welche zwei Prüfungen sind sachgerecht?",
+        "antwort_daten": {
+          "optionen": [
+            "Vergleichspreis und Werbeaussage auf Nachweisbarkeit prüfen und die Aussage nötigenfalls anpassen.",
+            "Die Werbung ohne weitere Prüfung freigeben, weil kurzfristige Onlineaktionen von Lauterkeitsregeln ausgenommen sind.",
+            "Vertrag, AGB und anwendbare Rechtsgrundlage prüfen, statt ein allgemeines Rückgaberecht vorauszusetzen.",
+            "Die Rückgabe automatisch ablehnen, ohne zugesicherte Bedingungen oder eine besondere Rechtsgrundlage zu prüfen."
+          ],
+          "richtige_indices": [
+            0,
+            2
+          ]
+        },
+        "erklaerung": "Werbeaussagen müssen sachlich überprüfbar und rechtlich zulässig sein. Ein Rückgabe- oder Widerrufsrecht darf im Schweizer Onlinehandel nicht pauschal angenommen oder verneint werden, sondern ist anhand von Vertrag, AGB und anwendbarer Rechtsgrundlage zu prüfen.",
+        "loesungsvorschlag": {
+          "kurz": "Die Preiswerbung belegen und den Rückgabewunsch anhand der konkret geltenden vertraglichen und rechtlichen Grundlage beurteilen.",
+          "warum": "Pauschale Annahmen über Werbung oder Rückgaberechte können zu falschen Verkaufsentscheiden und irreführender Kundenkommunikation führen."
+        },
+        "merksatz": "Werbung belegen, Rückgaberechte konkret prüfen.",
+        "aufgaben_hinweis": "Trenne die lauterkeitsrechtliche Werbeprüfung von der vertraglichen Rückgabefrage.",
+        "abschlusserklaerung": "Der Shop muss die Rabattbehauptung nachvollziehbar prüfen und den Rückgabewunsch auf eine konkrete Grundlage abstützen."
+      }
+    },
+    "pr2023_personalmanagement_2_4_loesungspunkte_stufe3": {
+      "batch": 4,
+      "updated_at": "2026-07-28T16:33:02.528Z",
+      "reason": "Die doppelte Allgemeinaussage über Delegation wurde durch einen vollständigen Delegationsfall mit Ergebnisrahmen, Befugnissen und Kontrollpunkten ersetzt.",
+      "quality_before": 3,
+      "quality_after": 5,
+      "patch": {
+        "lernziel": "Eine Aufgabe mit klarem Ergebnisrahmen, angemessenen Befugnissen und Kontrollpunkten delegieren.",
+        "frage": "Eine Teamleiterin delegiert einem erfahrenen Mitarbeiter die monatliche Qualitätsauswertung. Welche zwei Vereinbarungen unterstützen eine wirksame Delegation?",
+        "antwort_daten": {
+          "optionen": [
+            "Die gesamte Führungsverantwortung übertragen und auf Rückmeldungen verzichten, damit die Delegation vollständig ist.",
+            "Ergebnis, Qualitätsanforderungen, Termin sowie verfügbare Befugnisse und Ressourcen klären.",
+            "Nach der Übergabe neue Prioritäten setzen, ohne den Mitarbeiter darüber zu informieren.",
+            "Angemessene Kontrollpunkte und Unterstützung vereinbaren, während der Mitarbeiter die Ausführung selbstständig gestaltet."
+          ],
+          "richtige_indices": [
+            1,
+            3
+          ]
+        },
+        "erklaerung": "Wirksame Delegation überträgt eine Aufgabe mit dem nötigen Handlungsspielraum, lässt die Führungsverantwortung aber bei der vorgesetzten Person. Klare Erwartungen und vereinbarte Kontrollpunkte vermeiden Mikromanagement und Überraschungen.",
+        "loesungsvorschlag": {
+          "kurz": "Auftrag, Befugnisse und Ressourcen klären sowie passende Kontrollpunkte ohne unnötige Detailsteuerung festlegen.",
+          "warum": "Der Mitarbeiter kann nur verantwortlich handeln, wenn Ergebnisrahmen und Spielraum bekannt sind; die Teamleiterin bleibt für Steuerung und Unterstützung zuständig."
+        },
+        "merksatz": "Delegiere Aufgabe und Befugnisse, nicht die Führungsverantwortung.",
+        "aufgaben_hinweis": "Achte auf Ergebnis, Spielraum, Ressourcen und Rückmeldung.",
+        "abschlusserklaerung": "Ein klarer Auftrag mit angemessenem Spielraum und abgestimmten Kontrollpunkten macht die Delegation wirksam."
+      }
+    },
+    "pr2024_recht_vwl_2_3_thema_stufe3": {
+      "batch": 4,
+      "updated_at": "2026-07-28T16:33:02.528Z",
+      "reason": "Die Karte verbindet Recht und VWL nun in einem konkreten Marketingentscheid, statt allgemeine Fachgebiete aufzuzählen.",
+      "quality_before": 3,
+      "quality_after": 5,
+      "patch": {
+        "lernziel": "Bei einer Marketingaktion rechtliche Zulässigkeit und volkswirtschaftliche Nachfragebedingungen gemeinsam berücksichtigen.",
+        "frage": "Ein Händler plant trotz sinkender Kaufkraft eine Kampagne mit der Aussage «garantiert tiefster Preis der Schweiz», kann den Vergleich aber nicht belegen. Welche zwei Schritte sind sachgerecht?",
+        "antwort_daten": {
+          "optionen": [
+            "Die Aussage unverändert verwenden, weil schwache Nachfrage eine besonders auffällige Werbung rechtfertigt.",
+            "Die Preisbehauptung nach den anwendbaren Wettbewerbs- und Werberegeln prüfen und bei fehlendem Nachweis ändern.",
+            "Alle Preise pauschal senken, ohne Zielgruppe, Marge oder Nachfragewirkung zu analysieren.",
+            "Kaufkraft- und Nachfragedaten in Angebotsgestaltung und Kommunikation einbeziehen."
+          ],
+          "richtige_indices": [
+            1,
+            3
+          ]
+        },
+        "erklaerung": "Die wirtschaftliche Lage beeinflusst Nachfrage und Positionierung, hebt rechtliche Anforderungen an Werbeaussagen aber nicht auf. Ein tragfähiger Marketingentscheid berücksichtigt beide Ebenen.",
+        "loesungsvorschlag": {
+          "kurz": "Die Preisbehauptung rechtlich und sachlich absichern sowie Angebot und Kommunikation an die Nachfragebedingungen anpassen.",
+          "warum": "Weder wirtschaftlicher Druck noch eine aggressive Kampagne ersetzen die Prüfung der Werbeaussage und der Kundennachfrage."
+        },
+        "merksatz": "Marketing muss rechtlich zulässig und wirtschaftlich passend sein.",
+        "aufgaben_hinweis": "Prüfe Werbeaussage und Marktlage als zwei getrennte Entscheidungsgrundlagen.",
+        "abschlusserklaerung": "Die Kampagne braucht eine belegbare Aussage und eine Gestaltung, die zur tatsächlichen Kaufkraft und Nachfrage passt."
+      }
+    },
+    "pr2022_scm_2_3_thema_stufe3": {
+      "batch": 4,
+      "updated_at": "2026-07-28T16:33:02.528Z",
+      "reason": "Die unverständliche Pronomenfrage wurde durch eine vollständige Berechnung von Lagerumschlag und Lagerdauer mit plausiblen Zahlenalternativen ersetzt.",
+      "quality_before": 3,
+      "quality_after": 5,
+      "patch": {
+        "lernziel": "Lagerumschlag und durchschnittliche Lagerdauer aus Wareneinsatz und Lagerbestand berechnen.",
+        "frage": "Der jährliche Wareneinsatz beträgt CHF 1'080'000, der durchschnittliche Lagerbestand CHF 180'000. Welche beiden Kennzahlen sind bei 360 Tagen korrekt?",
+        "antwort_daten": {
+          "optionen": [
+            "Der Lagerumschlag beträgt 0.17-mal pro Jahr.",
+            "Die durchschnittliche Lagerdauer beträgt 60 Tage.",
+            "Die durchschnittliche Lagerdauer beträgt 6 Tage.",
+            "Der Lagerumschlag beträgt 6-mal pro Jahr."
+          ],
+          "richtige_indices": [
+            1,
+            3
+          ]
+        },
+        "erklaerung": "Lagerumschlag = CHF 1'080'000 ÷ CHF 180'000 = 6. Lagerdauer = 360 ÷ 6 = 60 Tage.",
+        "loesungsvorschlag": {
+          "kurz": "Lagerumschlag 6-mal pro Jahr; durchschnittliche Lagerdauer 60 Tage.",
+          "rechenweg": "CHF 1'080'000 ÷ CHF 180'000 = 6; 360 Tage ÷ 6 = 60 Tage.",
+          "warum": "Der Umschlag setzt Wareneinsatz und durchschnittlichen Lagerbestand ins Verhältnis; sein Kehrwert auf 360 Tage ergibt die Lagerdauer."
+        },
+        "merksatz": "Erst Umschlag berechnen, dann 360 durch den Umschlag teilen.",
+        "aufgaben_hinweis": "Berechne zuerst den Lagerumschlag und verwende ihn anschliessend für die Lagerdauer.",
+        "abschlusserklaerung": "Der Bestand wird rechnerisch sechsmal pro Jahr umgesetzt und liegt im Durchschnitt 60 Tage am Lager."
+      }
     }
   }
 }

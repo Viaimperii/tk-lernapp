@@ -3478,13 +3478,13 @@
       "antwort_daten": {
         "optionen": [
           "CHF 1'140'000",
-          "CHF 1'260'000",
+          "CHF 1'104'000",
           "CHF 1'137'120",
-          "CHF 1'104'000. Dabei werden Zahlungszeitpunkt, Kostenstruktur und Kapitalbindung fälschlich als gleichbedeutend behandelt."
+          "CHF 1'236'000"
         ],
         "richtig_index": 2
       },
-      "erklaerung": "CHF 1'200'000 × 0.92 × 1.03 = CHF 1'137'120.",
+      "erklaerung": "Mengen- und Preiseffekt wirken nacheinander: CHF 1'200'000 × 0.92 × 1.03 = CHF 1'137'120.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -3512,7 +3512,7 @@
       "loesungsvorschlag": {
         "kurz": "CHF 1'137'120",
         "rechenweg": "CHF 1'200'000 × 92 % × 103 % = CHF 1'137'120",
-        "warum": "Ein Rückgang der Menge und ein Anstieg des Preises wirken multiplikativ, nicht durch simples Verrechnen der Prozentpunkte."
+        "warum": "Der Mengenrückgang und die Preiserhöhung werden multiplikativ auf den Vorjahresumsatz angewendet."
       },
       "fehlerfallen": [
         "Prozentänderungen nur addieren oder subtrahieren.",
@@ -3528,8 +3528,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Menge mal Preis ergibt Umsatz – beide Veränderungen wirken nacheinander.",
-      "aufgaben_hinweis": "Mengen- und Preiseffekt müssen nacheinander auf den Vorjahresumsatz angewendet werden."
+      "merksatz": "Umsatzänderungen bei Menge und Preis werden nacheinander multipliziert.",
+      "aufgaben_hinweis": "Mengen- und Preiseffekt müssen nacheinander auf den Vorjahresumsatz angewendet werden.",
+      "abschlusserklaerung": "Nach 8 % Mengenrückgang verbleiben CHF 1'104'000; die anschliessende Preiserhöhung von 3 % führt zu CHF 1'137'120."
     },
     {
       "id": "finanzwirtschaft_budgetierung_stufe1_begriff",
