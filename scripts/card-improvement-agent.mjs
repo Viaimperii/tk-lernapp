@@ -4,6 +4,7 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
+export const DEFAULT_CARD_AGENT_BATCH_SIZE = 24
 const dataDir = path.join(root, 'src', 'data', 'pruefungs_app_final_lerntauglich')
 const aggregatePath = path.join(dataDir, 'lernkarten_pruefungen_final_lerntauglich_Alle_Faecher.json')
 const overridesPath = path.join(dataDir, 'agent-card-overrides.json')
@@ -76,7 +77,10 @@ function qualityOrder(left, right) {
 }
 
 export function selectBatch(reportCards, state, requestedSize) {
-  const size = Math.max(1, Math.min(12, Number(requestedSize) || 12))
+  const size = Math.max(
+    1,
+    Math.min(DEFAULT_CARD_AGENT_BATCH_SIZE, Number(requestedSize) || DEFAULT_CARD_AGENT_BATCH_SIZE)
+  )
   const allIds = new Set(reportCards.map((card) => card.id))
   let reviewedIds = new Set((state.reviewed_ids ?? []).filter((id) => allIds.has(id)))
   let cycle = state.cycle ?? 1
@@ -333,7 +337,7 @@ async function requestGitHubModel(prompt, githubToken) {
   return parseAgentResponse(body)
 }
 
-export async function runAgent({ dryRun = false, batchSize = 12 } = {}) {
+export async function runAgent({ dryRun = false, batchSize = DEFAULT_CARD_AGENT_BATCH_SIZE } = {}) {
   const dataset = readJson(aggregatePath, { karten: [] })
   const report = readJson(reportPath, { karten: [] })
   const state = readJson(statePath, {
@@ -427,7 +431,9 @@ const isDirectRun = process.argv[1] && path.resolve(process.argv[1]) === fileURL
 if (isDirectRun) {
   const dryRun = process.argv.includes('--dry-run')
   const sizeFlag = process.argv.find((argument) => argument.startsWith('--batch-size='))
-  const batchSize = sizeFlag ? Number(sizeFlag.split('=')[1]) : Number(process.env.CARD_AGENT_BATCH_SIZE || 12)
+  const batchSize = sizeFlag
+    ? Number(sizeFlag.split('=')[1])
+    : Number(process.env.CARD_AGENT_BATCH_SIZE || DEFAULT_CARD_AGENT_BATCH_SIZE)
   runAgent({ dryRun, batchSize }).catch((error) => {
     console.error(error.message)
     process.exitCode = 1

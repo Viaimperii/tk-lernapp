@@ -7,14 +7,14 @@ on:
   workflow_dispatch:
     inputs:
       batch_size:
-        description: Number of cards to review (maximum 12)
+        description: Number of cards to review (maximum 24)
         required: false
-        default: '12'
+        default: '24'
         type: choice
         options:
-          - '4'
           - '8'
-          - '12'
+          - '16'
+          - '24'
 
 permissions:
   contents: write
@@ -28,10 +28,10 @@ concurrency:
 jobs:
   improve:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     env:
       AGENT_BRANCH: automation/card-quality-loop
-      CARD_AGENT_BATCH_SIZE: ${{ github.event.inputs.batch_size || '12' }}
+      CARD_AGENT_BATCH_SIZE: ${{ github.event.inputs.batch_size || '24' }}
       GITHUB_MODEL: openai/gpt-4.1
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

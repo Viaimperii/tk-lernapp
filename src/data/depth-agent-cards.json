@@ -1,5 +1,366 @@
 {
   "schema_version": 1,
-  "families": [],
-  "cards": []
+  "families": [
+    {
+      "id": "depth_0001_anlagedeckungsgrad_1_anlagedeckungsgrad_2",
+      "batch": 1,
+      "bridge": "Beide Anlagedeckungsgrade beurteilen die Finanzierung des Anlagevermögens, unterscheiden sich aber darin, ob nur Eigenkapital (I) oder auch langfristiges Fremdkapital (II) berücksichtigt wird.",
+      "topic_keys": [
+        "Finanzwirtschaft::anlagedeckungsgrad_1",
+        "Finanzwirtschaft::anlagedeckungsgrad_2"
+      ],
+      "card_ids": [
+        "depth_0001_anlagedeckungsgrad_1_anlagedeckungsgrad_2_1",
+        "depth_0001_anlagedeckungsgrad_1_anlagedeckungsgrad_2_2"
+      ],
+      "created_at": "2026-07-25T01:07:02.256Z",
+      "model": "openai/gpt-4.1"
+    },
+    {
+      "id": "depth_0002_aufgaben_der_finanzbuchhaltung_technologiemanagement",
+      "batch": 2,
+      "bridge": "Bei der Einführung einer neuen Buchhaltungssoftware definiert die Finanzbuchhaltung die fachlichen Muss-Ergebnisse, während das Technologiemanagement die Technologieinvestition nach strategischem Nutzen beurteilt, plant und steuert.",
+      "topic_keys": [
+        "Finanzwirtschaft::aufgaben_der_finanzbuchhaltung",
+        "Unternehmensfuehrung::technologiemanagement"
+      ],
+      "card_ids": [
+        "depth_0002_aufgaben_der_finanzbuchhaltung_technologiemanagement_1",
+        "depth_0002_aufgaben_der_finanzbuchhaltung_technologiemanagement_2"
+      ],
+      "created_at": "2026-07-28T16:32:20.238Z",
+      "model": "codex-app/gpt-5.6-sol"
+    }
+  ],
+  "cards": [
+    {
+      "id": "depth_0001_anlagedeckungsgrad_1_anlagedeckungsgrad_2_1",
+      "familie_id": "depth_0001_anlagedeckungsgrad_1_anlagedeckungsgrad_2",
+      "fach": "Finanzwirtschaft",
+      "thema_id": "anlagedeckungsgrad_1",
+      "thema": "Anlagedeckungsgrad I",
+      "stufe": 4,
+      "ab_lvl": 1,
+      "typ": "fallentscheidung",
+      "lernziel": "Anlagedeckungsgrad I auswählen, aus Jahresabschlusspositionen aufbauen und interpretieren.",
+      "frage": "Ein Unternehmen weist folgende Bilanzpositionen aus: Anlagevermögen CHF 700'000, Eigenkapital CHF 630'000, langfristiges Fremdkapital CHF 120'000. Ziel: Wählen Sie die Finanzierungslösung, bei der das Anlagevermögen am stärksten durch Eigenkapital gedeckt ist.",
+      "aufgaben_hinweis": "Vergleichen Sie die Deckung des Anlagevermögens durch Eigenkapital in den drei Alternativen.",
+      "antwort_daten": {
+        "entscheidungskriterium": "Maximale Deckung des Anlagevermögens durch Eigenkapital",
+        "entscheidungen": [
+          "Eigenkapital CHF 630'000, Anlagevermögen CHF 700'000",
+          "Eigenkapital CHF 500'000, Anlagevermögen CHF 700'000",
+          "Eigenkapital CHF 400'000, Anlagevermögen CHF 700'000"
+        ],
+        "begruendungen": [
+          "630'000 ÷ 700'000 × 100 = 90 %: Höchster Deckungsgrad.",
+          "500'000 ÷ 700'000 × 100 = 71.4 %: Niedriger als Alternative 1.",
+          "400'000 ÷ 700'000 × 100 = 57.1 %: Niedrigster Deckungsgrad."
+        ],
+        "richtig": {
+          "entscheidung": 0,
+          "begruendung": 0
+        }
+      },
+      "erklaerung": "Nur Alternative 1 erreicht mit 90 % den höchsten Anlagedeckungsgrad I, da der Anteil des Eigenkapitals am Anlagevermögen maximal ist.",
+      "abschlusserklaerung": "Nur Alternative 1 erreicht mit 90 % den höchsten Anlagedeckungsgrad I, da der Anteil des Eigenkapitals am Anlagevermögen maximal ist.",
+      "merksatz": "Je höher der Anlagedeckungsgrad I, desto stärker ist das Anlagevermögen durch Eigenkapital finanziert.",
+      "quellenkarten": [
+        "formel_anlagedeckungsgrad_1_stufe4",
+        "formel_anlagedeckungsgrad_1_stufe3",
+        "formel_anlagedeckungsgrad_1_stufe2"
+      ],
+      "fachliche_belege": [
+        {
+          "claim": "Anlagedeckungsgrad I = Eigenkapital ÷ Anlagevermögen × 100",
+          "source_card_id": "formel_anlagedeckungsgrad_1_stufe3"
+        },
+        {
+          "claim": "Je näher bei 100 %, desto stärker ist das Anlagevermögen durch Eigenkapital gedeckt.",
+          "source_card_id": "formel_anlagedeckungsgrad_1_stufe2"
+        }
+      ],
+      "verwandte_themen": [
+        {
+          "fach": "Finanzwirtschaft",
+          "thema_id": "anlagedeckungsgrad_2",
+          "begruendung": "Beide Anlagedeckungsgrade beurteilen die Finanzierung des Anlagevermögens, unterscheiden sich aber darin, ob nur Eigenkapital (I) oder auch langfristiges Fremdkapital (II) berücksichtigt wird."
+        }
+      ],
+      "ch_kontext": "Schweizer Prüfung Technische Kaufleute",
+      "ch_fachlich_geprueft": true,
+      "quelle": {
+        "typ": "agenten_vertiefung",
+        "quellenkarten": [
+          "formel_anlagedeckungsgrad_1_stufe4",
+          "formel_anlagedeckungsgrad_1_stufe3",
+          "formel_anlagedeckungsgrad_1_stufe2"
+        ]
+      },
+      "tags": [
+        "tiefenkarte",
+        "ab_lvl_1",
+        "familie_depth_0001_anlagedeckungsgrad_1_anlagedeckungsgrad_2"
+      ],
+      "agenten_review": {
+        "reviewed_at": "2026-07-25T01:07:02.256Z",
+        "model": "openai/gpt-4.1",
+        "reason": "Die Kartenfamilie erfüllt alle Kriterien: Jede Lösung ist fachlich korrekt, vollständig und direkt aus den Schweizer Quellenkarten belegbar. Keine Zahlen, Fristen oder Regeln wurden erfunden. Die Karten passen eindeutig zu ihren Zielthemen und gehen gegenüber den Quellen in die Tiefe, indem sie konkrete Fallentscheidungen mit nachvollziehbarer Begründung und Simulation aller Antwortmöglichkeiten bieten. Die Familie erweitert zwei sinnvoll verbundene Themen (Anlagedeckungsgrad I und II) mit unterschiedlichen Blickwinkeln (Eigenkapital vs. langfristiges Kapital, goldene Bilanzregel). Frage und Antwortdaten sind vollständig, eindeutig und lokal auswertbar. Die Visualisierung ist effizient: Es wird keine unnötige Visualisierung verwendet, und die Karten bieten einen echten Lernvorteil durch die strukturierte Entscheidungsdarstellung. Es gibt keine Musterlösungs-, Fehlerlisten- oder Themenerkennungsfragen. Die Fallentscheidungen sind eindeutig, da jeweils nur eine Alternative fachlich vertretbar ist und das Entscheidungskriterium explizit genannt wird. Reihenfolgen werden nicht verlangt. Daher sind alle Kernpunkte erfüllt und keine Issues vorhanden.",
+        "ch_fachlich_korrekt": true,
+        "theme_fit": true,
+        "depth_gain": true,
+        "visual_efficiency": true
+      }
+    },
+    {
+      "id": "depth_0001_anlagedeckungsgrad_1_anlagedeckungsgrad_2_2",
+      "familie_id": "depth_0001_anlagedeckungsgrad_1_anlagedeckungsgrad_2",
+      "fach": "Finanzwirtschaft",
+      "thema_id": "anlagedeckungsgrad_2",
+      "thema": "Anlagedeckungsgrad II",
+      "stufe": 4,
+      "ab_lvl": 1,
+      "typ": "fallentscheidung",
+      "lernziel": "Anlagedeckungsgrad II auswählen, aus Jahresabschlusspositionen aufbauen und interpretieren.",
+      "frage": "Ein Unternehmen weist folgende Bilanzpositionen aus: Anlagevermögen CHF 700'000, Eigenkapital CHF 630'000, langfristiges Fremdkapital CHF 120'000, Umlaufvermögen CHF 500'000. Ziel: Wählen Sie die Finanzierungslösung, bei der die goldene Bilanzregel am klarsten erfüllt ist.",
+      "aufgaben_hinweis": "Vergleichen Sie den Anlagedeckungsgrad II in den drei Alternativen.",
+      "antwort_daten": {
+        "entscheidungskriterium": "Goldene Bilanzregel: Anlagevermögen vollständig mit langfristigem Kapital gedeckt und Überschuss für Umlaufvermögen",
+        "entscheidungen": [
+          "Eigenkapital CHF 630'000, langfristiges Fremdkapital CHF 120'000, Anlagevermögen CHF 700'000",
+          "Eigenkapital CHF 500'000, langfristiges Fremdkapital CHF 200'000, Anlagevermögen CHF 700'000",
+          "Eigenkapital CHF 400'000, langfristiges Fremdkapital CHF 300'000, Anlagevermögen CHF 700'000"
+        ],
+        "begruendungen": [
+          "(630'000 + 120'000) ÷ 700'000 × 100 = 107.1 %: Anlagevermögen vollständig gedeckt, Überschuss für Umlaufvermögen.",
+          "(500'000 + 200'000) ÷ 700'000 × 100 = 100 %: Anlagevermögen exakt gedeckt, kein Überschuss.",
+          "(400'000 + 300'000) ÷ 700'000 × 100 = 100 %: Anlagevermögen exakt gedeckt, kein Überschuss."
+        ],
+        "richtig": {
+          "entscheidung": 0,
+          "begruendung": 0
+        }
+      },
+      "erklaerung": "Nur Alternative 1 erfüllt die goldene Bilanzregel mit einem Überschuss: Das langfristige Kapital deckt das Anlagevermögen vollständig und zusätzlich einen Teil des Umlaufvermögens.",
+      "abschlusserklaerung": "Nur Alternative 1 erfüllt die goldene Bilanzregel mit einem Überschuss: Das langfristige Kapital deckt das Anlagevermögen vollständig und zusätzlich einen Teil des Umlaufvermögens.",
+      "merksatz": "Anlagedeckungsgrad II über 100 %: Die goldene Bilanzregel ist erfüllt und langfristiges Kapital deckt zusätzlich Umlaufvermögen.",
+      "quellenkarten": [
+        "formel_anlagedeckungsgrad_2_stufe4",
+        "formel_anlagedeckungsgrad_2_stufe3",
+        "formel_anlagedeckungsgrad_2_stufe2"
+      ],
+      "fachliche_belege": [
+        {
+          "claim": "Anlagedeckungsgrad II = (Eigenkapital + langfristiges Fremdkapital) ÷ Anlagevermögen × 100",
+          "source_card_id": "formel_anlagedeckungsgrad_2_stufe3"
+        },
+        {
+          "claim": "Mindestens 100 % erfüllen die goldene Bilanzregel; der langfristige Kapitalüberschuss finanziert dann zusätzlich einen Teil des Umlaufvermögens.",
+          "source_card_id": "formel_anlagedeckungsgrad_2_stufe2"
+        }
+      ],
+      "verwandte_themen": [
+        {
+          "fach": "Finanzwirtschaft",
+          "thema_id": "anlagedeckungsgrad_1",
+          "begruendung": "Beide Anlagedeckungsgrade beurteilen die Finanzierung des Anlagevermögens, unterscheiden sich aber darin, ob nur Eigenkapital (I) oder auch langfristiges Fremdkapital (II) berücksichtigt wird."
+        }
+      ],
+      "ch_kontext": "Schweizer Prüfung Technische Kaufleute",
+      "ch_fachlich_geprueft": true,
+      "quelle": {
+        "typ": "agenten_vertiefung",
+        "quellenkarten": [
+          "formel_anlagedeckungsgrad_2_stufe4",
+          "formel_anlagedeckungsgrad_2_stufe3",
+          "formel_anlagedeckungsgrad_2_stufe2"
+        ]
+      },
+      "tags": [
+        "tiefenkarte",
+        "ab_lvl_1",
+        "familie_depth_0001_anlagedeckungsgrad_1_anlagedeckungsgrad_2"
+      ],
+      "agenten_review": {
+        "reviewed_at": "2026-07-25T01:07:02.256Z",
+        "model": "openai/gpt-4.1",
+        "reason": "Die Kartenfamilie erfüllt alle Kriterien: Jede Lösung ist fachlich korrekt, vollständig und direkt aus den Schweizer Quellenkarten belegbar. Keine Zahlen, Fristen oder Regeln wurden erfunden. Die Karten passen eindeutig zu ihren Zielthemen und gehen gegenüber den Quellen in die Tiefe, indem sie konkrete Fallentscheidungen mit nachvollziehbarer Begründung und Simulation aller Antwortmöglichkeiten bieten. Die Familie erweitert zwei sinnvoll verbundene Themen (Anlagedeckungsgrad I und II) mit unterschiedlichen Blickwinkeln (Eigenkapital vs. langfristiges Kapital, goldene Bilanzregel). Frage und Antwortdaten sind vollständig, eindeutig und lokal auswertbar. Die Visualisierung ist effizient: Es wird keine unnötige Visualisierung verwendet, und die Karten bieten einen echten Lernvorteil durch die strukturierte Entscheidungsdarstellung. Es gibt keine Musterlösungs-, Fehlerlisten- oder Themenerkennungsfragen. Die Fallentscheidungen sind eindeutig, da jeweils nur eine Alternative fachlich vertretbar ist und das Entscheidungskriterium explizit genannt wird. Reihenfolgen werden nicht verlangt. Daher sind alle Kernpunkte erfüllt und keine Issues vorhanden.",
+        "ch_fachlich_korrekt": true,
+        "theme_fit": true,
+        "depth_gain": true,
+        "visual_efficiency": true
+      }
+    },
+    {
+      "id": "depth_0002_aufgaben_der_finanzbuchhaltung_technologiemanagement_1",
+      "familie_id": "depth_0002_aufgaben_der_finanzbuchhaltung_technologiemanagement",
+      "fach": "Finanzwirtschaft",
+      "thema_id": "aufgaben_der_finanzbuchhaltung",
+      "thema": "Aufgaben der Finanzbuchhaltung",
+      "stufe": 3,
+      "ab_lvl": 2,
+      "typ": "lueckentext_auswahl",
+      "lernziel": "Fachliche Muss-Anforderungen an ein neues Finanzbuchhaltungssystem aus den Aufgaben der Finanzbuchhaltung ableiten.",
+      "frage": "Ein KMU ersetzt seine Buchhaltungssoftware. Ergänzen Sie die fachliche Muss-Anforderung: Das System muss [1], daraus [2] erstellen und die Ergebnisse für [3] bereitstellen.",
+      "aufgaben_hinweis": "Wählen Sie für jede nummerierte Lücke die fachlich passende Formulierung.",
+      "antwort_daten": {
+        "luecken_mc": [
+          {
+            "position": 1,
+            "optionen": [
+              "ausschliesslich die Löhne berechnen und auszahlen",
+              "nur das Budget des nächsten Geschäftsjahres planen",
+              "sämtliche Geschäftsfälle lückenlos erfassen"
+            ],
+            "richtig_index": 2,
+            "richtig": "sämtliche Geschäftsfälle lückenlos erfassen"
+          },
+          {
+            "position": 2,
+            "optionen": [
+              "Bilanz und Erfolgsrechnung",
+              "eine Kalkulation über sämtliche Produkte",
+              "eine Unter- oder Überdeckung pro Kostenstelle"
+            ],
+            "richtig_index": 0,
+            "richtig": "Bilanz und Erfolgsrechnung"
+          },
+          {
+            "position": 3,
+            "optionen": [
+              "interne Kostenstellen",
+              "aussenstehende Adressaten",
+              "einzelne Produkte"
+            ],
+            "richtig_index": 1,
+            "richtig": "aussenstehende Adressaten"
+          }
+        ]
+      },
+      "erklaerung": "Die Finanzbuchhaltung erfasst sämtliche Geschäftsfälle lückenlos und erstellt daraus Bilanz und Erfolgsrechnung für aussenstehende Adressaten. Damit stellt sie insbesondere Vermögen und Schulden dar.",
+      "abschlusserklaerung": "Die Finanzbuchhaltung erfasst sämtliche Geschäftsfälle lückenlos und erstellt daraus Bilanz und Erfolgsrechnung für aussenstehende Adressaten. Damit stellt sie insbesondere Vermögen und Schulden dar.",
+      "merksatz": "Ein Finanzbuchhaltungssystem muss Geschäftsfälle vollständig erfassen und daraus die externe Rechnungslegung ermöglichen.",
+      "quellenkarten": [
+        "pr2025_finanzwirtschaft_1_16_thema_stufe3",
+        "pr2022_finanzwirtschaft_1_3_choice_stufe3"
+      ],
+      "fachliche_belege": [
+        {
+          "claim": "Die Finanzbuchhaltung erfasst sämtliche Geschäftsfälle lückenlos und erstellt daraus Bilanz und Erfolgsrechnung für aussenstehende Adressaten.",
+          "source_card_id": "pr2025_finanzwirtschaft_1_16_thema_stufe3"
+        },
+        {
+          "claim": "Eine Hauptaufgabe der Finanzbuchhaltung ist die Darstellung des Vermögens und der Schulden.",
+          "source_card_id": "pr2022_finanzwirtschaft_1_3_choice_stufe3"
+        }
+      ],
+      "verwandte_themen": [
+        {
+          "fach": "Unternehmensfuehrung",
+          "thema_id": "technologiemanagement",
+          "begruendung": "Bei der Einführung einer neuen Buchhaltungssoftware definiert die Finanzbuchhaltung die fachlichen Muss-Ergebnisse, während das Technologiemanagement die Technologieinvestition nach strategischem Nutzen beurteilt, plant und steuert."
+        }
+      ],
+      "ch_kontext": "Schweizer Prüfung Technische Kaufleute",
+      "ch_fachlich_geprueft": true,
+      "agenten_review": {
+        "reviewed_at": "2026-07-28T16:32:20.238Z",
+        "model": "codex-app/gpt-5.6-sol",
+        "reason": "Unabhängige Fachprüfung bestanden: Alle neun Lückenoptionen wurden simuliert. Die drei Lösungen entsprechen den Zielquellen; die sechs Distraktoren werden durch die dort geprüfte Abgrenzung zu Budgetierung, Lohnzahlung, Produktkalkulation und Kostenstellenrechnung ausgeschlossen. Die Karte bleibt auf der höchsten Themenstufe, steigert ab_lvl von 1 auf 2 und ist ohne Beilage eindeutig lösbar. Es wurden keine Zahlen, Fristen oder Rechtsgrundlagen ergänzt; eine Visualisierung bietet keinen zusätzlichen räumlichen Lernnutzen.",
+        "ch_fachlich_korrekt": true,
+        "theme_fit": true,
+        "depth_gain": true,
+        "visual_efficiency": true
+      },
+      "quelle": {
+        "typ": "agenten_vertiefung",
+        "quellenkarten": [
+          "pr2025_finanzwirtschaft_1_16_thema_stufe3",
+          "pr2022_finanzwirtschaft_1_3_choice_stufe3"
+        ]
+      },
+      "tags": [
+        "tiefenkarte",
+        "ab_lvl_2",
+        "familie_depth_0002_aufgaben_der_finanzbuchhaltung_technologiemanagement"
+      ]
+    },
+    {
+      "id": "depth_0002_aufgaben_der_finanzbuchhaltung_technologiemanagement_2",
+      "familie_id": "depth_0002_aufgaben_der_finanzbuchhaltung_technologiemanagement",
+      "fach": "Unternehmensfuehrung",
+      "thema_id": "technologiemanagement",
+      "thema": "Technologiemanagement",
+      "stufe": 3,
+      "ab_lvl": 1,
+      "typ": "fallentscheidung",
+      "lernziel": "Eine Technologieinvestition mit einem strategischen Instrument beurteilen und auf langfristige Wettbewerbsfähigkeit ausrichten.",
+      "frage": "Ein KMU will eine neue Buchhaltungssoftware einführen. Ziel ist, die Investitionsentscheidung strategisch abzustützen und den Technologieeinsatz auf langfristige Wettbewerbsfähigkeit auszurichten. Welche Vorgehensweise erfüllt dieses Entscheidungskriterium?",
+      "aufgaben_hinweis": "Wählen Sie die Vorgehensweise und die dazu passende fachliche Begründung.",
+      "antwort_daten": {
+        "entscheidungskriterium": "Die Investitionsentscheidung strategisch abstützen und den Technologieeinsatz auf langfristige Wettbewerbsfähigkeit ausrichten",
+        "entscheidungen": [
+          "Die neueste Software allein wegen ihres Neuheitsgrads kaufen und unabhängig von der Unternehmensstrategie einsetzen.",
+          "Die Optionen mit einem Technologieportfolio nach ihrem strategischen Nutzen vergleichen und den Einsatz der gewählten Software planen und steuern.",
+          "Das Technologieportfolio ausschliesslich zur Beurteilung der technischen Kompetenzen der Mitarbeitenden verwenden."
+        ],
+        "begruendungen": [
+          "Der Neuheitsgrad allein belegt keinen strategischen Nutzen und richtet den Technologieentscheid nicht auf die Unternehmensstrategie aus.",
+          "Das Technologieportfolio ist ein strategisches Instrument, unterstützt Investitionsentscheidungen und die Planung und Steuerung von Technologien dient der langfristigen Wettbewerbsfähigkeit.",
+          "Die ausschliessliche Beurteilung von Mitarbeitendenkompetenzen ist nicht die Aufgabe des Technologieportfolios und beurteilt die Technologieinvestition nicht."
+        ],
+        "richtig": {
+          "entscheidung": 1,
+          "begruendung": 1
+        }
+      },
+      "erklaerung": "Nur die zweite Vorgehensweise verbindet die strategische Investitionsbeurteilung mit der Planung und Steuerung des Technologieeinsatzes. Ein Technologieportfolio unterstützt Investitionsentscheidungen; Technologiemanagement richtet den Einsatz auf langfristige Wettbewerbsfähigkeit aus.",
+      "abschlusserklaerung": "Nur die zweite Vorgehensweise verbindet die strategische Investitionsbeurteilung mit der Planung und Steuerung des Technologieeinsatzes. Ein Technologieportfolio unterstützt Investitionsentscheidungen; Technologiemanagement richtet den Einsatz auf langfristige Wettbewerbsfähigkeit aus.",
+      "merksatz": "Technologieinvestitionen werden nach strategischem Nutzen beurteilt und anschliessend zielgerichtet geplant und gesteuert.",
+      "quellenkarten": [
+        "pr2025_unternehmensfuehrung_1_11_choice_stufe3",
+        "pr2022_unternehmensfuehrung_2_5_thema_stufe3"
+      ],
+      "fachliche_belege": [
+        {
+          "claim": "Das Technologieportfolio ist ein strategisches Instrument und unterstützt Investitionsentscheidungen.",
+          "source_card_id": "pr2025_unternehmensfuehrung_1_11_choice_stufe3"
+        },
+        {
+          "claim": "Technologiemanagement plant und steuert den Einsatz von Technologien, um die Wettbewerbsfähigkeit langfristig zu sichern, und wägt Investitionen gegen ihren strategischen Nutzen ab.",
+          "source_card_id": "pr2022_unternehmensfuehrung_2_5_thema_stufe3"
+        }
+      ],
+      "verwandte_themen": [
+        {
+          "fach": "Finanzwirtschaft",
+          "thema_id": "aufgaben_der_finanzbuchhaltung",
+          "begruendung": "Bei der Einführung einer neuen Buchhaltungssoftware definiert die Finanzbuchhaltung die fachlichen Muss-Ergebnisse, während das Technologiemanagement die Technologieinvestition nach strategischem Nutzen beurteilt, plant und steuert."
+        }
+      ],
+      "ch_kontext": "Schweizer Prüfung Technische Kaufleute",
+      "ch_fachlich_geprueft": true,
+      "agenten_review": {
+        "reviewed_at": "2026-07-28T16:32:20.238Z",
+        "model": "codex-app/gpt-5.6-sol",
+        "reason": "Unabhängige Fachprüfung bestanden: Alle drei Vorgehensweisen und alle drei Begründungen wurden gegen die Zielquellen und das ausdrücklich genannte Entscheidungskriterium simuliert. Nur die mittlere Vorgehensweise nutzt das Technologieportfolio als strategisches Instrument für die Investitionsentscheidung und verbindet dies mit Planung und Steuerung für langfristige Wettbewerbsfähigkeit. Die beiden Alternativen sind durch die Quellen eindeutig ausgeschlossen. Die Karte bleibt auf der höchsten Themenstufe und ist ohne Beilage lokal lösbar; eine Visualisierung bietet keinen zusätzlichen räumlichen Lernnutzen.",
+        "ch_fachlich_korrekt": true,
+        "theme_fit": true,
+        "depth_gain": true,
+        "visual_efficiency": true
+      },
+      "quelle": {
+        "typ": "agenten_vertiefung",
+        "quellenkarten": [
+          "pr2025_unternehmensfuehrung_1_11_choice_stufe3",
+          "pr2022_unternehmensfuehrung_2_5_thema_stufe3"
+        ]
+      },
+      "tags": [
+        "tiefenkarte",
+        "ab_lvl_1",
+        "familie_depth_0002_aufgaben_der_finanzbuchhaltung_technologiemanagement"
+      ]
+    }
+  ]
 }

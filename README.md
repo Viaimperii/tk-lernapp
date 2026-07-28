@@ -128,7 +128,7 @@ Der Workflow `.github/workflows/card-improvement-agent.yml` läuft täglich um
 werden. Er verwendet GitHub Models mit `openai/gpt-4.1`; ein eigener
 API-Schlüssel, Server oder eine Datenbank sind dafür nicht erforderlich.
 
-Pro Lauf werden höchstens zwölf Karten aus möglichst unterschiedlichen Fächern
+Pro Lauf werden höchstens 24 Karten aus möglichst unterschiedlichen Fächern
 geprüft. Wegen der kostenlosen GitHub-Models-Tokenlimits werden sie in Gruppen
 von drei Karten ausgewertet. Der Fortschritt liegt in
 `reports/agent-card-loop-state.json`. Verbesserungen werden als reproduzierbare
@@ -158,8 +158,8 @@ Der zweite Workflow `.github/workflows/card-depth-agent.yml` läuft täglich um
 Qualitätsagenten auf dem Branch `automation/card-depth-loop` und verwendet mit
 `openai/gpt-4.1` über GitHub Models zwei Modellaufrufe pro Runde:
 
-1. Entwurf einer Familie aus genau zwei neuen Tiefenkarten für zwei verwandte
-   Themen.
+1. Entwurf einer Familie aus genau vier neuen Tiefenkarten für zwei verwandte
+   Themen, je zwei Karten mit unterschiedlichen Blickwinkeln pro Thema.
 2. Kritische Gegenprüfung auf Schweizer Fachlichkeit, Themenpassung,
    tatsächlichen Tiefengewinn und visuellen Lernnutzen.
 

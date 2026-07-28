@@ -1,6 +1,19 @@
 import assert from 'node:assert/strict'
 import test from 'node:test'
-import { familyFingerprint, materializeFamily, selectTopicBundle } from './card-depth-agent.mjs'
+import {
+  DEPTH_CARDS_PER_FAMILY,
+  DEPTH_CARDS_PER_TOPIC,
+  familyFingerprint,
+  materializeFamily,
+  selectTopicBundle
+} from './card-depth-agent.mjs'
+
+const clone = (value) => JSON.parse(JSON.stringify(value))
+
+test('Tiefenagent erzeugt vier Karten mit zwei Varianten pro Thema', () => {
+  assert.equal(DEPTH_CARDS_PER_FAMILY, 4)
+  assert.equal(DEPTH_CARDS_PER_TOPIC, 2)
+})
 
 const sourceCards = [
   {
@@ -59,7 +72,7 @@ test('Tiefenloop wählt ein Primärthema und fachlich ähnliche Kandidaten', () 
   assert.equal(selection.candidates[0].key, 'SCM::lieferanten')
 })
 
-test('Kartenfamilie erweitert zwei Themen und übernimmt Identität deterministisch', () => {
+test('Kartenfamilie erweitert zwei Themen mit je zwei Karten und übernimmt Identität deterministisch', () => {
   const selection = selectTopicBundle(sourceCards, [], {
     cycle: 1,
     topic_cursor: 0,
@@ -109,12 +122,16 @@ test('Kartenfamilie erweitert zwei Themen und übernimmt Identität deterministi
       }
     ]
   }
+  rawFamily.cards.push(clone(rawFamily.cards[0]), clone(rawFamily.cards[1]))
 
   const materialized = materializeFamily(rawFamily, selection, sourceCards, [], 7)
-  assert.equal(materialized.cards.length, 2)
+  assert.equal(materialized.cards.length, 4)
   assert.equal(materialized.cards[0].fach, 'Finanzwirtschaft')
   assert.equal(materialized.cards[1].fach, 'SCM')
+  assert.equal(materialized.cards[2].fach, 'Finanzwirtschaft')
+  assert.equal(materialized.cards[3].fach, 'SCM')
   assert.equal(materialized.cards[0].ab_lvl, 1)
+  assert.deepEqual(materialized.family.topic_keys, ['Finanzwirtschaft::kosten', 'SCM::lieferanten'])
   assert.match(materialized.family.id, /^depth_0007_/)
   assert.equal(familyFingerprint(materialized).length, 64)
 })
@@ -182,6 +199,7 @@ test('Eindeutige visuelle Antwortdaten normalisieren einen falsch bezeichneten K
       }
     ]
   }
+  rawFamily.cards.push(clone(rawFamily.cards[0]), clone(rawFamily.cards[1]))
 
   const materialized = materializeFamily(rawFamily, selection, sourceCards, [visualTemplate], 8)
   assert.equal(materialized.cards[0].typ, 'visuelle_zuordnung')
@@ -224,6 +242,7 @@ test('Nicht belegte Schweizer Rechtsgrundlagen werden verworfen', () => {
       }
     ]
   }
+  proposal.cards.push(clone(proposal.cards[0]), clone(proposal.cards[1]))
 
   assert.throws(() => materializeFamily(proposal, selection, sourceCards, [], 1), /Rechtsgrundlage/)
 })
