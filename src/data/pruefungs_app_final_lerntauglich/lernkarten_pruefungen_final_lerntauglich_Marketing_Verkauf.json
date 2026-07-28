@@ -5121,22 +5121,22 @@
       "fach": "Marketing_Verkauf",
       "quelle_id": "2025:Marketing_Verkauf:2.3",
       "quelle_pdf": "2025/Aufgaben/Marketing_Aufgaben_2025.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Rechtliche Grundlagen lösen.",
+      "lernziel": "Rechtliche Anforderungen an Preisangaben und die Behandlung eines Mangels in einem Onlineverkauf anwenden.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Aussagen erklären „Rechtliche Grundlagen“ fachlich richtig?",
+      "frage": "Ein Schweizer Onlineshop wirbt mit «CHF 80 inklusive Lieferung». Erst in der Bestellbestätigung erscheint eine zwingende Bearbeitungsgebühr. Zudem meldet die Kundin einen bei Erhalt dokumentierten Defekt. Welche zwei Beurteilungen sind fachlich richtig?",
       "antwort_daten": {
         "optionen": [
-          "Ausschliesslich das Arbeitsrecht der Verkaufsmitarbeitenden. Dabei werden Markt, Zielgruppe und Kundenbedürfnisse fälschlich als unveränderlich behandelt.",
-          "Konsumentenschutzrechte gelten nur im stationären Handel, nicht online.",
-          "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant.",
-          "Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden."
+          "Die zusätzliche Gebühr ist unproblematisch, wenn sie spätestens auf der Rechnung erscheint und für alle Bestellungen gleich hoch ist.",
+          "Unvermeidbare Preisbestandteile müssen vor dem Vertragsabschluss transparent in der Preisangabe erkennbar sein.",
+          "Bei einem Onlinekauf darf der Verkäufer jede Mängelprüfung mit Verweis auf den Versandweg ablehnen.",
+          "Der dokumentierte Defekt ist nach den Regeln des Kaufvertrags und der Gewährleistung sachlich zu prüfen."
         ],
         "richtige_indices": [
-          2,
+          1,
           3
         ]
       },
-      "erklaerung": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden.",
+      "erklaerung": "Zwingende Preisbestandteile dürfen nicht erst nach dem Bestellentscheid erscheinen. Ein gemeldeter Defekt ist anhand des Kaufvertrags und der Gewährleistung zu prüfen; der Onlinevertrieb beseitigt diese Prüfung nicht.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -5163,8 +5163,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
       },
       "loesungsvorschlag": {
-        "kurz": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden.",
-        "warum": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden."
+        "kurz": "Preisbestandteile vor Vertragsabschluss offenlegen und den dokumentierten Defekt nach Kaufvertrags- und Gewährleistungsregeln prüfen.",
+        "warum": "Transparente Werbung ermöglicht einen informierten Kaufentscheid. Bei einem Mangel sind Sachverhalt und vertragliche Ansprüche zu klären, statt die Reklamation pauschal abzulehnen."
       },
       "fehlerfallen": [],
       "review": {
@@ -5177,9 +5177,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Verkaufen mit Recht heisst: Vertrag, Gewährleistung und faire Werbung zusammen denken.",
-      "abschlusserklaerung": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit."
+      "merksatz": "Im Onlineverkauf zählen transparente Preise und eine sachliche Prüfung von Mängeln.",
+      "abschlusserklaerung": "Der Shop muss zwingende Preisbestandteile rechtzeitig transparent machen und den dokumentierten Defekt nach den Regeln des Kaufvertrags und der Gewährleistung prüfen.",
+      "aufgaben_hinweis": "Beurteile Preisangabe und Mängelmeldung unabhängig voneinander."
     },
     {
       "id": "pr2025_marketing_verkauf_2_5_loesungspunkte_stufe3",
@@ -5187,22 +5187,22 @@
       "fach": "Marketing_Verkauf",
       "quelle_id": "2025:Marketing_Verkauf:2.5",
       "quelle_pdf": "2025/Aufgaben/Marketing_Aufgaben_2025.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Rechtliche Grundlagen lösen.",
+      "lernziel": "Eine bestätigte Lieferzusage und eine unbelegte Produkteigenschaft im Verkauf rechtlich sauber behandeln.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Grundsätze zu „Rechtliche Grundlagen“ sind richtig?",
+      "frage": "Ein Verkäufer bestätigt der Kundin schriftlich die Lieferung bis Freitag. Später will der Shop ohne Rücksprache erst in der Folgewoche liefern. Gleichzeitig wirbt er mit einer Produkteigenschaft, für die intern kein Nachweis vorliegt. Welche zwei Massnahmen sind richtig?",
       "antwort_daten": {
         "optionen": [
-          "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant.",
-          "Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden.",
-          "Ausschliesslich das Arbeitsrecht der Verkaufsmitarbeitenden. Dabei werden Markt, Zielgruppe und Kundenbedürfnisse fälschlich als unveränderlich behandelt.",
-          "Konsumentenschutzrechte gelten nur im stationären Handel, nicht online."
+          "Die bestätigte Lieferzusage ist unbeachtlich, weil ein Kaufvertrag nur die Zahlungspflicht der Kundin festlegt und Liefertermine unverbindliche Planungswerte sind.",
+          "Die Lieferabweichung ist anhand der Vereinbarung zu klären und der Kundin ist eine nachvollziehbare Lösung anzubieten.",
+          "Die unbelegte Produkteigenschaft ist vor weiterer Verwendung zu prüfen und die Werbung nötigenfalls zu korrigieren.",
+          "Eine Produkteigenschaft darf ohne Nachweis beworben werden, solange der Verkaufspreis korrekt angegeben ist."
         ],
         "richtige_indices": [
-          0,
-          1
+          1,
+          2
         ]
       },
-      "erklaerung": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden.",
+      "erklaerung": "Eine bestätigte Lieferzusage gehört zur vertraglichen Leistung und darf nicht einfach ignoriert werden. Werbeaussagen müssen sachlich vertretbar sein; eine unbelegte Eigenschaft ist zu prüfen und gegebenenfalls zu korrigieren.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -5229,8 +5229,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
       },
       "loesungsvorschlag": {
-        "kurz": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden.",
-        "warum": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden."
+        "kurz": "Lieferabweichung vertragsbezogen klären und die unbelegte Werbeaussage vor weiterer Nutzung prüfen.",
+        "warum": "Verlässliche Lieferzusagen und belegbare Produktinformationen schützen den informierten Kaufentscheid und eine korrekte Vertragserfüllung."
       },
       "fehlerfallen": [],
       "review": {
@@ -5243,9 +5243,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Verkaufen mit Recht heisst: Vertrag, Gewährleistung und faire Werbung zusammen denken.",
-      "abschlusserklaerung": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit."
+      "merksatz": "Lieferzusagen einhalten und Produkteigenschaften nur belegbar bewerben.",
+      "abschlusserklaerung": "Der Shop muss die bestätigte Lieferzusage sachgerecht behandeln und darf die unbelegte Produkteigenschaft nicht ungeprüft weiterverwenden.",
+      "aufgaben_hinweis": "Prüfe Vertragsleistung und Werbung als zwei getrennte Rechtsfragen."
     },
     {
       "id": "pr2025_marketing_verkauf_3_2_loesungspunkte_stufe3",
@@ -5253,22 +5253,22 @@
       "fach": "Marketing_Verkauf",
       "quelle_id": "2025:Marketing_Verkauf:3.2",
       "quelle_pdf": "2025/Aufgaben/Marketing_Aufgaben_2025.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Rechtliche Grundlagen lösen.",
+      "lernziel": "Werbeaussagen und behauptete Rückgaberechte anhand der konkreten rechtlichen und vertraglichen Grundlage prüfen.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Aussagen erklären „Rechtliche Grundlagen“ fachlich richtig?",
+      "frage": "Ein Schweizer Onlineshop wirbt mit «40 % günstiger», kann den verwendeten Vergleichspreis aber nicht belegen. Eine Kundin verlangt zudem eine Rückgabe ohne Mangel; die AGB enthalten dazu keine klare Regel. Welche zwei Prüfungen sind sachgerecht?",
       "antwort_daten": {
         "optionen": [
-          "Nur interne Verkaufsrichtlinien ohne gesetzliche Basis.",
-          "Ausschliesslich das Arbeitsrecht der Verkaufsmitarbeitenden. Dabei werden Markt, Zielgruppe und Kundenbedürfnisse fälschlich als unveränderlich behandelt.",
-          "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant.",
-          "Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden."
+          "Vergleichspreis und Werbeaussage auf Nachweisbarkeit prüfen und die Aussage nötigenfalls anpassen.",
+          "Die Werbung ohne weitere Prüfung freigeben, weil kurzfristige Onlineaktionen von Lauterkeitsregeln ausgenommen sind.",
+          "Vertrag, AGB und anwendbare Rechtsgrundlage prüfen, statt ein allgemeines Rückgaberecht vorauszusetzen.",
+          "Die Rückgabe automatisch ablehnen, ohne zugesicherte Bedingungen oder eine besondere Rechtsgrundlage zu prüfen."
         ],
         "richtige_indices": [
-          2,
-          3
+          0,
+          2
         ]
       },
-      "erklaerung": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden.",
+      "erklaerung": "Werbeaussagen müssen sachlich überprüfbar und rechtlich zulässig sein. Ein Rückgabe- oder Widerrufsrecht darf im Schweizer Onlinehandel nicht pauschal angenommen oder verneint werden, sondern ist anhand von Vertrag, AGB und anwendbarer Rechtsgrundlage zu prüfen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -5295,8 +5295,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
       },
       "loesungsvorschlag": {
-        "kurz": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden.",
-        "warum": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden."
+        "kurz": "Die Preiswerbung belegen und den Rückgabewunsch anhand der konkret geltenden vertraglichen und rechtlichen Grundlage beurteilen.",
+        "warum": "Pauschale Annahmen über Werbung oder Rückgaberechte können zu falschen Verkaufsentscheiden und irreführender Kundenkommunikation führen."
       },
       "fehlerfallen": [],
       "review": {
@@ -5309,9 +5309,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Verkaufen mit Recht heisst: Vertrag, Gewährleistung und faire Werbung zusammen denken.",
-      "abschlusserklaerung": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit."
+      "merksatz": "Werbung belegen, Rückgaberechte konkret prüfen.",
+      "abschlusserklaerung": "Der Shop muss die Rabattbehauptung nachvollziehbar prüfen und den Rückgabewunsch auf eine konkrete Grundlage abstützen.",
+      "aufgaben_hinweis": "Trenne die lauterkeitsrechtliche Werbeprüfung von der vertraglichen Rückgabefrage."
     },
     {
       "id": "pr2025_marketing_verkauf_3_3_loesungspunkte_stufe3",

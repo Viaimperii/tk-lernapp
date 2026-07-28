@@ -3478,13 +3478,13 @@
       "antwort_daten": {
         "optionen": [
           "CHF 1'140'000",
-          "CHF 1'260'000",
+          "CHF 1'104'000",
           "CHF 1'137'120",
-          "CHF 1'104'000. Dabei werden Zahlungszeitpunkt, Kostenstruktur und Kapitalbindung fälschlich als gleichbedeutend behandelt."
+          "CHF 1'236'000"
         ],
         "richtig_index": 2
       },
-      "erklaerung": "CHF 1'200'000 × 0.92 × 1.03 = CHF 1'137'120.",
+      "erklaerung": "Mengen- und Preiseffekt wirken nacheinander: CHF 1'200'000 × 0.92 × 1.03 = CHF 1'137'120.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -3512,7 +3512,7 @@
       "loesungsvorschlag": {
         "kurz": "CHF 1'137'120",
         "rechenweg": "CHF 1'200'000 × 92 % × 103 % = CHF 1'137'120",
-        "warum": "Ein Rückgang der Menge und ein Anstieg des Preises wirken multiplikativ, nicht durch simples Verrechnen der Prozentpunkte."
+        "warum": "Der Mengenrückgang und die Preiserhöhung werden multiplikativ auf den Vorjahresumsatz angewendet."
       },
       "fehlerfallen": [
         "Prozentänderungen nur addieren oder subtrahieren.",
@@ -3528,8 +3528,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Menge mal Preis ergibt Umsatz – beide Veränderungen wirken nacheinander.",
-      "aufgaben_hinweis": "Mengen- und Preiseffekt müssen nacheinander auf den Vorjahresumsatz angewendet werden."
+      "merksatz": "Umsatzänderungen bei Menge und Preis werden nacheinander multipliziert.",
+      "aufgaben_hinweis": "Mengen- und Preiseffekt müssen nacheinander auf den Vorjahresumsatz angewendet werden.",
+      "abschlusserklaerung": "Nach 8 % Mengenrückgang verbleiben CHF 1'104'000; die anschliessende Preiserhöhung von 3 % führt zu CHF 1'137'120."
     },
     {
       "id": "finanzwirtschaft_budgetierung_stufe1_begriff",
@@ -11689,22 +11690,22 @@
       "fach": "Finanzwirtschaft",
       "quelle_id": "2023:Finanzwirtschaft:2.5",
       "quelle_pdf": "2023/Aufgaben/DE_2023_Aufgaben_Finanzwirtschaft.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Rechnung / Rechnungsprüfung lösen.",
+      "lernziel": "Eine Rechnung formell und materiell mit Bestellung und Lieferung abgleichen.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Grundsätze zu „Rechnung / Rechnungsprüfung“ sind richtig?",
+      "frage": "Bestellt wurden 100 Stück zu CHF 20. Der Lieferschein weist 96 Stück aus, die Rechnung 100 Stück zu CHF 22. Welche zwei Schritte gehören zu einer korrekten Rechnungsprüfung?",
       "antwort_daten": {
         "optionen": [
-          "Formell (Vollständigkeit, Mehrwertsteuer, Rechnungsnummer) und materiell (Menge und Preis stimmen mit Bestellung/Lieferung überein), inklusive Zahlungs- und Skontofristen.",
-          "Prüfungsnah ist der Abgleich von Rechnung mit Bestellung und Lieferschein sowie das Einhalten von Zahlungs- und Skontofristen.",
-          "Nur darauf, ob die Rechnung optisch professionell gestaltet ist. Dabei werden Zahlungszeitpunkt, Kostenstruktur und Kapitalbindung fälschlich als gleichbedeutend behandelt.",
-          "Ausschliesslich das Zahlungsdatum, unabhängig vom Rechnungsinhalt."
+          "Die Rechnung freigeben, sobald Rechnungsnummer und Zahlungsfrist vorhanden sind.",
+          "Rechnung, Bestellung und Lieferschein abgleichen und Mengen- sowie Preisabweichung festhalten.",
+          "Die Abweichungen vor der Freigabe klären und danach Zahlungs- und Skontofristen kontrollieren.",
+          "Die Rechnungsmenge übernehmen, weil allein der Lieferant für die Mengenangabe verantwortlich ist."
         ],
         "richtige_indices": [
-          0,
-          1
+          1,
+          2
         ]
       },
-      "erklaerung": "Formell (Vollständigkeit, Mehrwertsteuer, Rechnungsnummer) und materiell (Menge und Preis stimmen mit Bestellung/Lieferung überein), inklusive Zahlungs- und Skontofristen. Prüfungsnah ist der Abgleich von Rechnung mit Bestellung und Lieferschein sowie das Einhalten von Zahlungs- und Skontofristen.",
+      "erklaerung": "Die formelle Vollständigkeit genügt nicht. Materiell müssen Menge und Preis mit Bestellung und Lieferung übereinstimmen; Abweichungen sind vor der Zahlungsfreigabe zu klären.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -11731,8 +11732,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
       },
       "loesungsvorschlag": {
-        "kurz": "Formell (Vollständigkeit, Mehrwertsteuer, Rechnungsnummer) und materiell (Menge und Preis stimmen mit Bestellung/Lieferung überein), inklusive Zahlungs- und Skontofristen. Prüfungsnah ist der Abgleich von Rechnung mit Bestellung und Lieferschein sowie das Einhalten von Zahlungs- und Skontofristen.",
-        "warum": "Formell (Vollständigkeit, Mehrwertsteuer, Rechnungsnummer) und materiell (Menge und Preis stimmen mit Bestellung/Lieferung überein), inklusive Zahlungs- und Skontofristen. Prüfungsnah ist der Abgleich von Rechnung mit Bestellung und Lieferschein sowie das Einhalten von Zahlungs- und Skontofristen."
+        "kurz": "Die drei Belege abgleichen, Abweichungen klären und erst die korrigierte Rechnung fristgerecht freigeben.",
+        "warum": "Nur der Belegabgleich zeigt, dass statt 100 lediglich 96 Stück geliefert und statt CHF 20 CHF 22 verrechnet wurden."
       },
       "fehlerfallen": [],
       "review": {
@@ -11745,9 +11746,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Erst vergleichen (Bestellung/Lieferschein/Rechnung), dann bezahlen.",
-      "abschlusserklaerung": "Formell (Vollständigkeit, Mehrwertsteuer, Rechnungsnummer) und materiell (Menge und Preis stimmen mit Bestellung/Lieferung überein), inklusive Zahlungs- und Skontofristen. Prüfungsnah ist der Abgleich von Rechnung mit Bestellung und Lieferschein sowie das Einhalten von Zahlungs- und Skontofristen.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit."
+      "merksatz": "Bestellung, Lieferung und Rechnung müssen vor der Zahlung zusammenpassen.",
+      "abschlusserklaerung": "Die Rechnung darf erst nach dem Abgleich und der Klärung der Mengen- und Preisabweichung freigegeben werden.",
+      "aufgaben_hinweis": "Unterscheide formelle Angaben von der materiellen Prüfung von Menge und Preis."
     },
     {
       "id": "pr2024_finanzwirtschaft_1_10_choice_stufe3",

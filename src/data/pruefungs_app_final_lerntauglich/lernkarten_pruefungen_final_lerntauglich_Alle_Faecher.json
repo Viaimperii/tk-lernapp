@@ -3486,13 +3486,13 @@
       "antwort_daten": {
         "optionen": [
           "CHF 1'140'000",
-          "CHF 1'260'000",
+          "CHF 1'104'000",
           "CHF 1'137'120",
-          "CHF 1'104'000. Dabei werden Zahlungszeitpunkt, Kostenstruktur und Kapitalbindung fälschlich als gleichbedeutend behandelt."
+          "CHF 1'236'000"
         ],
         "richtig_index": 2
       },
-      "erklaerung": "CHF 1'200'000 × 0.92 × 1.03 = CHF 1'137'120.",
+      "erklaerung": "Mengen- und Preiseffekt wirken nacheinander: CHF 1'200'000 × 0.92 × 1.03 = CHF 1'137'120.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -3520,7 +3520,7 @@
       "loesungsvorschlag": {
         "kurz": "CHF 1'137'120",
         "rechenweg": "CHF 1'200'000 × 92 % × 103 % = CHF 1'137'120",
-        "warum": "Ein Rückgang der Menge und ein Anstieg des Preises wirken multiplikativ, nicht durch simples Verrechnen der Prozentpunkte."
+        "warum": "Der Mengenrückgang und die Preiserhöhung werden multiplikativ auf den Vorjahresumsatz angewendet."
       },
       "fehlerfallen": [
         "Prozentänderungen nur addieren oder subtrahieren.",
@@ -3536,8 +3536,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Menge mal Preis ergibt Umsatz – beide Veränderungen wirken nacheinander.",
-      "aufgaben_hinweis": "Mengen- und Preiseffekt müssen nacheinander auf den Vorjahresumsatz angewendet werden."
+      "merksatz": "Umsatzänderungen bei Menge und Preis werden nacheinander multipliziert.",
+      "aufgaben_hinweis": "Mengen- und Preiseffekt müssen nacheinander auf den Vorjahresumsatz angewendet werden.",
+      "abschlusserklaerung": "Nach 8 % Mengenrückgang verbleiben CHF 1'104'000; die anschliessende Preiserhöhung von 3 % führt zu CHF 1'137'120."
     },
     {
       "id": "finanzwirtschaft_budgetierung_stufe1_begriff",
@@ -11697,22 +11698,22 @@
       "fach": "Finanzwirtschaft",
       "quelle_id": "2023:Finanzwirtschaft:2.5",
       "quelle_pdf": "2023/Aufgaben/DE_2023_Aufgaben_Finanzwirtschaft.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Rechnung / Rechnungsprüfung lösen.",
+      "lernziel": "Eine Rechnung formell und materiell mit Bestellung und Lieferung abgleichen.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Grundsätze zu „Rechnung / Rechnungsprüfung“ sind richtig?",
+      "frage": "Bestellt wurden 100 Stück zu CHF 20. Der Lieferschein weist 96 Stück aus, die Rechnung 100 Stück zu CHF 22. Welche zwei Schritte gehören zu einer korrekten Rechnungsprüfung?",
       "antwort_daten": {
         "optionen": [
-          "Formell (Vollständigkeit, Mehrwertsteuer, Rechnungsnummer) und materiell (Menge und Preis stimmen mit Bestellung/Lieferung überein), inklusive Zahlungs- und Skontofristen.",
-          "Prüfungsnah ist der Abgleich von Rechnung mit Bestellung und Lieferschein sowie das Einhalten von Zahlungs- und Skontofristen.",
-          "Nur darauf, ob die Rechnung optisch professionell gestaltet ist. Dabei werden Zahlungszeitpunkt, Kostenstruktur und Kapitalbindung fälschlich als gleichbedeutend behandelt.",
-          "Ausschliesslich das Zahlungsdatum, unabhängig vom Rechnungsinhalt."
+          "Die Rechnung freigeben, sobald Rechnungsnummer und Zahlungsfrist vorhanden sind.",
+          "Rechnung, Bestellung und Lieferschein abgleichen und Mengen- sowie Preisabweichung festhalten.",
+          "Die Abweichungen vor der Freigabe klären und danach Zahlungs- und Skontofristen kontrollieren.",
+          "Die Rechnungsmenge übernehmen, weil allein der Lieferant für die Mengenangabe verantwortlich ist."
         ],
         "richtige_indices": [
-          0,
-          1
+          1,
+          2
         ]
       },
-      "erklaerung": "Formell (Vollständigkeit, Mehrwertsteuer, Rechnungsnummer) und materiell (Menge und Preis stimmen mit Bestellung/Lieferung überein), inklusive Zahlungs- und Skontofristen. Prüfungsnah ist der Abgleich von Rechnung mit Bestellung und Lieferschein sowie das Einhalten von Zahlungs- und Skontofristen.",
+      "erklaerung": "Die formelle Vollständigkeit genügt nicht. Materiell müssen Menge und Preis mit Bestellung und Lieferung übereinstimmen; Abweichungen sind vor der Zahlungsfreigabe zu klären.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -11739,8 +11740,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Bezugsbasis, Reihenfolge und Unterscheidung von Herstellkosten, Selbstkosten, Gewinn und MWST."
       },
       "loesungsvorschlag": {
-        "kurz": "Formell (Vollständigkeit, Mehrwertsteuer, Rechnungsnummer) und materiell (Menge und Preis stimmen mit Bestellung/Lieferung überein), inklusive Zahlungs- und Skontofristen. Prüfungsnah ist der Abgleich von Rechnung mit Bestellung und Lieferschein sowie das Einhalten von Zahlungs- und Skontofristen.",
-        "warum": "Formell (Vollständigkeit, Mehrwertsteuer, Rechnungsnummer) und materiell (Menge und Preis stimmen mit Bestellung/Lieferung überein), inklusive Zahlungs- und Skontofristen. Prüfungsnah ist der Abgleich von Rechnung mit Bestellung und Lieferschein sowie das Einhalten von Zahlungs- und Skontofristen."
+        "kurz": "Die drei Belege abgleichen, Abweichungen klären und erst die korrigierte Rechnung fristgerecht freigeben.",
+        "warum": "Nur der Belegabgleich zeigt, dass statt 100 lediglich 96 Stück geliefert und statt CHF 20 CHF 22 verrechnet wurden."
       },
       "fehlerfallen": [],
       "review": {
@@ -11753,9 +11754,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Erst vergleichen (Bestellung/Lieferschein/Rechnung), dann bezahlen.",
-      "abschlusserklaerung": "Formell (Vollständigkeit, Mehrwertsteuer, Rechnungsnummer) und materiell (Menge und Preis stimmen mit Bestellung/Lieferung überein), inklusive Zahlungs- und Skontofristen. Prüfungsnah ist der Abgleich von Rechnung mit Bestellung und Lieferschein sowie das Einhalten von Zahlungs- und Skontofristen.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit."
+      "merksatz": "Bestellung, Lieferung und Rechnung müssen vor der Zahlung zusammenpassen.",
+      "abschlusserklaerung": "Die Rechnung darf erst nach dem Abgleich und der Klärung der Mengen- und Preisabweichung freigegeben werden.",
+      "aufgaben_hinweis": "Unterscheide formelle Angaben von der materiellen Prüfung von Menge und Preis."
     },
     {
       "id": "pr2024_finanzwirtschaft_1_10_choice_stufe3",
@@ -15453,22 +15454,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2023:Integrierte_Fallstudie:01.01",
       "quelle_pdf": "2023/Aufgaben/DE_2023_Aufgaben_IntegrierteFallstudie.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Beschaffung / Lieferanten lösen.",
+      "lernziel": "Lieferantenkriterien anhand einer konkreten, terminkritischen Beschaffungssituation gewichten.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Aussagen erklären „Beschaffung / Lieferanten“ fachlich richtig?",
+      "frage": "Ein Produktionsausfall wäre sehr teuer. Lieferant A verlangt CHF 104 pro Stück, erfüllt die Qualitätsanforderungen und lieferte bisher zuverlässig. Lieferant B verlangt CHF 96, verursachte laut Fall aber wiederholt Lieferverzögerungen. Welche zwei Schlussfolgerungen sind sachgerecht?",
       "antwort_daten": {
         "optionen": [
-          "Auf den tiefsten Preis, unabhängig von den Fallangaben zu Qualität oder Terminen.",
-          "Beschaffung ist in der Fallstudie nie prüfungsrelevant.",
-          "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall?",
-          "Prüfungsnah ist, Lieferantenkriterien (Preis, Qualität, Lieferfähigkeit, Risiko) direkt mit den im Fall genannten Fakten zu verknüpfen."
+          "Lieferant A kann trotz des höheren Preises den grösseren Gesamtnutzen für die terminkritische Situation bieten.",
+          "Lieferant B ist zwingend zu wählen, weil der Einstandspreis das einzige objektiv messbare und deshalb ausschlaggebende Kriterium darstellt.",
+          "Alle Kriterien sind ohne Bezug zur Ausgangslage gleich zu gewichten, damit die Bewertung neutral bleibt.",
+          "Die Gewichtung von Preis, Qualität und Lieferzuverlässigkeit ist zu dokumentieren und mit den Fallangaben zu begründen."
         ],
         "richtige_indices": [
-          2,
+          0,
           3
         ]
       },
-      "erklaerung": "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall? Prüfungsnah ist, Lieferantenkriterien (Preis, Qualität, Lieferfähigkeit, Risiko) direkt mit den im Fall genannten Fakten zu verknüpfen.",
+      "erklaerung": "Bei hohen Ausfallkosten ist Lieferzuverlässigkeit besonders relevant. Eine nachvollziehbare Lieferantenwahl verbindet die Kriterien und ihre Gewichtung direkt mit der konkreten Ausgangslage.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -15495,8 +15496,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
       },
       "loesungsvorschlag": {
-        "kurz": "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall? Prüfungsnah ist, Lieferantenkriterien (Preis, Qualität, Lieferfähigkeit, Risiko) direkt mit den im Fall genannten Fakten zu verknüpfen.",
-        "warum": "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall? Prüfungsnah ist, Lieferantenkriterien (Preis, Qualität, Lieferfähigkeit, Risiko) direkt mit den im Fall genannten Fakten zu verknüpfen."
+        "kurz": "Lieferant A ist trotz Mehrpreis plausibel; die Gewichtung muss den hohen Folgekosten einer Verspätung Rechnung tragen.",
+        "warum": "Der tiefste Stückpreis ist nicht automatisch der tiefste Gesamtkostenbeitrag, wenn wiederholte Verzögerungen einen teuren Produktionsausfall verursachen können."
       },
       "fehlerfallen": [],
       "review": {
@@ -15509,9 +15510,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "In der Fallstudie zählt nicht die allgemeine Regel, sondern ihre Anwendung auf die konkreten Fakten.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
-      "abschlusserklaerung": "In der Fallstudie wird Beschaffung fallbezogen beurteilt: welcher Lieferant passt punkto Gesamtnutzen zur konkreten Situation im Fall? Prüfungsnah ist, Lieferantenkriterien (Preis, Qualität, Lieferfähigkeit, Risiko) direkt mit den im Fall genannten Fakten zu verknüpfen."
+      "merksatz": "Lieferanten nach fallbezogenem Gesamtnutzen beurteilen, nicht nur nach Stückpreis.",
+      "aufgaben_hinweis": "Leite die Gewichtung aus dem Risiko des Produktionsausfalls ab.",
+      "abschlusserklaerung": "Die terminkritische Situation spricht für eine starke Gewichtung der Lieferzuverlässigkeit und damit plausibel für Lieferant A."
     },
     {
       "id": "pr2025_integrierte_fallstudie_1_3_thema_stufe3",
@@ -16187,22 +16188,22 @@
       "fach": "Integrierte_Fallstudie",
       "quelle_id": "2025:Integrierte_Fallstudie:1.1",
       "quelle_pdf": "2025/Aufgaben/IFS_Aufgaben_2025.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Führung / Personal lösen.",
+      "lernziel": "Einen Teamkonflikt durch Sachverhaltsklärung, Rollenklärung und überprüfbare Vereinbarungen bearbeiten.",
       "typ": "multiple_choice",
-      "frage": "Welche beiden Aussagen beschreiben „Führung / Personal“ fachlich korrekt?",
+      "frage": "In einem bereichsübergreifenden Projekt beschuldigen sich Verkauf und Logistik gegenseitig; Zuständigkeiten sind unklar und ein Meilenstein ist gefährdet. Welche zwei Führungsmassnahmen sind angemessen?",
       "antwort_daten": {
         "optionen": [
-          "Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste.",
-          "Indem man das Thema Führung grundsätzlich auslässt, da es zu allgemein sei.",
-          "Indem man ein beliebiges Führungsmodell nennt, unabhängig von der Fallsituation.",
-          "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen."
+          "Im Gesamtteam sofort eine schuldige Person benennen, damit die Diskussion möglichst rasch beendet wird.",
+          "Sachverhalt und Schnittstellen mit den Beteiligten klären und die Verantwortlichkeiten für den Meilenstein festlegen.",
+          "Den Konflikt bis zum Projektabschluss vertagen, weil eine Klärung den aktuellen Terminplan zusätzlich belastet.",
+          "Konkrete Beiträge, Termine und Kontrollpunkte vereinbaren und deren Umsetzung zeitnah nachverfolgen."
         ],
         "richtige_indices": [
-          0,
+          1,
           3
         ]
       },
-      "erklaerung": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen. Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste.",
+      "erklaerung": "Die Führungskraft muss sowohl den Konflikt als auch die organisatorische Unklarheit bearbeiten. Klare Verantwortlichkeiten und nachprüfbare Vereinbarungen schaffen Handlungsfähigkeit.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -16229,8 +16230,8 @@
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen. Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste.",
-        "warum": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen. Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste."
+        "kurz": "Fakten und Schnittstellen klären, Verantwortlichkeiten zuweisen und konkrete Termine mit Nachkontrolle vereinbaren.",
+        "warum": "Schuldzuweisung oder Aufschub lösen weder den Beziehungskonflikt noch die unklaren Arbeitsübergaben."
       },
       "fehlerfallen": [],
       "review": {
@@ -16243,9 +16244,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
-      "abschlusserklaerung": "Führungsfragen in der Fallstudie verlangen, einen im Fall beschriebenen Konflikt oder Engpass mit einem passenden Führungsinstrument zu lösen. Das beste Führungsinstrument ist das, welches zur konkreten Fallsituation passt - nicht das bekannteste."
+      "merksatz": "Konflikte klären, Verantwortung ordnen, Umsetzung nachhalten.",
+      "aufgaben_hinweis": "Berücksichtige Beziehungsebene und organisatorische Ursache gemeinsam.",
+      "abschlusserklaerung": "Die geklärten Schnittstellen und überprüfbaren Vereinbarungen stabilisieren Zusammenarbeit und Meilenstein."
     },
     {
       "id": "pr2025_integrierte_fallstudie_1_4_thema_stufe3",
@@ -23218,22 +23219,22 @@
       "fach": "Marketing_Verkauf",
       "quelle_id": "2025:Marketing_Verkauf:2.3",
       "quelle_pdf": "2025/Aufgaben/Marketing_Aufgaben_2025.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Rechtliche Grundlagen lösen.",
+      "lernziel": "Rechtliche Anforderungen an Preisangaben und die Behandlung eines Mangels in einem Onlineverkauf anwenden.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Aussagen erklären „Rechtliche Grundlagen“ fachlich richtig?",
+      "frage": "Ein Schweizer Onlineshop wirbt mit «CHF 80 inklusive Lieferung». Erst in der Bestellbestätigung erscheint eine zwingende Bearbeitungsgebühr. Zudem meldet die Kundin einen bei Erhalt dokumentierten Defekt. Welche zwei Beurteilungen sind fachlich richtig?",
       "antwort_daten": {
         "optionen": [
-          "Ausschliesslich das Arbeitsrecht der Verkaufsmitarbeitenden. Dabei werden Markt, Zielgruppe und Kundenbedürfnisse fälschlich als unveränderlich behandelt.",
-          "Konsumentenschutzrechte gelten nur im stationären Handel, nicht online.",
-          "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant.",
-          "Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden."
+          "Die zusätzliche Gebühr ist unproblematisch, wenn sie spätestens auf der Rechnung erscheint und für alle Bestellungen gleich hoch ist.",
+          "Unvermeidbare Preisbestandteile müssen vor dem Vertragsabschluss transparent in der Preisangabe erkennbar sein.",
+          "Bei einem Onlinekauf darf der Verkäufer jede Mängelprüfung mit Verweis auf den Versandweg ablehnen.",
+          "Der dokumentierte Defekt ist nach den Regeln des Kaufvertrags und der Gewährleistung sachlich zu prüfen."
         ],
         "richtige_indices": [
-          2,
+          1,
           3
         ]
       },
-      "erklaerung": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden.",
+      "erklaerung": "Zwingende Preisbestandteile dürfen nicht erst nach dem Bestellentscheid erscheinen. Ein gemeldeter Defekt ist anhand des Kaufvertrags und der Gewährleistung zu prüfen; der Onlinevertrieb beseitigt diese Prüfung nicht.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -23260,8 +23261,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
       },
       "loesungsvorschlag": {
-        "kurz": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden.",
-        "warum": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden."
+        "kurz": "Preisbestandteile vor Vertragsabschluss offenlegen und den dokumentierten Defekt nach Kaufvertrags- und Gewährleistungsregeln prüfen.",
+        "warum": "Transparente Werbung ermöglicht einen informierten Kaufentscheid. Bei einem Mangel sind Sachverhalt und vertragliche Ansprüche zu klären, statt die Reklamation pauschal abzulehnen."
       },
       "fehlerfallen": [],
       "review": {
@@ -23274,9 +23275,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Verkaufen mit Recht heisst: Vertrag, Gewährleistung und faire Werbung zusammen denken.",
-      "abschlusserklaerung": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit."
+      "merksatz": "Im Onlineverkauf zählen transparente Preise und eine sachliche Prüfung von Mängeln.",
+      "abschlusserklaerung": "Der Shop muss zwingende Preisbestandteile rechtzeitig transparent machen und den dokumentierten Defekt nach den Regeln des Kaufvertrags und der Gewährleistung prüfen.",
+      "aufgaben_hinweis": "Beurteile Preisangabe und Mängelmeldung unabhängig voneinander."
     },
     {
       "id": "pr2025_marketing_verkauf_2_5_loesungspunkte_stufe3",
@@ -23284,22 +23285,22 @@
       "fach": "Marketing_Verkauf",
       "quelle_id": "2025:Marketing_Verkauf:2.5",
       "quelle_pdf": "2025/Aufgaben/Marketing_Aufgaben_2025.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Rechtliche Grundlagen lösen.",
+      "lernziel": "Eine bestätigte Lieferzusage und eine unbelegte Produkteigenschaft im Verkauf rechtlich sauber behandeln.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Grundsätze zu „Rechtliche Grundlagen“ sind richtig?",
+      "frage": "Ein Verkäufer bestätigt der Kundin schriftlich die Lieferung bis Freitag. Später will der Shop ohne Rücksprache erst in der Folgewoche liefern. Gleichzeitig wirbt er mit einer Produkteigenschaft, für die intern kein Nachweis vorliegt. Welche zwei Massnahmen sind richtig?",
       "antwort_daten": {
         "optionen": [
-          "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant.",
-          "Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden.",
-          "Ausschliesslich das Arbeitsrecht der Verkaufsmitarbeitenden. Dabei werden Markt, Zielgruppe und Kundenbedürfnisse fälschlich als unveränderlich behandelt.",
-          "Konsumentenschutzrechte gelten nur im stationären Handel, nicht online."
+          "Die bestätigte Lieferzusage ist unbeachtlich, weil ein Kaufvertrag nur die Zahlungspflicht der Kundin festlegt und Liefertermine unverbindliche Planungswerte sind.",
+          "Die Lieferabweichung ist anhand der Vereinbarung zu klären und der Kundin ist eine nachvollziehbare Lösung anzubieten.",
+          "Die unbelegte Produkteigenschaft ist vor weiterer Verwendung zu prüfen und die Werbung nötigenfalls zu korrigieren.",
+          "Eine Produkteigenschaft darf ohne Nachweis beworben werden, solange der Verkaufspreis korrekt angegeben ist."
         ],
         "richtige_indices": [
-          0,
-          1
+          1,
+          2
         ]
       },
-      "erklaerung": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden.",
+      "erklaerung": "Eine bestätigte Lieferzusage gehört zur vertraglichen Leistung und darf nicht einfach ignoriert werden. Werbeaussagen müssen sachlich vertretbar sein; eine unbelegte Eigenschaft ist zu prüfen und gegebenenfalls zu korrigieren.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -23326,8 +23327,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
       },
       "loesungsvorschlag": {
-        "kurz": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden.",
-        "warum": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden."
+        "kurz": "Lieferabweichung vertragsbezogen klären und die unbelegte Werbeaussage vor weiterer Nutzung prüfen.",
+        "warum": "Verlässliche Lieferzusagen und belegbare Produktinformationen schützen den informierten Kaufentscheid und eine korrekte Vertragserfüllung."
       },
       "fehlerfallen": [],
       "review": {
@@ -23340,9 +23341,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Verkaufen mit Recht heisst: Vertrag, Gewährleistung und faire Werbung zusammen denken.",
-      "abschlusserklaerung": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit."
+      "merksatz": "Lieferzusagen einhalten und Produkteigenschaften nur belegbar bewerben.",
+      "abschlusserklaerung": "Der Shop muss die bestätigte Lieferzusage sachgerecht behandeln und darf die unbelegte Produkteigenschaft nicht ungeprüft weiterverwenden.",
+      "aufgaben_hinweis": "Prüfe Vertragsleistung und Werbung als zwei getrennte Rechtsfragen."
     },
     {
       "id": "pr2025_marketing_verkauf_3_2_loesungspunkte_stufe3",
@@ -23350,22 +23351,22 @@
       "fach": "Marketing_Verkauf",
       "quelle_id": "2025:Marketing_Verkauf:3.2",
       "quelle_pdf": "2025/Aufgaben/Marketing_Aufgaben_2025.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Rechtliche Grundlagen lösen.",
+      "lernziel": "Werbeaussagen und behauptete Rückgaberechte anhand der konkreten rechtlichen und vertraglichen Grundlage prüfen.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Aussagen erklären „Rechtliche Grundlagen“ fachlich richtig?",
+      "frage": "Ein Schweizer Onlineshop wirbt mit «40 % günstiger», kann den verwendeten Vergleichspreis aber nicht belegen. Eine Kundin verlangt zudem eine Rückgabe ohne Mangel; die AGB enthalten dazu keine klare Regel. Welche zwei Prüfungen sind sachgerecht?",
       "antwort_daten": {
         "optionen": [
-          "Nur interne Verkaufsrichtlinien ohne gesetzliche Basis.",
-          "Ausschliesslich das Arbeitsrecht der Verkaufsmitarbeitenden. Dabei werden Markt, Zielgruppe und Kundenbedürfnisse fälschlich als unveränderlich behandelt.",
-          "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant.",
-          "Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden."
+          "Vergleichspreis und Werbeaussage auf Nachweisbarkeit prüfen und die Aussage nötigenfalls anpassen.",
+          "Die Werbung ohne weitere Prüfung freigeben, weil kurzfristige Onlineaktionen von Lauterkeitsregeln ausgenommen sind.",
+          "Vertrag, AGB und anwendbare Rechtsgrundlage prüfen, statt ein allgemeines Rückgaberecht vorauszusetzen.",
+          "Die Rückgabe automatisch ablehnen, ohne zugesicherte Bedingungen oder eine besondere Rechtsgrundlage zu prüfen."
         ],
         "richtige_indices": [
-          2,
-          3
+          0,
+          2
         ]
       },
-      "erklaerung": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden.",
+      "erklaerung": "Werbeaussagen müssen sachlich überprüfbar und rechtlich zulässig sein. Ein Rückgabe- oder Widerrufsrecht darf im Schweizer Onlinehandel nicht pauschal angenommen oder verneint werden, sondern ist anhand von Vertrag, AGB und anwendbarer Rechtsgrundlage zu prüfen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -23392,8 +23393,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
       },
       "loesungsvorschlag": {
-        "kurz": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden.",
-        "warum": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden."
+        "kurz": "Die Preiswerbung belegen und den Rückgabewunsch anhand der konkret geltenden vertraglichen und rechtlichen Grundlage beurteilen.",
+        "warum": "Pauschale Annahmen über Werbung oder Rückgaberechte können zu falschen Verkaufsentscheiden und irreführender Kundenkommunikation führen."
       },
       "fehlerfallen": [],
       "review": {
@@ -23406,9 +23407,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Verkaufen mit Recht heisst: Vertrag, Gewährleistung und faire Werbung zusammen denken.",
-      "abschlusserklaerung": "Im Verkauf sind v.a. Kaufvertragsrecht, Konsumentenschutz (z.B. Widerrufsrecht) und Regeln zu Werbung/UWG relevant. Prüfungsnah ist, Kaufvertragspflichten (Lieferung, Gewährleistung) und Konsumentenschutzrechte korrekt anzuwenden.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit."
+      "merksatz": "Werbung belegen, Rückgaberechte konkret prüfen.",
+      "abschlusserklaerung": "Der Shop muss die Rabattbehauptung nachvollziehbar prüfen und den Rückgabewunsch auf eine konkrete Grundlage abstützen.",
+      "aufgaben_hinweis": "Trenne die lauterkeitsrechtliche Werbeprüfung von der vertraglichen Rückgabefrage."
     },
     {
       "id": "pr2025_marketing_verkauf_3_3_loesungspunkte_stufe3",
@@ -28799,22 +28800,22 @@
       "fach": "Personalmanagement",
       "quelle_id": "2022:Personalmanagement:2.2",
       "quelle_pdf": "2022/Aufgaben/DE_2022_Aufgaben_Personalmanagement.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Führung / Personal lösen.",
+      "lernziel": "Nach einem Beinaheunfall geeignete Führungsmassnahmen für Sicherheit und Schichtübergabe auswählen.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Grundsätze zu „Führung / Personal“ sind richtig?",
+      "frage": "Nach einem Beinaheunfall zeigt sich, dass bei der Schichtübergabe weder offene Sicherheitsmeldungen noch Verantwortlichkeiten festgehalten werden. Welche zwei Führungsmassnahmen sind angemessen?",
       "antwort_daten": {
         "optionen": [
-          "Führung im Lager-/Logistikbereich muss Sicherheits- und Prozessvorgaben konsequent durchsetzen und klare Verantwortlichkeiten schaffen.",
-          "Prüfungsnah ist, typische Führungslücken (unklare Verantwortlichkeiten, inkonsequente Durchsetzung von Vorgaben) zu erkennen.",
-          "Sicherheitsvorgaben nur bei Kontrollen durch Vorgesetzte zu beachten. Dabei werden Bestände, Lieferzeit, Qualität und Gesamtkosten fälschlich unabhängig von der Beschaffungssituation gleichgesetzt.",
-          "Verantwortlichkeiten zwischen Schichten bewusst offen zu lassen."
+          "Eine verbindliche Übergabe mit klar zugeteilten Verantwortlichkeiten und offenen Sicherheitsmeldungen einführen.",
+          "Sicherheitsvorgaben nur kurz vor angekündigten Kontrollen besonders konsequent durchsetzen.",
+          "Den Vorfall zeitnah besprechen, Erwartungen klären und die Umsetzung der Massnahmen nachkontrollieren.",
+          "Das Thema bis zum jährlichen Mitarbeitendengespräch zurückstellen, um den Betriebsablauf nicht zu stören."
         ],
         "richtige_indices": [
           0,
-          1
+          2
         ]
       },
-      "erklaerung": "Führung im Lager-/Logistikbereich muss Sicherheits- und Prozessvorgaben konsequent durchsetzen und klare Verantwortlichkeiten schaffen. Prüfungsnah ist, typische Führungslücken (unklare Verantwortlichkeiten, inkonsequente Durchsetzung von Vorgaben) zu erkennen.",
+      "erklaerung": "Gute Führung schafft klare Verantwortung und setzt Sicherheitsvorgaben kontinuierlich durch. Zeitnahes, sachliches Feedback und eine Nachkontrolle unterstützen die nachhaltige Umsetzung.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -28841,8 +28842,8 @@
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Führung im Lager-/Logistikbereich muss Sicherheits- und Prozessvorgaben konsequent durchsetzen und klare Verantwortlichkeiten schaffen. Prüfungsnah ist, typische Führungslücken (unklare Verantwortlichkeiten, inkonsequente Durchsetzung von Vorgaben) zu erkennen.",
-        "warum": "Führung im Lager-/Logistikbereich muss Sicherheits- und Prozessvorgaben konsequent durchsetzen und klare Verantwortlichkeiten schaffen. Prüfungsnah ist, typische Führungslücken (unklare Verantwortlichkeiten, inkonsequente Durchsetzung von Vorgaben) zu erkennen."
+        "kurz": "Übergabe und Zuständigkeiten verbindlich regeln sowie den Vorfall zeitnah mit anschliessender Wirkungskontrolle bearbeiten.",
+        "warum": "Unklare Übergaben erhöhen das Risiko wiederholter Fehler. Klare Erwartungen, Verantwortlichkeiten und Kontrollen machen die Verbesserung im Alltag wirksam."
       },
       "fehlerfallen": [],
       "review": {
@@ -28855,9 +28856,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Klare Verantwortung und konsequente Vorgaben verhindern Unfälle und Doppelspurigkeiten.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
-      "abschlusserklaerung": "Führung im Lager-/Logistikbereich muss Sicherheits- und Prozessvorgaben konsequent durchsetzen und klare Verantwortlichkeiten schaffen. Prüfungsnah ist, typische Führungslücken (unklare Verantwortlichkeiten, inkonsequente Durchsetzung von Vorgaben) zu erkennen."
+      "merksatz": "Sicherheit braucht klare Verantwortung, zeitnahes Feedback und konsequente Nachkontrolle.",
+      "aufgaben_hinweis": "Wähle Massnahmen, die das Risiko sofort und dauerhaft senken.",
+      "abschlusserklaerung": "Eine verbindliche Schichtübergabe und ein zeitnah geführtes Gespräch mit Nachkontrolle beseitigen die erkannten Führungslücken."
     },
     {
       "id": "pr2022_personalmanagement_2_3_thema_stufe3",
@@ -28931,22 +28932,22 @@
       "fach": "Personalmanagement",
       "quelle_id": "2022:Personalmanagement:3.1",
       "quelle_pdf": "2022/Aufgaben/DE_2022_Aufgaben_Personalmanagement.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Führung / Personal lösen.",
+      "lernziel": "Bei wiederholten Sicherheitsverstössen sachlich führen und organisatorische Ursachen beseitigen.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Aussagen erklären „Führung / Personal“ fachlich richtig?",
+      "frage": "Ein Mitarbeitender umgeht wiederholt eine Sicherheitskontrolle. Gleichzeitig ist im Prozess nicht eindeutig geregelt, wer die Kontrolle freigibt. Welche zwei Reaktionen der Führungskraft sind angemessen?",
       "antwort_daten": {
         "optionen": [
-          "Verantwortlichkeiten zwischen Schichten bewusst offen zu lassen.",
-          "Feedback zu Fehlern erst am Ende des Jahres zu geben.",
-          "Führung im Lager-/Logistikbereich muss Sicherheits- und Prozessvorgaben konsequent durchsetzen und klare Verantwortlichkeiten schaffen.",
-          "Prüfungsnah ist, typische Führungslücken (unklare Verantwortlichkeiten, inkonsequente Durchsetzung von Vorgaben) zu erkennen."
+          "Den konkreten Vorfall zeitnah besprechen, die Erwartung verbindlich klären und eine Nachkontrolle vereinbaren.",
+          "Das ganze Team in der nächsten Sitzung öffentlich rügen, ohne zwischen individuellem Verhalten und dem organisatorischen Prozessmangel zu unterscheiden.",
+          "Bis zum Jahresgespräch abwarten, weil unmittelbares Feedback die Arbeitsbeziehung belasten könnte.",
+          "Die Freigabeverantwortung im Prozess eindeutig regeln und die betroffenen Mitarbeitenden darüber informieren."
         ],
         "richtige_indices": [
-          2,
+          0,
           3
         ]
       },
-      "erklaerung": "Führung im Lager-/Logistikbereich muss Sicherheits- und Prozessvorgaben konsequent durchsetzen und klare Verantwortlichkeiten schaffen. Prüfungsnah ist, typische Führungslücken (unklare Verantwortlichkeiten, inkonsequente Durchsetzung von Vorgaben) zu erkennen.",
+      "erklaerung": "Die Führungskraft muss sowohl das konkrete Verhalten als auch die organisatorische Unklarheit bearbeiten. Zeitnahes, sachliches Feedback und eine klare Prozessverantwortung verhindern Wiederholungen besser als pauschale oder verspätete Reaktionen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -28973,8 +28974,8 @@
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Führung im Lager-/Logistikbereich muss Sicherheits- und Prozessvorgaben konsequent durchsetzen und klare Verantwortlichkeiten schaffen. Prüfungsnah ist, typische Führungslücken (unklare Verantwortlichkeiten, inkonsequente Durchsetzung von Vorgaben) zu erkennen.",
-        "warum": "Führung im Lager-/Logistikbereich muss Sicherheits- und Prozessvorgaben konsequent durchsetzen und klare Verantwortlichkeiten schaffen. Prüfungsnah ist, typische Führungslücken (unklare Verantwortlichkeiten, inkonsequente Durchsetzung von Vorgaben) zu erkennen."
+        "kurz": "Verhalten sofort und fair klären sowie die unklare Freigabeverantwortung im Prozess beseitigen.",
+        "warum": "Sicherheitsabweichungen können personenbezogene und organisatorische Ursachen haben. Beide Ebenen brauchen eine überprüfbare Massnahme."
       },
       "fehlerfallen": [],
       "review": {
@@ -28987,9 +28988,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Klare Verantwortung und konsequente Vorgaben verhindern Unfälle und Doppelspurigkeiten.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
-      "abschlusserklaerung": "Führung im Lager-/Logistikbereich muss Sicherheits- und Prozessvorgaben konsequent durchsetzen und klare Verantwortlichkeiten schaffen. Prüfungsnah ist, typische Führungslücken (unklare Verantwortlichkeiten, inkonsequente Durchsetzung von Vorgaben) zu erkennen."
+      "merksatz": "Gute Führung klärt Verhalten und Prozess, nicht nur eines von beidem.",
+      "aufgaben_hinweis": "Berücksichtige individuelle Verantwortung und organisatorische Ursache.",
+      "abschlusserklaerung": "Ein zeitnahes Führungsgespräch und eine eindeutige Freigaberegelung adressieren beide Ursachen des Sicherheitsproblems."
     },
     {
       "id": "pr2022_personalmanagement_3_2_thema_stufe3",
@@ -29063,22 +29064,22 @@
       "fach": "Personalmanagement",
       "quelle_id": "2022:Personalmanagement:3.3",
       "quelle_pdf": "2022/Aufgaben/DE_2022_Aufgaben_Personalmanagement.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Führung / Personal lösen.",
+      "lernziel": "Den Führungsstil an Erfahrung, Aufgabe und Unterstützungsbedarf von Mitarbeitenden anpassen.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Grundsätze zu „Führung / Personal“ sind richtig?",
+      "frage": "Eine neue Mitarbeiterin bearbeitet erstmals kritische Kundenreklamationen; ein erfahrener Mitarbeiter erstellt seit Jahren selbstständig den Monatsreport. Welche zwei Führungsreaktionen sind angemessen?",
       "antwort_daten": {
         "optionen": [
-          "Mitarbeitende zu motivieren, Aufgaben sinnvoll zu delegieren und den Führungsstil der Situation anzupassen.",
-          "Prüfungsnah ist das situative Führen: der Führungsstil sollte zu Aufgabe und Reifegrad der Mitarbeitenden passen.",
-          "Führung beschränkt sich auf die Kontrolle der Arbeitszeiten.",
-          "Ausschliesslich Anweisungen zu erteilen, ohne auf die Situation der Mitarbeitenden einzugehen."
+          "Beiden werden sämtliche Arbeitsschritte dauerhaft vorgeschrieben, damit die Führungskraft jederzeit die volle Kontrolle behält.",
+          "Die neue Mitarbeiterin erhält klare Schritte, Entscheidungslimiten und zeitnahes Feedback zu den ersten Fällen.",
+          "Die neue Mitarbeiterin übernimmt die Reklamationen sofort ohne Rückfragen, damit sie möglichst rasch Selbstständigkeit beweist.",
+          "Der erfahrene Mitarbeiter erhält Ergebnisrahmen und Entscheidungsspielraum; vereinbarte Kontrollpunkte sichern die Abstimmung."
         ],
         "richtige_indices": [
-          0,
-          1
+          1,
+          3
         ]
       },
-      "erklaerung": "Mitarbeitende zu motivieren, Aufgaben sinnvoll zu delegieren und den Führungsstil der Situation anzupassen. Prüfungsnah ist das situative Führen: der Führungsstil sollte zu Aufgabe und Reifegrad der Mitarbeitenden passen.",
+      "erklaerung": "Situatives Führen richtet Unterstützung und Delegation nach Aufgabe und Erfahrung aus. Bei einer neuen, risikoreichen Aufgabe braucht es mehr Anleitung; bei einer beherrschten Routineaufgabe sind Ergebnisorientierung und angemessener Spielraum sinnvoll.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -29105,8 +29106,8 @@
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Mitarbeitende zu motivieren, Aufgaben sinnvoll zu delegieren und den Führungsstil der Situation anzupassen. Prüfungsnah ist das situative Führen: der Führungsstil sollte zu Aufgabe und Reifegrad der Mitarbeitenden passen.",
-        "warum": "Mitarbeitende zu motivieren, Aufgaben sinnvoll zu delegieren und den Führungsstil der Situation anzupassen. Prüfungsnah ist das situative Führen: der Führungsstil sollte zu Aufgabe und Reifegrad der Mitarbeitenden passen."
+        "kurz": "Die neue Mitarbeiterin eng anleiten und dem erfahrenen Mitarbeiter innerhalb eines klaren Rahmens Handlungsspielraum geben.",
+        "warum": "Gleiche Führung für unterschiedliche Ausgangslagen führt entweder zu Überforderung oder unnötiger Kontrolle."
       },
       "fehlerfallen": [],
       "review": {
@@ -29119,9 +29120,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Führen heisst: motivieren, delegieren, den Stil anpassen.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
-      "abschlusserklaerung": "Mitarbeitende zu motivieren, Aufgaben sinnvoll zu delegieren und den Führungsstil der Situation anzupassen. Prüfungsnah ist das situative Führen: der Führungsstil sollte zu Aufgabe und Reifegrad der Mitarbeitenden passen."
+      "merksatz": "So viel Führung wie nötig, so viel Selbstständigkeit wie möglich.",
+      "aufgaben_hinweis": "Vergleiche Erfahrung, Aufgabenrisiko und benötigte Unterstützung.",
+      "abschlusserklaerung": "Die neue Mitarbeiterin braucht Orientierung und Feedback; der erfahrene Mitarbeiter kann mit klaren Zielen und Kontrollpunkten selbstständig arbeiten."
     },
     {
       "id": "pr2023_personalmanagement_1_13_choice_stufe3",
@@ -29636,22 +29637,22 @@
       "fach": "Personalmanagement",
       "quelle_id": "2023:Personalmanagement:2.4",
       "quelle_pdf": "2023/Aufgaben/DE_2023_Aufgaben_Personalmanagement.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Führung / Personal lösen.",
+      "lernziel": "Eine Aufgabe mit klarem Ergebnisrahmen, angemessenen Befugnissen und Kontrollpunkten delegieren.",
       "typ": "multiple_choice",
-      "frage": "Welche beiden Aussagen beschreiben „Führung / Personal“ fachlich korrekt?",
+      "frage": "Eine Teamleiterin delegiert einem erfahrenen Mitarbeiter die monatliche Qualitätsauswertung. Welche zwei Vereinbarungen unterstützen eine wirksame Delegation?",
       "antwort_daten": {
         "optionen": [
-          "Führen heisst: motivieren, delegieren, den Stil anpassen.",
-          "Ausschliesslich Anweisungen zu erteilen, ohne auf die Situation der Mitarbeitenden einzugehen.",
-          "Delegation ist in der Führung grundsätzlich zu vermeiden. Dabei werden rechtliche Rahmenbedingungen, die individuelle Situation und betriebliche Folgen fälschlich gleichgesetzt.",
-          "Mitarbeitende zu motivieren, Aufgaben sinnvoll zu delegieren und den Führungsstil der Situation anzupassen."
+          "Die gesamte Führungsverantwortung übertragen und auf Rückmeldungen verzichten, damit die Delegation vollständig ist.",
+          "Ergebnis, Qualitätsanforderungen, Termin sowie verfügbare Befugnisse und Ressourcen klären.",
+          "Nach der Übergabe neue Prioritäten setzen, ohne den Mitarbeiter darüber zu informieren.",
+          "Angemessene Kontrollpunkte und Unterstützung vereinbaren, während der Mitarbeiter die Ausführung selbstständig gestaltet."
         ],
         "richtige_indices": [
-          0,
+          1,
           3
         ]
       },
-      "erklaerung": "Mitarbeitende zu motivieren, Aufgaben sinnvoll zu delegieren und den Führungsstil der Situation anzupassen. Führen heisst: motivieren, delegieren, den Stil anpassen.",
+      "erklaerung": "Wirksame Delegation überträgt eine Aufgabe mit dem nötigen Handlungsspielraum, lässt die Führungsverantwortung aber bei der vorgesetzten Person. Klare Erwartungen und vereinbarte Kontrollpunkte vermeiden Mikromanagement und Überraschungen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -29678,8 +29679,8 @@
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Mitarbeitende zu motivieren, Aufgaben sinnvoll zu delegieren und den Führungsstil der Situation anzupassen. Führen heisst: motivieren, delegieren, den Stil anpassen.",
-        "warum": "Mitarbeitende zu motivieren, Aufgaben sinnvoll zu delegieren und den Führungsstil der Situation anzupassen. Führen heisst: motivieren, delegieren, den Stil anpassen."
+        "kurz": "Auftrag, Befugnisse und Ressourcen klären sowie passende Kontrollpunkte ohne unnötige Detailsteuerung festlegen.",
+        "warum": "Der Mitarbeiter kann nur verantwortlich handeln, wenn Ergebnisrahmen und Spielraum bekannt sind; die Teamleiterin bleibt für Steuerung und Unterstützung zuständig."
       },
       "fehlerfallen": [],
       "review": {
@@ -29692,9 +29693,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Führen heisst: motivieren, delegieren, den Stil anpassen.",
-      "abschlusserklaerung": "Mitarbeitende zu motivieren, Aufgaben sinnvoll zu delegieren und den Führungsstil der Situation anzupassen. Führen heisst: motivieren, delegieren, den Stil anpassen.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit."
+      "merksatz": "Delegiere Aufgabe und Befugnisse, nicht die Führungsverantwortung.",
+      "abschlusserklaerung": "Ein klarer Auftrag mit angemessenem Spielraum und abgestimmten Kontrollpunkten macht die Delegation wirksam.",
+      "aufgaben_hinweis": "Achte auf Ergebnis, Spielraum, Ressourcen und Rückmeldung."
     },
     {
       "id": "pr2023_personalmanagement_3_2_loesungspunkte_stufe3",
@@ -37489,22 +37490,22 @@
       "fach": "Problemloesung_Entscheidung",
       "quelle_id": "2025:Problemloesung_Entscheidung:1.3",
       "quelle_pdf": "2025/Aufgaben/PL-EM_Aufgaben_2025.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Marketing / Verkauf lösen.",
+      "lernziel": "Bei einem Verkaufsproblem Ursachen anhand geeigneter Daten prüfen, bevor eine Massnahme entschieden wird.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Grundsätze zu „Marketing / Verkauf“ sind richtig?",
+      "frage": "Die Zahl der Websitebesuche bleibt stabil, aber Wiederkäufe gehen deutlich zurück. Das Team möchte sofort einen allgemeinen Rabatt starten. Welche zwei Schritte sind vor dem Entscheid sinnvoll?",
       "antwort_daten": {
         "optionen": [
-          "Bei Marketing-/Verkaufsproblemen wird zuerst die Ursache analysiert (z.B. mit Ursache-Wirkungs-Diagramm), bevor eine Massnahme entschieden wird.",
-          "Prüfungsnah ist, aus einem geschilderten Marketing-/Verkaufsproblem systematisch Ursachen abzuleiten und daraus eine begründete Massnahme zu entscheiden.",
-          "Indem man nur eine mögliche Ursache in Betracht zieht.",
-          "Indem man sofort die naheliegendste Massnahme umsetzt, ohne Ursachenanalyse. Dabei wird die Methode fälschlich unabhängig von Ziel, Datenlage und möglichen Risiken gewählt."
+          "Den Rabatt sofort ausrollen, weil sinkende Wiederkäufe bereits beweisen, dass der Preis die einzige Ursache ist.",
+          "Kaufabbrüche, Reklamationen und Wiederkaufraten nach Kundengruppe und Produkt vergleichen.",
+          "Eine einzelne negative Kundenmeldung als Hauptursache festlegen und die übrigen Daten nicht weiter auswerten.",
+          "Mehrere plausible Ursachen formulieren und mit den verfügbaren Daten prüfen, bevor eine Massnahme gewählt wird."
         ],
         "richtige_indices": [
-          0,
-          1
+          1,
+          3
         ]
       },
-      "erklaerung": "Bei Marketing-/Verkaufsproblemen wird zuerst die Ursache analysiert (z.B. mit Ursache-Wirkungs-Diagramm), bevor eine Massnahme entschieden wird. Prüfungsnah ist, aus einem geschilderten Marketing-/Verkaufsproblem systematisch Ursachen abzuleiten und daraus eine begründete Massnahme zu entscheiden.",
+      "erklaerung": "Stabile Besuche bei sinkenden Wiederkäufen können verschiedene Ursachen haben. Segmentierte Daten und überprüfbare Ursachen verhindern, dass eine teure Massnahme auf einer blossen Vermutung basiert.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -37531,8 +37532,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Zielgruppen, Kundennutzen, 4P/7P, Beschwerdeprozess, CRM und passende Massnahmen zur Ausgangslage."
       },
       "loesungsvorschlag": {
-        "kurz": "Bei Marketing-/Verkaufsproblemen wird zuerst die Ursache analysiert (z.B. mit Ursache-Wirkungs-Diagramm), bevor eine Massnahme entschieden wird. Prüfungsnah ist, aus einem geschilderten Marketing-/Verkaufsproblem systematisch Ursachen abzuleiten und daraus eine begründete Massnahme zu entscheiden.",
-        "warum": "Bei Marketing-/Verkaufsproblemen wird zuerst die Ursache analysiert (z.B. mit Ursache-Wirkungs-Diagramm), bevor eine Massnahme entschieden wird. Prüfungsnah ist, aus einem geschilderten Marketing-/Verkaufsproblem systematisch Ursachen abzuleiten und daraus eine begründete Massnahme zu entscheiden."
+        "kurz": "Relevante Verkaufs- und Rückmeldedaten segmentieren, Ursachenhypothesen prüfen und erst danach eine passende Massnahme wählen.",
+        "warum": "Ein Rabatt behandelt nur die Preisursache und kann wirkungslos bleiben, wenn beispielsweise Produktqualität oder Service den Rückgang auslösen."
       },
       "fehlerfallen": [],
       "review": {
@@ -37545,9 +37546,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Ohne Ursachenanalyse ist jede Marketingmassnahme nur geraten.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
-      "abschlusserklaerung": "Bei Marketing-/Verkaufsproblemen wird zuerst die Ursache analysiert (z.B. mit Ursache-Wirkungs-Diagramm), bevor eine Massnahme entschieden wird. Prüfungsnah ist, aus einem geschilderten Marketing-/Verkaufsproblem systematisch Ursachen abzuleiten und daraus eine begründete Massnahme zu entscheiden."
+      "merksatz": "Erst Ursache belegen, dann Massnahme entscheiden.",
+      "aufgaben_hinweis": "Trenne beobachtetes Symptom, mögliche Ursache und gewählte Massnahme.",
+      "abschlusserklaerung": "Die Entscheidung wird belastbar, wenn das Team Daten vergleicht und mehrere Ursachen prüft, bevor es den Rabatt freigibt."
     },
     {
       "id": "problemloesung_entscheidung_mindmapping_stufe1_begriff",
@@ -39157,22 +39158,22 @@
       "fach": "Problemloesung_Entscheidung",
       "quelle_id": "2022:Problemloesung_Entscheidung:3.1",
       "quelle_pdf": "2022/Aufgaben/DE_2022_Aufgaben_Problemloesung.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Rechtliche Grundlagen lösen.",
+      "lernziel": "Rechtliche Muss-Kriterien vor der wirtschaftlichen Bewertung von Entscheidungsvarianten anwenden.",
       "typ": "multiple_choice",
-      "frage": "Welche beiden Aussagen müssen bei „Rechtliche Grundlagen“ beachtet werden?",
+      "frage": "Ein Projektteam bewertet drei Automationslösungen. Bei der günstigsten Variante ist gemäss Falldokumentation eine zwingende Sicherheitsanforderung nicht erfüllt. Welche zwei Vorgehensweisen sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Die bequemste Option umsetzen und erst bei einer Beschwerde prüfen.",
-          "Die Rechtsgrundlage und den Sachverhalt prüfen, bevor die Option bewertet oder umgesetzt wird.",
-          "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten.",
-          "Nur die persönliche Einschätzung der zuständigen Person dokumentieren. Dabei wird die Methode fälschlich unabhängig von Ziel, Datenlage und möglichen Risiken gewählt."
+          "Die Variante erhält beim Kriterium Sicherheit eine tiefe Punktzahl und kann durch den günstigsten Preis trotzdem gewinnen.",
+          "Die nicht erfüllte Sicherheitsanforderung ist vor der Nutzwertbewertung als Ausschlusskriterium zu behandeln.",
+          "Das Team dokumentiert das rechtliche Muss-Kriterium und bewertet nur die zulässigen Varianten nach den übrigen Zielen.",
+          "Die günstigste Variante wird umgesetzt, sofern die erwartete Einsparung höher als das geschätzte Rechtsrisiko ist."
         ],
         "richtige_indices": [
           1,
           2
         ]
       },
-      "erklaerung": "Die Rechtsgrundlage und den Sachverhalt prüfen, bevor die Option bewertet oder umgesetzt wird. Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten.",
+      "erklaerung": "Eine zwingende rechtliche Anforderung ist kein frei gewichtbares Wunschkriterium. Nicht zulässige Varianten werden ausgeschlossen; erst danach werden die verbleibenden Optionen wirtschaftlich verglichen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -39199,8 +39200,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
       },
       "loesungsvorschlag": {
-        "kurz": "Die Rechtsgrundlage und den Sachverhalt prüfen, bevor die Option bewertet oder umgesetzt wird. Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten.",
-        "warum": "Die Rechtsgrundlage und den Sachverhalt prüfen, bevor die Option bewertet oder umgesetzt wird. Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
+        "kurz": "Die unzulässige Variante ausschliessen, das Muss-Kriterium dokumentieren und nur die zulässigen Varianten bewerten.",
+        "warum": "Ein hoher wirtschaftlicher Nutzen kann die Nichterfüllung einer zwingenden Sicherheitsanforderung nicht kompensieren."
       },
       "fehlerfallen": [],
       "review": {
@@ -39213,9 +39214,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Rechtliche Muss-Kriterien begrenzen den Entscheidungsraum. Unzulässige Varianten dürfen nicht durch eine gute wirtschaftliche Bewertung legitimiert werden.",
-      "abschlusserklaerung": "Die Rechtsgrundlage und den Sachverhalt prüfen, bevor die Option bewertet oder umgesetzt wird. Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit."
+      "merksatz": "Muss-Kriterien zuerst prüfen, zulässige Varianten danach bewerten.",
+      "abschlusserklaerung": "Die Sicherheitsanforderung begrenzt den Entscheidungsraum. Nur rechtlich zulässige Lösungen dürfen in die weitere Bewertung gelangen.",
+      "aufgaben_hinweis": "Unterscheide Ausschlusskriterien von gewichtbaren Bewertungskriterien."
     },
     {
       "id": "pr2024_problemloesung_entscheidung_20_08_thema_stufe3",
@@ -39223,22 +39224,22 @@
       "fach": "Problemloesung_Entscheidung",
       "quelle_id": "2024:Problemloesung_Entscheidung:20.08",
       "quelle_pdf": "2024/Aufgaben/07_Problem-Entscheidung_2024_Aufgaben.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Rechtliche Grundlagen lösen.",
+      "lernziel": "Bei einem Standortentscheid die rechtliche Zulässigkeit vor der Nutzwertanalyse prüfen.",
       "typ": "multiple_choice",
-      "frage": "Welche beiden Aussagen müssen bei „Rechtliche Grundlagen“ beachtet werden?",
+      "frage": "Für einen neuen Betriebsstandort stehen drei Varianten zur Wahl. Laut Fall kann an Standort X die erforderliche Bewilligung für den vorgesehenen Betrieb nicht erteilt werden. Welche zwei Aussagen zum Entscheidungsprozess sind richtig?",
       "antwort_daten": {
         "optionen": [
-          "Nur die persönliche Einschätzung der zuständigen Person dokumentieren. Dabei wird die Methode fälschlich unabhängig von Ziel, Datenlage und möglichen Risiken gewählt.",
-          "Die Rechtsgrundlage und den Sachverhalt prüfen, bevor die Option bewertet oder umgesetzt wird.",
-          "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten.",
-          "Rechtliche Vorgaben ignorieren, wenn die Massnahme wirtschaftlich attraktiv ist."
+          "Standort X kann mit hoher Rentabilität genügend Zusatzpunkte erhalten, um die fehlende Bewilligung auszugleichen, sofern der erwartete Gewinn ausreichend hoch ist.",
+          "Die Bewilligungsfähigkeit ist vor der Gewichtung wirtschaftlicher Kriterien als rechtliches Muss-Kriterium zu prüfen.",
+          "Nur bewilligungsfähige Standorte sind anschliessend anhand von Kosten, Nutzen und Risiken vergleichbar zu bewerten.",
+          "Die Bewilligung ist wie eine Standortpräferenz zu gewichten, damit jedes Kriterium einen Zahlenwert erhält."
         ],
         "richtige_indices": [
           1,
           2
         ]
       },
-      "erklaerung": "Die Rechtsgrundlage und den Sachverhalt prüfen, bevor die Option bewertet oder umgesetzt wird. Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten.",
+      "erklaerung": "Ohne erforderliche Bewilligung ist die Variante nicht umsetzbar. Rechtliche Zulässigkeit wird deshalb vor der Nutzwertanalyse geprüft; wirtschaftliche Kriterien vergleichen erst die verbleibenden realisierbaren Standorte.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -39265,8 +39266,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
       },
       "loesungsvorschlag": {
-        "kurz": "Die Rechtsgrundlage und den Sachverhalt prüfen, bevor die Option bewertet oder umgesetzt wird. Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten.",
-        "warum": "Die Rechtsgrundlage und den Sachverhalt prüfen, bevor die Option bewertet oder umgesetzt wird. Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
+        "kurz": "Standort X ausschliessen und nur die bewilligungsfähigen Varianten wirtschaftlich bewerten.",
+        "warum": "Eine fehlende rechtliche Umsetzbarkeit kann nicht durch Rentabilität oder andere Präferenzkriterien kompensiert werden."
       },
       "fehlerfallen": [],
       "review": {
@@ -39279,9 +39280,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Rechtliche Muss-Kriterien begrenzen den Entscheidungsraum. Unzulässige Varianten dürfen nicht durch eine gute wirtschaftliche Bewertung legitimiert werden.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
-      "abschlusserklaerung": "Die Rechtsgrundlage und den Sachverhalt prüfen, bevor die Option bewertet oder umgesetzt wird. Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
+      "merksatz": "Zulässigkeit vor Vorteilhaftigkeit.",
+      "aufgaben_hinweis": "Ordne die Bewilligung entweder als Muss- oder als Wunschkriterium ein.",
+      "abschlusserklaerung": "Die Bewilligungsfähigkeit begrenzt die Auswahl; erst danach folgt der wirtschaftliche Vergleich der zulässigen Standorte."
     },
     {
       "id": "pr2024_problemloesung_entscheidung_3_1_loesungspunkte_stufe3",
@@ -43350,22 +43351,22 @@
       "fach": "Recht_VWL",
       "quelle_id": "2022:Recht_VWL:2.3",
       "quelle_pdf": "2022/Aufgaben/DE_2022_Aufgaben_Recht_VWL.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Rechtliche Grundlagen lösen.",
+      "lernziel": "Einen Rechtsfall durch Sachverhaltsklärung und Subsumtion strukturiert beurteilen.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Grundsätze zu „Rechtliche Grundlagen“ sind richtig?",
+      "frage": "Eine Rechtsnorm gewährt einen Anspruch, wenn eine gelieferte Sache eine zugesicherte Eigenschaft nicht besitzt. Im Fall ist noch unklar, was zugesichert wurde und welchen Zustand die Sache bei der Lieferung hatte. Welche zwei Schritte sind methodisch richtig?",
       "antwort_daten": {
         "optionen": [
-          "Rechtsfälle werden gelöst, indem der konkrete Sachverhalt der passenden Rechtsnorm zugeordnet und die Rechtsfolge daraus abgeleitet wird.",
-          "Prüfungsnah ist die Methodik: Sachverhalt erfassen, passende Norm finden, Rechtsfolge ableiten (Tatbestand - Regel - Rechtsfolge).",
-          "Indem man die konkrete Norm ignoriert und nur das eigene Gerechtigkeitsempfinden anwendet.",
-          "Indem man eine Antwort wählt, die allgemein plausibel klingt. Dabei werden gesetzliche Voraussetzungen, Fristen und der konkrete Sachverhalt fälschlich nicht unterschieden."
+          "Vertragsunterlagen, Kommunikation und Zustand bei der Lieferung klären, bevor der Anspruch beurteilt wird.",
+          "Nach der üblichen Geschäftspraxis entscheiden und die konkrete Rechtsnorm erst bei einem Einwand prüfen.",
+          "Die Rechtsfolge sofort anwenden, weil bereits die Behauptung eines Mangels den Tatbestand erfüllt.",
+          "Die festgestellten Tatsachen den Voraussetzungen der Norm zuordnen und daraus die Rechtsfolge ableiten."
         ],
         "richtige_indices": [
           0,
-          1
+          3
         ]
       },
-      "erklaerung": "Rechtsfälle werden gelöst, indem der konkrete Sachverhalt der passenden Rechtsnorm zugeordnet und die Rechtsfolge daraus abgeleitet wird. Prüfungsnah ist die Methodik: Sachverhalt erfassen, passende Norm finden, Rechtsfolge ableiten (Tatbestand - Regel - Rechtsfolge).",
+      "erklaerung": "Zuerst wird der rechtserhebliche Sachverhalt geklärt. Danach werden die festgestellten Tatsachen unter die Voraussetzungen der Norm eingeordnet; nur wenn diese erfüllt sind, folgt die vorgesehene Rechtsfolge.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -43392,8 +43393,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
       },
       "loesungsvorschlag": {
-        "kurz": "Rechtsfälle werden gelöst, indem der konkrete Sachverhalt der passenden Rechtsnorm zugeordnet und die Rechtsfolge daraus abgeleitet wird. Prüfungsnah ist die Methodik: Sachverhalt erfassen, passende Norm finden, Rechtsfolge ableiten (Tatbestand - Regel - Rechtsfolge).",
-        "warum": "Rechtsfälle werden gelöst, indem der konkrete Sachverhalt der passenden Rechtsnorm zugeordnet und die Rechtsfolge daraus abgeleitet wird. Prüfungsnah ist die Methodik: Sachverhalt erfassen, passende Norm finden, Rechtsfolge ableiten (Tatbestand - Regel - Rechtsfolge)."
+        "kurz": "Zusage und Lieferzustand belegen, anschliessend die Tatsachen unter die Norm subsumieren.",
+        "warum": "Ohne geklärten Sachverhalt lässt sich weder der Tatbestand noch die daraus folgende Rechtsfolge zuverlässig beurteilen."
       },
       "fehlerfallen": [],
       "review": {
@@ -43406,9 +43407,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Recht heisst: Sachverhalt, Norm und Rechtsfolge sauber verbinden.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
-      "abschlusserklaerung": "Rechtsfälle werden gelöst, indem der konkrete Sachverhalt der passenden Rechtsnorm zugeordnet und die Rechtsfolge daraus abgeleitet wird. Prüfungsnah ist die Methodik: Sachverhalt erfassen, passende Norm finden, Rechtsfolge ableiten (Tatbestand - Regel - Rechtsfolge)."
+      "merksatz": "Sachverhalt klären, Tatbestand prüfen, Rechtsfolge ableiten.",
+      "aufgaben_hinweis": "Achte auf die Reihenfolge von Tatsachenklärung und Rechtsanwendung.",
+      "abschlusserklaerung": "Die Anspruchsprüfung beginnt mit den rechtserheblichen Tatsachen und endet mit der Subsumtion unter die passende Norm."
     },
     {
       "id": "pr2022_recht_vwl_3_1_thema_stufe3",
@@ -44331,22 +44332,22 @@
       "fach": "Recht_VWL",
       "quelle_id": "2023:Recht_VWL:3.1",
       "quelle_pdf": "2023/Aufgaben/DE_2023_Aufgaben_RechtVWL.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Rechtliche Grundlagen lösen.",
+      "lernziel": "Bei einem Personalabbau wirtschaftliche Ausgangslage und arbeitsrechtliche Anforderungen getrennt prüfen.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Grundsätze zu „Rechtliche Grundlagen“ sind richtig?",
+      "frage": "Wegen eines deutlichen Nachfragerückgangs prüft ein Betrieb einen Personalabbau. Welche zwei Vorgehensweisen verbinden volkswirtschaftliche und rechtliche Aspekte sachgerecht?",
       "antwort_daten": {
         "optionen": [
-          "Führung muss arbeitsrechtliche Rahmenbedingungen (Kündigungsfristen, Schutzvorschriften) und volkswirtschaftliche Faktoren (Arbeitsmarktlage) berücksichtigen.",
-          "Prüfungsnah ist der Bezug von Führungsentscheiden zu arbeitsrechtlichen Vorgaben und zur Arbeitsmarktsituation.",
-          "Arbeitsrechtliche Fristen sind bei Führungsentscheiden nebensächlich.",
-          "Die Arbeitsmarktlage hat keinen Einfluss auf Personalentscheide."
+          "Nachfrage- und Arbeitsmarktlage analysieren und parallel die arbeitsrechtlichen Anforderungen prüfen.",
+          "Den Nachfragerückgang als ausreichenden Grund behandeln, sämtliche arbeitsrechtlichen Vorgaben ausser Acht zu lassen.",
+          "Wirtschaftliche Begründung und rechtliche Zulässigkeit getrennt dokumentieren, bevor konkrete Personalentscheide umgesetzt werden.",
+          "Auf Wirtschaftsdaten vollständig verzichten, weil die arbeitsrechtliche Prüfung bereits alle betrieblichen und volkswirtschaftlichen Entscheidungsgrundlagen ersetzt."
         ],
         "richtige_indices": [
           0,
-          1
+          2
         ]
       },
-      "erklaerung": "Führung muss arbeitsrechtliche Rahmenbedingungen (Kündigungsfristen, Schutzvorschriften) und volkswirtschaftliche Faktoren (Arbeitsmarktlage) berücksichtigen. Prüfungsnah ist der Bezug von Führungsentscheiden zu arbeitsrechtlichen Vorgaben und zur Arbeitsmarktsituation.",
+      "erklaerung": "Die wirtschaftliche Lage kann den Handlungsbedarf erklären, ersetzt aber nicht die arbeitsrechtliche Prüfung. Umgekehrt macht die Rechtsprüfung eine Analyse von Nachfrage, Arbeitsmarkt und betrieblichen Folgen nicht überflüssig.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -44373,8 +44374,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
       },
       "loesungsvorschlag": {
-        "kurz": "Führung muss arbeitsrechtliche Rahmenbedingungen (Kündigungsfristen, Schutzvorschriften) und volkswirtschaftliche Faktoren (Arbeitsmarktlage) berücksichtigen. Prüfungsnah ist der Bezug von Führungsentscheiden zu arbeitsrechtlichen Vorgaben und zur Arbeitsmarktsituation.",
-        "warum": "Führung muss arbeitsrechtliche Rahmenbedingungen (Kündigungsfristen, Schutzvorschriften) und volkswirtschaftliche Faktoren (Arbeitsmarktlage) berücksichtigen. Prüfungsnah ist der Bezug von Führungsentscheiden zu arbeitsrechtlichen Vorgaben und zur Arbeitsmarktsituation."
+        "kurz": "Wirtschaftliche Lage analysieren, rechtliche Anforderungen prüfen und beide Begründungsebenen vor der Umsetzung dokumentieren.",
+        "warum": "Ein tragfähiger Personalentscheid muss wirtschaftlich nachvollziehbar und rechtlich zulässig sein."
       },
       "fehlerfallen": [],
       "review": {
@@ -44387,9 +44388,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Gute Führung kennt sowohl das Arbeitsrecht als auch den Arbeitsmarkt.",
-      "abschlusserklaerung": "Führung muss arbeitsrechtliche Rahmenbedingungen (Kündigungsfristen, Schutzvorschriften) und volkswirtschaftliche Faktoren (Arbeitsmarktlage) berücksichtigen. Prüfungsnah ist der Bezug von Führungsentscheiden zu arbeitsrechtlichen Vorgaben und zur Arbeitsmarktsituation.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit."
+      "merksatz": "Wirtschaftlicher Grund und rechtliche Zulässigkeit sind zwei notwendige Prüfungen.",
+      "abschlusserklaerung": "Der Nachfragerückgang begründet die wirtschaftliche Prüfung; arbeitsrechtliche Anforderungen bleiben für die konkrete Umsetzung verbindlich.",
+      "aufgaben_hinweis": "Verwechsle die wirtschaftliche Begründung nicht mit der rechtlichen Zulässigkeit."
     },
     {
       "id": "pr2024_recht_vwl_1_1_choice_stufe3",
@@ -44667,22 +44668,22 @@
       "fach": "Recht_VWL",
       "quelle_id": "2024:Recht_VWL:1.17",
       "quelle_pdf": "2024/Aufgaben/06_Recht-und-VWL_2024_Aufgaben.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Rechtliche Grundlagen lösen.",
+      "lernziel": "Bei einer behaupteten verspäteten Lieferung Sachverhalt, Rechtsnorm und Rechtsfolge methodisch verbinden.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Grundsätze zu „Rechtliche Grundlagen“ sind richtig?",
+      "frage": "Eine Käuferin verlangt Schadenersatz wegen verspäteter Lieferung. Aus den Unterlagen ist noch unklar, welcher Liefertermin vereinbart wurde und welche Mitteilungen danach erfolgten. Welche zwei Schritte sind methodisch richtig?",
       "antwort_daten": {
         "optionen": [
-          "Rechtsfälle werden gelöst, indem der konkrete Sachverhalt der passenden Rechtsnorm zugeordnet und die Rechtsfolge daraus abgeleitet wird.",
-          "Prüfungsnah ist die Methodik: Sachverhalt erfassen, passende Norm finden, Rechtsfolge ableiten (Tatbestand - Regel - Rechtsfolge).",
-          "Indem man eine Antwort wählt, die allgemein plausibel klingt. Dabei werden gesetzliche Voraussetzungen, Fristen und der konkrete Sachverhalt fälschlich nicht unterschieden.",
-          "Indem man Fristen bei der Falllösung ignoriert, da sie zweitrangig sind."
+          "Vertrag, Bestellbestätigung und spätere Kommunikation auswerten, um Termin und Ablauf festzustellen.",
+          "Den Anspruch nach allgemeiner Plausibilität beurteilen, ohne die Voraussetzungen der einschlägigen Norm einzeln zu prüfen.",
+          "Die verlangte Rechtsfolge sofort zusprechen, weil eine verspätete Lieferung behauptet wurde.",
+          "Die belegten Tatsachen den Voraussetzungen der passenden Norm zuordnen und daraus die Rechtsfolge ableiten."
         ],
         "richtige_indices": [
           0,
-          1
+          3
         ]
       },
-      "erklaerung": "Rechtsfälle werden gelöst, indem der konkrete Sachverhalt der passenden Rechtsnorm zugeordnet und die Rechtsfolge daraus abgeleitet wird. Prüfungsnah ist die Methodik: Sachverhalt erfassen, passende Norm finden, Rechtsfolge ableiten (Tatbestand - Regel - Rechtsfolge).",
+      "erklaerung": "Eine Rechtsfolge setzt einen geklärten rechtserheblichen Sachverhalt voraus. Erst danach werden die Tatsachen unter die Voraussetzungen der einschlägigen Norm eingeordnet.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -44709,8 +44710,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
       },
       "loesungsvorschlag": {
-        "kurz": "Rechtsfälle werden gelöst, indem der konkrete Sachverhalt der passenden Rechtsnorm zugeordnet und die Rechtsfolge daraus abgeleitet wird. Prüfungsnah ist die Methodik: Sachverhalt erfassen, passende Norm finden, Rechtsfolge ableiten (Tatbestand - Regel - Rechtsfolge).",
-        "warum": "Rechtsfälle werden gelöst, indem der konkrete Sachverhalt der passenden Rechtsnorm zugeordnet und die Rechtsfolge daraus abgeleitet wird. Prüfungsnah ist die Methodik: Sachverhalt erfassen, passende Norm finden, Rechtsfolge ableiten (Tatbestand - Regel - Rechtsfolge)."
+        "kurz": "Liefervereinbarung und Kommunikation belegen, anschliessend die festgestellten Tatsachen unter die passende Norm subsumieren.",
+        "warum": "Ohne geklärten Termin und Ablauf lässt sich nicht zuverlässig beurteilen, ob die gesetzlichen Voraussetzungen der verlangten Rechtsfolge erfüllt sind."
       },
       "fehlerfallen": [],
       "review": {
@@ -44723,9 +44724,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Recht heisst: Sachverhalt, Norm und Rechtsfolge sauber verbinden.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
-      "abschlusserklaerung": "Rechtsfälle werden gelöst, indem der konkrete Sachverhalt der passenden Rechtsnorm zugeordnet und die Rechtsfolge daraus abgeleitet wird. Prüfungsnah ist die Methodik: Sachverhalt erfassen, passende Norm finden, Rechtsfolge ableiten (Tatbestand - Regel - Rechtsfolge)."
+      "merksatz": "Sachverhalt klären, Norm prüfen, Rechtsfolge ableiten.",
+      "aufgaben_hinweis": "Entscheide nicht über die Rechtsfolge, bevor die rechtserheblichen Tatsachen feststehen.",
+      "abschlusserklaerung": "Die Unterlagen liefern den massgeblichen Sachverhalt; die Subsumtion zeigt danach, ob der geltend gemachte Anspruch besteht."
     },
     {
       "id": "pr2024_recht_vwl_1_2_choice_stufe3",
@@ -45073,22 +45074,22 @@
       "fach": "Recht_VWL",
       "quelle_id": "2024:Recht_VWL:2.3",
       "quelle_pdf": "2024/Aufgaben/06_Recht-und-VWL_2024_Aufgaben.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Rechtliche Grundlagen lösen.",
+      "lernziel": "Bei einer Marketingaktion rechtliche Zulässigkeit und volkswirtschaftliche Nachfragebedingungen gemeinsam berücksichtigen.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Aussagen erklären „Rechtliche Grundlagen“ fachlich richtig?",
+      "frage": "Ein Händler plant trotz sinkender Kaufkraft eine Kampagne mit der Aussage «garantiert tiefster Preis der Schweiz», kann den Vergleich aber nicht belegen. Welche zwei Schritte sind sachgerecht?",
       "antwort_daten": {
         "optionen": [
-          "Konsumentenschutz betrifft nur den Online-Handel.",
-          "Werberechtliche Vorschriften sind für Marketingentscheide unbedeutend.",
-          "Marketing- und Verkaufsentscheide müssen rechtliche Vorgaben (Konsumentenschutz, UWG) und volkswirtschaftliche Rahmenbedingungen (Konjunktur, Kaufkraft) beachten.",
-          "Prüfungsnah ist, wie Recht (z.B. Werberecht) und VWL (z.B. Kaufkraftentwicklung) gemeinsam Marketingentscheide beeinflussen."
+          "Die Aussage unverändert verwenden, weil schwache Nachfrage eine besonders auffällige Werbung rechtfertigt.",
+          "Die Preisbehauptung nach den anwendbaren Wettbewerbs- und Werberegeln prüfen und bei fehlendem Nachweis ändern.",
+          "Alle Preise pauschal senken, ohne Zielgruppe, Marge oder Nachfragewirkung zu analysieren.",
+          "Kaufkraft- und Nachfragedaten in Angebotsgestaltung und Kommunikation einbeziehen."
         ],
         "richtige_indices": [
-          2,
+          1,
           3
         ]
       },
-      "erklaerung": "Marketing- und Verkaufsentscheide müssen rechtliche Vorgaben (Konsumentenschutz, UWG) und volkswirtschaftliche Rahmenbedingungen (Konjunktur, Kaufkraft) beachten. Prüfungsnah ist, wie Recht (z.B. Werberecht) und VWL (z.B. Kaufkraftentwicklung) gemeinsam Marketingentscheide beeinflussen.",
+      "erklaerung": "Die wirtschaftliche Lage beeinflusst Nachfrage und Positionierung, hebt rechtliche Anforderungen an Werbeaussagen aber nicht auf. Ein tragfähiger Marketingentscheid berücksichtigt beide Ebenen.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -45115,8 +45116,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Vertragsarten, Fristen, Rechte/Pflichten, Betreibung sowie volkswirtschaftliche Ursache-Wirkungs-Ketten."
       },
       "loesungsvorschlag": {
-        "kurz": "Marketing- und Verkaufsentscheide müssen rechtliche Vorgaben (Konsumentenschutz, UWG) und volkswirtschaftliche Rahmenbedingungen (Konjunktur, Kaufkraft) beachten. Prüfungsnah ist, wie Recht (z.B. Werberecht) und VWL (z.B. Kaufkraftentwicklung) gemeinsam Marketingentscheide beeinflussen.",
-        "warum": "Marketing- und Verkaufsentscheide müssen rechtliche Vorgaben (Konsumentenschutz, UWG) und volkswirtschaftliche Rahmenbedingungen (Konjunktur, Kaufkraft) beachten. Prüfungsnah ist, wie Recht (z.B. Werberecht) und VWL (z.B. Kaufkraftentwicklung) gemeinsam Marketingentscheide beeinflussen."
+        "kurz": "Die Preisbehauptung rechtlich und sachlich absichern sowie Angebot und Kommunikation an die Nachfragebedingungen anpassen.",
+        "warum": "Weder wirtschaftlicher Druck noch eine aggressive Kampagne ersetzen die Prüfung der Werbeaussage und der Kundennachfrage."
       },
       "fehlerfallen": [],
       "review": {
@@ -45129,9 +45130,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Gutes Marketing kennt sowohl das Recht als auch die Kaufkraft der Kundschaft.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
-      "abschlusserklaerung": "Marketing- und Verkaufsentscheide müssen rechtliche Vorgaben (Konsumentenschutz, UWG) und volkswirtschaftliche Rahmenbedingungen (Konjunktur, Kaufkraft) beachten. Prüfungsnah ist, wie Recht (z.B. Werberecht) und VWL (z.B. Kaufkraftentwicklung) gemeinsam Marketingentscheide beeinflussen."
+      "merksatz": "Marketing muss rechtlich zulässig und wirtschaftlich passend sein.",
+      "aufgaben_hinweis": "Prüfe Werbeaussage und Marktlage als zwei getrennte Entscheidungsgrundlagen.",
+      "abschlusserklaerung": "Die Kampagne braucht eine belegbare Aussage und eine Gestaltung, die zur tatsächlichen Kaufkraft und Nachfrage passt."
     },
     {
       "id": "pr2024_recht_vwl_3_1_thema_stufe3",
@@ -49787,22 +49788,22 @@
       "fach": "SCM",
       "quelle_id": "2022:SCM:2.1",
       "quelle_pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Beschaffung / Lieferanten lösen.",
+      "lernziel": "Abweichungen zwischen Bestellung, Wareneingang und Rechnung erkennen und vor der Zahlung klären.",
       "typ": "multiple_choice",
-      "frage": "Welche beiden Aussagen beschreiben „Beschaffung / Lieferanten“ fachlich korrekt?",
+      "frage": "Bestellt wurden 500 Stück zu CHF 12.00. Der Wareneingang bestätigt 480 Stück, die Rechnung nennt 500 Stück zu CHF 12.50. Welche zwei Vorgehensweisen sind richtig?",
       "antwort_daten": {
         "optionen": [
-          "Erst vergleichen (Bestellung/Lieferschein/Rechnung), dann bezahlen.",
-          "Nur darauf, ob der Lieferant die Rechnung rechtzeitig verschickt hat.",
-          "Rechnungen müssen nicht mit dem Wareneingang abgeglichen werden.",
-          "Ob Menge und Preis der Rechnung mit Bestellung, Lieferschein und tatsächlichem Wareneingang übereinstimmen."
+          "Die Rechnung freigeben, weil die bestellte Menge aufgeführt ist und Preisabweichungen erst nach der Zahlung geprüft werden.",
+          "Menge und Preis mit Bestellung und Wareneingang abgleichen und die Rechnung bis zur Klärung sperren.",
+          "Nur die rechnerische Multiplikation auf der Rechnung kontrollieren; Bestellung und Wareneingang sind dafür nicht relevant.",
+          "Die beiden Abweichungen dokumentieren und vom Lieferanten eine nachvollziehbare Korrektur verlangen."
         ],
         "richtige_indices": [
-          0,
+          1,
           3
         ]
       },
-      "erklaerung": "Ob Menge und Preis der Rechnung mit Bestellung, Lieferschein und tatsächlichem Wareneingang übereinstimmen. Erst vergleichen (Bestellung/Lieferschein/Rechnung), dann bezahlen.",
+      "erklaerung": "Die Rechnung weicht sowohl bei der gelieferten Menge als auch beim vereinbarten Preis von den Belegen ab. Der Drei-Belege-Abgleich verhindert eine sachlich unbegründete Zahlung.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -49829,8 +49830,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
       },
       "loesungsvorschlag": {
-        "kurz": "Ob Menge und Preis der Rechnung mit Bestellung, Lieferschein und tatsächlichem Wareneingang übereinstimmen. Erst vergleichen (Bestellung/Lieferschein/Rechnung), dann bezahlen.",
-        "warum": "Ob Menge und Preis der Rechnung mit Bestellung, Lieferschein und tatsächlichem Wareneingang übereinstimmen. Erst vergleichen (Bestellung/Lieferschein/Rechnung), dann bezahlen."
+        "kurz": "Rechnung sperren, Mengen- und Preisabweichung belegen und vor der Zahlung korrigieren lassen.",
+        "warum": "Eine formal richtige Rechnung kann dennoch sachlich falsch sein, wenn sie nicht mit Bestellung und tatsächlichem Wareneingang übereinstimmt."
       },
       "fehlerfallen": [],
       "review": {
@@ -49843,9 +49844,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Erst vergleichen (Bestellung/Lieferschein/Rechnung), dann bezahlen.",
-      "abschlusserklaerung": "Ob Menge und Preis der Rechnung mit Bestellung, Lieferschein und tatsächlichem Wareneingang übereinstimmen. Erst vergleichen (Bestellung/Lieferschein/Rechnung), dann bezahlen.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit."
+      "merksatz": "Bestellung, Wareneingang und Rechnung müssen zusammenpassen.",
+      "abschlusserklaerung": "Erst der Abgleich und die dokumentierte Korrektur schaffen eine verlässliche Grundlage für die Zahlung.",
+      "aufgaben_hinweis": "Prüfe Menge und Preis getrennt anhand der vorhandenen Belege."
     },
     {
       "id": "pr2022_scm_3_2_loesungspunkte_stufe3",
@@ -54342,22 +54343,22 @@
       "fach": "SCM",
       "quelle_id": "2022:SCM:2.3",
       "quelle_pdf": "2022/Aufgaben/DE_2022_Aufgaben_SCM.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Lager / Lagerkennzahlen lösen.",
+      "lernziel": "Lagerumschlag und durchschnittliche Lagerdauer aus Wareneinsatz und Lagerbestand berechnen.",
       "typ": "multiple_choice",
-      "frage": "Welche beiden Aussagen müssen bei „Lager / Lagerkennzahlen“ beachtet werden?",
+      "frage": "Der jährliche Wareneinsatz beträgt CHF 1'080'000, der durchschnittliche Lagerbestand CHF 180'000. Welche beiden Kennzahlen sind bei 360 Tagen korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Sie entspricht danach dem Warenaufwand.",
-          "Sie sinkt.",
-          "Prüfungsnah ist die Berechnung von Lagerumschlag (Wareneinsatz/durchschnittlicher Lagerbestand) und Lagerdauer (360/Lagerumschlag).",
-          "Sie bleibt unverändert."
+          "Der Lagerumschlag beträgt 0.17-mal pro Jahr.",
+          "Die durchschnittliche Lagerdauer beträgt 60 Tage.",
+          "Die durchschnittliche Lagerdauer beträgt 6 Tage.",
+          "Der Lagerumschlag beträgt 6-mal pro Jahr."
         ],
         "richtige_indices": [
           1,
-          2
+          3
         ]
       },
-      "erklaerung": "Sie sinkt. Prüfungsnah ist die Berechnung von Lagerumschlag (Wareneinsatz/durchschnittlicher Lagerbestand) und Lagerdauer (360/Lagerumschlag).",
+      "erklaerung": "Lagerumschlag = CHF 1'080'000 ÷ CHF 180'000 = 6. Lagerdauer = 360 ÷ 6 = 60 Tage.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -54384,8 +54385,9 @@
         "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
       },
       "loesungsvorschlag": {
-        "kurz": "Sie sinkt. Prüfungsnah ist die Berechnung von Lagerumschlag (Wareneinsatz/durchschnittlicher Lagerbestand) und Lagerdauer (360/Lagerumschlag).",
-        "warum": "Sie sinkt. Prüfungsnah ist die Berechnung von Lagerumschlag (Wareneinsatz/durchschnittlicher Lagerbestand) und Lagerdauer (360/Lagerumschlag)."
+        "kurz": "Lagerumschlag 6-mal pro Jahr; durchschnittliche Lagerdauer 60 Tage.",
+        "rechenweg": "CHF 1'080'000 ÷ CHF 180'000 = 6; 360 Tage ÷ 6 = 60 Tage.",
+        "warum": "Der Umschlag setzt Wareneinsatz und durchschnittlichen Lagerbestand ins Verhältnis; sein Kehrwert auf 360 Tage ergibt die Lagerdauer."
       },
       "fehlerfallen": [],
       "review": {
@@ -54398,9 +54400,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Lagerdauer = 360 Tage ÷ Lagerumschlag. Ein höherer Umschlag verkürzt deshalb die durchschnittliche Lagerdauer.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
-      "abschlusserklaerung": "Sie sinkt. Prüfungsnah ist die Berechnung von Lagerumschlag (Wareneinsatz/durchschnittlicher Lagerbestand) und Lagerdauer (360/Lagerumschlag)."
+      "merksatz": "Erst Umschlag berechnen, dann 360 durch den Umschlag teilen.",
+      "aufgaben_hinweis": "Berechne zuerst den Lagerumschlag und verwende ihn anschliessend für die Lagerdauer.",
+      "abschlusserklaerung": "Der Bestand wird rechnerisch sechsmal pro Jahr umgesetzt und liegt im Durchschnitt 60 Tage am Lager."
     },
     {
       "id": "pr2022_scm_2_5_thema_stufe3",
@@ -54692,22 +54694,22 @@
       "fach": "SCM",
       "quelle_id": "2024:SCM:1.12",
       "quelle_pdf": "2024/Aufgaben/01_SCM_2024_Aufgaben.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Lager / Lagerkennzahlen lösen.",
+      "lernziel": "Lagerumschlag und durchschnittliche Lagerdauer aus Wareneinsatz und Lagerbestand berechnen.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Grundsätze zu „Lager / Lagerkennzahlen“ sind richtig?",
+      "frage": "Ein Betrieb weist einen jährlichen Wareneinsatz von CHF 960'000 und einen durchschnittlichen Lagerbestand von CHF 120'000 aus. Für die Lagerdauer wird mit 360 Tagen gerechnet. Welche zwei Berechnungen sind korrekt?",
       "antwort_daten": {
         "optionen": [
-          "Lagerdauer = 360 Tage / Lagerumschlag.",
-          "Prüfungsnah ist die Berechnung von Lagerumschlag (Wareneinsatz/durchschnittlicher Lagerbestand) und Lagerdauer (360/Lagerumschlag).",
-          "Lagerdauer = durchschnittlicher Lagerbestand / Anzahl Lieferanten.",
-          "Lagerdauer = Wareneinsatz × Lagerumschlag."
+          "Der Lagerumschlag beträgt 0,125, weil CHF 120'000 durch CHF 960'000 geteilt werden.",
+          "Der Lagerumschlag beträgt 8, weil CHF 960'000 durch CHF 120'000 geteilt werden.",
+          "Die durchschnittliche Lagerdauer beträgt 120 Tage, weil 960 durch 8 geteilt werden.",
+          "Die durchschnittliche Lagerdauer beträgt 45 Tage, weil 360 durch 8 geteilt werden."
         ],
         "richtige_indices": [
-          0,
-          1
+          1,
+          3
         ]
       },
-      "erklaerung": "Lagerdauer = 360 Tage / Lagerumschlag. Prüfungsnah ist die Berechnung von Lagerumschlag (Wareneinsatz/durchschnittlicher Lagerbestand) und Lagerdauer (360/Lagerumschlag).",
+      "erklaerung": "Lagerumschlag = Wareneinsatz ÷ durchschnittlicher Lagerbestand = 960'000 ÷ 120'000 = 8. Lagerdauer = 360 ÷ Lagerumschlag = 360 ÷ 8 = 45 Tage.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -54734,8 +54736,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Lieferantenbewertung, Beschaffungsformen, Lagerkennzahlen, Risiken, Offerten und Qualitäts-/Terminkriterien."
       },
       "loesungsvorschlag": {
-        "kurz": "Lagerdauer = 360 Tage / Lagerumschlag. Prüfungsnah ist die Berechnung von Lagerumschlag (Wareneinsatz/durchschnittlicher Lagerbestand) und Lagerdauer (360/Lagerumschlag).",
-        "warum": "Lagerdauer = 360 Tage / Lagerumschlag. Prüfungsnah ist die Berechnung von Lagerumschlag (Wareneinsatz/durchschnittlicher Lagerbestand) und Lagerdauer (360/Lagerumschlag)."
+        "kurz": "Lagerumschlag 8; durchschnittliche Lagerdauer 45 Tage.",
+        "warum": "Der Bestand wird rechnerisch achtmal pro Jahr umgesetzt. Bei einem 360-Tage-Jahr verbleiben die Waren damit durchschnittlich 45 Tage im Lager."
       },
       "fehlerfallen": [],
       "review": {
@@ -54748,9 +54750,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Schneller Umschlag, kurze Lagerdauer, wenig gebundenes Kapital.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
-      "abschlusserklaerung": "Lagerdauer = 360 Tage / Lagerumschlag. Prüfungsnah ist die Berechnung von Lagerumschlag (Wareneinsatz/durchschnittlicher Lagerbestand) und Lagerdauer (360/Lagerumschlag)."
+      "merksatz": "Erst den Umschlag berechnen, dann 360 durch den Umschlag teilen.",
+      "aufgaben_hinweis": "Prüfe bei beiden Kennzahlen Zähler und Nenner.",
+      "abschlusserklaerung": "Aus CHF 960'000 Wareneinsatz und CHF 120'000 Durchschnittsbestand folgen ein Lagerumschlag von 8 und eine Lagerdauer von 45 Tagen."
     },
     {
       "id": "pr2024_scm_1_8_choice_stufe3",
@@ -62883,22 +62885,22 @@
       "fach": "Unternehmensfuehrung",
       "quelle_id": "2022:Unternehmensfuehrung:2.3",
       "quelle_pdf": "2022/Aufgaben/DE_2022_Aufgaben_Unternehmensfuehrung.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Organisation / Prozesse lösen.",
+      "lernziel": "Bei einer Reorganisation Aufbau- und Ablauforganisation aufeinander abstimmen.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Aussagen erklären „Organisation / Prozesse“ fachlich richtig?",
+      "frage": "Nach der Zusammenlegung von Verkauf und Kundendienst ist das neue Organigramm publiziert. Reklamationen werden jedoch weiterhin über die alten Schnittstellen weitergereicht und bleiben liegen. Welche zwei Massnahmen sind folgerichtig?",
       "antwort_daten": {
         "optionen": [
-          "Zuständigkeiten regeln sich nach einer Reorganisation automatisch.",
-          "Prozesse müssen nach einer Reorganisation nicht angepasst werden.",
-          "Auf Unternehmensführungsebene legt die Aufbauorganisation die Gesamtstruktur fest, die Ablauforganisation regelt unternehmensweite Kernprozesse.",
-          "Prüfungsnah ist, strategische Reorganisationsentscheide (z.B. neue Abteilungsstruktur) von der operativen Prozessgestaltung zu unterscheiden."
+          "Den Reklamationsprozess an die neue Struktur anpassen und die Übergaben zwischen den Funktionen festlegen.",
+          "Keine Prozessänderung vornehmen, weil das Organigramm die Zusammenarbeit bereits vollständig regelt.",
+          "Prozessverantwortung, Zuständigkeiten und Informationswege für Reklamationen eindeutig zuweisen.",
+          "Die Mitarbeitenden ihre eigenen Übergaberegeln wählen lassen, damit keine zentrale Abstimmung nötig ist."
         ],
         "richtige_indices": [
-          2,
-          3
+          0,
+          2
         ]
       },
-      "erklaerung": "Auf Unternehmensführungsebene legt die Aufbauorganisation die Gesamtstruktur fest, die Ablauforganisation regelt unternehmensweite Kernprozesse. Prüfungsnah ist, strategische Reorganisationsentscheide (z.B. neue Abteilungsstruktur) von der operativen Prozessgestaltung zu unterscheiden.",
+      "erklaerung": "Die Aufbauorganisation legt die Struktur fest, die Ablauforganisation gestaltet den Arbeitsfluss. Nach einer Strukturänderung müssen deshalb Prozesse, Schnittstellen und Verantwortlichkeiten passend nachgeführt werden.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -62925,8 +62927,8 @@
         "pruefungsrelevant": "Prüfungsnah sind faire Beurteilung, SMART-Ziele, korrekte Kommunikation, arbeitsrechtliche Grenzen und passende HR-Instrumente."
       },
       "loesungsvorschlag": {
-        "kurz": "Auf Unternehmensführungsebene legt die Aufbauorganisation die Gesamtstruktur fest, die Ablauforganisation regelt unternehmensweite Kernprozesse. Prüfungsnah ist, strategische Reorganisationsentscheide (z.B. neue Abteilungsstruktur) von der operativen Prozessgestaltung zu unterscheiden.",
-        "warum": "Auf Unternehmensführungsebene legt die Aufbauorganisation die Gesamtstruktur fest, die Ablauforganisation regelt unternehmensweite Kernprozesse. Prüfungsnah ist, strategische Reorganisationsentscheide (z.B. neue Abteilungsstruktur) von der operativen Prozessgestaltung zu unterscheiden."
+        "kurz": "Reklamationsprozess und Schnittstellen anpassen sowie Verantwortung und Informationswege klar zuweisen.",
+        "warum": "Ein neues Organigramm verhindert keine Prozesslücken. Erst abgestimmte Abläufe machen die neue Struktur im Tagesgeschäft wirksam."
       },
       "fehlerfallen": [],
       "review": {
@@ -62939,9 +62941,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Eine neue Struktur ohne angepasste Prozesse bleibt nur ein Organigramm.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit.",
-      "abschlusserklaerung": "Auf Unternehmensführungsebene legt die Aufbauorganisation die Gesamtstruktur fest, die Ablauforganisation regelt unternehmensweite Kernprozesse. Prüfungsnah ist, strategische Reorganisationsentscheide (z.B. neue Abteilungsstruktur) von der operativen Prozessgestaltung zu unterscheiden."
+      "merksatz": "Neue Struktur und neue Abläufe müssen zusammenpassen.",
+      "aufgaben_hinweis": "Trenne die Wirkung des Organigramms von der Gestaltung des Arbeitsablaufs.",
+      "abschlusserklaerung": "Die Reorganisation ist erst umgesetzt, wenn Reklamationsprozess, Schnittstellen und Verantwortlichkeiten der neuen Struktur entsprechen."
     },
     {
       "id": "pr2023_unternehmensfuehrung_1_10_choice_stufe3",
@@ -63238,22 +63240,22 @@
       "fach": "Unternehmensfuehrung",
       "quelle_id": "2023:Unternehmensfuehrung:2.4",
       "quelle_pdf": "2023/Aufgaben/DE_2023_Aufgaben_Unternehmensfuehrung.pdf",
-      "lernziel": "Eine fachlich konkrete Aufgabe zu Organisation / Prozesse lösen.",
+      "lernziel": "Bei einer Reorganisation Struktur, Verantwortlichkeiten und Prozessschnittstellen aufeinander abstimmen.",
       "typ": "multiple_choice",
-      "frage": "Welche zwei Grundsätze zu „Organisation / Prozesse“ sind richtig?",
+      "frage": "Ein Unternehmen bündelt Verkauf und Kundendienst in einem neuen Bereich. Danach entstehen Doppelspurigkeiten, weil Zuständigkeiten und Übergaben unklar sind. Welche zwei Massnahmen sind sachgerecht?",
       "antwort_daten": {
         "optionen": [
-          "Auf Unternehmensführungsebene legt die Aufbauorganisation die Gesamtstruktur fest, die Ablauforganisation regelt unternehmensweite Kernprozesse.",
-          "Prüfungsnah ist, strategische Reorganisationsentscheide (z.B. neue Abteilungsstruktur) von der operativen Prozessgestaltung zu unterscheiden.",
-          "Prozesse müssen nach einer Reorganisation nicht angepasst werden.",
-          "Die Aufbauorganisation hat keinen Einfluss auf die Ablauforganisation. Dabei werden Anspruchsgruppen, Ressourcen und langfristige Auswirkungen fälschlich als nicht entscheidungsrelevant behandelt."
+          "Die bestehenden Abläufe unverändert lassen, weil das neue Organigramm die Zusammenarbeit automatisch eindeutig regelt.",
+          "Rollen, Entscheidungsbefugnisse und Verantwortlichkeiten des neuen Bereichs verbindlich festlegen.",
+          "Zuerst eine Workflow-Software beschaffen und die Prozesse erst nach deren Einführung analysieren.",
+          "Den End-to-End-Prozess mit Übergaben, Informationen und Kontrollen an die neue Struktur anpassen."
         ],
         "richtige_indices": [
-          0,
-          1
+          1,
+          3
         ]
       },
-      "erklaerung": "Auf Unternehmensführungsebene legt die Aufbauorganisation die Gesamtstruktur fest, die Ablauforganisation regelt unternehmensweite Kernprozesse. Prüfungsnah ist, strategische Reorganisationsentscheide (z.B. neue Abteilungsstruktur) von der operativen Prozessgestaltung zu unterscheiden.",
+      "erklaerung": "Eine neue Aufbauorganisation verändert Zuständigkeiten, löst aber Schnittstellenprobleme nicht automatisch. Rollen und Abläufe müssen gemeinsam gestaltet werden.",
       "stufe": 3,
       "tags": [
         "prüfung",
@@ -63280,8 +63282,8 @@
         "pruefungsrelevant": "Prüfungsnah sind Analyseinstrumente, Massnahmen ableiten, Verantwortlichkeiten klären und Nutzen/Risiken begründen."
       },
       "loesungsvorschlag": {
-        "kurz": "Auf Unternehmensführungsebene legt die Aufbauorganisation die Gesamtstruktur fest, die Ablauforganisation regelt unternehmensweite Kernprozesse. Prüfungsnah ist, strategische Reorganisationsentscheide (z.B. neue Abteilungsstruktur) von der operativen Prozessgestaltung zu unterscheiden.",
-        "warum": "Auf Unternehmensführungsebene legt die Aufbauorganisation die Gesamtstruktur fest, die Ablauforganisation regelt unternehmensweite Kernprozesse. Prüfungsnah ist, strategische Reorganisationsentscheide (z.B. neue Abteilungsstruktur) von der operativen Prozessgestaltung zu unterscheiden."
+        "kurz": "Verantwortlichkeiten in der Struktur klären und den betroffenen Gesamtprozess samt Übergaben neu gestalten.",
+        "warum": "Nur die abgestimmte Gestaltung von Aufbau- und Ablauforganisation beseitigt Doppelarbeit und Lücken."
       },
       "fehlerfallen": [],
       "review": {
@@ -63294,9 +63296,9 @@
         "naechste_wiederholung": null,
         "letzte_antwort": null
       },
-      "merksatz": "Eine neue Struktur ohne angepasste Prozesse bleibt nur ein Organigramm.",
-      "abschlusserklaerung": "Auf Unternehmensführungsebene legt die Aufbauorganisation die Gesamtstruktur fest, die Ablauforganisation regelt unternehmensweite Kernprozesse. Prüfungsnah ist, strategische Reorganisationsentscheide (z.B. neue Abteilungsstruktur) von der operativen Prozessgestaltung zu unterscheiden.",
-      "aufgaben_hinweis": "Beurteile jede Aussage einzeln nach ihrer fachlichen Richtigkeit."
+      "merksatz": "Neue Struktur und neue Abläufe müssen zusammenpassen.",
+      "abschlusserklaerung": "Klare Rollen beseitigen Zuständigkeitskonflikte; angepasste Übergaben machen die Reorganisation im Tagesgeschäft wirksam.",
+      "aufgaben_hinweis": "Unterscheide organisatorische Zuständigkeit von zeitlichem und sachlichem Prozessablauf."
     },
     {
       "id": "pr2023_unternehmensfuehrung_3_2_loesungspunkte_stufe3",

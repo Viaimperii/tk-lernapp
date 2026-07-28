@@ -1,8 +1,135 @@
 {
   "schema_version": 1,
   "cycle": 1,
-  "batch": 0,
-  "subject_cursor": 0,
-  "reviewed_ids": [],
-  "history": []
+  "batch": 4,
+  "subject_cursor": 4,
+  "reviewed_ids": [
+    "pr2022_finanzwirtschaft_3_1_thema_stufe3",
+    "pr2022_integrierte_fallstudie_t1_1_thema_stufe3",
+    "pr2023_marketing_verkauf_2_1_loesungspunkte_stufe3",
+    "pr2022_personalmanagement_2_3_thema_stufe3",
+    "pr2022_integrierte_fallstudie_t5_1_thema_stufe3",
+    "pr2025_marketing_verkauf_2_1_loesungspunkte_stufe3",
+    "pr2022_personalmanagement_3_2_thema_stufe3",
+    "pr2022_problemloesung_entscheidung_2_1_loesungspunkte_stufe3",
+    "pr2025_marketing_verkauf_2_3_loesungspunkte_stufe3",
+    "pr2022_personalmanagement_2_2_thema_stufe3",
+    "pr2022_problemloesung_entscheidung_3_1_loesungspunkte_stufe3",
+    "pr2022_recht_vwl_2_3_thema_stufe3",
+    "pr2024_scm_1_12_thema_stufe3",
+    "pr2022_unternehmensfuehrung_2_3_thema_stufe3",
+    "pr2023_finanzwirtschaft_2_5_loesungspunkte_stufe3",
+    "pr2023_integrierte_fallstudie_01_01_thema_stufe3",
+    "pr2025_marketing_verkauf_2_5_loesungspunkte_stufe3",
+    "pr2022_personalmanagement_3_1_thema_stufe3",
+    "pr2024_problemloesung_entscheidung_20_08_thema_stufe3",
+    "pr2023_recht_vwl_3_1_loesungspunkte_stufe3",
+    "pr2022_personalmanagement_3_3_thema_stufe3",
+    "pr2025_problemloesung_entscheidung_1_3_thema_stufe3",
+    "pr2024_recht_vwl_1_17_thema_stufe3",
+    "pr2022_scm_2_1_loesungspunkte_stufe3",
+    "pr2023_unternehmensfuehrung_2_4_loesungspunkte_stufe3",
+    "pr2024_finanzwirtschaft_2_1_loesungspunkte_stufe3",
+    "pr2025_integrierte_fallstudie_1_1_thema_stufe3_2",
+    "pr2025_marketing_verkauf_3_2_loesungspunkte_stufe3",
+    "pr2023_personalmanagement_2_4_loesungspunkte_stufe3",
+    "problemloesung_entscheidung_aktionsplan_stufe1_begriff",
+    "pr2024_recht_vwl_2_3_thema_stufe3",
+    "pr2022_scm_2_3_thema_stufe3"
+  ],
+  "history": [
+    {
+      "batch": 1,
+      "cycle": 1,
+      "reviewed_at": "2026-07-24T23:57:35.642Z",
+      "reviewed_ids": [
+        "pr2022_finanzwirtschaft_3_1_thema_stufe3",
+        "pr2022_integrierte_fallstudie_t1_1_thema_stufe3",
+        "pr2023_marketing_verkauf_2_1_loesungspunkte_stufe3",
+        "pr2022_personalmanagement_2_3_thema_stufe3"
+      ],
+      "changed_ids": [],
+      "model": "openai/gpt-4.1"
+    },
+    {
+      "batch": 2,
+      "cycle": 1,
+      "reviewed_at": "2026-07-25T00:01:29.223Z",
+      "reviewed_ids": [
+        "pr2022_integrierte_fallstudie_t5_1_thema_stufe3",
+        "pr2025_marketing_verkauf_2_1_loesungspunkte_stufe3",
+        "pr2022_personalmanagement_3_2_thema_stufe3",
+        "pr2022_problemloesung_entscheidung_2_1_loesungspunkte_stufe3"
+      ],
+      "changed_ids": [],
+      "model": "openai/gpt-4.1"
+    },
+    {
+      "batch": 3,
+      "cycle": 1,
+      "reviewed_at": "2026-07-26T12:17:57.287Z",
+      "reviewed_ids": [
+        "pr2025_marketing_verkauf_2_3_loesungspunkte_stufe3",
+        "pr2022_personalmanagement_2_2_thema_stufe3",
+        "pr2022_problemloesung_entscheidung_3_1_loesungspunkte_stufe3",
+        "pr2022_recht_vwl_2_3_thema_stufe3",
+        "pr2024_scm_1_12_thema_stufe3",
+        "pr2022_unternehmensfuehrung_2_3_thema_stufe3",
+        "pr2023_finanzwirtschaft_2_5_loesungspunkte_stufe3",
+        "pr2023_integrierte_fallstudie_01_01_thema_stufe3",
+        "pr2025_marketing_verkauf_2_5_loesungspunkte_stufe3",
+        "pr2022_personalmanagement_3_1_thema_stufe3",
+        "pr2024_problemloesung_entscheidung_20_08_thema_stufe3",
+        "pr2023_recht_vwl_3_1_loesungspunkte_stufe3"
+      ],
+      "changed_ids": [
+        "pr2025_marketing_verkauf_2_3_loesungspunkte_stufe3",
+        "pr2022_personalmanagement_2_2_thema_stufe3",
+        "pr2022_problemloesung_entscheidung_3_1_loesungspunkte_stufe3",
+        "pr2022_recht_vwl_2_3_thema_stufe3",
+        "pr2024_scm_1_12_thema_stufe3",
+        "pr2022_unternehmensfuehrung_2_3_thema_stufe3",
+        "pr2023_finanzwirtschaft_2_5_loesungspunkte_stufe3",
+        "pr2023_integrierte_fallstudie_01_01_thema_stufe3",
+        "pr2025_marketing_verkauf_2_5_loesungspunkte_stufe3",
+        "pr2022_personalmanagement_3_1_thema_stufe3",
+        "pr2024_problemloesung_entscheidung_20_08_thema_stufe3",
+        "pr2023_recht_vwl_3_1_loesungspunkte_stufe3"
+      ],
+      "model": "codex-app-local"
+    },
+    {
+      "batch": 4,
+      "cycle": 1,
+      "reviewed_at": "2026-07-28T16:43:07.830Z",
+      "reviewed_ids": [
+        "pr2022_personalmanagement_3_3_thema_stufe3",
+        "pr2025_problemloesung_entscheidung_1_3_thema_stufe3",
+        "pr2024_recht_vwl_1_17_thema_stufe3",
+        "pr2022_scm_2_1_loesungspunkte_stufe3",
+        "pr2023_unternehmensfuehrung_2_4_loesungspunkte_stufe3",
+        "pr2024_finanzwirtschaft_2_1_loesungspunkte_stufe3",
+        "pr2025_integrierte_fallstudie_1_1_thema_stufe3_2",
+        "pr2025_marketing_verkauf_3_2_loesungspunkte_stufe3",
+        "pr2023_personalmanagement_2_4_loesungspunkte_stufe3",
+        "problemloesung_entscheidung_aktionsplan_stufe1_begriff",
+        "pr2024_recht_vwl_2_3_thema_stufe3",
+        "pr2022_scm_2_3_thema_stufe3"
+      ],
+      "changed_ids": [
+        "pr2022_personalmanagement_3_3_thema_stufe3",
+        "pr2025_problemloesung_entscheidung_1_3_thema_stufe3",
+        "pr2024_recht_vwl_1_17_thema_stufe3",
+        "pr2022_scm_2_1_loesungspunkte_stufe3",
+        "pr2023_unternehmensfuehrung_2_4_loesungspunkte_stufe3",
+        "pr2024_finanzwirtschaft_2_1_loesungspunkte_stufe3",
+        "pr2025_integrierte_fallstudie_1_1_thema_stufe3_2",
+        "pr2025_marketing_verkauf_3_2_loesungspunkte_stufe3",
+        "pr2023_personalmanagement_2_4_loesungspunkte_stufe3",
+        "pr2024_recht_vwl_2_3_thema_stufe3",
+        "pr2022_scm_2_3_thema_stufe3"
+      ],
+      "model": "codex-app-local"
+    }
+  ]
 }

@@ -1405,12 +1405,14 @@ for (const card of cards) {
 // deterministischen Antwortrotation angewendet. Identität und Themenstruktur
 // bleiben außerhalb des erlaubten Patch-Schemas.
 const agentOverridesPath = path.join(dataDir, 'agent-card-overrides.json')
+const preserveBalancedOptionLengths = new Set()
 if (fs.existsSync(agentOverridesPath)) {
   const agentOverrides = JSON.parse(fs.readFileSync(agentOverridesPath, 'utf8'))
   for (const [id, entry] of Object.entries(agentOverrides.cards ?? {})) {
     const card = byId.get(id)
     if (!card) throw new Error(`Agenten-Override verweist auf unbekannte Karte: ${id}`)
     Object.assign(card, entry.patch ?? {})
+    if (entry.preserve_balanced_option_lengths === true) preserveBalancedOptionLengths.add(id)
   }
 }
 
@@ -1444,6 +1446,7 @@ for (const card of [...cards].sort((a, b) => a.id.localeCompare(b.id))) {
   data.richtig_index = targetIndex
 
   if (optionCount < 2) continue
+  if (preserveBalancedOptionLengths.has(card.id)) continue
   const correctLength = String(data.optionen[targetIndex]).length
   const longestIncorrect = Math.max(...data.optionen.map((option, index) => index === targetIndex ? 0 : String(option).length))
   if (correctLength < longestIncorrect) continue
